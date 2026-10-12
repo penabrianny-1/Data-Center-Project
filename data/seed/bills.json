@@ -2313,8 +2313,8 @@
       }
     ],
     "verifiedAt": "2026-10-11",
-    "confidence": "medium",
-    "caveats": "Georgia's bill pages require JavaScript/authenticated API; status from Georgia Watch. Adjournment date as reported by Georgia Watch."
+    "confidence": "low",
+    "caveats": "Georgia's bill pages require JavaScript/authenticated API; status from Georgia Watch. Adjournment date as reported by Georgia Watch. Link under review (2026-10-12): a second research pass reported that legis.ga.gov/legislation/69016 shows a 2023 game-and-fish bill and that SB 34 (2025) is /legislation/69551. The Georgia site renders only with JavaScript, so neither page could be confirmed automatically. Check the bill page manually."
   },
   {
     "id": "IL-104-HB5513",

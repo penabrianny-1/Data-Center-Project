@@ -1,0 +1,3213 @@
+[
+  {
+    "id": "AK-34-SB250",
+    "jurisdiction": "AK",
+    "session": "34th Legislature (2025-2026)",
+    "number": "CSSB 250(CRA)",
+    "title": "An Act relating to data centers; and relating to utility service for data centers",
+    "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20250",
+    "sponsors": [
+      {
+        "name": "Sen. Löki Tobin",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-05-17",
+      "text": "(H) Read the first time; referred to House Community & Regional Affairs"
+    },
+    "status": "failed",
+    "committees": [
+      "Senate Community & Regional Affairs",
+      "Senate Labor & Commerce",
+      "House Community & Regional Affairs"
+    ],
+    "themes": [
+      "cost_allocation",
+      "large_load_tariff",
+      "natural_gas",
+      "transmission"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Bars electric and gas utilities from putting into general rates any cost they would not have incurred but for serving a data center, unless those rates recover the cost solely from the data center. Requires a Regulatory Commission of Alaska-approved service contract for each data center. The contract must account for data-center infrastructure, assign its cost directly to the data center, and not increase fuel-supply risk for any utility. Transmission built specifically for a data center is kept out of the backbone transmission cost pool at first.",
+    "significance": "A strict cost-causation model for Railbelt utilities facing hyperscale inquiries amid Cook Inlet gas-supply concerns. It passed the Senate 14-5 on reconsideration (2026-05-16) but was only referred in the House before the 34th Legislature's final session adjourned.",
+    "related": [],
+    "sources": [
+      {
+        "title": "SB 250 bill detail (34th Legislature)",
+        "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20250",
+        "publisher": "Alaska State Legislature",
+        "kind": "official",
+        "docId": "SB 250",
+        "excerpt": "(S) PASSED ON RECONSIDERATION Y14 N5 E1 5/16/2026; (H) READ THE FIRST TIME - REFERRALS 5/17/2026 (H) CRA"
+      },
+      {
+        "title": "CSSB 250(CRA) full text",
+        "url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0250B",
+        "publisher": "Alaska State Legislature",
+        "kind": "official",
+        "docId": "CSSB 250(CRA)",
+        "excerpt": "Costs incurred by an electric utility or gas utility that would not have been incurred but for the utility furnishing service to a data center may not be included in any rates or charges ... unless ... solely from the data center."
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-02-18",
+    "caveats": "Mapped to failed because the 34th Legislature's 2026 session adjourned with the bill still in House CRA. The official status line still reads '(H) CRA'. Sponsor party is from Senate membership, not the bill page."
+  },
+  {
+    "id": "AL-2026RS-SB270",
+    "jurisdiction": "AL",
+    "session": "2026 Regular Session",
+    "number": "SB 270 (Act 2026-610)",
+    "title": "Electric Utilities; review by Public Service Commission of certain contracts with large load data centers further provided for",
+    "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB270-enr.pdf",
+    "sponsors": [
+      {
+        "name": "Sen. Lance Bell",
+        "party": "R"
+      },
+      {
+        "name": "Rep. Neil Rafferty (HB 403 companion)",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-04-16",
+      "text": "Approved by Governor (Act 2026-610)"
+    },
+    "status": "enacted",
+    "committees": [
+      "Senate Fiscal Responsibility and Economic Development",
+      "House Transportation, Utilities and Infrastructure"
+    ],
+    "themes": [
+      "large_load_tariff",
+      "cost_allocation"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Adds Code of Alabama 37-4-22.1. Contracts between a utility and a large load data center are in the public interest only if the cost of supplying the data center is recouped from it and the contract promotes positive benefits for other retail customers. In judging benefits, the PSC considers whether the terms could lower other customers' costs, whether the data center increases system efficiency, and whether it contributes to local economic growth. Reporting says it applies to loads of 150 MW or more in Alabama Power's territory.",
+    "significance": "Alabama's first statutory data-center cost-causation standard, aimed at Alabama Power's hyperscale contracts. It passed nearly unanimously (House 100-1, Senate concurrence 33-0, per reporting).",
+    "related": [
+      "AL-2026RS-HB399"
+    ],
+    "sources": [
+      {
+        "title": "SB270 enrolled text",
+        "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB270-enr.pdf",
+        "publisher": "Alabama Legislature (ALISON)",
+        "kind": "official",
+        "docId": "SB 270"
+      },
+      {
+        "title": "SB270 introduced text",
+        "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB270-int.pdf",
+        "publisher": "Alabama Legislature (ALISON)",
+        "kind": "official",
+        "docId": "SB 270"
+      },
+      {
+        "title": "Act 2026-610 detail (Secretary of State)",
+        "url": "https://arc-sos.state.al.us/cgi/actdetail.mbr/detail?page=act&year=2026&act=610",
+        "publisher": "Alabama Secretary of State",
+        "kind": "official",
+        "docId": "Act 2026-610"
+      },
+      {
+        "title": "Alabama data center law takes effect Oct. 1: Here's what it means for your power bill",
+        "url": "https://www.wbrc.com/2026/10/01/alabama-data-center-law-takes-effect-oct-1-heres-what-it-means-your-power-bill/",
+        "publisher": "WBRC",
+        "kind": "journalism",
+        "published": "2026-10-01"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-02-05",
+    "enactedDate": "2026-04-16",
+    "effectiveDate": "2026-10-01",
+    "caveats": "Status, committees, act number, act summary and effective date come from the Legislature's official ALISON data service (the bill-search pages are a JavaScript app, so the record URL points to the enrolled bill PDF). The approval date comes from the Secretary of State act record. Sponsor first names and party are from membership records. The 150 MW threshold and vote counts come from news reports, not the official summary."
+  },
+  {
+    "id": "AL-2026RS-HB399",
+    "jurisdiction": "AL",
+    "session": "2026 Regular Session",
+    "number": "HB 399 (Act 2026-573)",
+    "title": "Tax abatements for data processing centers, exemption period limited, collection of certain taxes on purchases required, sunset date extended",
+    "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB399-enr.pdf",
+    "sponsors": [
+      {
+        "name": "Rep. Leigh Hulsey",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-04-16",
+      "text": "Approved by Governor (Act 2026-573)"
+    },
+    "status": "enacted",
+    "committees": [
+      "House Transportation, Utilities and Infrastructure",
+      "Senate Fiscal Responsibility and Economic Development"
+    ],
+    "themes": [
+      "property_tax",
+      "sales_tax",
+      "incentive_clawback"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "For Tax Incentive Reform Act abatements granted on or after Jan. 1, 2027: caps data processing center abatements at 20 years, plus 10 more years if the user commits to continued qualified local investments and Revenue and Commerce approve. Bars state non-education property-tax abatements for certain data centers beyond their placed-in-service date. Limits abatement of construction-related transaction taxes on data center equipment to the period before the facility is placed in service, with proceeds going to the State General Fund. Extends the Act's sunset from July 31, 2028 to July 31, 2032.",
+    "significance": "Puts time limits on data-center abatements while keeping Alabama's incentive program alive. Senate companion: SB 265 (Jones), which did not finish.",
+    "related": [
+      "AL-2026RS-SB270"
+    ],
+    "sources": [
+      {
+        "title": "HB399 enrolled text",
+        "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB399-enr.pdf",
+        "publisher": "Alabama Legislature (ALISON)",
+        "kind": "official",
+        "docId": "HB 399"
+      },
+      {
+        "title": "Act 2026-573 detail (Secretary of State)",
+        "url": "https://arc-sos.state.al.us/cgi/actdetail.mbr/detail?page=act&year=2026&act=573",
+        "publisher": "Alabama Secretary of State",
+        "kind": "official",
+        "docId": "Act 2026-573"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-02-05",
+    "enactedDate": "2026-04-16",
+    "effectiveDate": "2026-06-01",
+    "caveats": "Status, committees, act number, act summary and effective date come from the Legislature's official ALISON data service (the bill-search pages are a JavaScript app, so the record URL points to the enrolled bill PDF). The approval date comes from the Secretary of State act record. Sponsor first names and party are from membership records."
+  },
+  {
+    "id": "AR-2025-HB1444",
+    "jurisdiction": "AR",
+    "session": "95th General Assembly, 2025 Regular Session",
+    "number": "HB 1444 (Act 548)",
+    "title": "To amend the sales and use tax exemption for data centers",
+    "url": "https://arkleg.state.ar.us/Bills/Detail?id=HB1444&ddBienniumSession=2025%2F2025R",
+    "sponsors": [
+      {
+        "name": "Rep. Pilkington",
+        "party": "R"
+      },
+      {
+        "name": "Sen. J. Dismang",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2025-04-10",
+      "text": "Notification that HB1444 is now Act 548"
+    },
+    "status": "enacted",
+    "committees": [
+      "House Revenue and Taxation",
+      "Senate Revenue and Taxation"
+    ],
+    "themes": [
+      "sales_tax"
+    ],
+    "explicitDataCenter": true,
+    "impact": "permissive",
+    "summary": "Expands Arkansas's data center sales and use tax exemption (Ark. Code 26-52-456). Cuts the qualified data center investment threshold from $500 million to $100 million within five years of construction start. Creates a 'qualified large data center' tier for multi-site, fiber-linked campuses with $2 billion in investment within 10 years and $3 million in annual compensation. Broadens exempt equipment to include power storage, cooling, water conservation systems, modular data centers and labor services, and keeps the exemption on electricity used. Excludes crypto-mining facilities. Moves administration to the Department of Finance and Administration, with certificate revocation if investment or payroll commitments are missed.",
+    "significance": "A significant loosening of Arkansas's incentive that makes far smaller projects eligible and adds a hyperscale multi-site tier. It positions the state to compete for large campuses.",
+    "related": [],
+    "sources": [
+      {
+        "title": "HB1444 (2025) bill detail",
+        "url": "https://arkleg.state.ar.us/Bills/Detail?id=HB1444&ddBienniumSession=2025%2F2025R",
+        "publisher": "Arkansas State Legislature",
+        "kind": "official",
+        "docId": "HB 1444",
+        "excerpt": "Act Number: 548; Act Date: 4/10/2025"
+      },
+      {
+        "title": "Act 548 of 2025 (HB 1444 as engrossed)",
+        "url": "https://arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=548.pdf&ddBienniumSession=2025%2F2025R",
+        "publisher": "Arkansas State Legislature",
+        "kind": "official",
+        "docId": "Act 548",
+        "excerpt": "Creates a qualified investment of at least one hundred million dollars ($100,000,000) at the facility no later than five (5) years after construction of the facility commences"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2025-02-10",
+    "enactedDate": "2025-04-10",
+    "caveats": "The summary comes from the act text. Effective on the first day of the calendar quarter after the act's effective date; the exact date was not computed. Sponsor first names are not shown on the bill page."
+  },
+  {
+    "id": "AZ-2026-HB4168",
+    "jurisdiction": "AZ",
+    "session": "57th Legislature, 2nd Regular Session (2026)",
+    "number": "HB 4168",
+    "title": "taxation; omnibus; 2026-2027",
+    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85758",
+    "sponsors": [],
+    "latestAction": {
+      "date": "2026-06-13",
+      "text": "Signed by Governor (Chapter 140)"
+    },
+    "status": "enacted",
+    "committees": [
+      "House Appropriations"
+    ],
+    "themes": [
+      "sales_tax",
+      "incentive_clawback",
+      "moratorium"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "FY2026-27 budget tax omnibus. Section 31 bars the Arizona Commerce Authority from accepting applications for new computer data centers under A.R.S. 41-1519 from July 1, 2026 through June 30, 2029; no new data centers qualify for the transaction privilege/use tax relief during that window. Existing certifications are not revoked.",
+    "significance": "Three-year freeze on Arizona's data-center sales-tax incentive, a budget compromise after Gov. Hobbs sought full repeal; materially raises costs for new Phoenix-area projects starting certification after June 2026.",
+    "related": [
+      "AZ-2026-SB1463"
+    ],
+    "sources": [
+      {
+        "title": "HB 4168 bill overview",
+        "url": "https://apps.azleg.gov/BillStatus/BillOverview/85758",
+        "publisher": "Arizona State Legislature",
+        "kind": "official",
+        "docId": "HB 4168"
+      },
+      {
+        "title": "Laws 2026, Chapter 140 (HB 4168) chaptered text",
+        "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0140.htm",
+        "publisher": "Arizona State Legislature",
+        "kind": "official",
+        "docId": "Ch. 140",
+        "excerpt": "beginning on July 1, 2026 through June 30, 2029, the Arizona commerce authority may not accept applications for any new computer data center pursuant to section 41-1519"
+      },
+      {
+        "title": "Arizona Legislature bill status API record for HB 4168",
+        "url": "https://apps.azleg.gov/api/Bill/?billNumber=HB4168&sessionId=130",
+        "publisher": "Arizona State Legislature",
+        "kind": "data",
+        "docId": "HB 4168"
+      },
+      {
+        "title": "Data centers dominated 2026 session - lawmakers answered with 3-year tax incentive pause",
+        "url": "https://azcapitoltimes.com/news/2026/07/09/data-centers-dominated-2026-session-lawmakers-answered-with-3-year-tax-incentive-pause/",
+        "publisher": "Arizona Capitol Times",
+        "kind": "journalism",
+        "published": "2026-07-09"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-06-09",
+    "caveats": "Prime sponsor not listed in the official sponsor feed (budget bill). Identical to SB 1861."
+  },
+  {
+    "id": "AZ-2026-HB2756",
+    "jurisdiction": "AZ",
+    "session": "57th Legislature, 2nd Regular Session (2026)",
+    "number": "HB 2756",
+    "title": "utilities; high load factor customers",
+    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84576",
+    "sponsors": [
+      {
+        "name": "Rep. Gail Griffin",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-06-04",
+      "text": "Signed by Governor (Chapter 111)"
+    },
+    "status": "enacted",
+    "committees": [
+      "House Natural Resources, Energy & Water",
+      "Senate Natural Resources"
+    ],
+    "themes": [
+      "large_load_tariff",
+      "disclosure",
+      "interconnection"
+    ],
+    "explicitDataCenter": true,
+    "impact": "mixed",
+    "summary": "Requires electric public service corporations (and public power entities with over one million connections, i.e., SRP) to file semiannual reports on interconnection requests and completed interconnections for new 'extra high load factor' customers, and authorizes the Corporation Commission to set required service terms for such customers not covered by an existing tariff, such as minimum bills, minimum contract terms, early-termination provisions and collateral.",
+    "significance": "Gives the ACC explicit authority to impose data-center-style large-load protections and creates the first public pipeline data on hyperscale interconnection requests in Arizona; provisions sunset in 2033.",
+    "related": [],
+    "sources": [
+      {
+        "title": "HB 2756 bill overview",
+        "url": "https://apps.azleg.gov/BillStatus/BillOverview/84576",
+        "publisher": "Arizona State Legislature",
+        "kind": "official",
+        "docId": "HB 2756"
+      },
+      {
+        "title": "Laws 2026, Chapter 111 (HB 2756) chaptered text",
+        "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0111.htm",
+        "publisher": "Arizona State Legislature",
+        "kind": "official",
+        "docId": "Ch. 111",
+        "excerpt": "shall file with the corporation commission semiannual reports regarding new extra high load factor customers"
+      },
+      {
+        "title": "Arizona Legislature bill status API record for HB 2756",
+        "url": "https://apps.azleg.gov/api/Bill/?billNumber=HB2756&sessionId=130",
+        "publisher": "Arizona State Legislature",
+        "kind": "data",
+        "docId": "HB 2756"
+      },
+      {
+        "title": "Data centers dominated 2026 session - lawmakers answered with 3-year tax incentive pause",
+        "url": "https://azcapitoltimes.com/news/2026/07/09/data-centers-dominated-2026-session-lawmakers-answered-with-3-year-tax-incentive-pause/",
+        "publisher": "Arizona Capitol Times",
+        "kind": "journalism",
+        "published": "2026-07-09"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-01-15"
+  },
+  {
+    "id": "AZ-2026-HB2949",
+    "jurisdiction": "AZ",
+    "session": "57th Legislature, 2nd Regular Session (2026)",
+    "number": "HB 2949",
+    "title": "energy costs; large data centers",
+    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85088",
+    "sponsors": [
+      {
+        "name": "Rep. Kevin Volk",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-02-05",
+      "text": "House second read; assigned to Natural Resources, Energy & Water, Artificial Intelligence & Innovation and Rules (never heard)"
+    },
+    "status": "failed",
+    "committees": [
+      "House Natural Resources, Energy & Water",
+      "House Artificial Intelligence & Innovation"
+    ],
+    "themes": [
+      "cost_allocation",
+      "large_load_tariff"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would have required large data centers to bear the energy, generation and transmission costs incurred to serve them rather than shifting them to other ratepayers.",
+    "significance": "Democratic cost-causation proposal that never received a hearing in the Republican-controlled House.",
+    "related": [
+      "AZ-2026-SB1380"
+    ],
+    "sources": [
+      {
+        "title": "HB 2949 bill overview",
+        "url": "https://apps.azleg.gov/BillStatus/BillOverview/85088",
+        "publisher": "Arizona State Legislature",
+        "kind": "official",
+        "docId": "HB 2949"
+      },
+      {
+        "title": "Arizona Legislature bill status API record for HB 2949",
+        "url": "https://apps.azleg.gov/api/Bill/?billNumber=HB2949&sessionId=130",
+        "publisher": "Arizona State Legislature",
+        "kind": "data",
+        "docId": "HB 2949"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "introduced": "2026-01-27",
+    "caveats": "Final disposition 'Held in Committees' per the official bill status API; mapped to failed because the 2026 regular session adjourned sine die. Latest action is the last dated official action (second read). Substantive summary based on title and secondary reporting; text not reviewed."
+  },
+  {
+    "id": "AZ-2026-SB1380",
+    "jurisdiction": "AZ",
+    "session": "57th Legislature, 2nd Regular Session (2026)",
+    "number": "SB 1380",
+    "title": "large load customers; energy costs",
+    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84933",
+    "sponsors": [
+      {
+        "name": "Sen. Priya Sundareshan",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-01-22",
+      "text": "Introduced; referred to Senate Natural Resources and Rules (never heard)"
+    },
+    "status": "failed",
+    "committees": [
+      "Senate Natural Resources"
+    ],
+    "themes": [
+      "cost_allocation",
+      "large_load_tariff"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would have required the Corporation Commission to ensure large load customers pay for the energy, fuel, generation and transmission costs of serving them.",
+    "significance": "Senate Democratic leader's ratepayer-protection bill; Senate Republican leadership declined to hear it.",
+    "related": [
+      "AZ-2026-HB2949"
+    ],
+    "sources": [
+      {
+        "title": "SB 1380 bill overview",
+        "url": "https://apps.azleg.gov/BillStatus/BillOverview/84933",
+        "publisher": "Arizona State Legislature",
+        "kind": "official",
+        "docId": "SB 1380"
+      },
+      {
+        "title": "Arizona Legislature bill status API record for SB 1380",
+        "url": "https://apps.azleg.gov/api/Bill/?billNumber=SB1380&sessionId=130",
+        "publisher": "Arizona State Legislature",
+        "kind": "data",
+        "docId": "SB 1380"
+      },
+      {
+        "title": "Data centers dominated 2026 session - lawmakers answered with 3-year tax incentive pause",
+        "url": "https://azcapitoltimes.com/news/2026/07/09/data-centers-dominated-2026-session-lawmakers-answered-with-3-year-tax-incentive-pause/",
+        "publisher": "Arizona Capitol Times",
+        "kind": "journalism",
+        "published": "2026-07-09"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "introduced": "2026-01-22",
+    "caveats": "Final disposition 'Held in Committees' per the official bill status API; mapped to failed because the 2026 regular session adjourned sine die. Latest action is the last dated official action (second read). Latest-action date set to the introduction date because the API did not return first-read timestamps for this bill."
+  },
+  {
+    "id": "AZ-2026-SB1463",
+    "jurisdiction": "AZ",
+    "session": "57th Legislature, 2nd Regular Session (2026)",
+    "number": "SB 1463",
+    "title": "data centers; tax relief; repeal",
+    "url": "https://apps.azleg.gov/BillStatus/BillOverview/85051",
+    "sponsors": [
+      {
+        "name": "Sen. Priya Sundareshan",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-02-02",
+      "text": "Senate second read; assigned to Finance and Rules (never heard)"
+    },
+    "status": "failed",
+    "committees": [
+      "Senate Finance"
+    ],
+    "themes": [
+      "sales_tax",
+      "incentive_clawback"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would have repealed Arizona's computer data center tax relief program (A.R.S. 41-1519). Identical to SB 1467 and HB 2631.",
+    "significance": "Full-repeal option endorsed by Gov. Hobbs; the enacted outcome was instead a three-year pause in the budget (HB 4168).",
+    "related": [
+      "AZ-2026-HB4168"
+    ],
+    "sources": [
+      {
+        "title": "SB 1463 bill overview",
+        "url": "https://apps.azleg.gov/BillStatus/BillOverview/85051",
+        "publisher": "Arizona State Legislature",
+        "kind": "official",
+        "docId": "SB 1463"
+      },
+      {
+        "title": "Arizona Legislature bill status API record for SB 1463",
+        "url": "https://apps.azleg.gov/api/Bill/?billNumber=SB1463&sessionId=130",
+        "publisher": "Arizona State Legislature",
+        "kind": "data",
+        "docId": "SB 1463"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-01-27",
+    "caveats": "Final disposition 'Held in Committees' per the official bill status API; mapped to failed because the 2026 regular session adjourned sine die. Latest action is the last dated official action (second read)."
+  },
+  {
+    "id": "AZ-2026-HB2738",
+    "jurisdiction": "AZ",
+    "session": "57th Legislature, 2nd Regular Session (2026)",
+    "number": "HB 2738",
+    "title": "cost responsibility agreements; data centers",
+    "url": "https://apps.azleg.gov/BillStatus/BillOverview/84585",
+    "sponsors": [
+      {
+        "name": "Rep. Quantá Crews",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-01-22",
+      "text": "Withdrawn from House Commerce; held in Artificial Intelligence & Innovation and Rules"
+    },
+    "status": "failed",
+    "committees": [
+      "House Artificial Intelligence & Innovation"
+    ],
+    "themes": [
+      "cost_allocation",
+      "large_load_tariff"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would have required cost responsibility agreements between utilities and data centers so that data-center-driven infrastructure costs are not borne by other customers.",
+    "significance": "One of several Democratic ratepayer bills that stalled; the enacted HB 2756 instead made such terms discretionary for the ACC.",
+    "related": [
+      "AZ-2026-HB2756"
+    ],
+    "sources": [
+      {
+        "title": "HB 2738 bill overview",
+        "url": "https://apps.azleg.gov/BillStatus/BillOverview/84585",
+        "publisher": "Arizona State Legislature",
+        "kind": "official",
+        "docId": "HB 2738"
+      },
+      {
+        "title": "Arizona Legislature bill status API record for HB 2738",
+        "url": "https://apps.azleg.gov/api/Bill/?billNumber=HB2738&sessionId=130",
+        "publisher": "Arizona State Legislature",
+        "kind": "data",
+        "docId": "HB 2738"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "introduced": "2026-01-15",
+    "caveats": "Final disposition 'Held in Committees' per the official bill status API; mapped to failed because the 2026 regular session adjourned sine die. Latest action is the last dated official action (second read). Summary inferred from the official short title; bill text not reviewed."
+  },
+  {
+    "id": "CA-20252026-AB222",
+    "jurisdiction": "CA",
+    "session": "2025-2026 Regular Session",
+    "number": "AB 222",
+    "title": "Data centers: power usage effectiveness: cost shifts",
+    "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB222",
+    "sponsors": [
+      {
+        "name": "Asm. Rebecca Bauer-Kahan",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2025-08-29",
+      "text": "Senate Appropriations: held under submission"
+    },
+    "status": "failed",
+    "committees": [
+      "Assembly Utilities and Energy",
+      "Assembly Privacy and Consumer Protection",
+      "Senate Energy, Utilities and Communications",
+      "Senate Judiciary",
+      "Senate Appropriations"
+    ],
+    "themes": [
+      "disclosure",
+      "efficiency",
+      "cost_allocation",
+      "ai_policy"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "As amended in the Senate (July 7, 2025), would require data center owners to report power usage effectiveness to the Energy Commission twice a year, require generative-AI developers to estimate and publish model training and operating energy use, add data-center load to the 2027 Integrated Energy Policy Report, and require the CPUC to review data-center-related utility cost recovery to minimize cost shifts.",
+    "significance": "Passed the Assembly but was held in Senate Appropriations in August 2025 and was not revived before the 2026 deadline; the CPUC cost-shift study instead moved through SB 57.",
+    "related": [
+      "CA-20252026-SB57"
+    ],
+    "sources": [
+      {
+        "title": "AB 222 bill status",
+        "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB222",
+        "publisher": "California State Legislature",
+        "kind": "official",
+        "docId": "AB 222"
+      },
+      {
+        "title": "AB 222: Data centers: power usage effectiveness: cost shifts",
+        "url": "https://calmatters.digitaldemocracy.org/bills/ca_202520260ab222",
+        "publisher": "CalMatters Digital Democracy",
+        "kind": "journalism",
+        "docId": "AB 222",
+        "excerpt": "In Committee as of August 29, 2025 - Held under submission"
+      },
+      {
+        "title": "Efforts to Regulate California Data Centers Falter—For Now",
+        "url": "https://www.mayerbrown.com/en/insights/publications/2025/12/efforts-to-regulate-california-data-centers-falter-for-now",
+        "publisher": "Mayer Brown",
+        "kind": "research",
+        "published": "2025-12-01"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "caveats": "leginfo.legislature.ca.gov blocked automated access (Cloudflare challenge); status and history from CalMatters Digital Democracy and the author's office. Mapped to failed because the 2025-26 session's final deadline (Aug. 31, 2026) passed with no further action shown; introduction date not confirmed."
+  },
+  {
+    "id": "CA-20252026-AB93",
+    "jurisdiction": "CA",
+    "session": "2025-2026 Regular Session",
+    "number": "AB 93",
+    "title": "Water resources: data centers",
+    "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB93",
+    "sponsors": [
+      {
+        "name": "Asm. Diane Papan",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-01-22",
+      "text": "Consideration of Governor's veto stricken from file"
+    },
+    "status": "vetoed",
+    "committees": [
+      "Assembly Water, Parks, and Wildlife",
+      "Assembly Local Government",
+      "Senate Natural Resources and Water",
+      "Senate Local Government",
+      "Senate Appropriations"
+    ],
+    "themes": [
+      "water",
+      "disclosure"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would have required data center operators to give their water supplier an estimate of expected water use before obtaining an initial local business license or permit, certify annual water-use reporting at renewal, and let the Department of Water Resources set tiered water-efficiency standards for data centers. Passed both houses in September 2025; vetoed by Gov. Newsom on Oct. 11, 2025.",
+    "significance": "California's first statewide data-center water-disclosure bill; the veto (citing reluctance to impose rigid reporting before understanding impacts) left water transparency to later bills and local permitting.",
+    "related": [],
+    "sources": [
+      {
+        "title": "AB 93 bill status",
+        "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB93",
+        "publisher": "California State Legislature",
+        "kind": "official",
+        "docId": "AB 93"
+      },
+      {
+        "title": "Governor Vetoes Papan Bill to Track Data Center Water Use",
+        "url": "https://a21.asmdc.org/press-releases/20251014-governor-vetoes-papan-bill-track-data-center-water-use",
+        "publisher": "Office of Assemblymember Diane Papan",
+        "kind": "official",
+        "published": "2025-10-14"
+      },
+      {
+        "title": "AB 93: Water resources: data centers",
+        "url": "https://calmatters.digitaldemocracy.org/bills/ca_202520260ab93",
+        "publisher": "CalMatters Digital Democracy",
+        "kind": "journalism",
+        "docId": "AB 93",
+        "excerpt": "Failed - consideration of the Governor's veto stricken from file (2026-01-22)"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "caveats": "leginfo.legislature.ca.gov blocked automated access (Cloudflare challenge); status and history from CalMatters Digital Democracy and the author's office. Veto date (2025-10-11) per the author's office and trade reporting."
+  },
+  {
+    "id": "DE-153-HB233",
+    "jurisdiction": "DE",
+    "session": "153rd General Assembly (2025-2026)",
+    "number": "HS 1 for HB 233 w/ HA 1, HA 1 to HA 1, HA 3 + SA 2",
+    "title": "An Act to Amend Title 26 of the Delaware Code Relating to Large Energy Use Facilities (Large Energy Use Facilities/Rate Class)",
+    "url": "https://legis.delaware.gov/BillDetail/143381",
+    "sponsors": [
+      {
+        "name": "Rep. Burns",
+        "party": "D"
+      },
+      {
+        "name": "Rep. Heffernan",
+        "party": "D"
+      },
+      {
+        "name": "Rep. Minor-Brown",
+        "party": "D"
+      },
+      {
+        "name": "Sen. Hansen",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-08-26",
+      "text": "Signed by Governor (Chapter 85:440, Laws of Delaware)"
+    },
+    "status": "enacted",
+    "committees": [
+      "Senate Environment, Energy & Transportation"
+    ],
+    "themes": [
+      "large_load_tariff",
+      "cost_allocation"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Requires regulated utilities to establish a separate rate class for large energy use facilities so that infrastructure, capacity, reliability-backstop, transmission and study costs are directly assigned to those facilities (or to their class) rather than shifted to residential and small-business customers. Requires PSC-approved Electric Service Agreements and Transmission Security Agreements before interconnection, with protections against stranded-asset costs. House Substitute 1 replaced the original HB 233 (introduced 2025-06-30) on 2026-05-21.",
+    "significance": "Delaware's core 2026 data-center ratepayer-protection law, adopted amid the Project Washington (Delaware City) hyperscale proposal and PJM capacity-price spikes; sets one of the more detailed statutory large-load tariff frameworks in PJM.",
+    "related": [
+      "DE-153-HB310",
+      "DE-153-HB445",
+      "DE-153-SB353"
+    ],
+    "sources": [
+      {
+        "title": "HS 1 for HB 233 bill detail",
+        "url": "https://legis.delaware.gov/BillDetail/143381",
+        "publisher": "Delaware General Assembly",
+        "kind": "official",
+        "docId": "HS 1 for HB 233",
+        "excerpt": "Signed by Governor 8/26/26; Volume:Chapter 85:440; Effective Date 8/26/26"
+      },
+      {
+        "title": "HB 233 (original) bill detail",
+        "url": "https://legis.delaware.gov/BillDetail/142655",
+        "publisher": "Delaware General Assembly",
+        "kind": "official",
+        "docId": "HB 233",
+        "excerpt": "was introduced and adopted in lieu of HB 233, 5/21/26"
+      },
+      {
+        "title": "Lawmakers pass bills to limit energy price hikes, regulate data centers",
+        "url": "https://spotlightdelaware.org/2026/07/01/lawmakers-pass-bills-to-limit-energy-price-hikes-regulate-data-centers/",
+        "publisher": "Spotlight Delaware",
+        "kind": "journalism",
+        "published": "2026-07-01"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2025-06-30",
+    "enactedDate": "2026-08-26",
+    "effectiveDate": "2026-08-26",
+    "caveats": "Action history, chapter number and effective date from the official BillDetail page and its JSON action feed. Summary based on official synopses (original and amendment); final engrossed text not reviewed line by line. Sponsor first names not printed on the page; party per Delaware House Democratic caucus membership. The original HB 233 was introduced 2025-06-30."
+  },
+  {
+    "id": "DE-153-HB310",
+    "jurisdiction": "DE",
+    "session": "153rd General Assembly (2025-2026)",
+    "number": "HB 310 w/ SA 1",
+    "title": "An Act to Amend Title 30 of the Delaware Code Relating to Business Tax Credits and Deductions (Large Energy Use Facilities/Exclude/Tax Credits)",
+    "url": "https://legis.delaware.gov/BillDetail/142891",
+    "sponsors": [
+      {
+        "name": "Rep. Heffernan",
+        "party": "D"
+      },
+      {
+        "name": "Rep. Minor-Brown",
+        "party": "D"
+      },
+      {
+        "name": "Sen. Hansen",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-08-26",
+      "text": "Signed by Governor (Chapter 85:441, Laws of Delaware)"
+    },
+    "status": "enacted",
+    "committees": [
+      "House Revenue & Finance",
+      "Senate Banking, Business, Insurance & Technology"
+    ],
+    "themes": [
+      "corporate_tax",
+      "incentive_clawback"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Excludes large energy use facilities (e.g., data centers) from the definition of a qualified facility for Delaware's business-facility tax credit and license fee reduction for job creation and qualified investment.",
+    "significance": "Removes a key state incentive for hyperscale projects, signalling Delaware will not subsidize large-load facilities.",
+    "related": [
+      "DE-153-HB233",
+      "DE-153-HB445"
+    ],
+    "sources": [
+      {
+        "title": "HB 310 bill detail",
+        "url": "https://legis.delaware.gov/BillDetail/142891",
+        "publisher": "Delaware General Assembly",
+        "kind": "official",
+        "docId": "HB 310",
+        "excerpt": "Signed by Governor 8/26/26; Volume:Chapter 85:441; Effective Date 8/26/26"
+      },
+      {
+        "title": "Lawmakers pass bills to limit energy price hikes, regulate data centers",
+        "url": "https://spotlightdelaware.org/2026/07/01/lawmakers-pass-bills-to-limit-energy-price-hikes-regulate-data-centers/",
+        "publisher": "Spotlight Delaware",
+        "kind": "journalism",
+        "published": "2026-07-01"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-03-05",
+    "enactedDate": "2026-08-26",
+    "effectiveDate": "2026-08-26",
+    "caveats": "Action history, chapter number and effective date from the official BillDetail page and its JSON action feed. Summary based on official synopses (original and amendment); final engrossed text not reviewed line by line."
+  },
+  {
+    "id": "DE-153-HB445",
+    "jurisdiction": "DE",
+    "session": "153rd General Assembly (2025-2026)",
+    "number": "HB 445 w/ HA 1 + SA 3",
+    "title": "An Act to Amend Title 26 and Title 29 of the Delaware Code Relating to Large Energy Use Facilities (bring-your-own generation)",
+    "url": "https://legis.delaware.gov/BillDetail/143386",
+    "sponsors": [
+      {
+        "name": "Rep. Heffernan",
+        "party": "D"
+      },
+      {
+        "name": "Rep. Minor-Brown",
+        "party": "D"
+      },
+      {
+        "name": "Sen. Hansen",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-08-26",
+      "text": "Signed by Governor (Chapter 85:442, Laws of Delaware)"
+    },
+    "status": "enacted",
+    "committees": [
+      "House Natural Resources & Energy",
+      "Senate Environment, Energy & Transportation"
+    ],
+    "themes": [
+      "clean_energy_procurement",
+      "grid_capacity",
+      "large_load_tariff"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Requires large energy use facilities to build or procure new clean generation to cover their load, under a PSC-reviewed ramp-up plan reaching 100% of usage by the 10th year of operation. As amended (SA 3), eligible generation may be located in PJM zones contiguous with the DPL zone (e.g., Salem nuclear expansions), single/open-cycle generation is excluded, and the PSC may regulate electric suppliers as needed to protect grid reliability.",
+    "significance": "A 'bring your own clean power' mandate that substantially raises the cost of siting hyperscale data centers in Delaware.",
+    "related": [
+      "DE-153-HB233",
+      "DE-153-HB310"
+    ],
+    "sources": [
+      {
+        "title": "HB 445 bill detail",
+        "url": "https://legis.delaware.gov/BillDetail/143386",
+        "publisher": "Delaware General Assembly",
+        "kind": "official",
+        "docId": "HB 445",
+        "excerpt": "Signed by Governor 8/26/26; Volume:Chapter 85:442; Effective Date 8/26/26"
+      },
+      {
+        "title": "SA 3 to HB 445 amendment detail",
+        "url": "https://legis.delaware.gov/BillDetail/143672",
+        "publisher": "Delaware General Assembly",
+        "kind": "official",
+        "docId": "SA 3 to HB 445"
+      },
+      {
+        "title": "Lawmakers pass bills to limit energy price hikes, regulate data centers",
+        "url": "https://spotlightdelaware.org/2026/07/01/lawmakers-pass-bills-to-limit-energy-price-hikes-regulate-data-centers/",
+        "publisher": "Spotlight Delaware",
+        "kind": "journalism",
+        "published": "2026-07-01"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-05-21",
+    "enactedDate": "2026-08-26",
+    "effectiveDate": "2026-08-26",
+    "caveats": "Action history, chapter number and effective date from the official BillDetail page and its JSON action feed. Summary based on official synopses (original and amendment); final engrossed text not reviewed line by line."
+  },
+  {
+    "id": "GA-2025-HB1059",
+    "jurisdiction": "GA",
+    "session": "2025-2026 Regular Session",
+    "number": "HB 1059",
+    "title": "Data Center Impact Assessment and Development Moratorium Act of 2026; enact",
+    "url": "https://www.legis.ga.gov/legislation/72510",
+    "sponsors": [
+      {
+        "name": "Rep. Derrick Jackson",
+        "party": "D"
+      },
+      {
+        "name": "Rep. Kim Schofield",
+        "party": "D"
+      },
+      {
+        "name": "Rep. Sandra Scott",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-02-02",
+      "text": "House Second Readers"
+    },
+    "status": "failed",
+    "committees": [
+      "House Technology and Infrastructure Innovation"
+    ],
+    "themes": [
+      "moratorium",
+      "disclosure"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would enact the Data Center Impact Assessment and Development Moratorium Act of 2026, prohibiting construction or development of new data centers for a specified time and creating a Data Center Impact Assessment Commission.",
+    "significance": "One of two Democratic statewide moratorium bills in Georgia, the nation's fastest-growing data-center market; never got a committee vote in the Republican-led House.",
+    "related": [
+      "GA-2025-HB1012"
+    ],
+    "sources": [
+      {
+        "title": "HB 1059 (2025-2026)",
+        "url": "https://www.legis.ga.gov/legislation/72510",
+        "publisher": "Georgia General Assembly",
+        "kind": "official",
+        "docId": "HB 1059",
+        "excerpt": "to prohibit the construction or development of new data centers for a specified time; to establish the Data Center Impact Assessment Commission"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-01-28",
+    "caveats": "Sponsors, committees and status history from the General Assembly's official legislation API (the bill page is JavaScript-rendered). The 2025-2026 biennium ended at 2026 sine die, so bills not passed are recorded as failed; adjournment-date status is inferred, not printed on the page."
+  },
+  {
+    "id": "GA-2025-HB1012",
+    "jurisdiction": "GA",
+    "session": "2025-2026 Regular Session",
+    "number": "HB 1012",
+    "title": "Local government; construction or development of new data centers for a specified time; prohibit",
+    "url": "https://www.legis.ga.gov/legislation/72319",
+    "sponsors": [
+      {
+        "name": "Rep. Ruwa Romman",
+        "party": "D"
+      },
+      {
+        "name": "Rep. Jordan Ridley",
+        "party": "D"
+      },
+      {
+        "name": "Rep. Mary Margaret Oliver",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-01-28",
+      "text": "House Second Readers"
+    },
+    "status": "failed",
+    "committees": [
+      "House Governmental Affairs"
+    ],
+    "themes": [
+      "moratorium",
+      "zoning"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would amend Title 36 (local government) to prohibit construction or development of new data centers for a specified time, with an exception and a definition of data center.",
+    "significance": "Statewide pause proposal from Rep. Romman (then a gubernatorial candidate); signalled data centers as a Democratic campaign issue but did not advance.",
+    "related": [
+      "GA-2025-HB1059"
+    ],
+    "sources": [
+      {
+        "title": "HB 1012 (2025-2026)",
+        "url": "https://www.legis.ga.gov/legislation/72319",
+        "publisher": "Georgia General Assembly",
+        "kind": "official",
+        "docId": "HB 1012",
+        "excerpt": "so as to prohibit the construction or development of new data centers for a specified time"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-01-16",
+    "caveats": "Sponsors, committees and status history from the General Assembly's official legislation API (the bill page is JavaScript-rendered). The 2025-2026 biennium ended at 2026 sine die, so bills not passed are recorded as failed; adjournment-date status is inferred, not printed on the page."
+  },
+  {
+    "id": "GA-2025-SB410",
+    "jurisdiction": "GA",
+    "session": "2025-2026 Regular Session",
+    "number": "SB 410",
+    "title": "State Sales and Use Taxes; the data center equipment sales and use tax exemption; repeal",
+    "url": "https://www.legis.ga.gov/legislation/72285",
+    "sponsors": [
+      {
+        "name": "Sen. Matt Brass",
+        "party": "R"
+      },
+      {
+        "name": "Sen. Jason Anavitarte",
+        "party": "R"
+      },
+      {
+        "name": "Sen. Chuck Hufstetler",
+        "party": "R"
+      },
+      {
+        "name": "Sen. John Albers",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-03-10",
+      "text": "House Second Readers"
+    },
+    "status": "failed",
+    "committees": [
+      "Senate Finance",
+      "House Ways & Means"
+    ],
+    "themes": [
+      "sales_tax",
+      "incentive_clawback"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would repeal Georgia's sales and use tax exemption for high-technology data center equipment (O.C.G.A. 48-8-3), while allowing continued use of exemption certificates issued before the repeal date. Passed the Senate by substitute on 2026-03-06; not taken up in House Ways & Means.",
+    "significance": "Senate Republican leadership backed ending the data-center tax break, a notable shift; the House did not act, leaving the exemption (and its existing sunset) intact.",
+    "related": [],
+    "sources": [
+      {
+        "title": "SB 410 (2025-2026)",
+        "url": "https://www.legis.ga.gov/legislation/72285",
+        "publisher": "Georgia General Assembly",
+        "kind": "official",
+        "docId": "SB 410",
+        "excerpt": "2026-03-06 Senate Passed/Adopted By Substitute; 2026-03-10 House Second Readers"
+      },
+      {
+        "title": "Georgia lawmakers leave data center tax breaks intact, punt on energy costs",
+        "url": "https://georgiawatch.org/georgia-lawmakers-leave-data-center-tax-breaks-intact-punt-on-energy-costs/",
+        "publisher": "Georgia Watch",
+        "kind": "research"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-01-15",
+    "caveats": "Sponsors, committees and status history from the General Assembly's official legislation API (the bill page is JavaScript-rendered). The 2025-2026 biennium ended at 2026 sine die, so bills not passed are recorded as failed; adjournment-date status is inferred, not printed on the page."
+  },
+  {
+    "id": "GA-2025-HB1063",
+    "jurisdiction": "GA",
+    "session": "2025-2026 Regular Session",
+    "number": "HB 1063",
+    "title": "Electric utilities; protect residential and retail electricity customers from costs associated with data center construction and operation; require",
+    "url": "https://www.legis.ga.gov/legislation/72514",
+    "sponsors": [
+      {
+        "name": "Rep. Brad Thomas",
+        "party": "R"
+      },
+      {
+        "name": "Speaker Jon Burns",
+        "party": "R"
+      },
+      {
+        "name": "Rep. Chas Cannon",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-02-18",
+      "text": "Senate Read and Referred"
+    },
+    "status": "failed",
+    "committees": [
+      "House Special Committee on Resource Management",
+      "Senate Regulated Industries and Utilities"
+    ],
+    "themes": [
+      "cost_allocation",
+      "large_load_tariff"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would require electric utilities to protect residential and other retail customers from costs associated with data center construction and operation and require certain contract terms and conditions for data-center service, with enforcement provisions. Passed the House by substitute on 2026-02-17; referred to Senate Regulated Industries and Utilities on 2026-02-18.",
+    "significance": "Speaker-backed ratepayer-protection bill; its stall in the Senate meant Georgia again relied on PSC rules for large-load customers rather than statute.",
+    "related": [
+      "GA-2025-SB34"
+    ],
+    "sources": [
+      {
+        "title": "HB 1063 (2025-2026)",
+        "url": "https://www.legis.ga.gov/legislation/72514",
+        "publisher": "Georgia General Assembly",
+        "kind": "official",
+        "docId": "HB 1063",
+        "excerpt": "2026-02-17 House Passed/Adopted By Substitute; 2026-02-18 Senate Read and Referred"
+      },
+      {
+        "title": "Georgia lawmakers leave data center tax breaks intact, punt on energy costs",
+        "url": "https://georgiawatch.org/georgia-lawmakers-leave-data-center-tax-breaks-intact-punt-on-energy-costs/",
+        "publisher": "Georgia Watch",
+        "kind": "research"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-01-28",
+    "caveats": "Sponsors, committees and status history from the General Assembly's official legislation API (the bill page is JavaScript-rendered). The 2025-2026 biennium ended at 2026 sine die, so bills not passed are recorded as failed; adjournment-date status is inferred, not printed on the page."
+  },
+  {
+    "id": "IA-91-HF2690",
+    "jurisdiction": "IA",
+    "session": "91st General Assembly, 2nd Session (2026)",
+    "number": "HF 2690",
+    "title": "A bill for an act relating to water and energy use for data centers, including reporting and tariff requirements",
+    "url": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF%202690",
+    "sponsors": [
+      {
+        "name": "House Committee on Commerce"
+      },
+      {
+        "name": "Rep. Golding (HF 2447)"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-03-12",
+      "text": "Amendments H-8212, H-8213 and H-8214 filed (on House calendar)"
+    },
+    "status": "failed",
+    "committees": [
+      "House Commerce"
+    ],
+    "themes": [
+      "water",
+      "disclosure",
+      "large_load_tariff"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would have required data centers to report water and energy use and set tariff requirements for serving them. Renumbered from HF 2447 after House Commerce approved it 23-0 on 2026-02-18. It reached the House calendar with several floor amendments filed but never got a floor vote.",
+    "significance": "Iowa's main 2026 data-center transparency and tariff bill, in a state that hosts large Google, Meta and Microsoft campuses. Its failure leaves large-load terms to the Iowa Utilities Commission.",
+    "related": [],
+    "sources": [
+      {
+        "title": "HF 2690 bill book",
+        "url": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF%202690",
+        "publisher": "Iowa Legislature",
+        "kind": "official",
+        "docId": "HF 2690"
+      },
+      {
+        "title": "HF 2690 bill history",
+        "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF%202690&ga=91",
+        "publisher": "Iowa Legislature",
+        "kind": "official",
+        "docId": "HF 2690"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "introduced": "2026-02-23",
+    "caveats": "Dates and history come from the official bill history page. The summary is based on the official bill title; the text was not reviewed. Mapped to failed because the 91st General Assembly adjourned with no further action. Party affiliations were not verified."
+  },
+  {
+    "id": "IA-91-HF2688",
+    "jurisdiction": "IA",
+    "session": "91st General Assembly, 2nd Session (2026)",
+    "number": "HF 2688",
+    "title": "A bill for an act relating to investment requirements for data center businesses that claim certain sales tax exemptions and sales and use tax refunds",
+    "url": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF%202688",
+    "sponsors": [
+      {
+        "name": "House Committee on Economic Growth and Technology"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-02-23",
+      "text": "Introduced, referred to Ways and Means"
+    },
+    "status": "failed",
+    "committees": [
+      "House Economic Growth and Technology",
+      "House Ways and Means"
+    ],
+    "themes": [
+      "sales_tax",
+      "incentive_clawback"
+    ],
+    "explicitDataCenter": true,
+    "impact": "unclear",
+    "summary": "Would have changed the minimum investment requirements data center businesses must meet to claim Iowa's sales tax exemptions and sales/use tax refunds. Formerly HSB 727, which Economic Growth and Technology approved 20-0.",
+    "significance": "Targets the incentive behind Iowa's hyperscale build-out. It stalled in Ways and Means.",
+    "related": [],
+    "sources": [
+      {
+        "title": "HF 2688 bill book",
+        "url": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF%202688",
+        "publisher": "Iowa Legislature",
+        "kind": "official",
+        "docId": "HF 2688"
+      },
+      {
+        "title": "HF 2688 bill history",
+        "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF%202688&ga=91",
+        "publisher": "Iowa Legislature",
+        "kind": "official",
+        "docId": "HF 2688"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "introduced": "2026-02-23",
+    "caveats": "Dates and history come from the official bill history page. The summary is based on the official bill title; the text was not reviewed. Mapped to failed because the 91st General Assembly adjourned with no further action. Party affiliations were not verified. Whether the bill would have raised or lowered the thresholds was not determined."
+  },
+  {
+    "id": "IA-91-HF2001",
+    "jurisdiction": "IA",
+    "session": "91st General Assembly, 2nd Session (2026)",
+    "number": "HF 2001",
+    "title": "A bill for an act relating to water efficiency of data centers, including requirements for water-efficient cooling technologies and encouragement for the use of nonpotable and recycled water sources, providing civil penalties",
+    "url": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF%202001",
+    "sponsors": [
+      {
+        "name": "Rep. Gearhart"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-01-13",
+      "text": "Introduced, referred to Commerce"
+    },
+    "status": "failed",
+    "committees": [
+      "House Commerce"
+    ],
+    "themes": [
+      "water",
+      "efficiency"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would have required data centers to use water-efficient cooling technologies, encouraged nonpotable and recycled water sources, and set civil penalties.",
+    "significance": "A water-efficiency mandate with no recorded action after referral to Commerce.",
+    "related": [],
+    "sources": [
+      {
+        "title": "HF 2001 bill book",
+        "url": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF%202001",
+        "publisher": "Iowa Legislature",
+        "kind": "official",
+        "docId": "HF 2001"
+      },
+      {
+        "title": "HF 2001 bill history",
+        "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF%202001&ga=91",
+        "publisher": "Iowa Legislature",
+        "kind": "official",
+        "docId": "HF 2001"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "introduced": "2026-01-13",
+    "caveats": "Dates and history come from the official bill history page. The summary is based on the official bill title; the text was not reviewed. Mapped to failed because the 91st General Assembly adjourned with no further action. Party affiliations were not verified."
+  },
+  {
+    "id": "ID-2026-H895",
+    "jurisdiction": "ID",
+    "session": "2026 Regular Session (68th Legislature, 2nd Session)",
+    "number": "H 895",
+    "title": "Data centers - limitations on consumptive use of water for cooling",
+    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0895/",
+    "sponsors": [
+      {
+        "name": "House Ways and Means Committee"
+      },
+      {
+        "name": "Rep. Mike Moyle",
+        "party": "R"
+      },
+      {
+        "name": "Rep. Britt Raybould",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-04-02",
+      "text": "Signed by Governor on April 2, 2026; Session Law Chapter 291; effective 07/01/2026"
+    },
+    "status": "enacted",
+    "committees": [
+      "House Resources & Conservation",
+      "Senate Resources & Environment"
+    ],
+    "themes": [
+      "water"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Requires that cooling systems for data centers built in the future either be designed for non-consumptive water use or draw cooling water from a municipal, water district, or water and sewer district system. This keeps data centers from consuming Idaho water rights directly for cooling.",
+    "significance": "A statutory limit on consumptive water use by data centers, backed by the House Speaker, in a prior-appropriation, agriculture-dependent state. It pushes projects toward closed-loop or dry cooling and toward municipal supply contracts.",
+    "related": [],
+    "sources": [
+      {
+        "title": "H0895 (2026) bill page",
+        "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0895/",
+        "publisher": "Idaho State Legislature",
+        "kind": "official",
+        "docId": "H 895",
+        "excerpt": "Reported Signed by Governor on April 2, 2026 Session Law Chapter 291 Effective: 07/01/2026"
+      },
+      {
+        "title": "H0895 Statement of Purpose",
+        "url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0895SOP.pdf",
+        "publisher": "Idaho State Legislature",
+        "kind": "official",
+        "docId": "H0895"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-03-13",
+    "enactedDate": "2026-04-02",
+    "effectiveDate": "2026-07-01",
+    "caveats": "Actions come from the official bill page. Content is based on the official short title and the sponsors' Statement of Purpose; the full bill text was not reviewed. The bill was carried by a committee, so the named sponsors are the SOP contacts."
+  },
+  {
+    "id": "ID-2026-H911",
+    "jurisdiction": "ID",
+    "session": "2026 Regular Session (68th Legislature, 2nd Session)",
+    "number": "H 911",
+    "title": "Public utilities - new large loads",
+    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0911/",
+    "sponsors": [
+      {
+        "name": "House Ways and Means Committee"
+      },
+      {
+        "name": "Rep. Stephanie Jo Mickelsen",
+        "party": "R"
+      },
+      {
+        "name": "Rep. Michael Veile",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-04-10",
+      "text": "Signed by Governor on April 10, 2026; Session Law Chapter 335; effective 07/01/2026"
+    },
+    "status": "enacted",
+    "committees": [
+      "House State Affairs",
+      "Senate State Affairs"
+    ],
+    "themes": [
+      "large_load_tariff",
+      "cost_allocation"
+    ],
+    "explicitDataCenter": false,
+    "impact": "mixed",
+    "summary": "Sets a framework for Idaho utilities and the Public Utilities Commission to serve new large electrical loads. Any new load above the statutory threshold can be served only under a PUC-approved contract filed before service begins, backed by a 'no harm test' and other showings that existing ratepayers are protected.",
+    "significance": "Codifies ratepayer protection for data-center-scale loads served by Idaho Power and other IOUs. It replaced S 1368 and H 756, which carried the same title.",
+    "related": [],
+    "sources": [
+      {
+        "title": "H0911 (2026) bill page",
+        "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0911/",
+        "publisher": "Idaho State Legislature",
+        "kind": "official",
+        "docId": "H 911",
+        "excerpt": "Reported Signed by Governor on April 10, 2026 Session Law Chapter 335 Effective: 07/01/2026"
+      },
+      {
+        "title": "H0911 Statement of Purpose",
+        "url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0911SOP.pdf",
+        "publisher": "Idaho State Legislature",
+        "kind": "official",
+        "docId": "H0911"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-03-17",
+    "enactedDate": "2026-04-10",
+    "effectiveDate": "2026-07-01",
+    "caveats": "Actions come from the official bill page. Content is based on the official short title and the sponsors' Statement of Purpose; the full bill text was not reviewed. The bill was carried by a committee, so the named sponsors are the SOP contacts. The page prints the governor's signature date (April 10) on a line dated 04/02, so the April 10 date in the text was used. The MW threshold was not confirmed."
+  },
+  {
+    "id": "ID-2026-H820",
+    "jurisdiction": "ID",
+    "session": "2026 Regular Session (68th Legislature, 2nd Session)",
+    "number": "H 820",
+    "title": "Taxation - revise sales tax exemption for data center equipment and property tax exemption for certain capital investments",
+    "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0820/",
+    "sponsors": [
+      {
+        "name": "House Revenue and Taxation Committee"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-03-05",
+      "text": "Reported Printed and Referred to Revenue & Taxation"
+    },
+    "status": "failed",
+    "committees": [
+      "House Revenue & Taxation"
+    ],
+    "themes": [
+      "sales_tax",
+      "property_tax"
+    ],
+    "explicitDataCenter": true,
+    "impact": "unclear",
+    "summary": "Would have revised Idaho's sales tax exemption for data center equipment and a property tax exemption for certain capital investments. It succeeded an earlier version, H 609 (introduced 2026-02-09), which also stalled in committee.",
+    "significance": "Shows the Legislature reconsidering the data-center equipment exemption. Neither version left Revenue & Taxation, so the current incentive stays in place.",
+    "related": [],
+    "sources": [
+      {
+        "title": "H0820 (2026) bill page",
+        "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0820/",
+        "publisher": "Idaho State Legislature",
+        "kind": "official",
+        "docId": "H 820"
+      },
+      {
+        "title": "H0609 (2026) bill page",
+        "url": "https://legislature.idaho.gov/sessioninfo/2026/legislation/H0609/",
+        "publisher": "Idaho State Legislature",
+        "kind": "official",
+        "docId": "H 609"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "introduced": "2026-03-04",
+    "caveats": "Status: held in committee at sine die and mapped to failed. Whether the bill would have narrowed or expanded the exemption could not be determined from the title; impact is set to unclear."
+  },
+  {
+    "id": "IN-2025-HB1007",
+    "jurisdiction": "IN",
+    "session": "124th General Assembly, 1st Regular Session (2025)",
+    "number": "HEA 1007",
+    "title": "Energy generation resources (large load customers, SMRs, expedited generation approvals)",
+    "url": "https://iga.in.gov/legislative/2025/bills/house/1007/details",
+    "sponsors": [
+      {
+        "name": "Rep. Ed Soliday",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2025-05-06",
+      "text": "Signed by the Governor (reported)"
+    },
+    "status": "enacted",
+    "committees": [],
+    "themes": [
+      "large_load_tariff",
+      "cost_allocation",
+      "nuclear",
+      "permitting"
+    ],
+    "explicitDataCenter": true,
+    "impact": "mixed",
+    "summary": "Omnibus 2025 energy law driven by data-center load growth: allows utilities to require large-load customers (such as data centers) to cover at least 80% of the cost of new generation and transmission built to serve them, fast-tracks IURC approval of new generation resources, and supports small modular reactor development and cost recovery.",
+    "significance": "Indiana's main statutory response to hyperscale demand; consumer advocates say it weakens oversight and the 80% provision is discretionary for utilities, with IURC treatment in AES Indiana's large-load filings a key test.",
+    "related": [],
+    "sources": [
+      {
+        "title": "HB 1007 (2025)",
+        "url": "https://iga.in.gov/legislative/2025/bills/house/1007/details",
+        "publisher": "Indiana General Assembly",
+        "kind": "official",
+        "docId": "HB 1007"
+      },
+      {
+        "title": "2025 Indiana General Assembly",
+        "url": "https://www.citact.org/2025-iga",
+        "publisher": "Citizens Action Coalition of Indiana",
+        "kind": "research",
+        "excerpt": "Gov. Braun signed HB1007 ... into law on May 6th."
+      },
+      {
+        "title": "HB 1007 and the SMR Cost Risk Indiana Manufacturers Need to Track",
+        "url": "https://tac-nrg.com/news/2026-08-10/hb-1007-and-the-smr-cost-risk-indiana-manufacturers-need-to-track",
+        "publisher": "Tactical Energy Group",
+        "kind": "research",
+        "published": "2026-08-10"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "low",
+    "caveats": "Indiana's bill pages are JavaScript-rendered and enrolled-act PDFs could not be retrieved, so sponsor, title and signing date come from secondary sources (Citizens Action Coalition, Tactical Energy Group). Title paraphrased; public-law number and effective date not confirmed from official text."
+  },
+  {
+    "id": "LA-2026RS-HB1206",
+    "jurisdiction": "LA",
+    "session": "2026 Regular Session",
+    "number": "HB 1206",
+    "title": "Provides relative to permitting and reporting of water usage at data centers",
+    "url": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26RS&b=HB1206&sbi=y",
+    "sponsors": [
+      {
+        "name": "Rep. Joy Walters",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-04-28",
+      "text": "Considered in House Natural Resources and Environment; left pending"
+    },
+    "status": "failed",
+    "committees": [
+      "House Natural Resources and Environment"
+    ],
+    "themes": [
+      "water",
+      "permitting",
+      "disclosure"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "As introduced, would have required data centers proposing more than 100 million gallons per year of consumptive water use to obtain a permit from the Department of Conservation and Energy and to report water use. It would also have required DEQ to hold a hearing and notify affected parishes before issuing data center permits. A committee amendment drafted for the 4/28 hearing would have recast the bill around the department's authority over groundwater and surface-water withdrawals.",
+    "significance": "The only 2026 Louisiana bill to target data-center water use directly, filed as Meta's Richland Parish campus drew scrutiny. It stalled in committee, and Gov. Landry turned to an executive order (JML 26-058) on large-load ratepayer protections instead.",
+    "related": [],
+    "sources": [
+      {
+        "title": "HB1206 (2026 RS) bill information",
+        "url": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26RS&b=HB1206&sbi=y",
+        "publisher": "Louisiana State Legislature",
+        "kind": "official",
+        "docId": "HB 1206",
+        "excerpt": "Current Status: Pending House Natural Resources - Considered 4/28/26"
+      },
+      {
+        "title": "HB 1206 original text",
+        "url": "https://legis.la.gov/Legis/ViewDocument.aspx?d=1457876",
+        "publisher": "Louisiana State Legislature",
+        "kind": "official",
+        "docId": "HB 1206"
+      },
+      {
+        "title": "Landry signs order to protect utility customers as he promotes more data center development",
+        "url": "https://lailluminator.com/2026/06/26/landry-order-data-power/",
+        "publisher": "Louisiana Illuminator",
+        "kind": "journalism",
+        "published": "2026-06-26"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-03-31",
+    "caveats": "Status and history come from the official BillInfo page. Mapped to failed because the 2026 Regular Session adjourned sine die with the bill still pending. Sponsor party is from caucus membership, not the bill page. A title scan of every 2025 and 2026 regular-session bill found no other bill naming data centers. Water-threshold details come from the original bill text as described in search results; the PDF was not parsed directly."
+  },
+  {
+    "id": "LA-2026RS-SB490",
+    "jurisdiction": "LA",
+    "session": "2026 Regular Session",
+    "number": "SB 490",
+    "title": "Provides for private use electrical networks",
+    "url": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26RS&b=SB490&sbi=y",
+    "sponsors": [
+      {
+        "name": "Sen. Bob Hensgens",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-05-18",
+      "text": "Senate floor amendments adopted; returned to the Calendar, subject to call"
+    },
+    "status": "failed",
+    "committees": [
+      "Senate Commerce, Consumer Protection and International Affairs"
+    ],
+    "themes": [
+      "preemption",
+      "backup_generation",
+      "interconnection",
+      "large_load_tariff"
+    ],
+    "explicitDataCenter": false,
+    "impact": "permissive",
+    "summary": "Would have exempted 'private use electrical networks' from LPSC regulation as public utilities. These are on-site or adjacent generation and storage facilities that commit at least 50% of their output under 5-year-plus contracts to large-load commercial customers. Sales to those customers would not count as retail sales. Utilities would have had to finish interconnection studies and sign agreements within 180 days. The LPSC would have had to adopt an expedited, binding 'declaration of nonjurisdiction' process with 30-day decisions, with customer identities kept confidential.",
+    "significance": "A bring-your-own-power path for hyperscale campuses that would bypass Entergy and Cleco rate regulation. It reached Senate final passage but was left subject to call at sine die.",
+    "related": [],
+    "sources": [
+      {
+        "title": "SB490 (2026 RS) bill information",
+        "url": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26RS&b=SB490&sbi=y",
+        "publisher": "Louisiana State Legislature",
+        "kind": "official",
+        "docId": "SB 490",
+        "excerpt": "05/18 Senate floor amendments read and adopted ... returned to the Calendar, subject to call"
+      },
+      {
+        "title": "Digest of SB 490 Engrossed",
+        "url": "https://legis.la.gov/Legis/ViewDocument.aspx?d=1464029",
+        "publisher": "Louisiana State Legislature",
+        "kind": "official",
+        "docId": "SB 490 Engrossed digest",
+        "excerpt": "Proposed law defines \"identified load customer\" as a large-load commercial customer."
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-03-31",
+    "caveats": "Status and history come from the official BillInfo page. Mapped to failed because the 2026 Regular Session adjourned sine die with the bill still pending. Sponsor party is from caucus membership, not the bill page. A title scan of every 2025 and 2026 regular-session bill found no other bill naming data centers. The bill does not use the words 'data center'; it is relevant because it applies to large-load customers."
+  },
+  {
+    "id": "MA-194-H5175",
+    "jurisdiction": "MA",
+    "session": "194th General Court (2025-2026)",
+    "number": "H 5175",
+    "title": "An Act relative to energy affordability, clean power and economic competitiveness",
+    "url": "https://malegislature.gov/Bills/194/H5175",
+    "sponsors": [
+      {
+        "name": "House Committee on Ways and Means"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-07-16",
+      "text": "Senate insisted on its amendment; committee of conference appointed (Barrett-Creem-Tarr), in concurrence"
+    },
+    "status": "passed_chamber",
+    "committees": [
+      "Joint Telecommunications, Utilities and Energy",
+      "House Ways and Means",
+      "Senate Ways and Means"
+    ],
+    "themes": [
+      "large_load_tariff",
+      "cost_allocation",
+      "clean_energy_procurement",
+      "backup_generation"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Omnibus energy affordability bill (House version, from H 4744 and H 5151). Section 163 covers data centers designed for at least 20 MW. New or expanded facilities seeking DPU or Energy Facilities Siting Board permits would have to source at least 80% of their supply from renewable resources. Fossil backup generation would be allowed only after showing on-site battery storage is infeasible. Each electric company would have to file a data-center tariff that shields other ratepayers from the costs of data-center demand and rewards efficiency such as heat reuse. The House passed it 128-27 on 2026-02-26 and the Senate passed its own text 32-8 on 2026-07-01. On 2026-07-16 the House non-concurred and the bill went to conference.",
+    "significance": "If the conference keeps the data-center provisions, Massachusetts would have one of the strictest clean-supply and large-load tariff regimes for data centers in the country. The outcome rests with the conference committee.",
+    "related": [],
+    "sources": [
+      {
+        "title": "H 5175 bill page",
+        "url": "https://malegislature.gov/Bills/194/H5175",
+        "publisher": "Massachusetts General Court",
+        "kind": "official",
+        "docId": "H 5175"
+      },
+      {
+        "title": "H5175 document record (Legislature API)",
+        "url": "https://malegislature.gov/api/GeneralCourts/194/Documents/H5175",
+        "publisher": "Massachusetts General Court",
+        "kind": "data",
+        "docId": "H5175"
+      },
+      {
+        "title": "H5175 document history actions",
+        "url": "https://malegislature.gov/api/GeneralCourts/194/Documents/H5175/DocumentHistoryActions",
+        "publisher": "Massachusetts General Court",
+        "kind": "data",
+        "docId": "H5175"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "introduced": "2026-02-26",
+    "caveats": "Status comes from the official API history, whose last recorded action is 2026-07-16 (conference appointed). Mapped to passed_chamber because both chambers passed different texts and no conference report was found. The Senate text (based on S 3143) was not reviewed, so whether the Senate kept the data-center section is unconfirmed. The 194th General Court's formal sessions ended July 31, 2026."
+  },
+  {
+    "id": "MA-194-H83",
+    "jurisdiction": "MA",
+    "session": "194th General Court (2025-2026)",
+    "number": "H 83",
+    "title": "An Act establishing a special legislative commission to study load growth due to AI and data centers",
+    "url": "https://malegislature.gov/Bills/194/H83",
+    "sponsors": [
+      {
+        "name": "Rep. Bradley H. Jones, Jr.",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-01-08",
+      "text": "Discharged to the committee on House Rules"
+    },
+    "status": "in_committee",
+    "committees": [
+      "Joint Advanced Information Technology, the Internet and Cybersecurity",
+      "House Rules"
+    ],
+    "themes": [
+      "grid_capacity",
+      "ai_policy"
+    ],
+    "explicitDataCenter": true,
+    "impact": "neutral",
+    "summary": "Would have created a special legislative commission, co-chaired by the TUE committee chairs, to study growth in electricity demand from AI and data centers, industrial growth, and electrification, and to report within one year.",
+    "significance": "A study proposal from the House Minority Leader. The joint committee reported it favorably, but it then stalled in Rules.",
+    "related": [],
+    "sources": [
+      {
+        "title": "H 83 bill page",
+        "url": "https://malegislature.gov/Bills/194/H83",
+        "publisher": "Massachusetts General Court",
+        "kind": "official",
+        "docId": "H 83"
+      },
+      {
+        "title": "H83 document record (Legislature API)",
+        "url": "https://malegislature.gov/api/GeneralCourts/194/Documents/H83",
+        "publisher": "Massachusetts General Court",
+        "kind": "data",
+        "docId": "H83"
+      },
+      {
+        "title": "H83 document history actions",
+        "url": "https://malegislature.gov/api/GeneralCourts/194/Documents/H83/DocumentHistoryActions",
+        "publisher": "Massachusetts General Court",
+        "kind": "data",
+        "docId": "H83"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2025-02-27",
+    "caveats": "Still in House Rules; the 194th General Court's formal sessions ended July 31, 2026, so the bill is effectively dead unless taken up in an informal session."
+  },
+  {
+    "id": "MO-2025-SB4",
+    "jurisdiction": "MO",
+    "session": "103rd General Assembly, 1st Regular Session (2025)",
+    "number": "SS#2 SB 4",
+    "title": "Modifies and creates new provisions relating to utilities",
+    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2025&billid=66",
+    "sponsors": [
+      {
+        "name": "Sen. Mike Cierpiot",
+        "party": "R"
+      },
+      {
+        "name": "Rep. Josh Hurlbert (House handler)",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2025-04-09",
+      "text": "Signed by Governor"
+    },
+    "status": "enacted",
+    "committees": [
+      "Senate Commerce, Consumer Protection, Energy & the Environment",
+      "House Utilities"
+    ],
+    "themes": [
+      "large_load_tariff",
+      "cost_allocation",
+      "natural_gas"
+    ],
+    "explicitDataCenter": false,
+    "impact": "mixed",
+    "summary": "Omnibus utility law. Among other provisions, electrical corporations with more than 250,000 customers must file PSC tariff schedules for customers projected to exceed 100 MW of annual peak demand (50 MW for smaller utilities). Those schedules must make such customers pay a representative share of the costs of serving them and keep other classes from bearing unjust or unreasonable costs. The act also makes a range of other utility ratemaking and planning changes.",
+    "significance": "Made Missouri one of the first states to require large-load (data-center) tariffs by statute. The largest investor-owned utilities must now file large-load tariffs with the PSC.",
+    "related": [
+      "MO-2026-SB1750"
+    ],
+    "sources": [
+      {
+        "title": "SB 4 (2025) bill information",
+        "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2025&billid=66",
+        "publisher": "Missouri Senate",
+        "kind": "official",
+        "docId": "SS#2 SB 4",
+        "excerpt": "electrical corporation with more than 250,000 customers shall develop and submit ... schedules ... applicable to customers who are projected to have above an annual peak demand of 100 megawatts or more"
+      },
+      {
+        "title": "SB 4 (2025) all actions",
+        "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2025&billId=66&billPrefix=SB&billSuffix=4&handler=Actions",
+        "publisher": "Missouri Senate",
+        "kind": "official",
+        "docId": "SB 4",
+        "excerpt": "04/09/2025 Signed by Governor; 03/13/2025 Truly Agreed To and Finally Passed"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "enactedDate": "2025-04-09",
+    "effectiveDate": "2025-08-28",
+    "caveats": "Sponsor, actions, effective date and summary come from the official Senate bill page. Parties are from membership records. The bill does not use the words 'data center'; it is relevant because of its large-load tariff requirement."
+  },
+  {
+    "id": "MO-2026-SB1750",
+    "jurisdiction": "MO",
+    "session": "103rd General Assembly, 2nd Regular Session (2026)",
+    "number": "SB 1750",
+    "title": "Creates provisions relating to the regulation of large load electric customers",
+    "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=6459808",
+    "sponsors": [
+      {
+        "name": "Sen. Tracy McCreery",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-05-07",
+      "text": "Second Read and Referred S Transportation, Infrastructure and Public Safety Committee"
+    },
+    "status": "failed",
+    "committees": [
+      "Senate Transportation, Infrastructure and Public Safety"
+    ],
+    "themes": [
+      "large_load_tariff",
+      "disclosure",
+      "water",
+      "grid_capacity"
+    ],
+    "explicitDataCenter": false,
+    "impact": "restrictive",
+    "summary": "Would have lowered the SB 4 large-load tariff threshold from 100 MW to 50 MW for large utilities. Owners of large load facilities intending to operate after Aug. 28, 2026 would have had to file a public disclosure of intent with the PSC before contracting with any utility, subject to PSC approval or denial, and to conduct pre- and post-construction impact studies with mitigation.",
+    "significance": "Democratic push to tighten Missouri's 2025 large-load framework; it was referred only in the session's final week.",
+    "related": [
+      "MO-2025-SB4"
+    ],
+    "sources": [
+      {
+        "title": "SB 1750 (2026) bill information",
+        "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=6459808",
+        "publisher": "Missouri Senate",
+        "kind": "official",
+        "docId": "SB 1750",
+        "excerpt": "customers who are projected to have above an annual peak demand of 50 megawatts, instead of 100 megawatts"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-02-25",
+    "caveats": "Mapped to failed because the 2026 session adjourned with the bill in committee. Party is from membership records."
+  },
+  {
+    "id": "MO-2026-HB3369",
+    "jurisdiction": "MO",
+    "session": "103rd General Assembly, 2nd Regular Session (2026)",
+    "number": "HB 3369",
+    "title": "Prohibits the issuance of permits for construction of data centers for one year in St. Louis",
+    "url": "https://house.mo.gov/Bill.aspx?bill=HB3369&year=2026&code=R",
+    "sponsors": [
+      {
+        "name": "Rep. Marty Joe Murray",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-05-15",
+      "text": "Referred: Emerging Issues (H)"
+    },
+    "status": "failed",
+    "committees": [
+      "House Emerging Issues"
+    ],
+    "themes": [
+      "moratorium",
+      "permitting"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would have barred issuing permits for data center construction in St. Louis for one year.",
+    "significance": "A city-specific moratorium bill filed as hyperscale proposals emerged in the St. Louis region. It never received a hearing.",
+    "related": [],
+    "sources": [
+      {
+        "title": "HB 3369 (2026) bill page",
+        "url": "https://house.mo.gov/Bill.aspx?bill=HB3369&year=2026&code=R",
+        "publisher": "Missouri House of Representatives",
+        "kind": "official",
+        "docId": "HB 3369"
+      },
+      {
+        "title": "HB3369 (2026) bill content",
+        "url": "https://house.mo.gov/BillContent.aspx?bill=HB3369&year=2026&code=R&style=new",
+        "publisher": "Missouri House of Representatives",
+        "kind": "official",
+        "docId": "HB3369"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "caveats": "Sponsor and last action come from the official House bill page. The summary is based on the official short description; text not reviewed. The bill was referred to Emerging Issues on the session's final day (2026-05-15) and died at adjournment, so it is mapped to failed. Introduction date not captured."
+  },
+  {
+    "id": "MO-2026-HB2239",
+    "jurisdiction": "MO",
+    "session": "103rd General Assembly, 2nd Regular Session (2026)",
+    "number": "HB 2239",
+    "title": "Creates the Artificial Intelligence Data Center Environmental Accountability Act",
+    "url": "https://house.mo.gov/Bill.aspx?bill=HB2239&year=2026&code=R",
+    "sponsors": [
+      {
+        "name": "Rep. Marty Joe Murray",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-05-15",
+      "text": "Referred: Emerging Issues (H)"
+    },
+    "status": "failed",
+    "committees": [
+      "House Emerging Issues"
+    ],
+    "themes": [
+      "water",
+      "disclosure",
+      "environmental_review"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would have created the Artificial Intelligence Data Center Environmental Accountability Act, setting environmental accountability requirements for AI data centers.",
+    "significance": "An environmental-disclosure proposal that never got a hearing.",
+    "related": [],
+    "sources": [
+      {
+        "title": "HB 2239 (2026) bill page",
+        "url": "https://house.mo.gov/Bill.aspx?bill=HB2239&year=2026&code=R",
+        "publisher": "Missouri House of Representatives",
+        "kind": "official",
+        "docId": "HB 2239"
+      },
+      {
+        "title": "HB2239 (2026) bill content",
+        "url": "https://house.mo.gov/BillContent.aspx?bill=HB2239&year=2026&code=R&style=new",
+        "publisher": "Missouri House of Representatives",
+        "kind": "official",
+        "docId": "HB2239"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "low",
+    "caveats": "Sponsor and last action come from the official House bill page. The summary is based on the official short description; text not reviewed. The bill was referred to Emerging Issues on the session's final day (2026-05-15) and died at adjournment, so it is mapped to failed. Introduction date not captured. Specific requirements are unknown; the themes are inferred from the title."
+  },
+  {
+    "id": "MS-2025-HB1239",
+    "jurisdiction": "MS",
+    "session": "2025 Regular Session",
+    "number": "HB 1239",
+    "title": "Data center enterprises; revise certain definitions and other provisions relating to tax exemptions",
+    "url": "https://billstatus.ls.state.ms.us/2025/pdf/history/HB/HB1239.xml",
+    "sponsors": [
+      {
+        "name": "Rep. Trey Lamar",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2025-03-29",
+      "text": "(H) Died In Conference"
+    },
+    "status": "failed",
+    "committees": [
+      "House Technology",
+      "House Ways and Means",
+      "Senate Finance",
+      "Senate Technology"
+    ],
+    "themes": [
+      "sales_tax",
+      "incentive_clawback"
+    ],
+    "explicitDataCenter": true,
+    "impact": "permissive",
+    "summary": "Would have revised the definitions used for Mississippi's sales, use and franchise tax exemptions for data center enterprises (Miss. Code 57-113-21), changed what exemption applications must contain, and given a business 60 days after a notice of noncompliance to fix it before losing tax-exempt status. Passed both chambers in different forms; died in conference.",
+    "significance": "A clean-up of the state's data-center tax-incentive regime. A Senate companion, SB 3168 (Harkins), died in House committee.",
+    "related": [],
+    "sources": [
+      {
+        "title": "HB 1239 (2025) bill status",
+        "url": "https://billstatus.ls.state.ms.us/2025/pdf/history/HB/HB1239.xml",
+        "publisher": "Mississippi Legislature",
+        "kind": "official",
+        "docId": "HB 1239",
+        "excerpt": "03/21 (H) Decline to Concur/Invite Conf ... 03/29 (H) Died In Conference"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2025-01-20",
+    "caveats": "History, title and author come from the Legislature's official bill-status XML. Author first names and party are supplied from membership records, not the status page."
+  },
+  {
+    "id": "MS-2026-SB3410",
+    "jurisdiction": "MS",
+    "session": "2026 Regular Session",
+    "number": "SB 3410",
+    "title": "City of Brandon and West Rankin Utility Authority; authorize to enter agreements w/data center for water & wastewater infrastructure",
+    "url": "https://billstatus.ls.state.ms.us/2026/pdf/history/SB/SB3410.xml",
+    "sponsors": [
+      {
+        "name": "Sen. Josh Harkins",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-04-08",
+      "text": "Approved by Governor"
+    },
+    "status": "enacted",
+    "committees": [
+      "Senate Local and Private"
+    ],
+    "themes": [
+      "water",
+      "community_benefits"
+    ],
+    "explicitDataCenter": true,
+    "impact": "permissive",
+    "summary": "Local and private act letting the City of Brandon and the West Rankin Utility Authority contract with a data center developer or operator for water and wastewater infrastructure, with the developer reimbursing construction costs from its own funds. Allows reclaimed water for cooling, agreements of up to 30 years with renewals, volumetric capacity guarantees, and set rates and charges. Effective on passage.",
+    "significance": "Clears the way for a hyperscale campus in Rankin County that uses reclaimed water for cooling, with developer-funded infrastructure as a cost-protection model.",
+    "related": [],
+    "sources": [
+      {
+        "title": "SB 3410 (2026) bill status",
+        "url": "https://billstatus.ls.state.ms.us/2026/pdf/history/SB/SB3410.xml",
+        "publisher": "Mississippi Legislature",
+        "kind": "official",
+        "docId": "SB 3410",
+        "excerpt": "04/08 Approved by Governor"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-03-24",
+    "enactedDate": "2026-04-08",
+    "effectiveDate": "2026-04-08",
+    "caveats": "History, title and author come from the Legislature's official bill-status XML. Author first names and party are supplied from membership records, not the status page. Approval date is the governor's action recorded on the status page."
+  },
+  {
+    "id": "MT-2025-SB212",
+    "jurisdiction": "MT",
+    "session": "69th Legislature, 2025 Regular Session",
+    "number": "SB 212",
+    "title": "Creating the Right to Compute Act and requiring shutdowns of AI controlled critical infrastructure",
+    "url": "https://bills.legmt.gov/#/laws/bill/2/LC0292",
+    "sponsors": [
+      {
+        "name": "Sen. Daniel Zolnikov",
+        "party": "R"
+      }
+    ],
+    "introduced": "2025-01-24",
+    "latestAction": {
+      "date": "2025-04-17",
+      "text": "Chapter Number Assigned (Chapter 150); signed by Governor 2025-04-16"
+    },
+    "status": "enacted",
+    "enactedDate": "2025-04-16",
+    "committees": [
+      "(S) Energy, Technology & Federal Relations",
+      "(H) Business and Labor"
+    ],
+    "themes": [
+      "ai_policy",
+      "preemption"
+    ],
+    "explicitDataCenter": false,
+    "impact": "permissive",
+    "summary": "Establishes a statutory right to own and use computational resources; any government action restricting that right must be demonstrably necessary and narrowly tailored to a compelling government interest. Requires critical-infrastructure facilities controlled by AI systems to have a shutdown/human-override capability and a risk management policy.",
+    "significance": "First enacted 'right to compute' law in the U.S. and a template (ALEC-style) for other states; raises the legal bar for state or local restrictions on computing infrastructure, which data-center developers may invoke against restrictive measures.",
+    "related": [],
+    "sources": [
+      {
+        "title": "SB 212 bill page (LC0292), Montana Legislature Bill Explorer",
+        "url": "https://bills.legmt.gov/#/laws/bill/2/LC0292",
+        "publisher": "Montana State Legislature",
+        "kind": "official",
+        "docId": "SB 212"
+      },
+      {
+        "title": "Montana Legislature bills API record for SB 212 (id 292)",
+        "url": "https://api.legmt.gov/bills/v1/bills/292",
+        "publisher": "Montana State Legislature",
+        "kind": "data",
+        "docId": "SB 212",
+        "excerpt": "2025-04-16 (S) Signed by Governor; 2025-04-17 Chapter Number Assigned (chapter 150)."
+      },
+      {
+        "title": "Montana Becomes First State to Enshrine 'Right to Compute' Into Law",
+        "url": "https://montananewsroom.com/montana-becomes-first-state-to-enshrine-right-to-compute-into-law/",
+        "publisher": "Montana Newsroom",
+        "kind": "journalism"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "caveats": "Action history taken from the Legislature's official bills API (Bill Explorer is a JavaScript app). Effective date not separately confirmed from the enrolled text; reporting says effective on approval. The law does not name data centers but applies to computational resources generally."
+  },
+  {
+    "id": "MT-2025-HB263",
+    "jurisdiction": "MT",
+    "session": "69th Legislature, 2025 Regular Session",
+    "number": "HB 263",
+    "title": "Generally revise digital asset mining and data center ratemaking laws",
+    "url": "https://bills.legmt.gov/#/laws/bill/2/LC0636",
+    "sponsors": [
+      {
+        "name": "Rep. Katie Sullivan",
+        "party": "D"
+      }
+    ],
+    "introduced": "2025-01-20",
+    "latestAction": {
+      "date": "2025-05-20",
+      "text": "(H) Died in Process"
+    },
+    "status": "failed",
+    "committees": [
+      "(H) Energy, Technology and Federal Relations"
+    ],
+    "themes": [
+      "cost_allocation",
+      "large_load_tariff"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would have revised Public Service Commission ratemaking laws so that digital asset mining operations and data centers bear the utility costs they cause rather than shifting them to other customer classes. Tabled in House Energy, Technology and Federal Relations on 2025-02-03.",
+    "significance": "Early Montana attempt at large-load cost allocation; its failure left data-center rate treatment to the PSC and to 2027 session drafts.",
+    "related": [],
+    "sources": [
+      {
+        "title": "HB 263 bill page (LC0636), Montana Legislature Bill Explorer",
+        "url": "https://bills.legmt.gov/#/laws/bill/2/LC0636",
+        "publisher": "Montana State Legislature",
+        "kind": "official",
+        "docId": "HB 263"
+      },
+      {
+        "title": "Montana Legislature bills API record for HB 263 (id 636)",
+        "url": "https://api.legmt.gov/bills/v1/bills/636",
+        "publisher": "Montana State Legislature",
+        "kind": "data",
+        "docId": "HB 263",
+        "excerpt": "2025-02-03 (H) Tabled in Committee; 2025-05-20 (H) Died in Process."
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "caveats": "Status, dates, sponsor and committee from the official bills API. The summary of substantive provisions is inferred from the official short title; bill text was not reviewed."
+  },
+  {
+    "id": "MT-2025-HJ46",
+    "jurisdiction": "MT",
+    "session": "69th Legislature, 2025 Regular Session",
+    "number": "HJ 46",
+    "title": "Study resolution on data centers",
+    "url": "https://bills.legmt.gov/#/laws/bill/2/LC0933",
+    "sponsors": [
+      {
+        "name": "Rep. Tom Millett",
+        "party": "R"
+      }
+    ],
+    "introduced": "2025-04-04",
+    "latestAction": {
+      "date": "2025-05-22",
+      "text": "(S) Died in Committee"
+    },
+    "status": "failed",
+    "committees": [
+      "(H) Energy, Technology and Federal Relations",
+      "(S) Energy, Technology & Federal Relations"
+    ],
+    "themes": [
+      "grid_capacity",
+      "water"
+    ],
+    "explicitDataCenter": true,
+    "impact": "neutral",
+    "summary": "Joint resolution requesting an interim study of data centers in Montana. Passed the House on 2025-04-16 but was tabled in Senate Energy, Technology & Federal Relations on 2025-04-24.",
+    "significance": "Shows bipartisan interest in data-center impacts before the 2027 session; numerous data-center bill drafts (taxation, water use, ratepayer protection) have since been requested for 2027.",
+    "related": [],
+    "sources": [
+      {
+        "title": "HJ 46 bill page (LC0933), Montana Legislature Bill Explorer",
+        "url": "https://bills.legmt.gov/#/laws/bill/2/LC0933",
+        "publisher": "Montana State Legislature",
+        "kind": "official",
+        "docId": "HJ 46"
+      },
+      {
+        "title": "Montana Legislature bills API record for HJ 46 (id 933)",
+        "url": "https://api.legmt.gov/bills/v1/bills/933",
+        "publisher": "Montana State Legislature",
+        "kind": "data",
+        "docId": "HJ 46",
+        "excerpt": "2025-04-16 (H) 3rd Reading; Transmitted to Senate; 2025-04-24 (S) Tabled in Committee; 2025-05-22 (S) Died in Committee."
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "caveats": "Study topics inferred from title; resolution text not reviewed. Themes approximate."
+  },
+  {
+    "id": "NE-109-LB1010",
+    "jurisdiction": "NE",
+    "session": "109th Legislature, 2nd Session (2026)",
+    "number": "LB1010",
+    "title": "Adopt the Large Load Customer Regulation Act, provide for eminent domain relating to energy storage and regulation and taxation of energy storage resources, and change provisions relating to cryptocurrency mining operations and data centers",
+    "url": "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=63217",
+    "sponsors": [
+      {
+        "name": "Sen. Tom Brandt"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-04-14",
+      "text": "Approved by Governor on April 14, 2026"
+    },
+    "status": "enacted",
+    "committees": [
+      "Judiciary (initial referral)",
+      "Natural Resources"
+    ],
+    "themes": [
+      "large_load_tariff",
+      "cost_allocation",
+      "disclosure",
+      "water",
+      "community_benefits",
+      "backup_generation"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Adopts the Large Load Customer Regulation Act for new or expanded loads over 20 MW at one site. Public power suppliers must set interconnection standards: disclosure of competing service requests and onsite backup generation, a study fee of $50,000 or $1,000/MW (whichever is greater), proof of site control, and financial commitments for new transmission and generation. Suppliers may set rates that fairly allocate system costs to large loads and must have procedures to procure load flexibility and require curtailment or backup-generator deployment in grid emergencies. For data centers of 10 MW or more, suppliers may require direct payment or a letter of credit for upgrades and full-cost service terms. Operators must file annual reports with the Department of Water, Energy, and Environment and the Natural Resources Committee (electricity demand, water use, tax exemptions, incentives, efficiency, renewable commitments), bear decommissioning costs, and enter community benefit agreements. Also folds in LB1111, LB1064 and LB1193 and taxes energy storage by nameplate capacity.",
+    "significance": "Nebraska's comprehensive data-center law for its all-public-power system. It pairs cost-causation tools for OPPD, NPPD and LES with mandatory water and energy disclosure and community benefit agreements. It passed 49-0.",
+    "related": [],
+    "sources": [
+      {
+        "title": "LB1010 (109th Legislature) bill page",
+        "url": "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=63217",
+        "publisher": "Nebraska Legislature",
+        "kind": "official",
+        "docId": "LB1010",
+        "excerpt": "Approved by Governor on April 14, 2026; Passed on Final Reading 49-0-0"
+      },
+      {
+        "title": "LB1010 Slip Law",
+        "url": "https://nebraskalegislature.gov/FloorDocs/109/PDF/Slip/LB1010.pdf",
+        "publisher": "Nebraska Legislature",
+        "kind": "official",
+        "docId": "LB1010 slip law",
+        "excerpt": "Large load customer means a retail load customer requesting a new or expanded interconnection where the total load at a single site would exceed twenty megawatts"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-01-13",
+    "enactedDate": "2026-04-14",
+    "caveats": "The summary comes from the slip-law text. The effective date was not confirmed; Nebraska bills without an emergency clause normally take effect three calendar months after adjournment. Nebraska's legislature is officially nonpartisan, so no party is listed."
+  },
+  {
+    "id": "NH-2026-HB1265",
+    "jurisdiction": "NH",
+    "session": "2026 Session",
+    "number": "HB 1265",
+    "title": "Prohibiting the construction of data centers in the state and establishing a committee to study the environmental impact of data centers",
+    "url": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1685&inflect=2",
+    "sponsors": [
+      {
+        "name": "Rep. Peter Schmidt",
+        "party": "D"
+      },
+      {
+        "name": "Rep. Wendy Thomas",
+        "party": "D"
+      },
+      {
+        "name": "Rep. Tony Caplan",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-03-11",
+      "text": "Inexpedient to Legislate: MA VV 03/11/2026"
+    },
+    "status": "failed",
+    "committees": [
+      "House Commerce and Consumer Affairs"
+    ],
+    "themes": [
+      "moratorium",
+      "environmental_review"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would have prohibited construction of data centers in New Hampshire and created a committee to study their environmental impact.",
+    "significance": "A proposed outright statewide ban on new data center construction. House Commerce voted it Inexpedient to Legislate 15-0, and the House killed it by voice vote.",
+    "related": [],
+    "sources": [
+      {
+        "title": "HB1265 (2026) bill status",
+        "url": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1685&inflect=2",
+        "publisher": "New Hampshire General Court",
+        "kind": "official",
+        "docId": "HB 1265",
+        "excerpt": "Status: INEXPEDIENT TO LEGISLATE"
+      },
+      {
+        "title": "HB1265 (2026) bill docket",
+        "url": "https://gc.nh.gov/bill_status/legacy/bs2016/bill_docket.aspx?lsr=2482&sy=2026&genbill=HB1265",
+        "publisher": "New Hampshire General Court",
+        "kind": "official",
+        "docId": "HB 1265",
+        "excerpt": "3/2/2026 Committee Report: Inexpedient to Legislate 02/18/2026 (Vote 15-0); 3/11/2026 Inexpedient to Legislate: MA VV"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "caveats": "Introduction date not captured; the first docket entry is 2026-02-05 (hearing notice)."
+  },
+  {
+    "id": "NH-2026-SB439",
+    "jurisdiction": "NH",
+    "session": "2026 Session",
+    "number": "SB 439",
+    "title": "Relative to municipal data center zoning",
+    "url": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1435&inflect=2",
+    "sponsors": [
+      {
+        "name": "Sen. Debra Altschiller",
+        "party": "D"
+      },
+      {
+        "name": "Rep. Hope Damon",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-08-20",
+      "text": "Died on Table, Session ended 08/19/2026"
+    },
+    "status": "failed",
+    "committees": [
+      "Senate Election Law and Municipal Affairs",
+      "House Municipal and County Government"
+    ],
+    "themes": [
+      "zoning",
+      "preemption"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Addressed municipal zoning authority over data centers. Passed the Senate with amendment 16-8 on 2026-01-29. House Municipal and County Government recommended passage with amendment 11-9, but the House tabled it 304-11 on 2026-05-14, and it died on the table when the session ended.",
+    "significance": "The only 2026 New Hampshire data-center bill to pass a chamber. It would have clarified local land-use control over data-center siting.",
+    "related": [],
+    "sources": [
+      {
+        "title": "SB439 (2026) bill status",
+        "url": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1435&inflect=2",
+        "publisher": "New Hampshire General Court",
+        "kind": "official",
+        "docId": "SB 439"
+      },
+      {
+        "title": "SB439 (2026) bill docket",
+        "url": "https://gc.nh.gov/bill_status/legacy/bs2016/bill_docket.aspx?lsr=2236&sy=2026&genbill=SB439",
+        "publisher": "New Hampshire General Court",
+        "kind": "official",
+        "docId": "SB 439",
+        "excerpt": "5/14/2026 H Lay SB439 on Table: MA DV 304-11; 8/20/2026 H Died on Table, Session ended 08/19/2026"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "caveats": "The bill text and amendments (2026-0176s, 2026-0352s, 2026-1807h) were not reviewed. The direction of the zoning provisions (more or less local control) is inferred from the title, so treat the impact rating as tentative."
+  },
+  {
+    "id": "NM-2026-SB235",
+    "jurisdiction": "NM",
+    "session": "2026 Regular Session (30-day)",
+    "number": "SB 235",
+    "title": "Microgrid Oversight Act",
+    "url": "https://www.nmlegis.gov/Legislation/Legislation?chamber=S&legType=B&legNo=235&year=26",
+    "sponsors": [
+      {
+        "name": "Sen. Jeff Steinborn",
+        "party": "D"
+      },
+      {
+        "name": "Sen. Antoinette Sedillo Lopez",
+        "party": "D"
+      },
+      {
+        "name": "Rep. Joanne J. Ferrary",
+        "party": "D"
+      },
+      {
+        "name": "Rep. Patricia Roybal Caballero",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-02-15",
+      "text": "Sent to House Judiciary (HJC); action postponed indefinitely at sine die"
+    },
+    "status": "failed",
+    "committees": [
+      "Senate Conservation",
+      "Senate Tax, Business & Transportation",
+      "House Judiciary"
+    ],
+    "themes": [
+      "clean_energy_procurement",
+      "cost_allocation",
+      "natural_gas",
+      "disclosure"
+    ],
+    "explicitDataCenter": false,
+    "impact": "restrictive",
+    "summary": "Would have enacted the Microgrid Oversight Act, requiring the Public Regulation Commission to adopt a renewable portfolio standard for microgrids aligned with the Energy Transition Act, requiring annual microgrid reporting, and barring public utility rate increases to cover microgrid infrastructure costs. Passed the Senate 22-20 (a committee substitute); never heard in the House. Replaced an earlier version, SB 39, which died in committee.",
+    "significance": "Aimed at off-grid, gas-fired microgrids proposed to power hyperscale campuses such as Project Jupiter in Doña Ana County, which could otherwise sit outside PRC and Energy Transition Act oversight. Its failure leaves behind-the-meter data-center power largely unregulated in New Mexico.",
+    "related": [],
+    "sources": [
+      {
+        "title": "SB 235 (2026) bill page",
+        "url": "https://www.nmlegis.gov/Legislation/Legislation?chamber=S&legType=B&legNo=235&year=26",
+        "publisher": "New Mexico Legislature",
+        "kind": "official",
+        "docId": "SB 235",
+        "excerpt": "Passed in the Senate - Y:22 N:20 ... Sent to HJC - Referrals: HJC; Action Postponed Indefinitely"
+      },
+      {
+        "title": "SB 235 introduced text",
+        "url": "https://www.nmlegis.gov/Sessions/26%20Regular/bills/senate/SB0235.HTML",
+        "publisher": "New Mexico Legislature",
+        "kind": "official",
+        "docId": "SB 235"
+      },
+      {
+        "title": "Senate passes bill that aims to regulate microgrids in the state",
+        "url": "https://www.abqjournal.com/news/senate-passes-bill-that-aims-to-regulate-microgrids-in-the-state/2981211",
+        "publisher": "Albuquerque Journal",
+        "kind": "journalism"
+      },
+      {
+        "title": "While you were sleeping: Senate passes microgrid bill and more",
+        "url": "https://sourcenm.com/briefs/while-you-were-sleeping-senate-passes-microgrid-bill-and-more/",
+        "publisher": "Source New Mexico",
+        "kind": "journalism"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-02-03",
+    "caveats": "The bill text does not name data centers; the link to Project Jupiter and other data centers comes from news reporting. The official action dates are a little inconsistent: the Senate vote is listed on calendar day 02/14/2026 and the referral to HJC on 02/15/2026."
+  },
+  {
+    "id": "NV-83-AB594",
+    "jurisdiction": "NV",
+    "session": "83rd Session (2025)",
+    "number": "AB 594",
+    "title": "Revises provisions relating to taxation (Board of Economic Development authority to deny or reduce abatements)",
+    "url": "https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/12957/Overview",
+    "sponsors": [
+      {
+        "name": "Assembly Committee on Ways and Means"
+      }
+    ],
+    "latestAction": {
+      "date": "2025-06-11",
+      "text": "Chapter 508 (approved by the Governor 2025-06-10)"
+    },
+    "status": "enacted",
+    "committees": [
+      "Assembly Revenue",
+      "Senate Finance"
+    ],
+    "themes": [
+      "sales_tax",
+      "property_tax",
+      "incentive_clawback"
+    ],
+    "explicitDataCenter": false,
+    "impact": "restrictive",
+    "summary": "Executive-budget tax bill. Section 1.5 lets the Board of Economic Development deny an application for a tax abatement, partial abatement or transferable tax credits, or approve a smaller amount, if granting the full amount is not in the best interests of the State; the Board may weigh listed factors. This covers the data center abatement under NRS 360.754, which previously had to be approved when statutory criteria were met.",
+    "significance": "Turned Nevada's data-center tax abatement from an entitlement into a discretionary award. Gov. Lombardo used that discretion in Executive Order 2026-005 (Sept. 2026) to set minimum tax rates and community-support commitments for data center applicants.",
+    "related": [],
+    "sources": [
+      {
+        "title": "AB 594 (2025) overview and bill history",
+        "url": "https://www.leg.state.nv.us/App/NELIS/REL/83rd2025/Bill/12957/Overview",
+        "publisher": "Nevada Legislature (NELIS)",
+        "kind": "official",
+        "docId": "AB 594",
+        "excerpt": "Section 1.5 of this bill authorizes the Board of Economic Development to deny, or approve for a lesser amount, an application for an abatement ... if ... not in the best interests of the State."
+      },
+      {
+        "title": "Lombardo curtails Nevada data center tax break program in executive order",
+        "url": "https://thenevadaindependent.com/article/lombardo-curtails-nevada-data-center-tax-break-program-in-executive-order",
+        "publisher": "The Nevada Independent",
+        "kind": "journalism"
+      },
+      {
+        "title": "Gov. Lombardo Signs Executive Order Placing Guardrails on Data Center Development",
+        "url": "https://www.gov.nv.gov/press-releases/governor-joe-lombardo-signs-executive-order-placing-guardrails-on-data-center-development-restoring-education-funding/",
+        "publisher": "Office of the Governor of Nevada",
+        "kind": "official"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "introduced": "2025-05-21",
+    "enactedDate": "2025-06-10",
+    "effectiveDate": "2025-07-01",
+    "caveats": "Bill history, chapter and effective dates come from NELIS. The NELIS bill key (12957) was taken from the session bill list. AB 594 is not specific to data centers; that it is the 2025 change the Nevada Independent describes is an inference from the matching provision, because the article does not cite a bill number. Sections 1-5 took effect July 1, 2025. A digest scan of all 2025 regular-session bills turned up none that names data centers."
+  },
+  {
+    "id": "RI-2026-S2346",
+    "jurisdiction": "RI",
+    "session": "2026 Regular Session",
+    "number": "S 2346",
+    "title": "An Act Relating to State Affairs and Government -- Rhode Island Commerce Corporation (qualified data center tax exemptions)",
+    "url": "https://status.rilegislature.gov/bill_history_report.aspx?year=2026&bills=2346",
+    "sponsors": [
+      {
+        "name": "Sen. Louis DiPalma",
+        "party": "D"
+      },
+      {
+        "name": "Sen. Frank Ciccone",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-03-10",
+      "text": "Committee recommended measure be held for further study"
+    },
+    "status": "failed",
+    "committees": [
+      "Senate Commerce"
+    ],
+    "themes": [
+      "property_tax",
+      "sales_tax"
+    ],
+    "explicitDataCenter": true,
+    "impact": "permissive",
+    "summary": "Would have created property, tangible personal property, and sales and use tax exemptions to attract qualified data centers. Reported terms: a minimum investment of $200 million in an enterprise zone or $400 million elsewhere, a 30-year equipment sales tax exemption, and labor-spending and clean-energy conditions. House companion: H 7695 (Bennett), held in House Finance on 2026-05-07.",
+    "significance": "Rhode Island's second straight attempt (after S 921/H 6097 in 2025) to create a hyperscale incentive package. Cost estimates rose and neither chamber advanced it.",
+    "related": [
+      "RI-2025-S921",
+      "RI-2026-S2776"
+    ],
+    "sources": [
+      {
+        "title": "S 2346 bill history report",
+        "url": "https://status.rilegislature.gov/bill_history_report.aspx?year=2026&bills=2346",
+        "publisher": "Rhode Island General Assembly",
+        "kind": "official",
+        "docId": "S 2346",
+        "excerpt": "03/10/2026 Committee recommended measure be held for further study"
+      },
+      {
+        "title": "S 2346 bill text",
+        "url": "https://webserver.rilegislature.gov/BillText26/SenateText26/S2346.htm",
+        "publisher": "Rhode Island General Assembly",
+        "kind": "official",
+        "docId": "S 2346"
+      },
+      {
+        "title": "H 7695 bill history report",
+        "url": "https://status.rilegislature.gov/bill_history_report.aspx?year=2026&bills=7695",
+        "publisher": "Rhode Island General Assembly",
+        "kind": "official",
+        "docId": "H 7695"
+      },
+      {
+        "title": "Rhode Island Data Center Tax Plan Faces Cost Warning",
+        "url": "https://upriseri.com/article/data-center-tax-break-estimate-more-than-doubles",
+        "publisher": "Uprise RI",
+        "kind": "journalism"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-01-30",
+    "caveats": "History comes from the official Bill History Report. 'Held for further study' with no later action means the bill died when the regular session ended in June; it is mapped to failed. Sponsor parties are from caucus membership. Investment thresholds and conditions come from secondary summaries of the bill text and were not verified line by line."
+  },
+  {
+    "id": "RI-2026-S2776",
+    "jurisdiction": "RI",
+    "session": "2026 Regular Session",
+    "number": "S 2776",
+    "title": "An Act Relating to Public Utilities and Carriers -- Public Utilities Commission (data center electric cost allocation)",
+    "url": "https://status.rilegislature.gov/bill_history_report.aspx?year=2026&bills=2776",
+    "sponsors": [
+      {
+        "name": "Sen. Louis DiPalma",
+        "party": "D"
+      },
+      {
+        "name": "Sen. Frank Ciccone",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-03-10",
+      "text": "Committee recommended measure be held for further study"
+    },
+    "status": "failed",
+    "committees": [
+      "Senate Commerce"
+    ],
+    "themes": [
+      "cost_allocation",
+      "large_load_tariff"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would have added R.I. Gen. Laws 39-1-64 requiring the PUC to assign to data centers of 50 MW or more any costs reasonably attributable to the generation, transmission or distribution facilities needed to serve them, so that other ratepayers do not bear those costs. House companion: H 7331 (Kennedy), held in House Corporations on 2026-04-07.",
+    "significance": "A ratepayer-protection counterpart to the incentive bill from the same lead sponsor. Neither moved.",
+    "related": [
+      "RI-2026-S2346"
+    ],
+    "sources": [
+      {
+        "title": "S 2776 bill history report",
+        "url": "https://status.rilegislature.gov/bill_history_report.aspx?year=2026&bills=2776",
+        "publisher": "Rhode Island General Assembly",
+        "kind": "official",
+        "docId": "S 2776"
+      },
+      {
+        "title": "S 2776 bill text",
+        "url": "https://webserver.rilegislature.gov/BillText26/SenateText26/S2776.htm",
+        "publisher": "Rhode Island General Assembly",
+        "kind": "official",
+        "docId": "S 2776",
+        "excerpt": "'data center' means a facility ... having a projected or actual electric demand of fifty megawatts (50 MW) or greater at a single site"
+      },
+      {
+        "title": "H 7331 bill history report",
+        "url": "https://status.rilegislature.gov/bill_history_report.aspx?year=2026&bills=7331",
+        "publisher": "Rhode Island General Assembly",
+        "kind": "official",
+        "docId": "H 7331"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-03-04",
+    "caveats": "History comes from the official Bill History Report. 'Held for further study' with no later action means the bill died when the regular session ended in June; it is mapped to failed. Sponsor parties are from caucus membership."
+  },
+  {
+    "id": "RI-2025-S921",
+    "jurisdiction": "RI",
+    "session": "2025 Regular Session",
+    "number": "S 921",
+    "title": "An Act Relating to State Affairs and Government -- Rhode Island Commerce Corporation -- Qualified Data Centers Location Incentive",
+    "url": "https://status.rilegislature.gov/bill_history_report.aspx?year=2025&bills=921",
+    "sponsors": [
+      {
+        "name": "Sen. Louis DiPalma",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2025-05-06",
+      "text": "Committee recommended measure be held for further study"
+    },
+    "status": "failed",
+    "committees": [
+      "Senate Commerce"
+    ],
+    "themes": [
+      "sales_tax",
+      "property_tax"
+    ],
+    "explicitDataCenter": true,
+    "impact": "permissive",
+    "summary": "Would have created a qualified data center designation with tax exemptions to attract data center investment. House companion: H 6097 (Finkelman, Baginski), held in House Finance on 2025-05-06.",
+    "significance": "The first version of the Rhode Island data center incentive; it was refiled in 2026 as S 2346/H 7695.",
+    "related": [
+      "RI-2026-S2346"
+    ],
+    "sources": [
+      {
+        "title": "S 921 (2025) bill history report",
+        "url": "https://status.rilegislature.gov/bill_history_report.aspx?year=2025&bills=921",
+        "publisher": "Rhode Island General Assembly",
+        "kind": "official",
+        "docId": "S 921"
+      },
+      {
+        "title": "H 6097 (2025) bill history report",
+        "url": "https://status.rilegislature.gov/bill_history_report.aspx?year=2025&bills=6097",
+        "publisher": "Rhode Island General Assembly",
+        "kind": "official",
+        "docId": "H 6097"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2025-03-28",
+    "caveats": "History comes from the official Bill History Report. 'Held for further study' with no later action means the bill died when the regular session ended in June; it is mapped to failed. Sponsor parties are from caucus membership."
+  },
+  {
+    "id": "UT-2025-SB132",
+    "jurisdiction": "UT",
+    "session": "2025 General Session",
+    "number": "S.B. 132 (5th Substitute)",
+    "title": "Electric Utility Amendments",
+    "url": "https://le.utah.gov/~2025/bills/static/SB0132.html",
+    "sponsors": [
+      {
+        "name": "Sen. Scott D. Sandall",
+        "party": "R"
+      },
+      {
+        "name": "Rep. Colin W. Jack",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2025-03-25",
+      "text": "Governor Signed"
+    },
+    "status": "enacted",
+    "committees": [
+      "Senate Natural Resources, Agriculture, and Environment",
+      "House Natural Resources, Agriculture, and Environment"
+    ],
+    "themes": [
+      "large_load_tariff",
+      "cost_allocation",
+      "grid_capacity",
+      "backup_generation"
+    ],
+    "explicitDataCenter": false,
+    "impact": "permissive",
+    "summary": "Creates alternative ways to serve large electrical loads. Large-load customers (e.g., data centers) can contract for service through qualified utilities or third-party large-scale generation providers, partly exempt from standard rate regulation. Sets up closed private generation and connected generation systems, adds accounting and transparency requirements to protect retail customers, and directs the PSC to study a flexible large-load tariff and review the program periodically.",
+    "significance": "Utah's main framework for hyperscale and AI campuses. It lets them bring or contract their own generation outside Rocky Mountain Power's standard rate base and adds ratepayer-protection accounting.",
+    "related": [],
+    "sources": [
+      {
+        "title": "S.B. 132 Electric Utility Amendments (2025)",
+        "url": "https://le.utah.gov/~2025/bills/static/SB0132.html",
+        "publisher": "Utah State Legislature",
+        "kind": "official",
+        "docId": "S.B. 132"
+      },
+      {
+        "title": "Utah Legislature bill data feed for SB0132",
+        "url": "https://le.utah.gov/data/2025GS/SB0132.json",
+        "publisher": "Utah State Legislature",
+        "kind": "data",
+        "docId": "SB0132"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2025-01-20",
+    "enactedDate": "2025-03-25",
+    "caveats": "Sponsors, provisions and action history from the Legislature's official bill page and JSON feed. Party affiliations are not in the feed; they are supplied from caucus membership."
+  },
+  {
+    "id": "UT-2026-HB76",
+    "jurisdiction": "UT",
+    "session": "2026 General Session",
+    "number": "H.B. 76 (3rd Substitute)",
+    "title": "Data Center Water Transparency Amendments",
+    "url": "https://le.utah.gov/~2026/bills/static/HB0076.html",
+    "sponsors": [
+      {
+        "name": "Rep. Jill Koford",
+        "party": "R"
+      },
+      {
+        "name": "Sen. Scott D. Sandall",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-03-23",
+      "text": "Governor Signed"
+    },
+    "status": "enacted",
+    "committees": [
+      "House Economic Development and Workforce Services",
+      "Senate Natural Resources, Agriculture, and Environment"
+    ],
+    "themes": [
+      "water",
+      "disclosure"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Requires operators of certain large data centers to communicate with water providers and to report water use before construction and annually. Directs land use authorities to issue certain notices, addresses public disclosure of the reported information, and provides enforcement and rulemaking.",
+    "significance": "Utah's first data-center-specific water-transparency statute, in a drought-stressed state that is courting hyperscale development. Recommended by the Legislative Water Development Commission.",
+    "related": [],
+    "sources": [
+      {
+        "title": "H.B. 76 Data Center Water Transparency Amendments (2026)",
+        "url": "https://le.utah.gov/~2026/bills/static/HB0076.html",
+        "publisher": "Utah State Legislature",
+        "kind": "official",
+        "docId": "H.B. 76"
+      },
+      {
+        "title": "Utah Legislature bill data feed for HB0076",
+        "url": "https://le.utah.gov/data/2026GS/HB0076.json",
+        "publisher": "Utah State Legislature",
+        "kind": "data",
+        "docId": "HB0076"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-01-14",
+    "enactedDate": "2026-03-23",
+    "caveats": "Sponsors, provisions and action history from the Legislature's official bill page and JSON feed. Party affiliations are not in the feed; they are supplied from caucus membership."
+  },
+  {
+    "id": "UT-2026-SB282",
+    "jurisdiction": "UT",
+    "session": "2026 General Session",
+    "number": "S.B. 282",
+    "title": "Electrical Grid Amendments",
+    "url": "https://le.utah.gov/~2026/bills/static/SB0282.html",
+    "sponsors": [
+      {
+        "name": "Sen. Nate Blouin",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-03-06",
+      "text": "Senate/ strike enacting clause; Senate/ filed"
+    },
+    "status": "failed",
+    "committees": [
+      "Senate Transportation, Public Utilities, Energy, and Technology"
+    ],
+    "themes": [
+      "large_load_tariff",
+      "cost_allocation",
+      "disclosure"
+    ],
+    "explicitDataCenter": false,
+    "impact": "restrictive",
+    "summary": "Would have required large load contracts to show a net positive or neutral effect on reliability and on retail customer costs, include reciprocal-benefit provisions, require financial security before construction, and require annual resource-use reports from large load customers. Would also have tightened PSC review.",
+    "significance": "Democratic attempt to tighten the 2025 S.B. 132 large-load framework. The committee returned it to Rules without a favorable recommendation.",
+    "related": [
+      "UT-2025-SB132"
+    ],
+    "sources": [
+      {
+        "title": "S.B. 282 Electrical Grid Amendments (2026)",
+        "url": "https://le.utah.gov/~2026/bills/static/SB0282.html",
+        "publisher": "Utah State Legislature",
+        "kind": "official",
+        "docId": "S.B. 282"
+      },
+      {
+        "title": "Utah Legislature bill data feed for SB0282",
+        "url": "https://le.utah.gov/data/2026GS/SB0282.json",
+        "publisher": "Utah State Legislature",
+        "kind": "data",
+        "docId": "SB0282"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-02-10",
+    "caveats": "Not passed: the enacting clause was struck and the bill was filed at sine die on 2026-03-06. Sponsors, provisions and action history from the Legislature's official bill page and JSON feed. Party affiliations are not in the feed; they are supplied from caucus membership."
+  },
+  {
+    "id": "UT-2026-SB318",
+    "jurisdiction": "UT",
+    "session": "2026 General Session",
+    "number": "S.B. 318",
+    "title": "Data Center Non Disclosure Amendments",
+    "url": "https://le.utah.gov/~2026/bills/static/SB0318.html",
+    "sponsors": [
+      {
+        "name": "Sen. Nate Blouin",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-03-06",
+      "text": "Senate/ strike enacting clause; Senate/ filed"
+    },
+    "status": "failed",
+    "committees": [],
+    "themes": [
+      "disclosure",
+      "community_benefits"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would have barred state agencies, cities, towns and counties from entering into non-disclosure agreements with prospective data centers, made such NDAs void and unenforceable, and required public disclosure of them.",
+    "significance": "Responds to secrecy around hyperscale siting deals. It never left Senate Rules.",
+    "related": [],
+    "sources": [
+      {
+        "title": "S.B. 318 Data Center Non Disclosure Amendments (2026)",
+        "url": "https://le.utah.gov/~2026/bills/static/SB0318.html",
+        "publisher": "Utah State Legislature",
+        "kind": "official",
+        "docId": "S.B. 318"
+      },
+      {
+        "title": "Utah Legislature bill data feed for SB0318",
+        "url": "https://le.utah.gov/data/2026GS/SB0318.json",
+        "publisher": "Utah State Legislature",
+        "kind": "data",
+        "docId": "SB0318"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-02-23",
+    "caveats": "Not passed: the enacting clause was struck and the bill was filed at sine die on 2026-03-06. Sponsors, provisions and action history from the Legislature's official bill page and JSON feed. Party affiliations are not in the feed; they are supplied from caucus membership."
+  },
+  {
+    "id": "UT-2026-HB585",
+    "jurisdiction": "UT",
+    "session": "2026 General Session",
+    "number": "H.B. 585",
+    "title": "Data Center Amendments",
+    "url": "https://le.utah.gov/~2026/bills/static/HB0585.html",
+    "sponsors": [
+      {
+        "name": "Rep. Rosalba Dominguez",
+        "party": "D"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-03-06",
+      "text": "House/ strike enacting clause; House/ filed"
+    },
+    "status": "failed",
+    "committees": [
+      "House Public Utilities and Energy"
+    ],
+    "themes": [
+      "disclosure",
+      "grid_capacity"
+    ],
+    "explicitDataCenter": true,
+    "impact": "restrictive",
+    "summary": "Would have required large data centers to report energy use to electrical corporations, which would in turn report to the Public Service Commission, with commission reporting to the Legislature and enforcement mechanisms.",
+    "significance": "An energy-use counterpart to H.B. 76's water reporting. The House Public Utilities and Energy Committee returned it to Rules on 2026-03-02.",
+    "related": [
+      "UT-2026-HB76"
+    ],
+    "sources": [
+      {
+        "title": "H.B. 585 Data Center Amendments (2026)",
+        "url": "https://le.utah.gov/~2026/bills/static/HB0585.html",
+        "publisher": "Utah State Legislature",
+        "kind": "official",
+        "docId": "H.B. 585"
+      },
+      {
+        "title": "Utah Legislature bill data feed for HB0585",
+        "url": "https://le.utah.gov/data/2026GS/HB0585.json",
+        "publisher": "Utah State Legislature",
+        "kind": "data",
+        "docId": "HB0585"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "high",
+    "introduced": "2026-02-18",
+    "caveats": "Not passed: the enacting clause was struck and the bill was filed at sine die on 2026-03-06. Sponsors, provisions and action history from the Legislature's official bill page and JSON feed. Party affiliations are not in the feed; they are supplied from caucus membership."
+  },
+  {
+    "id": "WY-2025-SF193",
+    "jurisdiction": "WY",
+    "session": "2025 General Session",
+    "number": "SF0193",
+    "title": "Electric utility service agreements-large loads",
+    "url": "https://wyoleg.gov/Legislation/2025/SF0193",
+    "sponsors": [
+      {
+        "name": "Sen. Cale Case",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2025-03-03",
+      "text": "S: Died in Committee, returned bill pursuant to SR 5-4"
+    },
+    "status": "failed",
+    "committees": [
+      "Senate S07 - Corporations"
+    ],
+    "themes": [
+      "large_load_tariff",
+      "cost_allocation"
+    ],
+    "explicitDataCenter": false,
+    "impact": "restrictive",
+    "summary": "Would have required electric utilities to enter into service agreements with certain large-load customers on specified terms.",
+    "significance": "An early Wyoming attempt to set statutory terms for hyperscale and crypto loads. Its death left large-load terms to utility tariffs (e.g., Black Hills Energy's) and to PSC action.",
+    "related": [],
+    "sources": [
+      {
+        "title": "SF0193 (2025) bill page",
+        "url": "https://wyoleg.gov/Legislation/2025/SF0193",
+        "publisher": "Wyoming Legislature",
+        "kind": "official",
+        "docId": "SF0193"
+      },
+      {
+        "title": "Wyoming LSO bill information API record for SF0193 (2025)",
+        "url": "https://web.wyoleg.gov/LsoService/api/BillInformation/2025/SF0193",
+        "publisher": "Wyoming Legislature",
+        "kind": "data",
+        "docId": "SF0193"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "introduced": "2025-01-29",
+    "caveats": "Status, sponsor and action history come from the Legislative Service Office bill information API that backs the bill page. The summary is based on the official title and digest; the bill text PDF was not reviewed. The title does not use the words 'data center'; it is relevant because it targets large loads."
+  },
+  {
+    "id": "WY-2026-SF76",
+    "jurisdiction": "WY",
+    "session": "2026 Budget Session",
+    "number": "SF0076",
+    "title": "Distribution of taxes on large electrical loads",
+    "url": "https://wyoleg.gov/Legislation/2026/SF0076",
+    "sponsors": [
+      {
+        "name": "Sen. Cale Case",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-02-10",
+      "text": "S Failed Introduction 17-13-1-0-0"
+    },
+    "status": "failed",
+    "committees": [],
+    "themes": [
+      "sales_tax",
+      "community_benefits"
+    ],
+    "explicitDataCenter": false,
+    "impact": "mixed",
+    "summary": "Would have set how sales tax collected on electricity sold to very large electrical loads is distributed. It included a definition of very large loads and reporting requirements.",
+    "significance": "Would have steered revenue from data-center-scale power purchases. It got a 17-13 majority but fell short of the two-thirds vote needed to introduce a non-budget bill in the budget session. Sen. Case has kept pursuing large-load and generation taxes in the 2026 interim.",
+    "related": [],
+    "sources": [
+      {
+        "title": "SF0076 (2026) bill page",
+        "url": "https://wyoleg.gov/Legislation/2026/SF0076",
+        "publisher": "Wyoming Legislature",
+        "kind": "official",
+        "docId": "SF0076"
+      },
+      {
+        "title": "Wyoming LSO bill information API record for SF0076 (2026)",
+        "url": "https://web.wyoleg.gov/LsoService/api/BillInformation/2026/SF0076",
+        "publisher": "Wyoming Legislature",
+        "kind": "data",
+        "docId": "SF0076"
+      },
+      {
+        "title": "Wyoming lawmakers mull electric generation tax to address average customers' rising bills",
+        "url": "https://wyofile.com/wyoming-lawmakers-mull-electric-generation-tax-to-address-average-customers-rising-bills/",
+        "publisher": "WyoFile",
+        "kind": "journalism",
+        "published": "2026-06-16"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "introduced": "2026-02-06",
+    "caveats": "Status, sponsor and action history come from the Legislative Service Office bill information API that backs the bill page. The summary is based on the official title and digest; the bill text PDF was not reviewed. The title does not use the words 'data center'; it is relevant because it targets large loads."
+  },
+  {
+    "id": "WY-2026-HB139",
+    "jurisdiction": "WY",
+    "session": "2026 Budget Session",
+    "number": "HB0139",
+    "title": "Exempting specified retail electric sales from regulation",
+    "url": "https://wyoleg.gov/Legislation/2026/HB0139",
+    "sponsors": [
+      {
+        "name": "Rep. Filer",
+        "party": "R"
+      }
+    ],
+    "latestAction": {
+      "date": "2026-02-11",
+      "text": "H Failed Introduction 31-30-1-0-0"
+    },
+    "status": "failed",
+    "committees": [],
+    "themes": [
+      "large_load_tariff",
+      "preemption",
+      "grid_capacity"
+    ],
+    "explicitDataCenter": false,
+    "impact": "permissive",
+    "summary": "Would have exempted retail electricity sales by specified non-utility sellers to specified customers from Public Service Commission regulation, so that large industrial and data-center loads could be served directly by independent generators.",
+    "significance": "A deregulation path for powering data centers outside utility service territories. It failed introduction, and an interim draft along the same lines (25 MW single customer / 100 MW combined) was narrowly killed in August 2026. The issue is expected to return in 2027.",
+    "related": [],
+    "sources": [
+      {
+        "title": "HB0139 (2026) bill page",
+        "url": "https://wyoleg.gov/Legislation/2026/HB0139",
+        "publisher": "Wyoming Legislature",
+        "kind": "official",
+        "docId": "HB0139"
+      },
+      {
+        "title": "Wyoming LSO bill information API record for HB0139 (2026)",
+        "url": "https://web.wyoleg.gov/LsoService/api/BillInformation/2026/HB0139",
+        "publisher": "Wyoming Legislature",
+        "kind": "data",
+        "docId": "HB0139"
+      },
+      {
+        "title": "Wyoming lawmakers consider energy deregulation for data centers, industrial power",
+        "url": "https://county17.com/2026/06/04/wyoming-lawmakers-consider-energy-deregulation-for-data-centers-industrial-power/",
+        "publisher": "County 17",
+        "kind": "journalism",
+        "published": "2026-06-04"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "introduced": "2026-02-10",
+    "caveats": "Status, sponsor and action history come from the Legislative Service Office bill information API that backs the bill page. The summary is based on the official title and digest; the bill text PDF was not reviewed. The title does not use the words 'data center'; it is relevant because it targets large loads. The link to data centers and the interim-draft details come from news reporting."
+  }
+]
