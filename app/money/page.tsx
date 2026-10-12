@@ -1,12 +1,13 @@
 import { connection } from "next/server";
 import Link from "next/link";
 import StateMoneyPicker from "@/components/StateMoneyPicker";
+import StateCoverage, { type CoverageRow } from "@/components/StateCoverage";
 import { AdImpactPosts, EcGroups, GoogleAdvertisers } from "@/components/AdsSection";
 import { CategoryBadge, LeanBar, SpenderName, titleCase } from "@/components/money";
 import { Empty, Freshness, money } from "@/components/ui";
-import { getAdImpactPosts, getAdapter, getAllStateMoney, getEcGroups, getEntity, getGoogleAdvertisers, getGoogleSummary, getLobbyBills, getLobbyClients, getLobbySummary, getTopPacGivers, getTopSpenders } from "@/lib/repo";
+import { getAdImpactPosts, getAdapter, getAllStateMoney, getStateDonors, getStateLobby, getStateMoneySource, getEcGroups, getEntity, getGoogleAdvertisers, getGoogleSummary, getLobbyBills, getLobbyClients, getLobbySummary, getTopPacGivers, getTopSpenders } from "@/lib/repo";
 import type { Bill } from "@/lib/schema";
-import { stateName } from "@/lib/states";
+import { STATES, stateName } from "@/lib/states";
 
 export const metadata = { title: "Money & influence" };
 
@@ -25,6 +26,20 @@ export default async function MoneyPage() {
   const adimpact = getAdImpactPosts();
   const lda = getAdapter("lda");
   const totalOutside = states.reduce((n, s) => n + s.data.total, 0);
+  const coverage: CoverageRow[] = STATES.filter((s) => s.code !== "DC").map((s) => {
+    const src = getStateMoneySource(s.code);
+    const status = (has: boolean, part?: { method: string; robotsOrTermsBlock: boolean }, manual = false) =>
+      has ? (manual ? "manual" : "integrated") : !part ? "pending" : part.robotsOrTermsBlock ? "blocked" : part.method === "none" ? "unavailable" : "pending";
+    return {
+      code: s.code,
+      name: s.name,
+      federal: states.some((x) => x.state === s.code),
+      stateFinance: status(Boolean(getStateDonors(s.code)), src?.campaignFinance, s.code === "TX"),
+      lobbying: status(Boolean(getStateLobby(s.code)), src?.lobbying),
+      financeNote: src ? `${src.campaignFinance.agency}: ${src.campaignFinance.method}${src.campaignFinance.blockNote ? ` · ${src.campaignFinance.blockNote}` : ""}` : "",
+      lobbyNote: src ? `${src.lobbying.agency}: ${src.lobbying.method}${src.lobbying.blockNote ? ` · ${src.lobbying.blockNote}` : ""}` : "",
+    };
+  });
   const latest = spenders.map((s) => s.data.outside?.lastDate ?? "").sort().at(-1);
 
   return (
@@ -172,6 +187,8 @@ export default async function MoneyPage() {
           </p>
         )}
       </Block>
+
+      <div className="mb-4"><StateCoverage rows={coverage} /></div>
 
       <details className="rounded-xl border border-slate-200 p-4 text-sm text-slate-600">
         <summary className="cursor-pointer font-medium text-slate-800">How to read these numbers</summary>
