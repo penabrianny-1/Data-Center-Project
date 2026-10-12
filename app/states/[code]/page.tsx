@@ -5,6 +5,7 @@ import type { ReactNode } from "react";
 import CountyMap from "@/components/CountyMap";
 import DiscoveredBills from "@/components/DiscoveredBills";
 import StateRaceMoney from "@/components/StateRaceMoney";
+import { StateDataGap, StateLobby } from "@/components/StateLobby";
 import { AdImpactPosts, EcGroups, GoogleStateList } from "@/components/AdsSection";
 import NewsTabs from "@/components/NewsTabs";
 import { CommissionCard, DimensionTable, DocketList, RaceSummary } from "@/components/records";
@@ -16,7 +17,7 @@ import { getCountyShapes } from "@/lib/data";
 import { countyActionIndex } from "@/lib/local";
 import {
   getBills, getCandidatesForRace, getCommission, getCountiesInState, getDevelopmentsForState, getDiscoveredBills, getDockets,
-  getLobbyClients, getLocalActions, getNews, getPolicy, getRaces, getState, getStateGovernment, getStateMoney, getStateDonors, getStateCandMoneyList, getGoogleState, getEcGroups, getAdImpactPosts,
+  getLobbyClients, getLocalActions, getNews, getPolicy, getRaces, getState, getStateGovernment, getStateMoney, getStateDonors, getStateCandMoneyList, getGoogleState, getEcGroups, getAdImpactPosts, getStateLobby, getStateMoneySource,
 } from "@/lib/repo";
 import type { Dimension } from "@/lib/schema";
 import { composite, PRESETS, band } from "@/lib/scoring";
@@ -70,6 +71,8 @@ export default async function StatePage({ params }: PageProps<"/states/[code]">)
   const stateMoney = getStateMoney(code);
   const lobbyClients = getLobbyClients(8, code);
   const stateDonors = getStateDonors(code);
+  const stateLobby = getStateLobby(code);
+  const moneySource = getStateMoneySource(code);
   const googleState = getGoogleState(code);
   const ecGroups = getEcGroups();
   const { shapes, borders, viewBox } = await getCountyShapes(meta.fips);
@@ -218,8 +221,15 @@ export default async function StatePage({ params }: PageProps<"/states/[code]">)
             <StateRaceMoney donors={stateDonors} candidates={getStateCandMoneyList(code)} agency={code === "TX" ? "Texas Ethics Commission" : "State campaign finance agency"} />
           </div>
         ) : (
-          <p className="mt-2 text-xs text-slate-400">Federal races only. State-race money (governor, legislature) for {meta.name} is filed with the state and isn&apos;t integrated yet.</p>
+          <div className="mt-8">
+            <h3 className="mb-2 text-lg font-bold">State races (governor, statewide offices, legislature)</h3>
+            <StateDataGap kind="campaign finance" src={moneySource?.campaignFinance} />
+          </div>
         )}
+        <div className="mt-8">
+          <h3 className="mb-2 text-lg font-bold">State lobbying</h3>
+          {stateLobby ? <StateLobby lobby={stateLobby} /> : <StateDataGap kind="lobbying" src={moneySource?.lobbying} />}
+        </div>
       </Block>
 
       <h2 className="mb-3 text-lg font-bold">More detail</h2>

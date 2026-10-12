@@ -4,7 +4,8 @@
  * built yet, every query returns empty results and `dbStatus()` says so.
  */
 import "server-only";
-import { existsSync, statSync } from "node:fs";
+import { existsSync, readFileSync, statSync } from "node:fs";
+import { join } from "node:path";
 import type { DatabaseSync } from "node:sqlite";
 import { DB_PATH, openDb } from "./db";
 import type { EntityKind } from "./ingest/types";
@@ -461,7 +462,7 @@ export interface StateCandMoneyData {
 }
 export interface StateDonorsData {
   since: string | null; total: number; topEntities: StateDonor[]; topIndividuals: StateDonor[];
-  statewide: { filerIdent: string; name: string; office: string; total: number }[]; archiveLastModified: string | null;
+  statewide: { filerIdent: string; name: string; office: string; total: number }[]; archiveLastModified: string | null; agency?: string;
 }
 export const getStateDonors = (st: string) => getEntity<StateDonorsData>(`statedonors:${st}`);
 export const getStateCandMoneyList = (st: string) =>
@@ -486,3 +487,25 @@ export const getEcGroups = () => all<EcGroupData>("SELECT * FROM entities WHERE 
 export interface AdImpactPost { title: string; date: string | null; author: string | null; url: string; figures: string[]; states: string[] }
 export const getAdImpactPosts = (state?: string) =>
   all<AdImpactPost>("SELECT * FROM entities WHERE id LIKE 'adimpact:%' ORDER BY date DESC").filter((p) => !state || p.data.states.includes(state));
+
+export interface StateLobbyData {
+  state: string; agency: string; period: string; amountMeaning: string | null; dataAsOf: string | null; registrations: number; clientCount: number;
+  topClients: { name: string; amount: number | null; filings: number; lobbyists: string[]; firms: string[]; issues: string[]; dataCenter: boolean }[];
+  dataCenterClients: StateLobbyData["topClients"];
+}
+export const getStateLobby = (st: string) => getEntity<StateLobbyData>(`statelobby:${st}`);
+
+export interface StateMoneySource {
+  state: string;
+  campaignFinance: { agency: string; page: string; method: string; robotsOrTermsBlock: boolean; blockNote: string; notes: string };
+  lobbying: { agency: string; page: string; method: string; robotsOrTermsBlock: boolean; blockNote: string; notes: string };
+}
+/** Official state campaign-finance & lobbying data access map (researched 2026-10-12). */
+export function getStateMoneySource(st: string): StateMoneySource | null {
+  try {
+    const list = JSON.parse(readFileSync(join(process.cwd(), "data", "seed", "state-money-sources.json"), "utf8")) as StateMoneySource[];
+    return list.find((x) => x.state === st) ?? null;
+  } catch {
+    return null;
+  }
+}

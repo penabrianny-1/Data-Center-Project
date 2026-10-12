@@ -63,7 +63,7 @@ export default function StateRaceMoney({ donors, candidates, agency }: { donors:
         </div>
       </div>
       <p className="text-xs text-slate-400">
-        Source: {agency} bulk data. Itemized contributions since {donors.data.since}, to candidates and their supporting committees, with superseded reports excluded and transfers between a candidate&apos;s own committees removed.
+        Source: {donors.data.agency ?? agency}. Itemized contributions since {donors.data.since}, to candidates and their supporting committees, with superseded reports excluded and transfers between a candidate&apos;s own committees removed.
       </p>
     </div>
   );
