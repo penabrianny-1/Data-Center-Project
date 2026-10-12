@@ -1,3 +1,4 @@
+import { isDomestic as isDomesticImpl } from "./geo-text";
 /**
  * Rule-based categorization of news stories, modeled on datacenterbans.com's
  * scheme: a topic (Moratoriums, Construction, AI Legislation, …) plus a status
@@ -57,11 +58,9 @@ const SIGNAL_RULES: { signal: Exclude<NewsSignal, "none">; re: RegExp }[] = [
   { signal: "favorable", re: /\b(approv\w* .{0,60}(data cent|project|campus|rezoning|tax break|incentive|plan)|tax (break|incentive|exemption)s? (approved|extended|granted)|welcome\w*|lands? .{0,20}data cent|breaks? ground|groundbreaking)\b/i },
 ];
 
-/** Non-U.S. places that mark a story as international (U.S. state names override). */
-const FOREIGN = /\b(Canada|Canadian|Mexico|Brazil|Chile|UK|U\.K\.|Britain|British|England|Scotland|Ireland|Irish|Europe|European|EU|Germany|German|France|French|Netherlands|Dutch|Rotterdam|Amsterdam|Belgium|Spain|Spanish|Portugal|Italy|Italian|Poland|Polish|Nordic|Norway|Sweden|Swedish|Finland|Denmark|Danish|Iceland|Russia|Russian|Ukraine|India|Indian|China|Chinese|Japan|Japanese|Korea|Korean|Taiwan|Singapore|Malaysia|Johor|Indonesia|Indonesian|Borneo|Thailand|Vietnam|Philippines|Australia|Australian|New Zealand|Saudi|UAE|Emirates|Abu Dhabi|Dubai|Qatar|Israel|Iran|Africa|African|Nigeria|Kenya|Egypt|Turkey|North Sea|Asia-Pacific|APAC|EMEA|LATAM|Latin America)\b/;
-
+/** @deprecated use isDomestic from ./geo-text */
 export function isInternational(text: string, statesTagged: number): boolean {
-  return statesTagged === 0 && FOREIGN.test(text) && !/\b(U\.S\.|United States|American|Congress|federal|FERC|PJM|ERCOT|MISO)\b/.test(text);
+  return !isDomesticImpl(text, statesTagged);
 }
 
 export interface Classification {

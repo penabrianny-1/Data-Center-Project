@@ -1,6 +1,7 @@
 import * as cheerio from "cheerio";
 import { sha } from "../db";
 import type { Adapter, Entity } from "../ingest/types";
+import { isDomestic, isSponsored, statesFromPlaces } from "../geo-text";
 import type { OutletType } from "../outlets";
 import { STATES } from "../states";
 
@@ -217,8 +218,10 @@ export function parseFeed(xml: string, feed: Feed): NewsItem[] {
       : n.find("pubDate").first().text() || n.find("published").first().text() || n.find("updated").first().text() || n.find("dc\\:date").first().text();
     const summary = sitemap ? "" : strip(n.find("description").first().text() || n.find("summary").first().text()).slice(0, 400);
     if (!title || !/^https?:\/\//.test(link)) return;
-    if (/^sponsored\b|^\[?sponsored|paid post|partner content/i.test(title)) return; // advertising, not news
+    if (isSponsored(title)) return; // advertising, not news
     const text = `${title} ${summary}`;
+    const states = [...new Set([...tagStates(text, feed.state), ...statesFromPlaces(text)])];
+    if (!isDomestic(title, states.length, summary)) return; // domestic happenings only
     // Even newsroom-curated tag feeds occasionally carry off-topic items. Official
     // releases also qualify on energy/AI-infrastructure policy terms.
     if (!RELEVANT.test(text) && !(feed.mode === "official" && OFFICIAL_RELEVANT.test(text))) return;
@@ -231,7 +234,7 @@ export function parseFeed(xml: string, feed: Feed): NewsItem[] {
       outlet: feed.outlet,
       feedId: feed.id,
       outletType: feed.type,
-      states: tagStates(text, feed.state),
+      states,
       policySignal: POLICY.test(text),
     });
   });

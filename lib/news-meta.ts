@@ -1,5 +1,6 @@
 import type { OutletType } from "./outlets";
-import { classifyNews, isInternational, type NewsCategory, type NewsSignal } from "./news-classify";
+import { classifyNews, type NewsCategory, type NewsSignal } from "./news-classify";
+import { FOREIGN, isDomestic, namesUSPlace, statesFromPlaces } from "./geo-text";
 
 export const OUTLET_TYPE_LABEL: Record<OutletType, string> = {
   government: "Official (.gov)",
@@ -40,7 +41,16 @@ export interface ClassifiedNews {
 /** Attach the rule-based category/signal (computed at read time so rule changes apply to the whole archive). */
 export function classify(item: { id: string; title: string; date: string | null; data: NewsData }): ClassifiedNews {
   const c = classifyNews(item.title, item.data.summary ?? "");
-  return { ...item, ...c, international: isInternational(`${item.title} ${item.data.summary ?? ""}`, item.data.states.length) };
+  const text = `${item.title} ${item.data.summary ?? ""}`;
+  // Add states named via cities/counties/hubs (e.g. "Memphis" → TN).
+  const states = [...new Set([...item.data.states, ...statesFromPlaces(text)])];
+  // Google News items carry the searched state, which only proves the article mentions it somewhere,
+  // so a headline about a foreign place with no U.S. place in it is treated as international.
+  const international =
+    item.data.via === "Google News"
+      ? FOREIGN.test(item.title) && !namesUSPlace(item.title.replace(/[‘“"'][^‘’“”"']{1,60}[’”"']/g, " "))
+      : !isDomestic(item.title, states.length, item.data.summary ?? "");
+  return { ...item, data: { ...item.data, states }, ...c, international };
 }
 
 export const SIGNAL_TONE: Record<NewsSignal, "red" | "amber" | "violet" | "green" | "slate"> = {

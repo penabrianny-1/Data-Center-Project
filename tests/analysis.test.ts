@@ -61,14 +61,14 @@ describe("news feed parsing", () => {
   });
 
   it("parses Google News sitemaps (CNN)", () => {
-    const sm = `<urlset xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"><url><loc>https://www.cnn.com/2026/10/12/tech/data-center-power</loc><news:news><news:publication_date>2026-10-12T10:00:00Z</news:publication_date><news:title>Data center boom strains the grid</news:title></news:news></url><url><loc>https://www.cnn.com/x</loc><news:news><news:title>Sports</news:title></news:news></url></urlset>`;
+    const sm = `<urlset xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"><url><loc>https://www.cnn.com/2026/10/12/tech/data-center-power</loc><news:news><news:publication_date>2026-10-12T10:00:00Z</news:publication_date><news:title>Data center boom strains the Texas grid</news:title></news:news></url><url><loc>https://www.cnn.com/x</loc><news:news><news:title>Sports</news:title></news:news></url></urlset>`;
     const items = parseFeed(sm, { ...general, mode: "sitemap" });
     expect(items).toHaveLength(1);
     expect(items[0]).toMatchObject({ url: "https://www.cnn.com/2026/10/12/tech/data-center-power", published: "2026-10-12T10:00:00.000Z" });
   });
 
   it("parses Atom", () => {
-    const atom = `<feed><entry><title>Hyperscale campus proposed</title><link href="https://y.org/1"/><updated>2026-10-01T00:00:00Z</updated></entry></feed>`;
+    const atom = `<feed><entry><title>Hyperscale campus proposed in Ohio</title><link href="https://y.org/1"/><updated>2026-10-01T00:00:00Z</updated></entry></feed>`;
     expect(parseFeed(atom, general)[0].url).toBe("https://y.org/1");
   });
 
@@ -154,10 +154,16 @@ describe("news categorization", () => {
     expect(c("Shapiro, Garrity spar on data centers in gubernatorial debate", "election").category).toBe("elections");
     expect(c("Hyperscaler buys chips").category).toBe("industry");
   });
-  it("detects international stories without a U.S. anchor", () => {
+  it("keeps only domestic happenings", async () => {
+    const { isDomestic, statesFromPlaces } = await import("../lib/geo-text");
     expect(isInternational("Council rejects 80MW data center in northern Italy", 0)).toBe(true);
-    expect(isInternational("FERC and Canada grid operators coordinate", 0)).toBe(false);
-    expect(isInternational("Italy-based firm builds in Ohio", 1)).toBe(false);
+    expect(isDomestic("FiveNines Group partners on 20MW data center in Morocco", 0)).toBe(false);
+    expect(isDomestic("Ohio lawmakers mull energy overhaul", 1, "Demand from China-linked chip plants")).toBe(true);
+    expect(isDomestic("What a $30bn Aussie data centre IPO debacle means", 0)).toBe(false);
+    expect(isDomestic("Haaland backs data center moratorium in New Mexico", 1)).toBe(true);
+    expect(isDomestic("America’s data center backlash is bipartisan", 0)).toBe(true);
+    expect(isDomestic("How to make data centers less thirsty", 0)).toBe(false); // no U.S. place: not a domestic happening
+    expect(statesFromPlaces("Memphis council delays moratorium; Nebraskans weigh in")).toEqual(["NE", "TN"]);
   });
 });
 

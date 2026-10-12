@@ -14,6 +14,7 @@ import type {
 import type { Article, StateEntry } from "./types";
 import { classify, type ClassifiedNews, type NewsData } from "./news-meta";
 import { outletTypeFor } from "./outlets";
+import { isSponsored } from "./geo-text";
 
 let db: DatabaseSync | null = null;
 let openedAt = 0;
@@ -352,8 +353,10 @@ export function countsByState() {
 export function getNews(): ClassifiedNews[] {
   return all<NewsData & { publisherDomain?: string }>("SELECT * FROM entities WHERE kind = 'article' AND id LIKE 'news:%' ORDER BY date DESC")
     // Re-apply outlet rules on read so newly blocked publishers drop out of the archive too.
-    .filter((a) => !a.data.publisherDomain || outletTypeFor(a.data.publisherDomain) !== null)
-    .map((a) => classify({ id: a.id, title: a.title, date: a.date, data: a.data }));
+    .filter((a) => (!a.data.publisherDomain || outletTypeFor(a.data.publisherDomain) !== null) && !isSponsored(a.title))
+    .map((a) => classify({ id: a.id, title: a.title, date: a.date, data: a.data }))
+    // Domestic happenings only.
+    .filter((n) => !n.international);
 }
 
 export interface DiscoveredBill {

@@ -1,6 +1,7 @@
 import * as cheerio from "cheerio";
 import { sha } from "../db";
 import type { Adapter, Entity } from "../ingest/types";
+import { isDomestic, isSponsored, statesFromPlaces } from "../geo-text";
 import { outletTypeFor, type OutletType } from "../outlets";
 import { STATES } from "../states";
 import { tagStates } from "./news";
@@ -79,10 +80,13 @@ export const googleNewsAdapter: Adapter = {
         const xml = await (await fetch(googleNewsUrl(st.name), { retries: 1 })).text();
         ok++;
         for (const it of parseGoogleNews(xml)) {
-          if (!RELEVANT.test(it.title)) continue;
+          if (!RELEVANT.test(it.title) || isSponsored(it.title)) continue;
+          // The search names the state, but stories about e.g. the country of Georgia or foreign projects still slip in.
+          const placeStates = statesFromPlaces(it.title);
+          if (!isDomestic(it.title, tagStates(it.title).length + placeStates.length)) continue;
           const key = sha(`${it.title.toLowerCase()}|${it.outlet.toLowerCase()}`);
           const prev = items.get(key);
-          const states = new Set([st.code, ...tagStates(it.title), ...((prev?.data as { states?: string[] })?.states ?? [])]);
+          const states = new Set([st.code, ...tagStates(it.title), ...placeStates, ...((prev?.data as { states?: string[] })?.states ?? [])]);
           items.set(key, {
             id: `news:gn-${key}`,
             kind: "article",
