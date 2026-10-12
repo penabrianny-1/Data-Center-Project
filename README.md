@@ -84,13 +84,13 @@ sources ──► adapters (lib/adapters/*) ──► scripts/ingest.ts ──�
 | File | Records | Notes |
 |---|---|---|
 | `state-government.json` | 51 | Governors, chamber composition and executive powers. Leadership is listed only where an official site confirmed it. |
-| `races-governor.json` | 36 | Nominees, ratings, polls and documented positions. 20 records are low confidence, and nominees are often unchecked against certified ballots. |
-| `races-senate.json` | 35 | 33 Class 2 seats plus OH and FL specials. Many nominee names weren't checked against official state candidate lists (see caveats). |
-| `races-house.json` | — | **Not completed.** The research run stopped on a usage limit. All 435 incumbents and FEC finance still come from automated sources. |
+| `races-governor.json` | 36 | Checked against AP primary results; official certified lists where state sites allow automated access. |
+| `races-senate.json` | 35 | 33 Class 2 seats plus OH and FL specials, checked the same way. |
+| `races-house.json` | 67 | 53 rated competitive plus 14 where data centers are an explicit issue. Nominees come from a secondary source (see caveats). |
 | `commissions.json` | 51 | Selection method, rosters, 2026 ballot seats, election → commission mechanism, large-load tariff status. |
-| `dockets.json` | 54 | State PUC and FERC/RTO proceedings. NV, OR, CO, UT, OK and MS have none yet. |
+| `dockets.json` (+ part2) | 78 | State PUC and FERC/RTO proceedings. Nebraska (public power) and Connecticut have none. |
 | `state-policy.part1/2.json` | 51 | Incentives, preemption (TX and WV verified), water, environmental review, electricity, 10 scored dimensions. |
-| `bills.json` (+ `bills.part2.json`) | 116 | 30 federal and 86 state. No records yet for AZ, NV, NM, MT, UT, WY, AK, LA, AL, MS, AR, ID, IA, MO, NE, RI, MA or NH. |
+| `bills.json` (+ part2) | 171 | 30 federal and 141 state, covering every state. GA-2025-SB34's link needs a manual check. |
 | `local-actions.json` | 161 | 48 states, as a sample. Ohio's 125+ local moratoriums are represented by only 6 records. |
 | `developments.json` | 55 | Ranked by consequence (severity 1–5). |
 
