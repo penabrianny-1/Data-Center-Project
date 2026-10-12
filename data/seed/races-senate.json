@@ -77,11 +77,18 @@
         "published": "2025-07-03",
         "docId": "H.R. 1 / Roll Call 190",
         "excerpt": "Passed 218-214 on 2025-07-03."
+      },
+      {
+        "title": "Alabama Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/AL.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-19 primary (D): no majority, went to runoff; 2026-05-19 primary (R): no majority, went to runoff; 2026-06-16 runoff (R): Barry Moore 55.8%; 2026-06-16 runoff (D): Everett Wess 54.6%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Moore won the GOP runoff (2026-06-16) over Jared Hudson per secondary sources."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Moore won the GOP runoff (2026-06-16) over Jared Hudson and Wess won the Democratic runoff over Dakarai Larriett (both AP-called). Nominees confirmed via AP-sourced 2026-05-19/06-16 runoff primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-sen-AK",
@@ -171,6 +178,20 @@
             "date": "2026-08-22"
           }
         ]
+      },
+      {
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [],
+        "name": "Daniel J. Sullivan Jr.",
+        "party": "R"
+      },
+      {
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [],
+        "name": "Heather McElwain",
+        "party": "L"
       }
     ],
     "ratings": [
@@ -232,11 +253,25 @@
         "kind": "research",
         "published": "2026-10-06",
         "excerpt": "Alaska Senate moved Toss-up to Leans Democratic; South Carolina Senate moved Safe to Likely Republican."
+      },
+      {
+        "title": "Alaska Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/AK.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-18 top-four/top-two primary advanced: Mary Peltola, Dan Sullivan, Daniel Sullivan, David Leslie"
+      },
+      {
+        "title": "Candidate List: 2026 General Election",
+        "url": "https://www.elections.alaska.gov/candidates/?election=26genr",
+        "publisher": "Alaska Division of Elections",
+        "kind": "official",
+        "excerpt": "Certified general-election candidates (page updated 2026-09-25). Governor: Bronson, Kreiss-Tomkins, Taylor, Wilson (plus certified write-in Parkin). U.S. Senator: McElwain (Libertarian), Peltola, Dan S. Sullivan, Daniel J. Sullivan Jr. (plus certified write-ins Heikes, Hill)."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. Alaska uses a top-four nonpartisan primary (held 2026-08-18) and a ranked-choice general election; the general ballot reportedly also includes Daniel J. Sullivan Jr. and Gerald Heikes, omitted here pending official confirmation. The InsiderAdvantage result is the ranked-choice final round."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Alaska uses a top-four nonpartisan primary (held 2026-08-18) and a ranked-choice general election; Daniel J. Sullivan Jr. (R) and Libertarian Heather McElwain are confirmed on the official general-election list and now added; Democrat David Leslie advanced from the top-four primary but is not on the certified list. Gerald Heikes and Sid Hill are certified write-ins (not listed). The InsiderAdvantage result is the ranked-choice final round."
   },
   {
     "id": "2026-sen-AR",
@@ -347,11 +382,25 @@
         "published": "2025-07-01",
         "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
         "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+      },
+      {
+        "title": "Arkansas Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/AR.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-03-03 primary (D): Hallie Shoffner 78.3%; 2026-03-03 primary (R): Tom Cotton 81.6%"
+      },
+      {
+        "title": "Arkansas 2026 General Election Guide: Who's on the ballot",
+        "url": "https://www.5newsonline.com/article/news/politics/elections/arkansas-2026-election-guide-candidates/527-1082ca1c-09c9-4dbd-a436-49eb85410ca3",
+        "publisher": "5NEWS (KFSM)",
+        "kind": "journalism",
+        "excerpt": "Republican incumbent Tom Cotton faces Democrat Hallie Shoffner and Libertarian Jeff Wadlin."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Arkansas primary was 2026-03-03."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Arkansas primary was 2026-03-03. Cotton and Shoffner confirmed via AP-sourced 2026-03-03 primary results; Wadlin's Libertarian ballot line confirmed by a 5NEWS ballot guide, not an official list."
   },
   {
     "id": "2026-sen-CO",
@@ -468,11 +517,18 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Colorado Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/CO.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-30 primary (D): John Hickenlooper 52.8%; 2026-06-30 primary (R): Mark Baisley (unopposed)"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "high",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Candidate list confirmed on the Colorado Secretary of State's official general-election list (additional Approval Voting and Unity candidates and write-ins omitted). No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Candidate list confirmed on the Colorado Secretary of State's official general-election list (additional Approval Voting and Unity candidates and write-ins omitted). No general-election poll with a directly verifiable pollster release was located; polls left empty."
   },
   {
     "id": "2026-sen-DE",
@@ -567,11 +623,25 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Delaware Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/DE.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-09-15 primary (D): Chris Coons 78.0%; 2026-09-15 primary (R): Michael Katz 77.3%"
+      },
+      {
+        "title": "Ballot Qualified Candidates: 2026 Statewide General",
+        "url": "https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html",
+        "publisher": "Delaware Department of Elections",
+        "kind": "official",
+        "excerpt": "U.S. Senator, Statewide: Chris Coons (Democratic, Qualified); Michael \"Dr. Mike\" Katz (Republican, Qualified)."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty."
   },
   {
     "id": "2026-sen-FL-special",
@@ -675,11 +745,18 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Florida Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/FL.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-18 special primary (D): Angie Nixon 56.1%; 2026-08-18 special primary (R): Ashley Moody 79.6%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Primary held 2026-08-18. InsiderAdvantage reported Moody leading Nixon by 7 (fielded 2026-09-20/21, 600 LV) but exact toplines were not captured, so the poll is not listed."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Primary held 2026-08-18. InsiderAdvantage reported Moody leading Nixon by 7 (fielded 2026-09-20/21, 600 LV) but exact toplines were not captured, so the poll is not listed. Moody and Nixon confirmed via AP-sourced 2026-08-18 special primary results; Gillespie's no-party ballot status was seen only in secondary listings and was not confirmed against the Division of Elections list."
   },
   {
     "id": "2026-sen-GA",
@@ -796,7 +873,7 @@
         "population": "LV",
         "results": {
           "Jon Ossoff": 52.2,
-          "Mike Collins": 41.0
+          "Mike Collins": 41
         },
         "url": "https://www.bigdatapoll.com/blog/peach-state-poll-jon-ossoff-opens-up-lead-over-mike-collins-in-georgia/"
       }
@@ -841,11 +918,26 @@
         "publisher": "Big Data Poll",
         "kind": "data",
         "published": "2026-09-24"
+      },
+      {
+        "title": "Georgia Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/GA.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-19 primary (D): Jon Ossoff (unopposed); 2026-05-19 primary (R): no majority, went to runoff; 2026-06-16 runoff (R): Mike Collins 55.5%"
+      },
+      {
+        "title": "Georgia results: Collins will face Sen. Ossoff; Trump's pick loses governor runoff",
+        "url": "https://www.npr.org/2026/06/16/nx-s1-5860795/georgia-election-senate-governor-results-trump",
+        "publisher": "NPR",
+        "kind": "journalism",
+        "published": "2026-06-16",
+        "excerpt": "Rep. Mike Collins defeated Derek Dooley in the GOP Senate runoff and will face Democratic Sen. Jon Ossoff in November."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. Collins won the GOP runoff on 2026-06-16 over Derek Dooley per secondary sources. Georgia also requires a general-election runoff (2026-12-01) if no candidate wins a majority."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Collins won the GOP runoff on 2026-06-16 over Derek Dooley. Georgia also requires a general-election runoff (2026-12-01) if no candidate wins a majority. Nominees and primary/runoff dates confirmed via AP-sourced results; the Georgia SOS site returned HTTP 403 to automated access."
   },
   {
     "id": "2026-sen-ID",
@@ -947,11 +1039,25 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Idaho Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/ID.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-19 primary (D): David Roth 61.9%; 2026-05-19 primary (R): Jim Risch 67.3%"
+      },
+      {
+        "title": "Idaho US Senate candidate David Roth removes name from general election ballot",
+        "url": "https://idahocapitalsun.com/2026/09/02/idaho-us-senate-candidate-david-roth-removes-name-from-general-election-ballot/",
+        "publisher": "Idaho Capital Sun",
+        "kind": "journalism",
+        "published": "2026-09-02"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Democratic primary winner David Roth reportedly withdrew on 2026-07-28; independent Natalie Fleming is also reportedly on the ballot. Only a Risch-campaign-sponsored poll was found."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Democratic primary winner David Roth (AP-called, 2026-05-19) ended his campaign on 2026-07-28 and later removed his name from the general-election ballot (Idaho Capital Sun, 2026-09-02); independent Natalie Fleming is also reported on the ballot (not listed here). Ballot status was not checked against an official Idaho list. Only a Risch-campaign-sponsored poll was found."
   },
   {
     "id": "2026-sen-IL",
@@ -1004,11 +1110,18 @@
         "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
         "publisher": "U.S. Senate",
         "kind": "official"
+      },
+      {
+        "title": "Illinois Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/IL.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-03-17 primary (D): Juliana Stratton 40.2%; 2026-03-17 primary (R): Don Tracy 39.9%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Stratton won the 2026-03-17 Democratic primary over Raja Krishnamoorthi and Robin Kelly per secondary sources."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Stratton won the 2026-03-17 Democratic primary over Raja Krishnamoorthi and Robin Kelly (AP-called, 40.2%). Nominees confirmed via AP-sourced 2026-03-17 primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-sen-IA",
@@ -1168,11 +1281,25 @@
         "url": "https://insideradvantage.com/insideradvantage-senate-surveys-maine-collins-46-jackson-46-iowa-turek-47-hinson-46/",
         "publisher": "InsiderAdvantage",
         "kind": "data"
+      },
+      {
+        "title": "Iowa Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/IA.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-02 primary (D): Josh Turek 62.7%; 2026-06-02 primary (R): Ashley Hinson 74.2%"
+      },
+      {
+        "title": "Candidate List November 3, 2026 General Election",
+        "url": "https://sos.iowa.gov/sites/default/files/2026-08/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections_1.pdf",
+        "publisher": "Iowa Secretary of State",
+        "kind": "official",
+        "excerpt": "U.S. Senator: Ashley Hinson (Republican), Josh Turek (Democratic), Thomas Laehn (Libertarian). Governor: Zach Lahn (Republican), Rob Sand (Democratic)."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. InsiderAdvantage is a Republican-affiliated pollster."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. InsiderAdvantage is a Republican-affiliated pollster."
   },
   {
     "id": "2026-sen-KS",
@@ -1340,11 +1467,18 @@
         "publisher": "InsiderAdvantage",
         "kind": "data",
         "published": "2026-10-11"
+      },
+      {
+        "title": "Kansas Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/KS.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-04 primary (D): Adam Hamilton 34.8%; 2026-08-04 primary (R): Roger Marshall 79.9%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. Hamilton's reported positions on AI (calls to slow superintelligence development) and opposition to AI data centers in Kansas were seen only in secondary summaries and could not be verified at a primary source, so they are omitted."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Hamilton's reported positions on AI (calls to slow superintelligence development) and opposition to AI data centers in Kansas were seen only in secondary summaries and could not be verified at a primary source, so they are omitted. Marshall and Hamilton confirmed as nominees via AP-sourced 2026-08-04 primary results; Libertarian David Graham was not confirmed (the Kansas SOS candidate list returned HTTP 403)."
   },
   {
     "id": "2026-sen-KY",
@@ -1423,11 +1557,18 @@
         "published": "2025-07-03",
         "docId": "H.R. 1 / Roll Call 190",
         "excerpt": "Passed 218-214 on 2025-07-03."
+      },
+      {
+        "title": "Kentucky Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/KY.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-19 primary (D): Charles Booker 46.8%; 2026-05-19 primary (R): Andy Barr 60.5%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Nominees confirmed via AP-sourced 2026-05-19 primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-sen-LA",
@@ -1556,11 +1697,18 @@
         "published": "2025-07-03",
         "docId": "H.R. 1 / Roll Call 190",
         "excerpt": "Passed 218-214 on 2025-07-03."
+      },
+      {
+        "title": "Louisiana Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/LA.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-16 primary (D): no majority, went to runoff; 2026-05-16 primary (R): no majority, went to runoff; 2026-06-27 runoff (D): Jamie Davis 79.9%; 2026-06-27 runoff (R): Julia Letlow 56.9%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Louisiana used closed party primaries for Congress for the first time in 2026 (primary 2026-05-16, party runoff 2026-06-27). Cassidy reportedly finished third in the GOP primary; Letlow beat John Fleming in the runoff."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Louisiana used closed party primaries for Congress for the first time in 2026 (primary 2026-05-16, party runoff 2026-06-27). Cassidy finished third in the GOP primary (24.8%); Letlow beat John Fleming in the runoff (56.9%) and Davis beat Gary Crockett in the Democratic runoff (AP-called). Nominees confirmed via AP-sourced 2026-05-16/06-27 runoff primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-sen-ME",
@@ -1709,11 +1857,26 @@
         "url": "https://insideradvantage.com/insideradvantage-senate-surveys-maine-collins-46-jackson-46-iowa-turek-47-hinson-46/",
         "publisher": "InsiderAdvantage",
         "kind": "data"
+      },
+      {
+        "title": "Maine Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/ME.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-09 primary (D): Graham Platner 71.9%; 2026-06-09 primary (R): Susan Collins (unopposed)"
+      },
+      {
+        "title": "Troy Jackson replaces Graham Platner as Democratic candidate in Maine's Senate race",
+        "url": "https://www.npr.org/2026/07/26/nx-s1-5906372/troy-jackson-replaces-graham-platner-as-democratic-candidate-in-maines-senate-race",
+        "publisher": "NPR",
+        "kind": "journalism",
+        "published": "2026-07-26",
+        "excerpt": "Maine Democrats chose Troy Jackson as their Senate nominee at a delegate convention after primary winner Graham Platner withdrew."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. Democratic primary winner Graham Platner reportedly withdrew on 2026-07-10 and Troy Jackson was chosen by party convention on 2026-07-25; Newsweek (2026-08-22) confirms Jackson as the Democratic candidate. InsiderAdvantage is a Republican-affiliated pollster."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Democratic primary winner Graham Platner (AP-called, 2026-06-09) withdrew on 2026-07-10, and Troy Jackson was chosen by a party delegate convention on 2026-07-25 (NPR, Forbes); Newsweek (2026-08-22) also confirms Jackson as the Democratic candidate. InsiderAdvantage is a Republican-affiliated pollster."
   },
   {
     "id": "2026-sen-MA",
@@ -1808,11 +1971,18 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Massachusetts Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/MA.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-09-01 primary (D): Edward Markey 64.8%; 2026-09-01 primary (R): John Deaton (unopposed)"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Markey reportedly defeated Rep. Seth Moulton in the 2026-09-01 Democratic primary."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Markey defeated Rep. Seth Moulton in the 2026-09-01 Democratic primary (AP-called, 64.8%). Nominees confirmed via AP-sourced 2026-09-01 primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-sen-MI",
@@ -1938,11 +2108,25 @@
         "url": "https://insideradvantage.com/insideradvantage-national-u-s-senate-surveys-n-c-cooper-48-whatley-43-mi-elsayed-47-rogers-45-nh-pappas-48-sununu-40/",
         "publisher": "InsiderAdvantage",
         "kind": "data"
+      },
+      {
+        "title": "Michigan Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/MI.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-04 primary (R): Mike Rogers (unopposed); 2026-08-04 primary (D): Abdul El-Sayed 48.5%"
+      },
+      {
+        "title": "Candidate Listing Report: November 3, 2026 General Election",
+        "url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=page.miboePublicReport&electionType=GEN&electionYear=2026",
+        "publisher": "Michigan Bureau of Elections",
+        "kind": "official",
+        "excerpt": "U.S. Senate: El-Sayed (Democratic), Rogers (Republican), Lydia Christensen (Libertarian), Tim Long (U.S. Taxpayers), Douglas P. Marsh (Green), Walter P. Kristy (Natural Law)."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. InsiderAdvantage is a Republican-affiliated pollster."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. InsiderAdvantage is a Republican-affiliated pollster. Nominees confirmed on the Bureau of Elections general-election candidate listing; minor-party candidates Christensen (L), Long (U.S. Taxpayers), Marsh (Green) and Kristy (Natural Law) are on the ballot but not listed here."
   },
   {
     "id": "2026-sen-MN",
@@ -2012,11 +2196,19 @@
         "url": "https://insideradvantage.com/insideradvantage-survey-u-s-senate-minnesota-contest-a-one-point-race-flanagan-46-tafoya-45/",
         "publisher": "InsiderAdvantage",
         "kind": "data"
+      },
+      {
+        "title": "Minnesota Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/MN.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-11 primary (D): Peggy Flanagan 59.0%; 2026-08-11 primary (R): Michele Tafoya 52.1%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. Flanagan is the DFL (Democratic) nominee. Primary date (Minnesota's August primary) not confirmed from an official source. No sourced data-center positions found. InsiderAdvantage is a Republican-affiliated pollster."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Flanagan is the DFL (Democratic) nominee. Primary date (2026-08-11) and nominees confirmed via AP-sourced results; the Minnesota SOS site blocked automated access, so minor-party candidates were not checked. No sourced data-center positions found. InsiderAdvantage is a Republican-affiliated pollster.",
+    "primaryDate": "2026-08-11"
   },
   {
     "id": "2026-sen-MS",
@@ -2118,11 +2310,25 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Mississippi Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/MS.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-03-10 primary (R): Cindy Hyde-Smith 80.8%; 2026-03-10 primary (D): Scott Colom 73.0%"
+      },
+      {
+        "title": "Candidate Qualifying List",
+        "url": "https://sos.ms.gov/content/CandidateQualifying/default.aspx",
+        "publisher": "Mississippi Secretary of State",
+        "kind": "official",
+        "excerpt": "Candidates for United States Senate (General Election: November 3, 2026): Scott Colom (Democratic), Ty Pinkins (Independent), Cindy Hyde-Smith (Republican)."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Only Democratic-sponsored polls were found."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Only Democratic-sponsored polls were found."
   },
   {
     "id": "2026-sen-MT",
@@ -2189,11 +2395,26 @@
         "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
         "publisher": "U.S. Senate",
         "kind": "official"
+      },
+      {
+        "title": "Montana Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/MT.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-02 primary (D): Alani Bankhead 43.7%; 2026-06-02 primary (R): Kurt Alme 76.1%"
+      },
+      {
+        "title": "Alme leads Bodnar in U.S. Senate race, Democrat and Libertarian lag behind",
+        "url": "https://montanafreepress.org/2026/09/11/alme-holds-an-8-point-lead-over-bodnar-in-senate-race/",
+        "publisher": "Montana Free Press",
+        "kind": "journalism",
+        "published": "2026-09-11",
+        "excerpt": "Four-way race: Republican Kurt Alme, independent Seth Bodnar, Democrat Alani Bankhead and Libertarian Kyle Austin."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Alme and Bankhead confirmed via AP-sourced 2026-06-02 primary results; the four-candidate general field (with independent Bodnar and Libertarian Austin) is confirmed by Montana Free Press reporting, not an official list."
   },
   {
     "id": "2026-sen-NE",
@@ -2288,11 +2509,33 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Nebraska Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/NE.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-12 primary (R): Pete Ricketts 81.5%; 2026-05-12 primary (D): Cindy Burbank 89.5%"
+      },
+      {
+        "title": "Final Statewide General Candidate List, November 3, 2026 General Election",
+        "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf",
+        "publisher": "Nebraska Secretary of State",
+        "kind": "official",
+        "published": "2026-09-11",
+        "excerpt": "U.S. Senator: Pete Ricketts (Republican), Mike Marvin (Legal Marijuana NOW), Robin Richards (Nebraska Working People), Chuck Conboy (America First), Dan Osborn (By Petition). No Democratic candidate."
+      },
+      {
+        "title": "Nebraska Secretary of State says Democrat Cindy Burbank won't appear on US Senate ballot",
+        "url": "https://nebraskaexaminer.com/2026/07/21/nebraska-secretary-of-state-says-democrat-cindy-burbank-wont-appear-on-us-senate-ballot/",
+        "publisher": "Nebraska Examiner",
+        "kind": "journalism",
+        "published": "2026-07-21"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. No Democrat is on the ballot: the Democratic primary winner reportedly withdrew to support Osborn. Several recent polls show a close race but pollster releases were not verified directly."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. No Democrat is on the ballot: Democratic primary winner Cindy Burbank (AP-called, 2026-05-12) declined the nomination on 2026-07-17, and the Secretary of State confirmed on 2026-07-21 that her name will not appear. Minor-party candidates Mike Marvin (Legal Marijuana NOW), Robin Richards (Nebraska Working People) and Chuck Conboy (America First) are also on the official list (not listed here). Several recent polls show a close race but pollster releases were not verified directly."
   },
   {
     "id": "2026-sen-NH",
@@ -2397,11 +2640,18 @@
         "url": "https://insideradvantage.com/insideradvantage-national-u-s-senate-surveys-n-c-cooper-48-whatley-43-mi-elsayed-47-rogers-45-nh-pappas-48-sununu-40/",
         "publisher": "InsiderAdvantage",
         "kind": "data"
+      },
+      {
+        "title": "New Hampshire Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/NH.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-09-08 primary (R): John Sununu 68.4%; 2026-09-08 primary (D): Chris Pappas 65.1%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No sourced data-center positions found. InsiderAdvantage is a Republican-affiliated pollster."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No sourced data-center positions found. InsiderAdvantage is a Republican-affiliated pollster. Nominees confirmed via AP-sourced 2026-09-08 primary results (Sununu over Scott Brown; Pappas over Karishma Manzur); the NH SOS site returned HTTP 403 to automated access."
   },
   {
     "id": "2026-sen-NJ",
@@ -2496,11 +2746,18 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "New Jersey Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/NJ.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-02 primary (D): Cory Booker (unopposed); 2026-06-02 primary (R): Justin Murphy 33.3%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Nominees confirmed via AP-sourced 2026-06-02 primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-sen-NM",
@@ -2595,11 +2852,18 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "New Mexico Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/NM.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-02 primary (D): Ben Lujan 84.2%; 2026-06-02 primary (R): Larry Marker (write-in) 100.0%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Marker is reportedly a write-in Republican after no Republican qualified for the primary ballot."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Marker won the Republican nomination as a write-in candidate (AP-called) after no Republican qualified for the primary ballot. Nominees confirmed via AP-sourced 2026-06-02 primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-sen-NC",
@@ -2627,6 +2891,20 @@
         "incumbent": false,
         "status": "nominee",
         "positions": []
+      },
+      {
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [],
+        "name": "Shannon W. Bray",
+        "party": "L"
+      },
+      {
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [],
+        "name": "Michael Dublin",
+        "party": "G"
       }
     ],
     "ratings": [
@@ -2696,11 +2974,25 @@
         "url": "https://insideradvantage.com/insideradvantage-national-u-s-senate-surveys-n-c-cooper-48-whatley-43-mi-elsayed-47-rogers-45-nh-pappas-48-sununu-40/",
         "publisher": "InsiderAdvantage",
         "kind": "data"
+      },
+      {
+        "title": "North Carolina Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/NC.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-03-03 primary (D): Roy Cooper 92.0%; 2026-03-03 primary (R): Michael Whatley 64.6%"
+      },
+      {
+        "title": "2026 Candidate List Spreadsheet (CSV)",
+        "url": "https://s3.amazonaws.com/dl.ncsbe.gov/Elections/2026/Candidate%20Filing/Candidate_Listing_2026.csv",
+        "publisher": "North Carolina State Board of Elections",
+        "kind": "official",
+        "excerpt": "11/03/2026 US SENATE: Roy Cooper (DEM), Michael Whatley (REP), Shannon W. Bray (LIB), Michael Dublin (GRE)."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No sourced data-center positions for Cooper or Whatley found. InsiderAdvantage is a Republican-affiliated pollster."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No sourced data-center positions for Cooper or Whatley found. InsiderAdvantage is a Republican-affiliated pollster. Libertarian Shannon W. Bray and Green Michael Dublin added from the State Board of Elections general-election candidate list."
   },
   {
     "id": "2026-sen-OH-special",
@@ -2873,11 +3165,19 @@
         "publisher": "InsiderAdvantage",
         "kind": "data",
         "published": "2026-10-01"
+      },
+      {
+        "title": "Ohio Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/OH.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-05 special primary (D): Sherrod Brown 89.5%; 2026-05-05 special primary (R): Jon Husted (unopposed)"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. Primary date not confirmed from an official source; Ratepayer Protection Act bill number not verified on congress.gov, so evidence is 'reported'. InsiderAdvantage is a Republican-affiliated pollster."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Primary date (2026-05-05) added from AP-sourced results; Ratepayer Protection Act bill number not verified on congress.gov, so evidence is 'reported'. InsiderAdvantage is a Republican-affiliated pollster. Husted and Brown confirmed as nominees via AP-sourced results; Redpath (L) and Levy (I) were not confirmed against the certified list (Ohio SOS site returned HTTP 403).",
+    "primaryDate": "2026-05-05"
   },
   {
     "id": "2026-sen-OK",
@@ -2979,11 +3279,25 @@
         "published": "2025-07-03",
         "docId": "H.R. 1 / Roll Call 190",
         "excerpt": "Passed 218-214 on 2025-07-03."
+      },
+      {
+        "title": "Oklahoma Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/OK.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-16 primary (R): Kevin Hern 69.8%; 2026-06-16 primary (D): no majority, went to runoff; 2026-08-25 runoff (D): N'Kiyla Thomas 61.2%"
+      },
+      {
+        "title": "2026 Candidate List Book",
+        "url": "https://oklahoma.gov/content/dam/ok/en/elections/candidate-filing-archives/2026-candidate-filing-archives/2026-candidate-list-book.pdf",
+        "publisher": "Oklahoma State Election Board",
+        "kind": "official",
+        "excerpt": "U.S. Senator filings: Libertarian Sevier White; Republicans Hern, Buckner, Ragain, England; Democrats Green, Priest, Cassity, Thomas, Yen; Independent Ron Meinhardt."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Under Oklahoma law Armstrong could not seek a full term. GOP primary 2026-06-16; Thomas reportedly won the Democratic runoff 2026-08-25. Independents Ron Meinhardt and Curtis Stinnett omitted pending confirmation."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Under Oklahoma law Armstrong could not seek a full term. GOP primary 2026-06-16; Thomas won the Democratic runoff 2026-08-25 (AP-called, 61.2%). Libertarian Sevier White's filing is confirmed in the Election Board candidate book; independent Ron Meinhardt also filed (not listed here); Curtis Stinnett does not appear in the U.S. Senate filings."
   },
   {
     "id": "2026-sen-OR",
@@ -3078,11 +3392,18 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Oregon Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/OR.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-19 primary (D): Jeff Merkley 93.2%; 2026-05-19 primary (R): David Smith 29.5%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Nominees confirmed via AP-sourced 2026-05-19 primary results; not checked against the state's certified general-election list. AP lists the Republican nominee as David Smith (29.5% in a multi-candidate field)."
   },
   {
     "id": "2026-sen-RI",
@@ -3177,11 +3498,18 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Rhode Island Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/RI.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-09-09 primary (D): John Reed 76.8%; 2026-09-09 primary (R): Raymond McKay (unopposed)"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Nominees confirmed via AP-sourced 2026-09-09 primary results; not checked against the state's certified general-election list. AP lists the incumbent as John Reed."
   },
   {
     "id": "2026-sen-SC",
@@ -3283,11 +3611,18 @@
         "url": "https://insideradvantage.com/insideradvantage-south-carolina-senate-graham-leads-by-one-point/",
         "publisher": "InsiderAdvantage",
         "kind": "data"
+      },
+      {
+        "title": "South Carolina Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/SC.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-09 primary (D): Annie Andrews 61.5%; 2026-06-09 primary (R): Lindsey Graham 56.8%; 2026-08-11 special primary (R): no majority, went to runoff; 2026-08-25 special runoff (R): Darline Graham 52.5%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. This is the regular Class 2 election (Lindsey Graham's term ends 2027), so special=false. A GOP special primary (2026-08-11) and runoff (2026-08-25) were held after Lindsey Graham, the June 9 nominee, died; it was not confirmed whether Darline Graham holds every committee seat listed. No sourced data-center positions found. InsiderAdvantage is a Republican-affiliated pollster."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. This is the regular Class 2 election (Lindsey Graham's term ends 2027), so special=false. A GOP special primary (2026-08-11) and runoff (2026-08-25) were held after Lindsey Graham, the June 9 nominee, died; it was not confirmed whether Darline Graham holds every committee seat listed. No sourced data-center positions found. InsiderAdvantage is a Republican-affiliated pollster. Andrews (2026-06-09 primary) and Darline Graham (2026-08-11 special primary, 2026-08-25 special runoff over Ralph Norman) confirmed via AP-sourced results."
   },
   {
     "id": "2026-sen-SD",
@@ -3384,11 +3719,26 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "South Dakota Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/SD.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-02 primary (R): Mike Rounds 75.8%; 2026-06-02 primary (D): Julian Beaudion (unopposed)"
+      },
+      {
+        "title": "Party will not replace withdrawn US Senate candidate, SD Democratic official says",
+        "url": "https://southdakotasearchlight.com/2026/08/05/party-will-not-replace-withdrawn-us-senate-candidate-sd-democratic-official-says/",
+        "publisher": "South Dakota Searchlight",
+        "kind": "journalism",
+        "published": "2026-08-05",
+        "excerpt": "Democratic nominee Julian Beaudion withdrew on Aug. 4, the withdrawal deadline; the party will not name a replacement, leaving independent Brian Bengs as Rounds's only challenger."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Only Bengs-campaign-sponsored polls were found. Rounds's AI-caucus activity not independently sourced here."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Only Bengs-campaign-sponsored polls were found. Rounds's AI-caucus activity not independently sourced here. Democratic primary winner Julian Beaudion (unopposed, 2026-06-02) withdrew on 2026-08-04 and was not replaced, so no Democrat is on the ballot."
   },
   {
     "id": "2026-sen-TN",
@@ -3483,11 +3833,25 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Tennessee Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/TN.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-06 primary (D): Marquita Bradshaw 54.8%; 2026-08-06 primary (R): Bill Hagerty 99.4%"
+      },
+      {
+        "title": "Candidates for United States Senate, November 3, 2026 General Election",
+        "url": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/USSenate_Nov2026.pdf",
+        "publisher": "Tennessee Secretary of State, Division of Elections",
+        "kind": "official",
+        "excerpt": "Bill Hagerty (Republican), Marquita Bradshaw (Democratic), and eight Independent candidates (Chandler, Gerena, Hearn, Jones, Macon, Matthews, Sutman, Whitson)."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Eight independent candidates are also on the official ballot list (not listed here)."
   },
   {
     "id": "2026-sen-TX",
@@ -3653,11 +4017,26 @@
         "publisher": "InsiderAdvantage",
         "kind": "data",
         "published": "2026-09-10"
+      },
+      {
+        "title": "Texas Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/TX.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-03-03 primary (D): James Talarico 52.5%; 2026-03-03 primary (R): no majority, went to runoff; 2026-05-26 runoff (R): Ken Paxton 63.8%"
+      },
+      {
+        "title": "Texas 2026 election: Your November sample ballot",
+        "url": "https://apps.texastribune.org/features/2026/texas-general-election-ballot-november-2026/",
+        "publisher": "The Texas Tribune",
+        "kind": "journalism",
+        "published": "2026-09-01",
+        "excerpt": "Ballot guide (updated 2026-09-24) listing November candidates 'according to the Secretary of State'; names Talarico as the Democratic Senate nominee facing Republican Ken Paxton, and Abbott seeking a fourth term."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. Paxton defeated Cornyn in the 2026-05-26 GOP runoff after the 2026-03-03 primary. The InsiderAdvantage Texas poll's field dates were not published on the release page; endDate shown is the 2026-09-10 release date. InsiderAdvantage is a Republican-affiliated pollster."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Paxton defeated Cornyn in the 2026-05-26 GOP runoff after the 2026-03-03 primary. The InsiderAdvantage Texas poll's field dates were not published on the release page; endDate shown is the 2026-09-10 release date. InsiderAdvantage is a Republican-affiliated pollster. Nominees and the 2026-03-03 primary / 2026-05-26 runoff dates confirmed via AP-sourced results; Libertarian Ted Brown's ballot status was not confirmed against an official list."
   },
   {
     "id": "2026-sen-VA",
@@ -3752,11 +4131,25 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Virginia Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/VA.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-04 primary (D): Mark Warner (unopposed); 2026-08-04 primary (R): Bert Mizusawa 51.5%"
+      },
+      {
+        "title": "2026 November Federal Offices Candidate List",
+        "url": "https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-federal-offices/",
+        "publisher": "Virginia Department of Elections",
+        "kind": "official",
+        "excerpt": "Member, United States Senate, Statewide: Mark R. Warner (Democratic, incumbent); Bert Mizusawa (Republican). No other Senate candidates listed."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. No sourced data-center statements captured for this cycle."
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. No sourced data-center statements captured for this cycle."
   },
   {
     "id": "2026-sen-WV",
@@ -3851,11 +4244,18 @@
         "published": "2025-07-01",
         "docId": "H.R. 1 / Vote 372",
         "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "West Virginia Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/WV.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-12 primary (R): Shelley Capito 66.5%; 2026-05-12 primary (D): Rachel Anderson 33.2%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Nominees confirmed via AP-sourced 2026-05-12 primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-sen-WY",
@@ -3934,10 +4334,17 @@
         "published": "2025-07-03",
         "docId": "H.R. 1 / Roll Call 190",
         "excerpt": "Passed 218-214 on 2025-07-03."
+      },
+      {
+        "title": "Wyoming Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/WY.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-18 primary (D): James Byrd 79.3%; 2026-08-18 primary (R): Harriet Hageman 64.9%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. No general-election poll with a directly verifiable pollster release was located; polls left empty. Nominees confirmed via AP-sourced 2026-08-18 primary results; not checked against the state's certified general-election list."
   }
 ]

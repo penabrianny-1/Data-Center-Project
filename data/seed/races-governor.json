@@ -200,11 +200,26 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Texas Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/TX.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-03-03 primary (D): Gina Hinojosa 58.5%; 2026-03-03 primary (R): Greg Abbott 81.8%"
+      },
+      {
+        "title": "Texas 2026 election: Your November sample ballot",
+        "url": "https://apps.texastribune.org/features/2026/texas-general-election-ballot-november-2026/",
+        "publisher": "The Texas Tribune",
+        "kind": "journalism",
+        "published": "2026-09-01",
+        "excerpt": "Ballot guide (updated 2026-09-24) listing November candidates 'according to the Secretary of State'; names Talarico as the Democratic Senate nominee facing Republican Ken Paxton, and Abbott seeking a fourth term."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "high",
-    "caveats": "Legal commentators (e.g., a Houston Chronicle op-ed) question whether the governor has authority to order TCEQ to stop processing permits; the July 2026 Hinojosa date is approximate (month only). The Abbott campaign disputes Hinojosa's legislative record on data centers (2017/2023 votes); not independently verified. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "Legal commentators (e.g., a Houston Chronicle op-ed) question whether the governor has authority to order TCEQ to stop processing permits; the July 2026 Hinojosa date is approximate (month only). The Abbott campaign disputes Hinojosa's legislative record on data centers (2017/2023 votes); not independently verified. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Primary winners (Abbott, Hinojosa) confirmed via AP-sourced results; Libertarian Pat Dixon's ballot status was not confirmed against an official list (the Texas SOS candidate search did not offer 2026 data to automated access)."
   },
   {
     "id": "2026-gov-NY",
@@ -370,11 +385,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "New York Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/NY.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-23 primary (D): Kathy Hochul (unopposed); 2026-06-23 primary (R): Bruce Blakeman (unopposed)"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "high",
-    "caveats": "The City & State ad date is approximate (September 2026); the Buffalo News article date was not captured. EO 62 does not cover local permits. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "The City & State ad date is approximate (September 2026); the Buffalo News article date was not captured. EO 62 does not cover local permits. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Primary nominees (unopposed 2026-06-23) confirmed via AP-sourced results; the NY State Board of Elections site returned HTTP 403, so third-party/minor ballot lines were not checked."
   },
   {
     "id": "2026-gov-OH",
@@ -553,11 +575,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Ohio Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/OH.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-05 primary (R): Vivek Ramaswamy 82.5%; 2026-05-05 primary (D): Amy Acton (unopposed)"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Campaign-site pages carry no publication dates. Poll figures were transcribed from a secondary polling table that cites the linked NYT/Siena and CNN/SSRS releases; the poll pages were not opened directly. A co/efficient (R) tracker reading (Oct. 6: Ramaswamy 45, Acton 43) is not included. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "Campaign-site pages carry no publication dates. Poll figures were transcribed from a secondary polling table that cites the linked NYT/Siena and CNN/SSRS releases; the poll pages were not opened directly. A co/efficient (R) tracker reading (Oct. 6: Ramaswamy 45, Acton 43) is not included. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-05-05 primary results; the Ohio SOS site returned HTTP 403, so minor/independent candidates were not checked against the certified list."
   },
   {
     "id": "2026-gov-PA",
@@ -693,11 +722,33 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Pennsylvania Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/PA.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-19 primary (R): Stacy Garrity (unopposed); 2026-05-19 primary (D): Josh Shapiro (unopposed)"
+      },
+      {
+        "title": "PA governor race: Your guide to the candidates",
+        "url": "https://www.spotlightpa.org/news/2026/09/josh-shapiro-stacy-garrity-pennsylvania-governor-election-guide-elections/",
+        "publisher": "Spotlight PA",
+        "kind": "journalism",
+        "published": "2026-09-14",
+        "excerpt": "Guide to the November ballot: Democrat Josh Shapiro, Republican Stacy Garrity and Libertarian Ken Krawchuk, described as the only third-party candidate for governor on the ballot."
+      },
+      {
+        "title": "Upcoming Elections: 2026 Election Important Dates to Remember",
+        "url": "https://www.pa.gov/agencies/vote/elections/upcoming-elections",
+        "publisher": "Pennsylvania Department of State",
+        "kind": "official",
+        "excerpt": "May 19 Primary Election; November 3 General Election."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "The governor's topic page does not give the executive order's signing date. Shapiro's earlier PJM actions were not separately sourced in this pass. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "The governor's topic page does not give the executive order's signing date. Shapiro's earlier PJM actions were not separately sourced in this pass. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced primary results and Spotlight PA; primary date confirmed on the Department of State calendar."
   },
   {
     "id": "2026-gov-GA",
@@ -815,11 +866,26 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Georgia Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/GA.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-19 primary (D): Keisha Lance Bottoms 56.2%; 2026-05-19 primary (R): no majority, went to runoff; 2026-06-16 runoff (R): Rick Jackson 52.6%"
+      },
+      {
+        "title": "Georgia results: Collins will face Sen. Ossoff; Trump's pick loses governor runoff",
+        "url": "https://www.npr.org/2026/06/16/nx-s1-5860795/georgia-election-senate-governor-results-trump",
+        "publisher": "NPR",
+        "kind": "journalism",
+        "published": "2026-06-16",
+        "excerpt": "Rick Jackson beat Lt. Gov. Burt Jones in the GOP governor runoff and will face Democrat Keisha Lance Bottoms; Rep. Mike Collins beat Derek Dooley and will face Sen. Jon Ossoff."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Jackson won the Republican nomination in the June 16 runoff. No documented data-center statement from Jackson was found. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "Jackson won the Republican nomination in the June 16 runoff. No documented data-center statement from Jackson was found. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees and primary/runoff dates confirmed via AP-sourced results and NPR; the Georgia SOS site returned HTTP 403 to automated access."
   },
   {
     "id": "2026-gov-AZ",
@@ -909,11 +975,25 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Arizona Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/AZ.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-07-21 primary (R): Andy Biggs 74.0%; 2026-07-21 primary (D): Katie Hobbs (unopposed)"
+      },
+      {
+        "title": "Andy Biggs easily defeats David Schweikert, wins GOP nomination for governor",
+        "url": "https://azmirror.com/2026/07/21/andy-biggs-easily-defeats-david-schweikert-wins-gop-nomination-for-governor/",
+        "publisher": "Arizona Mirror",
+        "kind": "journalism",
+        "published": "2026-07-21"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No explicit data-center statement was verified for either nominee; the AgTech LLC lease release's content beyond its title was not reviewed. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No explicit data-center statement was verified for either nominee; the AgTech LLC lease release's content beyond its title was not reviewed. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-07-21 primary results; the Arizona SOS site returned HTTP 403 to automated access."
   },
   {
     "id": "2026-gov-WI",
@@ -1043,11 +1123,25 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Wisconsin Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/WI.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-11 primary (D): David Crowley 39.8%; 2026-08-11 primary (R): Tom Tiffany 95.3%"
+      },
+      {
+        "title": "Wisconsin governor race 2026: Crowley vs. Tiffany",
+        "url": "https://racinecountyeye.com/voter-guide/wisconsin-governor-race-2026/",
+        "publisher": "Racine County Eye",
+        "kind": "journalism",
+        "excerpt": "Voter guide: two candidates on the November ballot, David Crowley (D) and Tom Tiffany (R)."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Tiffany's site says Crowley does not support rolling back data-center tax breaks; that characterization was not independently verified. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "Tiffany's site says Crowley does not support rolling back data-center tax breaks; that characterization was not independently verified. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-08-11 primary results; the Wisconsin Elections Commission site returned HTTP 403 to automated access, so the certified list was not read directly."
   },
   {
     "id": "2026-gov-MI",
@@ -1155,11 +1249,25 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Michigan Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/MI.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-04 primary (D): Jocelyn Benson 83.2%; 2026-08-04 primary (R): John James 50.0%"
+      },
+      {
+        "title": "Candidate Listing Report: November 3, 2026 General Election",
+        "url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=page.miboePublicReport&electionType=GEN&electionYear=2026",
+        "publisher": "Michigan Bureau of Elections",
+        "kind": "official",
+        "excerpt": "Governor/Lt. Governor: Benson/Brinks (Democratic), James/DeBoyer (Republican), Hudson/Parmenter (Libertarian), Brandenburg/Cowper (U.S. Taxpayers), Campbell/Clay (Green); independent Maurice Morton disqualified."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Mike Duggan, who had been running as an independent, withdrew. No documented data-center position from John James could be verified, and his campaign site could not be located. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "Mike Duggan, who had been running as an independent, withdrew. No documented data-center position from John James could be verified, and his campaign site could not be located. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Minor-party candidates Anthony Hudson (Libertarian), Donna Brandenburg (U.S. Taxpayers) and Douglas Campbell (Green) are on the official ballot list but not listed here."
   },
   {
     "id": "2026-gov-MN",
@@ -1246,11 +1354,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Minnesota Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/MN.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-11 primary (D): Amy Klobuchar 89.7%; 2026-08-11 primary (R): Lisa Demuth 43.4%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Klobuchar's campaign site returned HTTP 403. The Daily Agenda poll is described as Democratic-sponsored. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Klobuchar's campaign site returned HTTP 403. The Daily Agenda poll is described as Democratic-sponsored. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-08-11 primary results; the Minnesota SOS candidate pages blocked automated access, so minor-party candidates were not checked."
   },
   {
     "id": "2026-gov-IA",
@@ -1380,11 +1495,25 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Iowa Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/IA.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-02 primary (D): Rob Sand (unopposed); 2026-06-02 primary (R): Zach Lahn 38.0%"
+      },
+      {
+        "title": "Candidate List November 3, 2026 General Election",
+        "url": "https://sos.iowa.gov/sites/default/files/2026-08/2026%20General%20-%20Candidate%20List%20Database%20-%20All%20Elections_1.pdf",
+        "publisher": "Iowa Secretary of State",
+        "kind": "official",
+        "excerpt": "U.S. Senator: Ashley Hinson (Republican), Josh Turek (Democratic), Thomas Laehn (Libertarian). Governor: Zach Lahn (Republican), Rob Sand (Democratic)."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
   },
   {
     "id": "2026-gov-NV",
@@ -1483,11 +1612,24 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Nevada Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/NV.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-09 primary (D): Aaron Ford 63.4%; 2026-06-09 primary (R): Joseph Lombardo 90.8%"
+      },
+      {
+        "title": "From abortion to taxes: Where Nevada's 2026 governor candidates stand on the issues",
+        "url": "https://thenevadaindependent.com/article/from-abortion-to-taxes-where-nevadas-2026-governor-candidates-stand-on-the-issues",
+        "publisher": "The Nevada Independent",
+        "kind": "journalism"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center position from Aaron Ford was verified in this pass. The EO PDF itself was not reviewed, only the press release. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center position from Aaron Ford was verified in this pass. The EO PDF itself was not reviewed, only the press release. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-06-09 primary results. State Board of Education member Danielle Ford is reportedly also on the ballot as a nonpartisan candidate (not listed here; not confirmed against the SOS certified list)."
   },
   {
     "id": "2026-gov-KS",
@@ -1634,11 +1776,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Kansas Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/KS.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-04 primary (D): Cindy Holscher 48.6%; 2026-08-04 primary (R): Ty Masterson 43.2%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Poll transcribed from a secondary polling table citing the linked NYT/Siena toplines (not opened directly); a YouGov poll (Masterson 47, Holscher 44) had conflicting field-date information and was omitted. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "Poll transcribed from a secondary polling table citing the linked NYT/Siena toplines (not opened directly); a YouGov poll (Masterson 47, Holscher 44) had conflicting field-date information and was omitted. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-08-04 primary results; the Kansas SOS candidate list returned HTTP 403 to automated access."
   },
   {
     "id": "2026-gov-FL",
@@ -1755,11 +1904,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Florida Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/FL.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-18 primary (R): Byron Donalds 47.8%; 2026-08-18 primary (D): David Jolly 61.0%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. The SB 484 description comes from the Jolly campaign page and was not checked against the enacted bill text. DeSantis's own data-center actions were not separately sourced in this pass. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "The SB 484 description comes from the Jolly campaign page and was not checked against the enacted bill text. DeSantis's own data-center actions were not separately sourced in this pass. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-08-18 primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-gov-NM",
@@ -1914,11 +2070,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "New Mexico Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/NM.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-02 primary (R): Greggory Hull 47.0%; 2026-06-02 primary (D): Deb Haaland 72.3%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "medium",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Neither campaign page directly addresses Project Jupiter's approval. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "Neither campaign page directly addresses Project Jupiter's approval. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-06-02 primary results; not checked against the state's certified general-election list. AP lists the Republican nominee as Greggory Hull."
   },
   {
     "id": "2026-gov-AL",
@@ -2013,11 +2176,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Alabama Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/AL.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-19 primary (R): Tommy Tuberville 85.5%; 2026-05-19 primary (D): Doug Jones 78.6%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No Tuberville gubernatorial campaign site or data-center statement could be verified. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No Tuberville gubernatorial campaign site or data-center statement could be verified. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-05-19 primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-gov-OK",
@@ -2126,11 +2296,25 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Oklahoma Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/OK.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-16 primary (D): Cyndi Munson 74.9%; 2026-06-16 primary (R): no majority, went to runoff; 2026-08-25 runoff (R): Mike Mazzei 50.3%"
+      },
+      {
+        "title": "2026 Candidate List Book",
+        "url": "https://oklahoma.gov/content/dam/ok/en/elections/candidate-filing-archives/2026-candidate-filing-archives/2026-candidate-list-book.pdf",
+        "publisher": "Oklahoma State Election Board",
+        "kind": "official",
+        "excerpt": "Governor filings: Republicans McCall, Mazzei, Haynes, Drummond, Domenico, Keating, Merrick; Democrats Munson, Arya, Johnson; Independents Jerry Griffin, Robert E. Brooks Sr., Orlando Lynn Bush."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Mazzei won the Republican nomination in the August 25 runoff (per secondary compilation); no data-center statement or campaign site was verified for him. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "Mazzei won the Republican nomination in the August 25 runoff; no data-center statement or campaign site was verified for him. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Mazzei's runoff win (50.3%) and Munson's primary win confirmed via AP-sourced results. Three independents (Griffin, Brooks, Bush) filed in April per the Election Board's candidate book; their November ballot status was not separately confirmed."
   },
   {
     "id": "2026-gov-CT",
@@ -2227,11 +2411,25 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Connecticut Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/CT.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-11 primary (R): Ryan Fazio (unopposed); 2026-08-11 primary (D): Ned Lamont 67.9%"
+      },
+      {
+        "title": "Lamont takes a pass on seeking Independent Party ballot line",
+        "url": "https://www.wtnh.com/news/elections/lamont-takes-a-pass-on-seeking-independent-party-ballot-line/",
+        "publisher": "WTNH News 8",
+        "kind": "journalism",
+        "excerpt": "Lamont's campaign said it was not seeking the Independent Party nomination, leaving Republican Ryan Fazio to pursue that line."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Lamont's own data-center record (the incentive law Fazio refers to) was not sourced directly in this pass; Fazio is listed as the Republican and Independent Party nominee. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "Lamont's own data-center record (the incentive law Fazio refers to) was not sourced directly in this pass; Fazio is listed as the Republican and Independent Party nominee. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-08-11 primary results; not checked against the state's certified general-election list. Fazio's Independent Party line is supported by news reports (WTNH, Hearst Connecticut) but was not checked against the Secretary of the State's ballot list."
   },
   {
     "id": "2026-gov-CA",
@@ -2327,11 +2525,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "California Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/CA.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-02 top-four/top-two primary advanced: Xavier Becerra, Steve Hilton"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. California uses a top-two primary. Hilton's campaign site and data-center positions were not verified; secondary sources say Eric Swalwell and Betty Yee withdrew but remain on the ballot. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "California uses a top-two primary. Hilton's campaign site and data-center positions were not verified; secondary sources say Eric Swalwell and Betty Yee withdrew but remain on the ballot. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. The two top-two finishers (Becerra, Hilton) were confirmed via AP-sourced 2026-06-02 results; the SOS certified-list PDF could not be text-extracted."
   },
   {
     "id": "2026-gov-AK",
@@ -2405,11 +2610,33 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Alaska Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/AK.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-18 top-four/top-two primary advanced: Jonathan Kreiss-Tomkins, Tom Begich, Bernadette Wilson, Dave Bronson"
+      },
+      {
+        "title": "Candidate List: 2026 General Election",
+        "url": "https://www.elections.alaska.gov/candidates/?election=26genr",
+        "publisher": "Alaska Division of Elections",
+        "kind": "official",
+        "excerpt": "Certified general-election candidates (page updated 2026-09-25). Governor: Bronson, Kreiss-Tomkins, Taylor, Wilson (plus certified write-in Parkin). U.S. Senator: McElwain (Libertarian), Peltola, Dan S. Sullivan, Daniel J. Sullivan Jr. (plus certified write-ins Heikes, Hill)."
+      },
+      {
+        "title": "Alaska Lt. Gov. Dahlstrom reverses herself, puts Treg Taylor back in governor's race",
+        "url": "https://alaskapublic.org/news/politics/elections/2026-09-05/alaska-lt-gov-dahlstrom-reverses-herself-puts-treg-taylor-back-in-governors-race",
+        "publisher": "Alaska Public Media",
+        "kind": "journalism",
+        "published": "2026-09-05",
+        "excerpt": "Taylor, who moved into the top four after second-place finisher Tom Begich withdrew, was restored to the ballot after Dahlstrom reversed her Aug. 31 decision."
       }
     ],
-    "verifiedAt": "2026-10-11",
-    "confidence": "low",
-    "caveats": "Alaska uses a nonpartisan top-four primary and a ranked-choice general; the four advancing candidates listed here come from a secondary compilation and could not be confirmed against the Division of Elections site (certificate error). Treg Taylor's certification was reportedly disputed and then reversed (Aug. 31 / Sept. 4). Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "caveats": "Alaska uses a nonpartisan top-four primary and a ranked-choice general; the four general-election candidates are confirmed on the Division of Elections certified list. Democrat Tom Begich finished second in the top-four primary but withdrew; fifth-place Treg Taylor moved up, was denied certification on Aug. 31, and was restored on Sept. 4. A certified write-in (James Parkin) is not listed. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
   },
   {
     "id": "2026-gov-AR",
@@ -2469,11 +2696,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Arkansas Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/AR.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-03-03 primary (D): Fred Love 81.0%; 2026-03-03 primary (R): Sarah Huckabee Sanders (unopposed)"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-03-03 primary results; not checked against the state's certified general-election list. AP lists the Democratic nominee as Fred Love."
   },
   {
     "id": "2026-gov-CO",
@@ -2540,11 +2774,25 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Colorado Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/CO.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-30 primary (R): Victor Marx 39.9%; 2026-06-30 primary (D): Phil Weiser 56.9%"
+      },
+      {
+        "title": "2026 General Election official candidate list",
+        "url": "https://www.coloradosos.gov/pubs/elections/vote/generalCandidates.html",
+        "publisher": "Colorado Secretary of State",
+        "kind": "official",
+        "excerpt": "Governor: Victor Marx (Republican), Phil Weiser (Democratic), Stephen T. Hamilton (American Constitution), Eric Mulder (Libertarian), Jeff Peckman (Unity), Erik Underwood (Approval Voting), Greg Lopez (Unaffiliated)."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Greg Lopez left the Republican Party in January 2026 and is running as an unaffiliated candidate (per secondary compilation). Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "Greg Lopez left the Republican Party in January 2026 and is running as an unaffiliated candidate. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Lopez's unaffiliated ballot status is confirmed on the SOS list; minor-party candidates Hamilton (American Constitution), Mulder (Libertarian), Peckman (Unity) and Underwood (Approval Voting) are also on the ballot but not listed here."
   },
   {
     "id": "2026-gov-HI",
@@ -2604,11 +2852,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Hawaii Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/HI.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-08 primary (R): Gary Cordery 75.8%; 2026-08-08 primary (D): Josh Green 88.5%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-08-08 primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-gov-ID",
@@ -2668,11 +2923,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Idaho Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/ID.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-19 primary (D): Terri Pickens 61.4%; 2026-05-19 primary (R): Brad Little 59.0%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-05-19 primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-gov-IL",
@@ -2739,11 +3001,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Illinois Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/IL.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-03-17 primary (D): JB Pritzker (unopposed); 2026-03-17 primary (R): Darren Bailey 53.5%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-03-17 primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-gov-ME",
@@ -2810,11 +3079,26 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Maine Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/ME.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners (ranked-choice tabulation): 2026-06-09 Democratic primary, Hannah Pingree; 2026-06-09 Republican primary, Robert Charles. First-round shares were below 50%, and Pingree trailed Nirav Shah in the first round."
+      },
+      {
+        "title": "Independent qualifies for ballot, setting up 3-way race for Maine governor",
+        "url": "https://www.mainepublic.org/politics/2026-06-04/independent-qualifies-for-ballot-setting-up-3-way-race-for-maine-governor",
+        "publisher": "Maine Public",
+        "kind": "journalism",
+        "published": "2026-06-04",
+        "excerpt": "State Sen. Rick Bennett was the only independent to qualify for the November ballot for governor, setting up a three-way race."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced results (decided by ranked-choice tabulation); Bennett's independent ballot qualification confirmed by Maine Public. Ranked-choice voting is not used in the general election for governor."
   },
   {
     "id": "2026-gov-MD",
@@ -2896,11 +3180,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Maryland Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/MD.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-23 primary (R): Dan Cox 44.1%; 2026-06-23 primary (D): Wes Moore 87.8%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-06-23 primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-gov-MA",
@@ -2960,11 +3251,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Massachusetts Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/MA.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-09-01 primary (D): Maura Healey (unopposed); 2026-09-01 primary (R): Michael Minogue 75.8%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-09-01 primary results; not checked against the state's certified general-election list. AP lists the Republican nominee as Michael Minogue."
   },
   {
     "id": "2026-gov-NE",
@@ -3031,11 +3329,26 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Nebraska Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/NE.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-12 primary (D): Lynne Walz 91.5%; 2026-05-12 primary (R): Jim Pillen 75.4%"
+      },
+      {
+        "title": "Final Statewide General Candidate List, November 3, 2026 General Election",
+        "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf",
+        "publisher": "Nebraska Secretary of State",
+        "kind": "official",
+        "published": "2026-09-11",
+        "excerpt": "Governor and Lt. Governor: Jim Pillen and Joe Kelly (Republican); Lynne Walz and Ben Steffen (Democratic); Rick Beard and Keenya Barnes (Legal Marijuana NOW); Brett Lindstrom and Michael Picard (America First)."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Lindstrom appears on the official list as the America First Party nominee; Legal Marijuana NOW nominee Rick Beard is also on the ballot (not listed here)."
   },
   {
     "id": "2026-gov-NH",
@@ -3095,11 +3408,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "New Hampshire Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/NH.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-09-08 primary (R): Kelly Ayotte 91.7%; 2026-09-08 primary (D): Cinde Warmington (unopposed)"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-09-08 primary results; the NH SOS site returned HTTP 403 to automated access."
   },
   {
     "id": "2026-gov-OR",
@@ -3159,11 +3479,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Oregon Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/OR.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-05-19 primary (R): Christine Drazan 40.8%; 2026-05-19 primary (D): Tina Kotek 83.7%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "The POWER Act reference is from background knowledge and was not re-sourced in this pass. Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "The POWER Act reference is from background knowledge and was not re-sourced in this pass. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-05-19 primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-gov-RI",
@@ -3230,11 +3557,26 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Rhode Island Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/RI.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-09-09 primary (D): Helena Foulkes 62.5%. 2026-09-09 primary (R): AP made no call (Guckian 50.6%, Pelino 49.4%)."
+      },
+      {
+        "title": "Guckian confirmed as GOP gubernatorial nominee; primary turnout cracks 20%",
+        "url": "https://rhodeislandcurrent.com/2026/09/15/guckian-confirmed-as-gop-gubernatorial-nominee-primary-turnout-cracks-20/",
+        "publisher": "Rhode Island Current",
+        "kind": "journalism",
+        "published": "2026-09-15",
+        "excerpt": "After a re-read of electronic results, the Board of Elections certified Aaron Guckian's 259-vote Republican primary win over Elaine Pelino; he faces Democrat Helena Foulkes and independents Ken Block, Jay Gotra and C.D. Reynolds."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. The Republican primary was too close for an AP call; the Board of Elections certified Guckian's 259-vote win after a re-read. Independents Jay Gotra and C.D. Reynolds are also on the ballot (not listed here). The RI Board of Elections site returned HTTP 403 to automated access."
   },
   {
     "id": "2026-gov-SC",
@@ -3295,11 +3637,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "South Carolina Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/SC.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-09 primary (R): no majority, went to runoff; 2026-06-09 primary (D): Jermaine Johnson 59.7%; 2026-06-23 runoff (R): Alan Wilson 68.6%"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Wilson won the Republican nomination in the June 23 runoff (per secondary compilation). Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "Wilson won the Republican nomination in the June 23 runoff over Pamela Evette (AP-called, 68.6%). No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-06-09/06-23 runoff primary results; not checked against the state's certified general-election list."
   },
   {
     "id": "2026-gov-SD",
@@ -3360,11 +3709,26 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "South Dakota Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/SD.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-06-02 primary (D): Dan Ahlers (unopposed); 2026-06-02 primary (R): no candidate reached the 35% threshold (Doeden 30.6%, Rhoden 25.2%), forcing a runoff."
+      },
+      {
+        "title": "South Dakota governor wins Republican nomination to seek his own term after succeeding Noem",
+        "url": "https://southdakotasearchlight.com/2026/07/28/south-dakota-governor-wins-republican-nomination-to-seek-his-own-term-after-succeeding-noem/",
+        "publisher": "South Dakota Searchlight",
+        "kind": "journalism",
+        "published": "2026-07-28",
+        "excerpt": "Rhoden beat Toby Doeden in the first statewide primary runoff under a 1985 law (no candidate reached 35% on June 2), taking about 71% and carrying 64 of 66 counties; he faces Democrat Dan Ahlers."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Rhoden won a July 28 Republican runoff (per secondary compilation). Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "Rhoden won the July 28 Republican runoff over Toby Doeden (South Dakota Searchlight). No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
   },
   {
     "id": "2026-gov-TN",
@@ -3431,11 +3795,25 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Tennessee Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/TN.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-06 primary (D): Jerri Green 69.0%; 2026-08-06 primary (R): Marsha Blackburn 43.4%"
+      },
+      {
+        "title": "Candidates for Governor, November 3, 2026 General Election",
+        "url": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/Governor_Nov2026.pdf",
+        "publisher": "Tennessee Secretary of State, Division of Elections",
+        "kind": "official",
+        "excerpt": "Marsha Blackburn (Republican), Jerri Green (Democratic), and ten Independent candidates (Abidi, Brewer, Brown, Hatley, Jackson, Morgan, Murphy, Pinkston, Scoggin, Seeman)."
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Ten independent candidates are also on the official ballot list (not listed here)."
   },
   {
     "id": "2026-gov-VT",
@@ -3495,11 +3873,18 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Vermont Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/VT.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-11 primary (D): Amanda Janoo 49.1%; 2026-08-11 primary (R): Phil Scott (unopposed)"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-08-11 primary results; not checked against the state's certified general-election list. Janoo's Democratic primary margin over Aly Richards was narrow (49.1% to 46.6%)."
   },
   {
     "id": "2026-gov-WY",
@@ -3559,10 +3944,17 @@
         "publisher": "National Conference of State Legislatures",
         "kind": "research",
         "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      },
+      {
+        "title": "Wyoming Primary Election Results 2026",
+        "url": "https://apps.npr.org/primary-election-results-2026/states/WY.html",
+        "publisher": "NPR (results data from The Associated Press)",
+        "kind": "journalism",
+        "excerpt": "AP-called winners: 2026-08-18 primary (R): Eric Barlow 45.0%; 2026-08-18 primary (D): Kenneth Casner (unopposed)"
       }
     ],
-    "verifiedAt": "2026-10-11",
+    "verifiedAt": "2026-10-12",
     "confidence": "low",
-    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+    "caveats": "No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites. Nominees confirmed via AP-sourced 2026-08-18 primary results; not checked against the state's certified general-election list."
   }
 ]

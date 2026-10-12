@@ -49,7 +49,7 @@ export const resolveAdapter: Adapter = {
     let linked = 0;
     let ambiguous = 0;
     for (const c of lookup("candidate")) {
-      const d = c.data as { name: string; office: string; state: string; district: string | null; fecId?: string };
+      const d = c.data as { name: string; office: string; state: string; district: string | null; fecId?: string; incumbent?: boolean };
       if (d.fecId && byFecId.has(d.fecId)) {
         relations.push({ src: c.id, dst: `finance:${d.fecId}`, type: "has_finance", data: { method: "fec_id" } });
         linked++;
@@ -62,6 +62,11 @@ export const resolveAdapter: Adapter = {
       let matches = index.get(`${prefix}|${d.state}|${district}|${n.last}`) ?? [];
       if (matches.length > 1) {
         matches = matches.filter((m) => nameKey((m.data as { name: string }).name).first[0] === n.first[0]);
+      }
+      if (matches.length > 1) {
+        // Namesakes (e.g. two Sullivans in one race): incumbency status disambiguates.
+        const byStatus = matches.filter((m) => ((m.data as { status: string | null }).status === "incumbent") === Boolean(d.incumbent));
+        if (byStatus.length) matches = byStatus;
       }
       if (matches.length > 1) {
         // Prefer the campaign with the most receipts (multiple committees for one person are common).
