@@ -9,6 +9,7 @@ const PRIMARY = [
   { href: "/news", label: "News" },
   { href: "/states", label: "States" },
   { href: "/elections", label: "2026 Elections" },
+  { href: "/predictions", label: "My Senate Ratings" },
   { href: "/legislation", label: "Legislation" },
   { href: "/utilities", label: "Utilities" },
 ];

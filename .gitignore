@@ -46,3 +46,6 @@ next-env.d.ts
 /data/.ingest.lock
 /data/ingest.log
 !.env.example
+
+# personal forecasts (local only)
+/data/user/

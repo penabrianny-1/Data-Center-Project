@@ -65,3 +65,21 @@ describe("append-only sources", () => {
     expect((db.prepare("SELECT COUNT(*) AS n FROM entities").get() as { n: number }).n).toBe(1);
   });
 });
+
+describe("Senate predictions store", () => {
+  it("saves ratings, records moves, and clears", async () => {
+    const { mkdtempSync } = await import("node:fs");
+    const { tmpdir } = await import("node:os");
+    const { join } = await import("node:path");
+    const { applyRatingUpdates, readPredictions } = await import("../lib/predictions");
+    const path = join(mkdtempSync(join(tmpdir(), "pred-")), "p.json");
+    expect(readPredictions(path).ratings).toEqual({});
+    applyRatingUpdates([{ raceId: "2026-sen-GA", rating: "Toss-up" }], path, "2026-10-12T00:00:00Z");
+    const p = applyRatingUpdates([{ raceId: "2026-sen-GA", rating: "Lean D", note: "Incumbency" }], path, "2026-10-13T00:00:00Z");
+    expect(p.ratings["2026-sen-GA"]).toMatchObject({ rating: "Lean D", note: "Incumbency" });
+    expect(p.history.map((h) => [h.from, h.to])).toEqual([[null, "Toss-up"], ["Toss-up", "Lean D"]]);
+    // Re-saving the same rating (e.g. a note edit) is not a move.
+    expect(applyRatingUpdates([{ raceId: "2026-sen-GA", rating: "Lean D", note: "x" }], path).history).toHaveLength(2);
+    expect(applyRatingUpdates([{ raceId: "2026-sen-GA", rating: null }], path).ratings).toEqual({});
+  });
+});
