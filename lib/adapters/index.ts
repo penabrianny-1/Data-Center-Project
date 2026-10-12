@@ -1,5 +1,6 @@
 import type { Adapter } from "../ingest/types";
 import { aafAdapter } from "./aaf";
+import { adImpactAdapter } from "./adimpact";
 import { congressAdapter } from "./congress";
 import { fecAdapter, fecIeAdapter } from "./fec";
 import { fecMoneyAdapter } from "./fec-money";
@@ -8,6 +9,7 @@ import { aaaAdapter, eiaAdapter } from "./gas";
 import { legislatorsAdapter } from "./legislators";
 import { marketsAdapter } from "./markets";
 import { googleNewsAdapter } from "./google-news";
+import { googleAdsAdapter } from "./google-ads";
 import { ldaAdapter } from "./lda";
 import { newsAdapter } from "./news";
 import { openStatesAdapter } from "./openstates";
@@ -23,6 +25,8 @@ export const ADAPTERS: Adapter[] = [
   fecIeAdapter,
   fecMoneyAdapter,
   fecEcAdapter,
+  googleAdsAdapter,
+  adImpactAdapter,
   ldaAdapter,
   txTecAdapter,
   congressAdapter,
@@ -67,11 +71,22 @@ export const PENDING_SOURCES: { name: string; url: string; status: string; reaso
       "Each state runs its own disclosure system. Texas (Ethics Commission bulk data) is being integrated first. Other states' governor, legislative and utility-commission candidate finance comes next, adapter by adapter. OpenSecrets/FollowTheMoney bulk data needs a license, and the OpenSecrets API was retired in 2025.",
   },
   {
-    name: "AdImpact",
+    name: "AdImpact reservation database",
     url: "https://adimpact.com/",
     status: "Licensed data",
-    reason:
-      "Ad-spending data is proprietary and needs a subscription. Outside-spending totals here come from FEC 24/48-hour filings instead. Ad reservations that haven't been disclosed to FEC don't appear.",
+    reason: "Station-level ad reservations and flights are AdImpact's paid product. AdImpact's public posts and their figures are integrated (adimpact adapter). Full reservation data needs a subscription.",
+  },
+  {
+    name: "Meta Ad Library (Facebook & Instagram)",
+    url: "https://www.facebook.com/ads/library/api/",
+    status: "Needs account",
+    reason: "Covers political and issue ads with spend ranges by state, including dark-money groups. Needs a Meta developer account with identity verification and an access token (META_ADLIB_TOKEN).",
+  },
+  {
+    name: "FCC political files (broadcast TV contracts)",
+    url: "https://publicfiles.fcc.gov/",
+    status: "Not machine-readable",
+    reason: "Stations upload political-ad contracts as scanned PDFs, one station at a time. There's no national dataset to ingest. AdImpact and FEC filings are the practical substitutes.",
   },
   {
     name: "State lobbying disclosures",

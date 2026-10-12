@@ -1,5 +1,59 @@
 [
   {
+    "state": "AK",
+    "campaignFinance": {
+      "agency": "Alaska Public Offices Commission (APOC)",
+      "page": "https://aws.state.ak.us/ApocReports/CampaignDisclosure/CDIncome.aspx",
+      "method": "export",
+      "downloads": [
+        {
+          "url": "https://aws.state.ak.us/ApocReports/CampaignDisclosure/CDIncome.aspx",
+          "format": "CSV (ASP.NET postback 'Export' button)",
+          "sizeApprox": "",
+          "description": "Campaign Disclosure Income (contributions); filter by report year (2008-2027 selectable, default 2026). Also CDExpenditures.aspx"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Live",
+      "notes": "An adapter has to replay the WebForms POST (__VIEWSTATE plus M$C$sCDTransactions$csfFilter$btnExport) to get the CSV. doa.alaska.gov/apoc returns a 403 JS challenge, but aws.state.ak.us/ApocReports is reachable."
+    },
+    "lobbying": {
+      "agency": "Alaska Public Offices Commission (APOC)",
+      "page": "https://aws.state.ak.us/ApocReports/Lobbying/",
+      "method": "export",
+      "downloads": [
+        {
+          "url": "https://aws.state.ak.us/ApocReports/Lobbying/LobbyistDirectory.aspx",
+          "format": "CSV (postback Export)",
+          "sizeApprox": "",
+          "description": "Lobbyist directory"
+        },
+        {
+          "url": "https://aws.state.ak.us/ApocReports/Lobbying/LobbyistEmployerDirectory.aspx",
+          "format": "CSV (postback Export)",
+          "sizeApprox": "",
+          "description": "Employers of lobbyists"
+        },
+        {
+          "url": "https://aws.state.ak.us/ApocReports/Lobbying/LORForms.aspx",
+          "format": "CSV (postback Export)",
+          "sizeApprox": "",
+          "description": "Lobbyist quarterly/periodic reports (compensation). Also LOEMForms.aspx (employer reports), LobbyistSummary.aspx, EmployerOfLobbyistSummary.aspx"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Live",
+      "notes": "Same WebForms Export pattern as campaign disclosure (M$C$btnExport)."
+    },
+    "verifiedAt": "2026-10-12"
+  },
+  {
     "state": "AL",
     "campaignFinance": {
       "agency": "Alabama Secretary of State - Elections Division (FCPA Reporting System)",
@@ -62,6 +116,138 @@
       "has2026": true,
       "updated": "Live (generated on request)",
       "notes": "Excel lists cover registrations only. Quarterly lobbyist/principal spending reports are in the HTML public-records search, with no bulk file."
+    },
+    "verifiedAt": "2026-10-12"
+  },
+  {
+    "state": "AR",
+    "campaignFinance": {
+      "agency": "Arkansas Secretary of State - Ethics & Financial Disclosure",
+      "page": "https://ethics-disclosures.sos.arkansas.gov/",
+      "method": "export",
+      "downloads": [
+        {
+          "url": "https://api-ethics-disclosures.sos.arkansas.gov/api/ExportData/GetExportPublicDownloadData",
+          "format": "POST JSON -> CSV/ZIP",
+          "sizeApprox": "",
+          "description": "Public download-data API used by the Angular SPA (route /downloaddata). Required body fields: Type, FilingYear, TransactionTypeCode. ZIP via ExportData/DownloadZipFile"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "GET requests to the API return 'the request is blocked by WAF'; POST with JSON is accepted",
+      "has2026": true,
+      "updated": "Live",
+      "notes": "JS SPA. Exact parameter codes need capturing from browser devtools. The candidate campaign-finance system replaced the archived www.sos.arkansas.gov/filing_search."
+    },
+    "lobbying": {
+      "agency": "Arkansas Secretary of State - Ethics & Financial Disclosure",
+      "page": "https://www.sos.arkansas.gov/elections/financial-disclosure/registered-lobbyists-political-action-committees",
+      "method": "export",
+      "downloads": [
+        {
+          "url": "https://api-ethics-disclosures.sos.arkansas.gov/api/ExportData/GetExportPublicDownloadData",
+          "format": "POST JSON -> CSV",
+          "sizeApprox": "",
+          "description": "Same SPA export API (LobbyistDownload, LobbyistTransactionDownload, ClientDownload types seen in bundle)"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Live",
+      "notes": "Registered lobbyist list PDFs on the SOS page stop at 2017. Current lobbyist reports are in the ethics-disclosures SPA."
+    },
+    "verifiedAt": "2026-10-12"
+  },
+  {
+    "state": "AZ",
+    "campaignFinance": {
+      "agency": "Arizona Secretary of State (See The Money)",
+      "page": "https://seethemoney.az.gov/Reporting/AdvancedSearch/",
+      "method": "export",
+      "downloads": [
+        {
+          "url": "https://seethemoney.az.gov/Reporting/AdvancedSearch/",
+          "format": "CSV or XLS export from search",
+          "sizeApprox": "",
+          "description": "Advanced search with ExportIncomeTransactions / ExportExpenseTransactions buttons"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Live",
+      "notes": "seethemoney.az.gov can be scripted (no Cloudflare); the site uses internal JSON endpoints behind its DataTables UI. azsos.gov returns a 403 Cloudflare challenge."
+    },
+    "lobbying": {
+      "agency": "Arizona Secretary of State - Lobbying",
+      "page": "https://lobbying.az.gov/",
+      "method": "none",
+      "downloads": [
+        {
+          "url": "https://apps.azsos.gov/files/lobbying/expenditure/Principal_Expenditure_2024.pdf",
+          "format": "PDF",
+          "sizeApprox": "",
+          "description": "Annual Summary of Principal Expenditures (PDF; URL pattern by year, unverified for 2025)"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": true,
+      "blockNote": "lobbying.az.gov and azsos.gov return Cloudflare 403 'Sorry, you have been blocked' to scripted clients (curl and WebFetch)",
+      "has2026": true,
+      "updated": "",
+      "notes": "Lobbyist and principal search (lobbying.az.gov/lobbyist, /principal) needs a browser. The only bulk item found is the annual PDF summary."
+    },
+    "verifiedAt": "2026-10-12"
+  },
+  {
+    "state": "CA",
+    "campaignFinance": {
+      "agency": "California Secretary of State - Political Reform Division (CAL-ACCESS)",
+      "page": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/raw-data-campaign-finance-and-lobbying-activity",
+      "method": "bulk",
+      "downloads": [
+        {
+          "url": "https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip",
+          "format": "ZIP of tab-delimited TXT (one file per CAL-ACCESS table: RCPT_CD, EXPN_CD, FILER_*, etc.)",
+          "sizeApprox": "1.59 GB compressed",
+          "description": "Full CAL-ACCESS raw export, campaign plus lobbying"
+        },
+        {
+          "url": "https://campaignfinance.cdn.sos.ca.gov/calaccess-documentation.zip",
+          "format": "ZIP",
+          "sizeApprox": "",
+          "description": "Data structure and field guides"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Daily (Last-Modified 2026-10-12 08:52 GMT)",
+      "notes": "The page carries a status notice about a recent overnight export outage. CDN is behind Imperva (sets incap cookies) but plain curl works. The CARS replacement system is still in development as of Sept 2026, so watch for format changes."
+    },
+    "lobbying": {
+      "agency": "California Secretary of State - Political Reform Division (CAL-ACCESS)",
+      "page": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/raw-data-campaign-finance-and-lobbying-activity",
+      "method": "bulk",
+      "downloads": [
+        {
+          "url": "https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip",
+          "format": "ZIP of TSV",
+          "sizeApprox": "1.59 GB",
+          "description": "Same export; lobbying tables include LPAY_CD (payments/compensation), LEXP_CD, LCCM_CD, LOTH_CD, LEMP_CD, LATT_CD, plus FILERNAME_CD for registrations"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Daily",
+      "notes": "Lobbying and campaign data ship in the same ZIP."
     },
     "verifiedAt": "2026-10-12"
   },
@@ -156,6 +342,60 @@
     "verifiedAt": "2026-10-12"
   },
   {
+    "state": "FL",
+    "campaignFinance": {
+      "agency": "Florida Department of State - Division of Elections",
+      "page": "https://dos.elections.myflorida.com/campaign-finance/contributions/",
+      "method": "export",
+      "downloads": [
+        {
+          "url": "https://dos.elections.myflorida.com/cgi-bin/contrib.exe",
+          "format": "Tab-delimited TXT (POST form, queryformat=2)",
+          "sizeApprox": "Query-dependent; rowlimit param",
+          "description": "Contribution records query. POST fields: election (e.g. 20261103-GEN or All), search_on, CanLName, ComName, office, party, cdatefrom/cdateto (mm/dd/yyyy), rowlimit, queryformat=2 for a tab-delimited file. Sibling CGIs: expend.exe, others"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "dos.fl.gov (the agency info site) returns a Cloudflare challenge; dos.elections.myflorida.com works with curl",
+      "has2026": true,
+      "updated": "Live (as processed by Division of Elections)",
+      "notes": "Verified that a tab-delimited response comes back to a scripted POST with a Referer header. Large unfiltered queries may 502, so chunk by date range or election. State-level only."
+    },
+    "lobbying": {
+      "agency": "Florida Legislature / Commission on Ethics - Lobbyist Registration Office",
+      "page": "https://www.floridalobbyist.gov/CompensationReportSearch/DownloadCompReport",
+      "method": "bulk",
+      "downloads": [
+        {
+          "url": "https://www.floridalobbyist.gov/reports/llob.txt",
+          "format": "TXT (formatted)",
+          "sizeApprox": "4.1 MB",
+          "description": "Legislative lobbyist/principal registrations"
+        },
+        {
+          "url": "https://www.floridalobbyist.gov/reports/elob.txt",
+          "format": "TXT",
+          "sizeApprox": "",
+          "description": "Executive branch lobbyist registrations"
+        },
+        {
+          "url": "https://www.floridalobbyist.gov/reports/2026_Quarter2_Legislative.txt",
+          "format": "Tab-delimited TXT",
+          "sizeApprox": "",
+          "description": "Quarterly compensation reports. Pattern {YEAR}_Quarter{N}_{Legislative|Executive}.txt; last 8 quarters retained"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": true,
+      "blockNote": "www.floridalobbyist.gov/robots.txt: 'User-agent: * / Disallow: /'",
+      "has2026": true,
+      "updated": "Daily for registrations (llob.txt Last-Modified 2026-10-12); quarterly for compensation",
+      "notes": "Files are explicitly offered for download, but robots.txt disallows everything, so keep fetches to a few known files per day."
+    },
+    "verifiedAt": "2026-10-12"
+  },
+  {
     "state": "HI",
     "campaignFinance": {
       "agency": "Hawaii Campaign Spending Commission",
@@ -205,6 +445,47 @@
       "has2026": true,
       "updated": "",
       "notes": "PENDING"
+    },
+    "verifiedAt": "2026-10-12"
+  },
+  {
+    "state": "MI",
+    "campaignFinance": {
+      "agency": "Michigan Department of State - Bureau of Elections (MiTN Campaign Finance)",
+      "page": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=gov.mi.boe.component.cfrexport.page.cfrexportdownload",
+      "method": "bulk",
+      "downloads": [
+        {
+          "url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=gov.mi.boe.component.cfrexport.page.cfrexportresults&pageSize=100",
+          "format": "JSON",
+          "sizeApprox": "",
+          "description": "Listing endpoint: transactiontype (Contribution/Expenditure/Receipts), year, lastupdated, download id (88 records)"
+        },
+        {
+          "url": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=gov.mi.boe.component.cfrexport.page.cfrexportfile&id=24354",
+          "format": "ZIP of tab-delimited TXT",
+          "sizeApprox": "29 MB",
+          "description": "Contribution_2026.zip. The id is regenerated on every daily refresh, so resolve it from the listing endpoint"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "Legacy host miboecfr.nictusa.com / cfrsearch.nictusa.com returns Cloudflare 403 (blocked)",
+      "has2026": true,
+      "updated": "Daily (~03:19 AM; 2026 files updated 2026-10-12)",
+      "notes": "Files cover all-transaction exports for 2025 and 2026. No robots.txt on entellitrak host (404)."
+    },
+    "lobbying": {
+      "agency": "Michigan Department of State - Bureau of Elections (Lobby Disclosure, MiTN)",
+      "page": "https://mi-boe.entellitrak.com/etk-mi-boe-prod/page.request.do?page=page.miboeLobbyPublicSearch",
+      "method": "none",
+      "downloads": [],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Live",
+      "notes": "HTMX/Alpine HTML search (lobbyist/agent, filings, expenditures, itemized, fees, employees) with POST fragments and no CSV export. There is also an itemized expenditure analysis search (page.miboeItemizedLobbyExpenditureAnalysisPublicSearch). Scraping the HTML fragments is feasible."
     },
     "verifiedAt": "2026-10-12"
   },
@@ -271,6 +552,168 @@
       "has2026": true,
       "updated": "Periodic (bi-monthly reports updated 2026-08-03; registrations 2026-07-24)",
       "notes": "Lags by about 2 months. reporting_year=2026 rows are present (e.g., the Mar/Apr period)."
+    },
+    "verifiedAt": "2026-10-12"
+  },
+  {
+    "state": "OH",
+    "campaignFinance": {
+      "agency": "Ohio Secretary of State - Campaign Finance",
+      "page": "https://www6.ohiosos.gov/ords/f?p=CFDISCLOSURE:73:0",
+      "method": "bulk",
+      "downloads": [
+        {
+          "url": "https://www6.ohiosos.gov/ords/f?p=CFDISCLOSURE:73:0",
+          "format": "CSV (per-year contribution/expenditure files for candidates, PACs, parties)",
+          "sizeApprox": "",
+          "description": "CF Disclosure 'FTP / data download' page. UNVERIFIED today: blocked by bot protection"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": true,
+      "blockNote": "www.ohiosos.gov and www6.ohiosos.gov return HTTP 403 'This page conducts a brief security check before proceeding' to curl and WebFetch. No robots.txt is retrievable.",
+      "has2026": true,
+      "updated": "",
+      "notes": "Needs a real browser (headless with JS) or a request to the SOS office. Method and format come from the known system design and were not verified in this pass."
+    },
+    "lobbying": {
+      "agency": "Ohio Joint Legislative Ethics Committee (JLEC) - Ohio Lobbying Activity Center (OLAC)",
+      "page": "https://www2.jlec-olig.state.oh.us/OLAC/Reports/AgentEmployerLists",
+      "method": "bulk",
+      "downloads": [
+        {
+          "url": "https://www2.jlec-olig.state.oh.us/OLAC/Reports/Agents/List",
+          "format": "CSV",
+          "sizeApprox": "128 KB",
+          "description": "All currently registered agents (lobbyists); updated daily"
+        },
+        {
+          "url": "https://www2.jlec-olig.state.oh.us/OLAC/Reports/Employers/List",
+          "format": "CSV",
+          "sizeApprox": "289 KB",
+          "description": "All currently registered employers; updated daily"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Daily",
+      "notes": "The CSVs hold registrations only. Expenditures (executive, legislative, retirement), financial transactions, and bill/decision searches are HTML searches under /OLAC/Reports/ExpenditureSearches. Ohio does not require lobbyist compensation reporting. The agent-employer relationship comes from the Registration Searches, not the CSVs."
+    },
+    "verifiedAt": "2026-10-12"
+  },
+  {
+    "state": "PA",
+    "campaignFinance": {
+      "agency": "Pennsylvania Department of State - Bureau of Campaign Finance",
+      "page": "https://www.pa.gov/agencies/dos/resources/voting-and-elections-resources/campaign-finance-data",
+      "method": "bulk",
+      "downloads": [
+        {
+          "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/resources/voting-and-elections/campaign-finance/campaign-finance-data/2026.zip",
+          "format": "ZIP of delimited TXT (filer, contrib, debt, expense, receipt)",
+          "sizeApprox": "14.5 MB",
+          "description": "2026 full export"
+        },
+        {
+          "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/resources/voting-and-elections/campaign-finance/campaign-finance-data/2025.zip",
+          "format": "ZIP of TXT",
+          "sizeApprox": "29 MB",
+          "description": "2025 full export"
+        },
+        {
+          "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dos/resources/voting-and-elections/campaign-finance/campaign-finance-data/readme-cf-data.txt",
+          "format": "TXT",
+          "sizeApprox": "",
+          "description": "Read-me / layout"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Periodic (2026.zip Last-Modified 2026-10-02; 2025.zip 2026-05-20)",
+      "notes": "Pattern /campaign-finance-data/{YEAR}.zip. Hrefs on the page use single quotes."
+    },
+    "lobbying": {
+      "agency": "Pennsylvania Department of State - Lobbying Disclosure",
+      "page": "https://www.palobbyingservices.pa.gov/Public/wfSearch.aspx",
+      "method": "export",
+      "downloads": [
+        {
+          "url": "https://www.palobbyingservices.pa.gov/Public/wfSearch.aspx",
+          "format": "Excel/CSV via ASP.NET postback 'Export All' (lnbExportWOSearch)",
+          "sizeApprox": "",
+          "description": "Registrations, quarterly expense reports, affirmations, equity reports"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Live",
+      "notes": "WebForms postback; replay __VIEWSTATE. Search Type options: Registration, Expenses, Affirmations, Equity Report."
+    },
+    "verifiedAt": "2026-10-12"
+  },
+  {
+    "state": "TX",
+    "campaignFinance": {
+      "agency": "Texas Ethics Commission (TEC)",
+      "page": "https://www.ethics.state.tx.us/search/cf/",
+      "method": "bulk",
+      "downloads": [
+        {
+          "url": "https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip",
+          "format": "ZIP of CSV",
+          "sizeApprox": "1.06 GB compressed",
+          "description": "Full campaign finance CSV database (contributions, expenditures, loans, filers)"
+        },
+        {
+          "url": "https://www.ethics.state.tx.us/data/search/cf/CFS-ReadMe.txt",
+          "format": "TXT",
+          "sizeApprox": "",
+          "description": "Record layout"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": true,
+      "blockNote": "prd.tecprd.ethicsefile.com/robots.txt: 'User-agent: * / Disallow: /public/cf/ / Disallow: /public/lobby/'",
+      "has2026": true,
+      "updated": "Daily (Last-Modified 2026-10-12)",
+      "notes": "Already integrated. robots.txt disallows the path that serves the ZIP; it is linked publicly from the TEC search page for exactly this download, so fetch it as a single user-initiated file and do not crawl."
+    },
+    "lobbying": {
+      "agency": "Texas Ethics Commission (TEC)",
+      "page": "https://www.ethics.state.tx.us/search/lobby/",
+      "method": "bulk",
+      "downloads": [
+        {
+          "url": "https://prd.tecprd.ethicsefile.com/public/lobby/public/TEC_LA_CSV.zip",
+          "format": "ZIP of CSV",
+          "sizeApprox": "17 MB",
+          "description": "Lobby Activities CSV database (registrations, activity reports, expenditures)"
+        },
+        {
+          "url": "https://www.ethics.state.tx.us/data/search/lobby/LobbyLAR-ReadMe.txt",
+          "format": "TXT",
+          "sizeApprox": "",
+          "description": "Record layout"
+        },
+        {
+          "url": "https://www.ethics.state.tx.us/data/search/lobby/2026/2026LobbyGroupByClient.xlsx",
+          "format": "XLSX",
+          "sizeApprox": "",
+          "description": "2026 registrations grouped by client, with compensation ranges. Also 2026LobbyGroupByLobbyist.xlsx, 2026RegisteredLobbyists.xlsx, 2026LobbySubjMatter.xlsx, 2026Pol_FundsByLobbyists.xlsx"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": true,
+      "blockNote": "prd.tecprd.ethicsefile.com/robots.txt: 'Disallow: /public/lobby/' (the XLSX lists on www.ethics.state.tx.us are not disallowed)",
+      "has2026": true,
+      "updated": "Daily (Last-Modified 2026-10-12 14:29 GMT)",
+      "notes": "XLSX registration lists at /data/search/lobby/{YEAR}/ are open."
     },
     "verifiedAt": "2026-10-12"
   },

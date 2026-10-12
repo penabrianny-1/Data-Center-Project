@@ -473,3 +473,16 @@ export interface MarketQuoteData { market: string; url: string; byParty: Record<
 export interface MarketData { raceId?: string; chamber?: string; quotes: MarketQuoteData[]; average: { D: number; R: number; n: number }; retrieved?: string }
 export const getMarket = (raceId: string) => getEntity<MarketData>(`market:${raceId}`);
 export const getChamberMarket = (chamber: "senate" | "house") => getEntity<MarketData>(`market:control-${chamber}`);
+
+export interface GoogleAdvertiserData { advertiserId: string; name: string; type: string; fecId: string | null; cycleSpend: number; lifetimeSpend: number; since: string; recentWeeks: { week: string; amount: number }[]; topStates: { state: string; amount: number }[] }
+export interface GoogleStateData { state: string; note: string; top: { advertiserId: string; name: string; type: string; fecId: string | null; amount: number; cycleSpend: number }[] }
+export interface EcGroupData { committeeId: string; name: string; total: number; count: number; lastDate: string; purposes: string[]; candidates: { cand: string; name: string; state: string; office: string; amount: number }[]; states: string[] }
+export const getGoogleAdvertisers = (limit = 25) =>
+  all<GoogleAdvertiserData>("SELECT * FROM entities WHERE id LIKE 'gads:AR%' ORDER BY json_extract(data, '$.data.cycleSpend') DESC LIMIT ?", limit);
+export const getGoogleSummary = () => getEntity<{ since: string; total: number; advertisers: number; lastModified: string | null }>("gads:summary");
+export const getGoogleState = (st: string) => getEntity<GoogleStateData>(`gadsstate:${st}`);
+export const getEcGroups = () => all<EcGroupData>("SELECT * FROM entities WHERE id LIKE 'ecgroup:%' ORDER BY json_extract(data, '$.data.total') DESC");
+
+export interface AdImpactPost { title: string; date: string | null; author: string | null; url: string; figures: string[]; states: string[] }
+export const getAdImpactPosts = (state?: string) =>
+  all<AdImpactPost>("SELECT * FROM entities WHERE id LIKE 'adimpact:%' ORDER BY date DESC").filter((p) => !state || p.data.states.includes(state));

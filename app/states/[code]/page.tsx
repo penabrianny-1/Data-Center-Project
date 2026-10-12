@@ -5,6 +5,7 @@ import type { ReactNode } from "react";
 import CountyMap from "@/components/CountyMap";
 import DiscoveredBills from "@/components/DiscoveredBills";
 import StateRaceMoney from "@/components/StateRaceMoney";
+import { AdImpactPosts, EcGroups, GoogleStateList } from "@/components/AdsSection";
 import NewsTabs from "@/components/NewsTabs";
 import { CommissionCard, DimensionTable, DocketList, RaceSummary } from "@/components/records";
 import { Party, Provenance, Severity, humanize, money } from "@/components/ui";
@@ -15,7 +16,7 @@ import { getCountyShapes } from "@/lib/data";
 import { countyActionIndex } from "@/lib/local";
 import {
   getBills, getCandidatesForRace, getCommission, getCountiesInState, getDevelopmentsForState, getDiscoveredBills, getDockets,
-  getLobbyClients, getLocalActions, getNews, getPolicy, getRaces, getState, getStateGovernment, getStateMoney, getStateDonors, getStateCandMoneyList,
+  getLobbyClients, getLocalActions, getNews, getPolicy, getRaces, getState, getStateGovernment, getStateMoney, getStateDonors, getStateCandMoneyList, getGoogleState, getEcGroups, getAdImpactPosts,
 } from "@/lib/repo";
 import type { Dimension } from "@/lib/schema";
 import { composite, PRESETS, band } from "@/lib/scoring";
@@ -69,6 +70,8 @@ export default async function StatePage({ params }: PageProps<"/states/[code]">)
   const stateMoney = getStateMoney(code);
   const lobbyClients = getLobbyClients(8, code);
   const stateDonors = getStateDonors(code);
+  const googleState = getGoogleState(code);
+  const ecGroups = getEcGroups();
   const { shapes, borders, viewBox } = await getCountyShapes(meta.fips);
 
   const restriction = state?.data.restriction;
@@ -192,6 +195,22 @@ export default async function StatePage({ params }: PageProps<"/states/[code]">)
             <strong>{meta.name}-based groups lobbying Congress on data centers:</strong>{" "}
             {lobbyClients.map((c, i) => <span key={c.id}>{i > 0 && ", "}{titleCase(c.data.name)}</span>)}
           </p>
+        )}
+        <div className="mt-6 grid gap-6 md:grid-cols-2">
+          <div>
+            <h3 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500">Biggest Google & YouTube election advertisers here</h3>
+            {googleState ? <GoogleStateList data={googleState.data} /> : <p className="text-sm text-slate-500">No Google election ads reported for this state.</p>}
+          </div>
+          <div>
+            <h3 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500">Issue ads naming this state&apos;s candidates</h3>
+            <EcGroups rows={ecGroups} state={code} />
+          </div>
+        </div>
+        {getAdImpactPosts(code).length > 0 && (
+          <div className="mt-6">
+            <h3 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500">TV ad spending (AdImpact&apos;s published figures)</h3>
+            <AdImpactPosts posts={getAdImpactPosts(code)} limit={3} />
+          </div>
         )}
         {stateDonors ? (
           <div className="mt-8">

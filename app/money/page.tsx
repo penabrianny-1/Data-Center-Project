@@ -1,9 +1,10 @@
 import { connection } from "next/server";
 import Link from "next/link";
 import StateMoneyPicker from "@/components/StateMoneyPicker";
+import { AdImpactPosts, EcGroups, GoogleAdvertisers } from "@/components/AdsSection";
 import { CategoryBadge, LeanBar, SpenderName, titleCase } from "@/components/money";
 import { Empty, Freshness, money } from "@/components/ui";
-import { getAdapter, getAllStateMoney, getEntity, getLobbyBills, getLobbyClients, getLobbySummary, getTopPacGivers, getTopSpenders } from "@/lib/repo";
+import { getAdImpactPosts, getAdapter, getAllStateMoney, getEcGroups, getEntity, getGoogleAdvertisers, getGoogleSummary, getLobbyBills, getLobbyClients, getLobbySummary, getTopPacGivers, getTopSpenders } from "@/lib/repo";
 import type { Bill } from "@/lib/schema";
 import { stateName } from "@/lib/states";
 
@@ -18,6 +19,10 @@ export default async function MoneyPage() {
   const lobbyClients = getLobbyClients(15);
   const lobby = getLobbySummary()?.data;
   const fec = getAdapter("fec-money");
+  const googleAds = getGoogleAdvertisers(15);
+  const google = getGoogleSummary();
+  const ecGroups = getEcGroups();
+  const adimpact = getAdImpactPosts();
   const lda = getAdapter("lda");
   const totalOutside = states.reduce((n, s) => n + s.data.total, 0);
   const latest = spenders.map((s) => s.data.outside?.lastDate ?? "").sort().at(-1);
@@ -94,6 +99,27 @@ export default async function MoneyPage() {
         </table>
       </Block>
 
+      {/* Ads & dark money */}
+      <Block title="Ad spending & dark money" note="Online election ads from Google's transparency report, and broadcast issue ads naming candidates filed by groups that don't report donors.">
+        <div className="grid gap-8 lg:grid-cols-2">
+          <div>
+            <h3 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500">
+              Biggest Google & YouTube election advertisers since 2025{google ? ` · ${money(google.data.total)} total` : ""}
+            </h3>
+            {googleAds.length ? <GoogleAdvertisers rows={googleAds} /> : <Empty title="Google ads data not ingested yet" />}
+          </div>
+          <div>
+            <h3 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500">Issue ads naming candidates (FEC electioneering communications)</h3>
+            <EcGroups rows={ecGroups} />
+            <h3 className="mb-2 mt-6 text-sm font-semibold uppercase tracking-wide text-slate-500">TV & streaming ad totals (AdImpact&apos;s published figures)</h3>
+            <AdImpactPosts posts={adimpact} limit={5} />
+            <p className="mt-2 text-xs text-slate-500">
+              <strong>Dark money:</strong> 501(c)(4) groups don&apos;t disclose donors. Their spending shows up only when they run ads that name candidates near an election (FEC Form 9, above), or when they buy online election ads (marked &quot;Issue group (not FEC-registered)&quot; in the Google list).
+            </p>
+          </div>
+        </div>
+      </Block>
+
       {/* Lobbying */}
       <Block title="Lobbying Congress on data centers" note="Bills named most often in federal lobbying reports that mention data centers, and the clients behind them (2025–26).">
         <div className="grid gap-8 lg:grid-cols-2">
@@ -154,7 +180,8 @@ export default async function MoneyPage() {
           <li><strong>PAC contributions</strong> go directly to candidate campaigns and have legal limits. They&apos;re counted separately and never added to outside spending.</li>
           <li><strong>Lobbying dollars</strong> are what each quarterly report discloses for <em>all</em> its issues, so they show how active a client is, not money spent on data centers alone. This mirrors the OpenSecrets &quot;top bills&quot; approach of counting reports.</li>
           <li>Interest-group types come from FEC&apos;s own committee codes. Spending doesn&apos;t prove influence or coordination.</li>
-          <li>Not included yet: state-level campaign finance and lobbying (each state has its own system), dark-money issue ads not reported to FEC, and individual donors.</li>
+          <li><strong>Online ads</strong> come from Google&apos;s transparency report (Google, YouTube and partner sites only). Meta, TV, radio and streaming buys aren&apos;t included. AdImpact&apos;s reservation data is a paid product; only its published figures are shown.</li>
+          <li>Not included yet: state-level lobbying outside the sources listed on the Sources page, and individual donors to federal candidates.</li>
         </ul>
       </details>
     </div>
