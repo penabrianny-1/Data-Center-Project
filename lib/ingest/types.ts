@@ -15,7 +15,8 @@ export type EntityKind =
   | "article"
   | "legislator"
   | "committee"
-  | "finance";
+  | "finance"
+  | "lobbying";
 
 /** A normalized record produced by an adapter. */
 export interface Entity {

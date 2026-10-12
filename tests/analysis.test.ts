@@ -160,3 +160,21 @@ describe("news categorization", () => {
     expect(isInternational("Italy-based firm builds in Ohio", 1)).toBe(false);
   });
 });
+
+describe("money & lobbying parsing", async () => {
+  const { extractBills, billLabels } = await import("../lib/adapters/lda");
+  const { committeeCategory } = await import("../lib/adapters/fec-money");
+  it("extracts bill numbers without mistaking 'Section 5' for a Senate bill", () => {
+    expect(extractBills("Support H.R. 3616 and S. 1234; see Section 5 and HR5")).toEqual(["HR3616", "S1234", "HR5"]);
+  });
+  it("pairs bill numbers with their act names", () => {
+    expect([...billLabels("H.R. 3616, the Reliable Power Act; GRID Power Act (H.R. 1047)")]).toEqual([["HR3616", "Reliable Power Act"], ["HR1047", "GRID Power Act"]]);
+  });
+  it("maps FEC committee codes to interest categories", () => {
+    expect(committeeCategory("O", "U", "").category).toBe("Super PAC");
+    expect(committeeCategory("Y", "U", "").group).toBe("party");
+    expect(committeeCategory("Q", "B", "C").category).toBe("Corporate PAC");
+    expect(committeeCategory("Q", "U", "L").group).toBe("labor");
+    expect(committeeCategory("Q", "D", "").category).toBe("Leadership PAC");
+  });
+});

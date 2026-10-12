@@ -2,9 +2,11 @@ import type { Adapter } from "../ingest/types";
 import { aafAdapter } from "./aaf";
 import { congressAdapter } from "./congress";
 import { fecAdapter, fecIeAdapter } from "./fec";
+import { fecMoneyAdapter } from "./fec-money";
 import { aaaAdapter, eiaAdapter } from "./gas";
 import { legislatorsAdapter } from "./legislators";
 import { googleNewsAdapter } from "./google-news";
+import { ldaAdapter } from "./lda";
 import { newsAdapter } from "./news";
 import { openStatesAdapter } from "./openstates";
 import { resolveAdapter } from "./resolve";
@@ -16,6 +18,8 @@ export const ADAPTERS: Adapter[] = [
   legislatorsAdapter,
   fecAdapter,
   fecIeAdapter,
+  fecMoneyAdapter,
+  ldaAdapter,
   congressAdapter,
   openStatesAdapter,
   aafAdapter,
@@ -62,12 +66,6 @@ export const PENDING_SOURCES: { name: string; url: string; status: string; reaso
     status: "Licensed data",
     reason:
       "Ad-spending data is proprietary and needs a subscription. Only AdImpact's own published figures, as cited in curated records, are shown. No licensed data is simulated.",
-  },
-  {
-    name: "Senate LDA lobbying disclosures",
-    url: "https://lda.senate.gov/api/",
-    status: "Planned",
-    reason: "This public API can give federal lobbying filings on data-center, energy and AI issues. Planned for the campaign-finance phase.",
   },
   {
     name: "Utility service territories & transmission (HIFLD / EIA-861)",

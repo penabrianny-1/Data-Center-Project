@@ -3,7 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Empty, Evidence, KV, Missing, Page, Panel, Party, Pill, Provenance, Section, SourceKindTag, money, humanize } from "@/components/ui";
 import WatchButton from "@/components/WatchButton";
-import { getCandidatesForRace, getCommission, getFinanceFor, getIncumbentForRace, getMemberCommittees, getRace, getIeTotals } from "@/lib/repo";
+import { titleCase } from "@/components/money";
+import { getCandMoney, getCandidatesForRace, getCommission, getFinanceFor, getIncumbentForRace, getMemberCommittees, getRace, getIeTotals } from "@/lib/repo";
 
 export async function generateMetadata({ params }: PageProps<"/elections/[id]">) {
   const r = getRace((await params).id);
@@ -52,6 +53,34 @@ export default async function RacePage({ params }: PageProps<"/elections/[id]">)
                         {c.data.website && <a href={c.data.website} target="_blank" rel="noopener noreferrer" className="underline">campaign site</a>}
                       </div>
                     </div>
+                    {fin && (() => {
+                      const cm = getCandMoney(fin.data.fecId)?.data;
+                      if (!cm || (!cm.outside && !cm.pacContributors.length)) return null;
+                      return (
+                        <div className="mt-2 grid gap-3 rounded-lg bg-slate-50 p-2 text-xs md:grid-cols-2">
+                          {cm.outside && (
+                            <div>
+                              <div className="font-semibold text-slate-700">Outside spending: {money(cm.outside.support)} for · {money(cm.outside.oppose)} against</div>
+                              <ul className="mt-1 space-y-0.5">
+                                {cm.outside.spenders.slice(0, 5).map((x) => (
+                                  <li key={x.id}><Link href={`/money/${x.id}`} className="hover:underline">{titleCase(x.name)}</Link> <span className="text-slate-500">{x.support >= x.oppose ? `for ${money(x.support)}` : `against ${money(x.oppose)}`}</span></li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+                          {cm.pacContributors.length > 0 && (
+                            <div>
+                              <div className="font-semibold text-slate-700">Top PAC contributors ({money(cm.pacTotal)} total)</div>
+                              <ul className="mt-1 space-y-0.5">
+                                {cm.pacContributors.slice(0, 5).map((x) => (
+                                  <li key={x.id}><Link href={`/money/${x.id}`} className="hover:underline">{titleCase(x.name)}</Link> <span className="text-slate-500">{money(x.amount)} · {x.category}</span></li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })()}
                     {fin && (
                       <div className="mt-1 text-xs text-slate-600">
                         <a href={fin.data.fecUrl} target="_blank" rel="noopener noreferrer" className="underline">FEC {fin.data.fecId}</a>: raised {money(fin.data.receipts)} · spent {money(fin.data.disbursements)} · cash {money(fin.data.cashOnHand)}

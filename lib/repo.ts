@@ -378,3 +378,75 @@ export const getDiscoveredBills = (state?: string) =>
      ORDER BY e.date DESC`,
     ...(state ? [state] : []),
   );
+
+// ---------------------------------------------------------------------------
+// Money & influence
+
+export interface CmteRef {
+  id: string;
+  name: string;
+  category: string;
+  group: string;
+  connectedOrg: string | null;
+}
+export interface Target {
+  cand: string;
+  name?: string;
+  state?: string;
+  office?: string;
+  district?: string;
+  party?: string;
+  support: number;
+  oppose: number;
+  total: number;
+}
+export interface SpenderData extends CmteRef {
+  committeeId: string;
+  type: string;
+  outside: {
+    total: number; support: number; oppose: number; proD: number; proR: number; primary: number; leanD: number | null;
+    filings: number; lastDate: string; byState: { state: string; amount: number }[]; topTargets: Target[];
+  } | null;
+  pacGiving: number;
+  summary: { receipts: number; disbursements: number; cash: number; ie: number; coordinated: number; contribToCmtes: number; through: string | null } | null;
+}
+export interface StateMoneyData {
+  state: string;
+  total: number; support: number; oppose: number; proD: number; proR: number; primary: number; leanD: number | null; lastDate: string;
+  topSpenders: (CmteRef & { amount: number })[];
+  topPacContributors: (CmteRef & { amount: number })[];
+  topTargets: Target[];
+}
+export interface CandMoneyData {
+  fecId: string;
+  outside: { support: number; oppose: number; lastDate: string; spenders: (CmteRef & { support: number; oppose: number; total: number })[] } | null;
+  pacContributors: (CmteRef & { amount: number })[];
+  pacTotal: number;
+}
+
+export const getTopSpenders = (limit = 50) =>
+  all<SpenderData>(
+    "SELECT * FROM entities WHERE id LIKE 'spender:%' AND json_extract(data, '$.data.outside.total') > 0 ORDER BY json_extract(data, '$.data.outside.total') DESC LIMIT ?",
+    limit,
+  );
+export const getTopPacGivers = (limit = 30) =>
+  all<SpenderData>("SELECT * FROM entities WHERE id LIKE 'spender:%' ORDER BY json_extract(data, '$.data.pacGiving') DESC LIMIT ?", limit);
+export const getSpender = (id: string) => getEntity<SpenderData>(`spender:${id}`);
+export const getStateMoney = (st: string) => getEntity<StateMoneyData>(`statemoney:${st}`);
+export const getAllStateMoney = () => all<StateMoneyData>("SELECT * FROM entities WHERE id LIKE 'statemoney:%' ORDER BY json_extract(data, '$.data.total') DESC");
+export const getCandMoney = (fecId: string) => getEntity<CandMoneyData>(`candmoney:${fecId}`);
+
+export interface LobbyBillData { key: string; billId: string | null; isNumber: boolean; name: string | null; filings: number; clientCount: number; amount: number; topClients: { name: string; amount: number }[] }
+export interface LobbyClientData { name: string; description: string | null; state: string | null; amount: number; filings: number; registrants: string[]; issues: string[]; bills: string[] }
+export interface LobbySummaryData { filings: number; clients: number; registrants: number; totalAmount: number; issues: { name: string; count: number }[]; agencies: { name: string; count: number }[]; years: number[] }
+export interface LobbyFilingData { client: string; clientDescription: string | null; clientState: string | null; registrant: string; type: string; year: number; period: string; amount: number | null; issues: string[]; descriptions: string[]; agencies: string[]; bills: string[]; acts: string[]; url: string }
+
+export const getLobbySummary = () => getEntity<LobbySummaryData>("lobbying:summary");
+export const getLobbyBills = (limit = 40) =>
+  all<LobbyBillData>("SELECT * FROM entities WHERE id LIKE 'lobbybill:%' ORDER BY json_extract(data, '$.data.filings') DESC LIMIT ?", limit);
+export const getLobbyClients = (limit = 40, state?: string) =>
+  state
+    ? all<LobbyClientData>("SELECT * FROM entities WHERE id LIKE 'lobbyclient:%' AND state = ? ORDER BY json_extract(data, '$.data.amount') DESC LIMIT ?", state, limit)
+    : all<LobbyClientData>("SELECT * FROM entities WHERE id LIKE 'lobbyclient:%' ORDER BY json_extract(data, '$.data.amount') DESC LIMIT ?", limit);
+export const getLobbyFilingsForBill = (billEntityId: string) =>
+  all<LobbyBillData>("SELECT e.* FROM relations r JOIN entities e ON e.id = r.src WHERE r.dst = ? AND r.type = 'lobbying_on'", billEntityId);

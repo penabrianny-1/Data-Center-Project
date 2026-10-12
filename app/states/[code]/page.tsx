@@ -6,13 +6,15 @@ import CountyMap from "@/components/CountyMap";
 import DiscoveredBills from "@/components/DiscoveredBills";
 import NewsTabs from "@/components/NewsTabs";
 import { CommissionCard, DimensionTable, DocketList, RaceSummary } from "@/components/records";
-import { Party, Provenance, Severity, humanize } from "@/components/ui";
+import { Party, Provenance, Severity, humanize, money } from "@/components/ui";
+import { CategoryBadge, LeanBar, titleCase } from "@/components/money";
+import type { CmteRef } from "@/lib/repo";
 import WatchButton from "@/components/WatchButton";
 import { getCountyShapes } from "@/lib/data";
 import { countyActionIndex } from "@/lib/local";
 import {
   getBills, getCandidatesForRace, getCommission, getCountiesInState, getDevelopmentsForState, getDiscoveredBills, getDockets,
-  getLocalActions, getNews, getPolicy, getRaces, getState, getStateGovernment,
+  getLobbyClients, getLocalActions, getNews, getPolicy, getRaces, getState, getStateGovernment, getStateMoney,
 } from "@/lib/repo";
 import type { Dimension } from "@/lib/schema";
 import { composite, PRESETS, band } from "@/lib/scoring";
@@ -63,6 +65,8 @@ export default async function StatePage({ params }: PageProps<"/states/[code]">)
   const dockets = getDockets(code);
   const news = getNews().filter((n) => n.data.states.includes(code));
   const counties = getCountiesInState(code);
+  const stateMoney = getStateMoney(code);
+  const lobbyClients = getLobbyClients(8, code);
   const { shapes, borders, viewBox } = await getCountyShapes(meta.fips);
 
   const restriction = state?.data.restriction;
@@ -162,6 +166,34 @@ export default async function StatePage({ params }: PageProps<"/states/[code]">)
         </div>
       </Block>
 
+      <Block title="Money & influence" aside={<Link href="/money" className="text-sm text-slate-500 hover:text-slate-800">All money →</Link>}>
+        <div id="money" className="-mt-16 pt-16" />
+        {stateMoney ? (
+          <>
+            <div className="mb-4 flex flex-wrap items-end gap-6">
+              <div>
+                <div className="text-2xl font-bold tabular-nums">{money(stateMoney.data.total)}</div>
+                <div className="text-sm text-slate-600">outside spending in {meta.name}&apos;s federal races</div>
+              </div>
+              <LeanBar proD={stateMoney.data.proD} proR={stateMoney.data.proR} primary={stateMoney.data.primary} />
+            </div>
+            <div className="grid gap-6 md:grid-cols-2">
+              <MoneyList title="Biggest outside spenders" rows={stateMoney.data.topSpenders.slice(0, 8)} />
+              <MoneyList title="Top PACs giving to candidates" rows={stateMoney.data.topPacContributors.slice(0, 8)} />
+            </div>
+          </>
+        ) : (
+          <p className="text-sm text-slate-500">No federal outside spending reported in this state yet.</p>
+        )}
+        {lobbyClients.length > 0 && (
+          <p className="mt-4 text-sm text-slate-600">
+            <strong>{meta.name}-based groups lobbying Congress on data centers:</strong>{" "}
+            {lobbyClients.map((c, i) => <span key={c.id}>{i > 0 && ", "}{titleCase(c.data.name)}</span>)}
+          </p>
+        )}
+        <p className="mt-2 text-xs text-slate-400">Federal races only. State-race money (governor, legislature) is filed with the state and isn&apos;t integrated yet.</p>
+      </Block>
+
       <h2 className="mb-3 text-lg font-bold">More detail</h2>
       <div className="space-y-2">
         <Fold title="2026 elections" count={races.length}>
@@ -255,5 +287,24 @@ function LiveDot() {
     <span className="flex items-center gap-1 text-xs font-medium text-emerald-600">
       <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-emerald-500" /> Live
     </span>
+  );
+}
+
+function MoneyList({ title, rows }: { title: string; rows: (CmteRef & { amount: number })[] }) {
+  return (
+    <div>
+      <h3 className="mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500">{title}</h3>
+      <ol className="divide-y divide-slate-100 rounded-lg border border-slate-200">
+        {rows.map((x) => (
+          <li key={x.id} className="flex items-center justify-between gap-3 px-3 py-2 text-sm">
+            <span>
+              <Link href={`/money/${x.id}`} className="font-medium hover:underline">{titleCase(x.name)}</Link> <CategoryBadge category={x.category} group={x.group} />
+            </span>
+            <span className="font-semibold tabular-nums">{money(x.amount)}</span>
+          </li>
+        ))}
+        {rows.length === 0 && <li className="px-3 py-3 text-sm text-slate-500">None reported.</li>}
+      </ol>
+    </div>
   );
 }
