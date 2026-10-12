@@ -16,6 +16,7 @@ import { openStatesAdapter } from "./openstates";
 import { resolveAdapter } from "./resolve";
 import { seedAdapter } from "./seed";
 import { txTecAdapter } from "./tx-tec";
+import { STATE_ADAPTERS } from "./state";
 
 /** All adapters in dependency order. */
 export const ADAPTERS: Adapter[] = [
@@ -29,6 +30,7 @@ export const ADAPTERS: Adapter[] = [
   adImpactAdapter,
   ldaAdapter,
   txTecAdapter,
+  ...STATE_ADAPTERS,
   congressAdapter,
   openStatesAdapter,
   aafAdapter,
