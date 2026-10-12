@@ -213,7 +213,7 @@ export const fecIeAdapter: Adapter = {
   schedule: "Daily",
   refreshMinutes: 1440,
   coverage:
-    "Independent-expenditure totals that support or oppose each federal candidate, as processed by FEC, broken down by spending committee. They can lag the latest 24/48-hour reports. Party coordinated spending, communication costs and non-reported issue ads aren't included.",
+    "Independent-expenditure totals that support or oppose each federal candidate, as processed by FEC. They can lag the latest 24/48-hour reports. Spender detail comes from the raw filings in fec-bulk. Party coordinated spending, communication costs and non-reported issue ads aren't included.",
   requiresEnv: "FEC_API_KEY",
   async run({ fetch, env, log }) {
     const key = env.FEC_API_KEY!;
@@ -228,20 +228,17 @@ export const fecIeAdapter: Adapter = {
       return out;
     }
     type Row = { candidate_id: string; support_oppose_indicator: "S" | "O"; total: number; committee_id?: string; committee_name?: string };
+    // Only the candidate-level totals endpoint fits the key's rate limit (~10 pages).
+    // The per-spender endpoint requires office + state, i.e. 100+ requests per run;
+    // spenders are shown instead from the raw filings ingested by fec-bulk.
     const totals = await all<Row>("/schedules/schedule_e/totals/by_candidate/?");
-    const byCommittee = await all<Row>("/schedules/schedule_e/by_candidate/?sort=-total");
-    log(`FEC IE: ${totals.length} candidate totals, ${byCommittee.length} committee rows`);
+    log(`FEC IE: ${totals.length} candidate totals`);
 
     const agg = new Map<string, { support: number; oppose: number; spenders: { committeeId: string; name: string; side: string; total: number }[] }>();
     for (const r of totals) {
       const a = agg.get(r.candidate_id) ?? { support: 0, oppose: 0, spenders: [] };
       a[r.support_oppose_indicator === "O" ? "oppose" : "support"] += r.total;
       agg.set(r.candidate_id, a);
-    }
-    for (const r of byCommittee) {
-      const a = agg.get(r.candidate_id);
-      if (!a || !r.committee_id) continue;
-      a.spenders.push({ committeeId: r.committee_id, name: r.committee_name ?? r.committee_id, side: r.support_oppose_indicator === "O" ? "oppose" : "support", total: r.total });
     }
     const source = {
       title: "FEC API: Schedule E totals by candidate (processed)",

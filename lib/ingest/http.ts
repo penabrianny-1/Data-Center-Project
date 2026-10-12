@@ -9,6 +9,7 @@ const HOST_DELAY_MS: Record<string, number> = {
   "www.americanactionforum.org": 500,
   "v3.openstates.org": 6_500, // free tier is rate-limited per minute
   "news.google.com": 2_000,
+  "api.open.fec.gov": 1_500,
   "blox-cms": 15_000, // BLOX/TownNews papers share one rate limit across sites
 };
 
