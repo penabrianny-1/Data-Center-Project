@@ -192,3 +192,39 @@ describe("Texas Ethics Commission parsing", async () => {
     expect(splitCsvLine('a,"unterminated')).toBeNull();
   });
 });
+
+describe("polls (270toWin listing)", async () => {
+  const { parsePolls, simpleAverage } = await import("../lib/adapters/polls");
+  const html = `<table id="polls-list"><tbody>
+    <tr><td>10/09/2026</td><td>General Election</td><td><a href="https://wapo.example/poll">Washington Post-Schar School</a></td><td><a href="/2026-senate-polls/maine">Maine</a></td>
+      <td><table><tr class="fill-D"><td>Jackson</td><td>50%</td></tr><tr class="fill-R"><td>Collins *</td><td>46%</td></tr></table></td><td>Jackson</td><td>+4%</td></tr>
+    <tr><td>10/01/2026</td><td>General Election</td><td><a href="https://x.example">Emerson College</a></td><td><a href="/2026-senate-polls/maine">Maine</a></td>
+      <td><table><tr class="fill-D"><td>Jackson</td><td>47%</td></tr><tr class="fill-R"><td>Collins *</td><td>47%</td></tr></table></td><td>Tie</td><td></td></tr>
+  </tbody></table>`;
+  it("parses polls with party, incumbent marker and pollster link", () => {
+    const p = parsePolls(html);
+    expect(p).toHaveLength(2);
+    expect(p[0]).toMatchObject({ date: "2026-10-09", state: "ME", pollster: "Washington Post-Schar School", url: "https://wapo.example/poll" });
+    expect(p[0].results[1]).toEqual({ name: "Collins", party: "R", incumbent: true, pct: 46 });
+  });
+  it("averages each pollster's latest poll within 30 days", () => {
+    const a = simpleAverage(parsePolls(html))!;
+    expect(a.polls).toBe(2);
+    expect(a.margin).toBeCloseTo(2); // (50+47)/2 - (46+47)/2
+  });
+});
+
+describe("270toWin state poll pages", async () => {
+  const { parseStatePollPage } = await import("../lib/adapters/polls");
+  it("reads candidates by party color, 270toWin's average and each poll", () => {
+    const html = `<div class="polls-wrapper"><table id="polls"><thead><tr><th class="poll_src">Source</th><th class="poll_date">Date</th><th class="poll_sample">Sample</th>
+      <th class="can_name" style="background-color:#3e5a96"> Talarico </th><th class="can_name" style="background-color:#c23237"> Paxton </th><th class="poll_other">Other</th></tr></thead>
+      <tr id='poll_avg_row'><td class="poll_avg" colspan="4">Average of 5 Polls&#x2020;</td><td> 49.6% </td><td> 45.6% </td><td>-</td></tr>
+      <tr class="poll_row in_average_calculation"><td class="poll_toggle"></td><td class="poll_src"><a href="https://nyt.example/poll">Siena College</a></td><td class="poll_date">10/03/2026</td><td class="poll_sample"> 615 LV ±4.5% </td><td class="poll_data"> 51% </td><td class="poll_data"> 45% </td></tr>
+    </table></div>`;
+    const [m] = parseStatePollPage(html);
+    expect(m.candidates).toEqual([{ name: "Talarico", party: "D" }, { name: "Paxton", party: "R" }]);
+    expect(m.average).toEqual({ polls: 5, values: [49.6, 45.6] });
+    expect(m.polls[0]).toMatchObject({ pollster: "Siena College", date: "2026-10-03", values: [51, 45], inAverage: true });
+  });
+});

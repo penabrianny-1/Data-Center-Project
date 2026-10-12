@@ -2,7 +2,7 @@ import { connection } from "next/server";
 import PredictionTabs from "@/components/PredictionTabs";
 import type { BoardRace, PartyMoney } from "@/components/SenateBoard";
 import {
-  getCandMoney, getCandidatesForRace, getChamberMarket, getFinanceFor, getLegislators, getMarket, getRaces, getStateFinanceForCandidate,
+  getCandMoney, getCandidatesForRace, getChamberMarket, getPolls, getFinanceFor, getLegislators, getMarket, getRaces, getStateFinanceForCandidate,
   getStateGovernments, type Row,
 } from "@/lib/repo";
 import { readPredictions } from "@/lib/predictions";
@@ -27,10 +27,17 @@ function boardRace(r: Row<Race>): BoardRace {
       through: fed?.data.coverageEnd ?? state?.latest ?? null,
       outsideFor: cm?.outside?.support ?? null,
       outsideAgainst: cm?.outside?.oppose ?? null,
-      source: fed ? "FEC" : state ? "Texas Ethics Commission" : null,
+      source: fed ? "FEC" : state ? (state.agency ?? "state filings") : null,
     };
   }
   const m = getMarket(r.data.id)?.data;
+  const pl = getPolls(r.data.id)?.data;
+  const mu = pl?.matchup;
+  const avgFor = (party: string) => {
+    if (!mu?.average) return null;
+    const i = mu.candidates.findIndex((c) => c.party === party);
+    return i >= 0 ? mu.average.values[i] : null;
+  };
   return {
     id: r.data.id,
     state: r.data.state,
@@ -43,6 +50,11 @@ function boardRace(r: Row<Race>): BoardRace {
       ? { avgD: m.average.D, avgR: m.average.R, quotes: m.quotes.map((q) => ({ market: q.market, url: q.url, D: q.byParty.D ?? 0, R: q.byParty.R ?? 0, volume: q.volume })) }
       : null,
     money,
+    polls: mu?.average
+      ? { D: avgFor("D"), R: avgFor("R"), n: mu.average.polls, source: "270toWin average", url: pl?.statePage ?? null }
+      : pl?.average
+        ? { D: pl.average.D, R: pl.average.R, n: pl.average.polls, source: "latest poll", url: pl.statePage }
+        : null,
   };
 }
 

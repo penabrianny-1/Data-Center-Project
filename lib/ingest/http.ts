@@ -14,6 +14,7 @@ const HOST_DELAY_MS: Record<string, number> = {
   "api.elections.kalshi.com": 300,
   "gamma-api.polymarket.com": 400,
   "adimpact.com": 1_500,
+  "www.270towin.com": 3_000,
   "blox-cms": 15_000, // BLOX/TownNews papers share one rate limit across sites
 };
 

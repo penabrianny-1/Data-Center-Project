@@ -23,6 +23,7 @@ export interface BoardRace {
   pros: { rater: string; rating: string; date: string; url: string }[];
   markets: { avgD: number; avgR: number; quotes: { market: string; url: string; D: number; R: number; volume: number | null }[] } | null;
   money: Record<string, PartyMoney>;
+  polls: { D: number | null; R: number | null; n: number; source: string; url: string | null } | null;
 }
 
 const STYLE: Record<RatingValue, { head: string; card: string }> = {
@@ -254,6 +255,7 @@ export default function SenateBoard({ office, races, notUp, total, majority, con
                 <th className="px-3 py-2">Race</th>
                 <th className="px-3 py-2">Mine</th>
                 <th className="px-3 py-2">{compare.replace(/^The /, "")}</th>
+                <th className="px-3 py-2">Polls</th>
                 <th className="px-3 py-2">Markets (D win %)</th>
                 <th className="px-3 py-2">Democrat: raised · cash</th>
                 <th className="px-3 py-2">Republican: raised · cash</th>
@@ -276,6 +278,15 @@ export default function SenateBoard({ office, races, notUp, total, majority, con
                     <td className="px-3 py-2">
                       {pro ? <a href={pro.url} target="_blank" rel="noopener noreferrer" title={pro.date}><Chip rating={pro.rating as RatingValue} /></a> : "—"}
                       {diff !== null && diff !== 0 && <div className="text-[10px] text-slate-500">you: {Math.abs(diff)} more {diff < 0 ? "D" : "R"}</div>}
+                    </td>
+                    <td className="px-3 py-2 text-xs">
+                      {r.polls && r.polls.D != null && r.polls.R != null ? (
+                        <a href={r.polls.url ?? undefined} target="_blank" rel="noopener noreferrer" className="block hover:underline">
+                          <span className="font-semibold text-[#1c5cab]">D {r.polls.D.toFixed(1)}</span> · <span className="font-semibold text-[#c43c3a]">R {r.polls.R.toFixed(1)}</span>
+                          <div className={`text-[11px] font-semibold ${r.polls.D >= r.polls.R ? "text-[#1c5cab]" : "text-[#c43c3a]"}`}>{r.polls.D >= r.polls.R ? "D" : "R"}+{Math.abs(r.polls.D - r.polls.R).toFixed(1)}</div>
+                          <div className="text-[10px] text-slate-400">{r.polls.source}{r.polls.n > 1 ? ` (${r.polls.n})` : ""}</div>
+                        </a>
+                      ) : <span className="text-slate-400">No polls</span>}
                     </td>
                     <td className="px-3 py-2">
                       {r.markets ? (
@@ -306,7 +317,7 @@ export default function SenateBoard({ office, races, notUp, total, majority, con
           </table>
         </div>
         <p className="mt-2 text-xs text-slate-500">
-          Market odds are the average implied probability across Kalshi, Polymarket and PredictIt, refreshed hourly. They reflect traders&apos; bets, not polls. Money comes from FEC filings for Senate candidates and state filings for governors where integrated. Your ratings are a personal forecast, saved to <code>data/user/predictions.json</code>.
+          Polls are 270toWin&apos;s polling averages (or the latest poll where no average exists), each linked to the listing. Market odds are the average implied probability across Kalshi, Polymarket and PredictIt, refreshed hourly. They reflect traders&apos; bets, not polls. Money comes from FEC filings for Senate candidates and state filings for governors where integrated. Your ratings are a personal forecast, saved to <code>data/user/predictions.json</code>.
         </p>
       </div>
     </div>
@@ -376,7 +387,7 @@ function RaceCard({
   const dir = move && move.to === rating ? shift(move.from, move.to) : 0;
   const style = rating ? STYLE[rating].card : "bg-white text-slate-900 ring-1 ring-slate-200";
   const m = race.markets;
-  const marketTip = m ? `Markets: D ${pct(m.avgD / (m.avgD + m.avgR || 1))}` : "No market";
+  const marketTip = `${m ? `Markets: D ${pct(m.avgD / (m.avgD + m.avgR || 1))}` : "No market"}${race.polls?.D != null && race.polls?.R != null ? ` · Polls: ${race.polls.D >= race.polls.R ? "D" : "R"}+${Math.abs(race.polls.D - race.polls.R).toFixed(1)}` : ""}`;
   return (
     <div className="relative">
       <button

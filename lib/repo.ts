@@ -458,7 +458,7 @@ export const getLobbyFilingsForBill = (billEntityId: string) =>
 export interface StateDonor { name: string; type: "ENTITY" | "INDIVIDUAL"; employer: string; occupation: string; city: string; state: string; amount: number; count: number }
 export interface StateCandMoneyData {
   filerIdent: string; name: string; office: string; total: number; count: number; fromEntities: number; fromIndividuals: number;
-  latest: string | null; since: string | null; topDonors: StateDonor[]; committees: string[];
+  latest: string | null; since: string | null; topDonors: StateDonor[]; committees: string[]; agency?: string;
 }
 export interface StateDonorsData {
   since: string | null; total: number; topEntities: StateDonor[]; topIndividuals: StateDonor[];
@@ -509,3 +509,17 @@ export function getStateMoneySource(st: string): StateMoneySource | null {
     return null;
   }
 }
+
+export interface PollsData {
+  raceId: string;
+  polls: { date: string; pollster: string; url: string | null; results: { name: string; party: string | null; pct: number }[] }[];
+  average: { D: number; R: number; I: number; margin: number; polls: number; from: string; to: string } | null;
+  matchup: {
+    candidates: { name: string; party: string | null }[];
+    average: { polls: number; values: (number | null)[] } | null;
+    polls: { pollster: string; url: string | null; date: string; sample: string; values: (number | null)[]; inAverage: boolean }[];
+  } | null;
+  matchupAverage: Record<string, number | null> | null;
+  statePage: string | null;
+}
+export const getPolls = (raceId: string) => getEntity<PollsData>(`polls:${raceId}`);

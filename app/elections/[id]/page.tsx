@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import { Empty, Evidence, KV, Missing, Page, Panel, Party, Pill, Provenance, Section, SourceKindTag, money, humanize } from "@/components/ui";
 import WatchButton from "@/components/WatchButton";
 import { titleCase } from "@/components/money";
-import { getCandMoney, getStateFinanceForCandidate, getCandidatesForRace, getCommission, getFinanceFor, getIncumbentForRace, getMemberCommittees, getRace, getIeTotals } from "@/lib/repo";
+import { MarketsPanel, PollsPanel } from "@/components/RaceOdds";
+import { getCandMoney, getMarket, getPolls, getStateFinanceForCandidate, getCandidatesForRace, getCommission, getFinanceFor, getIncumbentForRace, getMemberCommittees, getRace, getIeTotals } from "@/lib/repo";
 
 export async function generateMetadata({ params }: PageProps<"/elections/[id]">) {
   const r = getRace((await params).id);
@@ -22,6 +23,8 @@ export default async function RacePage({ params }: PageProps<"/elections/[id]">)
   const committees = incumbent ? getMemberCommittees(incumbent.id).filter((c) => c.committee.status === "relevant") : [];
   const ieTotals = new Map(getIeTotals().map((t) => [t.data.fecId, t.data]));
   const commission = r.office === "Governor" ? getCommission(r.state) : null;
+  const market = getMarket(r.id);
+  const livePolls = getPolls(r.id);
 
   return (
     <Page
@@ -158,8 +161,11 @@ export default async function RacePage({ params }: PageProps<"/elections/[id]">)
               </Panel>
             ) : <Missing>No ratings recorded</Missing>}
           </Section>
+          <Section title="Prediction markets">
+            {market ? <MarketsPanel m={market.data} /> : <Missing>No market lists this race.</Missing>}
+          </Section>
           <Section title="Polling">
-            {r.polls.length ? (
+            {livePolls ? <PollsPanel p={livePolls.data} /> : r.polls.length ? (
               <Panel className="divide-y divide-slate-100">
                 {r.polls.map((p, i) => (
                   <a key={i} href={p.url} target="_blank" rel="noopener noreferrer" className="block px-3 py-1.5 text-xs hover:bg-slate-50">

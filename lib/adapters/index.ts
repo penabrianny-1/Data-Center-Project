@@ -8,6 +8,7 @@ import { fecEcAdapter } from "./fec-ec";
 import { aaaAdapter, eiaAdapter } from "./gas";
 import { legislatorsAdapter } from "./legislators";
 import { marketsAdapter } from "./markets";
+import { pollsAdapter } from "./polls";
 import { googleNewsAdapter } from "./google-news";
 import { googleAdsAdapter } from "./google-ads";
 import { ldaAdapter } from "./lda";
@@ -37,6 +38,7 @@ export const ADAPTERS: Adapter[] = [
   newsAdapter,
   googleNewsAdapter,
   marketsAdapter,
+  pollsAdapter,
   aaaAdapter,
   eiaAdapter,
   resolveAdapter,
