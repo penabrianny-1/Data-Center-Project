@@ -4,6 +4,7 @@ import { congressAdapter } from "./congress";
 import { fecAdapter, fecIeAdapter } from "./fec";
 import { aaaAdapter, eiaAdapter } from "./gas";
 import { legislatorsAdapter } from "./legislators";
+import { googleNewsAdapter } from "./google-news";
 import { newsAdapter } from "./news";
 import { openStatesAdapter } from "./openstates";
 import { resolveAdapter } from "./resolve";
@@ -19,6 +20,7 @@ export const ADAPTERS: Adapter[] = [
   openStatesAdapter,
   aafAdapter,
   newsAdapter,
+  googleNewsAdapter,
   aaaAdapter,
   eiaAdapter,
   resolveAdapter,

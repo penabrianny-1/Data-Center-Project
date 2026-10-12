@@ -1,13 +1,15 @@
-import type { Feed } from "./adapters/news";
+import type { OutletType } from "./outlets";
 import { classifyNews, isInternational, type NewsCategory, type NewsSignal } from "./news-classify";
 
-export const OUTLET_TYPE_LABEL: Record<Feed["type"], string> = {
+export const OUTLET_TYPE_LABEL: Record<OutletType, string> = {
+  government: "Official (.gov)",
   national_news: "National",
   business_news: "Business",
   public_media: "Public media",
   local_news: "Local",
   nonprofit_news: "Nonprofit",
   trade: "Trade press",
+  press_release: "Company release",
 };
 
 export interface NewsData {
@@ -16,7 +18,10 @@ export interface NewsData {
   published: string | null;
   summary: string;
   outlet: string;
-  outletType: Feed["type"];
+  outletType: OutletType;
+  /** Set for Google News items */
+  via?: string;
+  publisherDomain?: string;
   states: string[];
   policySignal: boolean;
 }

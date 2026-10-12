@@ -1,22 +1,22 @@
 import { connection } from "next/server";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import type { ReactNode } from "react";
 import CountyMap from "@/components/CountyMap";
 import DiscoveredBills from "@/components/DiscoveredBills";
-import NewsList from "@/components/NewsList";
-import { BillTable, CommissionCard, DimensionTable, DocketList, LocalActionTable, RaceSummary } from "@/components/records";
-import { ConfidenceBadge, Empty, Evidence, KV, Missing, Page, Panel, Party, Pill, Provenance, Section, Sources, humanize } from "@/components/ui";
+import NewsTabs from "@/components/NewsTabs";
+import { CommissionCard, DimensionTable, DocketList, RaceSummary } from "@/components/records";
+import { Party, Provenance, Severity, humanize } from "@/components/ui";
 import WatchButton from "@/components/WatchButton";
 import { getCountyShapes } from "@/lib/data";
 import { countyActionIndex } from "@/lib/local";
 import {
-  getNews, getBills, getDiscoveredBills, getCandidatesForRace, getCommission, getCountiesInState, getDevelopmentsForState, getDockets,
-  getLegislators, getLocalActions, getPolicy, getRaces, getState, getStateGovernment, getMemberCommittees,
+  getBills, getCandidatesForRace, getCommission, getCountiesInState, getDevelopmentsForState, getDiscoveredBills, getDockets,
+  getLocalActions, getNews, getPolicy, getRaces, getState, getStateGovernment,
 } from "@/lib/repo";
-import type { StateGovernment } from "@/lib/schema";
+import type { Dimension } from "@/lib/schema";
 import { composite, PRESETS, band } from "@/lib/scoring";
 import { STATES, STATE_BY_CODE } from "@/lib/states";
-import type { Dimension } from "@/lib/schema";
 
 export function generateStaticParams() {
   return STATES.map((s) => ({ code: s.code }));
@@ -27,9 +27,22 @@ export async function generateMetadata({ params }: PageProps<"/states/[code]">) 
   return { title: STATE_BY_CODE.get(code.toUpperCase())?.name ?? code };
 }
 
-const RESTRICTION_LABEL: Record<string, string> = {
-  ban: "Statewide ban / pause", local: "Local bans only", advancing: "Restrictions advancing",
-  discussion: "Under discussion", none: "No action found", favorable: "Favorable / incentives",
+const STATUS: Record<string, { label: string; cls: string }> = {
+  ban: { label: "Statewide ban / pause", cls: "bg-[#8f1d1d] text-white" },
+  local: { label: "Local bans", cls: "bg-[#c43c3a] text-white" },
+  advancing: { label: "Restrictions advancing", cls: "bg-[#e2706a] text-white" },
+  discussion: { label: "Under discussion", cls: "bg-[#eea197] text-slate-900" },
+  none: { label: "No action", cls: "bg-slate-200 text-slate-800" },
+  favorable: { label: "Favorable / incentives", cls: "bg-[#2a78d6] text-white" },
+};
+
+const LOCAL_STATUS: Record<string, string> = {
+  in_effect: "bg-rose-100 text-rose-800",
+  proposed: "bg-amber-100 text-amber-800",
+  pending: "bg-amber-100 text-amber-800",
+  approved: "bg-emerald-100 text-emerald-800",
+  denied: "bg-slate-200 text-slate-700",
+  expired: "bg-slate-100 text-slate-500",
 };
 
 export default async function StatePage({ params }: PageProps<"/states/[code]">) {
@@ -42,331 +55,205 @@ export default async function StatePage({ params }: PageProps<"/states/[code]">)
   const gov = getStateGovernment(code);
   const policy = getPolicy(code);
   const commission = getCommission(code);
-  const dockets = getDockets(code);
   const bills = getBills(code);
   const discovered = getDiscoveredBills(code);
-  const locals = getLocalActions(code);
+  const locals = getLocalActions(code).sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
   const races = getRaces(code);
   const devs = getDevelopmentsForState(code);
-  const delegation = getLegislators(code);
-  const news = getNews().filter((a) => a.data.states.includes(code));
+  const dockets = getDockets(code);
+  const news = getNews().filter((n) => n.data.states.includes(code));
   const counties = getCountiesInState(code);
   const { shapes, borders, viewBox } = await getCountyShapes(meta.fips);
-  const countyIndex = countyActionIndex(locals.map((l) => l.data));
 
   const restriction = state?.data.restriction;
+  const status = STATUS[restriction?.status ?? ""] ?? null;
   const score = policy ? composite(policy.data.dimensions as Record<Dimension, { score: number | null; confidence: "high" | "medium" | "low" }>, PRESETS[0].weights) : null;
-  const activeBans = locals.filter((l) => l.data.status === "in_effect" && ["ban", "moratorium"].includes(l.data.kind));
-  const countiesWithAction = new Set(locals.map((l) => l.data.countyFips)).size;
-  const lastUpdated = [state?.verifiedAt, gov?.verifiedAt, policy?.verifiedAt, commission?.verifiedAt, news[0]?.date]
-    .filter(Boolean)
-    .sort()
-    .at(-1);
+  const activeBans = locals.filter((l) => l.data.status === "in_effect" && ["ban", "moratorium"].includes(l.data.kind)).length;
+  const countiesHit = new Set(locals.map((l) => l.data.countyFips)).size;
+  const lastUpdated = [state?.verifiedAt, gov?.verifiedAt, policy?.verifiedAt, news[0]?.date].filter(Boolean).sort().at(-1);
+  const g = gov?.data;
 
   return (
-    <Page
-      title={meta.name}
-      subtitle={
-        <span className="flex flex-wrap items-center gap-2">
-          {restriction && <Pill tone={["ban", "local"].includes(restriction.status) ? "red" : restriction.status === "favorable" ? "blue" : "amber"}>{RESTRICTION_LABEL[restriction.status]}</Pill>}
-          {gov && <span>Gov. {gov.data.governor.name} <Party party={gov.data.governor.party} /> · {gov.data.trifecta === "divided" ? "divided government" : `${gov.data.trifecta} trifecta`}</span>}
-          {score?.value != null && (
-            <span>
-              · Policy score <strong>{score.value}</strong>/100 ({band(score.value).label}, {Math.round(score.completeness * 100)}% scored) <Evidence type="analysis" />
-            </span>
-          )}
-          <span>· Last updated {lastUpdated ?? "—"}</span>
-        </span>
-      }
-      actions={<WatchButton id={`state:${code}`} label={meta.name} href={`/states/${code}`} kind="state" />}
-    >
-      <nav className="-mt-2 mb-4 flex flex-wrap gap-3 text-xs text-slate-600">
-        {[["overview", "Overview"], ["power", "Who holds power"], ["elections", "2026 elections"], ["legislation", "Legislation"], ["regulator", "Utility regulator"], ["policy", "Policy framework"], ["local", "Local actions"], ["news", "News"]].map(([id, label]) => (
-          <a key={id} href={`#${id}`} className="underline decoration-slate-300 hover:text-slate-900">{label}</a>
-        ))}
-        <Link href="/states" className="ml-auto">← All states</Link>
-      </nav>
+    <div className="mx-auto max-w-5xl px-4 py-6">
+      <Link href="/" className="text-sm text-slate-500 hover:text-slate-800">← Back to map</Link>
 
-      {/* Overview */}
-      <Section id="overview" title="Current status">
-        <div className="grid gap-4 lg:grid-cols-[1fr_360px]">
-          <Panel className="p-3">
-            {restriction ? (
-              <>
-                <p className="text-sm leading-relaxed text-slate-800">{restriction.summary}</p>
-                {restriction.highlights && restriction.highlights.length > 0 && (
-                  <ul className="mt-2 list-disc space-y-0.5 pl-5 text-xs text-slate-700">
-                    {restriction.highlights.map((h) => <li key={h}>{h}</li>)}
-                  </ul>
-                )}
-                <Provenance sources={state!.sources} verifiedAt={state!.verifiedAt} confidence={state!.confidence} />
-              </>
-            ) : (
-              <Missing>No restriction summary researched.</Missing>
-            )}
-          </Panel>
-          <Panel className="p-3">
-            <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-500">Priority developments</h3>
-            {devs.length ? (
-              <ul className="space-y-2 text-xs">
-                {devs.slice(0, 6).map((d) => (
-                  <li key={d.id}>
-                    <span className="tabular-nums text-slate-500">{d.data.date}</span> · <span className="font-medium text-slate-900">{d.data.title}</span>
-                    <div className="text-slate-500">{d.data.authority} · {humanize(d.data.status)} · severity {d.data.severity}/5</div>
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <Missing>No priority developments recorded for this state.</Missing>
-            )}
-          </Panel>
+      <header className="mt-3 mb-8">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{meta.name}</h1>
+          <WatchButton id={`state:${code}`} label={meta.name} href={`/states/${code}`} kind="state" />
         </div>
-      </Section>
+        {status && <span className={`mt-3 inline-block rounded-full px-3 py-1 text-sm font-semibold ${status.cls}`}>{status.label}</span>}
+        {restriction?.summary && <p className="mt-3 max-w-3xl text-[17px] leading-relaxed text-slate-700">{restriction.summary}</p>}
+        {lastUpdated && <p className="mt-2 text-xs text-slate-400">Last updated {lastUpdated}</p>}
+      </header>
 
-      {/* Power */}
-      <Section id="power" title="Who holds power" aside="Officeholders, chambers and executive authority">
-        {gov ? <Government g={gov.data} sources={gov.sources} /> : <Empty title="State government composition not researched" />}
-        <div className="mt-3">
-          <Delegation delegation={delegation} />
-        </div>
-      </Section>
+      <section className="mb-10 grid grid-cols-2 gap-3 md:grid-cols-4">
+        <Fact label="Governor" value={g ? <>{g.governor.name} <Party party={g.governor.party} /></> : "—"} note={g?.governor.up2026 ? "Seat on Nov 3 ballot" : undefined} />
+        <Fact label="Legislature" value={g ? (g.trifecta === "divided" ? "Divided control" : `${g.trifecta === "D" ? "Democratic" : "Republican"} control`) : "—"} />
+        <Fact label="2026 races" value={races.length ? races.map((r) => r.data.office.replace("U.S. ", "")).join(", ") : "None statewide"} />
+        <Fact
+          label="Utility regulator"
+          value={commission ? humanize(commission.data.selection) : "—"}
+          note={commission?.data.seatsUp2026 ? `${commission.data.seatsUp2026} seat(s) on ballot` : score?.value != null ? `Policy score ${score.value}/100 · ${band(score.value).label}` : undefined}
+        />
+      </section>
 
-      {/* Elections */}
-      <Section id="elections" title="2026 elections in this state" aside="Election Day: Nov 3, 2026">
-        {races.length ? (
-          <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
-            {races.map((r) => <RaceSummary key={r.id} race={r} candidates={getCandidatesForRace(r.id)} />)}
-          </div>
+      <Block title={<span className="flex items-center gap-2">News <LiveDot /></span>} aside={<Link href={`/news?state=${code}`} className="text-sm text-slate-500 hover:text-slate-800">All {news.length} →</Link>}>
+        <NewsTabs items={news} limit={8} />
+      </Block>
+
+      <Block title="Legislation" aside={<Link href={`/legislation?jurisdiction=${code}`} className="text-sm text-slate-500 hover:text-slate-800">Bill tracker →</Link>}>
+        {bills.length ? (
+          <table className="w-full text-sm">
+            <thead className="border-b border-slate-200 text-left text-xs uppercase tracking-wide text-slate-500">
+              <tr><th className="py-2 pr-3">Bill</th><th className="py-2 pr-3">Title</th><th className="py-2">Status</th></tr>
+            </thead>
+            <tbody>
+              {bills.map((b) => (
+                <tr key={b.id} className="border-b border-slate-100 align-top">
+                  <td className="py-2.5 pr-3 font-semibold whitespace-nowrap">
+                    <Link href={`/legislation/${b.data.id}`} className="text-blue-700 hover:underline">{b.data.number}</Link>
+                  </td>
+                  <td className="py-2.5 pr-3 text-slate-700">{b.data.title}</td>
+                  <td className="py-2.5 whitespace-nowrap text-slate-600">{humanize(b.data.status)} <span className="text-xs text-slate-400">{b.data.latestAction.date}</span></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         ) : (
-          <Empty title="No statewide federal or gubernatorial race on record for 2026" />
+          <p className="text-sm text-slate-500">No data-center bills on record yet.</p>
         )}
-        {commission && commission.data.seatsUp2026 > 0 && (
-          <p className="mt-2 text-xs text-amber-800">
-            {commission.data.seatsUp2026} utility commission seat(s) are also on the ballot. See <a href="#regulator" className="underline">Utility regulator</a>.
-          </p>
-        )}
-      </Section>
-
-      {/* Legislation */}
-      <Section id="legislation" title="Legislation" aside={<Link href={`/legislation?jurisdiction=${code}`} className="underline">Open in bill tracker →</Link>}>
-        <BillTable bills={bills} showJurisdiction={false} />
         {discovered.length > 0 && (
-          <div className="mt-3">
-            <h3 className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-500">Also discovered automatically ({discovered.length})</h3>
-            <DiscoveredBills bills={discovered} showState={false} />
-          </div>
+          <details className="mt-4">
+            <summary className="cursor-pointer text-sm font-medium text-slate-600">+ {discovered.length} more bills found automatically</summary>
+            <div className="mt-2"><DiscoveredBills bills={discovered} showState={false} /></div>
+          </details>
         )}
-      </Section>
+      </Block>
 
-      {/* Regulator */}
-      <Section id="regulator" title="Utility regulator & proceedings">
-        <div className="grid gap-4 xl:grid-cols-[420px_1fr]">
-          {commission ? <CommissionCard c={commission.data} sources={commission.sources} /> : <Empty title="Commission not researched" />}
-          <DocketList dockets={dockets} />
+      <Block title="Local actions">
+        <p className="mb-4 text-sm text-slate-600">
+          <span className="text-2xl font-bold text-slate-900">{activeBans}</span> active bans or moratoriums ·{" "}
+          {countiesHit} of {counties.length} counties ({counties.length ? Math.round((countiesHit / counties.length) * 100) : 0}%) with a recorded action
+        </p>
+        <div className="grid gap-6 md:grid-cols-[minmax(0,380px)_1fr]">
+          <CountyMap shapes={shapes} borders={borders} viewBox={viewBox} actions={countyActionIndex(locals.map((l) => l.data))} />
+          {locals.length ? (
+            <ul className="space-y-3">
+              {locals.map(({ id, data: a, sources }) => (
+                <li key={id} className="rounded-xl border border-slate-200 p-3">
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <Link href={`/counties/${a.countyFips}`} className="font-semibold text-slate-900 hover:underline">{a.jurisdiction}</Link>
+                    <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${LOCAL_STATUS[a.status] ?? "bg-slate-100 text-slate-700"}`}>
+                      {humanize(a.status)} {a.kind.replace(/_/g, " ")}
+                    </span>
+                  </div>
+                  <p className="mt-1 text-sm text-slate-700">{a.summary}</p>
+                  <div className="mt-1.5 flex flex-wrap items-center gap-3 text-xs text-slate-500">
+                    {a.adopted && <span>{a.adopted}{a.expires && ` → ${a.expires}`}</span>}
+                    {sources[0] && <a href={sources[0].url} target="_blank" rel="noopener noreferrer" className="font-medium text-blue-700 hover:underline">View source →</a>}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="text-sm text-slate-500">No local actions recorded yet. Local coverage is a sample, so this doesn&apos;t mean none exist.</p>
+          )}
         </div>
-      </Section>
+      </Block>
 
-      {/* Policy */}
-      <Section id="policy" title="Policy framework" aside={<Link href="/compare" className="underline">Compare states & change weights →</Link>}>
-        {policy ? (
-          <div className="space-y-3">
-            <div className="grid gap-3 lg:grid-cols-2">
-              <Panel className="p-3">
-                <h3 className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-500">Tax incentives</h3>
-                {policy.data.incentives.length ? (
-                  <ul className="space-y-1.5 text-xs">
-                    {policy.data.incentives.map((i) => (
-                      <li key={i.name}>
-                        <a href={i.url} target="_blank" rel="noopener noreferrer" className="font-medium underline decoration-slate-300">{i.name}</a>{" "}
-                        <Pill tone={i.status === "enacted" ? "green" : i.status === "proposed" ? "amber" : "red"}>{humanize(i.status)}</Pill>
-                        {i.citation && <span className="text-slate-500"> · {i.citation}</span>}
-                        {i.sunset && <span className="text-slate-500"> · sunset {i.sunset}</span>}
-                        <div className="text-slate-600">{i.summary}</div>
-                      </li>
-                    ))}
-                  </ul>
-                ) : (
-                  <Missing>No data-center incentive found</Missing>
-                )}
-              </Panel>
-              <Panel className="p-3">
-                <h3 className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-500">Local authority & preemption</h3>
-                <p className="text-xs text-slate-700">{policy.data.preemption.summary}</p>
-                {policy.data.preemption.statutes.map((s) => (
-                  <p key={s.citation} className="mt-1 text-xs">
-                    <a href={s.url} target="_blank" rel="noopener noreferrer" className="font-medium underline decoration-slate-300">{s.citation}</a>: {s.summary}
-                  </p>
-                ))}
-                {policy.data.preemption.remainingApprovals.length > 0 && (
-                  <p className="mt-1 text-xs text-slate-600"><span className="font-medium">Approvals still required:</span> {policy.data.preemption.remainingApprovals.join("; ")}</p>
-                )}
-              </Panel>
-              <Panel className="p-3">
-                <h3 className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-500">Water</h3>
-                <KV items={[["Doctrine", humanize(policy.data.water.doctrine)], ["Agency", policy.data.water.agency]]} />
-                <p className="mt-1 text-xs text-slate-700">{policy.data.water.summary}</p>
-                {policy.data.water.recentChanges && <p className="mt-1 text-xs text-amber-800"><span className="font-medium">Recent changes:</span> {policy.data.water.recentChanges}</p>}
-                <p className="mt-1 text-[11px] text-slate-500">This describes legal access and permitting, not how scarce water physically is.</p>
-              </Panel>
-              <Panel className="p-3">
-                <h3 className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-500">Electricity & environmental review</h3>
-                <KV items={[["Market", policy.data.electricity.market], ["State env. review", policy.data.environmentalReview.stateLevelReview ? `Yes${policy.data.environmentalReview.statute ? ` (${policy.data.environmentalReview.statute})` : ""}` : "No general state review"]]} />
-                <p className="mt-1 text-xs text-slate-700">{policy.data.electricity.summary}</p>
-                <p className="mt-1 text-xs text-slate-700">{policy.data.environmentalReview.summary}</p>
-              </Panel>
+      <h2 className="mb-3 text-lg font-bold">More detail</h2>
+      <div className="space-y-2">
+        <Fold title="2026 elections" count={races.length}>
+          <div className="grid gap-3 md:grid-cols-2">{races.map((r) => <RaceSummary key={r.id} race={r} candidates={getCandidatesForRace(r.id)} />)}</div>
+        </Fold>
+        <Fold title="Who holds power">
+          {g ? (
+            <div className="space-y-2 text-sm text-slate-700">
+              <p><strong>Governor:</strong> {g.governor.name} ({g.governor.party}){g.governor.termEnds && `, term ends ${g.governor.termEnds}`}</p>
+              {g.upper && <p><strong>{g.upper.name}:</strong> {g.upper.seats.D} D · {g.upper.seats.R} R ({humanize(g.upper.control)} control)</p>}
+              {g.lower && <p><strong>{g.lower.name}:</strong> {g.lower.seats.D} D · {g.lower.seats.R} R ({humanize(g.lower.control)} control)</p>}
+              <p><strong>Governor&apos;s powers:</strong> {g.executivePowers}</p>
+              <Provenance sources={gov!.sources} verifiedAt={g.verifiedAt} confidence={g.confidence} caveats={g.caveats} />
             </div>
-            <DimensionTable policy={policy.data} />
-            <Provenance sources={policy.sources} verifiedAt={policy.verifiedAt} confidence={policy.confidence} caveats={policy.data.caveats} />
+          ) : <p className="text-sm text-slate-500">Not researched.</p>}
+        </Fold>
+        <Fold title="Utility regulator & proceedings" count={dockets.length}>
+          <div className="space-y-3">
+            {commission && <CommissionCard c={commission.data} sources={commission.sources} />}
+            <DocketList dockets={dockets} />
           </div>
-        ) : (
-          <Empty title="Policy framework not researched" />
+        </Fold>
+        <Fold title="Policy framework & score">
+          {policy ? (
+            <div className="space-y-3">
+              <p className="text-sm text-slate-700"><strong>Local authority:</strong> {policy.data.preemption.summary}</p>
+              <p className="text-sm text-slate-700"><strong>Water:</strong> {policy.data.water.summary}</p>
+              <p className="text-sm text-slate-700"><strong>Power:</strong> {policy.data.electricity.market}. {policy.data.electricity.summary}</p>
+              <DimensionTable policy={policy.data} />
+              <Provenance sources={policy.sources} verifiedAt={policy.verifiedAt} confidence={policy.confidence} caveats={policy.data.caveats} />
+            </div>
+          ) : <p className="text-sm text-slate-500">Not researched.</p>}
+        </Fold>
+        <Fold title="Key developments" count={devs.length}>
+          <ul className="space-y-2">
+            {devs.map((d) => (
+              <li key={d.id} className="text-sm">
+                <Severity level={d.data.severity} /> <span className="text-slate-500">{d.data.date}</span> · <span className="font-medium">{d.data.title}</span>
+                <p className="text-slate-600">{d.data.whatHappened}</p>
+              </li>
+            ))}
+          </ul>
+        </Fold>
+        {restriction && state && (
+          <Fold title="Sources for this summary">
+            <Provenance sources={state.sources} verifiedAt={state.verifiedAt} confidence={state.confidence} />
+            {restriction.highlights && <ul className="mt-2 list-disc pl-5 text-sm text-slate-600">{restriction.highlights.map((h) => <li key={h}>{h}</li>)}</ul>}
+          </Fold>
         )}
-      </Section>
+      </div>
+    </div>
+  );
+}
 
-      {/* Local */}
-      <Section
-        id="local"
-        title="Local actions"
-        aside={`${activeBans.length} active bans/moratoriums · ${countiesWithAction} of ${counties.length} counties with a recorded action (${counties.length ? Math.round((countiesWithAction / counties.length) * 100) : 0}%)`}
-      >
-        <div className="grid gap-4 xl:grid-cols-[minmax(0,440px)_1fr]">
-          <Panel className="p-3">
-            <CountyMap shapes={shapes} borders={borders} viewBox={viewBox} actions={countyIndex} />
-            <p className="mt-1 text-[11px] text-slate-500">Click a county for its profile. Local coverage is a curated sample.</p>
-          </Panel>
-          <LocalActionTable actions={locals} />
-        </div>
-      </Section>
+function Fact({ label, value, note }: { label: string; value: ReactNode; note?: string }) {
+  return (
+    <div className="rounded-xl border border-slate-200 p-3">
+      <div className="text-xs font-medium uppercase tracking-wide text-slate-400">{label}</div>
+      <div className="mt-1 text-sm font-semibold text-slate-900">{value}</div>
+      {note && <div className="mt-0.5 text-xs text-slate-500">{note}</div>}
+    </div>
+  );
+}
 
-      {/* News */}
-      <Section
-        id="news"
-        title={<span className="flex items-center gap-2">Related news <LiveDot /></span>}
-        aside={<Link href={`/news?state=${code}`} className="underline">All {news.length} →</Link>}
-      >
-        <NewsList items={news.slice(0, 12)} />
-      </Section>
-    </Page>
+function Block({ title, aside, children }: { title: ReactNode; aside?: ReactNode; children: ReactNode }) {
+  return (
+    <section className="mb-12">
+      <div className="mb-4 flex items-baseline justify-between border-b border-slate-200 pb-2">
+        <h2 className="text-xl font-bold">{title}</h2>
+        {aside}
+      </div>
+      {children}
+    </section>
+  );
+}
+
+function Fold({ title, count, children }: { title: string; count?: number; children: ReactNode }) {
+  return (
+    <details className="group rounded-xl border border-slate-200">
+      <summary className="flex cursor-pointer list-none items-center justify-between px-4 py-3 font-medium text-slate-800 hover:bg-slate-50">
+        <span>{title}{count !== undefined && <span className="ml-2 text-sm font-normal text-slate-400">{count}</span>}</span>
+        <span className="text-slate-400 transition group-open:rotate-90">›</span>
+      </summary>
+      <div className="border-t border-slate-100 px-4 py-3">{children}</div>
+    </details>
   );
 }
 
 function LiveDot() {
   return (
-    <span className="flex items-center gap-1 text-[10px] font-semibold normal-case text-emerald-700">
-      <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-500" /> Auto-updating
+    <span className="flex items-center gap-1 text-xs font-medium text-emerald-600">
+      <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-emerald-500" /> Live
     </span>
-  );
-}
-
-function Government({ g, sources }: { g: StateGovernment; sources: Parameters<typeof Provenance>[0]["sources"] }) {
-  const chamber = (c: StateGovernment["upper"]) =>
-    c && (
-      <Panel className="p-3">
-        <div className="flex items-baseline justify-between">
-          <h3 className="text-sm font-semibold">{c.name}</h3>
-          <Pill tone={c.control === "D" ? "blue" : c.control === "R" ? "red" : "slate"}>{humanize(c.control)} control</Pill>
-        </div>
-        <SeatBar seats={c.seats} total={c.total} />
-        <p className="mt-1 text-xs text-slate-600">
-          {c.seats.D} D · {c.seats.R} R{c.seats.other ? ` · ${c.seats.other} other` : ""}{c.seats.vacant ? ` · ${c.seats.vacant} vacant` : ""} of {c.total}
-          {c.seatsUp2026 !== undefined && ` · ${c.seatsUp2026} seats up in 2026`}
-        </p>
-        {c.leaders.length > 0 && (
-          <ul className="mt-1 text-xs text-slate-700">
-            {c.leaders.map((l) => <li key={l.role + l.name}>{l.role}: {l.name} <Party party={l.party} /></li>)}
-          </ul>
-        )}
-      </Panel>
-    );
-  return (
-    <div className="grid gap-3 lg:grid-cols-3">
-      <Panel className="p-3">
-        <h3 className="text-sm font-semibold">Governor</h3>
-        <p className="mt-1 text-sm">{g.governor.name} <Party party={g.governor.party} /></p>
-        <KV
-          items={[
-            ["Term ends", g.governor.termEnds ?? null],
-            ["On 2026 ballot", g.governor.up2026 ? (g.governor.runningIn2026 === false || g.governor.termLimited ? "Yes (open seat)" : "Yes") : "No"],
-            ["Lt. governor", g.lieutenantGovernor ? `${g.lieutenantGovernor.name} (${g.lieutenantGovernor.party})` : null],
-            ["Veto override", g.vetoOverride ?? null],
-          ]}
-        />
-        <p className="mt-2 text-xs text-slate-700"><span className="font-semibold">Powers over data-center policy:</span> {g.executivePowers}</p>
-      </Panel>
-      {chamber(g.upper)}
-      {chamber(g.lower) ?? (
-        <Panel className="p-3 text-xs text-slate-500">{g.state === "NE" ? "Nebraska has a single-chamber, officially nonpartisan legislature." : "No second chamber."}</Panel>
-      )}
-      <div className="lg:col-span-3">
-        <Provenance sources={sources} verifiedAt={g.verifiedAt} confidence={g.confidence} caveats={g.caveats} />
-      </div>
-    </div>
-  );
-}
-
-function SeatBar({ seats, total }: { seats: { D: number; R: number; other: number; vacant: number }; total: number }) {
-  const seg = (n: number, color: string, label: string) =>
-    n > 0 && <div title={`${label}: ${n}`} style={{ width: `${(n / total) * 100}%`, background: color }} className="h-full" />;
-  return (
-    <div className="mt-2 flex h-2.5 w-full gap-[2px] overflow-hidden rounded-sm bg-slate-100" role="img" aria-label={`${seats.D} Democrats, ${seats.R} Republicans of ${total}`}>
-      {seg(seats.D, "#2a78d6", "Democrats")}
-      {seg(seats.other, "#b5b3ab", "Other")}
-      {seg(seats.vacant, "#e1e0d9", "Vacant")}
-      {seg(seats.R, "#e34948", "Republicans")}
-    </div>
-  );
-}
-
-function Delegation({ delegation }: { delegation: ReturnType<typeof getLegislators> }) {
-  const sen = delegation.filter((l) => l.data.chamber === "Senate");
-  const house = delegation.filter((l) => l.data.chamber === "House").sort((a, b) => (a.data.district ?? 0) - (b.data.district ?? 0));
-  const relevant = delegation
-    .map((l) => ({ l, cs: getMemberCommittees(l.id).filter((c) => c.committee.status === "relevant" && !c.committee.data.parent) }))
-    .filter((x) => x.cs.length);
-  return (
-    <Panel className="p-3">
-      <div className="flex items-baseline justify-between">
-        <h3 className="text-sm font-semibold">Congressional delegation</h3>
-        <span className="text-xs text-slate-500">
-          {house.filter((h) => h.data.party === "D").length} D · {house.filter((h) => h.data.party === "R").length} R in House
-        </span>
-      </div>
-      <div className="mt-1 grid gap-3 text-xs md:grid-cols-[260px_1fr]">
-        <div>
-          <div className="text-slate-500">Senators</div>
-          {sen.map((s) => (
-            <div key={s.id}>
-              <Party party={s.data.party} /> {s.title} {s.data.up2026 && <Pill tone="amber">up 2026</Pill>}
-            </div>
-          ))}
-        </div>
-        <div>
-          <div className="text-slate-500">Members on committees with data-center jurisdiction</div>
-          {relevant.length ? (
-            <ul>
-              {relevant.map(({ l, cs }) => (
-                <li key={l.id}>
-                  <Party party={l.data.party} /> {l.title}
-                  {l.data.chamber === "House" && ` (${l.data.state}-${String(l.data.district ?? 0).padStart(2, "0")})`}:{" "}
-                  {cs.map((c, i) => (
-                    <span key={c.committee.id}>
-                      {i > 0 && ", "}
-                      <Link href={`/congress#${c.committee.data.thomasId}`} className="underline decoration-slate-300">
-                        {c.committee.title.replace(/^(House|Senate) Committee on /, "")}
-                      </Link>
-                      {c.title && <strong> ({c.title})</strong>}
-                    </span>
-                  ))}
-                  {l.data.up2026 && <> · <Pill tone="amber">up 2026</Pill></>}
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <Missing>None</Missing>
-          )}
-        </div>
-      </div>
-      <div className="mt-2"><Sources compact sources={sen[0]?.sources ?? []} /> <ConfidenceBadge level="high" /></div>
-    </Panel>
   );
 }

@@ -1,6 +1,7 @@
 import * as cheerio from "cheerio";
 import { sha } from "../db";
 import type { Adapter, Entity } from "../ingest/types";
+import type { OutletType } from "../outlets";
 import { STATES } from "../states";
 
 /**
@@ -23,8 +24,8 @@ export interface Feed {
   home: string;
   /** Home state for regional outlets (used for state tagging) */
   state?: string;
-  type: "national_news" | "business_news" | "public_media" | "local_news" | "nonprofit_news" | "trade";
-  mode: "tag" | "search" | "general" | "sitemap";
+  type: OutletType;
+  mode: "tag" | "search" | "general" | "sitemap" | "official";
 }
 
 const tag = (id: string, outlet: string, host: string, state: string): Feed => ({
@@ -42,6 +43,10 @@ const arc = (id: string, outlet: string, host: string, state: string): Feed => (
   id, outlet, url: `https://${host}/arc/outboundfeeds/rss/?outputType=xml`, home: `https://${host}/`, state, type: "local_news", mode: "general",
 });
 const section = (id: string, outlet: string, url: string, home: string, type: Feed["type"], state?: string): Feed => ({ id, outlet, url, home, type, state, mode: "general" });
+/** Governor's office newsroom (official). Matched on data-center and energy/AI policy terms, not data centers alone. */
+const governor = (code: string, name: string, url: string): Feed => ({
+  id: `gov-${code.toLowerCase()}`, outlet: `${name} Office of the Governor`, url, home: new URL(url).origin + "/", state: code, type: "government", mode: "official",
+});
 const cnbc = (id: string, label: string, sectionId: string): Feed =>
   section(id, `CNBC (${label})`, `https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=${sectionId}`, "https://www.cnbc.com/", "business_news");
 
@@ -70,6 +75,21 @@ export const FEEDS: Feed[] = [
   section("hill-tech", "The Hill (Technology)", "https://thehill.com/policy/technology/feed/", "https://thehill.com/", "national_news"),
   section("npr-energy", "NPR (Energy)", "https://feeds.npr.org/1131/rss.xml", "https://www.npr.org/sections/energy/", "public_media"),
   section("pbs-newshour", "PBS News", "https://www.pbs.org/newshour/feeds/rss/headlines", "https://www.pbs.org/newshour/", "public_media"),
+
+  // --- Governors' offices (official communications)
+  governor("AL", "Alabama", "https://governor.alabama.gov/feed/"),
+  governor("CA", "California", "https://www.gov.ca.gov/feed/"),
+  governor("GA", "Georgia", "https://gov.georgia.gov/rss.xml"),
+  governor("HI", "Hawaii", "https://governor.hawaii.gov/feed/"),
+  governor("MO", "Missouri", "https://governor.mo.gov/rss.xml"),
+  governor("NC", "North Carolina", "https://governor.nc.gov/news/feed"),
+  governor("ND", "North Dakota", "https://www.governor.nd.gov/rss.xml"),
+  governor("NE", "Nebraska", "https://governor.nebraska.gov/rss.xml"),
+  governor("RI", "Rhode Island", "https://governor.ri.gov/rss.xml"),
+  governor("UT", "Utah", "https://governor.utah.gov/feed/"),
+  governor("VT", "Vermont", "https://governor.vermont.gov/rss.xml"),
+  governor("WA", "Washington", "https://governor.wa.gov/rss/news.xml"),
+  governor("WV", "West Virginia", "https://governor.wv.gov/rss.xml"),
 
   // --- Public media (NPR/PBS member stations): newsroom-curated data-center tag feeds
   tag("wvia", "WVIA (NE Pennsylvania public media)", "www.wvia.org", "PA"),
@@ -147,6 +167,7 @@ export const EXCLUDED_OUTLETS: { outlet: string; reason: string }[] = [
   { outlet: "The Wall Street Journal", reason: "Its public RSS has been stale since January 2025." },
 ];
 
+const OFFICIAL_RELEVANT = /\b(data cent\w*|hyperscal\w*|AI (infrastructure|campus|data)|artificial intelligence|electric(ity)? (grid|rates?|bills?)|power grid|energy (policy|plan|costs?|affordability|independence|council)|utility (rates?|commission|bills?)|ratepayers?|nuclear|natural gas|power plants?|transmission|large[- ]load|microgrid)\b/i;
 const RELEVANT = /\bdata[- ]?cent(?:er|re)s?\b|\bhyperscal\w*|\blarge[- ]load\b|\bAI campus\b|\bcolocation\b/i;
 /** Policy-signal terms used to rank items (not to filter). */
 const POLICY = /moratori|zoning|rezon|ordinance|tariff|commission|legislat|bill\b|veto|governor|permit|lawsuit|referendum|ballot|tax (break|exemption|incentive)|water|grid|interconnect|ratepayer|PJM|ERCOT|FERC|election|candidate/i;
@@ -198,8 +219,9 @@ export function parseFeed(xml: string, feed: Feed): NewsItem[] {
     if (!title || !/^https?:\/\//.test(link)) return;
     if (/^sponsored\b|^\[?sponsored|paid post|partner content/i.test(title)) return; // advertising, not news
     const text = `${title} ${summary}`;
-    // Even newsroom-curated tag feeds occasionally carry off-topic items.
-    if (!RELEVANT.test(text)) return;
+    // Even newsroom-curated tag feeds occasionally carry off-topic items. Official
+    // releases also qualify on energy/AI-infrastructure policy terms.
+    if (!RELEVANT.test(text) && !(feed.mode === "official" && OFFICIAL_RELEVANT.test(text))) return;
     const t = Date.parse(date);
     items.push({
       title,

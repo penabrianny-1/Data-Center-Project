@@ -18,13 +18,16 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${geistSans.variable} antialiased`}>
-      <body className="flex min-h-screen bg-[#f9f9f7] font-sans text-slate-900">
-        <Suspense fallback={<div className="sticky top-0 h-screen w-56 shrink-0 border-r border-slate-200 bg-slate-50" />}>
+      <body className="min-h-screen bg-white font-sans text-slate-900">
+        <Suspense fallback={<div className="h-[49px] border-b border-slate-200" />}>
           <Sidebar />
         </Suspense>
-        <main className="min-w-0 flex-1">
-          <Suspense fallback={<div className="px-6 py-5 text-sm text-slate-400">Loading…</div>}>{children}</Suspense>
+        <main>
+          <Suspense fallback={<div className="mx-auto max-w-6xl px-4 py-8 text-sm text-slate-400">Loading…</div>}>{children}</Suspense>
         </main>
+        <footer className="mt-12 border-t border-slate-200 py-6 text-center text-xs text-slate-400">
+          Every claim links to its source · <a href="/sources" className="underline">Sources</a> · <a href="/methodology" className="underline">How it works</a>
+        </footer>
       </body>
     </html>
   );

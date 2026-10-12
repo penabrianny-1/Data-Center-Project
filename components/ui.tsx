@@ -9,13 +9,13 @@ export function cx(...c: (string | false | null | undefined)[]) {
 // ---------------------------------------------------------------------------
 // Layout
 
-export function Page({ title, subtitle, actions, children }: { title: string; subtitle?: ReactNode; actions?: ReactNode; children: ReactNode }) {
+export function Page({ title, subtitle, actions, children, wide = false }: { title: string; subtitle?: ReactNode; actions?: ReactNode; children: ReactNode; wide?: boolean }) {
   return (
-    <div className="px-6 py-5 max-w-[1500px]">
-      <header className="mb-5 flex items-end justify-between gap-4 border-b border-slate-200 pb-3">
+    <div className={cx("mx-auto px-4 py-6", wide ? "max-w-[1400px]" : "max-w-6xl")}>
+      <header className="mb-6 flex items-end justify-between gap-4">
         <div>
-          <h1 className="text-xl font-semibold tracking-tight text-slate-900">{title}</h1>
-          {subtitle && <div className="mt-1 text-sm text-slate-500">{subtitle}</div>}
+          <h1 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">{title}</h1>
+          {subtitle && <div className="mt-1 max-w-3xl text-[15px] text-slate-500">{subtitle}</div>}
         </div>
         {actions}
       </header>
@@ -26,9 +26,9 @@ export function Page({ title, subtitle, actions, children }: { title: string; su
 
 export function Section({ title, aside, children, id, className }: { title: ReactNode; aside?: ReactNode; children: ReactNode; id?: string; className?: string }) {
   return (
-    <section id={id} className={cx("mb-6", className)}>
-      <div className="mb-2 flex items-baseline justify-between gap-3">
-        <h2 className="text-[13px] font-semibold uppercase tracking-wide text-slate-600">{title}</h2>
+    <section id={id} className={cx("mb-10 scroll-mt-16", className)}>
+      <div className="mb-3 flex items-baseline justify-between gap-3">
+        <h2 className="text-lg font-semibold text-slate-900">{title}</h2>
         {aside && <div className="text-xs text-slate-500">{aside}</div>}
       </div>
       {children}

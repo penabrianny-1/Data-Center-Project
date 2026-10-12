@@ -18,7 +18,7 @@ export default async function LegislationPage() {
   return (
     <Page
       title="Legislation"
-      subtitle="Federal and state bills affecting data centers. Each record links to the official legislature page; status is as of the verified date shown. Third-party trackers are used only to find bills."
+      subtitle="Data-center bills in Congress and the states, each linked to the official bill page."
     >
       {bills.length ? (
         <Suspense fallback={<div className="h-96 animate-pulse rounded-lg bg-slate-100" />}>

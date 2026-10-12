@@ -8,8 +8,16 @@ const HOST_DELAY_MS: Record<string, number> = {
   "gasprices.aaa.com": 10_000, // robots.txt Crawl-delay: 10
   "www.americanactionforum.org": 500,
   "v3.openstates.org": 6_500, // free tier is rate-limited per minute
-  "www.insidenova.com": 3_000,
+  "news.google.com": 2_000,
+  "blox-cms": 15_000, // BLOX/TownNews papers share one rate limit across sites
 };
+
+/** Rate-limit bucket: usually the host, but platforms that throttle across sites share one bucket. */
+function rateBucket(url: string): string {
+  const u = new URL(url);
+  if (u.pathname.startsWith("/search/") && u.searchParams.get("f") === "rss") return "blox-cms";
+  return u.host;
+}
 
 /**
  * fetch with timeout, per-host politeness delay and exponential-backoff
@@ -19,7 +27,7 @@ export async function politeFetch(
   url: string,
   { retries = 3, ...init }: RequestInit & { retries?: number } = {},
 ): Promise<Response> {
-  const host = new URL(url).host;
+  const host = rateBucket(url);
   const gap = HOST_DELAY_MS[host] ?? 250;
 
   for (let attempt = 0; ; attempt++) {

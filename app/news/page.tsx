@@ -14,12 +14,7 @@ export default async function NewsPage() {
   return (
     <Page
       title="Live news"
-      subtitle={
-        <>
-          Data-center coverage from {FEEDS.length} feeds: national and business press, public media, local newspapers, nonprofit newsrooms and trade press. Feeds refresh hourly, and every story is categorized automatically.{" "}
-          <Freshness at={adapter?.last_success} label="Last refresh" />
-        </>
-      }
+      subtitle={<>National, local and official news about data centers, sorted and labeled automatically. <Freshness at={adapter?.last_success} label="Updated" /></>}
     >
       <Suspense fallback={<div className="h-96 animate-pulse rounded-lg bg-slate-100" />}>
         <NewsBrowser items={items} outlets={FEEDS.map((f) => ({ id: f.id, outlet: f.outlet, type: f.type, home: f.home }))} excluded={EXCLUDED_OUTLETS} />

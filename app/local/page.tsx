@@ -16,7 +16,7 @@ export default async function LocalPage() {
   return (
     <Page
       title="Local actions"
-      subtitle={`County, municipal, township and tribal actions on data centers: a curated, sourced sample of ${all.length} records across ${new Set(all.map((a) => a.state)).size} states. A missing jurisdiction means not yet researched, not that no rules exist.`}
+      subtitle={`${all.length} county and city actions across ${new Set(all.map((a) => a.state)).size} states.`}
     >
       <div className="mb-4 flex flex-wrap gap-2 text-xs">
         <Pill tone="red">{inEffect.filter((a) => a.data.kind === "moratorium").length} moratoriums in effect</Pill>

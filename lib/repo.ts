@@ -13,6 +13,7 @@ import type {
 } from "./schema";
 import type { Article, StateEntry } from "./types";
 import { classify, type ClassifiedNews, type NewsData } from "./news-meta";
+import { outletTypeFor } from "./outlets";
 
 let db: DatabaseSync | null = null;
 let openedAt = 0;
@@ -349,7 +350,9 @@ export function countsByState() {
 
 /** All archived news stories, classified (category, status signal, international flag), newest first. */
 export function getNews(): ClassifiedNews[] {
-  return all<NewsData>("SELECT * FROM entities WHERE kind = 'article' AND id LIKE 'news:%' ORDER BY date DESC")
+  return all<NewsData & { publisherDomain?: string }>("SELECT * FROM entities WHERE kind = 'article' AND id LIKE 'news:%' ORDER BY date DESC")
+    // Re-apply outlet rules on read so newly blocked publishers drop out of the archive too.
+    .filter((a) => !a.data.publisherDomain || outletTypeFor(a.data.publisherDomain) !== null)
     .map((a) => classify({ id: a.id, title: a.title, date: a.date, data: a.data }));
 }
 

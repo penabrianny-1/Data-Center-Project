@@ -23,7 +23,7 @@ export default async function ElectionsPage() {
   return (
     <Page
       title="2026 elections"
-      subtitle="General election Nov 3, 2026. Ratings come from the cited rater on the date shown. Candidate positions are labeled explicit (talks about data centers) or inferred."
+      subtitle="Every race that shapes data-center policy on Nov 3, 2026, sorted by how close it is."
     >
       <div className="mb-5 grid gap-3 text-xs sm:grid-cols-4">
         <Box label="U.S. Senate now" value={`${senByParty.R} R · ${senByParty.D} D · ${senByParty.I} I`} note={`${sen.length} seats up (incl. specials)`} />

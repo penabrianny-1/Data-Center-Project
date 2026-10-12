@@ -17,7 +17,7 @@ export default async function UtilitiesPage() {
   return (
     <Page
       title="Utility commissions"
-      subtitle="State regulators decide whether data centers can get power, how fast they connect, and who pays for the grid. Compare them on decisions, not party labels."
+      subtitle="The regulators who decide whether data centers get power, and who pays for it."
     >
       <div className="mb-4 flex flex-wrap gap-2 text-xs">
         <Pill tone="blue">{by("appointed")} appointed</Pill>
