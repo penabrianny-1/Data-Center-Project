@@ -468,3 +468,8 @@ export const getStateCandMoneyList = (st: string) =>
   all<StateCandMoneyData>("SELECT * FROM entities WHERE id LIKE ? ORDER BY json_extract(data, '$.data.total') DESC", `statecand:${st}:%`);
 export const getStateFinanceForCandidate = (candidateEntityId: string) =>
   one<StateCandMoneyData>("SELECT e.* FROM relations r JOIN entities e ON e.id = r.dst WHERE r.src = ? AND r.type = 'has_state_finance'", candidateEntityId);
+
+export interface MarketQuoteData { market: string; url: string; byParty: Record<string, number>; candidates: { name: string; party: string | null; price: number }[]; volume: number | null; updated: string | null }
+export interface MarketData { raceId?: string; chamber?: string; quotes: MarketQuoteData[]; average: { D: number; R: number; n: number }; retrieved?: string }
+export const getMarket = (raceId: string) => getEntity<MarketData>(`market:${raceId}`);
+export const getChamberMarket = (chamber: "senate" | "house") => getEntity<MarketData>(`market:control-${chamber}`);

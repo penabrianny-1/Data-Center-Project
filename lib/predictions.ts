@@ -34,7 +34,7 @@ export function readPredictions(path = PREDICTIONS_PATH): Predictions {
 }
 
 export const RatingUpdate = z.object({
-  raceId: z.string().regex(/^2026-sen-[A-Z]{2}(-special)?$/),
+  raceId: z.string().regex(/^2026-(sen|gov)-[A-Z]{2}(-special)?$/),
   rating: z.enum(RATINGS).nullable(),
   note: z.string().max(1000).optional(),
 });

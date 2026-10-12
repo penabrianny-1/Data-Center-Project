@@ -3,8 +3,10 @@ import { aafAdapter } from "./aaf";
 import { congressAdapter } from "./congress";
 import { fecAdapter, fecIeAdapter } from "./fec";
 import { fecMoneyAdapter } from "./fec-money";
+import { fecEcAdapter } from "./fec-ec";
 import { aaaAdapter, eiaAdapter } from "./gas";
 import { legislatorsAdapter } from "./legislators";
+import { marketsAdapter } from "./markets";
 import { googleNewsAdapter } from "./google-news";
 import { ldaAdapter } from "./lda";
 import { newsAdapter } from "./news";
@@ -20,6 +22,7 @@ export const ADAPTERS: Adapter[] = [
   fecAdapter,
   fecIeAdapter,
   fecMoneyAdapter,
+  fecEcAdapter,
   ldaAdapter,
   txTecAdapter,
   congressAdapter,
@@ -27,6 +30,7 @@ export const ADAPTERS: Adapter[] = [
   aafAdapter,
   newsAdapter,
   googleNewsAdapter,
+  marketsAdapter,
   aaaAdapter,
   eiaAdapter,
   resolveAdapter,

@@ -11,6 +11,8 @@ const HOST_DELAY_MS: Record<string, number> = {
   "news.google.com": 2_000,
   "api.open.fec.gov": 1_500,
   "lda.gov": 1_200,
+  "api.elections.kalshi.com": 300,
+  "gamma-api.polymarket.com": 400,
   "blox-cms": 15_000, // BLOX/TownNews papers share one rate limit across sites
 };
 

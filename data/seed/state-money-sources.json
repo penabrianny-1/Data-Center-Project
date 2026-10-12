@@ -1,0 +1,355 @@
+[
+  {
+    "state": "AL",
+    "campaignFinance": {
+      "agency": "Alabama Secretary of State - Elections Division (FCPA Reporting System)",
+      "page": "https://fcpa.alabamavotes.gov/page.request.do?page=page.acfPublicDownloadData",
+      "method": "bulk",
+      "downloads": [
+        {
+          "url": "https://fcpa.alabamavotes.gov/page.request.do?page=getTransactionData&id=54",
+          "format": "ZIP of CSV",
+          "sizeApprox": "3.5 MB",
+          "description": "2026 Cash Contributions (ids change; enumerate via listing JSON)"
+        },
+        {
+          "url": "https://fcpa.alabamavotes.gov/page.request.do?page=getTransactionData&id=12",
+          "format": "ZIP of CSV",
+          "sizeApprox": "",
+          "description": "2025 Cash Contributions"
+        },
+        {
+          "url": "https://fcpa.alabamavotes.gov/page.request.do?page=com.acf.common.page.transactiondatadownloadsresults&pageSize=100",
+          "format": "JSON",
+          "sizeApprox": "10 KB",
+          "description": "Listing endpoint: DATATYPE, YEAR, LASTUPDATED, DOWNLOAD id for Cash/In-Kind/Other Receipts/Expenditures 2013-2026"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Daily (all files LASTUPDATED Oct 12, 2026 02:32 AM)",
+      "notes": "Download table is JS-rendered; use the JSON listing endpoint (default 10 rows; pass pageSize=100). Layout keys at page.request.do?page=getResource&resource=cashContributionsExportLayout. The old /PublicSite/DataDownload.aspx URL redirects to a login page."
+    },
+    "lobbying": {
+      "agency": "Alabama Ethics Commission",
+      "page": "https://ethics.alabama.gov/lobbyists.aspx",
+      "method": "bulk",
+      "downloads": [
+        {
+          "url": "https://ethics-form.alabama.gov/entity/FileUpload2015/RegisteredLobbyist/WebDataForExcel_2010.aspx",
+          "format": "XLS",
+          "sizeApprox": "115 KB",
+          "description": "Current-year (2026) registered lobbyist list"
+        },
+        {
+          "url": "https://ethics-form.alabama.gov/entity/FileUpload2015/RegisteredLobbyist/rptPrincipalsListing_Excel.aspx",
+          "format": "XLS",
+          "sizeApprox": "",
+          "description": "Current-year principals list"
+        },
+        {
+          "url": "https://ethics-form.alabama.gov/entity/FileUpload2015/RegisteredLobbyist/WebDataLobbyistsPDF_2010.aspx",
+          "format": "PDF",
+          "sizeApprox": "",
+          "description": "Lobbyist list PDF"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Live (generated on request)",
+      "notes": "Excel lists cover registrations only. Quarterly lobbyist/principal spending reports are in the HTML public-records search, with no bulk file."
+    },
+    "verifiedAt": "2026-10-12"
+  },
+  {
+    "state": "CO",
+    "campaignFinance": {
+      "agency": "Colorado Secretary of State (TRACER)",
+      "page": "https://tracer.sos.colorado.gov/PublicSite/DataDownload.aspx",
+      "method": "bulk",
+      "downloads": [
+        {
+          "url": "https://tracer.sos.colorado.gov/PublicSite/Docs/BulkDataDownloads/2026_ContributionData.csv.zip",
+          "format": "ZIP of CSV",
+          "sizeApprox": "12.5 MB",
+          "description": "2026 contributions"
+        },
+        {
+          "url": "https://tracer.sos.colorado.gov/PublicSite/Docs/BulkDataDownloads/2025_ContributionData.csv.zip",
+          "format": "ZIP of CSV",
+          "sizeApprox": "6.6 MB",
+          "description": "2025 contributions"
+        },
+        {
+          "url": "https://tracer.sos.colorado.gov/PublicSite/Docs/BulkDataDownloads/2026_ExpenditureData.csv.zip",
+          "format": "ZIP of CSV",
+          "sizeApprox": "",
+          "description": "2026 expenditures (also {YEAR}_LoanData.csv.zip)"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Daily (Last-Modified 2026-10-12 09:01 GMT)",
+      "notes": "URL pattern {YEAR}_{Contribution|Expenditure|Loan}Data.csv.zip. Field key at /PublicSite/Resources/DownloadDataFileKey.pdf"
+    },
+    "lobbying": {
+      "agency": "Colorado Secretary of State (Lobbyist program) via Colorado Information Marketplace",
+      "page": "https://data.colorado.gov/",
+      "method": "api",
+      "downloads": [
+        {
+          "url": "https://data.colorado.gov/api/views/yk7f-aegj/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Professional Lobbyist Directory"
+        },
+        {
+          "url": "https://data.colorado.gov/api/views/vp65-spyn/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Professional Lobbyist Clients"
+        },
+        {
+          "url": "https://data.colorado.gov/api/views/dxfk-9ifj/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Professional Lobbyist Income (compensation by client)"
+        },
+        {
+          "url": "https://data.colorado.gov/api/views/synw-se9p/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Professional Lobbyist Expenditures"
+        },
+        {
+          "url": "https://data.colorado.gov/api/views/sche-yqzf/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Professional Lobbyist Bills"
+        },
+        {
+          "url": "https://data.colorado.gov/api/views/df5p-p6jt/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Disclosure Report Summary"
+        },
+        {
+          "url": "https://data.colorado.gov/api/views/whtp-bfpe/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "8.8K rows",
+          "description": "State (agency) lobbyists funds and hours; also aqta-5njj, ee39-yyzh, tjpi-zg9t"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Daily (data_updated_at 2026-10-12)",
+      "notes": "Socrata SODA API (https://data.colorado.gov/resource/<id>.json). App token optional (raises rate limits). robots.txt only disallows /browse facet URLs; Crawl-delay 1."
+    },
+    "verifiedAt": "2026-10-12"
+  },
+  {
+    "state": "HI",
+    "campaignFinance": {
+      "agency": "Hawaii Campaign Spending Commission",
+      "page": "https://hicscdata.hawaii.gov/",
+      "method": "api",
+      "downloads": [
+        {
+          "url": "https://hicscdata.hawaii.gov/api/views/jexd-xbcg/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "9.1K rows for election_period 2024-2026",
+          "description": "Contributions Received by State and County Candidates (2015-present)"
+        },
+        {
+          "url": "https://hicscdata.hawaii.gov/api/views/rajm-32md/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Contributions Received by Noncandidate Committees"
+        },
+        {
+          "url": "https://hicscdata.hawaii.gov/api/views/6huc-dcuw/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Contributions Made to Candidates by Noncandidate Committees"
+        },
+        {
+          "url": "https://hicscdata.hawaii.gov/api/views/3maa-4fgr/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Candidate Expenditures"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Data updated 2026-10-09",
+      "notes": "Socrata SODA; filter by election_period='2024-2026'."
+    },
+    "lobbying": {
+      "agency": "Hawaii State Ethics Commission",
+      "page": "https://ethics.hawaii.gov/lobbying/",
+      "method": "",
+      "downloads": [],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "",
+      "notes": "PENDING"
+    },
+    "verifiedAt": "2026-10-12"
+  },
+  {
+    "state": "NY",
+    "campaignFinance": {
+      "agency": "New York State Board of Elections",
+      "page": "https://data.ny.gov/Government-Finance/Campaign-Finance-Disclosure-Reports-Data-Beginning/e9ss-239a",
+      "method": "api",
+      "downloads": [
+        {
+          "url": "https://data.ny.gov/api/views/e9ss-239a/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "Very large (tens of millions of rows, 1999-present); filter via SODA",
+          "description": "Campaign Finance Disclosure Reports Data: Beginning 1999 (all schedules incl. contributions)"
+        },
+        {
+          "url": "https://data.ny.gov/api/views/7x2g-h32p/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Campaign Finance Filer Data: Beginning 1974"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "publicreporting.elections.ny.gov returns HTTP 403 Cloudflare 'Just a moment...' challenge to scripted clients",
+      "has2026": true,
+      "updated": "Daily (data_updated_at 2026-10-11)",
+      "notes": "The NYSBOE Public Reporting site (https://publicreporting.elections.ny.gov/DownloadCampaignFinanceData/DownloadCampaignFinanceData) has ZIP downloads but sits behind a Cloudflare JS challenge. Use data.ny.gov SODA instead: /resource/e9ss-239a.json?$where=election_year='2026'. Unfiltered count(*) queries time out because the table is so large."
+    },
+    "lobbying": {
+      "agency": "NYS Commission on Ethics and Lobbying in Government (COELIG)",
+      "page": "https://data.ny.gov/",
+      "method": "api",
+      "downloads": [
+        {
+          "url": "https://data.ny.gov/api/views/t9kf-dqbc/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Lobbyist Bi-Monthly Reports: Beginning 2019 (compensation, expenses, clients)"
+        },
+        {
+          "url": "https://data.ny.gov/api/views/se5j-cmbb/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Lobbyist Statement of Registration: Beginning 2019"
+        },
+        {
+          "url": "https://data.ny.gov/api/views/qym9-xzj6/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Client Semi-Annual Report: Beginning 2019"
+        },
+        {
+          "url": "https://data.ny.gov/api/views/i574-v3dp/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Disbursement of Public Monies Bi-Monthly; also 2pde-cfs9/ffd8-nyat public corporations"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Periodic (bi-monthly reports updated 2026-08-03; registrations 2026-07-24)",
+      "notes": "Lags by about 2 months. reporting_year=2026 rows are present (e.g., the Mar/Apr period)."
+    },
+    "verifiedAt": "2026-10-12"
+  },
+  {
+    "state": "WA",
+    "campaignFinance": {
+      "agency": "Washington Public Disclosure Commission (PDC)",
+      "page": "https://data.wa.gov/",
+      "method": "api",
+      "downloads": [
+        {
+          "url": "https://data.wa.gov/api/views/kv7h-kjye/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "6.39M rows total (180K with election_year=2026)",
+          "description": "Contributions to Candidates and Political Committees"
+        },
+        {
+          "url": "https://data.wa.gov/api/views/tijg-9zyp/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Expenditures by Candidates and Political Committees"
+        },
+        {
+          "url": "https://data.wa.gov/api/views/3h9x-7bvm/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Campaign Finance Summary"
+        },
+        {
+          "url": "https://data.wa.gov/api/views/67cp-h962/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Independent Expenditures and Electioneering Communications"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Daily (2026-10-12)",
+      "notes": "Filter server-side via SODA: /resource/kv7h-kjye.json?$where=election_year=2026. App token optional."
+    },
+    "lobbying": {
+      "agency": "Washington Public Disclosure Commission (PDC)",
+      "page": "https://data.wa.gov/",
+      "method": "api",
+      "downloads": [
+        {
+          "url": "https://data.wa.gov/api/views/9nnw-c693/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "337K rows",
+          "description": "Lobbyist Compensation and Expenses by Source"
+        },
+        {
+          "url": "https://data.wa.gov/api/views/xhn7-64im/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Lobbyist Employment Registrations"
+        },
+        {
+          "url": "https://data.wa.gov/api/views/biux-xiwe/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Lobbyist Employers Summary"
+        },
+        {
+          "url": "https://data.wa.gov/api/views/c4ag-3cmj/rows.csv?accessType=DOWNLOAD",
+          "format": "CSV/SODA",
+          "sizeApprox": "",
+          "description": "Lobbyist Summary; also bp5b-jrti agents, e7sd-jbuy agent employers, mjwb-szba public agency lobbying"
+        }
+      ],
+      "keyRequired": false,
+      "robotsOrTermsBlock": false,
+      "blockNote": "",
+      "has2026": true,
+      "updated": "Daily (2026-10-12)",
+      "notes": "Socrata SODA API."
+    },
+    "verifiedAt": "2026-10-12"
+  }
+]
