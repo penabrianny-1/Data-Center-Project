@@ -14,7 +14,7 @@ function runDue() {
   const t0 = new Date().toISOString();
   const child = spawn(
     process.execPath,
-    ["--env-file-if-exists=.env.local", "--import", "tsx", "scripts/ingest.ts", "--due"],
+    ["--max-old-space-size=6144", "--env-file-if-exists=.env.local", "--import", "tsx", "scripts/ingest.ts", "--due"],
     { cwd: process.cwd(), stdio: ["ignore", "pipe", "pipe"], env: process.env },
   );
   let out = "";

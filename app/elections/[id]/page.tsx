@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { Empty, Evidence, KV, Missing, Page, Panel, Party, Pill, Provenance, Section, SourceKindTag, money, humanize } from "@/components/ui";
 import WatchButton from "@/components/WatchButton";
 import { titleCase } from "@/components/money";
-import { getCandMoney, getCandidatesForRace, getCommission, getFinanceFor, getIncumbentForRace, getMemberCommittees, getRace, getIeTotals } from "@/lib/repo";
+import { getCandMoney, getStateFinanceForCandidate, getCandidatesForRace, getCommission, getFinanceFor, getIncumbentForRace, getMemberCommittees, getRace, getIeTotals } from "@/lib/repo";
 
 export async function generateMetadata({ params }: PageProps<"/elections/[id]">) {
   const r = getRace((await params).id);
@@ -88,6 +88,22 @@ export default async function RacePage({ params }: PageProps<"/elections/[id]">)
                         {ie && <> · outside spending: {money(ie.support)} for, {money(ie.oppose)} against</>}
                       </div>
                     )}
+                    {(() => {
+                      const sf = getStateFinanceForCandidate(c.id)?.data;
+                      if (!sf) return null;
+                      return (
+                        <div className="mt-2 rounded-lg bg-slate-50 p-2 text-xs">
+                          <div className="font-semibold text-slate-700">
+                            State campaign money: {money(sf.total)} raised since {sf.since} ({sf.count.toLocaleString()} itemized contributions)
+                          </div>
+                          <ul className="mt-1 space-y-0.5">
+                            {sf.topDonors.slice(0, 6).map((d) => (
+                              <li key={d.name + d.city}>{d.name} <span className="text-slate-500">{money(d.amount)}{d.employer ? ` · ${d.employer}` : ""}</span></li>
+                            ))}
+                          </ul>
+                        </div>
+                      );
+                    })()}
                     {c.data.positions.length ? (
                       <ul className="mt-2 space-y-1.5">
                         {c.data.positions.map((p, i) => (

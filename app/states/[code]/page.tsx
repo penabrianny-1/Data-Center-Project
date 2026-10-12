@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 import CountyMap from "@/components/CountyMap";
 import DiscoveredBills from "@/components/DiscoveredBills";
+import StateRaceMoney from "@/components/StateRaceMoney";
 import NewsTabs from "@/components/NewsTabs";
 import { CommissionCard, DimensionTable, DocketList, RaceSummary } from "@/components/records";
 import { Party, Provenance, Severity, humanize, money } from "@/components/ui";
@@ -14,7 +15,7 @@ import { getCountyShapes } from "@/lib/data";
 import { countyActionIndex } from "@/lib/local";
 import {
   getBills, getCandidatesForRace, getCommission, getCountiesInState, getDevelopmentsForState, getDiscoveredBills, getDockets,
-  getLobbyClients, getLocalActions, getNews, getPolicy, getRaces, getState, getStateGovernment, getStateMoney,
+  getLobbyClients, getLocalActions, getNews, getPolicy, getRaces, getState, getStateGovernment, getStateMoney, getStateDonors, getStateCandMoneyList,
 } from "@/lib/repo";
 import type { Dimension } from "@/lib/schema";
 import { composite, PRESETS, band } from "@/lib/scoring";
@@ -67,6 +68,7 @@ export default async function StatePage({ params }: PageProps<"/states/[code]">)
   const counties = getCountiesInState(code);
   const stateMoney = getStateMoney(code);
   const lobbyClients = getLobbyClients(8, code);
+  const stateDonors = getStateDonors(code);
   const { shapes, borders, viewBox } = await getCountyShapes(meta.fips);
 
   const restriction = state?.data.restriction;
@@ -191,7 +193,14 @@ export default async function StatePage({ params }: PageProps<"/states/[code]">)
             {lobbyClients.map((c, i) => <span key={c.id}>{i > 0 && ", "}{titleCase(c.data.name)}</span>)}
           </p>
         )}
-        <p className="mt-2 text-xs text-slate-400">Federal races only. State-race money (governor, legislature) is filed with the state and isn&apos;t integrated yet.</p>
+        {stateDonors ? (
+          <div className="mt-8">
+            <h3 className="mb-3 text-lg font-bold">State races (governor, statewide offices, legislature)</h3>
+            <StateRaceMoney donors={stateDonors} candidates={getStateCandMoneyList(code)} agency={code === "TX" ? "Texas Ethics Commission" : "State campaign finance agency"} />
+          </div>
+        ) : (
+          <p className="mt-2 text-xs text-slate-400">Federal races only. State-race money (governor, legislature) for {meta.name} is filed with the state and isn&apos;t integrated yet.</p>
+        )}
       </Block>
 
       <h2 className="mb-3 text-lg font-bold">More detail</h2>

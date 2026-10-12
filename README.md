@@ -67,6 +67,9 @@ sources ──► adapters (lib/adapters/*) ──► scripts/ingest.ts ──�
 | `congress-gov` | GovInfo BILLSTATUS (GPO / Library of Congress) | official | bulk XML | daily |
 | `fec-bulk` | FEC bulk files (`webl26`, independent expenditures) | data | bulk | 12 h |
 | `fec-ie` | FEC API processed Schedule E totals | data | API (key) | daily |
+| `fec-money` | FEC bulk: committee master, PAC/party summaries, PAC→candidate contributions, 24/48-hour IE notices (amendment-aware) | data | bulk | 12 h |
+| `lda` | Lobbying Disclosure Act filings mentioning data centers (2025–26): clients, firms, bills, agencies | official | API | daily |
+| `tx-tec` | Texas Ethics Commission campaign finance (statewide candidates + top state donors) | data | bulk (1 GB, cached) | weekly |
 | `openstates` | Open States / Plural Policy API v3: every state bill mentioning data centers | data (links to official pages) | API (key) | daily |
 | `news-feeds` | 77 feeds. National and business: CNBC, Politico, CNN (news sitemap), Financial Times, Washington Post, NYT, The Hill, NPR, PBS. Public media: WVIA and 17 other stations. Local papers in key markets: Richmond Times-Dispatch, InsideNoVa, Tucson, Omaha, St. Louis, Cleveland, PennLive, NJ.com, MLive, SF Standard and more. Nonprofit: CalMatters, Cardinal News, Georgia Recorder and more. Trade: Utility Dive, DCD | journalism | RSS / news sitemap | hourly |
 | `aaf` | American Action Forum (site search index; sitemap scrape fallback) | research | search index | 3 h |
@@ -99,7 +102,7 @@ Research gaps exist mainly because a shared web-search budget ran out during the
 ## Known gaps & next steps
 
 - **Reuters, Google News, Apple News, AP and the McClatchy Bee papers are excluded.** Their robots.txt, terms or servers prohibit automated access. The news page lists each exclusion and its reason. A licensed news API would be the legitimate route.
-- **State campaign finance isn't integrated.** That covers governor, legislative and PUC races, each filed in a separate state system.
-- **Lobbying (Senate LDA), utility territories, transmission and water stress** are planned layers. They're listed on the Sources page.
+- **State campaign finance covers Texas only so far.** Other states need one adapter each, since every state runs its own system.
+- **Federal lobbying is covered; state lobbying isn't.** Utility territories, transmission and water stress are planned map layers.
 - **The watchlist is stored in the browser.** Email or push alerts need accounts and a mail provider.
 - **Deployment:** the scheduler assumes a long-running Node server. Serverless hosting such as Vercel needs an external cron job that runs `npm run ingest -- --due` and a writable or hosted database.

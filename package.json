@@ -10,7 +10,7 @@
     "fetch:aaf": "tsx scripts/fetch-aaf.ts",
     "validate": "tsx scripts/validate-seeds.ts",
     "test": "vitest run",
-    "ingest": "node --env-file-if-exists=.env.local --import tsx scripts/ingest.ts"
+    "ingest": "node --max-old-space-size=6144 --env-file-if-exists=.env.local --import tsx scripts/ingest.ts"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

@@ -11,6 +11,7 @@ import { newsAdapter } from "./news";
 import { openStatesAdapter } from "./openstates";
 import { resolveAdapter } from "./resolve";
 import { seedAdapter } from "./seed";
+import { txTecAdapter } from "./tx-tec";
 
 /** All adapters in dependency order. */
 export const ADAPTERS: Adapter[] = [
@@ -20,6 +21,7 @@ export const ADAPTERS: Adapter[] = [
   fecIeAdapter,
   fecMoneyAdapter,
   ldaAdapter,
+  txTecAdapter,
   congressAdapter,
   openStatesAdapter,
   aafAdapter,
@@ -58,14 +60,20 @@ export const PENDING_SOURCES: { name: string; url: string; status: string; reaso
     url: "https://www.ncsl.org/elections-and-campaigns/state-campaign-finance-disclosure-requirements",
     status: "Not integrated",
     reason:
-      "There are about 50 separate systems with different formats and terms. Governor, state legislature and utility-commission candidate finance isn't integrated yet. FollowTheMoney (OpenSecrets) bulk access needs an agreement.",
+      "Each state runs its own disclosure system. Texas (Ethics Commission bulk data) is being integrated first. Other states' governor, legislative and utility-commission candidate finance comes next, adapter by adapter. OpenSecrets/FollowTheMoney bulk data needs a license, and the OpenSecrets API was retired in 2025.",
   },
   {
     name: "AdImpact",
     url: "https://adimpact.com/",
     status: "Licensed data",
     reason:
-      "Ad-spending data is proprietary and needs a subscription. Only AdImpact's own published figures, as cited in curated records, are shown. No licensed data is simulated.",
+      "Ad-spending data is proprietary and needs a subscription. Outside-spending totals here come from FEC 24/48-hour filings instead. Ad reservations that haven't been disclosed to FEC don't appear.",
+  },
+  {
+    name: "State lobbying disclosures",
+    url: "https://www.ncsl.org/ethics/lobbyist-registration-requirements",
+    status: "Not integrated",
+    reason: "Federal lobbying (LDA) is integrated. State lobbying registrations and spending live in about 50 separate state systems, and many have no bulk access.",
   },
   {
     name: "Utility service territories & transmission (HIFLD / EIA-861)",

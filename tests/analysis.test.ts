@@ -178,3 +178,11 @@ describe("money & lobbying parsing", async () => {
     expect(committeeCategory("Q", "D", "").category).toBe("Leadership PAC");
   });
 });
+
+describe("Texas Ethics Commission parsing", async () => {
+  const { splitCsvLine } = await import("../lib/adapters/tx-tec");
+  it("splits quoted CSV lines and rejects unbalanced quotes", () => {
+    expect(splitCsvLine('RCPT,COH,"Abbott, Greg (The Honorable)",25.00,"He said ""hi"""')).toEqual(["RCPT", "COH", "Abbott, Greg (The Honorable)", "25.00", 'He said "hi"']);
+    expect(splitCsvLine('a,"unterminated')).toBeNull();
+  });
+});

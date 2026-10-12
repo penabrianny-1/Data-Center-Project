@@ -450,3 +450,18 @@ export const getLobbyClients = (limit = 40, state?: string) =>
     : all<LobbyClientData>("SELECT * FROM entities WHERE id LIKE 'lobbyclient:%' ORDER BY json_extract(data, '$.data.amount') DESC LIMIT ?", limit);
 export const getLobbyFilingsForBill = (billEntityId: string) =>
   all<LobbyBillData>("SELECT e.* FROM relations r JOIN entities e ON e.id = r.src WHERE r.dst = ? AND r.type = 'lobbying_on'", billEntityId);
+
+export interface StateDonor { name: string; type: "ENTITY" | "INDIVIDUAL"; employer: string; occupation: string; city: string; state: string; amount: number; count: number }
+export interface StateCandMoneyData {
+  filerIdent: string; name: string; office: string; total: number; count: number; fromEntities: number; fromIndividuals: number;
+  latest: string | null; since: string | null; topDonors: StateDonor[]; committees: string[];
+}
+export interface StateDonorsData {
+  since: string | null; total: number; topEntities: StateDonor[]; topIndividuals: StateDonor[];
+  statewide: { filerIdent: string; name: string; office: string; total: number }[]; archiveLastModified: string | null;
+}
+export const getStateDonors = (st: string) => getEntity<StateDonorsData>(`statedonors:${st}`);
+export const getStateCandMoneyList = (st: string) =>
+  all<StateCandMoneyData>("SELECT * FROM entities WHERE id LIKE ? ORDER BY json_extract(data, '$.data.total') DESC", `statecand:${st}:%`);
+export const getStateFinanceForCandidate = (candidateEntityId: string) =>
+  one<StateCandMoneyData>("SELECT e.* FROM relations r JOIN entities e ON e.id = r.dst WHERE r.src = ? AND r.type = 'has_state_finance'", candidateEntityId);
