@@ -1,11 +1,8 @@
-import { createWriteStream, existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
-import { Readable } from "node:stream";
-import { pipeline } from "node:stream/promises";
 import { strFromU8, unzipSync } from "fflate";
 import type { Adapter, Entity, Relation } from "../ingest/types";
 import { nameKey } from "./resolve";
-import { USER_AGENT } from "../ingest/http";
 
 /**
  * Texas state campaign finance from the Texas Ethics Commission's bulk CSV
@@ -18,10 +15,9 @@ import { USER_AGENT } from "../ingest/http";
  * are excluded.
  */
 
-const URL_ZIP = "https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip";
+const URL_ZIP = "https://www.ethics.state.tx.us/search/cf/";
 const CACHE_DIR = join(process.cwd(), "data", "cache");
 const ZIP_PATH = join(CACHE_DIR, "TEC_CF_CSV.zip");
-const META_PATH = join(CACHE_DIR, "TEC_CF_CSV.meta.json");
 const SINCE = "20250101";
 
 export const STATEWIDE: Record<string, string> = {
@@ -102,21 +98,21 @@ function donorKey(f: string[], ix: Record<string, number>): { key: string; donor
   };
 }
 
-async function ensureZip(fetchFn: (u: string, init?: RequestInit) => Promise<Response>, log: (m: string) => void): Promise<{ fresh: boolean; lastModified: string | null }> {
-  mkdirSync(CACHE_DIR, { recursive: true });
-  const head = await fetchFn(URL_ZIP, { method: "HEAD" });
-  const lastModified = head.headers.get("last-modified");
-  const meta = existsSync(META_PATH) ? (JSON.parse(readFileSync(META_PATH, "utf8")) as { lastModified: string | null }) : null;
-  if (existsSync(ZIP_PATH) && meta?.lastModified && meta.lastModified === lastModified && statSync(ZIP_PATH).size > 1e8) {
-    log(`TEC archive unchanged (${lastModified}); using cache`);
-    return { fresh: false, lastModified };
+/**
+ * TEC's robots.txt disallows automated access to /public/cf/ (where the
+ * archive lives), so this adapter never downloads it. A person downloads the
+ * archive in a browser from https://www.ethics.state.tx.us/search/cf/ and
+ * saves it to data/cache/TEC_CF_CSV.zip; the adapter processes that local copy.
+ */
+function localZip(log: (m: string) => void): { lastModified: string | null } {
+  if (!existsSync(ZIP_PATH) || statSync(ZIP_PATH).size < 1e8) {
+    throw new Error(
+      "No local TEC archive. TEC's robots.txt disallows automated download, so download TEC_CF_CSV.zip from https://www.ethics.state.tx.us/search/cf/ in a browser and save it to data/cache/TEC_CF_CSV.zip.",
+    );
   }
-  log("Downloading TEC archive (~1 GB)…");
-  const res = await fetch(URL_ZIP, { headers: { "User-Agent": USER_AGENT } });
-  if (!res.ok || !res.body) throw new Error(`TEC download failed: ${res.status}`);
-  await pipeline(Readable.fromWeb(res.body as never), createWriteStream(ZIP_PATH));
-  writeFileSync(META_PATH, JSON.stringify({ lastModified, downloadedAt: new Date().toISOString() }));
-  return { fresh: true, lastModified };
+  const lastModified = statSync(ZIP_PATH).mtime.toISOString();
+  log(`Using locally saved TEC archive (${lastModified.slice(0, 10)})`);
+  return { lastModified };
 }
 
 export const txTecAdapter: Adapter = {
@@ -125,12 +121,12 @@ export const txTecAdapter: Adapter = {
   url: "https://www.ethics.state.tx.us/search/cf/",
   sourceKind: "data",
   method: "bulk",
-  schedule: "Weekly (TEC regenerates the export regularly; re-downloaded only when it changes)",
+  schedule: "Manual: processes a TEC archive you download yourself (TEC's robots.txt disallows automated download)",
   refreshMinutes: 10_080,
   coverage:
     "Texas state races only. Itemized 2025–2026 contributions to candidates for Governor, Lieutenant Governor, Attorney General, Comptroller, Land, Agriculture and Railroad Commissioner, plus the largest donors to all Texas state candidates, legislature included. Superseded reports are excluded. Unitemized small contributions, spending by Texas PACs and in-kind valuations aren't broken out.",
-  async run({ fetch, log, lookup }) {
-    const { lastModified } = await ensureZip(fetch, log);
+  async run({ log, lookup }) {
+    const { lastModified } = localZip(log);
     const zip = new Uint8Array(readFileSync(ZIP_PATH));
     // Filers: who is seeking which office
     const filersTxt = strFromU8(unzipSync(zip, { filter: (f) => f.name === "filers.csv" })["filers.csv"]);
