@@ -1,0 +1,3568 @@
+[
+  {
+    "id": "2026-gov-TX",
+    "office": "Governor",
+    "state": "TX",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-03-03",
+    "incumbent": {
+      "name": "Greg Abbott",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Greg Abbott",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "cost_allocation",
+            "summary": "In a June 2026 directive, Abbott told the PUCT and ERCOT to require data centers to fund their own grid infrastructure and to lower residential bills.",
+            "explicitDataCenter": true,
+            "evidence": "fact",
+            "source": {
+              "title": "Governor Abbott Directs PUC And ERCOT To Shield Texans From Data Center Infrastructure Costs",
+              "url": "https://gov.texas.gov/news/post/governor-abbott-directs-puc-and-ercot-to-shield-texans-from-data-center-infrastructure-costs",
+              "publisher": "Office of the Texas Governor",
+              "kind": "official",
+              "published": "2026-06-10",
+              "excerpt": "Abbott directed the PUCT and ERCOT to lower residential bills, require data centers to pay their own infrastructure costs, and pursue further consumer protections."
+            },
+            "date": "2026-06-10"
+          },
+          {
+            "topic": "interconnection",
+            "summary": "Abbott ordered a PUCT/ERCOT project-by-project audit of data centers in the interconnection queue, warning that noncompliant projects could be denied grid access.",
+            "explicitDataCenter": true,
+            "evidence": "fact",
+            "source": {
+              "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+              "url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+              "publisher": "Office of the Texas Governor",
+              "kind": "official",
+              "published": "2026-08-03",
+              "excerpt": "Directs PUCT and ERCOT to verify and audit data-center projects in the interconnection queue; noncompliant projects may be denied grid access."
+            },
+            "date": "2026-08-03"
+          },
+          {
+            "topic": "permitting",
+            "summary": "Abbott directed TCEQ to pause data-center permits until the ERCOT audit is complete.",
+            "explicitDataCenter": true,
+            "evidence": "fact",
+            "source": {
+              "title": "Governor Abbott Directs TCEQ To Halt Data Center Permits",
+              "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits",
+              "publisher": "Office of the Texas Governor",
+              "kind": "official",
+              "published": "2026-09-21",
+              "excerpt": "Directs TCEQ to pause data-center permit issuance until the ERCOT audit is complete."
+            },
+            "date": "2026-09-21"
+          }
+        ]
+      },
+      {
+        "name": "Gina Hinojosa",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Hinojosa called for an emergency halt to new data-center approvals until the Legislature meets in special session to adopt protections on transparency, local input, labor, water and power.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "IN THE NEWS: Hinojosa Calls for Data Center Moratorium Until Abbott Convenes Legislature",
+              "url": "https://ginafortexas.com/2026/07/in-the-news-hinojosa-calls-for-data-center-moratorium-until-abbott-convenes-legislature/",
+              "publisher": "Gina Hinojosa for Texas Governor (campaign)",
+              "kind": "official",
+              "excerpt": "Campaign post: Hinojosa asked Abbott to halt new data-center approvals by emergency order until a special session sets protections."
+            }
+          },
+          {
+            "topic": "sales_tax",
+            "summary": "Hinojosa has called for ending the state's data-center sales-tax exemption and for local control over siting, and said she would seek to change the PUC's makeup.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "During El Paso campaign stop, gubernatorial candidate Gina Hinojosa calls for Texas data center special session",
+              "url": "https://elpasomatters.org/2026/08/31/data-centers-texas-elections-2026-gina-hinojosa-greg-abbott-el-paso/",
+              "publisher": "El Paso Matters",
+              "kind": "journalism",
+              "published": "2026-08-31",
+              "excerpt": "Hinojosa said she would look to change the makeup of the PUC; she has called for ending the data-center sales-tax exemption and local control over siting."
+            },
+            "date": "2026-08-31"
+          },
+          {
+            "topic": "affordability",
+            "summary": "Hinojosa has pledged to freeze electric rates, tying electricity costs to data-center growth on the campaign trail.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "Hinojosa swings through RGV: Candidate speaks to electricity costs, data centers",
+              "url": "https://myrgv.com/local-news/2026/09/15/hinojosa-swings-through-rgv-candidate-speaks-to-electricity-costs-data-centers/",
+              "publisher": "The Monitor (MyRGV.com)",
+              "kind": "journalism",
+              "published": "2026-09-15"
+            },
+            "date": "2026-09-15"
+          }
+        ],
+        "website": "https://ginafortexas.com/"
+      },
+      {
+        "name": "Pat Dixon",
+        "party": "L",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Lean R",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Likely R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Lean R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "Emerson College Polling",
+        "endDate": "2026-09-14",
+        "results": {
+          "Abbott": 49,
+          "Hinojosa": 46,
+          "Dixon": 2,
+          "Undecided": 4
+        },
+        "url": "https://emersoncollegepolling.com/texas-2026-poll-talarico-and-paxton-in-dead-heat-abbott-maintains-edge/",
+        "sampleSize": 1000,
+        "population": "LV"
+      }
+    ],
+    "powers": "The governor appoints all PUCT commissioners (Senate-confirmed), and the PUCT oversees ERCOT, so the governor shapes large-load interconnection, cost-allocation and SB 6 (2025) implementation rules. Abbott has used directive letters to the PUCT, ERCOT, TCEQ and the Water Development Board in 2026, and the governor can veto bills, line-item veto appropriations and set special-session agendas.",
+    "implications": "Analysis: Abbott has moved from promoting data-center growth to imposing an audit and permit pause, so a second term would likely continue executive-directive control pending the ERCOT audit (expected mid-December 2026). A Hinojosa win would change PUCT appointments as terms expire and could lead to a special session on ending the sales-tax exemption and on local-control rules, but the Republican Legislature would still limit statutory change.",
+    "sources": [
+      {
+        "title": "Governor Abbott Directs PUC And ERCOT To Shield Texans From Data Center Infrastructure Costs",
+        "url": "https://gov.texas.gov/news/post/governor-abbott-directs-puc-and-ercot-to-shield-texans-from-data-center-infrastructure-costs",
+        "publisher": "Office of the Texas Governor",
+        "kind": "official",
+        "published": "2026-06-10",
+        "excerpt": "Abbott directed the PUCT and ERCOT to lower residential bills, require data centers to pay their own infrastructure costs, and pursue further consumer protections."
+      },
+      {
+        "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+        "url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+        "publisher": "Office of the Texas Governor",
+        "kind": "official",
+        "published": "2026-08-03",
+        "excerpt": "Directs PUCT and ERCOT to verify and audit data-center projects in the interconnection queue; noncompliant projects may be denied grid access."
+      },
+      {
+        "title": "Governor Abbott Directs TCEQ To Halt Data Center Permits",
+        "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits",
+        "publisher": "Office of the Texas Governor",
+        "kind": "official",
+        "published": "2026-09-21",
+        "excerpt": "Directs TCEQ to pause data-center permit issuance until the ERCOT audit is complete."
+      },
+      {
+        "title": "New Texas data center projects frozen until state audits them",
+        "url": "https://www.texastribune.org/2026/08/03/texas-data-center-project-audit-greg-abbott/",
+        "publisher": "The Texas Tribune",
+        "kind": "journalism",
+        "published": "2026-08-03",
+        "excerpt": "ERCOT postponed its Batch Zero transmission planning study after the governor ordered an audit."
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Legal commentators (e.g., a Houston Chronicle op-ed) question whether the governor has authority to order TCEQ to stop processing permits; the July 2026 Hinojosa date is approximate (month only). The Abbott campaign disputes Hinojosa's legislative record on data centers (2017/2023 votes); not independently verified. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-NY",
+    "office": "Governor",
+    "state": "NY",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-23",
+    "incumbent": {
+      "name": "Kathy Hochul",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Kathy Hochul",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Hochul signed Executive Order 62, pausing state DEC discretionary permits for data centers of 50 MW or more for up to one year while the state develops standards and a community-benefits framework.",
+            "explicitDataCenter": true,
+            "evidence": "fact",
+            "source": {
+              "title": "Executive Order No. 62: Establishing a Temporary Moratorium on Data Centers in New York",
+              "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+              "publisher": "Office of the Governor of New York",
+              "kind": "official",
+              "published": "2026-07-14",
+              "excerpt": "Pauses DEC discretionary permits for data centers of 50 MW or more for up to one year while DPS completes an environmental review; exempts facilities serving manufacturing, research, education or medical care."
+            },
+            "date": "2026-07-14"
+          },
+          {
+            "topic": "sales_tax",
+            "summary": "Hochul's office has said it is pursuing legislation to repeal sales-tax exemptions for large data centers.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "New York becomes first U.S. state to impose AI data center ban",
+              "url": "https://www.cnbc.com/2026/07/14/new-york-ai-data-center-ban.html",
+              "publisher": "CNBC",
+              "kind": "journalism",
+              "published": "2026-07-14",
+              "excerpt": "Hochul's office is also pursuing legislation to repeal sales-tax exemptions for large data centers."
+            },
+            "date": "2026-07-14"
+          },
+          {
+            "topic": "affordability",
+            "summary": "Hochul's campaign ad argues the moratorium will save New Yorkers money on utility bills.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Hochul runs on halting data centers in new ad",
+              "url": "https://www.cityandstateny.com/politics/2026/09/hochul-runs-halting-data-centers-new-ad/416150/",
+              "publisher": "City & State New York",
+              "kind": "journalism"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Bruce Blakeman",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Blakeman has said he would rescind Hochul's data-center moratorium and work directly with tech companies to limit water and energy demand.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Blakeman vows to end Hochul's 'crazy' data center moratorium",
+              "url": "https://ny1.com/nyc/all-boroughs/politics/2026/07/15/hochul-blakeman-data-center-moratorium",
+              "publisher": "NY1 / Spectrum News",
+              "kind": "journalism",
+              "published": "2026-07-15"
+            },
+            "date": "2026-07-15"
+          },
+          {
+            "topic": "cost_allocation",
+            "summary": "Blakeman argues utility costs should be cut by eliminating climate and electrification mandates and that data-center operators should provide their own power and pay toward grid upgrades.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Hochul, Blakeman offer very different views on data centers, energy needs",
+              "url": "https://buffalonews.com/news/local/government-politics/elections/article_1bf93528-dc00-4859-80e4-e7efc51277fa.html",
+              "publisher": "The Buffalo News",
+              "kind": "journalism",
+              "excerpt": "Blakeman argued bills should be lowered by eliminating climate and electrification mandates and that operators should supply power and contribute to grid upgrades."
+            }
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Likely D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "Siena Research Institute",
+        "endDate": "2026-09-17",
+        "results": {
+          "Hochul": 50,
+          "Blakeman": 41
+        },
+        "url": "https://sri.siena.edu/2026/09/23/siena-poll-of-likely-new-york-state-voters-hochul-50-blakeman-41/",
+        "sampleSize": 1144,
+        "population": "LV"
+      }
+    ],
+    "powers": "The governor appoints the PSC (Senate-confirmed) and controls DEC, DPS, NYPA and Empire State Development, so permitting pauses like EO 62, discounted NYPA power allocations and incentive deals all run through executive agencies. The governor can sign or veto bills such as the Legislature's Responsible Data Center Development Act (20 MW threshold), which Hochul had not signed as of the EO.",
+    "implications": "Analysis: Hochul's re-election would likely extend the EO 62 framework into standards and possibly legislation, keeping large-load approvals slow and conditional. A Blakeman win would likely end the moratorium by executive action, though a Democratic Legislature could still pass data-center limits and override vetoes with two-thirds majorities.",
+    "sources": [
+      {
+        "title": "Executive Order No. 62: Establishing a Temporary Moratorium on Data Centers in New York",
+        "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+        "publisher": "Office of the Governor of New York",
+        "kind": "official",
+        "published": "2026-07-14",
+        "excerpt": "Pauses DEC discretionary permits for data centers of 50 MW or more for up to one year while DPS completes an environmental review; exempts facilities serving manufacturing, research, education or medical care."
+      },
+      {
+        "title": "New York becomes first U.S. state to impose AI data center ban",
+        "url": "https://www.cnbc.com/2026/07/14/new-york-ai-data-center-ban.html",
+        "publisher": "CNBC",
+        "kind": "journalism",
+        "published": "2026-07-14",
+        "excerpt": "Hochul's office is also pursuing legislation to repeal sales-tax exemptions for large data centers."
+      },
+      {
+        "title": "Blakeman vows to end Hochul's 'crazy' data center moratorium",
+        "url": "https://ny1.com/nyc/all-boroughs/politics/2026/07/15/hochul-blakeman-data-center-moratorium",
+        "publisher": "NY1 / Spectrum News",
+        "kind": "journalism",
+        "published": "2026-07-15"
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The City & State ad date is approximate (September 2026); the Buffalo News article date was not captured. EO 62 does not cover local permits. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-OH",
+    "office": "Governor",
+    "state": "OH",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-05",
+    "incumbent": {
+      "name": "Mike DeWine",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Vivek Ramaswamy",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Ramaswamy pledges a first-day executive order halting approval of new data-center project announcements until legislation takes effect requiring that nearby residents get free electricity, lower property taxes and full air/water compliance.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "The Plan — Ohioans-First Data Center Pledge",
+              "url": "https://vivekforohio.com/the-plan",
+              "publisher": "Vivek Ramaswamy for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "Pledges a first-day executive order halting approval of new data-center project announcements until legislation codifies conditions on free electricity for nearby residents, lower property taxes and air/water standards."
+            }
+          },
+          {
+            "topic": "property_tax",
+            "summary": "Ramaswamy would end property-tax abatements for future data centers and use their tax revenue for homeowner rebates.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "The Plan — Ohioans-First Data Center Pledge",
+              "url": "https://vivekforohio.com/the-plan",
+              "publisher": "Vivek Ramaswamy for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "Pledges a first-day executive order halting approval of new data-center project announcements until legislation codifies conditions on free electricity for nearby residents, lower property taxes and air/water standards."
+            }
+          },
+          {
+            "topic": "natural_gas",
+            "summary": "Ramaswamy's plan calls for expanding natural gas and new energy technologies and streamlining energy permits to lower electric bills.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "The Plan — Ohioans-First Data Center Pledge",
+              "url": "https://vivekforohio.com/the-plan",
+              "publisher": "Vivek Ramaswamy for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "Pledges a first-day executive order halting approval of new data-center project announcements until legislation codifies conditions on free electricity for nearby residents, lower property taxes and air/water standards."
+            }
+          }
+        ],
+        "website": "https://vivekforohio.com/"
+      },
+      {
+        "name": "Amy Acton",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Acton supports a conditional moratorium on data centers until projects cover 100% of their utility costs, use union labor, operate transparently and meet Ohio environmental standards.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data Centers — Amy Acton for Governor",
+              "url": "https://actonforgovernor.com/issue/data-centers/",
+              "publisher": "Amy Acton for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "Supports a conditional moratorium until projects cover 100% of utility costs, use union labor, meet environmental standards; would rein in long-term incentives with clawbacks and end NDAs."
+            }
+          },
+          {
+            "topic": "incentive_clawback",
+            "summary": "Acton would rein in long-term data-center tax incentives and add clawbacks and transparency requirements.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data Centers — Amy Acton for Governor",
+              "url": "https://actonforgovernor.com/issue/data-centers/",
+              "publisher": "Amy Acton for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "Supports a conditional moratorium until projects cover 100% of utility costs, use union labor, meet environmental standards; would rein in long-term incentives with clawbacks and end NDAs."
+            }
+          },
+          {
+            "topic": "affordability",
+            "summary": "Acton would appoint PUCO commissioners who 'put ratepayers first' and restore funding to the Office of the Consumers' Counsel.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "Lowering Energy Costs — Amy Acton for Governor",
+              "url": "https://actonforgovernor.com/issue/lowering-energy-costs/",
+              "publisher": "Amy Acton for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "Would appoint PUCO commissioners who 'put ratepayers first' and work with other PJM states."
+            }
+          }
+        ],
+        "website": "https://actonforgovernor.com/"
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Toss-up",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Toss-up",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Toss-up",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "New York Times/Siena",
+        "endDate": "2026-10-01",
+        "results": {
+          "Ramaswamy": 45,
+          "Acton": 49
+        },
+        "url": "https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-ohio-poll-crosstabs.html",
+        "sampleSize": 616,
+        "population": "LV"
+      },
+      {
+        "pollster": "SSRS for CNN",
+        "endDate": "2026-10-05",
+        "results": {
+          "Ramaswamy": 42,
+          "Acton": 50
+        },
+        "url": "https://www.documentcloud.org/documents/28729016-cnn-ohio-poll-conducted-by-ssrs/",
+        "sampleSize": 760,
+        "population": "LV"
+      }
+    ],
+    "powers": "The governor appoints PUCO commissioners from a nominating council's list (Senate-confirmed), and directs JobsOhio and the Development Department, which negotiate incentives. The governor has a line-item veto on appropriations, and both nominees have pledged executive orders on data centers whose legal reach would depend on existing statute.",
+    "implications": "Analysis: Both nominees propose pausing or conditioning new data centers, so the main difference is design: Ramaswamy ties approval to resident benefits and ending abatements, while Acton stresses full cost recovery, labor standards and clawbacks. The Republican supermajority Legislature would decide whether either plan is codified, and PUCO appointments would shape AEP Ohio's data-center tariff in practice.",
+    "sources": [
+      {
+        "title": "The Plan — Ohioans-First Data Center Pledge",
+        "url": "https://vivekforohio.com/the-plan",
+        "publisher": "Vivek Ramaswamy for Governor (campaign)",
+        "kind": "official",
+        "excerpt": "Pledges a first-day executive order halting approval of new data-center project announcements until legislation codifies conditions on free electricity for nearby residents, lower property taxes and air/water standards."
+      },
+      {
+        "title": "Data Centers — Amy Acton for Governor",
+        "url": "https://actonforgovernor.com/issue/data-centers/",
+        "publisher": "Amy Acton for Governor (campaign)",
+        "kind": "official",
+        "excerpt": "Supports a conditional moratorium until projects cover 100% of utility costs, use union labor, meet environmental standards; would rein in long-term incentives with clawbacks and end NDAs."
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Campaign-site pages carry no publication dates. Poll figures were transcribed from a secondary polling table that cites the linked NYT/Siena and CNN/SSRS releases; the poll pages were not opened directly. A co/efficient (R) tracker reading (Oct. 6: Ramaswamy 45, Acton 43) is not included. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-PA",
+    "office": "Governor",
+    "state": "PA",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-19",
+    "incumbent": {
+      "name": "Josh Shapiro",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Josh Shapiro",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "permitting",
+            "summary": "Shapiro signed executive order 2026-05 conditioning DEP permit review on developers' binding commitment to 'GRID' requirements (paying full energy costs, local engagement and hiring, water conservation), removing data centers from the Permit Fast Track Program and barring NDAs.",
+            "explicitDataCenter": true,
+            "evidence": "fact",
+            "source": {
+              "title": "Data Centers — Governor Josh Shapiro",
+              "url": "https://www.pa.gov/governor/topics/data-centers",
+              "publisher": "Office of the Governor of Pennsylvania",
+              "kind": "official",
+              "excerpt": "Describes executive order eo2026_05 setting 'GRID' requirements: developers must pay the full cost of energy, engage locally, hire locally and meet water-conservation standards; DEP permit review conditioned accordingly; data centers removed from the Permit Fast Track Program; NDAs prohibited."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Stacy Garrity",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "cost_allocation",
+            "summary": "Garrity would require data centers to bring their own energy and water sources.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data Centers — Stacy Garrity for Governor",
+              "url": "https://garrityforpa.com/datacenter/",
+              "publisher": "Garrity for PA (campaign)",
+              "kind": "official",
+              "excerpt": "Would require data centers to bring their own energy and water sources and require local approval before any new data center is built; criticizes Shapiro's Amazon sales-tax arrangement."
+            }
+          },
+          {
+            "topic": "zoning",
+            "summary": "Garrity would require local approval before any new data center can be built and has called for a pause until safeguards protect farmland, water and electric rates.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data Centers — Stacy Garrity for Governor",
+              "url": "https://garrityforpa.com/datacenter/",
+              "publisher": "Garrity for PA (campaign)",
+              "kind": "official",
+              "excerpt": "Would require data centers to bring their own energy and water sources and require local approval before any new data center is built; criticizes Shapiro's Amazon sales-tax arrangement."
+            }
+          },
+          {
+            "topic": "sales_tax",
+            "summary": "Garrity criticizes Shapiro for exempting Amazon from the 6% sales tax on data-center equipment.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data Centers — Stacy Garrity for Governor",
+              "url": "https://garrityforpa.com/datacenter/",
+              "publisher": "Garrity for PA (campaign)",
+              "kind": "official",
+              "excerpt": "Would require data centers to bring their own energy and water sources and require local approval before any new data center is built; criticizes Shapiro's Amazon sales-tax arrangement."
+            }
+          }
+        ],
+        "website": "https://garrityforpa.com/"
+      },
+      {
+        "name": "Ken Krawchuk",
+        "party": "L",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor nominates PUC commissioners (Senate-confirmed), controls DEP permitting (as used in EO 2026-05) and the Department of Community and Economic Development's incentive deals, and represents Pennsylvania in PJM governance disputes. The governor holds a line-item veto on appropriations.",
+    "implications": "Analysis: Shapiro's re-election would keep the EO 2026-05 permitting conditions and PJM-facing advocacy in place. A Garrity administration could rescind the executive order, but her stated platform also restricts data centers (own power and water, local approval), so the change would more likely be in which mechanism is used than in a simple loosening; the divided Legislature limits statutory change either way.",
+    "sources": [
+      {
+        "title": "Data Centers — Governor Josh Shapiro",
+        "url": "https://www.pa.gov/governor/topics/data-centers",
+        "publisher": "Office of the Governor of Pennsylvania",
+        "kind": "official",
+        "excerpt": "Describes executive order eo2026_05 setting 'GRID' requirements: developers must pay the full cost of energy, engage locally, hire locally and meet water-conservation standards; DEP permit review conditioned accordingly; data centers removed from the Permit Fast Track Program; NDAs prohibited."
+      },
+      {
+        "title": "Data Centers — Stacy Garrity for Governor",
+        "url": "https://garrityforpa.com/datacenter/",
+        "publisher": "Garrity for PA (campaign)",
+        "kind": "official",
+        "excerpt": "Would require data centers to bring their own energy and water sources and require local approval before any new data center is built; criticizes Shapiro's Amazon sales-tax arrangement."
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The governor's topic page does not give the executive order's signing date. Shapiro's earlier PJM actions were not separately sourced in this pass. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-GA",
+    "office": "Governor",
+    "state": "GA",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-19",
+    "runoffDate": "2026-06-16",
+    "incumbent": {
+      "name": "Brian Kemp",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Rick Jackson",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "affordability",
+            "summary": "Jackson's action plan calls for freezing property taxes and halving the state income tax; it does not address data centers or electricity rates.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "Action Plan — Rick Jackson for Governor",
+              "url": "https://rickjackson.com/action-plan/",
+              "publisher": "Jackson for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "Would freeze property taxes immediately and cut the state income tax in half within four years."
+            }
+          }
+        ],
+        "website": "https://rickjackson.com/"
+      },
+      {
+        "name": "Keisha Lance Bottoms",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Bottoms says Georgia needs to 'slow down and reassess' the rapid expansion of data centers to protect families from higher utility bills and strained water resources.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Issues — Keisha Lance Bottoms for Governor",
+              "url": "https://keishaforgovernor.com/issues",
+              "publisher": "Keisha for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "'Georgia needs to slow down and reassess the rapid expansion of data centers' to protect families from higher utility bills and strained water resources."
+            }
+          }
+        ],
+        "website": "https://keishaforgovernor.com/"
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Toss-up",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Toss-up",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Toss-up",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "InsiderAdvantage",
+        "endDate": "2026-09-23",
+        "results": {
+          "Jackson": 48,
+          "Bottoms": 46,
+          "Undecided": 6
+        },
+        "url": "https://insideradvantage.com/insideradvantage-georgia-survey-jackson-leads-by-two-in-race-for-governor-ossoff-leads-by-eight-in-senate-contest/",
+        "sampleSize": 1200,
+        "population": "LV"
+      }
+    ],
+    "powers": "Georgia's Public Service Commission is elected statewide, so the governor does not control Georgia Power rate or large-load decisions, though the governor fills PSC vacancies by appointment. The governor's main levers are vetoes (including line-item on appropriations), economic-development deals through the Department of Economic Development, and appointments to the Environmental Protection Division's board, which handles water permits.",
+    "implications": "Analysis: Because the PSC is elected, a change in governor would shift Georgia's data-center trajectory mostly through incentives (e.g., the sales-tax exemption) and legislation rather than utility regulation. A Bottoms win would put a data-center skeptic in a position to veto incentive extensions; a Jackson win would likely keep Kemp-era recruitment policy unless he takes a position he has not yet stated.",
+    "sources": [
+      {
+        "title": "Issues — Keisha Lance Bottoms for Governor",
+        "url": "https://keishaforgovernor.com/issues",
+        "publisher": "Keisha for Governor (campaign)",
+        "kind": "official",
+        "excerpt": "'Georgia needs to slow down and reassess the rapid expansion of data centers' to protect families from higher utility bills and strained water resources."
+      },
+      {
+        "title": "Action Plan — Rick Jackson for Governor",
+        "url": "https://rickjackson.com/action-plan/",
+        "publisher": "Jackson for Governor (campaign)",
+        "kind": "official",
+        "excerpt": "Would freeze property taxes immediately and cut the state income tax in half within four years."
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Jackson won the Republican nomination in the June 16 runoff. No documented data-center statement from Jackson was found. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-AZ",
+    "office": "Governor",
+    "state": "AZ",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-07-21",
+    "incumbent": {
+      "name": "Katie Hobbs",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Katie Hobbs",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "water",
+            "summary": "Hobbs ended state land leases held by a foreign-owned company that was pumping groundwater, and in September 2026 her office announced termination of state land leases for AgTech LLC.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Meet Katie — Katie Hobbs for Governor",
+              "url": "https://katiehobbs.org/meet-katie",
+              "publisher": "Elect Katie Hobbs (campaign)",
+              "kind": "official",
+              "excerpt": "When 'a foreign corporation was pumping Arizona's groundwater unchecked, Katie took action and ended their leases.'"
+            }
+          }
+        ],
+        "website": "https://katiehobbs.org/"
+      },
+      {
+        "name": "Andy Biggs",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [],
+        "website": "https://biggsforarizona.com/"
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Lean D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Tilt D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Lean D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "Arizona's Corporation Commission is independently elected, so the governor does not control utility rates or large-load tariffs for APS, TEP or SRP. The governor's levers are vetoes (including line-item on appropriations), the Department of Water Resources and groundwater management policy, State Land Department leasing, and the Arizona Commerce Authority's incentive work.",
+    "implications": "Analysis: Water is the governor's most direct lever over data centers in Arizona, since groundwater rules and assured-water-supply decisions run through executive agencies. A Biggs administration would likely favor fewer regulatory constraints, and Hobbs's veto has been the main check on the Republican Legislature; utility-side cost allocation would stay with the elected ACC regardless.",
+    "sources": [
+      {
+        "title": "Governor Katie Hobbs Announces Termination of State Land Leases for AgTech LLC",
+        "url": "https://azgovernor.gov/office-arizona-governor/news/2026/09/governor-katie-hobbs-announces-termination-state-land-leases",
+        "publisher": "Office of the Arizona Governor",
+        "kind": "official",
+        "published": "2026-09-10"
+      },
+      {
+        "title": "Meet Katie — Katie Hobbs for Governor",
+        "url": "https://katiehobbs.org/meet-katie",
+        "publisher": "Elect Katie Hobbs (campaign)",
+        "kind": "official",
+        "excerpt": "When 'a foreign corporation was pumping Arizona's groundwater unchecked, Katie took action and ended their leases.'"
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No explicit data-center statement was verified for either nominee; the AgTech LLC lease release's content beyond its title was not reviewed. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-WI",
+    "office": "Governor",
+    "state": "WI",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-11",
+    "incumbent": {
+      "name": "Tony Evers",
+      "party": "D",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Tom Tiffany",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "cost_allocation",
+            "summary": "Tiffany says data centers must pay the costs they create, follow a Ratepayer Protection Pledge and bring their own energy.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data Centers — Tom Tiffany for Governor",
+              "url": "https://tomtiffany.com/solutions/data-centers/",
+              "publisher": "Tiffany for Wisconsin (campaign)",
+              "kind": "official",
+              "excerpt": "Data centers 'must pay the costs they create'; 'Local residents should have the final say'; would end state tax breaks for data centers."
+            }
+          },
+          {
+            "topic": "zoning",
+            "summary": "Tiffany says local residents should have the final say and no data center should be imposed on a community that opposes it.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data Centers — Tom Tiffany for Governor",
+              "url": "https://tomtiffany.com/solutions/data-centers/",
+              "publisher": "Tiffany for Wisconsin (campaign)",
+              "kind": "official",
+              "excerpt": "Data centers 'must pay the costs they create'; 'Local residents should have the final say'; would end state tax breaks for data centers."
+            }
+          },
+          {
+            "topic": "sales_tax",
+            "summary": "Tiffany would end state tax breaks for data centers.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data Centers — Tom Tiffany for Governor",
+              "url": "https://tomtiffany.com/solutions/data-centers/",
+              "publisher": "Tiffany for Wisconsin (campaign)",
+              "kind": "official",
+              "excerpt": "Data centers 'must pay the costs they create'; 'Local residents should have the final say'; would end state tax breaks for data centers."
+            }
+          }
+        ],
+        "website": "https://tomtiffany.com/"
+      },
+      {
+        "name": "David Crowley",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Crowley's plan calls for investing in solar power, energy retrofits and clean infrastructure; it does not address data centers directly.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "The Plan — David Crowley for Governor",
+              "url": "https://www.crowleyforwi.com/plan",
+              "publisher": "Crowley for Wisconsin (campaign)",
+              "kind": "official",
+              "excerpt": "'Crowley will invest in solar power, energy retrofits, and clean infrastructure.'"
+            }
+          }
+        ],
+        "website": "https://www.crowleyforwi.com/"
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Toss-up",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Toss-up",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Lean D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints the three-member Public Service Commission (Senate-confirmed), which approves utility generation, large-load tariffs and data-center service contracts for We Energies and Alliant. The governor also has an unusually broad partial veto on appropriation bills and influences WEDC incentive deals.",
+    "implications": "Analysis: PSC appointments are the main channel through which the next governor would shape data-center cost allocation, since commissioners' staggered terms turn over during a four-year term. A Tiffany administration would pair an anti-tax-break stance with local-control rhetoric, while Crowley's documented platform emphasizes clean energy; the Legislature's composition will determine whether tax-break repeal is possible.",
+    "sources": [
+      {
+        "title": "Data Centers — Tom Tiffany for Governor",
+        "url": "https://tomtiffany.com/solutions/data-centers/",
+        "publisher": "Tiffany for Wisconsin (campaign)",
+        "kind": "official",
+        "excerpt": "Data centers 'must pay the costs they create'; 'Local residents should have the final say'; would end state tax breaks for data centers."
+      },
+      {
+        "title": "The Plan — David Crowley for Governor",
+        "url": "https://www.crowleyforwi.com/plan",
+        "publisher": "Crowley for Wisconsin (campaign)",
+        "kind": "official",
+        "excerpt": "'Crowley will invest in solar power, energy retrofits, and clean infrastructure.'"
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Tiffany's site says Crowley does not support rolling back data-center tax breaks; that characterization was not independently verified. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-MI",
+    "office": "Governor",
+    "state": "MI",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-04",
+    "incumbent": {
+      "name": "Gretchen Whitmer",
+      "party": "D",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Jocelyn Benson",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Benson pledges a moratorium on data centers until rules require open negotiation with communities, bar tax breaks and excess water use, and make data centers pay for their power.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data Centers — Jocelyn Benson for Governor",
+              "url": "https://www.jocelynbenson.com/issues/data-centers",
+              "publisher": "Jocelyn Benson for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "'As Governor, I will put a moratorium on data centers'; data centers 'bear the cost of additional energy usage. Not the consumer'; would ban tax breaks and require public hearings and disclosure."
+            }
+          },
+          {
+            "topic": "cost_allocation",
+            "summary": "Benson says data centers, not consumers, should bear the cost of additional energy usage.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data Centers — Jocelyn Benson for Governor",
+              "url": "https://www.jocelynbenson.com/issues/data-centers",
+              "publisher": "Jocelyn Benson for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "'As Governor, I will put a moratorium on data centers'; data centers 'bear the cost of additional energy usage. Not the consumer'; would ban tax breaks and require public hearings and disclosure."
+            }
+          },
+          {
+            "topic": "disclosure",
+            "summary": "Benson would require public hearings and disclosure reporting to prevent 'backdoor deals.'",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data Centers — Jocelyn Benson for Governor",
+              "url": "https://www.jocelynbenson.com/issues/data-centers",
+              "publisher": "Jocelyn Benson for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "'As Governor, I will put a moratorium on data centers'; data centers 'bear the cost of additional energy usage. Not the consumer'; would ban tax breaks and require public hearings and disclosure."
+            }
+          }
+        ],
+        "website": "https://www.jocelynbenson.com/"
+      },
+      {
+        "name": "John James",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Lean D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Tilt D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Lean D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints the three Michigan Public Service Commission members (Senate advice and consent), who approve DTE and Consumers Energy data-center contracts and large-load tariffs. The governor also directs EGLE (water and air permits) and the Michigan Economic Development Corporation, and has a line-item veto on appropriations.",
+    "implications": "Analysis: A Benson win would bring a pledged moratorium and an end to tax breaks, though implementing either would likely require legislation or contested executive authority. A James administration was not documented on data centers in this pass; the effect would run mainly through MPSC appointments as commissioners' terms expire.",
+    "sources": [
+      {
+        "title": "Data Centers — Jocelyn Benson for Governor",
+        "url": "https://www.jocelynbenson.com/issues/data-centers",
+        "publisher": "Jocelyn Benson for Governor (campaign)",
+        "kind": "official",
+        "excerpt": "'As Governor, I will put a moratorium on data centers'; data centers 'bear the cost of additional energy usage. Not the consumer'; would ban tax breaks and require public hearings and disclosure."
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Mike Duggan, who had been running as an independent, withdrew. No documented data-center position from John James could be verified, and his campaign site could not be located. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-MN",
+    "office": "Governor",
+    "state": "MN",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-11",
+    "incumbent": {
+      "name": "Tim Walz",
+      "party": "D",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Amy Klobuchar",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Lisa Demuth",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [],
+        "website": "https://lisaformn.com/"
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Likely D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "Morning Consult for The Daily Agenda",
+        "endDate": "2026-10-07",
+        "results": {
+          "Klobuchar": 48,
+          "Demuth": 39
+        },
+        "url": "https://www.thedailyagenda.com/p/morning-take-the-daily-agenda-poll/",
+        "sampleSize": 1000,
+        "population": "RV"
+      }
+    ],
+    "powers": "The governor appoints all five Public Utilities Commission members (Senate-confirmed), who approve Xcel and other utilities' large-load tariffs, resource plans and data-center service agreements. The governor also controls the Pollution Control Agency and DNR (water appropriation permits) and has a line-item veto on appropriations.",
+    "implications": "Analysis: PUC appointments and DNR water-permit administration are the main executive levers over data-center growth in Minnesota. Neither nominee's data-center positions were documented in this pass, so differences should be inferred cautiously; a change in party would matter most through PUC composition and whether the governor signs or vetoes changes to the state's data-center incentive and regulatory framework.",
+    "sources": [
+      {
+        "title": "Morning Take: The Daily Agenda Poll",
+        "url": "https://www.thedailyagenda.com/p/morning-take-the-daily-agenda-poll/",
+        "publisher": "The Daily Agenda",
+        "kind": "journalism",
+        "published": "2026-10-08",
+        "excerpt": "Morning Consult poll, Oct. 2–7, 2026, 1,000 Minnesota registered voters: Klobuchar 48%, Demuth 39%."
+      },
+      {
+        "title": "Lisa Demuth for Governor",
+        "url": "https://lisaformn.com/",
+        "publisher": "Lisa for MN (campaign)",
+        "kind": "official"
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Klobuchar's campaign site returned HTTP 403. The Daily Agenda poll is described as Democratic-sponsored. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-IA",
+    "office": "Governor",
+    "state": "IA",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-02",
+    "incumbent": {
+      "name": "Kim Reynolds",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Rob Sand",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "sales_tax",
+            "summary": "Sand would end data-center tax breaks, including sales-tax exemptions on purchases inside facilities.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "My Plan to Hold Big Corporations and Data Centers Accountable — Rob Sand",
+              "url": "https://www.robsand.com/issues/data-centers",
+              "publisher": "Rob Sand for Iowa (campaign)",
+              "kind": "official",
+              "excerpt": "'I will end these tax breaks'; data centers should cover their own costs 'so that your bills don't go up one cent'; would bar NDAs and require disclosure of water and energy use; supports local control of the ultimate decision."
+            }
+          },
+          {
+            "topic": "cost_allocation",
+            "summary": "Sand says data centers should cover all their own costs, including utility increases they cause, so household bills do not rise.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "My Plan to Hold Big Corporations and Data Centers Accountable — Rob Sand",
+              "url": "https://www.robsand.com/issues/data-centers",
+              "publisher": "Rob Sand for Iowa (campaign)",
+              "kind": "official",
+              "excerpt": "'I will end these tax breaks'; data centers should cover their own costs 'so that your bills don't go up one cent'; would bar NDAs and require disclosure of water and energy use; supports local control of the ultimate decision."
+            }
+          },
+          {
+            "topic": "disclosure",
+            "summary": "Sand would bar NDAs on new data-center deals, require disclosure of water and energy use, and supports local control of the final siting decision.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "My Plan to Hold Big Corporations and Data Centers Accountable — Rob Sand",
+              "url": "https://www.robsand.com/issues/data-centers",
+              "publisher": "Rob Sand for Iowa (campaign)",
+              "kind": "official",
+              "excerpt": "'I will end these tax breaks'; data centers should cover their own costs 'so that your bills don't go up one cent'; would bar NDAs and require disclosure of water and energy use; supports local control of the ultimate decision."
+            }
+          }
+        ],
+        "website": "https://www.robsand.com/"
+      },
+      {
+        "name": "Zach Lahn",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "affordability",
+            "summary": "Lahn opposes eminent domain for private profit and would shift property taxes toward institutional investors; his policy page does not address data centers.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "Zach's Policies — Lahn for Governor",
+              "url": "https://www.zachlahn.com/policy/",
+              "publisher": "Lahn for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "'Absolutely oppose use of eminent domain for private company profit'; would lower property taxes by raising rates on Wall Street institutional investors."
+            }
+          }
+        ],
+        "website": "https://www.zachlahn.com/"
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Lean D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Tilt D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Lean D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints the Iowa Utilities Commission (Senate-confirmed), which sets MidAmerican and Alliant rates and data-center tariffs, and controls the Iowa Economic Development Authority, which awards incentives. The governor has a line-item veto on appropriations and can veto tax-policy changes such as repeal of the data-center sales-tax exemption.",
+    "implications": "Analysis: Sand's pledge to end data-center tax breaks would require the Republican Legislature to pass repeal, but as governor he could slow IEDA incentive awards and reshape the Utilities Commission through appointments. A Lahn administration would likely keep existing incentives in place absent a stated change.",
+    "sources": [
+      {
+        "title": "My Plan to Hold Big Corporations and Data Centers Accountable — Rob Sand",
+        "url": "https://www.robsand.com/issues/data-centers",
+        "publisher": "Rob Sand for Iowa (campaign)",
+        "kind": "official",
+        "excerpt": "'I will end these tax breaks'; data centers should cover their own costs 'so that your bills don't go up one cent'; would bar NDAs and require disclosure of water and energy use; supports local control of the ultimate decision."
+      },
+      {
+        "title": "Zach's Policies — Lahn for Governor",
+        "url": "https://www.zachlahn.com/policy/",
+        "publisher": "Lahn for Governor (campaign)",
+        "kind": "official",
+        "excerpt": "'Absolutely oppose use of eminent domain for private company profit'; would lower property taxes by raising rates on Wall Street institutional investors."
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-NV",
+    "office": "Governor",
+    "state": "NV",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-09",
+    "incumbent": {
+      "name": "Joe Lombardo",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Joe Lombardo",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "property_tax",
+            "summary": "Lombardo's EO 2026-005 bars partial tax-abatement applications from reaching the GOED Board unless the developer pays the Local School Support Tax in full and signs a binding Community Support Commitment.",
+            "explicitDataCenter": true,
+            "evidence": "fact",
+            "source": {
+              "title": "Governor Joe Lombardo Signs Executive Order Placing Guardrails on Data Center Development, Restoring Education Funding",
+              "url": "https://gov.nv.gov/press-releases/governor-joe-lombardo-signs-executive-order-placing-guardrails-on-data-center-development-restoring-education-funding/",
+              "publisher": "Office of the Nevada Governor",
+              "kind": "official",
+              "published": "2026-09-18",
+              "excerpt": "EO 2026-005 'Nevada Standard for Responsible Data Center Development': partial abatement applications cannot go to the GOED Board unless the developer pays the Local School Support Tax in full and signs a Community Support Commitment; developers must cover cost of service."
+            },
+            "date": "2026-09-18"
+          },
+          {
+            "topic": "cost_allocation",
+            "summary": "EO 2026-005 requires developers to cover the cost of serving their facilities so costs are not passed to ratepayers and directs a 'Responsible Speed to Power Plan' for large loads through 2036.",
+            "explicitDataCenter": true,
+            "evidence": "fact",
+            "source": {
+              "title": "Governor Joe Lombardo Signs Executive Order Placing Guardrails on Data Center Development, Restoring Education Funding",
+              "url": "https://gov.nv.gov/press-releases/governor-joe-lombardo-signs-executive-order-placing-guardrails-on-data-center-development-restoring-education-funding/",
+              "publisher": "Office of the Nevada Governor",
+              "kind": "official",
+              "published": "2026-09-18",
+              "excerpt": "EO 2026-005 'Nevada Standard for Responsible Data Center Development': partial abatement applications cannot go to the GOED Board unless the developer pays the Local School Support Tax in full and signs a Community Support Commitment; developers must cover cost of service."
+            },
+            "date": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "name": "Aaron Ford",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Toss-up",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Tilt R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Toss-up",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints the Public Utilities Commission of Nevada and chairs the GOED Board, which under 2025 law may deny, reduce or condition data-center tax abatements. The governor also oversees the State Engineer (water rights) and has veto power, but no line-item veto.",
+    "implications": "Analysis: Lombardo's EO 2026-005 shows the GOED abatement process is the main executive lever; a Ford administration could keep, tighten or rewrite those conditions by executive order without legislation. PUCN appointments would determine how NV Energy's large-load costs are allocated under either governor.",
+    "sources": [
+      {
+        "title": "Governor Joe Lombardo Signs Executive Order Placing Guardrails on Data Center Development, Restoring Education Funding",
+        "url": "https://gov.nv.gov/press-releases/governor-joe-lombardo-signs-executive-order-placing-guardrails-on-data-center-development-restoring-education-funding/",
+        "publisher": "Office of the Nevada Governor",
+        "kind": "official",
+        "published": "2026-09-18",
+        "excerpt": "EO 2026-005 'Nevada Standard for Responsible Data Center Development': partial abatement applications cannot go to the GOED Board unless the developer pays the Local School Support Tax in full and signs a Community Support Commitment; developers must cover cost of service."
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center position from Aaron Ford was verified in this pass. The EO PDF itself was not reviewed, only the press release. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-KS",
+    "office": "Governor",
+    "state": "KS",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-04",
+    "incumbent": {
+      "name": "Laura Kelly",
+      "party": "D",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Ty Masterson",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "sales_tax",
+            "summary": "E&E News reported that Masterson's primary opponents attacked him for supporting tax incentives to attract data centers.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data center foes win big in Tuesday's primaries",
+              "url": "https://www.eenews.net/articles/data-center-foes-win-big-in-tuesdays-primaries/",
+              "publisher": "E&E News (POLITICO)",
+              "kind": "journalism",
+              "published": "2026-08-05",
+              "excerpt": "Holscher first backed data-center expansion, then reversed and advocated a statewide moratorium; primary opponents attacked Masterson for supporting tax incentives to lure data centers."
+            },
+            "date": "2026-08-05"
+          },
+          {
+            "topic": "affordability",
+            "summary": "Masterson's platform includes a 'Kansas Ratepayer Protection Pledge' against families being stuck with costs created by 'powerful outside interests'; the page does not mention data centers by name.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "Ty Masterson for Governor",
+              "url": "https://www.mastersonforgovernor.com/",
+              "publisher": "Masterson for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "Kansas Ratepayer Protection Pledge: 'Protecting families, farms, schools, hospitals, and small businesses from being stuck with higher costs created by powerful outside interests.'"
+            }
+          }
+        ],
+        "website": "https://www.mastersonforgovernor.com/"
+      },
+      {
+        "name": "Cindy Holscher",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Holscher says Kansas should stop approving new data centers until guardrails are in place.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Cindy Holscher for Governor",
+              "url": "https://www.cindyforkansas.com/",
+              "publisher": "Cindy for Kansas (campaign)",
+              "kind": "official",
+              "excerpt": "'Kansas needs to stop approving new data centers until guardrails are in place.'"
+            }
+          },
+          {
+            "topic": "moratorium",
+            "summary": "E&E News reported Holscher initially backed data-center expansion before reversing to support a statewide moratorium.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data center foes win big in Tuesday's primaries",
+              "url": "https://www.eenews.net/articles/data-center-foes-win-big-in-tuesdays-primaries/",
+              "publisher": "E&E News (POLITICO)",
+              "kind": "journalism",
+              "published": "2026-08-05",
+              "excerpt": "Holscher first backed data-center expansion, then reversed and advocated a statewide moratorium; primary opponents attacked Masterson for supporting tax incentives to lure data centers."
+            },
+            "date": "2026-08-05"
+          }
+        ],
+        "website": "https://www.cindyforkansas.com/"
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Lean R",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Tilt R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Lean R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "New York Times/Siena",
+        "endDate": "2026-09-30",
+        "results": {
+          "Masterson": 49,
+          "Holscher": 44
+        },
+        "url": "https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-kansas-poll-toplines.html",
+        "sampleSize": 605,
+        "population": "LV"
+      }
+    ],
+    "powers": "The governor appoints the three-member Kansas Corporation Commission (Senate-confirmed), which sets Evergy's rates and large-load tariffs, and runs the Department of Commerce, which administers incentives. The governor has a line-item veto, but the Republican legislative supermajority has frequently overridden vetoes.",
+    "implications": "Analysis: A Holscher win would bring a moratorium-leaning governor whose main tools would be KCC appointments and vetoes, which the supermajority could override. A Masterson win would create a Republican trifecta in which incentive-friendly policy is more likely to continue, tempered by his ratepayer-protection messaging.",
+    "sources": [
+      {
+        "title": "Data center foes win big in Tuesday's primaries",
+        "url": "https://www.eenews.net/articles/data-center-foes-win-big-in-tuesdays-primaries/",
+        "publisher": "E&E News (POLITICO)",
+        "kind": "journalism",
+        "published": "2026-08-05",
+        "excerpt": "Holscher first backed data-center expansion, then reversed and advocated a statewide moratorium; primary opponents attacked Masterson for supporting tax incentives to lure data centers."
+      },
+      {
+        "title": "Cindy Holscher for Governor",
+        "url": "https://www.cindyforkansas.com/",
+        "publisher": "Cindy for Kansas (campaign)",
+        "kind": "official",
+        "excerpt": "'Kansas needs to stop approving new data centers until guardrails are in place.'"
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Poll transcribed from a secondary polling table citing the linked NYT/Siena toplines (not opened directly); a YouGov poll (Masterson 47, Holscher 44) had conflicting field-date information and was omitted. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-FL",
+    "office": "Governor",
+    "state": "FL",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-18",
+    "incumbent": {
+      "name": "Ron DeSantis",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Byron Donalds",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "cost_allocation",
+            "summary": "Donalds pledges to stop large data centers from passing their electric and water bills on to households.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Affordability — Byron Donalds for Governor",
+              "url": "https://www.byrondonalds.com/issues/affordability/",
+              "publisher": "Byron Donalds for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "'Stop giant industrial data centers from passing their massive electric and water bills onto everyday households.'"
+            }
+          }
+        ],
+        "website": "https://www.byrondonalds.com/"
+      },
+      {
+        "name": "David Jolly",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Jolly (with running mate Gwen Graham) proposes a first-day moratorium on hyperscale data-center construction.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data Centers — David Jolly for Governor",
+              "url": "https://davidjolly.com/issues/data-centers/",
+              "publisher": "David Jolly for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "'Florida needs a moratorium. We would issue it on our first day in office.' Cites aquifer protection; describes 2026 law CS/CS/SB 484 requiring large-load customers to bear full cost of service."
+            }
+          },
+          {
+            "topic": "water",
+            "summary": "Jolly says existing protections are insufficient for the water and aquifer and wants impacts studied before projects are built.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Data Centers — David Jolly for Governor",
+              "url": "https://davidjolly.com/issues/data-centers/",
+              "publisher": "David Jolly for Governor (campaign)",
+              "kind": "official",
+              "excerpt": "'Florida needs a moratorium. We would issue it on our first day in office.' Cites aquifer protection; describes 2026 law CS/CS/SB 484 requiring large-load customers to bear full cost of service."
+            }
+          }
+        ],
+        "website": "https://davidjolly.com/"
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Lean R",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Lean R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Lean R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints Public Service Commission members from a list supplied by the PSC Nominating Council (Senate-confirmed); the PSC approves the large-load tariffs that implement Florida's 2026 large-load cost-of-service law (CS/CS/SB 484, as described in campaign materials). The governor also has a line-item veto, controls the Department of Environmental Protection and influences water management district boards through appointments.",
+    "implications": "Analysis: Both nominees have stated that data centers should not shift costs to households, so the larger difference is Jolly's proposed moratorium, whose legal basis as an executive order is untested in Florida. Under either governor, PSC appointments and water-management-district appointments would be the practical levers; a Republican Legislature would constrain a Democratic governor's statutory agenda.",
+    "sources": [
+      {
+        "title": "Data Centers — David Jolly for Governor",
+        "url": "https://davidjolly.com/issues/data-centers/",
+        "publisher": "David Jolly for Governor (campaign)",
+        "kind": "official",
+        "excerpt": "'Florida needs a moratorium. We would issue it on our first day in office.' Cites aquifer protection; describes 2026 law CS/CS/SB 484 requiring large-load customers to bear full cost of service."
+      },
+      {
+        "title": "Affordability — Byron Donalds for Governor",
+        "url": "https://www.byrondonalds.com/issues/affordability/",
+        "publisher": "Byron Donalds for Governor (campaign)",
+        "kind": "official",
+        "excerpt": "'Stop giant industrial data centers from passing their massive electric and water bills onto everyday households.'"
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. The SB 484 description comes from the Jolly campaign page and was not checked against the enacted bill text. DeSantis's own data-center actions were not separately sourced in this pass. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-NM",
+    "office": "Governor",
+    "state": "NM",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-02",
+    "incumbent": {
+      "name": "Michelle Lujan Grisham",
+      "party": "D",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Deb Haaland",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Haaland supports a moratorium on new large-scale data centers until the state adopts accountability measures.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Haaland Backs Data Center Moratorium, Outlines Accountability Plan to Stand Up for New Mexico's Water and Communities",
+              "url": "https://debhaaland.com/2026/09/haaland-backs-data-center-moratorium-outlines-accountability-plan-to-stand-up-for-new-mexicos-water-and-communities/",
+              "publisher": "Deb for New Mexico (campaign)",
+              "kind": "official",
+              "published": "2026-09-18",
+              "excerpt": "'I support a moratorium on data centers until the state adopts clear and transparent accountability measures.' Eight-point plan: closed-loop cooling, own renewable generation, clawbacks, Tribal consultation, no NDAs."
+            },
+            "date": "2026-09-18"
+          },
+          {
+            "topic": "water",
+            "summary": "Haaland would require closed-loop cooling and penalize water overuse.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Haaland Backs Data Center Moratorium, Outlines Accountability Plan to Stand Up for New Mexico's Water and Communities",
+              "url": "https://debhaaland.com/2026/09/haaland-backs-data-center-moratorium-outlines-accountability-plan-to-stand-up-for-new-mexicos-water-and-communities/",
+              "publisher": "Deb for New Mexico (campaign)",
+              "kind": "official",
+              "published": "2026-09-18",
+              "excerpt": "'I support a moratorium on data centers until the state adopts clear and transparent accountability measures.' Eight-point plan: closed-loop cooling, own renewable generation, clawbacks, Tribal consultation, no NDAs."
+            },
+            "date": "2026-09-18"
+          },
+          {
+            "topic": "incentive_clawback",
+            "summary": "Haaland would require data centers to repay state incentives if they do not keep their commitments, and to build their own renewable generation so costs do not shift to ratepayers.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Haaland Backs Data Center Moratorium, Outlines Accountability Plan to Stand Up for New Mexico's Water and Communities",
+              "url": "https://debhaaland.com/2026/09/haaland-backs-data-center-moratorium-outlines-accountability-plan-to-stand-up-for-new-mexicos-water-and-communities/",
+              "publisher": "Deb for New Mexico (campaign)",
+              "kind": "official",
+              "published": "2026-09-18",
+              "excerpt": "'I support a moratorium on data centers until the state adopts clear and transparent accountability measures.' Eight-point plan: closed-loop cooling, own renewable generation, clawbacks, Tribal consultation, no NDAs."
+            },
+            "date": "2026-09-18"
+          }
+        ],
+        "website": "https://debhaaland.com/"
+      },
+      {
+        "name": "Gregg Hull",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "water",
+            "summary": "Hull says data centers should use no potable water and pay for their own power infrastructure.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Haaland's Former Campaign Manager Now Lobbying for the Company Powering Project Jupiter",
+              "url": "https://gregghull.com/news/haalands-former-campaign-manager-now-lobbying-for-the-company-powering-project-jupiter/",
+              "publisher": "Gregg Hull for Governor (campaign)",
+              "kind": "official",
+              "published": "2026-09-29",
+              "excerpt": "Hull: 'no potable water, and data centers pay for their own power infrastructure so families don't'; opposes a statewide moratorium and favors local siting decisions."
+            },
+            "date": "2026-09-29"
+          },
+          {
+            "topic": "zoning",
+            "summary": "Hull opposes a statewide data-center moratorium and favors letting localities decide siting, with statewide water and ratepayer protections.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Haaland's Former Campaign Manager Now Lobbying for the Company Powering Project Jupiter",
+              "url": "https://gregghull.com/news/haalands-former-campaign-manager-now-lobbying-for-the-company-powering-project-jupiter/",
+              "publisher": "Gregg Hull for Governor (campaign)",
+              "kind": "official",
+              "published": "2026-09-29",
+              "excerpt": "Hull: 'no potable water, and data centers pay for their own power infrastructure so families don't'; opposes a statewide moratorium and favors local siting decisions."
+            },
+            "date": "2026-09-29"
+          }
+        ],
+        "website": "https://gregghull.com/"
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Likely D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "Since 2023 the governor appoints the three-member Public Regulation Commission from a nominating committee's list (Senate-confirmed), which approves PNM/El Paso Electric large-load arrangements. The governor also has a line-item veto, oversees the Environment Department (air permits) and the Office of the State Engineer (water rights), and influences Economic Development Department incentives.",
+    "implications": "Analysis: The nominees split on a statewide moratorium (Haaland for, Hull against), making this one of the clearer data-center contrasts among 2026 governor races. Under either governor, the PRC appointment and State Engineer water decisions would be decisive for large projects such as Project Jupiter in Doña Ana County.",
+    "sources": [
+      {
+        "title": "Haaland Backs Data Center Moratorium, Outlines Accountability Plan to Stand Up for New Mexico's Water and Communities",
+        "url": "https://debhaaland.com/2026/09/haaland-backs-data-center-moratorium-outlines-accountability-plan-to-stand-up-for-new-mexicos-water-and-communities/",
+        "publisher": "Deb for New Mexico (campaign)",
+        "kind": "official",
+        "published": "2026-09-18",
+        "excerpt": "'I support a moratorium on data centers until the state adopts clear and transparent accountability measures.' Eight-point plan: closed-loop cooling, own renewable generation, clawbacks, Tribal consultation, no NDAs."
+      },
+      {
+        "title": "Haaland's Former Campaign Manager Now Lobbying for the Company Powering Project Jupiter",
+        "url": "https://gregghull.com/news/haalands-former-campaign-manager-now-lobbying-for-the-company-powering-project-jupiter/",
+        "publisher": "Gregg Hull for Governor (campaign)",
+        "kind": "official",
+        "published": "2026-09-29",
+        "excerpt": "Hull: 'no potable water, and data centers pay for their own power infrastructure so families don't'; opposes a statewide moratorium and favors local siting decisions."
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Neither campaign page directly addresses Project Jupiter's approval. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-AL",
+    "office": "Governor",
+    "state": "AL",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-19",
+    "incumbent": {
+      "name": "Kay Ivey",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Tommy Tuberville",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Doug Jones",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Jones would declare a one-year moratorium on data centers and oppose tax breaks and secret deals for data-center companies.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Priorities — Doug Jones for Alabama",
+              "url": "https://dougjones.com/priorities",
+              "publisher": "Doug for Alabama (campaign)",
+              "kind": "official",
+              "excerpt": "Would 'declare a one year moratorium on data centers until we ensure every community is informed and protected'; no tax breaks for data-center companies; no secret deals."
+            }
+          },
+          {
+            "topic": "affordability",
+            "summary": "Jones pledges to 'protect accountability at the Public Service Commission' and push for public representation in PSC decisions.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "Priorities — Doug Jones for Alabama",
+              "url": "https://dougjones.com/priorities",
+              "publisher": "Doug for Alabama (campaign)",
+              "kind": "official",
+              "excerpt": "Would 'declare a one year moratorium on data centers until we ensure every community is informed and protected'; no tax breaks for data-center companies; no secret deals."
+            }
+          }
+        ],
+        "website": "https://dougjones.com/"
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "Alabama's Public Service Commission is elected, so the governor does not set Alabama Power's rates or data-center contracts. The governor's levers are economic-development incentive deals through the Department of Commerce, vetoes (which a simple legislative majority can override), and line-item vetoes on appropriations.",
+    "implications": "Analysis: With an elected PSC and a Republican Legislature able to override vetoes by simple majority, a Jones administration's ability to impose a moratorium would be limited to executive incentive and agency decisions. A Tuberville administration would likely continue current recruitment policy; his data-center views were not documented in this pass.",
+    "sources": [
+      {
+        "title": "Priorities — Doug Jones for Alabama",
+        "url": "https://dougjones.com/priorities",
+        "publisher": "Doug for Alabama (campaign)",
+        "kind": "official",
+        "excerpt": "Would 'declare a one year moratorium on data centers until we ensure every community is informed and protected'; no tax breaks for data-center companies; no secret deals."
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No Tuberville gubernatorial campaign site or data-center statement could be verified. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-OK",
+    "office": "Governor",
+    "state": "OK",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-16",
+    "runoffDate": "2026-08-25",
+    "incumbent": {
+      "name": "Kevin Stitt",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Mike Mazzei",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Cyndi Munson",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Munson would issue a moratorium on construction of new data-center projects to set guidelines.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Priorities — Cyndi Munson for Oklahoma",
+              "url": "https://www.cyndimunson.com/Priorities",
+              "publisher": "Cyndi Munson for Oklahoma 2026 (campaign)",
+              "kind": "official",
+              "excerpt": "Would 'issue a moratorium on construction of new data center projects to set guidelines'; supports an 'all of the above approach' to energy."
+            }
+          },
+          {
+            "topic": "energy",
+            "summary": "Munson supports an 'all of the above' energy approach including oil, natural gas and renewables.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "Priorities — Cyndi Munson for Oklahoma",
+              "url": "https://www.cyndimunson.com/Priorities",
+              "publisher": "Cyndi Munson for Oklahoma 2026 (campaign)",
+              "kind": "official",
+              "excerpt": "Would 'issue a moratorium on construction of new data center projects to set guidelines'; supports an 'all of the above approach' to energy."
+            }
+          },
+          {
+            "topic": "water",
+            "summary": "Munson says she will stand up to corporations that 'waste our water.'",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "Priorities — Cyndi Munson for Oklahoma",
+              "url": "https://www.cyndimunson.com/Priorities",
+              "publisher": "Cyndi Munson for Oklahoma 2026 (campaign)",
+              "kind": "official",
+              "excerpt": "Would 'issue a moratorium on construction of new data center projects to set guidelines'; supports an 'all of the above approach' to energy."
+            }
+          }
+        ],
+        "website": "https://www.cyndimunson.com/"
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Likely R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The Oklahoma Corporation Commission is elected, so the governor does not control OG&E or PSO rates or large-load tariffs. The governor's levers are vetoes (including line-item), the Department of Commerce's incentive programs, and appointments to the Water Resources Board.",
+    "implications": "Analysis: Oklahoma's utility regulation is insulated from the governor by the elected OCC, so a change in governor would matter mostly through incentive policy and vetoes. A Munson-proposed moratorium would face a Republican supermajority able to override vetoes and would have uncertain legal footing as an executive action.",
+    "sources": [
+      {
+        "title": "Priorities — Cyndi Munson for Oklahoma",
+        "url": "https://www.cyndimunson.com/Priorities",
+        "publisher": "Cyndi Munson for Oklahoma 2026 (campaign)",
+        "kind": "official",
+        "excerpt": "Would 'issue a moratorium on construction of new data center projects to set guidelines'; supports an 'all of the above approach' to energy."
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Mazzei won the Republican nomination in the August 25 runoff (per secondary compilation); no data-center statement or campaign site was verified for him. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-CT",
+    "office": "Governor",
+    "state": "CT",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-11",
+    "incumbent": {
+      "name": "Ned Lamont",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Ned Lamont",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Ryan Fazio",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "property_tax",
+            "summary": "Fazio pledges to end Connecticut's data-center tax incentives, which he describes as allowing data centers to pay no property and sales taxes for up to 30 years.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "I'll End Lamont's Handouts for Data Centers",
+              "url": "https://ryanfazio.com/fazio-data-center-tax-incentives-ad/",
+              "publisher": "Fazio for Connecticut (campaign)",
+              "kind": "official",
+              "published": "2026-10-01",
+              "excerpt": "Fazio pledges to 'end Lamont's handouts for data centers'; says data centers 'can pay no property and sales taxes for up to 30 years.'"
+            },
+            "date": "2026-10-01"
+          },
+          {
+            "topic": "affordability",
+            "summary": "Fazio has made cutting electric rates, including the public benefits charge, a central campaign plank.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "Ryan's Plan to Cut Your Electricity Bills",
+              "url": "https://ryanfazio.com/reduce-electricity-bills-20/",
+              "publisher": "Fazio for Connecticut (campaign)",
+              "kind": "official"
+            }
+          }
+        ],
+        "website": "https://ryanfazio.com/"
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor nominates PURA commissioners (legislative confirmation), which regulates Eversource and United Illuminating rates, and directs DEEP's energy procurement and the Department of Economic and Community Development. The governor can veto bills and line-item veto appropriations.",
+    "implications": "Analysis: Fazio is targeting the data-center tax-incentive framework enacted under Lamont, so a Fazio win would raise the prospect of repeal, though the Democratic Legislature would need to agree. Lamont's re-election would likely keep the incentive framework; PURA appointments under either governor would shape how any large-load costs are allocated.",
+    "sources": [
+      {
+        "title": "I'll End Lamont's Handouts for Data Centers",
+        "url": "https://ryanfazio.com/fazio-data-center-tax-incentives-ad/",
+        "publisher": "Fazio for Connecticut (campaign)",
+        "kind": "official",
+        "published": "2026-10-01",
+        "excerpt": "Fazio pledges to 'end Lamont's handouts for data centers'; says data centers 'can pay no property and sales taxes for up to 30 years.'"
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. Lamont's own data-center record (the incentive law Fazio refers to) was not sourced directly in this pass; Fazio is listed as the Republican and Independent Party nominee. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-CA",
+    "office": "Governor",
+    "state": "CA",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-02",
+    "incumbent": {
+      "name": "Gavin Newsom",
+      "party": "D",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Xavier Becerra",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "affordability",
+            "summary": "Becerra calls for stronger public oversight of utilities and lower household energy costs within the clean-energy transition.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "Energy & Utilities — Xavier Becerra for Governor",
+              "url": "https://www.xavierbecerra2026.com/priorities/energy-utilities/",
+              "publisher": "Becerra 2026 (campaign)",
+              "kind": "official",
+              "excerpt": "'climate action only succeeds if it is affordable, reliable, and fair'; calls for stronger public oversight and utility transparency."
+            }
+          },
+          {
+            "topic": "affordability",
+            "summary": "Becerra proposed a free 'Power Hour' to cut utility bills for working Californians.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "Becerra Announces First-in-the-Nation Free \"Power Hour\" to Cut Utility Bills for Working Californians",
+              "url": "https://www.xavierbecerra2026.com/2026/08/11/becerra-announces-first-in-the-nation-free-power-hour-to-cut-utility-bills-for-working-californians/",
+              "publisher": "Becerra 2026 (campaign)",
+              "kind": "official",
+              "published": "2026-08-11"
+            },
+            "date": "2026-08-11"
+          }
+        ],
+        "website": "https://www.xavierbecerra2026.com/"
+      },
+      {
+        "name": "Steve Hilton",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints all five CPUC commissioners (Senate-confirmed), which set large-load tariffs for PG&E, SCE and SDG&E, and appoints the Energy Commission and the CAISO board. The governor has a line-item veto and signs or vetoes data-center bills on cost allocation and disclosure.",
+    "implications": "Analysis: CPUC appointments and bill signatures are the main paths for the next governor to shape data-center cost allocation in California. Becerra's documented platform focuses on utility affordability and oversight rather than data centers specifically; a Hilton win would face a Democratic supermajority Legislature, limiting statutory change but allowing different CPUC appointments.",
+    "sources": [
+      {
+        "title": "Energy & Utilities — Xavier Becerra for Governor",
+        "url": "https://www.xavierbecerra2026.com/priorities/energy-utilities/",
+        "publisher": "Becerra 2026 (campaign)",
+        "kind": "official",
+        "excerpt": "'climate action only succeeds if it is affordable, reliable, and fair'; calls for stronger public oversight and utility transparency."
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. California uses a top-two primary. Hilton's campaign site and data-center positions were not verified; secondary sources say Eric Swalwell and Betty Yee withdrew but remain on the ballot. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-AK",
+    "office": "Governor",
+    "state": "AK",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-18",
+    "incumbent": {
+      "name": "Mike Dunleavy",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Jonathan Kreiss-Tomkins",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Dave Bronson",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Treg Taylor",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Bernadette Wilson",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Toss-up",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Toss-up",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Lean D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints the five Regulatory Commission of Alaska members (legislative confirmation), which regulates Railbelt utilities, and appoints boards of state development entities such as AIDEA. The governor has a line-item veto that can reduce appropriations, a frequently used lever in Alaska.",
+    "implications": "Analysis: Data-center interest in Alaska is tied to natural-gas supply and Railbelt grid constraints, so the next governor's gas-development and RCA appointment choices matter most. Because three Republicans and one Democrat appear to have advanced under top-four/ranked-choice rules, the outcome may hinge on ranked-choice transfers; candidate positions on data centers were not documented in this pass.",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Alaska uses a nonpartisan top-four primary and a ranked-choice general; the four advancing candidates listed here come from a secondary compilation and could not be confirmed against the Division of Elections site (certificate error). Treg Taylor's certification was reportedly disputed and then reversed (Aug. 31 / Sept. 4). Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-AR",
+    "office": "Governor",
+    "state": "AR",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-03-03",
+    "incumbent": {
+      "name": "Sarah Huckabee Sanders",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Sarah Huckabee Sanders",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Fredrick Love",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints the three Arkansas Public Service Commission members, who approve Entergy Arkansas and other utilities' large-load contracts, and controls the Arkansas Economic Development Commission's incentive deals. Vetoes can be overridden by a simple legislative majority.",
+    "implications": "Analysis: In a solidly Republican state with a weak veto, the governor's data-center influence runs mainly through PSC appointments and economic-development deals. Re-election of Sanders would likely continue current recruitment policy; Love's positions were not documented in this pass.",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-CO",
+    "office": "Governor",
+    "state": "CO",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-30",
+    "incumbent": {
+      "name": "Jared Polis",
+      "party": "D",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Phil Weiser",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Victor Marx",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Greg Lopez",
+        "party": "I",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints the three-member Public Utilities Commission (Senate-confirmed), which sets Xcel Energy's large-load tariffs and approves resource plans. The governor also directs the Colorado Energy Office and the Office of Economic Development, signs or vetoes data-center incentive legislation, and holds a line-item veto on appropriations.",
+    "implications": "Analysis: Data-center incentive bills have been debated in Colorado, so the governor's signature or veto and PUC appointments would decide how growth is balanced against clean-energy targets. A Democratic successor would face a Democratic Legislature; a Republican win would bring divided government and likely more vetoes on climate-related constraints.",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Greg Lopez left the Republican Party in January 2026 and is running as an unaffiliated candidate (per secondary compilation). Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-HI",
+    "office": "Governor",
+    "state": "HI",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-08",
+    "incumbent": {
+      "name": "Josh Green",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Josh Green",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Gary Cordery",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints the three-member Public Utilities Commission (Senate-confirmed), which regulates Hawaiian Electric, and directs the state energy office and DBEDT. The governor has a line-item veto on appropriations.",
+    "implications": "Analysis: Hawaii's isolated island grids and 100% renewable mandate make large new loads hard to serve, so PUC and energy-office decisions would govern any data-center proposals. The race is rated safely Democratic, so major policy change is unlikely.",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-ID",
+    "office": "Governor",
+    "state": "ID",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-19",
+    "incumbent": {
+      "name": "Brad Little",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Brad Little",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Terri Pickens",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints the three Idaho Public Utilities Commission members (Senate-confirmed), which approve Idaho Power's large-load contracts and tariffs, and directs the Department of Commerce and Department of Water Resources. The governor has a line-item veto on appropriations.",
+    "implications": "Analysis: Idaho Power's large-load growth and water-rights administration are the main channels for data-center policy; a second Little term would likely continue current practice. The race is rated safely Republican.",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-IL",
+    "office": "Governor",
+    "state": "IL",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-03-17",
+    "incumbent": {
+      "name": "JB Pritzker",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "JB Pritzker",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [],
+        "website": "https://www.jbpritzker.com/"
+      },
+      {
+        "name": "Darren Bailey",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints the five Illinois Commerce Commission members (Senate-confirmed), which oversee ComEd and Ameren large-load tariffs, and the Department of Commerce and Economic Opportunity administers the state's data-center investment tax incentive. The governor has amendatory and line-item veto powers.",
+    "implications": "Analysis: Pritzker's re-election would likely continue the existing data-center incentive while ICC appointments shape cost allocation in PJM and MISO territory. A Bailey win would face a Democratic supermajority, limiting statutory change; the main difference would be ICC appointments and veto use.",
+    "sources": [
+      {
+        "title": "JB Pritzker for Governor",
+        "url": "https://www.jbpritzker.com/",
+        "publisher": "JB for Governor (campaign)",
+        "kind": "official"
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-ME",
+    "office": "Governor",
+    "state": "ME",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-09",
+    "incumbent": {
+      "name": "Janet Mills",
+      "party": "D",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Hannah Pingree",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Robert B. Charles",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Rick Bennett",
+        "party": "I",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Likely D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints the three-member Public Utilities Commission (legislative review and Senate confirmation) and directs the Governor's Energy Office, which shapes procurement in ISO-NE. The governor can veto legislation, including data-center bills.",
+    "implications": "Analysis: Maine's high electricity costs make large-load cost allocation central; PUC appointments and the energy office would be the next governor's main levers. With an independent (Bennett) and a three-way field, outcome-driven policy shifts are uncertain.",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-MD",
+    "office": "Governor",
+    "state": "MD",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-23",
+    "incumbent": {
+      "name": "Wes Moore",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Wes Moore",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "affordability",
+            "summary": "Moore's campaign says he is lowering energy costs for families while investing in clean energy; the accomplishments page does not mention data centers.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "Accomplishments — Wes Moore for Maryland",
+              "url": "https://wesmoore.com/accomplishments/",
+              "publisher": "Wes Moore for Maryland (campaign)",
+              "kind": "official",
+              "excerpt": "'Governor Moore is lowering energy costs for Maryland families while investing in a cleaner, more reliable energy future.'"
+            }
+          }
+        ],
+        "website": "https://wesmoore.com/"
+      },
+      {
+        "name": "Dan Cox",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints Public Service Commission members (Senate-confirmed), which regulate BGE, Pepco and other utilities' large-load tariffs in PJM, and controls the Department of Commerce's incentive programs. Maryland's governor has unusually strong budget powers.",
+    "implications": "Analysis: PSC appointments and positions in PJM debates are the governor's main data-center levers in Maryland. The race is rated safely Democratic, so continuity under Moore is the likely outcome.",
+    "sources": [
+      {
+        "title": "Accomplishments — Wes Moore for Maryland",
+        "url": "https://wesmoore.com/accomplishments/",
+        "publisher": "Wes Moore for Maryland (campaign)",
+        "kind": "official",
+        "excerpt": "'Governor Moore is lowering energy costs for Maryland families while investing in a cleaner, more reliable energy future.'"
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-MA",
+    "office": "Governor",
+    "state": "MA",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-09-01",
+    "incumbent": {
+      "name": "Maura Healey",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Maura Healey",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Mike Minogue",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints the Department of Public Utilities commissioners, who approve Eversource and National Grid rates and tariffs, and directs the Executive Office of Energy and Environmental Affairs and the Energy Facilities Siting Board. The governor has a line-item veto on appropriations.",
+    "implications": "Analysis: Massachusetts has seen limited hyperscale development, so the governor's influence would run through DPU tariff design and energy-affordability legislation. The race is rated safely Democratic.",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-NE",
+    "office": "Governor",
+    "state": "NE",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-12",
+    "incumbent": {
+      "name": "Jim Pillen",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Jim Pillen",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Lynne Walz",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Brett Lindstrom",
+        "party": "Other",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Likely R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "Nebraska is served entirely by public power districts, so there is no investor-owned utility commission setting data-center rates; the elected Public Service Commission does not regulate electric rates. The governor appoints the Nebraska Power Review Board, which approves new generation and transmission, and has a line-item veto over appropriations in the unicameral Legislature.",
+    "implications": "Analysis: Data-center deals in Nebraska are negotiated mainly with public power districts (e.g., OPPD) whose boards are locally elected, so the governor's influence is indirect. The race is rated safely Republican; Lindstrom is listed as an 'America First' party nominee per secondary compilation.",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-NH",
+    "office": "Governor",
+    "state": "NH",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-09-08",
+    "incumbent": {
+      "name": "Kelly Ayotte",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Kelly Ayotte",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Cinde Warmington",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Likely R",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Likely R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor nominates Public Utilities Commission members, subject to Executive Council approval, and directs the Department of Energy. New Hampshire governors serve two-year terms and have no line-item veto.",
+    "implications": "Analysis: Energy affordability dominates New Hampshire's debate; the PUC and Executive Council composition determine how large-load costs would be handled. The race is rated Republican-leaning to safe.",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-OR",
+    "office": "Governor",
+    "state": "OR",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-19",
+    "incumbent": {
+      "name": "Tina Kotek",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Tina Kotek",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Christine Drazan",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Lean D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Lean D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Lean D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints the three-member Public Utility Commission (Senate-confirmed), which implements Oregon's 2025 large-load law (the POWER Act) for PGE and Pacific Power, and directs the Department of Energy and Business Oregon. The governor has a line-item veto on appropriations.",
+    "implications": "Analysis: Oregon is a major data-center market (Hillsboro, The Dalles), so PUC implementation of large-load cost allocation is the key lever. A Drazan win would bring divided government with a Democratic Legislature, likely shifting PUC appointments and energy-office priorities rather than statute.",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "The POWER Act reference is from background knowledge and was not re-sourced in this pass. Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-RI",
+    "office": "Governor",
+    "state": "RI",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-09-09",
+    "incumbent": {
+      "name": "Dan McKee",
+      "party": "D",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Helena Foulkes",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Aaron Guckian",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Ken Block",
+        "party": "I",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid D",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints Public Utilities Commission members (Senate-confirmed) and the Division of Public Utilities and Carriers administrator, and directs the Office of Energy Resources. Rhode Island's governor has no line-item veto.",
+    "implications": "Analysis: With limited data-center development, the next governor's influence would run mainly through energy-affordability policy and PUC appointments. Incumbent McKee lost renomination to Foulkes (per secondary compilation).",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-SC",
+    "office": "Governor",
+    "state": "SC",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-09",
+    "runoffDate": "2026-06-23",
+    "incumbent": {
+      "name": "Henry McMaster",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Alan Wilson",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Jermaine Johnson",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "South Carolina's Public Service Commission is elected by the Legislature, not appointed by the governor, limiting gubernatorial control over Duke Energy and Dominion rates. The governor appoints the Santee Cooper board, controls the Department of Commerce's incentive deals, and holds a line-item veto.",
+    "implications": "Analysis: Data-center incentive and cost-allocation fights in South Carolina run largely through the Legislature and the legislatively elected PSC, so a change in governor matters mainly through Santee Cooper appointments and incentive negotiations. The race is rated safely Republican.",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Wilson won the Republican nomination in the June 23 runoff (per secondary compilation). Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-SD",
+    "office": "Governor",
+    "state": "SD",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-02",
+    "runoffDate": "2026-07-28",
+    "incumbent": {
+      "name": "Larry Rhoden",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Larry Rhoden",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Dan Ahlers",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "South Dakota's three-member Public Utilities Commission is elected, so the governor does not set utility rates or large-load tariffs. The governor's levers are the Governor's Office of Economic Development, vetoes (including line-item on appropriations), and agency control over water permitting via the Department of Agriculture and Natural Resources.",
+    "implications": "Analysis: With an elected PUC and a Republican supermajority, a change in governor would have limited effect on data-center policy beyond incentive negotiations. Rhoden became governor in January 2025 when Kristi Noem resigned and is seeking a full term.",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Rhoden won a July 28 Republican runoff (per secondary compilation). Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-TN",
+    "office": "Governor",
+    "state": "TN",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-06",
+    "incumbent": {
+      "name": "Bill Lee",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Marsha Blackburn",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [],
+        "website": "https://marshablackburn.com/"
+      },
+      {
+        "name": "Jerri Green",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "Most of Tennessee's electricity is provided by the federally owned TVA, which sets wholesale rates outside state control, so the governor's power over data-center electricity is limited. The governor controls the Department of Economic and Community Development's incentive deals and Department of Environment and Conservation permitting (e.g., air permits for on-site generation) and has a line-item veto, though a simple majority can override vetoes.",
+    "implications": "Analysis: Because TVA governs power supply, the governor's main data-center levers are environmental permitting and incentives, which have been contentious in the Memphis area. The race is rated safely Republican.",
+    "sources": [
+      {
+        "title": "Marsha Blackburn for Governor",
+        "url": "https://marshablackburn.com/issues/",
+        "publisher": "Marsha for Governor (campaign)",
+        "kind": "official"
+      },
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-VT",
+    "office": "Governor",
+    "state": "VT",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-11",
+    "incumbent": {
+      "name": "Phil Scott",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Phil Scott",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Amanda Janoo",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Likely R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints Public Utility Commission members from a nominating board's list (Senate-confirmed) and directs the Department of Public Service. Vermont governors serve two-year terms and have no line-item veto.",
+    "implications": "Analysis: Vermont has little data-center development; the governor's influence over large loads would run through the PUC and Department of Public Service. The race is rated Republican-leaning to safe.",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  },
+  {
+    "id": "2026-gov-WY",
+    "office": "Governor",
+    "state": "WY",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-18",
+    "incumbent": {
+      "name": "Mark Gordon",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Eric Barlow",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Kenneth Casner",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://www.cookpolitical.com/ratings/governor-race-ratings"
+      },
+      {
+        "rater": "Inside Elections",
+        "rating": "Solid R",
+        "date": "2026-10-01",
+        "url": "https://insideelections.com/ratings/governor"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-governor/"
+      }
+    ],
+    "polls": [],
+    "powers": "The governor appoints the three-member Public Service Commission (Senate-confirmed), which approves large-load contracts for Black Hills Energy and Rocky Mountain Power, and appoints the Wyoming Business Council, which administers economic-development incentives. The governor has a line-item veto on appropriations.",
+    "implications": "Analysis: Wyoming has courted data centers (notably around Cheyenne) using its gas and coal resources, and a Republican successor would likely continue that recruitment. The race is rated safely Republican, so PSC appointments rather than partisan change would drive any shift.",
+    "sources": [
+      {
+        "title": "2026 State Primary Election Dates",
+        "url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "excerpt": "Table of 2026 state primary and primary-runoff dates."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Nominees were identified from a secondary compilation and the candidates' own campaign sites; not checked against the Secretary of State's certified ballot list. No documented data-center, electricity-rate or energy positions could be verified for these nominees during this pass (web search quota exhausted mid-research); the absence of positions is a research gap, not evidence of no position. Ratings: the Cook, Inside Elections and Sabato pages returned HTTP 403 to automated access on 2026-10-11; ratings and as-of dates were transcribed from a secondary compilation of those raters and should be spot-checked on the rater sites."
+  }
+]

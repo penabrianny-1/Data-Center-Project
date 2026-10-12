@@ -1,0 +1,2962 @@
+[
+  {
+    "state": "AK",
+    "name": "Regulatory Commission of Alaska",
+    "url": "https://rca.alaska.gov/RCAWeb/",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "Five commissioners appointed by the governor and confirmed by the legislature in joint session (AS 42.04.020); six-year terms; holdovers serve until a successor is appointed; chair elected annually by the commission.",
+    "termYears": 6,
+    "commissioners": [],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with confirmation by the legislature in joint session; the governor's race is on the 2026 ballot (open seat), so the governor elected in Nov 2026 will fill RCA terms expiring or vacated after taking office in Dec 2026. Specific commissioner term-expiration dates were not verified.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "Alaska Statutes AS 42.04.010–42.04.050 (Regulatory Commission of Alaska)",
+        "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secStart=42.04.010&secEnd=42.04.050",
+        "publisher": "Alaska State Legislature",
+        "kind": "official",
+        "docId": "AS 42.04.020",
+        "excerpt": "The commission consists of five commissioners appointed by the governor and confirmed by the legislature in joint session... The term of office of each member is six years."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "The RCA website returned HTTP 403 to automated requests, so the current commissioner roster, chair, and term-end dates could not be verified and are omitted. No RCA large-load or data-center tariff proceeding was identified; data-center policy activity found was municipal (Anchorage) and legislative, not RCA tariffs. The governor's race is open in 2026 (Gov. Dunleavy is term-limited) based on general knowledge, not a cited source."
+  },
+  {
+    "state": "AL",
+    "name": "Alabama Public Service Commission",
+    "url": "https://psc.alabama.gov/",
+    "seats": 3,
+    "selection": "elected",
+    "selectionDetail": "Statewide partisan elections for President, Place 1 and Place 2 (4-year terms); governor fills vacancies by appointment. HB 475 (signed April 2026) expands the commission to seven members: Gov. Ivey appointed four additional commissioners (two from majority-party and two from minority-party legislative nominations) effective Jan. 18, 2027, and future seats move to congressional-district elections.",
+    "termYears": 4,
+    "commissioners": [
+      {
+        "name": "Cynthia Lee Almond",
+        "role": "President",
+        "party": "R"
+      },
+      {
+        "name": "Jeremy H. Oden",
+        "role": "Commissioner, Place 1",
+        "party": "R"
+      },
+      {
+        "name": "Chris V. \"Chip\" Beeker III",
+        "role": "Commissioner, Place 2",
+        "party": "R"
+      }
+    ],
+    "seatsUp2026": 2,
+    "electionMechanism": "Place 1 and Place 2 are directly elected statewide on 2026-11-03; both incumbents lost GOP primaries. Place 1: Matt Gentry (R) vs. James Gordon (D). Place 2: Jim Zeigler (R) vs. Sheila McNeil (D). President seat (Almond, appointed June 2025) is not on the 2026 ballot. Separately, four governor-appointed members created by HB 475 join on Jan. 18, 2027, so the 2026 winners will be 2 of 7 commissioners.",
+    "largeLoadTariff": "pending",
+    "sources": [
+      {
+        "title": "APSC – Alabama Public Service Commission (commissioner listing)",
+        "url": "https://psc.alabama.gov/",
+        "publisher": "Alabama Public Service Commission",
+        "kind": "official",
+        "excerpt": "Lists Cynthia Lee Almond (President), Jeremy H. Oden (Place 1), and Chris V. Beeker III (Place 2)."
+      },
+      {
+        "title": "Governor Ivey Taps Cynthia Lee Almond to Serve as Public Service Commission President",
+        "url": "https://governor.alabama.gov/newsroom/2025/06/governor-ivey-taps-cynthia-lee-almond-to-serve-as-public-service-commission-president/",
+        "publisher": "Office of the Governor of Alabama",
+        "kind": "official",
+        "published": "2025-06-06"
+      },
+      {
+        "title": "One GOP incumbent loses, another is sent to runoff in PSC primary",
+        "url": "https://aldailynews.com/republican-incumbents-primary-public-service-commission/",
+        "publisher": "Alabama Daily News",
+        "kind": "journalism",
+        "published": "2026-05-20",
+        "excerpt": "Place 1: Matt Gentry 74.9% defeats incumbent Jeremy Oden; faces Democrat James Gordon in November. Place 2: Zeigler 44.8% forces incumbent Beeker into June 16 runoff; winner faces Democrat Sheila McNeil."
+      },
+      {
+        "title": "Former State Auditor Jim Zeigler wins GOP nomination for Public Service Commission",
+        "url": "https://alabamareflector.com/2026/06/17/former-state-auditor-jim-zeigler-wins-gop-nomination-for-public-service-commission/",
+        "publisher": "Alabama Reflector",
+        "kind": "journalism",
+        "published": "2026-06-17"
+      },
+      {
+        "title": "Gov. Ivey appoints four new members to Alabama Public Service Commission under new law",
+        "url": "https://abc3340.com/news/local/gov-ivey-appoints-four-new-members-to-alabama-public-service-commission-under-new-law",
+        "publisher": "ABC 33/40",
+        "kind": "journalism",
+        "published": "2026-06-17",
+        "excerpt": "Ivey appointed Ron Burgess, Fred Johnson, Demarcus Joiner and Dr. Quinton T. Ross Jr., effective Jan. 18, 2027; two from majority and two from minority legislative nominations."
+      },
+      {
+        "title": "In the Wake of Georgia's Blue Wave, Alabama Changed Its Utility Regulation Elections. This Black Democrat Is Suing.",
+        "url": "https://insideclimatenews.org/news/03062026/alabama-public-service-commission-restructuring-lawsuit/",
+        "publisher": "Inside Climate News",
+        "kind": "journalism",
+        "published": "2026-06-03",
+        "excerpt": "Law expands PSC from three to seven seats, one per congressional district; McNeil's federal suit seeks to preserve the statewide structure through the November 2026 election."
+      },
+      {
+        "title": "PSC approves new procedure for evaluating data center contracts",
+        "url": "https://aldailynews.com/data-center-contracts-psc-public-service-commission-alabama-power/",
+        "publisher": "Alabama Daily News",
+        "kind": "journalism",
+        "published": "2026-10-07",
+        "excerpt": "PSC unanimously adopted a procedure for Alabama Power contracts with data centers of 150 MW or more; contracts auto-approved if no vote within 90 days; Alabama Power has 10 days to submit a compliant tariff."
+      },
+      {
+        "title": "Docket 33709: Large Load Data Center Contracts",
+        "url": "https://energyalabama.org/knowledge-center/docket-33709-large-load-data-center-contracts/",
+        "publisher": "Energy Alabama",
+        "kind": "research",
+        "docId": "Docket 33709"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "HB 475's implementation is subject to Sheila McNeil's federal lawsuit (M.D. Ala.); its outcome was not verified as of 2026-10-11. Sources differ on HB 475 signing date (April 2 vs. April 3, 2026). Commissioners' term-end dates not verified. Large-load status: on Oct. 6, 2026 the PSC adopted a contract-review procedure for 150+ MW data centers under Act 610/SB 270 and ordered a compliance tariff filing; it declined to adopt a published large-load tariff, so 'pending' reflects the compliance tariff. Earlier (Jan. 2025) the PSC reportedly let Alabama Power require special contracts for customers above 30 MW under Rate BTAL (not independently verified here). Party labels based on press reporting of GOP primaries."
+  },
+  {
+    "state": "AR",
+    "name": "Arkansas Public Service Commission",
+    "url": "https://apsc.arkansas.gov/",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Three commissioners appointed by the governor (staggered terms); the governor designates the chair.",
+    "commissioners": [
+      {
+        "name": "Doyle Webb",
+        "role": "Chairman"
+      },
+      {
+        "name": "Justin Tate",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Katie Anderson",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints; the governor's race is on the 2026 ballot, so the governor elected in Nov 2026 (term beginning Jan 2027) fills subsequent expirations/vacancies. Individual term-expiration dates were not verified, so it is unknown whether any seat turns over in 2027.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "Commission Info",
+        "url": "https://apsc.arkansas.gov/commission-info/",
+        "publisher": "Arkansas Public Service Commission",
+        "kind": "official",
+        "excerpt": "Doyle Webb, Chairman, appointed by Gov. Sarah Huckabee Sanders in January 2023; Justin Tate appointed by Gov. Asa Hutchinson in January 2019; Katie Anderson appointed by Gov. Hutchinson in 2022."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "APSC page text is internally inconsistent about the chair (Anderson's bio refers to her appointment as chair in 2022; Webb is listed as Chairman). Term lengths/expiration dates and Senate confirmation requirement not verified. No APSC large-load/data-center tariff proceeding was identified in the sources reviewed; this is an absence of evidence, not confirmation that none exists. Party affiliations not officially listed."
+  },
+  {
+    "state": "AZ",
+    "name": "Arizona Corporation Commission",
+    "url": "https://azcc.gov/",
+    "seats": 5,
+    "selection": "elected",
+    "selectionDetail": "Five commissioners elected statewide in partisan elections to staggered four-year terms (two or three seats each even-year cycle).",
+    "termYears": 4,
+    "commissioners": [
+      {
+        "name": "Nick Myers",
+        "role": "Chairman",
+        "party": "R"
+      },
+      {
+        "name": "Rachel Walden",
+        "role": "Vice Chair",
+        "party": "R"
+      },
+      {
+        "name": "Lea Márquez Peterson",
+        "party": "R"
+      },
+      {
+        "name": "Kevin Thompson",
+        "party": "R"
+      },
+      {
+        "name": "René Lopez",
+        "party": "R"
+      }
+    ],
+    "seatsUp2026": 2,
+    "electionMechanism": "Seats directly elected statewide; 2 of 5 on the 2026-11-03 ballot (seats held by Myers and Thompson, elected 2022). Chairman Myers lost the July 21 GOP primary to state Rep. Ralph Heap; general election field: Kevin Thompson (R), Ralph Heap (R), Jonathon Hill (D), Clara Pratte (D). Democrats would need both seats to win 2 of 5; the 3 members elected in 2024 continue regardless.",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Arizona Corporation Commission – Commissioners",
+        "url": "https://azcc.gov/",
+        "publisher": "Arizona Corporation Commission",
+        "kind": "official",
+        "excerpt": "Lists Nick Myers (Chair), Rachel Walden (Vice Chair), Lea Márquez Peterson, Kevin Thompson, René Lopez."
+      },
+      {
+        "title": "Nick Myers biography",
+        "url": "https://azcc.gov/nick-myers/biography",
+        "publisher": "Arizona Corporation Commission",
+        "kind": "official",
+        "excerpt": "Elected to the Commission in 2022; first commissioner elected from Pinal County."
+      },
+      {
+        "title": "2 Arizona Corporation Commissioners ran for reelection. Only 1 made it out of GOP primary",
+        "url": "https://www.kjzz.org/politics/2026-07-23/2-arizona-corporation-commissioners-ran-for-reelection-only-1-made-it-out-of-gop-primary",
+        "publisher": "KJZZ",
+        "kind": "journalism",
+        "published": "2026-07-23"
+      },
+      {
+        "title": "2026 Arizona Corporation Commission race: The candidates",
+        "url": "https://www.kjzz.org/elections/2026-10-06/2026-arizona-corporation-commission-race-the-candidates-elex",
+        "publisher": "KJZZ",
+        "kind": "journalism",
+        "published": "2026-10-06",
+        "excerpt": "Democrats Clara Pratte and Jonathon Hill are trying to flip two seats on the all-Republican commission; Republicans are incumbent Kevin Thompson and state Rep. Ralph Heap."
+      },
+      {
+        "title": "ACC Approves Measure to Ensure Electric Cooperative Customers Don't Pay for Large-Load Growth",
+        "url": "http://azcc.gov/news/home/2026/08/13/acc-approves-measure-to-ensure-electric-cooperative-customers-don-t-pay-for-large-load-growth",
+        "publisher": "Arizona Corporation Commission",
+        "kind": "official",
+        "published": "2026-08-13",
+        "docId": "E-01773A-26-0123",
+        "excerpt": "Commission unanimously approved (Aug. 12, 2026) a standardized process for electric service agreements between AEPCO, distribution cooperatives and large-load customers such as data centers, with staff review of public interest, rate reasonableness and protection of other classes."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Primary results reported as unofficial at time of coverage. The approved cooperative framework is a standardized large-load service-agreement process rather than a published rate schedule. APS's pending rate case (E-01345A-25-0105) reportedly proposes changes to its extra-high-load-factor (XHLF) tariff; not independently verified here. Party labels: commission described as all-Republican by KJZZ."
+  },
+  {
+    "state": "CA",
+    "name": "California Public Utilities Commission",
+    "url": "https://www.cpuc.ca.gov/",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "The governor appoints five commissioners, confirmed by the state Senate, to six-year staggered terms; the governor designates the president.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "John Reynolds",
+        "role": "President"
+      },
+      {
+        "name": "Darcie L. Houck",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Karen Douglas",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Matthew Baker",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Christine Harada",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; the governor's race is on the 2026 ballot (Newsom term-limited), so the governor elected in Nov 2026 (taking office Jan 2027) appoints to CPUC terms expiring or vacated thereafter. Exact term-expiration dates were not verified on CPUC pages.",
+    "largeLoadTariff": "pending",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://www.cpuc.ca.gov/about-cpuc/commissioners",
+        "publisher": "California Public Utilities Commission",
+        "kind": "official",
+        "excerpt": "The Governor appoints the five Commissioners, who must be confirmed by the Senate, for six year staggered terms."
+      },
+      {
+        "title": "Commissioner Christine Harada",
+        "url": "https://www.cpuc.ca.gov/about-cpuc/commissioners/page-content/profile-list/commissioner-christine-harada",
+        "publisher": "California Public Utilities Commission",
+        "kind": "official",
+        "excerpt": "Appointed by Governor Gavin Newsom on February 18, 2026, effective March 9, 2026."
+      },
+      {
+        "title": "A.24-11-007 Proceeding Detail",
+        "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56::::RP,57,RIR:P5_PROCEEDING_SELECT:A2411007",
+        "publisher": "California Public Utilities Commission",
+        "kind": "official",
+        "docId": "A.24-11-007",
+        "excerpt": "Application of Pacific Gas and Electric Company (U39E) for Approval of Electric Rule No. 30 for Transmission-Level Retail Electric Service. Filed November 21, 2024. Current Status: ACTIVE."
+      },
+      {
+        "title": "Governor Newsom signs most comprehensive data center laws in the nation",
+        "url": "https://www.gov.ca.gov/2026/09/21/governor-newsom-signs-most-comprehensive-data-center-laws-in-the-nation-providing-communities-more-control-on-water-electricity-and-land-use/",
+        "publisher": "Office of Governor Gavin Newsom",
+        "kind": "official",
+        "published": "2026-09-21",
+        "excerpt": "Signed bills include SB 1168 (McNerney) 'Data centers: Rate structures' and SB 886, the California Technology Innovation and Ratepayer Protection Act."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "PG&E Rule 30 (transmission-level service for large loads) proceeding remains active; an industry compilation reports interim implementation was approved, not verified on CPUC pages here. Implementation of SB 1168 rate-structure requirements by the CPUC is prospective. Party affiliations and term-end dates not listed on CPUC pages."
+  },
+  {
+    "state": "CO",
+    "name": "Colorado Public Utilities Commission",
+    "url": "https://puc.colorado.gov/commissioners",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Three commissioners appointed by the governor for four-year terms and confirmed by the Colorado Senate.",
+    "termYears": 4,
+    "commissioners": [
+      {
+        "name": "Eric Blank",
+        "role": "Chairman"
+      },
+      {
+        "name": "Megan Gilman",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Tom Plant",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; governor's race on the 2026 ballot (Polis term-limited). Commissioner Tom Plant's term expires January 2027, around the gubernatorial transition (new governor inaugurated Jan. 2027), so either Polis or his successor fills it; Gilman's term runs to January 2028 and Blank's second term began Jan. 12, 2025.",
+    "largeLoadTariff": "pending",
+    "sources": [
+      {
+        "title": "Meet the Commissioners",
+        "url": "https://puc.colorado.gov/commissioners",
+        "publisher": "Colorado Public Utilities Commission",
+        "kind": "official",
+        "excerpt": "Three Commissioners, appointed by the Governor for four-year terms and confirmed by the Colorado Senate. Chairman Eric Blank (term effective Jan. 12, 2025); Megan Gilman (term expires January 2028); Tom Plant (term expires January 2027)."
+      },
+      {
+        "title": "Xcel Energy pursuing large load tariffs in 4 states amid data center growth",
+        "url": "https://www.utilitydive.com/news/xcel-energy-pursuing-large-load-tariffs-in-4-states-amid-data-center-growth/811518/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-02-06",
+        "excerpt": "Xcel Energy has proposed new large load tariffs in Minnesota, Wisconsin, Colorado and Texas."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Exact day of January 2027/2028 term expirations not stated, so termEnds omitted. Xcel's Colorado large-load tariff (reported as Proceeding 26AL-0137E, 50 MW+ threshold) status beyond 'proposed' not verified on the PUC e-filing system; Black Hills Energy reportedly received approval of a Large Power Service economic development tariff (not verified). Party affiliations not listed."
+  },
+  {
+    "state": "CT",
+    "name": "Public Utilities Regulatory Authority",
+    "url": "https://portal.ct.gov/pura",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "Commissioners nominated by the governor and confirmed by the General Assembly; PURA currently has five commissioners (two described as interim).",
+    "commissioners": [
+      {
+        "name": "Thomas Wiehl",
+        "role": "Chairman"
+      },
+      {
+        "name": "David Arconti",
+        "role": "Vice Chairman"
+      },
+      {
+        "name": "Janice Beecher",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Holly Cheeseman",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Everett Smith",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor nominates and the General Assembly confirms; governor's race on the 2026 ballot, so the governor elected in Nov 2026 nominates for future PURA vacancies/expirations and interim seats requiring legislative confirmation. Term-expiration dates were not verified.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "PURA Biographies",
+        "url": "https://portal.ct.gov/PURA/About/Commissioners/PURA-Biographies",
+        "publisher": "Connecticut Public Utilities Regulatory Authority",
+        "kind": "official",
+        "excerpt": "Chairman Thomas Wiehl, nominated by Gov. Ned Lamont to begin serving in October 2025; Vice Chairman David Arconti, nominated to begin serving August 2024, confirmed in the 2025 session; Commissioners Janice Beecher, Holly Cheeseman, Everett Smith."
+      },
+      {
+        "title": "About PURA",
+        "url": "https://portal.ct.gov/PURA/About/About-PURA",
+        "publisher": "Connecticut Public Utilities Regulatory Authority",
+        "kind": "official"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Statutory term length, party-balance rules, and term-end dates not verified (CGA statute page could not be fetched). Photo captions label Beecher and Cheeseman 'Interim Commissioner'. No PURA large-load/data-center tariff docket identified on PURA's news page; absence of evidence only. Data-center activity found in CT was municipal (e.g., Groton moratorium)."
+  },
+  {
+    "state": "DC",
+    "name": "District of Columbia Public Service Commission",
+    "url": "https://dcpsc.org/",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "A Chairperson and two Commissioners appointed by the Mayor to four-year terms, with D.C. Council confirmation.",
+    "termYears": 4,
+    "commissioners": [
+      {
+        "name": "Ted Trabue",
+        "role": "Interim Chairman"
+      },
+      {
+        "name": "Richard A. Beverly",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Mayor appoints with D.C. Council confirmation; the D.C. mayoral election is on the 2026-11-03 ballot, so the mayor taking office in Jan 2027 fills the current vacancy if still open, names a permanent chair, and fills later expirations. Council seats on the 2026 ballot affect confirmations.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://dcpsc.org/About-PSC/Staff/Commissioners.aspx",
+        "publisher": "Public Service Commission of the District of Columbia",
+        "kind": "official",
+        "excerpt": "The Commission is headed by a Chairperson and two Commissioners, all of whom are appointed to 4-year terms by the Mayor. Lists Richard A. Beverly, Commissioner; Ted Trabue, Interim Chairman; one seat vacant."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "One of three seats vacant as of 2026-10-11. Council confirmation requirement from D.C. Code § 34-801 (general knowledge; not fetched). Term-end dates not verified. No DC PSC large-load/data-center tariff proceeding identified on the PSC homepage (Pepco multiyear rate plan FC1176 is pending); absence of evidence only."
+  },
+  {
+    "state": "DE",
+    "name": "Delaware Public Service Commission",
+    "url": "https://depsc.delaware.gov/",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "Five commissioners appointed by the governor (with state Senate confirmation).",
+    "commissioners": [
+      {
+        "name": "Harold Gray",
+        "role": "Chair"
+      },
+      {
+        "name": "Regina A. Iorii",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Michael T. Richard",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Robert C. Wheatley",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Anthony J. DePrima",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Not directly affected by 2026 election: commissioners are gubernatorial appointees and Delaware's governor is not on the 2026 ballot (next gubernatorial election 2028). State Senate confirms appointments; Senate races on the 2026 ballot could indirectly affect confirmations.",
+    "largeLoadTariff": "pending",
+    "sources": [
+      {
+        "title": "The Commissioners",
+        "url": "https://depsc.delaware.gov/public-service-commission/delaware-psc-the-commissioners/",
+        "publisher": "Delaware Public Service Commission",
+        "kind": "official",
+        "excerpt": "Harold Gray serves as Chair... Since his appointment to the Commission in 2014. Also lists Regina A. Iorii, Michael T. Richard, Robert C. Wheatley, Dr. Anthony J. DePrima."
+      },
+      {
+        "title": "Joint Agency Comments in Delmarva's Large Load Docket",
+        "url": "https://depsc.delaware.gov/2026/04/09/joint-agency-comments-in-delmarvas-large-load-docket/",
+        "publisher": "Delaware Public Service Commission",
+        "kind": "official",
+        "published": "2026-04-09",
+        "docId": "Docket 25-0826",
+        "excerpt": "PSC Staff has joined DNREC and the Division of the Public Advocate to submit joint comments on Delmarva's proposed large load tariff, raising serious concerns about risks to Delaware customers."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "A separate DE PSC page still names Dallas Winslow as Chairman, conflicting with the commissioners page listing Harold Gray as Chair; the commissioners page was used. Senate confirmation requirement stated from general knowledge of Delaware law (26 Del. C. § 103), not verified on a fetched page. Term-end dates and party affiliations not listed. Delmarva's revised proposal reportedly would create a General Service – Large Load (GS-LL) class for 50 MW+ (not verified on DelaFile)."
+  },
+  {
+    "state": "FL",
+    "name": "Florida Public Service Commission",
+    "url": "https://www.floridapsc.com/",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "The governor appoints commissioners from nominees selected by the Public Service Commission Nominating Council; Florida Senate confirmation required; four-year terms; chairman elected by the commission.",
+    "termYears": 4,
+    "commissioners": [
+      {
+        "name": "Gabriella Passidomo Smith",
+        "role": "Chairman"
+      },
+      {
+        "name": "Gary F. Clark",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Mike La Rosa",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Ana Ortega",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Bobby Payne",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints from Nominating Council lists with Senate confirmation; governor's race on the 2026 ballot (DeSantis term-limited). Smith's and Clark's current terms began Jan. 2, 2023 (four years), so they end around January 2027; because nominations for January terms are typically made during the preceding year, the outgoing governor may fill them; the governor elected in Nov 2026 would fill vacancies arising after Jan. 2027 and the terms of La Rosa (from 2025) and Ortega/Payne (from 2026) at their expiry.",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Meet the Commissioners",
+        "url": "https://www.floridapsc.com/meet-the-commissioners",
+        "publisher": "Florida Public Service Commission",
+        "kind": "official",
+        "excerpt": "Ana Ortega and Bobby Payne appointed by Gov. DeSantis for four-year terms beginning January 2, 2026; Gabriella Passidomo Smith appointed for a term beginning January 2, 2023, Chairman January 2026–January 2028; Gary F. Clark reappointed for a term beginning January 2, 2023; Mike La Rosa reappointed for a term beginning January 2, 2025."
+      },
+      {
+        "title": "FPL Electric Tariff, Section 8 (Rate Schedules) – index listing LLCS-1 and LLCS-2",
+        "url": "https://www.fpl.com/content/dam/fplgp/us/en/rates/pdf/electric-tariff-section8.pdf",
+        "publisher": "Florida Power & Light Company (tariff on file with FPSC)",
+        "kind": "official",
+        "docId": "FPSC Docket 20250011",
+        "excerpt": "LLCS-1 Large-Load Contract Service-1 (Sheet 8.950); LLCS-2 Large-Load Contract Service-2 (Sheet 8.953); Effective: January 1, 2026."
+      },
+      {
+        "title": "Duke Energy Florida asks to punt on rate for large load customers",
+        "url": "https://www.utilitydive.com/news/duke-energy-florida-psc-large-load-rate/828951/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-08-27",
+        "excerpt": "Florida PSC held a hearing on Duke Energy Florida's proposed large-load tariff, the first IOU proposal under SB 484 (signed May 2026), which requires minimum tariff and service requirements for large-load customers."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Commissioner roster derived from the FPSC website's application bundle (single-page app); commissioner page URL is the site route. Exact term-end dates not stated, so omitted. Docket number for FPL's LLCS approval (20250011, FPL 2025 rate case) from an industry compilation; Duke Energy Florida's SB 484 large-load proposal remained undecided as of the Aug. 2026 report. Party affiliations not officially listed."
+  },
+  {
+    "state": "GA",
+    "name": "Georgia Public Service Commission",
+    "url": "https://psc.ga.gov/",
+    "seats": 5,
+    "selection": "elected",
+    "selectionDetail": "Five commissioners elected statewide in partisan elections (candidates must reside in their district) to staggered six-year terms; governor fills vacancies until the next election.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Jason Shaw",
+        "role": "Chairman (District 1)",
+        "party": "R",
+        "termEnds": "2028-12-31"
+      },
+      {
+        "name": "Lauren \"Bubba\" McDonald",
+        "role": "Vice Chairman (District 4)",
+        "party": "R",
+        "termEnds": "2028-12-31"
+      },
+      {
+        "name": "Alicia M. Johnson",
+        "role": "Commissioner (District 2)",
+        "party": "D",
+        "termEnds": "2030-12-31"
+      },
+      {
+        "name": "Peter Hubbard",
+        "role": "Commissioner (District 3)",
+        "party": "D",
+        "termEnds": "2026-12-31"
+      },
+      {
+        "name": "Stan Wise",
+        "role": "Commissioner (District 5)",
+        "party": "R",
+        "termEnds": "2026-12-31"
+      }
+    ],
+    "seatsUp2026": 2,
+    "electionMechanism": "Seats directly elected statewide; 2 of 5 on the 2026-11-03 ballot (District 3 and District 5), with a Dec. 1 runoff if no majority. District 3: Peter Hubbard (D, incumbent) vs. Fitz Johnson (R). District 5 (open; Pridemore left, Gov. Kemp appointed Stan Wise as placeholder through Dec. 31, 2026): Shelia Edwards (D), Josh Tolbert (R), Thomas Blooming (L). Commission is 3-2 Republican; Democrats win a 3-2 majority if they take both seats.",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://psc.ga.gov/about-the-psc/commissioners/",
+        "publisher": "Georgia Public Service Commission",
+        "kind": "official"
+      },
+      {
+        "title": "Commissioner Stan Wise",
+        "url": "https://psc.ga.gov/about-the-psc/commissioners/stan-wise/",
+        "publisher": "Georgia Public Service Commission",
+        "kind": "official",
+        "excerpt": "Appointed by Gov. Brian Kemp in 2026 to fill the seat vacated by Tricia Pridemore for the remainder of her term; service began September 5, 2026; term through December 31, 2026; Republican, District 5."
+      },
+      {
+        "title": "Commissioner Peter Hubbard",
+        "url": "https://psc.ga.gov/about-the-psc/commissioners/peter-hubbard/",
+        "publisher": "Georgia Public Service Commission",
+        "kind": "official",
+        "excerpt": "Elected 2025; took office January 1, 2026; term ends December 31, 2026; Democrat, District 3."
+      },
+      {
+        "title": "Commissioner Alicia M. Johnson",
+        "url": "https://psc.ga.gov/about-the-psc/commissioners/alicia-johnson/",
+        "publisher": "Georgia Public Service Commission",
+        "kind": "official"
+      },
+      {
+        "title": "Partisan control of Georgia Public Service Commission at stake in November election",
+        "url": "https://news.ballotpedia.org/2026/08/10/partisan-control-of-georgia-public-service-commission-at-stake-in-november-election/",
+        "publisher": "Ballotpedia News",
+        "kind": "aggregator",
+        "published": "2026-08-10"
+      },
+      {
+        "title": "PSC Approves Rule to Allow New Power Usage Terms for Data Centers",
+        "url": "https://psc.ga.gov/site/assets/files/8617/media_advisory_data_centers_rule_1-23-2025.pdf",
+        "publisher": "Georgia Public Service Commission",
+        "kind": "official",
+        "published": "2025-01-23",
+        "excerpt": "Any new customers using more than 100 megawatts can be billed using terms and conditions beyond those used for standard customers... allows longer contract lengths (from 5-year to 15-year) and minimum billing requirements."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "District 5 field per Ballotpedia News (Aug. 2026); primary runoff details not independently confirmed. Fitz Johnson faced a residency challenge that a judge rejected (reported by aggregators). The PSC also approved Georgia Power's Customer Identified Resource program for large loads (not separately cited)."
+  },
+  {
+    "state": "HI",
+    "name": "Hawaii Public Utilities Commission",
+    "url": "https://puc.hawaii.gov/",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Three commissioners appointed by the governor with state Senate confirmation to staggered six-year terms; governor designates the chair.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Jon S. Itomura",
+        "role": "Chair",
+        "termEnds": "2032-06-30"
+      },
+      {
+        "name": "Naomi U. Kuwaye",
+        "role": "Commissioner",
+        "termEnds": "2028-06-30"
+      },
+      {
+        "name": "Colin A. Yost",
+        "role": "Commissioner",
+        "termEnds": "2030-06-30"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; governor's race on the 2026 ballot. No term expires in 2027; the governor elected in Nov 2026 fills Kuwaye's seat when it expires June 30, 2028 and any interim vacancies.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://puc.hawaii.gov/about/commissioners/",
+        "publisher": "Hawaii Public Utilities Commission",
+        "kind": "official",
+        "excerpt": "Chair Jon S. Itomura, term ends June 30, 2032; Commissioner Naomi U. Kuwaye, term ends June 30, 2028; Commissioner Colin A. Yost, term ends June 30, 2030."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Senate confirmation and six-year terms stated from general knowledge of HRS § 269-2 (consistent with staggered 2028/2030/2032 expirations), not a fetched statute. No PUC large-load/data-center tariff proceeding identified; data-center activity found was at county level. Party affiliations not listed."
+  },
+  {
+    "state": "IA",
+    "name": "Iowa Utilities Commission",
+    "url": "https://iuc.iowa.gov/",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Three commissioners appointed by the governor subject to Iowa Senate confirmation; staggered six-year terms ending April 30; governor fills vacancies for unexpired terms in the same manner.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Sarah M. Martz",
+        "role": "Chair",
+        "termEnds": "2027-04-30"
+      },
+      {
+        "name": "Joshua J. Byrnes",
+        "role": "Commissioner",
+        "termEnds": "2031-04-30"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; governor's race on the 2026 ballot (open seat). Chair Martz's term expires April 30, 2027, so the governor elected in Nov 2026 (inaugurated Jan 2027) makes that appointment; the vacancy created by Erik Helland's Sept. 4, 2026 resignation (term to April 30, 2029) may be filled by Gov. Reynolds before leaving office or by her successor.",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://iuc.iowa.gov/about-us/commissioners",
+        "publisher": "Iowa Utilities Commission",
+        "kind": "official",
+        "excerpt": "Sarah M. Martz, Chair, term ends April 30, 2027; Joshua J. Byrnes, term ends April 30, 2031; Vacant seat, term ends April 30, 2029."
+      },
+      {
+        "title": "IUC announces resignation of Commissioner Erik Helland",
+        "url": "https://iuc.iowa.gov/press-release/2026-08-28/commission-erik-helland-resigns",
+        "publisher": "Iowa Utilities Commission",
+        "kind": "official",
+        "published": "2026-08-28",
+        "excerpt": "Resignation effective September 4, 2026... term that expires April 30, 2029. The Governor fills vacancies for the unexpired portion of a term in the same manner as full-term appointments are made. The appointment would then be subject to Senate confirmation."
+      },
+      {
+        "title": "Interstate Power and Light Company Electric Tariff – Rider ICR, Individual Customer Rate",
+        "url": "https://www.alliantenergy.com/-/media/alliant/documents/accountandbilling/ratesandtariffs/iowaelectricrates/electricindividualcustomerrate.pdf",
+        "publisher": "Interstate Power and Light (Alliant Energy), filed with the IUC",
+        "kind": "official",
+        "published": "2024-09-20",
+        "excerpt": "Term of any Service Agreement shall not be less than five (5) years... Service Agreements, extensions, and new service terms require approval by the Iowa Utilities Board. Negotiated demand rate no less than the incremental costs the Company expects to incur serving the Customer's load."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Rider ICR is an individual-customer-rate rider rather than a data-center-specific rate class; an industry compilation reports the IUC approved ICR service agreements for Vulpine Power (TF-2025-0007) and QTS (TF-2025-0047), not verified on the IUC e-filing system. MidAmerican's 2026 rate case (RPU-2026-0001) is pending; whether it includes large-load provisions was not verified. Governor's race being an open seat (Reynolds not running) is general knowledge, not cited. Party affiliations not listed."
+  },
+  {
+    "state": "ID",
+    "name": "Idaho Public Utilities Commission",
+    "url": "https://puc.idaho.gov/",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Three commissioners appointed by the governor and confirmed by the Idaho Senate to staggered six-year terms; commission president selected by the commissioners.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Edward Lodge",
+        "role": "President"
+      },
+      {
+        "name": "John R. Hammond, Jr.",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Dayn Hardie",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; governor's race on the 2026 ballot, so the governor elected in Nov 2026 fills seats expiring after January 2027. Hammond was first appointed in January 2022 and Hardie in January 2025; exact expiration dates not verified.",
+    "largeLoadTariff": "under_consideration",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://puc.idaho.gov/Home/Commissioners",
+        "publisher": "Idaho Public Utilities Commission",
+        "kind": "official",
+        "excerpt": "Commissioner Edward Lodge serves as President... John R. Hammond, Jr. was appointed to his first term by Governor Brad Little in January of 2022... Dayn Hardie was appointed by Governor Brad Little in January 2025."
+      },
+      {
+        "title": "Commission Schedules Technical Hearing, Sets Written Comments Deadline for Electric Utility's Application to Study Distribution of Costs",
+        "url": "https://puc.idaho.gov/Fileroom/PublicFiles/Press/20260917Idaho%20Power%200917%20Release.pdf.pdf",
+        "publisher": "Idaho Public Utilities Commission",
+        "kind": "official",
+        "published": "2026-09-17",
+        "docId": "IPC-E-26-07",
+        "excerpt": "Idaho Power application to study the methodology used to allocate costs among customers and determine the appropriate cost of service for new large-load customers. Comments through Dec. 14, 2026; technical hearing Jan. 19, 2027."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Idaho Power's existing Schedule 20 (effective 2024, IPC-E-21-37) covers speculative high-density loads such as crypto mining — reported by an industry compilation, not verified here; it is not a data-center tariff per se. Term-end dates and party affiliations not listed. Senate confirmation and six-year terms stated from general knowledge of Idaho Code § 61-201."
+  },
+  {
+    "state": "IL",
+    "name": "Illinois Commerce Commission",
+    "url": "https://www.icc.illinois.gov/",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints five commissioners, confirmed by the Illinois Senate, to five-year terms; governor designates the chairman; no more than three commissioners from the same political party.",
+    "termYears": 5,
+    "commissioners": [
+      {
+        "name": "Doug P. Scott",
+        "role": "Chairman"
+      },
+      {
+        "name": "Michael T. Carrigan",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Ann McCabe",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Conrad R. Reddick",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Stacey Paradis",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; governor's race on the 2026 ballot, so the governor elected in Nov 2026 (term beginning Jan 2027) fills ICC terms expiring or vacated thereafter. Individual term-expiration dates were not verified.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "Chairman and Commissioners",
+        "url": "https://www.icc.illinois.gov/about/commissioners",
+        "publisher": "Illinois Commerce Commission",
+        "kind": "official",
+        "excerpt": "The Governor appoints each commissioner, and the Illinois State Senate confirms them, for five-year terms. The Governor designates the Chairman. No more than three commissioners from the same political party."
+      },
+      {
+        "title": "Gov. JB Pritzker suspends tax breaks for data centers, urges more discussion",
+        "url": "https://capitolnewsillinois.com/news/gov-jb-pritzker-to-suspend-tax-breaks-for-data-centers-urging-more-discussion/",
+        "publisher": "Capitol News Illinois",
+        "kind": "journalism",
+        "published": "2026-06-05",
+        "excerpt": "ComEd has nearly 100 data center requests in its pipeline that would draw more than 30,000 MW if built."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "An industry compilation (EEI, Sept 2026) reports the ICC approved ComEd revisions to Rider DE and General Terms & Conditions governing large-load service requests (Dockets 25-0679/25-0677); ICC docket pages are CAPTCHA-protected and could not be verified, so the field is conservatively 'none_known' pending verification. Party affiliations not listed on the ICC page."
+  },
+  {
+    "state": "IN",
+    "name": "Indiana Utility Regulatory Commission",
+    "url": "https://www.in.gov/iurc/",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "Five commissioners appointed by the governor from candidates recommended by a judicial-style nominating committee; four-year terms; governor designates the chairman; no Senate confirmation.",
+    "termYears": 4,
+    "commissioners": [
+      {
+        "name": "Anthony Swinger",
+        "role": "Chairman"
+      },
+      {
+        "name": "Joshua Bain",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Bob Deig",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Joby Jerrells",
+        "role": "Commissioner"
+      },
+      {
+        "name": "David Ziegner",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Not directly affected by 2026 election: commissioners are appointed by the governor, and Indiana's governor (elected 2024) is not on the 2026 ballot.",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Commission Chairman and Commissioners",
+        "url": "https://www.in.gov/iurc/about-us/commission-chairman-and-commissioners/",
+        "publisher": "Indiana Utility Regulatory Commission",
+        "kind": "official",
+        "excerpt": "Anthony Swinger, Chairman; Commissioners Joshua Bain, Bob Deig, Joby Jerrells, David Ziegner."
+      },
+      {
+        "title": "Indiana regulators approve 'large load' interconnection rules",
+        "url": "https://www.utilitydive.com/news/indiana-iurc-large-load-interconnection-data-center-aep-amazon-google/740452/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2025-02-20",
+        "docId": "Cause No. 46097",
+        "excerpt": "IURC approved a settlement amending Indiana Michigan Power's industrial power tariff for new or expanded facilities of at least 70 MW (or 150 MW aggregated), calling it a reasonable and balanced effort to provide a tariff for standard electric service."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Nominating-committee process, four-year terms and party-balance rule stated from general knowledge of Ind. Code 8-1-1-2, not verified on a fetched page. Cause number inferred from the order file name linked by Utility Dive. NIPSCO GenCo approval (Cause 46183) to isolate large-load risks reported by an industry compilation, not verified. Term-end dates and parties not listed."
+  },
+  {
+    "state": "KS",
+    "name": "Kansas Corporation Commission",
+    "url": "https://www.kcc.ks.gov/",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Three commissioners appointed by the governor with Kansas Senate confirmation to staggered four-year terms ending March 15.",
+    "termYears": 4,
+    "commissioners": [
+      {
+        "name": "Andrew J. French",
+        "role": "Chair",
+        "termEnds": "2028-03-15"
+      },
+      {
+        "name": "Dwight D. Keen",
+        "role": "Commissioner",
+        "termEnds": "2030-03-15"
+      },
+      {
+        "name": "Annie Kuether",
+        "role": "Commissioner",
+        "termEnds": "2027-03-15"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; governor's race on the 2026 ballot (open seat; Gov. Kelly term-limited). Commissioner Kuether's term expires March 15, 2027, after the new governor's January 2027 inauguration, so the governor elected in Nov 2026 fills it (or reappoints her).",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Meet the Commissioners",
+        "url": "https://www.kcc.ks.gov/about-us/meet-the-commissioners",
+        "publisher": "Kansas Corporation Commission",
+        "kind": "official",
+        "excerpt": "Andrew J. French (Chair), term expires March 15, 2028; Dwight D. Keen, term expires March 15, 2030 (reappointed by Gov. Laura Kelly 2022 and 2026); Annie Kuether, term expires March 15, 2027 (appointed by Gov. Kelly 2023)."
+      },
+      {
+        "title": "Kansas, Michigan regulators approve large load rules for Evergy, Consumers Energy",
+        "url": "https://www.utilitydive.com/news/kansas-michigan-data-center-large-load-evergy-consumers/805115/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2025-11-10",
+        "excerpt": "KCC on Nov. 6, 2025 approved a settlement among Evergy's Kansas utilities and stakeholders including the Data Center Coalition and Google creating a large load power service rate plan for new facilities above 75 MW."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Senate confirmation and four-year terms stated from general knowledge of K.S.A. 74-601, consistent with the KCC page's staggered expirations. Docket number (reported as 25-EKME-315-TAR) not verified on the KCC docket system. Governor's race being open is general knowledge. Party affiliations not listed on the KCC page."
+  },
+  {
+    "state": "KY",
+    "name": "Kentucky Public Service Commission",
+    "url": "https://psc.ky.gov/",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints commissioners (KRS Chapter 278); current members appointed by Gov. Andy Beshear.",
+    "commissioners": [
+      {
+        "name": "Angie C. Hatton",
+        "role": "Chair",
+        "termEnds": "2029-07-29"
+      },
+      {
+        "name": "Mary Pat Regan",
+        "role": "Vice Chair",
+        "termEnds": "2027-07-01"
+      },
+      {
+        "name": "Andrew W. Wood",
+        "role": "Commissioner",
+        "termEnds": "2028-07-01"
+      },
+      {
+        "name": "Barry L. Mayfield",
+        "role": "Commissioner",
+        "termEnds": "2028-07-01"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Not directly affected by 2026 election: commissioners are appointed and Kentucky's governor is not on the 2026 ballot (next gubernatorial election 2027). The next expiring term (Regan, July 1, 2027) would be filled by the sitting governor.",
+    "largeLoadTariff": "under_consideration",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://psc.ky.gov/Home/Commissioners",
+        "publisher": "Kentucky Public Service Commission",
+        "kind": "official",
+        "excerpt": "Lists Chair Angie C. Hatton (term expires July 29, 2029), Vice Chair Mary Pat Regan (July 1, 2027), Andrew W. Wood (July 1, 2028) and Barry L. Mayfield (appointed May 20, 2026; July 1, 2028), all appointed by Gov. Beshear."
+      },
+      {
+        "title": "About the PSC",
+        "url": "https://psc.ky.gov/Home/About",
+        "publisher": "Kentucky Public Service Commission",
+        "kind": "official",
+        "excerpt": "The Commission is a five-member administrative body governed by KRS Chapter 278."
+      },
+      {
+        "title": "PPL's Kentucky utilities reach settlement on gas plants",
+        "url": "https://www.utilitydive.com/news/ppl-kentucky-psc-lge-ku-gas-plant/756408/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2025-07-31",
+        "excerpt": "LG&E and KU proposed an 'extremely high load factor' (EHLF) rate; the settlement treats at least 500 MW of executed service agreements under that rate as a prudence indicator. Utilities project 1,875 MW of new data center load through 2032."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Official page lists only four of five seats; the fifth appears vacant. Party affiliations not documented on the official page. LG&E/KU's proposed EHLF (large-load) rate was before the PSC in 2025; its final disposition was not verified here."
+  },
+  {
+    "state": "LA",
+    "name": "Louisiana Public Service Commission",
+    "url": "https://www.lpsc.louisiana.gov/",
+    "seats": 5,
+    "selection": "elected",
+    "selectionDetail": "Five commissioners elected from single-member districts to overlapping six-year terms (La. Const. Art. IV, Sec. 21); term-limited. Beginning 2026, closed party primaries (May 16; runoff June 27) feed a Nov. 3 general election decided by plurality with no general-election runoff.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Eric Skrmetta",
+        "role": "Chairman (District 1; term-limited)",
+        "party": "R"
+      },
+      {
+        "name": "Jean-Paul P. Coussan",
+        "role": "District 2"
+      },
+      {
+        "name": "Davante Lewis",
+        "role": "District 3"
+      },
+      {
+        "name": "Mike Francis",
+        "role": "District 4"
+      },
+      {
+        "name": "Foster L. Campbell",
+        "role": "District 5 (term-limited)",
+        "party": "D"
+      }
+    ],
+    "seatsUp2026": 2,
+    "electionMechanism": "Seats directly elected; 2 of 5 (Districts 1 and 5, both open due to term limits) on the Nov. 3, 2026 ballot. D1: Stephanie Hilferty (R) vs. Connie Norris (D) and Chris Justin (no party); D5: James Green (D) vs. John Atkins (R). Republicans currently hold a one-seat (3-2) majority, so the two open seats determine whether that majority holds or flips.",
+    "largeLoadTariff": "under_consideration",
+    "sources": [
+      {
+        "title": "LPSC home page",
+        "url": "https://www.lpsc.louisiana.gov/",
+        "publisher": "Louisiana Public Service Commission",
+        "kind": "official",
+        "excerpt": "Five elected Commissioners serve overlapping six-year terms. Items: Large Load Additions Non-Binding Guidelines technical conference (May 7, 2026; comments under Docket X-37921); Docket R-37905 on private use electrical networks for new large loads."
+      },
+      {
+        "title": "In 2026, Louisiana elects two new Public Service Commissioners (in a new way)",
+        "url": "https://www.all4energy.org/watchdog/la-elects-two-new-psc-commissioners-in-a-new-way/",
+        "publisher": "Alliance for Affordable Energy",
+        "kind": "research",
+        "published": "2026-01-20",
+        "excerpt": "District 1 (Skrmetta) and District 5 (Campbell) are on the ballot; both are term-limited. Closed party primaries; no runoff in the general election, so a winner could win with a plurality."
+      },
+      {
+        "title": "Louisiana PSC election results: Hilferty, Young head to runoff; Green, Atkins face off in Nov.",
+        "url": "https://www.wwno.org/politics/2026-05-17/louisiana-psc-election-results-hilferty-young-head-to-runoff-green-atkins-face-off-in-nov",
+        "publisher": "WWNO",
+        "kind": "journalism",
+        "published": "2026-05-17",
+        "excerpt": "Skrmetta (R, chairman) and Campbell (D) reached term limits; Republicans currently command a one-seat advantage on the five-member commission. D5: Democrat James Green vs. Republican John Atkins."
+      },
+      {
+        "title": "Hilferty wins GOP bid for Public Service Commission seat",
+        "url": "https://lailluminator.com/2026/06/27/hilferty-public-service/",
+        "publisher": "Louisiana Illuminator",
+        "kind": "journalism",
+        "published": "2026-06-27",
+        "excerpt": "Hilferty defeated John Young in the June 27 GOP runoff for District 1; faces Democrat Connie Norris and no-party Chris Justin Nov. 3."
+      },
+      {
+        "title": "Entergy Louisiana receives LPSC approval for major infrastructure investments to support Meta's data center",
+        "url": "https://www.entergy.com/news/entergy-louisiana-receives-lpsc-approval-for-major-infrastructure-investments-to-support-metas-data-center-and-improve-reliability",
+        "publisher": "Entergy",
+        "kind": "official",
+        "published": "2025-08-20",
+        "docId": "U-37425",
+        "excerpt": "LPSC approved three combined-cycle plants, transmission and up to 1,500 MW of solar to serve Meta's data center; 'Meta is paying its share of the costs.'"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Louisiana Illuminator page returned 403 to direct fetch; result corroborated via search summary. Party shown only where reported (WWNO); others not individually sourced, though Republicans hold 3-2. Large-load framework is non-binding guidelines plus an open rulemaking; the Meta approval (Aug. 2025) was a single-customer resource certification, not a general tariff."
+  },
+  {
+    "state": "MA",
+    "name": "Massachusetts Department of Public Utilities",
+    "url": "https://www.mass.gov/orgs/department-of-public-utilities",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Three commissioners appointed by the Secretary of Energy and Environmental Affairs with the governor's approval (M.G.L. c. 25, s. 2); two serve terms coterminous with the governor, one a 4-year term; no more than 2 from one party; Secretary designates chair.",
+    "commissioners": [
+      {
+        "name": "Jeremy McDiarmid",
+        "role": "Chair"
+      },
+      {
+        "name": "Staci Rubin",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Liz Anderson",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor's race on 2026 ballot; two of three commissioner terms are coterminous with the governor's term (ending January 2027), so the administration elected in Nov. 2026 (through its EEA Secretary, with gubernatorial approval) appoints or reappoints those seats.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "M.G.L. c. 25, s. 2",
+        "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter25/Section2",
+        "publisher": "Massachusetts Legislature",
+        "kind": "official",
+        "excerpt": "Commission of 3 members appointed by the secretary of energy and environmental affairs with governor's approval; two serve coterminous with the governor, the third a term of 4 years; not more than 2 members of the same party."
+      },
+      {
+        "title": "Massachusetts Department of Public Utilities commission roster",
+        "url": "https://maxxwww.naruc.org/forms/CompanyFormPublic/viewCommissionRoster?id=764000002F8",
+        "publisher": "NARUC",
+        "kind": "aggregator",
+        "excerpt": "Liz Anderson, Commissioner; Jeremy McDiarmid, Chair; Staci Rubin, Commissioner."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "mass.gov pages returned 403 to automated fetch; roster from NARUC. Which commissioner holds the 4-year seat was not verified. No DPU large-load/data center tariff proceeding was identified, but search was limited."
+  },
+  {
+    "state": "MD",
+    "name": "Maryland Public Service Commission",
+    "url": "https://psc.maryland.gov/",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints chair and four commissioners to staggered five-year terms, with Senate advice and consent.",
+    "termYears": 5,
+    "commissioners": [
+      {
+        "name": "Kumar P. Barve",
+        "role": "Chair",
+        "termEnds": "2028-06-30"
+      },
+      {
+        "name": "Frederick H. Hoover",
+        "role": "Commissioner",
+        "termEnds": "2029-06-30"
+      },
+      {
+        "name": "Bonnie A. Suchman",
+        "role": "Commissioner",
+        "termEnds": "2027-06-30"
+      },
+      {
+        "name": "Odogwu Obi Linton",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Ryan C. McLean",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; governor's race on 2026 ballot; Suchman's term expires June 30, 2027, so the governor elected in Nov. 2026 fills it (Senate also on 2026 ballot).",
+    "largeLoadTariff": "pending",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://psc.maryland.gov/commissioners/",
+        "publisher": "Maryland Public Service Commission",
+        "kind": "official",
+        "excerpt": "Chair Kumar P. Barve (term expires June 30, 2028); Frederick H. Hoover (June 30, 2029); Bonnie A. Suchman (June 30, 2027); Odogwu Obi Linton (reappointed 2025); Ryan C. McLean (term beginning July 1, 2025). Five-year staggered terms."
+      },
+      {
+        "title": "SB0937 Next Generation Energy Act (Chapter 625, 2025)",
+        "url": "https://mgaleg.maryland.gov/2025RS/Chapters_noln/CH_625_sb0937e.pdf",
+        "publisher": "Maryland General Assembly",
+        "kind": "official",
+        "published": "2025-05-20",
+        "docId": "SB 937 / Ch. 625",
+        "excerpt": "On or before September 1, 2026, each investor-owned electric company and each electric cooperative shall submit to the Commission for approval a specific rate schedule for large load customers (over 100 MW)..."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Large-load tariff status inferred from the statutory Sept. 1, 2026 filing deadline; individual utility filings and PSC case numbers were not verified. Term end dates for Linton and McLean not stated on official page (McLean's 5-year term began July 1, 2025)."
+  },
+  {
+    "state": "ME",
+    "name": "Maine Public Utilities Commission",
+    "url": "https://www.maine.gov/mpuc/",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Governor nominates commissioners subject to legislative confirmation; staggered terms (35-A M.R.S. s. 103: 3 members).",
+    "commissioners": [
+      {
+        "name": "Philip L. Bartlett II",
+        "role": "Chairman",
+        "termEnds": "2031-03-31"
+      },
+      {
+        "name": "Patrick J. Scully",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Carolyn C. Gilbert",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints subject to legislative confirmation; open governor's race on 2026 ballot (Gov. Mills term-limited); Scully's term expires March 2027, so the governor elected in Nov. 2026 fills it, with the legislature elected in 2026 confirming.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://www.maine.gov/mpuc/about/commissioners",
+        "publisher": "Maine Public Utilities Commission",
+        "kind": "official",
+        "excerpt": "Bartlett, Chairman, appointed 2019 by Gov. Mills, term expires March 31, 2031; Scully appointed 2021, term expires March 2027; Gilbert appointed 2023, term expires March 2029."
+      },
+      {
+        "title": "35-A M.R.S. s. 103",
+        "url": "https://legislature.maine.gov/statutes/35-A/title35-Asec103.html",
+        "publisher": "Maine Legislature",
+        "kind": "official",
+        "excerpt": "The commission shall consist of 3 members."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Exact day for March 2027/2029 expirations not stated. Mills term-limit status is from general knowledge, not a cited source here. No PUC large-load tariff proceeding identified; the legislature's 2026 data center ban was vetoed (outside PUC)."
+  },
+  {
+    "state": "MI",
+    "name": "Michigan Public Service Commission",
+    "url": "https://www.michigan.gov/mpsc",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Three commissioners appointed by the governor with Senate advice and consent to staggered six-year terms.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Daniel C. Scripps",
+        "role": "Chair"
+      },
+      {
+        "name": "Katherine Peretick",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Shaquila Myers",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; open governor's race on 2026 ballot (Gov. Whitmer term-limited). The governor elected in Nov. 2026 fills terms expiring after Jan. 1, 2027 (next staggered expiration reported as July 2027, not verified from an official source).",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Minutes of the Regular Commission Meeting, January 15, 2026",
+        "url": "https://adms.apps.lara.state.mi.us/Mpsc/ViewMeetingMinutesDocument/357",
+        "publisher": "Michigan Public Service Commission",
+        "kind": "official",
+        "published": "2026-01-15",
+        "excerpt": "PRESENT Commission: Daniel C. Scripps, Chair; Katherine Peretick, Commissioner; Shaquila Myers, Commissioner."
+      },
+      {
+        "title": "Michigan, Kansas regulators approve large load rules for Consumers, Evergy",
+        "url": "https://www.utilitydive.com/news/kansas-michigan-data-center-large-load-evergy-consumers/805115/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2025-11-10",
+        "excerpt": "On Nov. 6, 2025, the Michigan PSC approved Consumers Energy's rules for data centers and loads over 100 MW: 15-year minimum contract, 80% minimum demand charge, up to 5-year ramp; PSC wants large loads to 'fully pay for the costs needed to serve them.'"
+      },
+      {
+        "title": "DTE rate stability, data center projects",
+        "url": "https://www.utilitydive.com/news/dte-rate-stability-data-center-projects-large-load-pipeline/826803/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-08-03",
+        "excerpt": "Contracts to serve a 1 GW Google data center have been submitted to Michigan regulators for approval."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "michigan.gov commissioner page blocked automated fetch; individual term-end dates and party affiliations not verified from citable sources and omitted. Statute requires no more than two commissioners from the same party (not independently re-verified here)."
+  },
+  {
+    "state": "MN",
+    "name": "Minnesota Public Utilities Commission",
+    "url": "https://mn.gov/puc/",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "Five commissioners appointed by the governor to staggered six-year terms, subject to Senate confirmation.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Katie Sieben",
+        "role": "Chair",
+        "termEnds": "2029-01-01"
+      },
+      {
+        "name": "Joseph Sullivan",
+        "role": "Commissioner",
+        "termEnds": "2032-01-05"
+      },
+      {
+        "name": "Audrey Partridge",
+        "role": "Commissioner",
+        "termEnds": "2031-01-06"
+      },
+      {
+        "name": "Hwikwon Ham",
+        "role": "Commissioner",
+        "termEnds": "2028-01-03"
+      },
+      {
+        "name": "John Tuma",
+        "role": "Commissioner",
+        "termEnds": "2027-01-04"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; governor's race on 2026 ballot; Tuma's seat expires Jan. 4, 2027, the day the new governor's term begins, so it is filled either by the outgoing governor before then or by the governor elected in Nov. 2026.",
+    "largeLoadTariff": "pending",
+    "sources": [
+      {
+        "title": "Board/Commission: Public Utilities Commission",
+        "url": "https://commissionsandappointments.sos.mn.gov/agency/Details/134",
+        "publisher": "Minnesota Secretary of State",
+        "kind": "data",
+        "excerpt": "Member #1 Hwikwon Ham 01/03/2028; #2 Joseph Sullivan 01/05/2032; #3 Katie Sieben (Chair) 01/01/2029; #4 Audrey Partridge 01/06/2031; #5 John Tuma 01/04/2027. All appointed by Governor."
+      },
+      {
+        "title": "Xcel Energy pursuing large load tariffs in 4 states amid data center growth",
+        "url": "https://www.utilitydive.com/news/xcel-energy-pursuing-large-load-tariffs-in-4-states-amid-data-center-growth/811518/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-02-06",
+        "excerpt": "Xcel has proposed new large load tariffs in Minnesota, Wisconsin, Colorado and Texas."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Minnesota PUC docket number and current status of Xcel's large-load tariff were not verified; status set to pending based on Feb. 2026 reporting. Senate-confirmation and terms details from official structure descriptions; party not documented."
+  },
+  {
+    "state": "MO",
+    "name": "Missouri Public Service Commission",
+    "url": "https://psc.mo.gov/",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints five commissioners with Senate advice and consent (RSMo 386.050) and designates the chair.",
+    "commissioners": [
+      {
+        "name": "Kayla Hahn",
+        "role": "Chair"
+      },
+      {
+        "name": "Maida J. Coleman",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Glen Kolkmeyer",
+        "role": "Commissioner"
+      },
+      {
+        "name": "John P. Mitchell",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Not directly affected by 2026 election: commissioners are appointed by the governor, who is not on the 2026 ballot (Gov. Kehoe elected 2024). Half of the Senate, which confirms appointees, is on the ballot.",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "The Commissioners",
+        "url": "https://psc.mo.gov/Commissioners/",
+        "publisher": "Missouri Public Service Commission",
+        "kind": "official",
+        "excerpt": "Mike Kehoe, Governor; Kayla Hahn, Chair; Maida J. Coleman, Commissioner; Glen Kolkmeyer, Commissioner; John P. Mitchell, Commissioner."
+      },
+      {
+        "title": "Utility Tariffs for Missouri Large Load Customers",
+        "url": "https://psc.mo.gov/General/Utility_Tariffs_for_Large_Load_Customers",
+        "publisher": "Missouri Public Service Commission",
+        "kind": "official",
+        "docId": "ET-2026-0184",
+        "excerpt": "SB 4 (2025) required the PSC to adopt rates for large load customers, including data centers. Ameren Missouri and Evergy have approved large-load tariffs; Liberty Utilities' case (ET-2026-0184) is in progress. Minimum 12-year service."
+      },
+      {
+        "title": "Evergy large loads, resource plan",
+        "url": "https://www.utilitydive.com/news/evergy-large-loads-resource-plan-earnings/827571/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-08-11",
+        "excerpt": "Evergy has executed electric service agreements with 2.5 GW of data centers under its large-load power service tariff."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Official page lists four commissioners for five seats; one seat appears vacant. Term-end dates and party not stated on official page."
+  },
+  {
+    "state": "MS",
+    "name": "Mississippi Public Service Commission",
+    "url": "https://www.psc.ms.gov/",
+    "seats": 3,
+    "selection": "elected",
+    "selectionDetail": "Three commissioners elected from Northern, Central and Southern districts to four-year terms in odd-year statewide elections.",
+    "termYears": 4,
+    "commissioners": [
+      {
+        "name": "Chris Brown",
+        "role": "Northern District Commissioner"
+      },
+      {
+        "name": "De'Keither Stamps",
+        "role": "Central District Commissioner"
+      },
+      {
+        "name": "Wayne Carr",
+        "role": "Southern District Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Not directly affected by 2026 election: commissioners are elected in odd-year statewide elections (next in Nov. 2027); no PSC seats on the 2026 ballot.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "Mississippi Public Service Commission home",
+        "url": "https://www.psc.ms.gov/",
+        "publisher": "Mississippi Public Service Commission",
+        "kind": "official",
+        "excerpt": "Northern District: Chris Brown; Central District: De'Keither Stamps; Southern District: Wayne Carr."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Election cycle (4-year terms, odd-year elections, next 2027) is based on Mississippi's established statewide election calendar but was not confirmed from a fetched official source in this pass. No PSC large-load tariff proceeding identified; search was limited. Party not documented on official page."
+  },
+  {
+    "state": "MT",
+    "name": "Montana Public Service Commission",
+    "url": "https://psc.mt.gov/",
+    "seats": 5,
+    "selection": "elected",
+    "selectionDetail": "Five commissioners elected by district to staggered four-year terms; two-term limit.",
+    "termYears": 4,
+    "commissioners": [
+      {
+        "name": "Randy Pinocci",
+        "role": "District 1 (term-limited)",
+        "party": "R"
+      },
+      {
+        "name": "Brad Molnar",
+        "role": "District 2",
+        "party": "R"
+      },
+      {
+        "name": "Jennifer Fielder",
+        "role": "Vice President",
+        "party": "R"
+      },
+      {
+        "name": "Annie Bukacek",
+        "role": "District 5",
+        "party": "R"
+      }
+    ],
+    "seatsUp2026": 2,
+    "electionMechanism": "Seats directly elected; 2 of 5 on the Nov. 3, 2026 ballot. District 1 (open; Pinocci term-limited): Jeff Pattison (R) vs. Angeline Cheek (D). District 5: incumbent Annie Bukacek (R) vs. Kevin Hamm (D). All five sitting commissioners are Republicans, so the GOP retains a majority regardless of outcome.",
+    "largeLoadTariff": "under_consideration",
+    "sources": [
+      {
+        "title": "Public Service Commission candidates file for office",
+        "url": "https://dailymontanan.com/2026/02/18/public-service-commission-candidates-file-for-office/",
+        "publisher": "Daily Montanan",
+        "kind": "journalism",
+        "published": "2026-02-18",
+        "excerpt": "Two seats are up for grabs, in Districts No. 1 and No 5. Commissioners are elected by district; currently, all five are Republican. Names Vice President Jennifer Fielder."
+      },
+      {
+        "title": "PSC District 1 candidates campaign on energy costs, data centers and transparency",
+        "url": "https://www.mtpr.org/montana-news/2026-10-08/psc-district-1-candidates-campaign-on-energy-costs-data-centers-and-transparency",
+        "publisher": "Montana Public Radio",
+        "kind": "journalism",
+        "published": "2026-10-08",
+        "excerpt": "Democrat Angeline Cheek vs. Republican Jeff Pattison for the open District 1 seat (Pinocci term-limited). The PSC has 'a case that's open about how to deal with data centers.'"
+      },
+      {
+        "title": "PSC District 5 race highlights competing views on the role of utility regulators",
+        "url": "https://www.mtpr.org/montana-news/2026-10-08/psc-district-5-race-highlights-competing-views-on-the-role-of-utility-regulators",
+        "publisher": "Montana Public Radio",
+        "kind": "journalism",
+        "published": "2026-10-08",
+        "excerpt": "Incumbent Republican Annie Bukacek is running against Democrat Kevin Hamm."
+      },
+      {
+        "title": "Customer costs and commission professionalism shape utility commission primary",
+        "url": "https://montanafreepress.org/2026/03/23/customer-costs-and-professionalism-shape-utility-commission-primary/",
+        "publisher": "Montana Free Press",
+        "kind": "journalism",
+        "published": "2026-03-23",
+        "excerpt": "Commissioners serve four-year terms; term limits bar Pinocci from a third term. Names District 2 Commissioner Brad Molnar."
+      },
+      {
+        "title": "NorthWestern plans large load tariff for data centers in Montana",
+        "url": "https://www.utilitydive.com/news/northwestern-large-load-data-center-tariff-montana/803334/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2025-10-21",
+        "excerpt": "NorthWestern Energy plans to propose a 'large load' tariff; the PSC disagreed in September with NorthWestern's view that it doesn't need commission approval to serve large loads."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Official PSC site failed TLS verification on fetch. District 3 and 4 commissioners not confirmed from a citable source (omitted); Fielder's district number not confirmed. Whether NorthWestern has since filed its large-load tariff was not verified."
+  },
+  {
+    "state": "NC",
+    "name": "North Carolina Utilities Commission",
+    "url": "https://www.ncuc.gov/",
+    "seats": 5,
+    "selection": "mixed",
+    "selectionDetail": "Per G.S. 62-10 (as amended by S.L. 2024-57): two commissioners appointed by the Governor, one by the State Treasurer, one by the General Assembly on recommendation of the House Speaker, and one on recommendation of the Senate President Pro Tem; Governor and Treasurer appointees confirmed by joint resolution; six-year terms ending June 30; chair elected by members for three years.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "William M. Brawley",
+        "role": "Chairman (General Assembly / Speaker seat)",
+        "termEnds": "2029-06-30"
+      },
+      {
+        "name": "Floyd B. McKissick Jr.",
+        "role": "Commissioner (Governor appointee)",
+        "termEnds": "2029-06-30"
+      },
+      {
+        "name": "Tommy Tucker",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Donald van der Vaart",
+        "role": "Commissioner (State Treasurer appointee)"
+      },
+      {
+        "name": "John Gajda",
+        "role": "Commissioner (Governor appointee, Feb. 2026)"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor (next election 2028) and Treasurer are not on the 2026 ballot. All General Assembly seats are on the 2026 ballot; the legislature elected in Nov. 2026 makes two of five appointments and confirms Governor and Treasurer appointees, so the 2026 election affects the commission only indirectly via legislative control.",
+    "largeLoadTariff": "under_consideration",
+    "sources": [
+      {
+        "title": "G.S. 62-10",
+        "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_62/GS_62-10.html",
+        "publisher": "North Carolina General Assembly",
+        "kind": "official",
+        "excerpt": "Five commissioners: two by the Governor, one by the State Treasurer, one by the General Assembly upon recommendation of the Speaker, one upon recommendation of the President Pro Tempore; six-year terms ending June 30."
+      },
+      {
+        "title": "Commissioners",
+        "url": "https://www.ncuc.gov/Overview/commissioners.html",
+        "publisher": "North Carolina Utilities Commission",
+        "kind": "official",
+        "excerpt": "Brawley (Speaker nominee; term to June 30, 2029; chair to June 30, 2028); McKissick (Governor; reappointed Jan. 28, 2025; to June 30, 2029); Tucker (since Dec. 2023); van der Vaart (State Treasurer Brad Briner); Gajda (Gov. Stein, Feb. 2026)."
+      },
+      {
+        "title": "Growing reliability concerns top North Carolina regulators' large load conference",
+        "url": "https://www.utilitydive.com/news/growing-reliability-concerns-top-north-carolina-regulators-large-load-co/752307/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2025-07-07",
+        "excerpt": "NCUC asked Duke Energy and Dominion to comment on whether new tariffs should apply to large customers above a demand threshold, citing 'growing reliability concerns related to large electric load integration.'"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Appointing authority for Tucker (presumably the Senate Pro Tem seat) and term ends for Tucker, van der Vaart and Gajda not stated on official page. NCUC large-load proceeding outcome after the Oct. 2025 technical conference not verified."
+  },
+  {
+    "state": "ND",
+    "name": "North Dakota Public Service Commission",
+    "url": "https://www.psc.nd.gov/commission",
+    "seats": 3,
+    "selection": "elected",
+    "selectionDetail": "Three commissioners elected statewide to staggered six-year terms; governor appoints to fill vacancies until the next election.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Randy Christmann",
+        "role": "Chair",
+        "party": "R"
+      },
+      {
+        "name": "Sheri Haugen-Hoffart",
+        "party": "R"
+      },
+      {
+        "name": "Jill Kringstad",
+        "party": "R"
+      }
+    ],
+    "seatsUp2026": 2,
+    "electionMechanism": "Seats directly elected; 2 of 3 on the 2026-11-03 ballot: a full six-year term (incumbent Sheri Haugen-Hoffart, R, vs. a Democratic nominee) and the two years remaining on former Commissioner Julie Fedorchak's term, which expires in 2028 (appointed incumbent Jill Kringstad, R, vs. Democrat Scot Kelsh). Christmann's seat is not up until 2030.",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "The Commission: Meet the Commissioners",
+        "url": "https://www.psc.nd.gov/commission",
+        "publisher": "North Dakota Public Service Commission",
+        "kind": "official",
+        "excerpt": "Commission made up of three commissioners \"elected on a statewide basis to staggered six-year terms.\" Christmann is current chair; Haugen-Hoffart appointed Feb. 2022; Kringstad appointed Jan. 2025 by Gov. Kelly Armstrong."
+      },
+      {
+        "title": "Prevailing PSC candidates say campaign work not done with Dem opponents on horizon",
+        "url": "https://northdakotamonitor.com/2026/06/12/prevailing-psc-candidates-say-campaign-work-not-done-with-dem-opponents-on-horizon/",
+        "publisher": "North Dakota Monitor",
+        "kind": "journalism",
+        "published": "2026-06-12",
+        "excerpt": "Republican incumbents Haugen-Hoffart (six-year term) and Kringstad (two-year term) won June primaries over GOP-endorsed challengers; Kringstad faces Democrat Scot Kelsh in November."
+      },
+      {
+        "title": "Republican incumbents, 1 challenger announce ND Public Service Commission campaigns",
+        "url": "https://northdakotamonitor.com/2026/01/26/republican-incumbents-1-challenger-announce-nd-public-service-commission-campaigns/",
+        "publisher": "North Dakota Monitor",
+        "kind": "journalism",
+        "published": "2026-01-26",
+        "excerpt": "Haugen-Hoffart seeks a six-year term; Kringstad, appointed in January 2025 to fill Fedorchak's seat, runs for the two-year remainder of that term."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix tariff list: \"Montana-Dakota Utilities High Density Contracted Demand Response Rate 45 PU-22-194 Approved\"; \"Otter Tail Power Company Super Large General Service 20-719 Approved\"."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Official PSC page was read only via a search snippet/summary for term years; exact term-end dates omitted. Democratic nominee for the six-year seat not identified in sources reviewed. Party for Christmann is from reporting on Republican statewide incumbents, not an official PSC page. Large-load status rests on LBNL's appendix listing MDU Rate 45 (ND case PU-22-194) as approved; the Otter Tail entry's docket (20-719) may be a Minnesota docket. ND PSC docket not independently reviewed."
+  },
+  {
+    "state": "NE",
+    "name": "Nebraska Public Service Commission",
+    "url": "https://psc.nebraska.gov/",
+    "seats": 5,
+    "selection": "elected",
+    "selectionDetail": "Five commissioners elected from districts to six-year terms (Neb. Rev. Stat. 32-509); Districts 1 and 3 elected together, 4 and 5 together, District 2 alone.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Dan Watermeier",
+        "role": "District 1"
+      },
+      {
+        "name": "Christian Mirch",
+        "role": "District 2 (not seeking full term)"
+      },
+      {
+        "name": "Tim Schram",
+        "role": "Chair (District 3)"
+      },
+      {
+        "name": "Eric Kamler",
+        "role": "District 4"
+      },
+      {
+        "name": "Kevin Stocker",
+        "role": "Vice Chair (District 5)"
+      }
+    ],
+    "seatsUp2026": 1,
+    "electionMechanism": "Seats directly elected; 1 of 5 (District 2, Omaha) on the Nov. 3, 2026 ballot as an open seat (Dennis McCann, R, vs. Wendy DeBoer, D). However, the PSC does not set retail electric rates in Nebraska (all-public-power state), so the race has limited bearing on data center power pricing.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "Neb. Rev. Stat. 32-509",
+        "url": "https://www.nebraskalegislature.gov/laws/statutes.php?statute=32-509",
+        "publisher": "Nebraska Legislature",
+        "kind": "official",
+        "excerpt": "Five public service commissioner districts; each commissioner elected for a term of six years; District 2 elected in 1996 and each six years thereafter."
+      },
+      {
+        "title": "Commissioners Elect 2026 Leadership",
+        "url": "https://psc.nebraska.gov/for-consumers/commissioners-elect-2026-leadership",
+        "publisher": "Nebraska Public Service Commission",
+        "kind": "official",
+        "published": "2026-01-06",
+        "excerpt": "Tim Schram (District 3) re-elected chair and Kevin Stocker (District 5) vice chair for 2026."
+      },
+      {
+        "title": "Nebraska Public Service Commission home",
+        "url": "https://psc.nebraska.gov/",
+        "publisher": "Nebraska Public Service Commission",
+        "kind": "official",
+        "excerpt": "Regulates telecommunications, jurisdictional natural gas utilities, major oil pipelines, movers, grain warehouses, private water rates; limited oversight of railroad safety and high-voltage electric transmission lines. Lists commissioners by district."
+      },
+      {
+        "title": "Nebraska Public Service Commission election, 2026",
+        "url": "https://ballotpedia.org/Nebraska_Public_Service_Commission_election,_2026",
+        "publisher": "Ballotpedia",
+        "kind": "aggregator"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "General-election candidates (McCann R, DeBoer D) and Mirch not seeking a full term are from search-summarized Nebraska Examiner reporting; Examiner pages blocked direct fetch. Party affiliations of sitting commissioners not taken from a citable source. Electric retail rates are set by public power districts, not the PSC."
+  },
+  {
+    "state": "NH",
+    "name": "New Hampshire Public Utilities Commission",
+    "url": "https://www.puc.nh.gov/",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints with advice and consent of the Executive Council after a public hearing (RSA 363:3); six-year terms; one appointment each odd-numbered year, taking office July 1.",
+    "termYears": 6,
+    "commissioners": [],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Executive Council consent; governor and all five Executive Council seats are on the 2026 ballot (two-year terms). A seat turns over July 1, 2027 (one per odd year under RSA 363:3), so the governor and council elected in Nov. 2026 fill it.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "RSA Chapter 363: Public Utilities Commission",
+        "url": "https://gc.nh.gov/rsa/html/XXXIV/363/363-mrg.htm",
+        "publisher": "New Hampshire General Court",
+        "kind": "official",
+        "excerpt": "The commission shall be composed of 3 commissioners; term of office 6 years; governor, with the advice and consent of the council, appoints; one commissioner appointed in each odd numbered year, taking office July 1."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "PUC website blocked automated fetch and web search budget was exhausted, so the current roster (reported chairman: Daniel C. Goldner) could not be verified from a citable source and is omitted. No large-load tariff proceeding identified."
+  },
+  {
+    "state": "NJ",
+    "name": "New Jersey Board of Public Utilities",
+    "url": "https://www.nj.gov/bpu/",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints five commissioners (including the President) with Senate advice and consent to staggered six-year terms.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Ben Hertz-Shargel",
+        "role": "President"
+      },
+      {
+        "name": "Christine Guhl-Sadovy",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Michael Bange",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Joseph Coviello",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Emma Rebhorn",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Not directly affected by 2026 election: governor (Mikie Sherrill, elected 2025) and Legislature are not on the 2026 ballot.",
+    "largeLoadTariff": "under_consideration",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://www.nj.gov/bpu/about/commissioners/",
+        "publisher": "New Jersey Board of Public Utilities",
+        "kind": "official",
+        "excerpt": "President Ben Hertz-Shargel; Commissioners Christine Guhl-Sadovy, Michael Bange, Joseph Coviello, Emma Rebhorn. Commissioners serve staggered six-year terms."
+      },
+      {
+        "title": "New Jersey lawmakers send data center tariff bill to governor",
+        "url": "https://www.utilitydive.com/news/new-jersey-lawmakers-send-data-center-tariff-bill-to-governor/824191/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-07-01",
+        "excerpt": "Bill requires BPU to set standards for tariffs covering data centers of at least 50 MW, including guarantees of payment for at least 85% of requested service over 10 years."
+      },
+      {
+        "title": "Sherrill signs transmission oversight, data center affordability bills",
+        "url": "https://www.utilitydive.com/news/new-jersey-transmission-oversight-data-center-affordability-sherrill/824681/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-07-08",
+        "excerpt": "Gov. Mikie Sherrill signed the bill July 7, 2026, requiring New Jersey utilities to create tariffs for data centers larger than 50 MW, with ratepayer protections."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Term-end dates and party not on official page. Implementing BPU proceeding/utility tariff filings under the July 2026 law not verified. Senate-confirmation detail is standard NJ practice, not separately cited."
+  },
+  {
+    "state": "NM",
+    "name": "New Mexico Public Regulation Commission",
+    "url": "https://www.prc.nm.gov/",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Since 2023 (2020 constitutional amendment), three commissioners appointed by the governor with Senate consent; previously five elected by district.",
+    "commissioners": [
+      {
+        "name": "Patrick O'Connell",
+        "role": "Chair",
+        "termEnds": "2028-12-31"
+      },
+      {
+        "name": "Gabriel Aguilera",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Greg Nibert",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; open governor's race on 2026 ballot. Aguilera's four-year term began Jan. 1, 2023 (ending around Dec. 31, 2026), so the seat is filled either by the outgoing governor or by the governor elected in Nov. 2026, who takes office Jan. 1, 2027. No PRC seats are directly elected.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "Commissioner Gabriel Aguilera",
+        "url": "https://www.prc.nm.gov/learn-about-the-commissioners/commissioner-gabriel-aguilera/",
+        "publisher": "New Mexico Public Regulation Commission",
+        "kind": "official",
+        "excerpt": "Appointed by Gov. Michelle Lujan Grisham to a four-year term commencing on January 1, 2023."
+      },
+      {
+        "title": "Commissioner Pat O'Connell",
+        "url": "https://www.prc.nm.gov/learn-about-the-commissioners/commissioner-pat-oconnell/",
+        "publisher": "New Mexico Public Regulation Commission",
+        "kind": "official",
+        "excerpt": "Chair; term began January 1, 2023; six-year appointment expiring December 31, 2028."
+      },
+      {
+        "title": "Commissioner Greg Nibert",
+        "url": "https://www.prc.nm.gov/learn-about-the-commissioners/commissioner-greg-nibert/",
+        "publisher": "New Mexico Public Regulation Commission",
+        "kind": "official",
+        "excerpt": "Appointed to the New Mexico Public Regulation Commission on January 1, 2025."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Aguilera's exact term end is inferred from the official 4-year term start. Nibert's term end not stated. Selection mechanics (governor appointment with Senate consent from nominating-committee list) confirmed via secondary discovery sources only. No PRC large-load tariff identified; search was limited."
+  },
+  {
+    "state": "NV",
+    "name": "Public Utilities Commission of Nevada",
+    "url": "https://puc.nv.gov/",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Three commissioners appointed by the governor for four-year terms; no more than two from the same party (NRS 703.030).",
+    "termYears": 4,
+    "commissioners": [
+      {
+        "name": "Hayley Williamson",
+        "role": "Chair"
+      },
+      {
+        "name": "Tammy Cordova",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Randy J. Brown",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints (no legislative confirmation); governor's race on 2026 ballot (Gov. Lombardo, appointer of current terms). Term expirations not published, so the specific seats the 2026 winner will fill were not verified.",
+    "largeLoadTariff": "pending",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://puc.nv.gov/about/commission/commissioners/",
+        "publisher": "Public Utilities Commission of Nevada",
+        "kind": "official",
+        "excerpt": "Chair Hayley Williamson (reappointed chair by Gov. Lombardo in 2023); Tammy Cordova (reappointed 2024); Randy J. Brown (appointed 2023, reappointed 2025)."
+      },
+      {
+        "title": "NRS Chapter 703",
+        "url": "https://www.leg.state.nv.us/nrs/nrs-703.html",
+        "publisher": "Nevada Legislature",
+        "kind": "official",
+        "excerpt": "The Commission consists of three Commissioners appointed by the Governor for terms of 4 years. Not more than two of the Commissioners may be members of the same political party."
+      },
+      {
+        "title": "Microsoft seeks Nevada tariff to shield ratepayers from data center costs",
+        "url": "https://www.utilitydive.com/news/microsoft-seeks-nevada-tariff-to-shield-ratepayers-from-data-center-costs/822250/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-06-08",
+        "docId": "Docket No. 20-08014",
+        "excerpt": "Microsoft filed a proposed Ratepayer Protection Tariff with the PUCN in May 2026 under Docket No. 20-08014; the commission has not yet ruled."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Term-end dates not published on official page. NV Energy's separate Clean Transition Tariff (Google/Fervo, filed 2024) is a clean-supply tariff, not a large-load cost-protection tariff."
+  },
+  {
+    "state": "NY",
+    "name": "New York State Public Service Commission",
+    "url": "https://dps.ny.gov/",
+    "seats": 7,
+    "selection": "appointed",
+    "selectionDetail": "Up to seven commissioners appointed by the governor with Senate advice and consent to six-year terms; governor designates the chair.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Rory M. Christian",
+        "role": "Chair and CEO",
+        "termEnds": "2027-02-01"
+      },
+      {
+        "name": "James S. Alesi",
+        "role": "Commissioner",
+        "termEnds": "2027-02-01"
+      },
+      {
+        "name": "David J. Valesky",
+        "role": "Commissioner"
+      },
+      {
+        "name": "John B. Maggiore",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Uchenna S. Bright",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Denise M. Sheehan",
+        "role": "Commissioner"
+      },
+      {
+        "name": "Radina R. Valova",
+        "role": "Commissioner"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; governor's race and all Senate seats on 2026 ballot. Four of seven terms (Christian, Alesi, Valesky, Maggiore) expire February 2027, so the governor elected in Nov. 2026 fills or reappoints a majority of the commission.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://dps.ny.gov/dps-commissioners",
+        "publisher": "New York Department of Public Service",
+        "kind": "official",
+        "excerpt": "Christian (Chair/CEO) Feb. 1, 2027; Alesi Feb. 1, 2027; Valesky Feb. 2027; Maggiore Feb. 2027; Bright Feb. 2030; Sheehan Feb. 2030; Valova Feb. 2030."
+      },
+      {
+        "title": "About Us",
+        "url": "https://dps.ny.gov/about-us",
+        "publisher": "New York Department of Public Service",
+        "kind": "official",
+        "excerpt": "The Commission can have up to seven members appointed by the Governor and confirmed by the Senate, serving six-year terms."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Exact day not given for Valesky/Maggiore/Bright/Sheehan/Valova expirations (February of listed year). No PSC large-load/data center tariff proceeding identified in this pass; search budget was limited."
+  },
+  {
+    "state": "OH",
+    "name": "Public Utilities Commission of Ohio",
+    "url": "https://puco.ohio.gov/about-us",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints from finalists recommended by the 12-member PUCO Nominating Council (four finalists per vacancy; governor may request a new list), with advice and consent of the Ohio Senate; rotating five-year terms beginning April 11.",
+    "termYears": 5,
+    "commissioners": [
+      {
+        "name": "Jenifer French",
+        "role": "Chair",
+        "termEnds": "2029-04-10"
+      },
+      {
+        "name": "Daniel R. Conway",
+        "role": "Vice Chairman",
+        "termEnds": "2027-04-10"
+      },
+      {
+        "name": "John D. Williams",
+        "termEnds": "2028-04-10"
+      },
+      {
+        "name": "Lawrence K. Friedeman",
+        "termEnds": "2030-04-10"
+      },
+      {
+        "name": "Dennis P. Deters",
+        "termEnds": "2031-04-10"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints from Nominating Council list with Senate consent; governor's race on the 2026 ballot (Gov. DeWine cannot seek a third consecutive term). Daniel Conway's term expires 2027-04-10, so the governor elected in Nov. 2026 (taking office Jan. 2027) fills that seat from a Nominating Council list, subject to Senate confirmation. Deters was reappointed in 2026 to a term ending 2031.",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Daniel R. Conway (commissioner bio)",
+        "url": "https://puco.ohio.gov/about-us/commissioner-bios/daniel-r-conway",
+        "publisher": "Public Utilities Commission of Ohio",
+        "kind": "official",
+        "excerpt": "Term ends: April 10, 2027. Appointed by Gov. Kasich in 2017 and reappointed by Gov. DeWine in 2022. He currently serves as vice-chairman of the Commission."
+      },
+      {
+        "title": "Jenifer French (commissioner bio)",
+        "url": "https://puco.ohio.gov/about-us/commissioner-bios/jenifer-french",
+        "publisher": "Public Utilities Commission of Ohio",
+        "kind": "official",
+        "excerpt": "Term ends: April 10, 2029. Appointed and named chair by Gov. DeWine in 2021; reappointed in 2024 to a five-year term."
+      },
+      {
+        "title": "Dennis P. Deters (commissioner bio)",
+        "url": "https://puco.ohio.gov/about-us/commissioner-bios/dennis-p-deters",
+        "publisher": "Public Utilities Commission of Ohio",
+        "kind": "official",
+        "excerpt": "Term ends: April 10, 2031. Appointed by Gov. DeWine in 2019 and reappointed in 2021 and 2026."
+      },
+      {
+        "title": "PUCO Nominating Council seeks applications for PUCO commissioner position",
+        "url": "https://puco.ohio.gov/news/puco-nominating-council-2026",
+        "publisher": "Public Utilities Commission of Ohio",
+        "kind": "official",
+        "published": "2025-12-15",
+        "excerpt": "Nominating Council seeking applications \"to fill a vacancy for the term commencing on April 11, 2026 and ending on April 10, 2031.\""
+      },
+      {
+        "title": "Ohio regulators approve AEP data center interconnection rules",
+        "url": "https://www.utilitydive.com/news/Ohio-regulators-approve-aep-data-center-interconnection-rules/752690/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2025-07-10",
+        "excerpt": "PUCO unanimously approved a settlement setting terms for new data centers over 25 MW, including minimum monthly bills of at least 85% of expected demand, for up to 12 years including a 4-year ramp."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix tariff list: \"AEP Ohio Schedule DCT 24-0508-EL-ATA Approved\"."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Williams and Friedeman term-end dates are from their official PUCO bio pages (Friedeman: April 10, 2030; Williams: April 10, 2028). Party affiliations omitted: no official source reviewed (Ohio law limits partisan balance). Unscheduled vacancies could also be filled by the next governor."
+  },
+  {
+    "state": "OK",
+    "name": "Oklahoma Corporation Commission",
+    "url": "https://oklahoma.gov/occ.html",
+    "seats": 3,
+    "selection": "elected",
+    "selectionDetail": "Three commissioners elected statewide to staggered six-year terms; term limits imposed by 2010 law.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Kim David",
+        "role": "Chairman",
+        "party": "R",
+        "termEnds": "2029-01-09"
+      },
+      {
+        "name": "Brian Bingman",
+        "party": "R",
+        "termEnds": "2031-01-13"
+      },
+      {
+        "name": "Todd Hiett",
+        "party": "R",
+        "termEnds": "2027-01-11"
+      }
+    ],
+    "seatsUp2026": 1,
+    "electionMechanism": "Seats directly elected; 1 of 3 on the 2026-11-03 ballot: the open seat of term-limited Commissioner Todd Hiett (term ends 2027-01-11). Nominees are Republican state Rep. Brad Boles and Democrat Rhonda Eastman; the winner takes office in January 2027.",
+    "largeLoadTariff": "pending",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://oklahoma.gov/occ/about/commissioners.html",
+        "publisher": "Oklahoma Corporation Commission",
+        "kind": "official",
+        "excerpt": "Kim David, Chairman, term end 01/09/2029; Brian Bingman, term end 01/13/2031; Todd Hiett, term end 01/11/2027. \"Each commissioner serves staggered, six-year terms.\""
+      },
+      {
+        "title": "Who won the June primaries for Oklahoma Corporation Commission?",
+        "url": "https://tulsaflyer.org/2026/06/16/government/post/oklahoma-corporation-commission-results/",
+        "publisher": "Tulsa Flyer",
+        "kind": "journalism",
+        "published": "2026-06-16",
+        "excerpt": "\"The GOP chose state Rep. Brad Boles, R-Marlow, with a little more than 55% of the vote\"; Democrats nominated Rhonda Eastman with nearly 70%. Incumbent Todd Hiett is term-limited."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix tariff list: \"Public Service Company of Oklahoma Large Power and Light Tariff 2025-000075 Pending approval\"."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Party labels from Tulsa Flyer and other press reporting (all three sitting commissioners are Republicans), not from the OCC page. Pending status for PSO's tariff is as of LBNL's August 2026 brief; OCC docket not independently checked. Eastman has listed opposition to data centers among her priorities (Tulsa Flyer)."
+  },
+  {
+    "state": "OR",
+    "name": "Oregon Public Utility Commission",
+    "url": "https://www.oregon.gov/puc/about-us/Pages/Commissioners.aspx",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints; Senate confirms; four-year terms.",
+    "termYears": 4,
+    "commissioners": [
+      {
+        "name": "Letha Tawney",
+        "role": "Chair",
+        "termEnds": "2028-05-31"
+      },
+      {
+        "name": "Les Perkins",
+        "termEnds": "2028-02-15"
+      },
+      {
+        "name": "Karin Power",
+        "termEnds": "2029-05-20"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; governor's race on the 2026 ballot. No commissioner term expires until 2028-02-15 (Perkins), so the governor elected in Nov. 2026 would first fill a seat on schedule in 2028, unless an earlier vacancy occurs.",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://www.oregon.gov/puc/about-us/Pages/Commissioners.aspx",
+        "publisher": "Oregon Public Utility Commission",
+        "kind": "official",
+        "excerpt": "Letha Tawney, Chair: \"Second Full Term: June 1, 2024 - May 31, 2028\"; Les Perkins: \"Term: March 18, 2024 - February 15, 2028\"; Karin Power: \"Term: June 1, 2025 - May 20, 2029\"."
+      },
+      {
+        "title": "Oregon PUC approves PGE's large-load tariff framework for data centers",
+        "url": "https://www.utilitydive.com/news/oregon-puc-approves-pges-large-load-tariff-framework-for-data-centers/821361/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-05-28",
+        "docId": "UM 2377",
+        "excerpt": "Oregon regulators on May 7 approved a new large-load tariff framework (Schedule 96) for data centers exceeding 20 MW, the first major implementation of the 2025 POWER Act in PGE territory. A separate PacifiCorp proceeding remains unresolved."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix: \"Portland General Electric Schedule 96 UM 2377 Approved\"; \"PacifiCorp Schedule 401 UE 463 Pending approval\"."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Four-year term length inferred from the official term dates shown; statute not reviewed. Party affiliations not listed officially. PacifiCorp large-load tariff (UE 463) still pending as of Aug. 2026."
+  },
+  {
+    "state": "PA",
+    "name": "Pennsylvania Public Utility Commission",
+    "url": "https://www.puc.pa.gov/about-the-puc/commissioners/",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "Governor nominates; Pennsylvania Senate confirms; five-year terms expiring April 1.",
+    "termYears": 5,
+    "commissioners": [
+      {
+        "name": "Stephen M. DeFrank",
+        "role": "Chairman",
+        "termEnds": "2030-04-01"
+      },
+      {
+        "name": "Kimberly M. Barrow",
+        "role": "Vice Chair",
+        "termEnds": "2028-04-01"
+      },
+      {
+        "name": "Kathryn L. Zerfuss",
+        "termEnds": "2026-04-01"
+      },
+      {
+        "name": "John F. Coleman, Jr.",
+        "termEnds": "2027-04-01"
+      },
+      {
+        "name": "Ralph V. Yanora",
+        "termEnds": "2029-04-01"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor nominates with Senate confirmation; governor's race on the 2026 ballot. John Coleman's term expires 2027-04-01, so the governor elected in Nov. 2026 nominates that successor (Senate confirmation required; part of the Senate is also on the 2026 ballot). Kathryn Zerfuss's term expired 2026-04-01 per her official bio; whether she has been renominated was not verified, so that seat may also be filled by the current or next governor.",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://www.puc.pa.gov/about-the-puc/commissioners/",
+        "publisher": "Pennsylvania Public Utility Commission",
+        "kind": "official",
+        "excerpt": "Lists Chairman Stephen M. DeFrank, Vice Chair Kimberly M. Barrow, and Commissioners Kathryn L. Zerfuss, John F. Coleman, Jr., Ralph V. Yanora; appointed by the governor for five-year terms."
+      },
+      {
+        "title": "John F. Coleman, Jr. (commissioner bio)",
+        "url": "https://www.puc.pa.gov/about-the-puc/commissioners/john-f-coleman-jr/",
+        "publisher": "Pennsylvania Public Utility Commission",
+        "kind": "official",
+        "excerpt": "His new term expires April 1, 2027."
+      },
+      {
+        "title": "Kathryn L. Zerfuss (commissioner bio)",
+        "url": "https://www.puc.pa.gov/about-the-puc/commissioners/kathryn-l-zerfuss/",
+        "publisher": "Pennsylvania Public Utility Commission",
+        "kind": "official",
+        "excerpt": "Nominated by Gov. Wolf Sept. 20, 2022, confirmed Oct. 19, 2022. Her term will expire on April 1, 2026."
+      },
+      {
+        "title": "Pennsylvania releases first-of-its-kind large-load model tariff",
+        "url": "https://www.utilitydive.com/news/pennsylvania-releases-first-of-its-kind-large-load-model-tariff/820456/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-05-18",
+        "excerpt": "PUC released a final, nonbinding order establishing a model tariff framework for customers exceeding 50 MW individually or 100 MW in aggregate, recommending 'but for' cost assignment for upgrades."
+      },
+      {
+        "title": "PPL Electric reaches $275M rate case settlement, including data center tariff",
+        "url": "https://www.utilitydive.com/news/ppl-electric-rate-case-settlement-data-center-tariff/814760/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-03-16",
+        "excerpt": "Settlement would institute a large load tariff for customers 50 MW+ at a single facility or 75 MW+ aggregate, with 10-year minimum terms, minimum load guarantees and exit fees."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix: \"PPL Electric Rate Schedule LP-6 R-2025-3057164 Approved\"."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "DeFrank, Barrow and Yanora term ends taken from official bios. Party affiliation not listed officially. Zerfuss may be serving in holdover status after her term expired; not verified. PA PUC in Sept. 2026 also opened curtailment-rule updates and a large-load cost allocation technical conference."
+  },
+  {
+    "state": "RI",
+    "name": "Rhode Island Public Utilities Commission",
+    "url": "https://ripuc.ri.gov/",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints with advice and consent of the Senate; six-year terms commencing March 1; governor may designate chair (R.I. Gen. Laws § 39-1-4).",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Ron Gerwatowski"
+      },
+      {
+        "name": "Abigail Anthony"
+      },
+      {
+        "name": "Karen Bradbury"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate consent; governor's race on the 2026 ballot. Individual term-expiration dates were not verified, so it is unknown whether a regularly scheduled vacancy (terms begin March 1) falls to the governor elected in Nov. 2026.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "R.I. Gen. Laws § 39-1-4: Composition of commission - Terms - Vacancies",
+        "url": "http://webserver.rilegislature.gov/Statutes/TITLE39/39-1/39-1-4.htm",
+        "publisher": "Rhode Island General Assembly",
+        "kind": "official",
+        "excerpt": "Commission \"shall consist of three (3) electors... appointed by the governor with the advice and consent of the senate. The term of each commissioner shall be six (6) years.\" Successor terms commence \"on the first day of March.\""
+      },
+      {
+        "title": "Rhode Island Public Utilities Commission",
+        "url": "https://ballotpedia.org/Rhode_Island_Public_Utilities_Commission",
+        "publisher": "Ballotpedia",
+        "kind": "aggregator",
+        "excerpt": "Current officeholders: Abigail Anthony, Karen Bradbury, Ron Gerwatowski."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix list of reviewed large-load tariffs contains no Rhode Island utility."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "The official RIPUC site returned HTTP 403, so the roster comes from Ballotpedia only; chair designation and term dates not verified. No large-load tariff found in sources reviewed, but this was not checked against RIPUC dockets."
+  },
+  {
+    "state": "SC",
+    "name": "Public Service Commission of South Carolina",
+    "url": "https://psc.sc.gov/about-us/commissioners",
+    "seats": 7,
+    "selection": "legislature",
+    "selectionDetail": "Commissioners elected by the South Carolina General Assembly; one commissioner from each of the state's seven U.S. congressional districts.",
+    "commissioners": [
+      {
+        "name": "Justin T. Williams",
+        "role": "Chairman, District 6"
+      },
+      {
+        "name": "H. David Britt",
+        "role": "Vice Chair, District 4"
+      },
+      {
+        "name": "Eugene Hennelly",
+        "role": "District 1"
+      },
+      {
+        "name": "Florence P. Belser",
+        "role": "District 2"
+      },
+      {
+        "name": "Stephen \"Mike\" Caston",
+        "role": "District 3"
+      },
+      {
+        "name": "Swain Whitfield",
+        "role": "District 5"
+      },
+      {
+        "name": "Delton W. Powers, Jr.",
+        "role": "District 7"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Not directly affected by the 2026 election: commissioners are elected by the General Assembly, not voters. Indirectly, all 124 SC House seats are on the Nov. 2026 ballot (the SC Senate is not up until 2028), so House results shape the legislature that elects future commissioners. Which commissioner terms expire next was not verified.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://psc.sc.gov/about-us/commissioners",
+        "publisher": "Public Service Commission of South Carolina",
+        "kind": "official",
+        "excerpt": "Justin T. Williams--Chairman, District 6; H. David Britt--Vice Chair, District 4; ... \"There is one Commissioner from each US Congressional District.\""
+      },
+      {
+        "title": "Dominion seeks higher ROE, rate hike in South Carolina starting in July",
+        "url": "https://www.utilitydive.com/news/dominion-seeks-higher-roe-rate-hike-in-south-carolina-starting-in-july/808949/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-01-07",
+        "excerpt": "Dominion says South Carolina \"continues to be one of the nation's fastest growing\" in energy demand; PSC decision expected by July 2."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix lists Duke Energy Carolinas Schedule HLF (High Load Factor) under docket E-7 Sub 1329 as pending; that is a North Carolina docket. No South Carolina PSC docket is listed."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Term length and screening process (legislative review committee) not verified in sources reviewed, so termYears is omitted. No SC PSC-approved or pending large-load tariff found, but SC dockets were not searched directly. Santee Cooper, a state-owned utility, is largely outside PSC rate jurisdiction."
+  },
+  {
+    "state": "SD",
+    "name": "South Dakota Public Utilities Commission",
+    "url": "https://puc.sd.gov/",
+    "seats": 3,
+    "selection": "elected",
+    "selectionDetail": "Three commissioners elected statewide to staggered six-year terms; governor fills vacancies until the next election.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Chris Nelson",
+        "role": "Chairman",
+        "party": "R"
+      },
+      {
+        "name": "Kristie Fiegen",
+        "role": "Vice Chair",
+        "party": "R"
+      },
+      {
+        "name": "Gary Hanson",
+        "party": "R"
+      }
+    ],
+    "seatsUp2026": 1,
+    "electionMechanism": "Seats directly elected; 1 of 3 on the 2026-11-03 ballot: Gary Hanson's seat (elected 2020; not seeking reelection). Republican Don Haggar faces Democrat Frank Kloucek. A Kloucek win would be the first Democrat on the commission in nearly 16 years; Nelson's (2022) and Fiegen's (2024) seats are not up.",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Hanson elected chairman of South Dakota Public Utilities Commission; Fiegen takes oath for new term",
+        "url": "https://puc.sd.gov/News/2025/011425.aspx",
+        "publisher": "South Dakota Public Utilities Commission",
+        "kind": "official",
+        "published": "2025-01-14",
+        "excerpt": "Hanson, serving his fourth six-year term, was first elected in 2002 and re-elected in 2008, 2014 and 2020. Nelson re-elected to full six-year terms in 2016 and 2022. Fiegen re-elected in November and took her oath Jan. 13, 2025."
+      },
+      {
+        "title": "South Dakota PUC elects new leadership",
+        "url": "https://puc.sd.gov/News/2025/110725.aspx",
+        "publisher": "South Dakota Public Utilities Commission",
+        "kind": "official",
+        "published": "2025-11-07",
+        "excerpt": "Hanson passed the gavel; Chris Nelson became chairman and Kristie Fiegen vice chairperson."
+      },
+      {
+        "title": "South Dakota utility regulator candidates clash over AI data center pause",
+        "url": "https://southdakotasearchlight.com/2026/09/01/south-dakota-utility-regulator-candidates-clash-over-ai-data-center-pause/",
+        "publisher": "South Dakota Searchlight",
+        "kind": "journalism",
+        "published": "2026-09-01",
+        "excerpt": "Democrat Frank Kloucek proposed a one-year moratorium on new AI data centers; Republican Don Haggar called it \"reckless and pandering.\" Hanson is not seeking another term."
+      },
+      {
+        "title": "PUC candidates talk data centers and affordability in utility pricing",
+        "url": "https://www.sdpb.org/elections/2026-10-06/puc-candidates-talk-data-centers-and-affordability-in-utility-pricing",
+        "publisher": "South Dakota Public Broadcasting",
+        "kind": "journalism",
+        "published": "2026-10-06",
+        "excerpt": "Republican Don Haggar and Democrat Frank Kloucek, both former legislators, compete for one PUC seat."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix: \"Black Hills Power Economic Flexible Load Service (EFLS) EL25-019 Approved\"."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Party labels from press reporting that a Haggar win would keep Republicans in full control; not from an official PUC page. Exact term-end dates omitted. The Searchlight article URL was seen in search results but could not be fetched directly (HTTP 403); its excerpt is paraphrased from search results. Large-load status rests on LBNL listing Black Hills Power's EFLS (SD docket EL25-019) as approved; that is a flexible-load service, not a data-center-only class. The Black Hills-NorthWestern merger also requires SD PUC approval."
+  },
+  {
+    "state": "TN",
+    "name": "Tennessee Public Utility Commission",
+    "url": "https://www.tn.gov/tpuc/agency/tra-history-and-leadership.html",
+    "seats": 7,
+    "selection": "appointed",
+    "selectionDetail": "Seven part-time commissioners appointed by the governor and the legislative speakers (lieutenant governor/Senate speaker and House speaker), with one joint legislative appointment; staggered six-year terms.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Herbert H. Hilliard",
+        "role": "Chairman"
+      },
+      {
+        "name": "Clay R. Good",
+        "role": "Vice Chairman"
+      },
+      {
+        "name": "Robin L. Morrison"
+      },
+      {
+        "name": "Kenneth C. Hill"
+      },
+      {
+        "name": "David Jones"
+      },
+      {
+        "name": "John Hie"
+      },
+      {
+        "name": "Patsy Hazlewood"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Not directly elected. The governor's race is on the 2026 ballot (Gov. Lee is term-limited), so the governor elected in Nov. 2026 will fill gubernatorial seats as they come open (Jones was reappointed by Gov. Lee in 2024; Hilliard was reappointed in 2023). Legislative seats are appointed by the speakers, who are chosen by chambers whose House seats and half of whose Senate seats are on the 2026 ballot. No specific seat was verified to expire in 2027.",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "TPUC History and Leadership",
+        "url": "https://www.tn.gov/tpuc/agency/tra-history-and-leadership.html",
+        "publisher": "Tennessee Public Utility Commission",
+        "kind": "official",
+        "excerpt": "\"Today, the Commission is led by seven part-time commissioners, appointed by the governor and the legislative speakers, with one joint legislative appointment. They serve staggered six-year terms.\""
+      },
+      {
+        "title": "Commissioner David Jones",
+        "url": "https://www.tn.gov/tpuc/agency/tra-history-and-leadership/tra-director-david-jones.html",
+        "publisher": "Tennessee Public Utility Commission",
+        "kind": "official",
+        "excerpt": "Commissioner Jones was reappointed to TPUC by Governor Bill Lee in 2024."
+      },
+      {
+        "title": "Commissioner Patsy Hazlewood",
+        "url": "https://www.tn.gov/tpuc/agency/tra-history-and-leadership/commissioner-patsy-hazlewood.html",
+        "publisher": "Tennessee Public Utility Commission",
+        "kind": "official",
+        "excerpt": "Patsy Hazlewood was appointed to TPUC in 2026 by the Honorable Cameron Sexton, Speaker of the Tennessee House of Representatives."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix list of reviewed large-load tariffs contains no TPUC-regulated utility."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "TPUC's site is internally inconsistent on the chair: the leadership menu lists Herbert H. Hilliard as Chairman, while the page footer lists \"Chairman David Jones\". Term-end dates not published on bio pages. Most Tennessee electricity is supplied by TVA and its local distributors, which are outside TPUC rate jurisdiction, so TPUC has limited large-load exposure. Commissioners' party not listed."
+  },
+  {
+    "state": "TX",
+    "name": "Public Utility Commission of Texas",
+    "url": "https://www.puc.texas.gov/agency/about/commissioners/",
+    "seats": 5,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints; Texas Senate confirms; staggered six-year terms expiring September 1.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Thomas J. Gleeson",
+        "role": "Chairman"
+      },
+      {
+        "name": "Kathleen Jackson",
+        "termEnds": "2027-09-01"
+      },
+      {
+        "name": "Courtney K. Hjaltman"
+      },
+      {
+        "name": "Morgan Johnson",
+        "termEnds": "2031-09-01"
+      },
+      {
+        "name": "Patrick Rhode",
+        "termEnds": "2027-09-01"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; governor's race on the 2026 ballot. Kathleen Jackson's and Patrick Rhode's terms both expire 2027-09-01, so the governor elected in Nov. 2026 appoints (or reappoints) two of five seats in 2027, subject to Senate confirmation.",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "PUCT Commissioners",
+        "url": "https://www.puc.texas.gov/agency/about/commissioners/",
+        "publisher": "Public Utility Commission of Texas",
+        "kind": "official",
+        "excerpt": "Thomas J. Gleeson, Chairman; Kathleen Jackson, Courtney K. Hjaltman, Morgan Johnson, Patrick Rhode, Commissioners."
+      },
+      {
+        "title": "Commissioner Kathleen Jackson",
+        "url": "https://www.puc.texas.gov/agency/about/commissioners/jackson/",
+        "publisher": "Public Utility Commission of Texas",
+        "kind": "official",
+        "excerpt": "Gov. Abbott appointed Kathleen Jackson on August 5, 2022, \"for a term set to expire on September 1, 2027.\""
+      },
+      {
+        "title": "Commissioner Patrick Rhode",
+        "url": "https://www.puc.texas.gov/agency/about/commissioners/rhode/",
+        "publisher": "Public Utility Commission of Texas",
+        "kind": "official",
+        "excerpt": "Gov. Abbott appointed Patrick Rhode on April 1, 2026, \"for a term set to expire on September 1, 2027.\""
+      },
+      {
+        "title": "Commissioner Morgan Johnson",
+        "url": "https://www.puc.texas.gov/agency/about/commissioners/johnson/",
+        "publisher": "Public Utility Commission of Texas",
+        "kind": "official",
+        "excerpt": "Appointed \"for a term set to expire on September 1, 2031.\""
+      },
+      {
+        "title": "Texas PUC adopts data center interconnection rules",
+        "url": "https://www.utilitydive.com/news/texas-puc-adopts-data-center-interconnection-rules/830899/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-09-21",
+        "excerpt": "PUCT voted to adopt new large load interconnection standards, dropping a proposed non-refundable interconnection fee and setting a flat $100,000 study fee, during Texas' pause on new data center interconnections."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix: \"El Paso Electric Schedule 33A (Large Economic Development Rate) 56903 Approved\"; \"Southwestern Electric Power Company Electric Service Large Load (ES-LL) 58796 Pending approval\"."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Gleeson's and Hjaltman's term-end dates not stated on bio pages (both confirmed by the Senate May 21, 2025). Most of ERCOT is retail-competitive, so large-load terms are handled largely through PUCT rules under SB 6 (2025) rather than utility retail tariffs. Xcel's SPS has also proposed a large load tariff in Texas (Utility Dive, Feb. 2026)."
+  },
+  {
+    "state": "UT",
+    "name": "Public Service Commission of Utah",
+    "url": "https://psc.utah.gov/commissioners/",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints; Utah Senate confirms; six-year terms; governor selects the chair.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Jerry Fenn",
+        "role": "Chair"
+      },
+      {
+        "name": "David Clark"
+      },
+      {
+        "name": "John S. Harvey"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Not directly affected by 2026 election: Utah's governor is not on the 2026 ballot (next election 2028), so Gov. Cox makes upcoming appointments, including the seat of David Clark, whose additional two-year term began March 1, 2025. Utah Senate confirmation is the only indirect link (some Senate seats are on the 2026 ballot).",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://psc.utah.gov/commissioners/",
+        "publisher": "Public Service Commission of Utah",
+        "kind": "official",
+        "excerpt": "Fenn appointed by Gov. Cox March 25, 2024, confirmed April 17, 2024, named Chair; full six-year term commenced March 1, 2025. Clark began an additional two-year term March 1, 2025. Harvey appointed May 11, 2023."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix: \"PacifiCorp Large-Load Service Contract between PacifiCorp and a Large-Load Customer 26-035-05 Approved\"."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Exact term-end dates not shown on the PSC page (state boards page could not be loaded). Large-load status rests on LBNL listing an approved PacifiCorp large-load service contract (Utah docket 26-035-05). That is a contract, not a general tariff class. Utah's 2025 large-load legislation was not reviewed."
+  },
+  {
+    "state": "VA",
+    "name": "Virginia State Corporation Commission",
+    "url": "https://www.scc.virginia.gov/about-the-scc/about-the-commissioners/",
+    "seats": 3,
+    "selection": "legislature",
+    "selectionDetail": "Commissioners elected by the General Assembly for six-year terms staggered in two-year increments; chair rotates annually on February 1.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Kelsey A. Bagot",
+        "role": "Chair"
+      },
+      {
+        "name": "Jehmal T. Hudson"
+      },
+      {
+        "name": "Samuel T. Towell"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Not directly affected by 2026 election. The General Assembly elects SCC judges; Virginia's House of Delegates (and governor) were elected in Nov. 2025, and the state Senate is next elected in 2027. No Virginia legislative seats are on the Nov. 2026 ballot.",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "About the Commissioners",
+        "url": "https://www.scc.virginia.gov/about-the-scc/about-the-commissioners/",
+        "publisher": "Virginia State Corporation Commission",
+        "kind": "official",
+        "excerpt": "\"The SCC's commissioners are elected by the General Assembly for six-year terms. The terms are staggered in increments of two years.\" Bagot (current chair) and Towell elected by the General Assembly in 2024; Hudson in his second term."
+      },
+      {
+        "title": "Virginia SCC weighs Dominion data center transmission cost allocation",
+        "url": "https://www.utilitydive.com/news/virginia-scc-dominion-data-center-transmission-cost-allocation/825300/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-07-15",
+        "excerpt": "SCC may consider directly assigning higher-level transmission costs to \"Dominion's new GS-5 rate class for energy users requiring 25 MW or more\"; SCC's final order in Dominion's 2025 rate case approved creation of the GS-5 class."
+      },
+      {
+        "title": "Dominion/NextEra Merger",
+        "url": "https://www.scc.virginia.gov/about-the-scc/dominion-nextera-merger-updates/",
+        "publisher": "Virginia State Corporation Commission",
+        "kind": "official",
+        "published": "2026-09-22",
+        "docId": "PUR-2026-00112",
+        "excerpt": "Joint petition for acquisition filed July 15; public witness testimony Nov. 5, 9 and 10; evidentiary hearing begins Nov. 17."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix: \"Dominion Schedule GS-5 PUR-2025-00058 Approved\"; \"Appalachian Power Schedule L.P.S. (Large Power Service) PUR-2025-00057 Approved\"."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Commissioner term-end dates not published on the SCC page. Party not applicable (legislatively elected judges). A pending Dominion-NextEra acquisition (PUR-2026-00112) is before the SCC, with hearings in November 2026."
+  },
+  {
+    "state": "VT",
+    "name": "Vermont Public Utility Commission",
+    "url": "https://puc.vermont.gov/about-us/commissioners",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Chair nominated, appointed and confirmed in the manner of a Superior judge. For the two members, the governor submits at least five names to the Judicial Nominating Board, which reviews and recommends, and the governor appoints (30 V.S.A. § 3). Six-year terms.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Edward McNamara",
+        "role": "Chair"
+      },
+      {
+        "name": "Margaret Cheney"
+      },
+      {
+        "name": "Riley Allen"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints through the Judicial Nominating Board process; Vermont elects its governor every two years, and the governor's race is on the 2026 ballot. Riley Allen's term runs 2021-2027, so the governor elected in Nov. 2026 makes the next scheduled appointment (or reappointment).",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://puc.vermont.gov/about-us/commissioners",
+        "publisher": "Vermont Public Utility Commission",
+        "kind": "official",
+        "excerpt": "Edward McNamara, Chair, Current Term: 2024-2029; Margaret Cheney, Commissioner, Current Term: 2013-2031 (reappointed 2020 and 2025); Riley Allen, Commissioner, Current Term: 2021-2027."
+      },
+      {
+        "title": "30 V.S.A. § 3. Public Utility Commission",
+        "url": "https://legislature.vermont.gov/statutes/section/30/001/00003",
+        "publisher": "Vermont General Assembly",
+        "kind": "official",
+        "excerpt": "\"The Chair shall be nominated, appointed, and confirmed in the manner of a Superior judge.\" For members, \"The Governor shall submit at least five names of potential nominees to the Judicial Nominating Board for review.\""
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix list of reviewed large-load tariffs contains no Vermont utility."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Terms are shown by year only, so exact termEnds dates are omitted. Senate confirmation details for members were not fully read in the statute. No Vermont large-load tariff was found, but ePUC dockets were not searched."
+  },
+  {
+    "state": "WA",
+    "name": "Washington Utilities and Transportation Commission",
+    "url": "https://www.utc.wa.gov/about-us/commissioners",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints; Senate confirms; six-year terms.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Brian Rybarik",
+        "role": "Chair"
+      },
+      {
+        "name": "Ann Rendahl",
+        "termEnds": "2027-01-01"
+      },
+      {
+        "name": "Milt Doumit"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Not directly affected by 2026 election: Washington's governor is not on the 2026 ballot (Gov. Ferguson was elected in 2024), so Ann Rendahl's seat, whose term ends 2027-01-01, will be filled by Gov. Ferguson. Senate confirmation is the only indirect link (part of the state Senate is on the 2026 ballot).",
+    "largeLoadTariff": "none_known",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://www.utc.wa.gov/about-us/commissioners",
+        "publisher": "Washington Utilities and Transportation Commission",
+        "kind": "official",
+        "excerpt": "Gov. Bob Ferguson appointed Brian Rybarik chair in January 2025. Rendahl \"has been reappointed and confirmed to a second six-year term ending Jan. 1, 2027.\" Doumit appointed September 2022."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix lists \"Chelan County PUD Schedule 4 N/A Approved\". Chelan PUD is a public utility district, not a UTC-regulated investor-owned utility; no UTC-regulated utility is listed."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Rendahl's official bio says her first term ended Jan. 1, 2021 and her second ends Jan. 1, 2027. That suggests 12 years of service, but her renomination status was not checked. Large-load status: none found for UTC-jurisdictional utilities (Puget Sound Energy, Avista, PacifiCorp) in sources reviewed. UTC dockets and 2026 Washington legislation were not searched, so treat as unverified."
+  },
+  {
+    "state": "WI",
+    "name": "Public Service Commission of Wisconsin",
+    "url": "https://psc.wi.gov/Pages/AboutPSC/Commissioners.aspx",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints; State Senate confirms; staggered six-year terms; governor appoints one commissioner chairperson for a two-year term.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Summer Strand",
+        "role": "Chairperson"
+      },
+      {
+        "name": "Kristy Nieto"
+      },
+      {
+        "name": "Marcus Hawkins"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints with Senate confirmation; governor's race on the 2026 ballot. Term-expiration dates were not verified. Any seat that expires or becomes vacant after January 2027 will be filled by the governor elected in Nov. 2026, subject to confirmation by the Wisconsin Senate (half of which is on the 2026 ballot).",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Our Commissioners",
+        "url": "https://psc.wi.gov/Pages/AboutPSC/Commissioners.aspx",
+        "publisher": "Public Service Commission of Wisconsin",
+        "kind": "official",
+        "excerpt": "\"Commissioners are appointed by the Governor and confirmed by the State Senate for staggered, six-year terms.\" Strand appointed March 2, 2023 (Chairperson since Jan. 2024); Nieto appointed Feb. 3, 2024; Hawkins appointed April 8, 2024."
+      },
+      {
+        "title": "PSC Overhauls We Energies' Data Center Tariff, Makes Improvements to Protect Existing Customers",
+        "url": "https://psc.wi.gov/Documents/PressReleases/04.24.2026PressRelease.PDF",
+        "publisher": "Public Service Commission of Wisconsin",
+        "kind": "official",
+        "published": "2026-04-24",
+        "docId": "6630-TE-113",
+        "excerpt": "PSC took up We Energies' Very Large Customer (VLC) and Bespoke Resources Tariff and approved it with modifications: 15-year minimum term, eligibility threshold lowered from 500 MW to 100 MW, and removal of a capacity-only option."
+      },
+      {
+        "title": "Xcel Energy pursuing large load tariffs in 4 states amid data center growth",
+        "url": "https://www.utilitydive.com/news/xcel-energy-pursuing-large-load-tariffs-in-4-states-amid-data-center-growth/811518/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-02-06",
+        "excerpt": "Frenzel said Xcel has proposed new large load tariffs in Minnesota, Wisconsin, Colorado and Texas."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix: \"Wisconsin Power & Light (WPL) Individual Contract Rate Agreement 6680-TE-115 Approved\"."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Exact term-end dates and Senate confirmation status of each commissioner were not verified. Party not listed officially. Invenergy gas plants proposed to serve We Energies data center load are pending PSC review (Utility Dive, July 2026)."
+  },
+  {
+    "state": "WV",
+    "name": "Public Service Commission of West Virginia",
+    "url": "https://www.psc.state.wv.us/Bios/default.htm",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints with Senate confirmation; six-year terms ending June 30.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Charlotte R. Lane",
+        "role": "Chairman"
+      },
+      {
+        "name": "Renee A. Larrick",
+        "termEnds": "2029-06-30"
+      },
+      {
+        "name": "William B. Raney",
+        "termEnds": "2027-06-30"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Not directly affected by 2026 election: West Virginia's governor is not on the 2026 ballot (next in 2028). Bill Raney's term ends 2027-06-30 and will be filled by the sitting governor. Senate confirmation is the only indirect link (half the state Senate is on the 2026 ballot).",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Meet Our Chairman and Commissioners",
+        "url": "https://www.psc.state.wv.us/Bios/default.htm",
+        "publisher": "Public Service Commission of West Virginia",
+        "kind": "official",
+        "excerpt": "Lane appointed and named Chairman July 1, 2019. Larrick \"appointed to a second term that will end June 30, 2029.\" Raney \"appointed... in August 2021 to a term ending June 30, 2027.\""
+      },
+      {
+        "title": "FirstEnergy data center contracts surge 50% in Q2",
+        "url": "https://www.utilitydive.com/news/firstenergy-data-center-west-virginia-maidsville-earnings/826558/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-07-30",
+        "excerpt": "Mon Power and Potomac Edison seek PSC permission to build the Maidsville Energy Center (1,200 MW gas plus 70 MW solar), mainly for potential data center load; output may be sold under a \"fully bundled\" data center service agreement to be filed with the PSC."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix: \"Appalachian Power Large Capacity Power Service 24-0854-E-42T Approved\"."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Lane's term-end date not stated on the PSC page. Senate-confirmation requirement and six-year term length are inferred from the published term dates and general practice; statute not reviewed. Large-load status rests on LBNL listing APCo's Large Capacity Power Service (WV case 24-0854-E-42T) as approved."
+  },
+  {
+    "state": "WY",
+    "name": "Wyoming Public Service Commission",
+    "url": "https://psc.wyo.gov/about-us/commissioners",
+    "seats": 3,
+    "selection": "appointed",
+    "selectionDetail": "Governor appoints; staggered six-year terms expiring March 1.",
+    "termYears": 6,
+    "commissioners": [
+      {
+        "name": "Mike Robinson",
+        "role": "Chairman",
+        "termEnds": "2029-03-01"
+      },
+      {
+        "name": "Chris Petrie",
+        "role": "Deputy Chairman",
+        "termEnds": "2031-03-01"
+      },
+      {
+        "name": "Chris Boswell",
+        "termEnds": "2027-03-01"
+      }
+    ],
+    "seatsUp2026": 0,
+    "electionMechanism": "Governor appoints; governor's race on the 2026 ballot. Chris Boswell's term expires 2027-03-01, so the governor elected in Nov. 2026 (taking office in January 2027) fills or reappoints that seat.",
+    "largeLoadTariff": "approved",
+    "sources": [
+      {
+        "title": "Commissioners",
+        "url": "https://psc.wyo.gov/about-us/commissioners",
+        "publisher": "Wyoming Public Service Commission",
+        "kind": "official",
+        "excerpt": "Chairman Mike Robinson: Term Expires March 1, 2029. Deputy Chairman Chris Petrie: Term Expires March 1, 2031. Commissioner Chris Boswell, appointed effective Oct. 1, 2025: Term Expires March 1, 2027."
+      },
+      {
+        "title": "Electricity Rate Designs for Large Loads: Evolving Practices and Opportunities, 2026 Update (Technical Brief)",
+        "url": "https://eta-publications.lbl.gov/sites/default/files/2026-08/rate_designs_large_loads_2026.08.10.pdf",
+        "publisher": "Lawrence Berkeley National Laboratory / The Brattle Group",
+        "kind": "research",
+        "published": "2026-08-10",
+        "excerpt": "Appendix: \"Cheyenne Light Fuel and Power (CLFP) Large Power Contract Service 20003-233-ET-24 Approved\"; the CLFP tariff \"requires large-load customers to obtain certain resources\"."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Six-year term length is inferred from the published term dates. Whether Senate confirmation is required was not verified in sources reviewed. Large-load status rests on LBNL listing Cheyenne Light's Large Power Contract Service (WY docket 20003-233-ET-24) as approved. Party not listed officially."
+  }
+]

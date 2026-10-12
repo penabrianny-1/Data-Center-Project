@@ -1,0 +1,4078 @@
+[
+  {
+    "state": "AK",
+    "governor": {
+      "name": "Mike Dunleavy",
+      "party": "R",
+      "tookOffice": "2018-12-03",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Nancy Dahlstrom",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Alaska Senate",
+      "seats": {
+        "D": 9,
+        "R": 11,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 20,
+      "control": "coalition",
+      "leaders": [],
+      "seatsUp2026": 10
+    },
+    "lower": {
+      "name": "Alaska House of Representatives",
+      "seats": {
+        "D": 14,
+        "R": 21,
+        "other": 5,
+        "vacant": 0
+      },
+      "total": 40,
+      "control": "coalition",
+      "leaders": [],
+      "seatsUp2026": 40
+    },
+    "trifecta": "divided",
+    "vetoOverride": "2/3 of membership in joint session (3/4 for appropriation bills)",
+    "executivePowers": "The governor appoints the Regulatory Commission of Alaska, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Department of Commerce, Community, and Economic Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "NCSL lists both chambers as Republican by party count, but both have been organized by bipartisan majority coalitions since 2025, so control is recorded as 'coalition' and the trifecta as divided. The House 'other' seats are independents. Dunleavy is term-limited, and the 2026 race uses top-four primaries with ranked-choice voting. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "AL",
+    "governor": {
+      "name": "Kay Ivey",
+      "party": "R",
+      "tookOffice": "2017-04-10",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Will Ainsworth",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Alabama Senate",
+      "seats": {
+        "D": 8,
+        "R": 27,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 35,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Will Ainsworth",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 35
+    },
+    "lower": {
+      "name": "Alabama House of Representatives",
+      "seats": {
+        "D": 29,
+        "R": 76,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 105,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 105
+    },
+    "trifecta": "R",
+    "vetoOverride": "Majority of members elected to each house",
+    "executivePowers": "Utility regulation sits with the elected Alabama Public Service Commission, not a gubernatorial appointee board. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Alabama Department of Commerce, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "AR",
+    "governor": {
+      "name": "Sarah Huckabee Sanders",
+      "party": "R",
+      "tookOffice": "2023-01-10",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "lieutenantGovernor": {
+      "name": "Leslie Rutledge",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Arkansas Senate",
+      "seats": {
+        "D": 6,
+        "R": 28,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 35,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Leslie Rutledge",
+          "party": "R"
+        }
+      ]
+    },
+    "lower": {
+      "name": "Arkansas House of Representatives",
+      "seats": {
+        "D": 20,
+        "R": 79,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 100,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 100
+    },
+    "trifecta": "R",
+    "vetoOverride": "Majority of members elected to each house",
+    "executivePowers": "The governor appoints the Arkansas Public Service Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Arkansas Economic Development Commission, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Veto overridden by simple majority of elected members. Senate seats up in 2026 not determined. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "AZ",
+    "governor": {
+      "name": "Katie Hobbs",
+      "party": "D",
+      "tookOffice": "2023-01-02",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "upper": {
+      "name": "Arizona State Senate",
+      "seats": {
+        "D": 13,
+        "R": 17,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 30,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "Senate President",
+          "name": "Warren Petersen",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 30
+    },
+    "lower": {
+      "name": "Arizona House of Representatives",
+      "seats": {
+        "D": 27,
+        "R": 33,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 60,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "Speaker",
+          "name": "Steve Montenegro",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 60
+    },
+    "trifecta": "divided",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "Utility regulation sits with the elected Arizona Corporation Commission, so the governor does not appoint utility regulators. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Arizona Commerce Authority, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Member Roster",
+        "url": "https://www.azleg.gov/MemberRoster/",
+        "publisher": "Arizona State Legislature",
+        "kind": "official",
+        "excerpt": "Lists Senate President Warren Petersen (R) and House Speaker Steve Montenegro (R), with resignations and replacements."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Arizona has no lieutenant governor. The Secretary of State (Adrian Fontes, D) is first in line, and a lieutenant governor office is scheduled to start after the 2026 election. Roster shows a 2025 Senate vacancy (D-9) since filled and 2026 House resignations (Chaplik, Marshall); NCSL counts reflect seated members. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "CA",
+    "governor": {
+      "name": "Gavin Newsom",
+      "party": "D",
+      "tookOffice": "2019-01-07",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Eleni Kounalakis",
+      "party": "D"
+    },
+    "upper": {
+      "name": "California State Senate",
+      "seats": {
+        "D": 30,
+        "R": 10,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 40,
+      "control": "D",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Eleni Kounalakis",
+          "party": "D"
+        },
+        {
+          "role": "President pro Tempore",
+          "name": "Monique Limón",
+          "party": "D"
+        }
+      ],
+      "seatsUp2026": 20
+    },
+    "lower": {
+      "name": "California State Assembly",
+      "seats": {
+        "D": 60,
+        "R": 19,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 80,
+      "control": "D",
+      "leaders": [
+        {
+          "role": "Speaker",
+          "name": "Robert Rivas",
+          "party": "D"
+        }
+      ],
+      "seatsUp2026": 80
+    },
+    "trifecta": "D",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the California Public Utilities Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Governor's Office of Business and Economic Development (GO-Biz), which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      },
+      {
+        "title": "California State Senate",
+        "url": "https://www.senate.ca.gov/",
+        "publisher": "California State Senate",
+        "kind": "official",
+        "excerpt": "Identifies Monique Limón as Senate President pro Tempore."
+      },
+      {
+        "title": "California State Assembly",
+        "url": "https://www.assembly.ca.gov/",
+        "publisher": "California State Assembly",
+        "kind": "official",
+        "excerpt": "Identifies Robert Rivas as Speaker."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "One Assembly vacancy per NCSL. Senate even-numbered districts (20) are up in 2026. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "CO",
+    "governor": {
+      "name": "Jared Polis",
+      "party": "D",
+      "tookOffice": "2019-01-08",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Dianne Primavera",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Colorado Senate",
+      "seats": {
+        "D": 23,
+        "R": 12,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 35,
+      "control": "D",
+      "leaders": [
+        {
+          "role": "Senate President",
+          "name": "James Coleman",
+          "party": "D"
+        }
+      ],
+      "seatsUp2026": 18
+    },
+    "lower": {
+      "name": "Colorado House of Representatives",
+      "seats": {
+        "D": 43,
+        "R": 22,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 65,
+      "control": "D",
+      "leaders": [
+        {
+          "role": "Speaker",
+          "name": "Julie McCluskie",
+          "party": "D"
+        }
+      ],
+      "seatsUp2026": 65
+    },
+    "trifecta": "D",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Colorado Public Utilities Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Office of Economic Development and International Trade, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      },
+      {
+        "title": "Colorado General Assembly",
+        "url": "https://leg.colorado.gov/",
+        "publisher": "Colorado General Assembly",
+        "kind": "official",
+        "excerpt": "Names Senate President James Coleman and House Speaker Julie McCluskie."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "CT",
+    "governor": {
+      "name": "Ned Lamont",
+      "party": "D",
+      "tookOffice": "2019-01-09",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "lieutenantGovernor": {
+      "name": "Susan Bysiewicz",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Connecticut State Senate",
+      "seats": {
+        "D": 25,
+        "R": 11,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 36,
+      "control": "D",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Susan Bysiewicz",
+          "party": "D"
+        }
+      ],
+      "seatsUp2026": 36
+    },
+    "lower": {
+      "name": "Connecticut House of Representatives",
+      "seats": {
+        "D": 102,
+        "R": 49,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 151,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 151
+    },
+    "trifecta": "D",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Public Utilities Regulatory Authority, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Department of Economic and Community Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "DC",
+    "governor": {
+      "name": "Muriel Bowser",
+      "party": "D",
+      "tookOffice": "2015-01-02",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": false
+    },
+    "upper": {
+      "name": "Council of the District of Columbia",
+      "seats": {
+        "D": 11,
+        "R": 0,
+        "other": 2,
+        "vacant": 0
+      },
+      "total": 13,
+      "control": "D",
+      "seatsUp2026": 7,
+      "leaders": []
+    },
+    "lower": null,
+    "trifecta": "D",
+    "vetoOverride": "2/3 of the Council (13 members); enacted acts remain subject to congressional review",
+    "executivePowers": "The Mayor appoints Public Service Commission members with Council approval. The Mayor has line-item veto authority over budget acts. Economic development recruitment, including data center deals, runs through the Office of the Deputy Mayor for Planning and Economic Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "Councilmembers",
+        "url": "https://dccouncil.gov/councilmembers/",
+        "publisher": "Council of the District of Columbia",
+        "kind": "official",
+        "excerpt": "13 members: Chairman Phil Mendelson, four at-large members (Anita Bonds is Chair Pro Tempore), eight ward members."
+      },
+      {
+        "title": "Office of the Mayor",
+        "url": "https://mayor.dc.gov/",
+        "publisher": "Executive Office of the Mayor, District of Columbia",
+        "kind": "official",
+        "excerpt": "Identifies Muriel Bowser as Mayor."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "DC has no governor; the 'governor' field holds the elected Mayor (Muriel Bowser), who isn't seeking re-election in 2026 according to secondary sources not cited here. The upper chamber is the 13-member Council, and lower is null. Party counts (11 D, 2 independents) aren't shown on the official Council page and came from secondary sources. Seats up in 2026 (chair, 2 at-large, Wards 1, 3, 5, 6) come from secondary sources. Council leaders are omitted pending party verification. The DC 'trifecta' compares the Mayor and Council only, and Congress retains review over all DC acts."
+  },
+  {
+    "state": "DE",
+    "governor": {
+      "name": "Matt Meyer",
+      "party": "D",
+      "tookOffice": "2025-01-21",
+      "up2026": false,
+      "termLimited": false
+    },
+    "lieutenantGovernor": {
+      "name": "Kyle Evans Gay",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Delaware Senate",
+      "seats": {
+        "D": 15,
+        "R": 6,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 21,
+      "control": "D",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Kyle Evans Gay",
+          "party": "D"
+        }
+      ]
+    },
+    "lower": {
+      "name": "Delaware House of Representatives",
+      "seats": {
+        "D": 27,
+        "R": 14,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 41,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 41
+    },
+    "trifecta": "D",
+    "vetoOverride": "3/5 of members elected to each house",
+    "executivePowers": "The governor appoints the Delaware Public Service Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Delaware Division of Small Business and the Delaware Prosperity Partnership, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Number of Senate seats up in 2026 not verified. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "FL",
+    "governor": {
+      "name": "Ron DeSantis",
+      "party": "R",
+      "tookOffice": "2019-01-08",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Jay Collins",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Florida Senate",
+      "seats": {
+        "D": 12,
+        "R": 26,
+        "other": 1,
+        "vacant": 1
+      },
+      "total": 40,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "Senate President",
+          "name": "Ben Albritton",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 20
+    },
+    "lower": {
+      "name": "Florida House of Representatives",
+      "seats": {
+        "D": 34,
+        "R": 82,
+        "other": 0,
+        "vacant": 4
+      },
+      "total": 120,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 120
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Florida Public Service Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Florida Department of Commerce, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      },
+      {
+        "title": "The Florida Senate",
+        "url": "https://www.flsenate.gov/",
+        "publisher": "Florida Senate",
+        "kind": "official",
+        "excerpt": "Lists Ben Albritton as Senate President."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Senate 'other' is an independent. 1 Senate and 4 House vacancies per NCSL. Secondary sources conflict on the House Speaker (Daniel Perez vs. an acting Speaker since August 2026), and this wasn't confirmed on an official site, so House leaders are omitted. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "GA",
+    "governor": {
+      "name": "Brian Kemp",
+      "party": "R",
+      "tookOffice": "2019-01-14",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Burt Jones",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Georgia State Senate",
+      "seats": {
+        "D": 22,
+        "R": 33,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 56,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Burt Jones",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 56
+    },
+    "lower": {
+      "name": "Georgia House of Representatives",
+      "seats": {
+        "D": 80,
+        "R": 99,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 180,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 180
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "Utility regulation sits with the elected Georgia Public Service Commission, so the governor does not appoint utility regulators. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Georgia Department of Economic Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "One vacancy in each chamber per NCSL. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "HI",
+    "governor": {
+      "name": "Josh Green",
+      "party": "D",
+      "tookOffice": "2022-12-05",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "lieutenantGovernor": {
+      "name": "Keith Regan (acting)",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Hawaii Senate",
+      "seats": {
+        "D": 22,
+        "R": 3,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 25,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 13
+    },
+    "lower": {
+      "name": "Hawaii House of Representatives",
+      "seats": {
+        "D": 41,
+        "R": 10,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 51,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 51
+    },
+    "trifecta": "D",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Hawaii Public Utilities Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Department of Business, Economic Development and Tourism, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "NLGA lists Keith Regan as Acting Lieutenant Governor; secondary sources say elected Lt. Gov. Sylvia Luke is on leave. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "IA",
+    "governor": {
+      "name": "Kim Reynolds",
+      "party": "R",
+      "tookOffice": "2017-05-24",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Chris Cournoyer",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Iowa Senate",
+      "seats": {
+        "D": 17,
+        "R": 32,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 50,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 25
+    },
+    "lower": {
+      "name": "Iowa House of Representatives",
+      "seats": {
+        "D": 33,
+        "R": 67,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 100,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 100
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Iowa Utilities Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Iowa Economic Development Authority, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Reynolds is retiring. One Senate vacancy per NCSL. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "ID",
+    "governor": {
+      "name": "Brad Little",
+      "party": "R",
+      "tookOffice": "2019-01-07",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "lieutenantGovernor": {
+      "name": "Scott Bedke",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Idaho Senate",
+      "seats": {
+        "D": 6,
+        "R": 29,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 35,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Scott Bedke",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 35
+    },
+    "lower": {
+      "name": "Idaho House of Representatives",
+      "seats": {
+        "D": 9,
+        "R": 61,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 70,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 70
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Idaho Public Utilities Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Idaho Department of Commerce, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "IL",
+    "governor": {
+      "name": "JB Pritzker",
+      "party": "D",
+      "tookOffice": "2019-01-14",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "lieutenantGovernor": {
+      "name": "Juliana Stratton",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Illinois Senate",
+      "seats": {
+        "D": 40,
+        "R": 19,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 59,
+      "control": "D",
+      "leaders": []
+    },
+    "lower": {
+      "name": "Illinois House of Representatives",
+      "seats": {
+        "D": 78,
+        "R": 40,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 118,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 118
+    },
+    "trifecta": "D",
+    "vetoOverride": "3/5 of members elected to each house (simple majority for reduction vetoes)",
+    "executivePowers": "The governor appoints the Illinois Commerce Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Department of Commerce and Economic Opportunity, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Senate seats up in 2026 vary under the 2-4-4 term cycle and weren't verified. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "IN",
+    "governor": {
+      "name": "Mike Braun",
+      "party": "R",
+      "tookOffice": "2025-01-13",
+      "up2026": false,
+      "termLimited": false
+    },
+    "lieutenantGovernor": {
+      "name": "Micah Beckwith",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Indiana Senate",
+      "seats": {
+        "D": 10,
+        "R": 40,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 50,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Micah Beckwith",
+          "party": "R"
+        }
+      ]
+    },
+    "lower": {
+      "name": "Indiana House of Representatives",
+      "seats": {
+        "D": 30,
+        "R": 69,
+        "other": 1,
+        "vacant": 0
+      },
+      "total": 100,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 100
+    },
+    "trifecta": "R",
+    "vetoOverride": "Majority of members elected to each house",
+    "executivePowers": "The governor appoints the Indiana Utility Regulatory Commission, which sets the rates and large-load terms that apply to data centers. The governor has no line-item veto, so incentive or appropriation provisions can't be struck individually. Economic development recruitment, including data center deals, runs through the Indiana Economic Development Corporation, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "House 'other' is one independent. Indiana's governor has no line-item veto and vetoes can be overridden by simple majority. Senate seats up in 2026 (about half) not verified. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "KS",
+    "governor": {
+      "name": "Laura Kelly",
+      "party": "D",
+      "tookOffice": "2019-01-14",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "David Toland",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Kansas Senate",
+      "seats": {
+        "D": 9,
+        "R": 31,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 40,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 0
+    },
+    "lower": {
+      "name": "Kansas House of Representatives",
+      "seats": {
+        "D": 37,
+        "R": 88,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 125,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 125
+    },
+    "trifecta": "divided",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Kansas Corporation Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Kansas Department of Commerce, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Kansas Senate (4-year terms) isn't up until 2028; only the House is up in 2026. Republican supermajorities have overridden Kelly's vetoes. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "KY",
+    "governor": {
+      "name": "Andy Beshear",
+      "party": "D",
+      "tookOffice": "2019-12-10",
+      "up2026": false,
+      "termLimited": true
+    },
+    "lieutenantGovernor": {
+      "name": "Jacqueline Coleman",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Kentucky Senate",
+      "seats": {
+        "D": 6,
+        "R": 32,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 38,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 19
+    },
+    "lower": {
+      "name": "Kentucky House of Representatives",
+      "seats": {
+        "D": 20,
+        "R": 80,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 100,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 100
+    },
+    "trifecta": "divided",
+    "vetoOverride": "Majority of members elected to each house",
+    "executivePowers": "The governor appoints the Kentucky Public Service Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Cabinet for Economic Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "No 2026 gubernatorial election (next in 2027). Vetoes are overridden by simple majority. Odd-numbered Senate districts (19) are up. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "LA",
+    "governor": {
+      "name": "Jeff Landry",
+      "party": "R",
+      "tookOffice": "2024-01-08",
+      "up2026": false,
+      "termLimited": false
+    },
+    "lieutenantGovernor": {
+      "name": "Billy Nungesser",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Louisiana State Senate",
+      "seats": {
+        "D": 10,
+        "R": 28,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 39,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 0
+    },
+    "lower": {
+      "name": "Louisiana House of Representatives",
+      "seats": {
+        "D": 32,
+        "R": 72,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 105,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 0
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "Utility regulation sits with the elected Louisiana Public Service Commission, so the governor does not appoint utility regulators. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Louisiana Economic Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "No regular legislative or gubernatorial elections in November 2026 (legislature next elected 2027). One vacancy in each chamber per NCSL. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "MA",
+    "governor": {
+      "name": "Maura Healey",
+      "party": "D",
+      "tookOffice": "2023-01-05",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "lieutenantGovernor": {
+      "name": "Kim Driscoll",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Massachusetts Senate",
+      "seats": {
+        "D": 35,
+        "R": 5,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 40,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 40
+    },
+    "lower": {
+      "name": "Massachusetts House of Representatives",
+      "seats": {
+        "D": 131,
+        "R": 25,
+        "other": 1,
+        "vacant": 3
+      },
+      "total": 160,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 160
+    },
+    "trifecta": "D",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Department of Public Utilities, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Executive Office of Economic Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "House: 1 independent and 3 vacancies per NCSL. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "MD",
+    "governor": {
+      "name": "Wes Moore",
+      "party": "D",
+      "tookOffice": "2023-01-18",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "lieutenantGovernor": {
+      "name": "Aruna Miller",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Maryland Senate",
+      "seats": {
+        "D": 34,
+        "R": 13,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 47,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 47
+    },
+    "lower": {
+      "name": "Maryland House of Delegates",
+      "seats": {
+        "D": 102,
+        "R": 39,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 141,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 141
+    },
+    "trifecta": "D",
+    "vetoOverride": "3/5 of members elected to each house",
+    "executivePowers": "The governor appoints the Maryland Public Service Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Maryland Department of Commerce, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Override threshold 3/5 of elected members. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "ME",
+    "governor": {
+      "name": "Janet Mills",
+      "party": "D",
+      "tookOffice": "2019-01-02",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "upper": {
+      "name": "Maine Senate",
+      "seats": {
+        "D": 20,
+        "R": 14,
+        "other": 1,
+        "vacant": 0
+      },
+      "total": 35,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 35
+    },
+    "lower": {
+      "name": "Maine House of Representatives",
+      "seats": {
+        "D": 75,
+        "R": 73,
+        "other": 3,
+        "vacant": 0
+      },
+      "total": 151,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 151
+    },
+    "trifecta": "D",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Maine Public Utilities Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Department of Economic and Community Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Maine has no lieutenant governor; the Senate President (Mattie Daughtry, D) is first in line. House Democrats hold a 75-seat plurality of 151 (3 independents/other) and organize the chamber; NCSL classifies the legislature as split, while this record treats the House as D-controlled and the state as a D trifecta. Senate 'other' is one independent. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "MI",
+    "governor": {
+      "name": "Gretchen Whitmer",
+      "party": "D",
+      "tookOffice": "2019-01-01",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Garlin Gilchrist",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Michigan Senate",
+      "seats": {
+        "D": 20,
+        "R": 18,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 38,
+      "control": "D",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Garlin Gilchrist",
+          "party": "D"
+        }
+      ],
+      "seatsUp2026": 38
+    },
+    "lower": {
+      "name": "Michigan House of Representatives",
+      "seats": {
+        "D": 52,
+        "R": 58,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 110,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 110
+    },
+    "trifecta": "divided",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Michigan Public Service Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Michigan Economic Development Corporation, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Divided government: Democratic Senate (20-18), Republican House (58-52). Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "MN",
+    "governor": {
+      "name": "Tim Walz",
+      "party": "D",
+      "tookOffice": "2019-01-07",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Peggy Flanagan",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Minnesota Senate",
+      "seats": {
+        "D": 34,
+        "R": 33,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 67,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 67
+    },
+    "lower": {
+      "name": "Minnesota House of Representatives",
+      "seats": {
+        "D": 67,
+        "R": 66,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 134,
+      "control": "split",
+      "leaders": [],
+      "seatsUp2026": 134
+    },
+    "trifecta": "divided",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Minnesota Public Utilities Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Department of Employment and Economic Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      },
+      {
+        "title": "Minnesota House of Representatives",
+        "url": "http://www.house.mn.gov/",
+        "publisher": "Minnesota House of Representatives",
+        "kind": "official",
+        "excerpt": "Posts the 2025 Power Sharing Resolution; June 15, 2026 Session Daily reports Rep. Joe Schomacker announced his resignation."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The House is organized under a 2025 power-sharing resolution, and NCSL shows 67 DFL, 66 R and 1 vacancy (the official House site reports Rep. Joe Schomacker's June 2026 resignation announcement, though its member list still shows 67-67). Control is recorded as 'split'. Walz isn't seeking re-election. DFL is recorded as D. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "MO",
+    "governor": {
+      "name": "Mike Kehoe",
+      "party": "R",
+      "tookOffice": "2025-01-13",
+      "up2026": false,
+      "termLimited": false
+    },
+    "lieutenantGovernor": {
+      "name": "David Wasinger",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Missouri Senate",
+      "seats": {
+        "D": 10,
+        "R": 23,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 34,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "David Wasinger",
+          "party": "R"
+        }
+      ]
+    },
+    "lower": {
+      "name": "Missouri House of Representatives",
+      "seats": {
+        "D": 52,
+        "R": 105,
+        "other": 0,
+        "vacant": 6
+      },
+      "total": 163,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 163
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Missouri Public Service Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Department of Economic Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "One Senate and 6 House vacancies per NCSL. Senate seats up in 2026 not verified. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "MS",
+    "governor": {
+      "name": "Tate Reeves",
+      "party": "R",
+      "tookOffice": "2020-01-14",
+      "up2026": false,
+      "termLimited": true
+    },
+    "lieutenantGovernor": {
+      "name": "Delbert Hosemann",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Mississippi State Senate",
+      "seats": {
+        "D": 18,
+        "R": 34,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 52,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Delbert Hosemann",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 0
+    },
+    "lower": {
+      "name": "Mississippi House of Representatives",
+      "seats": {
+        "D": 41,
+        "R": 77,
+        "other": 2,
+        "vacant": 2
+      },
+      "total": 122,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 0
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "Utility regulation sits with the elected Mississippi Public Service Commission, so the governor does not appoint utility regulators. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Mississippi Development Authority, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "No regular legislative or gubernatorial elections in November 2026. House: 2 independents and 2 vacancies per NCSL. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "MT",
+    "governor": {
+      "name": "Greg Gianforte",
+      "party": "R",
+      "tookOffice": "2021-01-04",
+      "up2026": false,
+      "termLimited": true
+    },
+    "lieutenantGovernor": {
+      "name": "Kristen Juras",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Montana Senate",
+      "seats": {
+        "D": 18,
+        "R": 32,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 50,
+      "control": "R",
+      "leaders": []
+    },
+    "lower": {
+      "name": "Montana House of Representatives",
+      "seats": {
+        "D": 42,
+        "R": 58,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 100,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 100
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "Utility regulation sits with the elected Montana Public Service Commission, so the governor does not appoint utility regulators. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Montana Department of Commerce, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "No 2026 gubernatorial election. Senate seats up in 2026 not verified. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "NC",
+    "governor": {
+      "name": "Josh Stein",
+      "party": "D",
+      "tookOffice": "2025-01-01",
+      "up2026": false,
+      "termLimited": false
+    },
+    "lieutenantGovernor": {
+      "name": "Rachel Hunt",
+      "party": "D"
+    },
+    "upper": {
+      "name": "North Carolina Senate",
+      "seats": {
+        "D": 20,
+        "R": 29,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 50,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Rachel Hunt",
+          "party": "D"
+        }
+      ],
+      "seatsUp2026": 50
+    },
+    "lower": {
+      "name": "North Carolina House of Representatives",
+      "seats": {
+        "D": 47,
+        "R": 71,
+        "other": 2,
+        "vacant": 0
+      },
+      "total": 120,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 120
+    },
+    "trifecta": "divided",
+    "vetoOverride": "3/5 of members present and voting in each house",
+    "executivePowers": "The governor appoints North Carolina Utilities Commission members subject to General Assembly confirmation. The governor has no line-item veto, so incentive or appropriation provisions can't be struck individually. Economic development recruitment, including data center deals, runs through the North Carolina Department of Commerce, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "House 'other' = 2 unaffiliated members, plus 1 Senate vacancy per NCSL. Vetoes are overridden by 3/5 of those present and voting, and Republicans sit near the threshold in the House. North Carolina's governor has no line-item veto. Legislative changes in 2023-24 shifted some appointment powers away from the governor, which wasn't detailed here. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "ND",
+    "governor": {
+      "name": "Kelly Armstrong",
+      "party": "R",
+      "tookOffice": "2024-12-15",
+      "up2026": false,
+      "termLimited": false
+    },
+    "lieutenantGovernor": {
+      "name": "Michelle Strinden",
+      "party": "R"
+    },
+    "upper": {
+      "name": "North Dakota Senate",
+      "seats": {
+        "D": 5,
+        "R": 42,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 47,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Michelle Strinden",
+          "party": "R"
+        }
+      ]
+    },
+    "lower": {
+      "name": "North Dakota House of Representatives",
+      "seats": {
+        "D": 11,
+        "R": 83,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 94,
+      "control": "R",
+      "leaders": []
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "Utility regulation sits with the elected North Dakota Public Service Commission, so the governor does not appoint utility regulators. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the North Dakota Department of Commerce, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Numbers of Senate and House seats up in 2026 weren't verified (staggered 4-year terms). Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "NE",
+    "governor": {
+      "name": "Jim Pillen",
+      "party": "R",
+      "tookOffice": "2023-01-05",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "lieutenantGovernor": {
+      "name": "Joe Kelly",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Nebraska Legislature (unicameral)",
+      "seats": {
+        "D": 15,
+        "R": 33,
+        "other": 1,
+        "vacant": 0
+      },
+      "total": 49,
+      "control": "nonpartisan",
+      "seatsUp2026": 24,
+      "leaders": [
+        {
+          "role": "President of the Legislature (Lt. Gov.)",
+          "name": "Joe Kelly",
+          "party": "R"
+        }
+      ]
+    },
+    "lower": null,
+    "trifecta": "R",
+    "vetoOverride": "3/5 of members (30 of 49)",
+    "executivePowers": "Retail electricity is supplied by public power districts and the Public Service Commission is elected, so the governor has little direct control over utility rates. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Department of Economic Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The unicameral Legislature is officially nonpartisan, and NCSL reports all 49 seats as nonpartisan. By party registration, secondary sources count about 33 R, 15 D and 1 independent, which is what the seat counts here reflect (other = 1). Leaders are omitted because they weren't verified officially. 24 seats are up in 2026. The trifecta is recorded as R on a registration basis, while NCSL doesn't classify Nebraska. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "NH",
+    "governor": {
+      "name": "Kelly Ayotte",
+      "party": "R",
+      "tookOffice": "2025-01-09",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "upper": {
+      "name": "New Hampshire Senate",
+      "seats": {
+        "D": 8,
+        "R": 16,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 24,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "Senate President",
+          "name": "Sharon Carson",
+          "party": "R"
+        },
+        {
+          "role": "Majority Leader",
+          "name": "Regina Birdsell",
+          "party": "R"
+        },
+        {
+          "role": "President Pro Tempore",
+          "name": "Daryl Abbas",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 24
+    },
+    "lower": {
+      "name": "New Hampshire House of Representatives",
+      "seats": {
+        "D": 169,
+        "R": 212,
+        "other": 1,
+        "vacant": 18
+      },
+      "total": 400,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 400
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the New Hampshire Public Utilities Commission, which sets the rates and large-load terms that apply to data centers. The governor has no line-item veto, so incentive or appropriation provisions can't be struck individually. Economic development recruitment, including data center deals, runs through the Department of Business and Economic Affairs, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Senate Leadership",
+        "url": "https://gc.nh.gov/senate/members/leadership.aspx",
+        "publisher": "New Hampshire General Court",
+        "kind": "official",
+        "excerpt": "Senate President Sharon Carson (R), Majority Leader Regina Birdsell (R), President Pro Tempore Daryl Abbas (R)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "No lieutenant governor; the Senate President is first in line. NCSL shows 18 House vacancies (169 D, 212 R, 1 other), and secondary sources give different counts, so treat the House figures as approximate. New Hampshire's governor has no line-item veto. Two-year gubernatorial terms. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "NJ",
+    "governor": {
+      "name": "Mikie Sherrill",
+      "party": "D",
+      "tookOffice": "2026-01-20",
+      "up2026": false,
+      "termLimited": false
+    },
+    "upper": {
+      "name": "New Jersey Senate",
+      "seats": {
+        "D": 25,
+        "R": 15,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 40,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 0
+    },
+    "lower": {
+      "name": "New Jersey General Assembly",
+      "seats": {
+        "D": 57,
+        "R": 23,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 80,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 0
+    },
+    "trifecta": "D",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Board of Public Utilities, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the New Jersey Economic Development Authority, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "NLGA lists the lieutenant governor office as vacant. No legislative or gubernatorial elections in November 2026 (next legislative elections 2027). Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "NM",
+    "governor": {
+      "name": "Michelle Lujan Grisham",
+      "party": "D",
+      "tookOffice": "2019-01-01",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Howie Morales",
+      "party": "D"
+    },
+    "upper": {
+      "name": "New Mexico Senate",
+      "seats": {
+        "D": 26,
+        "R": 16,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 42,
+      "control": "D",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Howie Morales",
+          "party": "D"
+        }
+      ],
+      "seatsUp2026": 0
+    },
+    "lower": {
+      "name": "New Mexico House of Representatives",
+      "seats": {
+        "D": 42,
+        "R": 26,
+        "other": 0,
+        "vacant": 2
+      },
+      "total": 70,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 70
+    },
+    "trifecta": "D",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the three-member Public Regulation Commission from a nominating-committee list. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Economic Development Department, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Senate (4-year terms) isn't up until 2028. Two House vacancies per NCSL. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "NV",
+    "governor": {
+      "name": "Joe Lombardo",
+      "party": "R",
+      "tookOffice": "2023-01-02",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "lieutenantGovernor": {
+      "name": "Stavros Anthony",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Nevada Senate",
+      "seats": {
+        "D": 13,
+        "R": 8,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 21,
+      "control": "D",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Stavros Anthony",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 10
+    },
+    "lower": {
+      "name": "Nevada Assembly",
+      "seats": {
+        "D": 27,
+        "R": 15,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 42,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 42
+    },
+    "trifecta": "divided",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Public Utilities Commission of Nevada, which sets the rates and large-load terms that apply to data centers. The governor has no line-item veto, so incentive or appropriation provisions can't be struck individually. Economic development recruitment, including data center deals, runs through the Governor's Office of Economic Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Divided government (R governor, D legislature). Nevada's governor has no line-item veto. 10 Senate seats are up in 2026 (11 were elected in 2024). Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "NY",
+    "governor": {
+      "name": "Kathy Hochul",
+      "party": "D",
+      "tookOffice": "2021-08-24",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "lieutenantGovernor": {
+      "name": "Antonio Delgado",
+      "party": "D"
+    },
+    "upper": {
+      "name": "New York State Senate",
+      "seats": {
+        "D": 40,
+        "R": 22,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 63,
+      "control": "D",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Antonio Delgado",
+          "party": "D"
+        }
+      ],
+      "seatsUp2026": 63
+    },
+    "lower": {
+      "name": "New York State Assembly",
+      "seats": {
+        "D": 103,
+        "R": 47,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 150,
+      "control": "D",
+      "leaders": [
+        {
+          "role": "Speaker",
+          "name": "Carl E. Heastie",
+          "party": "D"
+        }
+      ],
+      "seatsUp2026": 150
+    },
+    "trifecta": "D",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Public Service Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Empire State Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      },
+      {
+        "title": "New York State Assembly",
+        "url": "https://nyassembly.gov/",
+        "publisher": "New York State Assembly",
+        "kind": "official",
+        "excerpt": "Identifies Carl E. Heastie as Speaker."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "One Senate vacancy per NCSL. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "OH",
+    "governor": {
+      "name": "Mike DeWine",
+      "party": "R",
+      "tookOffice": "2019-01-14",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Jim Tressel",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Ohio Senate",
+      "seats": {
+        "D": 9,
+        "R": 23,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 33,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 17
+    },
+    "lower": {
+      "name": "Ohio House of Representatives",
+      "seats": {
+        "D": 34,
+        "R": 65,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 99,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 99
+    },
+    "trifecta": "R",
+    "vetoOverride": "3/5 of members elected to each house",
+    "executivePowers": "The governor appoints the Public Utilities Commission of Ohio, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Department of Development (with the private nonprofit JobsOhio), which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "One Senate vacancy per NCSL. Odd-numbered Senate districts (17) are up. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "OK",
+    "governor": {
+      "name": "Kevin Stitt",
+      "party": "R",
+      "tookOffice": "2019-01-14",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Matt Pinnell",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Oklahoma Senate",
+      "seats": {
+        "D": 8,
+        "R": 40,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 48,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Matt Pinnell",
+          "party": "R"
+        }
+      ]
+    },
+    "lower": {
+      "name": "Oklahoma House of Representatives",
+      "seats": {
+        "D": 19,
+        "R": 81,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 101,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 101
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "Utility regulation sits with the elected Oklahoma Corporation Commission, so the governor does not appoint utility regulators. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Oklahoma Department of Commerce, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "One House vacancy per NCSL. Senate seats up in 2026 (about half) not verified. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "OR",
+    "governor": {
+      "name": "Tina Kotek",
+      "party": "D",
+      "tookOffice": "2023-01-09",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "upper": {
+      "name": "Oregon State Senate",
+      "seats": {
+        "D": 18,
+        "R": 12,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 30,
+      "control": "D",
+      "leaders": []
+    },
+    "lower": {
+      "name": "Oregon House of Representatives",
+      "seats": {
+        "D": 37,
+        "R": 23,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 60,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 60
+    },
+    "trifecta": "D",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Oregon Public Utility Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Business Oregon, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Oregon has no lieutenant governor; the Secretary of State (Tobias Read, D) is first in line. Senate seats up in 2026 not verified. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "PA",
+    "governor": {
+      "name": "Josh Shapiro",
+      "party": "D",
+      "tookOffice": "2023-01-17",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "lieutenantGovernor": {
+      "name": "Austin Davis",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Pennsylvania State Senate",
+      "seats": {
+        "D": 23,
+        "R": 27,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 50,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Austin Davis",
+          "party": "D"
+        }
+      ],
+      "seatsUp2026": 25
+    },
+    "lower": {
+      "name": "Pennsylvania House of Representatives",
+      "seats": {
+        "D": 102,
+        "R": 100,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 203,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 203
+    },
+    "trifecta": "divided",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Pennsylvania Public Utility Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Department of Community and Economic Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      },
+      {
+        "title": "Senate Members",
+        "url": "https://www.palegis.us/senate/members",
+        "publisher": "Pennsylvania General Assembly",
+        "kind": "official",
+        "excerpt": "Lists 27 Republicans and 23 Democrats."
+      },
+      {
+        "title": "House Members",
+        "url": "https://www.palegis.us/house/members",
+        "publisher": "Pennsylvania General Assembly",
+        "kind": "official",
+        "excerpt": "Member list shows 103 Democrats and 100 Republicans."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Conflict: NCSL (Oct 6, 2026) shows the House at 102 D, 100 R and 1 vacancy, while the official member list shows 103 D and 100 R. NCSL figures are used. Senate 27 R-23 D matches the official list. 25 even-numbered Senate districts are up. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "RI",
+    "governor": {
+      "name": "Dan McKee",
+      "party": "D",
+      "tookOffice": "2021-03-02",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Sabina Matos",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Rhode Island Senate",
+      "seats": {
+        "D": 34,
+        "R": 4,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 38,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 38
+    },
+    "lower": {
+      "name": "Rhode Island House of Representatives",
+      "seats": {
+        "D": 64,
+        "R": 10,
+        "other": 1,
+        "vacant": 0
+      },
+      "total": 75,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 75
+    },
+    "trifecta": "D",
+    "vetoOverride": "3/5 of members present in each house",
+    "executivePowers": "The governor appoints the Rhode Island Public Utilities Commission, which sets the rates and large-load terms that apply to data centers. The governor has no line-item veto, so incentive or appropriation provisions can't be struck individually. Economic development recruitment, including data center deals, runs through the Rhode Island Commerce Corporation, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      },
+      {
+        "title": "Rhode Island Governor Primary Election 2026 Live Results",
+        "url": "https://www.nbcnews.com/politics/2026-primary-elections/rhode-island-governor-results",
+        "publisher": "NBC News",
+        "kind": "journalism",
+        "excerpt": "Helena Foulkes wins the Rhode Island Democratic primary, 62.5% to incumbent Daniel McKee's 37.5%."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "McKee lost the September 2026 Democratic primary to Helena Foulkes (NBC News: 62.5%-37.5%), so he won't be on the November ballot. Rhode Island's governor has no line-item veto. House 'other' is 1 independent. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "SC",
+    "governor": {
+      "name": "Henry McMaster",
+      "party": "R",
+      "tookOffice": "2017-01-24",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Pamela Evette",
+      "party": "R"
+    },
+    "upper": {
+      "name": "South Carolina Senate",
+      "seats": {
+        "D": 12,
+        "R": 34,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 46,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 0
+    },
+    "lower": {
+      "name": "South Carolina House of Representatives",
+      "seats": {
+        "D": 35,
+        "R": 89,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 124,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 124
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "Public Service Commission members are elected by the General Assembly from a screened slate rather than appointed by the governor. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the South Carolina Department of Commerce, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Senate (4-year terms) isn't up until 2028. Public Service Commission members are elected by the General Assembly. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "SD",
+    "governor": {
+      "name": "Larry Rhoden",
+      "party": "R",
+      "tookOffice": "2025-01-25",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "lieutenantGovernor": {
+      "name": "Tony Venhuizen",
+      "party": "R"
+    },
+    "upper": {
+      "name": "South Dakota Senate",
+      "seats": {
+        "D": 3,
+        "R": 32,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 35,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Tony Venhuizen",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 35
+    },
+    "lower": {
+      "name": "South Dakota House of Representatives",
+      "seats": {
+        "D": 5,
+        "R": 65,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 70,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 70
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "Utility regulation sits with the elected South Dakota Public Utilities Commission, so the governor does not appoint utility regulators. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Governor's Office of Economic Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Rhoden became governor in January 2025, completing Kristi Noem's term, and is seeking a full term. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "TN",
+    "governor": {
+      "name": "Bill Lee",
+      "party": "R",
+      "tookOffice": "2019-01-19",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Randy McNally",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Tennessee Senate",
+      "seats": {
+        "D": 6,
+        "R": 27,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 33,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "Lieutenant Governor and Speaker of the Senate",
+          "name": "Randy McNally",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 17
+    },
+    "lower": {
+      "name": "Tennessee House of Representatives",
+      "seats": {
+        "D": 24,
+        "R": 75,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 99,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 99
+    },
+    "trifecta": "R",
+    "vetoOverride": "Majority of members elected to each house (constitutional majority)",
+    "executivePowers": "Tennessee Public Utility Commission members are appointed by the governor and legislative leaders, so the governor controls only part of the commission. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Department of Economic and Community Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Lt. Gov. Randy McNally is elected by the Senate as its Speaker. Odd-numbered Senate districts (17) are up. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "TX",
+    "governor": {
+      "name": "Greg Abbott",
+      "party": "R",
+      "tookOffice": "2015-01-20",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "lieutenantGovernor": {
+      "name": "Dan Patrick",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Texas Senate",
+      "seats": {
+        "D": 12,
+        "R": 18,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 31,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Dan Patrick",
+          "party": "R"
+        }
+      ]
+    },
+    "lower": {
+      "name": "Texas House of Representatives",
+      "seats": {
+        "D": 62,
+        "R": 87,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 150,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "Speaker",
+          "name": "Dustin Burrows",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 150
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Public Utility Commission of Texas (Senate confirmation), which oversees ERCOT; the separately elected Railroad Commission regulates oil and gas. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Office of the Governor's Economic Development and Tourism division, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      },
+      {
+        "title": "Texas House of Representatives",
+        "url": "https://house.texas.gov/",
+        "publisher": "Texas House of Representatives",
+        "kind": "official",
+        "excerpt": "Identifies Speaker of the House Dustin Burrows (89th Legislature)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "One vacancy in each chamber per NCSL. Senate seats up in 2026 not verified. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "UT",
+    "governor": {
+      "name": "Spencer Cox",
+      "party": "R",
+      "tookOffice": "2021-01-04",
+      "up2026": false,
+      "termLimited": false
+    },
+    "lieutenantGovernor": {
+      "name": "Deidre Henderson",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Utah State Senate",
+      "seats": {
+        "D": 6,
+        "R": 22,
+        "other": 1,
+        "vacant": 0
+      },
+      "total": 29,
+      "control": "R",
+      "leaders": []
+    },
+    "lower": {
+      "name": "Utah House of Representatives",
+      "seats": {
+        "D": 14,
+        "R": 61,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 75,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 75
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Utah Public Service Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Governor's Office of Economic Opportunity, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Senate 'other' is one Forward Party member. No 2026 gubernatorial election. Senate seats up in 2026 not verified. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "VA",
+    "governor": {
+      "name": "Abigail Spanberger",
+      "party": "D",
+      "tookOffice": "2026-01-17",
+      "up2026": false,
+      "termLimited": true
+    },
+    "lieutenantGovernor": {
+      "name": "Ghazala Hashmi",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Senate of Virginia",
+      "seats": {
+        "D": 21,
+        "R": 19,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 40,
+      "control": "D",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Ghazala Hashmi",
+          "party": "D"
+        }
+      ],
+      "seatsUp2026": 0
+    },
+    "lower": {
+      "name": "Virginia House of Delegates",
+      "seats": {
+        "D": 63,
+        "R": 36,
+        "other": 0,
+        "vacant": 1
+      },
+      "total": 100,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 0
+    },
+    "trifecta": "D",
+    "vetoOverride": "2/3 of members present in each house, including a majority of members elected",
+    "executivePowers": "The State Corporation Commission, which regulates utilities and approves large-load tariffs, is elected by the General Assembly rather than appointed by the governor. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Virginia Economic Development Partnership, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "No legislative or gubernatorial elections in November 2026. Virginia governors can't serve consecutive terms. One House of Delegates vacancy per NCSL. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "VT",
+    "governor": {
+      "name": "Phil Scott",
+      "party": "R",
+      "tookOffice": "2017-01-05",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": true
+    },
+    "lieutenantGovernor": {
+      "name": "John Rodgers",
+      "party": "R"
+    },
+    "upper": {
+      "name": "Vermont Senate",
+      "seats": {
+        "D": 16,
+        "R": 13,
+        "other": 1,
+        "vacant": 0
+      },
+      "total": 30,
+      "control": "D",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "John Rodgers",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 30
+    },
+    "lower": {
+      "name": "Vermont House of Representatives",
+      "seats": {
+        "D": 87,
+        "R": 55,
+        "other": 8,
+        "vacant": 0
+      },
+      "total": 150,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 150
+    },
+    "trifecta": "divided",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Vermont Public Utility Commission, which sets the rates and large-load terms that apply to data centers. The governor has no line-item veto, so incentive or appropriation provisions can't be struck individually. Economic development recruitment, including data center deals, runs through the Agency of Commerce and Community Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Divided government: R governor, Democratic legislative majorities. 'Other' seats are Progressives and independents, who generally caucus with Democrats. Vermont's governor has no line-item veto. Two-year gubernatorial terms. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "WA",
+    "governor": {
+      "name": "Bob Ferguson",
+      "party": "D",
+      "tookOffice": "2025-01-15",
+      "up2026": false,
+      "termLimited": false
+    },
+    "lieutenantGovernor": {
+      "name": "Denny Heck",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Washington State Senate",
+      "seats": {
+        "D": 30,
+        "R": 19,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 49,
+      "control": "D",
+      "leaders": [
+        {
+          "role": "President of the Senate (Lt. Gov.)",
+          "name": "Denny Heck",
+          "party": "D"
+        }
+      ],
+      "seatsUp2026": 25
+    },
+    "lower": {
+      "name": "Washington House of Representatives",
+      "seats": {
+        "D": 59,
+        "R": 39,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 98,
+      "control": "D",
+      "leaders": [],
+      "seatsUp2026": 98
+    },
+    "trifecta": "D",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Utilities and Transportation Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Department of Commerce, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "25 Senate seats are up in 2026. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "WI",
+    "governor": {
+      "name": "Tony Evers",
+      "party": "D",
+      "tookOffice": "2019-01-07",
+      "up2026": true,
+      "termLimited": false,
+      "runningIn2026": false
+    },
+    "lieutenantGovernor": {
+      "name": "Sara Rodriguez",
+      "party": "D"
+    },
+    "upper": {
+      "name": "Wisconsin State Senate",
+      "seats": {
+        "D": 15,
+        "R": 18,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 33,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "Senate President",
+          "name": "Mary Felzkowski",
+          "party": "R"
+        },
+        {
+          "role": "Majority Leader",
+          "name": "Devin LeMahieu",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 17
+    },
+    "lower": {
+      "name": "Wisconsin State Assembly",
+      "seats": {
+        "D": 45,
+        "R": 54,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 99,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "Speaker",
+          "name": "Robin Vos",
+          "party": "R"
+        }
+      ],
+      "seatsUp2026": 99
+    },
+    "trifecta": "divided",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Public Service Commission of Wisconsin, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Wisconsin Economic Development Corporation, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      },
+      {
+        "title": "Wisconsin State Legislature",
+        "url": "https://legis.wisconsin.gov/",
+        "publisher": "Wisconsin State Legislature",
+        "kind": "official",
+        "excerpt": "Senate President Mary Felzkowski (R), Senate Majority Leader Devin LeMahieu (R), Assembly Speaker Robin Vos (R)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Evers isn't seeking re-election. Wisconsin governors hold an unusually broad partial veto over appropriation bills. Odd-numbered Senate districts (17) are up. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "WV",
+    "governor": {
+      "name": "Patrick Morrisey",
+      "party": "R",
+      "tookOffice": "2025-01-13",
+      "up2026": false,
+      "termLimited": false
+    },
+    "lieutenantGovernor": {
+      "name": "Randy Smith",
+      "party": "R"
+    },
+    "upper": {
+      "name": "West Virginia Senate",
+      "seats": {
+        "D": 2,
+        "R": 32,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 34,
+      "control": "R",
+      "leaders": [
+        {
+          "role": "Senate President (Lt. Gov. title)",
+          "name": "Randy Smith",
+          "party": "R"
+        }
+      ]
+    },
+    "lower": {
+      "name": "West Virginia House of Delegates",
+      "seats": {
+        "D": 9,
+        "R": 91,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 100,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 100
+    },
+    "trifecta": "R",
+    "vetoOverride": "Majority of members elected to each house; 2/3 for budget and supplementary appropriation bills",
+    "executivePowers": "The governor appoints the West Virginia Public Service Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the West Virginia Department of Economic Development, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "Our Members",
+        "url": "https://nlga.us/our-members/",
+        "publisher": "National Lieutenant Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of lieutenant governors and equivalents with party."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Most vetoes are overridden by simple majority. Senate seats up in 2026 (half) not verified. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  },
+  {
+    "state": "WY",
+    "governor": {
+      "name": "Mark Gordon",
+      "party": "R",
+      "tookOffice": "2019-01-07",
+      "up2026": true,
+      "termLimited": true,
+      "runningIn2026": false
+    },
+    "upper": {
+      "name": "Wyoming Senate",
+      "seats": {
+        "D": 2,
+        "R": 29,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 31,
+      "control": "R",
+      "leaders": []
+    },
+    "lower": {
+      "name": "Wyoming House of Representatives",
+      "seats": {
+        "D": 6,
+        "R": 56,
+        "other": 0,
+        "vacant": 0
+      },
+      "total": 62,
+      "control": "R",
+      "leaders": [],
+      "seatsUp2026": 62
+    },
+    "trifecta": "R",
+    "vetoOverride": "2/3 of each chamber",
+    "executivePowers": "The governor appoints the Wyoming Public Service Commission, which sets the rates and large-load terms that apply to data centers. The governor has some form of line-item veto over appropriations, which can reach incentive funding in budget bills. Economic development recruitment, including data center deals, runs through the Wyoming Business Council, which is executive-branch controlled or governor-influenced. Data-center-specific executive orders were not reviewed for this record.",
+    "sources": [
+      {
+        "title": "State Partisan Composition (2026)",
+        "url": "https://www.ncsl.org/about-state-legislatures/state-partisan-composition",
+        "publisher": "National Conference of State Legislatures",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Seat counts by party, third party and vacancies for each chamber; legislative and state control."
+      },
+      {
+        "title": "Governors",
+        "url": "https://www.nga.org/governors/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "Roster of current governors."
+      },
+      {
+        "title": "2026 Gubernatorial Elections",
+        "url": "https://www.nga.org/governors/elections/",
+        "publisher": "National Governors Association",
+        "kind": "research",
+        "excerpt": "2026 races with incumbent status (running / term-limited)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Wyoming has no lieutenant governor; the Secretary of State (Chuck Gray, R) is first in line. Senate seats up in 2026 not verified. Seat counts come from NCSL (updated 2026-10-06). Leaders are listed only where confirmed on an official legislature site; others are omitted. Veto thresholds and executive-power descriptions reflect constitutional and statutory structure and weren't individually re-verified against the statutes in this pass."
+  }
+]

@@ -1,0 +1,2625 @@
+[
+  {
+    "id": "dev-2026-09-tx-abbott-tceq-data-center-permit-halt",
+    "date": "2026-09-21",
+    "title": "Abbott directs TCEQ to halt all data center permits pending ERCOT and water audits",
+    "level": "state",
+    "jurisdiction": "TX",
+    "states": [
+      "TX"
+    ],
+    "topics": [
+      "permitting",
+      "environmental_review",
+      "water",
+      "moratorium",
+      "grid_capacity"
+    ],
+    "authority": "Governor Greg Abbott (directive to TCEQ)",
+    "status": "in_effect",
+    "severity": 5,
+    "impact": "restrictive",
+    "whatHappened": "On September 21, 2026, Gov. Abbott directed the Texas Commission on Environmental Quality to issue no permits sought by data center projects until the ERCOT audit is complete. He also said no state agency should advance data center regulatory approvals until that audit information is in hand. TCEQ must report on compliance to the Governor's Office by October 19, 2026. A TCEQ spokesperson described the pause as covering air and water permits and authorizations for infrastructure directly supporting data centers. Abbott also said he will ask the Legislature next session to eliminate financial incentives for data centers.",
+    "whyItMatters": "With the grid-interconnection freeze already in place, this halts the state environmental permits needed for on-site and off-grid generation. In practice it is the closest thing to a statewide pause in the second-largest U.S. data center market. Even behind-the-meter projects that bypass ERCOT now face a state permitting gate.",
+    "affected": "Texas data center developers, including behind-the-meter and island-mode gas generation projects (e.g., West Texas and Permian campuses); hyperscalers; gas turbine and generator suppliers; TCEQ permit applicants.",
+    "watchNext": "TCEQ compliance update to the Governor due October 19, 2026. ERCOT/PUCT audit report targeted for about December 10, 2026. The 90th Legislature convenes January 2027, where incentive repeal and statutory limits are expected.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-08-tx-abbott-ercot-data-center-audit",
+      "dev-2025-06-tx-sb6-large-load-law"
+    ],
+    "sources": [
+      {
+        "title": "Governor Abbott Directs TCEQ To Halt Data Center Permits",
+        "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits",
+        "publisher": "Office of the Texas Governor",
+        "kind": "official",
+        "published": "2026-09-21"
+      },
+      {
+        "title": "Texas pauses environmental permit approval for data centers",
+        "url": "https://www.texastribune.org/2026/09/21/texas-data-center-moratorium-water-energy/",
+        "publisher": "Texas Tribune",
+        "kind": "journalism",
+        "published": "2026-09-21"
+      },
+      {
+        "title": "Gov. Abbott orders TCEQ to pause environmental permits for data centers until audit is complete",
+        "url": "https://www.houstonpublicmedia.org/articles/news/energy-environment/2026/09/21/562389/gov-abbott-orders-tceq-to-pause-environmental-permits-for-ai-crytocurrency-data-centers-until-audit-is-complete/",
+        "publisher": "Houston Public Media",
+        "kind": "journalism",
+        "published": "2026-09-21"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Scope is contested. Several law-firm analyses read the directive as covering all TCEQ data center permits, including off-grid generation. The Governor's X post refers to 'new permits.' The directive names no specific permit types, and its legal basis for binding an independent agency has not been tested."
+  },
+  {
+    "id": "dev-2026-08-tx-abbott-ercot-data-center-audit",
+    "date": "2026-08-03",
+    "title": "Abbott orders audit of ERCOT data center queue; ERCOT pauses Batch Zero interconnection study",
+    "level": "state",
+    "jurisdiction": "TX",
+    "states": [
+      "TX"
+    ],
+    "topics": [
+      "interconnection",
+      "grid_capacity",
+      "disclosure",
+      "water"
+    ],
+    "authority": "Governor Greg Abbott (letter to PUCT and ERCOT); ERCOT; PUCT",
+    "status": "in_effect",
+    "severity": 5,
+    "impact": "restrictive",
+    "whatHappened": "On August 3, 2026, Gov. Abbott directed the PUCT and ERCOT to conduct a 'comprehensive verification and audit' of data centers seeking to connect to the ERCOT grid. Projects found in violation 'must be denied connection.' Developers must disclose tax incentives, power sourcing, water use and ownership. ERCOT reported more than 1,800 large-load requests totaling about 474 GW, which Abbott said are about 90% data centers. ERCOT paused its Batch Zero study, and the PUCT granted good-cause exceptions to an August 7 classification deadline. ERCOT says it will not finish the Batch Zero study by April 9, 2027, and is targeting a December 10 audit filing.",
+    "whyItMatters": "This freezes the main path to grid power in the nation's fastest-growing large-load market. It will also likely reorder the Texas queue by weeding out speculative requests. BloombergNEF, as reported by Utility Dive, estimated the Texas pause threatens up to 20% of the U.S. development pipeline.",
+    "affected": "About 300 Batch Zero large loads of 75 MW or more; 17 large loads (~6.6 GW) that passed stability studies but still need energization approval; ERCOT transmission planning; Texas utilities (Oncor, CenterPoint, AEP Texas).",
+    "watchNext": "Responses to ERCOT's audit RFIs, with more rounds possible in October and November. ERCOT/PUCT audit report targeted for about December 10, 2026, ahead of the PUCT December open meeting. Watch for a revised Batch Zero timeline.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-09-tx-abbott-tceq-data-center-permit-halt",
+      "dev-2026-06-tx-puct-large-load-batch-study-rule"
+    ],
+    "sources": [
+      {
+        "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+        "url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+        "publisher": "Office of the Texas Governor",
+        "kind": "official",
+        "published": "2026-08-03"
+      },
+      {
+        "title": "New Texas data center projects frozen until state audits them",
+        "url": "https://www.texastribune.org/2026/08/03/texas-data-center-project-audit-greg-abbott/",
+        "publisher": "Texas Tribune",
+        "kind": "journalism",
+        "published": "2026-08-03"
+      },
+      {
+        "title": "ERCOT aims to complete Texas governor's data center audit by December",
+        "url": "https://www.utilitydive.com/news/ercot-texas-puc-data-center-audit/828472/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-08-21"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "It is unclear whether the audit covers every project in the queue or only those advancing through Batch Zero. Behind-the-meter and non-ERCOT projects may be outside its scope."
+  },
+  {
+    "id": "dev-2026-07-ny-eo-62-data-center-permit-pause",
+    "date": "2026-07-14",
+    "title": "New York EO 62 pauses state DEC permits for data centers of 50 MW or more pending statewide GEIS",
+    "level": "state",
+    "jurisdiction": "NY",
+    "states": [
+      "NY"
+    ],
+    "topics": [
+      "moratorium",
+      "environmental_review",
+      "permitting",
+      "interconnection",
+      "water"
+    ],
+    "authority": "Governor Kathy Hochul (Executive Order No. 62)",
+    "status": "in_effect",
+    "severity": 5,
+    "impact": "restrictive",
+    "whatHappened": "Executive Order 62, signed July 14, 2026, directs DEC to hold in abeyance all discretionary permit applications for new or expanded data centers that consume or can consume 50 MW or more. It covers applications not deemed complete before that date. Local government approvals are excluded. The hold lasts until the Department of Public Service completes a Generic Environmental Impact Statement under SEQRA; the order sets no deadline for it. The order also directs DPS to form a Data Center Interconnection Working Group and ESD to post a Community Investment Framework, each within 60 days. DEC must deliver a water-withdrawal report within 12 months.",
+    "whyItMatters": "This is the first statewide permitting pause in the country, and other governors have since cited it. It freezes large new campuses in New York for an open-ended period and signals rate-class and 'bring your own power' requirements to follow.",
+    "affected": "Proposed 50 MW+ campuses upstate and on Long Island; NYPA/NYISO large-load planning; crypto and AI developers; localities with their own moratoriums (e.g., Brookhaven).",
+    "watchNext": "Interconnection Working Group and Community Investment Framework (due about mid-September 2026), the GEIS scoping and hearing schedule, and the pending Responsible Data Center Development Act (20 MW threshold) in the Legislature.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-09-ma-healey-eo-data-center-local-approval",
+      "dev-2026-08-pa-shapiro-eo-2026-05"
+    ],
+    "sources": [
+      {
+        "title": "Executive Order No. 62: Establishing a Temporary Moratorium on Data Centers in New York",
+        "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+        "publisher": "Office of the Governor of New York",
+        "kind": "official",
+        "published": "2026-07-14",
+        "docId": "EO 62"
+      },
+      {
+        "title": "Key Takeaways from New York Data Center Permitting Pause Under Executive Order No. 62",
+        "url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/07/ny-data-center-permitting-pause-executive-order-62",
+        "publisher": "Davis Wright Tremaine",
+        "kind": "research"
+      },
+      {
+        "title": "Behind the New York data center pause is legislation that could impact existing facilities",
+        "url": "https://www.facilitiesdive.com/news/behind-the-new-york-data-center-pause-is-legislation-that-could-impact-exis/826260/",
+        "publisher": "Facilities Dive",
+        "kind": "journalism"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The Governor's office has described the pause as lasting up to a year, but the order text sets no end date. Ministerial permits and local approvals are not covered. The status of the 60-day deliverables was not verified."
+  },
+  {
+    "id": "dev-2026-07-pjm-2028-29-capacity-auction",
+    "date": "2026-07-14",
+    "title": "PJM 2028/29 capacity auction clears at $325/MW-day cap and falls 6,831 MW short of reliability requirement",
+    "level": "regional",
+    "jurisdiction": "PJM",
+    "states": [
+      "VA",
+      "MD",
+      "PA",
+      "NJ",
+      "OH",
+      "IL",
+      "DE",
+      "DC",
+      "WV",
+      "KY",
+      "NC",
+      "IN",
+      "MI",
+      "TN"
+    ],
+    "topics": [
+      "grid_capacity",
+      "cost_allocation"
+    ],
+    "authority": "PJM Interconnection",
+    "status": "final",
+    "severity": 5,
+    "impact": "restrictive",
+    "whatHappened": "PJM announced July 14, 2026 that its 2028/2029 Base Residual Auction cleared 138,318 MW at the $325.00/MW-day cap in all zones, the third straight auction at the ceiling. Procured capacity was 6,831 MW below the reliability requirement, which PJM called the first RTO-wide shortfall in its history. PJM said the forecast peak was about 2,000 MW higher than for the prior auction, driven by data center additions. Its simulation suggests an uncapped price of about $554.72/MW-day. Total auction cost was about $16.4 billion.",
+    "whyItMatters": "A shortfall at the cap means PJM cannot buy enough capacity for projected data center growth. That fuels state pressure for 'bring your own generation' rules and backstop procurement, and keeps affordability central to the 2026 campaigns in PJM states.",
+    "affected": "All PJM load-serving entities and ratepayers; Northern Virginia, Ohio, Pennsylvania and New Jersey data center developers; generators; PJM governors.",
+    "watchNext": "The 2029/2030 BRA is scheduled for December 2026 under the same collar, and the reliability backstop procurement has been delayed.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-01-pjm-board-cifp-large-load-decision",
+      "dev-2026-09-ferc-pjm-backstop-procurement-order"
+    ],
+    "sources": [
+      {
+        "title": "2028/2029 Base Residual Auction Report",
+        "url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-bra-results-report.pdf",
+        "publisher": "PJM Interconnection",
+        "kind": "data",
+        "published": "2026-07-14"
+      },
+      {
+        "title": "PJM Capacity Auction Procures 138,318 MW of Generation Resources as Work Continues To Address Growing Electricity Demand",
+        "url": "https://insidelines.pjm.com/pjm-capacity-auction-procures-138318-mw-of-generation-resources-as-work-continues-to-address-growing-electricity-demand/",
+        "publisher": "PJM Inside Lines",
+        "kind": "official",
+        "published": "2026-07-14"
+      },
+      {
+        "title": "The data center boom continues apace, but projects face mounting obstacles",
+        "url": "https://www.utilitydive.com/news/the-data-center-boom-continues-apace-but-projects-face-mounting-obstacles/830496/",
+        "publisher": "Utility Dive",
+        "kind": "journalism"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The $16.4 billion total and $554.72 uncapped price come from secondary summaries of PJM's report. Utility Dive reports that the PJM market monitor attributed 38% of charges in the most recent auction to data centers."
+  },
+  {
+    "id": "dev-2026-06-ferc-large-load-show-cause-orders",
+    "date": "2026-06-18",
+    "title": "FERC issues show cause orders to six RTOs on large-load interconnection rules",
+    "level": "federal",
+    "jurisdiction": "US",
+    "states": [],
+    "topics": [
+      "interconnection",
+      "cost_allocation",
+      "transmission",
+      "large_load_tariff",
+      "grid_capacity"
+    ],
+    "authority": "FERC",
+    "status": "pending",
+    "severity": 5,
+    "impact": "mixed",
+    "whatHappened": "On June 18, 2026, FERC issued six Federal Power Act Section 206 show cause orders, one each to PJM (EL26-67), MISO, SPP (EL26-68), CAISO, NYISO and ISO-NE. The orders preliminarily find that their tariffs lack adequate rules for large loads, defined as peak demand above 50 MW interconnecting above 69 kV. Each RTO had 30 days to report on resource adequacy for large loads and 60 days to justify its tariff or file reforms. The five reform areas are study processes, preventing cost shifting, co-location and behind-the-meter generation, new services for flexible loads, and studying generation that serves nearby loads. The action responds to DOE Secretary Wright's October 23, 2025 Section 403 letter, and FERC said the RM26-4 rulemaking remains open.",
+    "whyItMatters": "This is the main federal action on data center grid access. It moves toward standard interconnection rules and cost protections across most of the U.S. outside ERCOT and non-RTO utilities, without FERC asserting new jurisdiction over retail load interconnection.",
+    "affected": "Data center developers in all six FERC-jurisdictional RTOs; transmission owners; state regulators; ratepayers. ERCOT and non-RTO utilities are not covered.",
+    "watchNext": "FERC action on RTO responses. PJM filed August 13, 2026 proposing an Interim Resource Adequacy Service; MISO and its transmission owners committed to a full response by November 16, 2026. FERC may also issue orders for non-RTO utilities under RM26-4.",
+    "evidence": "fact",
+    "related": [
+      "dev-2025-12-ferc-pjm-colocation-order",
+      "dev-2026-04-ferc-pjm-colocation-compliance-order",
+      "dev-2026-03-white-house-ratepayer-protection-pledge"
+    ],
+    "sources": [
+      {
+        "title": "FERC Launches Aggressive Targeted Action to Speed Large Load Integration",
+        "url": "https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration",
+        "publisher": "FERC",
+        "kind": "official",
+        "published": "2026-06-18"
+      },
+      {
+        "title": "Show Cause Order on Large and Co-Located Loads, 195 FERC ¶ 61,213 (SPP)",
+        "url": "https://spp.org/documents/76996/20260618_show%20cause%20order%20on%20large%20and%20co-located%20loads_el26-68-000.pdf",
+        "publisher": "SPP / FERC",
+        "kind": "official",
+        "published": "2026-06-18",
+        "docId": "EL26-68-000"
+      },
+      {
+        "title": "What data center developers need to know about FERC's large load directives",
+        "url": "https://www.utilitydive.com/news/data-center-interconnection-ferc-large-load-show-cause/824501/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-07-16"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "FERC.gov returned 403 on fetch, so details were confirmed through Utility Dive, Duane Morris and other summaries. Some secondary sources cite a 20 MW threshold, which was the ANOPR proposal; the show cause orders use 50 MW. PJM's August 13 filing and MISO's November 16 commitment come from single secondary sources. Sources give the 60-day deadline as August 16 or 17, 2026."
+  },
+  {
+    "id": "dev-2025-12-ferc-pjm-colocation-order",
+    "date": "2025-12-18",
+    "title": "FERC orders PJM to create co-location transmission services for data centers",
+    "level": "federal",
+    "jurisdiction": "PJM",
+    "states": [],
+    "topics": [
+      "interconnection",
+      "cost_allocation",
+      "transmission",
+      "grid_capacity"
+    ],
+    "authority": "FERC",
+    "status": "final",
+    "severity": 5,
+    "impact": "mixed",
+    "whatHappened": "On December 18, 2025, FERC found PJM's tariff unjust and unreasonable in Docket EL25-49-000 because it lacked clear rates, terms and conditions for generators serving co-located load. FERC directed PJM to offer three new transmission services as alternatives to Network Integration Transmission Service: interim non-firm, Firm Contract Demand and Non-Firm Contract Demand. It also directed PJM to revise its behind-the-meter generation rules with a transition for existing customers, and set a paper hearing on rates. Compliance filings were due January 20 and February 16, 2026, and paper-hearing replies were due April 17, 2026.",
+    "whyItMatters": "This sets the first FERC framework for co-locating data centers at power plants in the largest U.S. market. It shapes nuclear and gas co-location deals and how much those loads pay for grid service.",
+    "affected": "PJM data center developers pursuing co-location (e.g., at nuclear plants); generators such as Constellation and Talen; PJM ratepayers and transmission owners.",
+    "watchNext": "FERC ruling on the paper hearing rates and on PJM's further compliance filings (ER26-1088).",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-04-ferc-pjm-colocation-compliance-order",
+      "dev-2026-06-ferc-large-load-show-cause-orders"
+    ],
+    "sources": [
+      {
+        "title": "FACT SHEET | FERC Directs Nation's Largest Grid Operator to Create New Rules to Embrace Innovation and Protect Consumers",
+        "url": "https://www.ferc.gov/news-events/news/fact-sheet-ferc-directs-nations-largest-grid-operator-create-new-rules-embrace",
+        "publisher": "FERC",
+        "kind": "official",
+        "published": "2025-12-18",
+        "docId": "EL25-49-000"
+      },
+      {
+        "title": "FERC Orders PJM to Create Clear Rules for Co-Located Data Centers and Large Loads",
+        "url": "https://www.bdlaw.com/publications/ferc-orders-pjm-to-create-clear-rules-for-co-located-data-centers-and-large-loads/",
+        "publisher": "Beveridge & Diamond",
+        "kind": "research",
+        "published": "2026-01-05"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The FERC fact sheet URL appeared in search results but returned 403 on fetch. Details were confirmed through the law-firm summary."
+  },
+  {
+    "id": "dev-2026-09-ferc-pjm-backstop-procurement-order",
+    "date": "2026-09-29",
+    "title": "FERC only partly approves PJM data center backstop procurement; PJM delays auction and DOE presses for cost protections",
+    "level": "regional",
+    "jurisdiction": "PJM",
+    "states": [
+      "VA",
+      "MD",
+      "PA",
+      "NJ",
+      "OH",
+      "IL",
+      "DE",
+      "DC",
+      "WV",
+      "KY",
+      "NC",
+      "IN",
+      "MI",
+      "TN"
+    ],
+    "topics": [
+      "grid_capacity",
+      "cost_allocation",
+      "interconnection"
+    ],
+    "authority": "FERC; PJM Interconnection; U.S. Department of Energy",
+    "status": "pending",
+    "severity": 4,
+    "impact": "unclear",
+    "whatHappened": "On September 29, 2026, FERC only partly approved PJM's Reliability Backstop Procurement for data center-driven needs (ER26-3380). Chair Laura Swett called it a 'deeply flawed, eleventh-hour procurement mechanism.' PJM postponed the auction, which had been set to accept offers September 30 to October 21, with no new timeline. On October 7, DOE filed a rare statement of position urging PJM to adopt FERC's revisions, allocate backstop costs using updated load forecasts, and ensure large loads fund their own generation under the Ratepayer Protection Pledge. PJM plans a revised filing by October 29 after an October 22 special Members Committee meeting.",
+    "whyItMatters": "The backstop is PJM's main near-term tool for closing the capacity gap that data centers created. Delays and federal pressure over who pays will shape costs and timing for new large loads across 13 states and DC.",
+    "affected": "PJM large-load applicants; generators offering into the backstop; PJM ratepayers and state consumer advocates.",
+    "watchNext": "PJM special Members Committee on October 22, 2026, revised FERC filing by October 29, 2026, and the December 2026 BRA.",
+    "evidence": "reported",
+    "related": [
+      "dev-2026-01-pjm-board-cifp-large-load-decision",
+      "dev-2026-07-pjm-2028-29-capacity-auction",
+      "dev-2026-06-ferc-large-load-show-cause-orders"
+    ],
+    "sources": [
+      {
+        "title": "FERC chair slams PJM 'mess' as country's largest grid operator delays power auction",
+        "url": "https://www.utilitydive.com/news/pjm-delays-backstop-procurement-ferc-data-center/831751/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-09-30"
+      },
+      {
+        "title": "DOE presses PJM on ratepayer protections from large load costs",
+        "url": "https://www.utilitydive.com/news/doe-pjm-ferc-ratepayer-protection-large-load-data-center/832479/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-10-08"
+      },
+      {
+        "title": "PJM Answer in ER26-3380 (Reliability Backstop Procurement)",
+        "url": "https://www.pjm.com/-/media/DotCom/documents/ferc/filings/2026/20260910-er26-3380-000.pdf",
+        "publisher": "PJM Interconnection",
+        "kind": "official",
+        "published": "2026-09-10",
+        "docId": "ER26-3380"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The FERC order (eLibrary 20260929-3099) and DOE filing (20261007-5181) were not read directly; details come from Utility Dive."
+  },
+  {
+    "id": "dev-2026-09-ca-newsom-data-center-law-package",
+    "date": "2026-09-21",
+    "title": "Newsom signs seven-bill package on data center rates, water disclosure and CEQA",
+    "level": "state",
+    "jurisdiction": "CA",
+    "states": [
+      "CA"
+    ],
+    "topics": [
+      "large_load_tariff",
+      "cost_allocation",
+      "water",
+      "disclosure",
+      "environmental_review"
+    ],
+    "authority": "Governor Gavin Newsom; California Legislature",
+    "status": "enacted",
+    "severity": 4,
+    "impact": "restrictive",
+    "whatHappened": "On September 21, 2026, Gov. Newsom signed AB 1577 (reporting), AB 2383 and SB 886 (CPUC data center rates covering grid connection and supply costs), SB 1168 (rate structures), AB 2469 (water-use disclosure before local approval), AB 2619 (water supply planning) and SB 887 (removing data centers from blanket CEQA streamlining). The Data Center Coalition opposed the bills, which passed largely along party lines.",
+    "whyItMatters": "California is a constrained market (Silicon Valley, Santa Clara). Mandated data center rate classes and the end of CEQA shortcuts raise costs and timelines for new large loads in PG&E and SVP territory.",
+    "affected": "Santa Clara/Silicon Valley Power, PG&E Rule 30 applicants, Imperial Valley proposals; CPUC; local land-use agencies.",
+    "watchNext": "CPUC proceedings to implement the new data center rate structures, and effective dates (January 1, 2027 for most non-urgency bills).",
+    "evidence": "fact",
+    "related": [],
+    "sources": [
+      {
+        "title": "Governor Newsom signs most comprehensive data center laws in the nation",
+        "url": "https://www.gov.ca.gov/2026/09/21/governor-newsom-signs-most-comprehensive-data-center-laws-in-the-nation-providing-communities-more-control-on-water-electricity-and-land-use/",
+        "publisher": "Office of the Governor of California",
+        "kind": "official",
+        "published": "2026-09-21"
+      },
+      {
+        "title": "Newsom Signs New Restrictions on Data Center Development",
+        "url": "https://www.kqed.org/news/12100746/newsom-signs-new-restrictions-on-data-center-development",
+        "publisher": "KQED",
+        "kind": "journalism",
+        "published": "2026-09-21"
+      },
+      {
+        "title": "California tightens oversight of data center energy use, grid costs",
+        "url": "https://www.utilitydive.com/news/california-tightens-oversight-of-data-center-energy-use-grid-costs/831037/",
+        "publisher": "Utility Dive",
+        "kind": "journalism"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Bill-by-bill provisions are partly inferred from bill titles and press summaries; effective dates were not confirmed."
+  },
+  {
+    "id": "dev-2026-09-va-spanberger-eo-22",
+    "date": "2026-09-18",
+    "title": "Virginia EO 22 creates Data Center Accountability Framework; Spanberger seeks end to by-right approvals over 25 MW",
+    "level": "state",
+    "jurisdiction": "VA",
+    "states": [
+      "VA"
+    ],
+    "topics": [
+      "permitting",
+      "zoning",
+      "cost_allocation",
+      "backup_generation",
+      "noise_light",
+      "disclosure",
+      "incentive_clawback"
+    ],
+    "authority": "Governor Abigail Spanberger (Executive Order 22)",
+    "status": "in_effect",
+    "severity": 4,
+    "impact": "restrictive",
+    "whatHappened": "On September 18, 2026, Gov. Spanberger signed Executive Order 22. It bans executive-branch agencies from entering into or requiring NDAs for data center projects, creates a planning and community engagement toolkit for localities, expedites noise regulations, orders a review of diesel and other backup generation, and creates an AI Task Force. According to Virginia Mercury, VEDP must stop site-readiness help through expedited programs for projects of 25 MW or more. For the 2027 General Assembly she proposed requiring local approval and ending by-right approval for data centers over 25 MW, removing future large data centers from fast-track permitting, allocating more transmission, generation and PJM interconnection costs to data centers, and limiting on-site gas generation.",
+    "whyItMatters": "Virginia is the world's largest data center market. The order itself is modest, but the legislative package would rewrite land-use and cost rules there if a Democratic-controlled General Assembly enacts it in 2027.",
+    "affected": "Loudoun, Prince William, Culpeper, Hampton Roads and Southside Virginia markets; Dominion and NOVEC; developers that rely on by-right zoning; diesel backup fleets.",
+    "watchNext": "Bill drafting ahead of the January 2027 General Assembly session. HB 1515 (statewide moratorium) was carried over to 2027. Also watch SCC review of the NextEra-Dominion merger.",
+    "evidence": "fact",
+    "related": [
+      "dev-2025-11-va-scc-dominion-gs5-rate-class",
+      "dev-2026-08-va-virginia-beach-chesapeake-data-center-limits",
+      "dev-2026-05-nextera-dominion-merger"
+    ],
+    "sources": [
+      {
+        "title": "Data Center Accountability Framework",
+        "url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123696-en.html",
+        "publisher": "Office of the Governor of Virginia",
+        "kind": "official",
+        "published": "2026-09-18"
+      },
+      {
+        "title": "Executive Order 22 (2026): Establishing Virginia Data Center Accountability and AI Initiatives",
+        "url": "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/eo-22-establishing-va-data-center-accountability-and-ai-initiatives.pdf",
+        "publisher": "Office of the Governor of Virginia",
+        "kind": "official",
+        "published": "2026-09-18",
+        "docId": "EO 22"
+      },
+      {
+        "title": "Spanberger presents slate of data center regulation proposals, puts first directives in motion",
+        "url": "https://virginiamercury.com/2026/09/18/spanberger-presents-slate-of-data-center-regulation-proposals-puts-first-directives-in-motion/",
+        "publisher": "Virginia Mercury",
+        "kind": "journalism",
+        "published": "2026-09-18"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Most of the framework needs legislation, and none applies retroactively to the roughly 600 operating or under-construction facilities."
+  },
+  {
+    "id": "dev-2026-09-ma-healey-eo-data-center-local-approval",
+    "date": "2026-09-08",
+    "title": "Healey order bars state permits for data centers over 25 MW without local approval and community benefits agreement",
+    "level": "state",
+    "jurisdiction": "MA",
+    "states": [
+      "MA"
+    ],
+    "topics": [
+      "permitting",
+      "community_benefits",
+      "clean_energy_procurement",
+      "cost_allocation",
+      "disclosure"
+    ],
+    "authority": "Governor Maura Healey (executive order)",
+    "status": "in_effect",
+    "severity": 4,
+    "impact": "restrictive",
+    "whatHappened": "Gov. Healey signed an executive order on September 8, 2026 covering data centers with peak demand above 25 MW. State permits cannot advance unless the developer shows compliance with the state's Data Center Framework and has filed a community benefits agreement with the host community. Covered projects must procure clean electricity equal to their annual consumption or pay into a Ratepayer Protection Fund. MassDEP is to set up an alternative compliance payment mechanism by the end of 2026. The order bars non-disclosure agreements between state agencies and data centers. Healey said it does not apply to the Lowell project already underway.",
+    "whyItMatters": "Massachusetts is a small market, but the order gives municipalities an effective veto and adds a clean-energy procurement mandate. That combination is becoming a template in Democratic-led states.",
+    "affected": "Proposed 274 MW Westfield project; New England developers; municipalities negotiating CBAs; ISO-NE large-load planning.",
+    "watchNext": "Municipal guidance from EEA and the Executive Office of Economic Development due by December 31, 2026, and MassDEP's alternative compliance payment design by year-end 2026.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-07-ny-eo-62-data-center-permit-pause",
+      "dev-2026-08-pa-shapiro-eo-2026-05"
+    ],
+    "sources": [
+      {
+        "title": "Governor Healey: No Data Centers Without Local Approval",
+        "url": "https://www.mass.gov/news/governor-healey-no-data-centers-without-local-approval",
+        "publisher": "Commonwealth of Massachusetts",
+        "kind": "official",
+        "published": "2026-09-08"
+      },
+      {
+        "title": "Healey signs executive order to block new data centers in Mass. unless they have local approval",
+        "url": "https://www.bostonglobe.com/2026/09/08/metro/healey-data-centers-executive-order-local-approval/",
+        "publisher": "Boston Globe",
+        "kind": "journalism",
+        "published": "2026-09-08"
+      },
+      {
+        "title": "Mass. tries to rein in data centers, leaves open questions",
+        "url": "https://www.axios.com/local/boston/2026/09/15/massachusetts-data-centers-executive-order",
+        "publisher": "Axios Boston",
+        "kind": "journalism",
+        "published": "2026-09-15"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The executive order number was not confirmed. Details come from search summaries of the press release and news coverage, because mass.gov blocked direct retrieval."
+  },
+  {
+    "id": "dev-2026-08-pa-shapiro-eo-2026-05",
+    "date": "2026-08-18",
+    "title": "Pennsylvania EO 2026-05 makes local approval a precondition for DEP data center permits and ties tax exemption to 'GRID' terms",
+    "level": "state",
+    "jurisdiction": "PA",
+    "states": [
+      "PA"
+    ],
+    "topics": [
+      "permitting",
+      "sales_tax",
+      "cost_allocation",
+      "community_benefits",
+      "disclosure",
+      "water"
+    ],
+    "authority": "Governor Josh Shapiro (Executive Order 2026-05)",
+    "status": "in_effect",
+    "severity": 4,
+    "impact": "restrictive",
+    "whatHappened": "On August 18, 2026, Gov. Shapiro signed EO 2026-05. Under it, DEP will not issue any permit for a covered data center until the project has all required local approvals. Developers who sign a binding Consent Order and Agreement committing to the Governor's GRID Requirements can get rolling DEP review. GRID covers paying the full cost of new energy infrastructure, community engagement, local hiring and CBAs, and water conservation. Non-signers cannot begin DEP review until local approvals are secured. Applicants not meeting GRID will not receive the Computer Data Center Equipment sales tax exemption, and NDAs for data center projects are barred. Law-firm summaries say the order covers projects above 25 MW and removes AI data centers from Fast Track permitting.",
+    "whyItMatters": "Pennsylvania is a fast-growing PJM market. Conditioning the main sales-tax incentive and DEP permits on binding commitments raises the cost and time to develop there, especially for projects without local consent. Law firms expect legal challenges.",
+    "affected": "PJM-region campuses in Pennsylvania (e.g., Homer City, Amazon Susquehanna-area projects, western PA gas-fired campuses); townships using curative-amendment pauses; DEP and Department of Revenue.",
+    "watchNext": "Department of Revenue guideline updates for the exemption program, any litigation over the order, and SB 1345 (local 18-month moratorium authority) in the General Assembly.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-09-ma-healey-eo-data-center-local-approval",
+      "dev-2026-09-va-spanberger-eo-22"
+    ],
+    "sources": [
+      {
+        "title": "Governor Shapiro Signs Executive Order on Data Center Development in PA",
+        "url": "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-signs-executive-order-on-data-center-developmen",
+        "publisher": "Commonwealth of Pennsylvania",
+        "kind": "official",
+        "published": "2026-08-18"
+      },
+      {
+        "title": "Executive Order 2026-05: Protecting Pennsylvania Consumers from Data Center Impacts",
+        "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/eo2026_05_protecting%20pennsylvania%20consumers%20from%20data%20center%20impacts_final_executed.pdf",
+        "publisher": "Commonwealth of Pennsylvania",
+        "kind": "official",
+        "published": "2026-08-18",
+        "docId": "EO 2026-05"
+      },
+      {
+        "title": "Gov. Shapiro Issues Executive Order 2026-05 Imposing New Requirements on Pennsylvania Data Center Projects",
+        "url": "https://www.gtlaw.com/en/insights/2026/8/gov-shapiro-issues-executive-order-2026-05-imposing-new-requirements-on-pennsylvania-data-center-projects",
+        "publisher": "Greenberg Traurig",
+        "kind": "research"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The 25 MW threshold comes from law-firm summaries; the press release itself says the order applies to new data center permit applications. How it fits with the Municipalities Planning Code is unresolved."
+  },
+  {
+    "id": "dev-2026-07-nj-data-center-fair-share-act",
+    "date": "2026-07-07",
+    "title": "New Jersey enacts Data Center Fair Share Act creating separate rate class for data centers of 50 MW or more",
+    "level": "state",
+    "jurisdiction": "NJ",
+    "states": [
+      "NJ"
+    ],
+    "topics": [
+      "large_load_tariff",
+      "cost_allocation",
+      "clean_energy_procurement",
+      "interconnection"
+    ],
+    "authority": "Governor Mikie Sherrill; New Jersey Legislature",
+    "status": "enacted",
+    "severity": 4,
+    "impact": "restrictive",
+    "whatHappened": "Gov. Sherrill signed the Data Center Fair Share Act (S731/A796) on July 7, 2026. It directs the BPU to set service standards for large data center customers at each electric utility, with a threshold no greater than 50 MW, cut from 100 MW in an earlier draft. It covers new and existing data centers and aggregates co-located or commonly owned facilities. Customers must post financial guarantees covering at least 85% of requested service for 10 years. Large data centers are curtailed before residential customers in emergencies, and projects that commit to their own clean generation or storage get interconnection priority. The BPU has 12 months to set standards, after which each utility has 180 days to file a tariff.",
+    "whyItMatters": "This adds a top-tier PJM state to the large-load tariff group with some of the strictest collateral and curtailment terms so far. It raises the carrying cost of speculative New Jersey requests. Former Gov. Murphy had pocket-vetoed a similar bill earlier in 2026.",
+    "affected": "Data centers in PSE&G, JCP&L, ACE and RECO territories; existing northern NJ colocation operators; BPU.",
+    "watchNext": "BPU standards due by about July 2027, then utility tariff filings within 180 days. Also watch litigation over the 38+ municipal bans.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-08-nj-data-center-water-energy-reporting-law"
+    ],
+    "sources": [
+      {
+        "title": "Governor Sherrill Announces Ratepayer Relief, Signs Major Legislation on Energy",
+        "url": "https://www.nj.gov/governor/news/2026/20260707a.shtml",
+        "publisher": "Office of the Governor of New Jersey",
+        "kind": "official",
+        "published": "2026-07-07",
+        "docId": "P.L. 2026, c.32 (S731/A796)"
+      },
+      {
+        "title": "New Jersey lawmakers send data center tariff bill to governor",
+        "url": "https://www.utilitydive.com/news/new-jersey-lawmakers-send-data-center-tariff-bill-to-governor/824191/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-06-30"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "One secondary source gives July 6 as the signing date; the Governor's release is dated July 7. The chapter-law citation comes from secondary summaries."
+  },
+  {
+    "id": "dev-2026-07-az-data-center-sales-tax-exemption-pause",
+    "date": "2026-07-01",
+    "title": "Arizona's three-year freeze on new data center sales-tax exemption applications takes effect",
+    "level": "state",
+    "jurisdiction": "AZ",
+    "states": [
+      "AZ"
+    ],
+    "topics": [
+      "sales_tax",
+      "incentive_clawback"
+    ],
+    "authority": "Arizona Legislature; Governor Katie Hobbs; Arizona Commerce Authority",
+    "status": "in_effect",
+    "severity": 4,
+    "impact": "restrictive",
+    "whatHappened": "Arizona's FY2027 budget (HB 4168/SB 1861) bars the Arizona Commerce Authority from accepting new or renewal applications for the data center sales-tax exemption from July 1, 2026 through June 30, 2029. Gov. Hobbs had proposed full repeal in January, and the pause was a compromise. Existing recipients keep their benefits. Axios reported 113 applications between June 15 and June 30, 2026, against 123 in the program's prior history since 2013.",
+    "whyItMatters": "Phoenix is a top-three U.S. market. The freeze removes a key cost advantage for new projects, though the pre-deadline rush means many near-term projects locked in benefits.",
+    "affected": "Phoenix-area (Mesa, Goodyear, Buckeye) and Tucson developers; ACA; projects filed before June 30, 2026.",
+    "watchNext": "ACA processing of the late-June applications. The 2027 session may revisit repeal, and Attorney General Mayes has called for a statewide moratorium, which Hobbs opposes.",
+    "evidence": "reported",
+    "related": [
+      "dev-2026-09-az-pima-county-data-center-moratorium"
+    ],
+    "sources": [
+      {
+        "title": "Data centers dominated 2026 session – lawmakers answered with 3-year tax incentive pause",
+        "url": "https://azcapitoltimes.com/news/2026/07/09/data-centers-dominated-2026-session-lawmakers-answered-with-3-year-tax-incentive-pause/",
+        "publisher": "Arizona Capitol Times",
+        "kind": "journalism",
+        "published": "2026-07-09"
+      },
+      {
+        "title": "Data center developers rush to apply for paused tax break",
+        "url": "https://www.axios.com/local/phoenix/2026/07/08/data-center-tax-break-applications-double-moratorium",
+        "publisher": "Axios Phoenix",
+        "kind": "journalism",
+        "published": "2026-07-08"
+      },
+      {
+        "title": "Arizona budget deal includes 3-year pause on data center tax exemptions",
+        "url": "https://www.azfamily.com/2026/06/10/arizona-budget-deal-includes-3-year-pause-data-center-tax-exemptions/",
+        "publisher": "AZFamily",
+        "kind": "journalism",
+        "published": "2026-06-10"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The budget signing date was not confirmed; July 1 is the effective date. Bill numbers come from a MultiState summary. The AG's moratorium call and Hobbs' opposition come from prior research and were not re-verified."
+  },
+  {
+    "id": "dev-2026-06-il-pritzker-data-center-incentive-pause",
+    "date": "2026-06-05",
+    "title": "Pritzker halts new Illinois data center tax-incentive agreements from July 1",
+    "level": "state",
+    "jurisdiction": "IL",
+    "states": [
+      "IL"
+    ],
+    "topics": [
+      "sales_tax",
+      "incentive_clawback",
+      "cost_allocation"
+    ],
+    "authority": "Governor JB Pritzker; Illinois DCEO",
+    "status": "in_effect",
+    "severity": 4,
+    "impact": "restrictive",
+    "whatHappened": "On June 5, 2026, Gov. Pritzker directed the Department of Commerce and Economic Opportunity to stop processing new Data Center Investment Program agreements starting July 1, 2026. Existing agreements are honored. The POWER Act (HB 5513) had missed the May 31 spring deadline, and Pritzker asked lawmakers to pass reforms on energy costs, water reporting and community agreements in the fall veto session. A state report found 27 data centers received more than $983 million in benefits from 2020 to 2024.",
+    "whyItMatters": "Illinois (Chicago metro) is a top-five market. Pausing new incentive certificates changes the economics for new hyperscale entrants and links the incentives' return to a broader regulatory deal.",
+    "affected": "Chicago-area and downstate campuses seeking new certificates; ComEd and Ameren Illinois large-load customers; building trades.",
+    "watchNext": "The fall veto session (October–November 2026) on the POWER Act. The Illinois Policy Institute argues DCEO lacks authority to pause certificates, so a legal challenge is possible.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-09-ferc-rejects-comed-powerhouse-hillwood-cancellation"
+    ],
+    "sources": [
+      {
+        "title": "Gov. Pritzker Pauses New Data Center Tax Incentives",
+        "url": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-pauses-new-data-center-tax-incentives",
+        "publisher": "Office of Governor JB Pritzker",
+        "kind": "official",
+        "published": "2026-06-05"
+      },
+      {
+        "title": "Gov. JB Pritzker suspends tax breaks for data centers, urges more discussion",
+        "url": "https://capitolnewsillinois.com/news/gov-jb-pritzker-to-suspend-tax-breaks-for-data-centers-urging-more-discussion/",
+        "publisher": "Capitol News Illinois",
+        "kind": "journalism",
+        "published": "2026-06-05"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Duration is unclear. NRDC described it as a two-year suspension, but Capitol News Illinois reported no end date. The directive is administrative, not an executive order."
+  },
+  {
+    "id": "dev-2026-05-doe-202c-data-center-backup-generation",
+    "date": "2026-05-18",
+    "title": "DOE emergency orders tap data center backup generators and keep fossil plants online",
+    "level": "federal",
+    "jurisdiction": "US",
+    "states": [],
+    "topics": [
+      "backup_generation",
+      "grid_capacity",
+      "natural_gas"
+    ],
+    "authority": "U.S. Department of Energy",
+    "status": "in_effect",
+    "severity": 4,
+    "impact": "mixed",
+    "whatHappened": "During 2026, DOE issued Federal Power Act Section 202(c) orders authorizing grid operators to direct data centers and other large loads to run their backup generation as a last resort. Recipients included ERCOT (Order 202-26-01, Jan. 24), PJM (202-26-06, Jan. 26) and Duke Energy (202-26-07, Jan. 26). On May 18, 2026, Order 202-26-23 let PJM deploy backup generation at data centers and other major facilities from May 18 to 20. DOE also repeatedly extended 90-day orders keeping retiring plants online, including J.H. Campbell (MI), Eddystone (PA), Schahfer and Culley (IN), Craig 1 (CO) and Centralia (WA), with the latest renewals running into November–December 2026.",
+    "whyItMatters": "Federal emergency authority now treats data center backup fleets as a grid reliability resource. That raises questions about generator run-hours, air permits and cost allocation. The plant-retention orders keep fossil units online partly on load-growth grounds, and their costs are spread to ratepayers.",
+    "affected": "Data center operators with diesel or gas backup fleets in PJM, ERCOT, Duke and SPP territories; RTOs; owners of retiring coal and gas plants; ratepayers bearing 202(c) costs.",
+    "watchNext": "Winter 2026–27 202(c) orders, and renewals of plant-retention orders expiring Nov. 14 (Campbell), Nov. 20 (Eddystone) and Dec. 18 (Schahfer/Culley).",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-01-epa-turbine-nsps-temporary-turbines"
+    ],
+    "sources": [
+      {
+        "title": "2026 DOE 202(c) Orders",
+        "url": "https://www.energy.gov/ceser/2026-doe-202c-orders",
+        "publisher": "U.S. Department of Energy",
+        "kind": "official"
+      },
+      {
+        "title": "Federal Power Act Section 202(c) - PJM Interconnection, L.L.C. (PJM) Order No. 202-26-23",
+        "url": "https://www.energy.gov/ceser/federal-power-act-section-202c-pjm-interconnection-llc-pjm-order-no-202-26-23",
+        "publisher": "U.S. Department of Energy",
+        "kind": "official",
+        "published": "2026-05-18",
+        "docId": "Order No. 202-26-23"
+      },
+      {
+        "title": "Clean Air Act Resources for Data Centers",
+        "url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers",
+        "publisher": "U.S. EPA",
+        "kind": "official"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "This item combines a series of roughly 60 orders. The date shown is the May 18 PJM backup-generation order. Order dates and terms come from DOE's index page, and individual order texts were not reviewed."
+  },
+  {
+    "id": "dev-2026-01-pjm-board-cifp-large-load-decision",
+    "date": "2026-01-16",
+    "title": "PJM Board issues large-load CIFP decision, directing backstop procurement and transitional measures",
+    "level": "regional",
+    "jurisdiction": "PJM",
+    "states": [
+      "VA",
+      "MD",
+      "PA",
+      "NJ",
+      "OH",
+      "IL",
+      "DE",
+      "DC",
+      "WV",
+      "KY",
+      "NC",
+      "IN",
+      "MI",
+      "TN"
+    ],
+    "topics": [
+      "interconnection",
+      "grid_capacity",
+      "cost_allocation"
+    ],
+    "authority": "PJM Board of Managers",
+    "status": "final",
+    "severity": 4,
+    "impact": "mixed",
+    "whatHappened": "On January 16, 2026, the PJM Board issued its decisional letter concluding the Critical Issue Fast Path on large load additions. It directed a package of partly transitional measures, including development of a reliability backstop procurement with defined price, term and quantity, with staff to address cost allocation. A day earlier, on January 15, the White House and PJM-state governors signed a statement of principles urging PJM to change its tariff for large loads. PJM filed the Reliability Backstop Procurement at FERC on July 31, 2026 (ER26-3380).",
+    "whyItMatters": "This decision sets how PJM will add data center load while capacity is short. It started the backstop and 'connect and manage' work that now determines interconnection timing in the largest U.S. data center region.",
+    "affected": "Large-load applicants across PJM; transmission owners; state regulators; generators bidding into backstop procurement.",
+    "watchNext": "FERC action on PJM's revised backstop filing (due October 29, 2026) and the December 2026 BRA.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-07-pjm-2028-29-capacity-auction",
+      "dev-2026-09-ferc-pjm-backstop-procurement-order",
+      "dev-2025-12-ferc-pjm-colocation-order"
+    ],
+    "sources": [
+      {
+        "title": "Board Decisional Letter on Critical Issue Fast Path – Large Load Additions",
+        "url": "https://www.pjm.com/-/media/DotCom/about-pjm/who-we-are/public-disclosures/2026/20260116-pjm-board-letter-re-results-of-the-cifp-process-large-load-additions.pdf",
+        "publisher": "PJM Interconnection",
+        "kind": "official",
+        "published": "2026-01-16"
+      },
+      {
+        "title": "PJM Board Directs Action on Resource Adequacy, Affordability and Large Loads",
+        "url": "https://insidelines.pjm.com/pjm-board-directs-action-on-resource-adequacy-affordability-and-large-loads/",
+        "publisher": "PJM Inside Lines",
+        "kind": "official"
+      },
+      {
+        "title": "US Data Center Demand: White House and Governors Issue Principles While PJM Issues Decisional Letter",
+        "url": "https://www.lw.com/en/insights/us-data-center-demand-white-house-and-governors-issue-principles-while-pjm-issues-decisional-letter",
+        "publisher": "Latham & Watkins",
+        "kind": "research"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "This item predates the April–October window but still governs. Board letter details come from search summaries."
+  },
+  {
+    "id": "dev-2025-11-va-scc-dominion-gs5-rate-class",
+    "date": "2025-11-25",
+    "title": "Virginia SCC creates GS-5 rate class for 25 MW+ customers with minimum-demand obligations",
+    "level": "utility",
+    "jurisdiction": "VA",
+    "states": [
+      "VA"
+    ],
+    "topics": [
+      "large_load_tariff",
+      "cost_allocation"
+    ],
+    "authority": "Virginia State Corporation Commission",
+    "status": "final",
+    "severity": 4,
+    "impact": "restrictive",
+    "whatHappened": "In its November 25, 2025 final order in Dominion Energy Virginia's 2025 biennial review (PUR-2025-00058), the SCC created a GS-5 rate class for customers demanding 25 MW or more, effective January 1, 2027. These customers must pay at least 85% of contracted distribution and transmission demand and 60% of generation demand. The SCC approved base-rate increases of $565.7 million for 2026 and $209.9 million for 2027, against Dominion's requested $822 million and $345 million, and set ROE at 9.8%.",
+    "whyItMatters": "This is the core cost-allocation tariff in the world's largest data center market. Minimum-take obligations make speculative capacity reservations in Dominion territory costly from 2027.",
+    "affected": "Data centers in Loudoun, Prince William, Culpeper and Henrico; Dominion residential ratepayers.",
+    "watchNext": "GS-5 takes effect January 1, 2027. Also watch Dominion's IRP update and SCC review of the NextEra-Dominion merger (evidentiary hearing scheduled November 17, 2026).",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-09-va-spanberger-eo-22",
+      "dev-2026-05-nextera-dominion-merger"
+    ],
+    "sources": [
+      {
+        "title": "SCC Rules in DEV Biennial Review Case",
+        "url": "https://www.scc.virginia.gov/about-the-scc/newsreleases/release/scc-issues-order-on-dev-biennial-review-2025/scc-rules-in-dev-biennial-review-case.html",
+        "publisher": "Virginia State Corporation Commission",
+        "kind": "official",
+        "published": "2025-11-25",
+        "docId": "PUR-2025-00058"
+      },
+      {
+        "title": "Virginia's New Data Center Electricity Rate Class",
+        "url": "https://www.americanactionforum.org/insight/virginias-new-data-center-electricity-rate-class/",
+        "publisher": "American Action Forum",
+        "kind": "research",
+        "published": "2026-01-08"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "AAF reports a 14-year contract term; the SCC release does not state it."
+  },
+  {
+    "id": "dev-2025-07-eo-14318-data-center-permitting",
+    "date": "2025-07-23",
+    "title": "EO 14318 fast-tracks federal permitting for data centers, revokes Biden AI infrastructure order",
+    "level": "federal",
+    "jurisdiction": "US",
+    "states": [],
+    "topics": [
+      "permitting",
+      "environmental_review",
+      "ai_policy",
+      "water"
+    ],
+    "authority": "President Donald Trump",
+    "status": "in_effect",
+    "severity": 4,
+    "impact": "permissive",
+    "whatHappened": "On July 23, 2025, President Trump signed Executive Order 14318, \"Accelerating Federal Permitting of Data Center Infrastructure\" (90 FR 35385). It defines Qualifying Projects as those with at least $500 million in committed capital expenditure, more than 100 MW of incremental load, national-security purposes, or designation by a cabinet secretary. It directs new NEPA categorical exclusions, FAST-41 dashboard coverage, EPA streamlining and Brownfield/Superfund site reuse, a programmatic ESA consultation, review of Clean Water Act nationwide permits, and federal land offerings by Interior, Energy and Defense. It revokes EO 14141 of January 14, 2025.",
+    "whyItMatters": "This is the main federal framework for data center permitting and federal-land siting, and later DOE site awards and EPA rule changes build on it. It mostly affects projects with a federal nexus. It does not preempt state or local zoning, permitting or utility regulation.",
+    "affected": "Hyperscale and AI campus developers with federal permits, funding or land; DOE, DOI and DOD site programs; EPA and Army Corps permitting staff.",
+    "watchNext": "Track agency implementation: new NEPA categorical exclusions, Clean Water Act nationwide permit revisions, and further federal-land lease awards.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-07-doe-paducah-brookfield-nextera-partnership",
+      "dev-2026-07-nnsa-savannah-river-amentum-selection",
+      "dev-2026-05-epa-nsr-begin-actual-construction-proposal"
+    ],
+    "sources": [
+      {
+        "title": "Accelerating Federal Permitting of Data Center Infrastructure",
+        "url": "https://www.whitehouse.gov/presidential-actions/2025/07/accelerating-federal-permitting-of-data-center-infrastructure/",
+        "publisher": "The White House",
+        "kind": "official",
+        "published": "2025-07-23",
+        "docId": "EO 14318"
+      },
+      {
+        "title": "90 FR 35385 - Accelerating Federal Permitting of Data Center Infrastructure",
+        "url": "https://www.govinfo.gov/app/details/FR-2025-07-28/2025-14212",
+        "publisher": "GovInfo",
+        "kind": "official",
+        "published": "2025-07-28",
+        "docId": "2025-14212"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high"
+  },
+  {
+    "id": "dev-2025-06-tx-sb6-large-load-law",
+    "date": "2025-06-20",
+    "title": "Texas SB 6 sets interconnection, cost and curtailment rules for large loads",
+    "level": "state",
+    "jurisdiction": "TX",
+    "states": [
+      "TX"
+    ],
+    "topics": [
+      "interconnection",
+      "cost_allocation",
+      "large_load_tariff",
+      "backup_generation",
+      "grid_capacity"
+    ],
+    "authority": "Texas Legislature; Governor Greg Abbott",
+    "status": "in_effect",
+    "severity": 4,
+    "impact": "mixed",
+    "whatHappened": "Senate Bill 6 (89th Legislature, Sen. Phil King), on planning, interconnection, operation and cost recovery for large electrical loads, was signed June 20, 2025 and took effect immediately. As summarized by Utility Dive, it requires large-load customers to show site control, cover necessary grid upgrades, disclose duplicate interconnection requests, and accept curtailment during firm load-shed events.",
+    "whyItMatters": "SB 6 is the statutory base for every later Texas large-load action, including PUCT batch-study rules and the 2026 audit. It moved interconnection risk and cost onto data center developers in ERCOT.",
+    "affected": "Large loads of 75 MW or more in ERCOT; PUCT rulemakings; ERCOT planning; developers with duplicate or speculative requests.",
+    "watchNext": "Remaining PUCT SB 6 rulemakings and any amendments in the 2027 session, where Abbott has signaled a push to end data center incentives.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-06-tx-puct-large-load-batch-study-rule",
+      "dev-2026-08-tx-abbott-ercot-data-center-audit"
+    ],
+    "sources": [
+      {
+        "title": "SB 6 Bill History (89R)",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB6",
+        "publisher": "Texas Legislature Online",
+        "kind": "official",
+        "docId": "SB 6 (89R)"
+      },
+      {
+        "title": "Efforts to curb data center speculation gain ground across the US",
+        "url": "https://www.utilitydive.com/news/efforts-to-curb-data-center-speculation-gain-ground-across-the-us/830495/",
+        "publisher": "Utility Dive",
+        "kind": "journalism"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high"
+  },
+  {
+    "id": "dev-2026-10-al-psc-data-center-contract-procedure",
+    "date": "2026-10-06",
+    "title": "Alabama PSC adopts review procedure for Alabama Power data center contracts, with 90-day auto-approval",
+    "level": "utility",
+    "jurisdiction": "AL",
+    "states": [
+      "AL"
+    ],
+    "topics": [
+      "large_load_tariff",
+      "disclosure",
+      "cost_allocation"
+    ],
+    "authority": "Alabama Public Service Commission",
+    "status": "final",
+    "severity": 3,
+    "impact": "permissive",
+    "whatHappened": "According to Alabama Daily News, the Alabama PSC on October 6, 2026 unanimously adopted a procedure for evaluating Alabama Power contracts with large-load data centers of 150 MW or more on a single site. Contracts are automatically approved if the commission does not vote within 90 days. Alabama Power must file a public petition naming the entities, maximum capacity and location, and submit full contracts and cost-impact estimates confidentially to the PSC and Attorney General under SB 270's public-interest standard. No public hearing is required. Alabama Power has 10 days to file a conforming tariff.",
+    "whyItMatters": "This gives a fast, predictable approval path in a Southeast market, while adding some transparency. Advocates say the auto-approval clause weakens accountability.",
+    "affected": "Alabama Power large-load prospects; Birmingham-area and north Alabama sites; cities with moratoriums (Cullman, Homewood, Leeds).",
+    "watchNext": "Alabama Power's conforming tariff filing (due within about 10 days of October 6) and the first contract petitions under the procedure.",
+    "evidence": "reported",
+    "related": [],
+    "sources": [
+      {
+        "title": "Alabama PSC approves new procedure for evaluating data center contracts",
+        "url": "https://aldailynews.com/data-center-contracts-psc-public-service-commission-alabama-power/",
+        "publisher": "Alabama Daily News",
+        "kind": "journalism",
+        "published": "2026-10-07"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The PSC order itself was not reviewed; the vote date is inferred from the article's reference to 'Tuesday.'"
+  },
+  {
+    "id": "dev-2026-10-miso-lars-large-load-filing",
+    "date": "2026-10-02",
+    "title": "MISO files fast-track Large Load Addition Resource Study pairing 200 MW+ loads with new generation",
+    "level": "regional",
+    "jurisdiction": "MISO",
+    "states": [
+      "IL",
+      "IN",
+      "IA",
+      "MI",
+      "MN",
+      "MO",
+      "WI",
+      "AR",
+      "LA",
+      "MS",
+      "TX",
+      "ND",
+      "SD",
+      "MT",
+      "KY"
+    ],
+    "topics": [
+      "interconnection",
+      "grid_capacity"
+    ],
+    "authority": "Midcontinent Independent System Operator (filing at FERC)",
+    "status": "pending",
+    "severity": 3,
+    "impact": "permissive",
+    "whatHappened": "On October 2, 2026, MISO asked FERC to approve a Large Load Addition Resource Study (LARS). It is a 120-day study for loads above 200 MW paired with new generation in the same local resource zone. Up to 10 applications would be studied in each of three annual windows, with generation and load in service within three years and paired for at least 15 years, and non-refundable deposits required. MISO requested a decision by December 2. The filing responds partly to FERC's June finding that MISO's large-load rules were inadequate.",
+    "whyItMatters": "LARS would create a faster lane for 'bring your own generation' data centers in the central U.S., which could shift siting toward MISO states with available gas and land.",
+    "affected": "Hyperscale projects in Indiana, Louisiana, Mississippi, Michigan, Minnesota and Wisconsin; MISO utilities (Entergy, Ameren, Xcel, Consumers, DTE, NIPSCO).",
+    "watchNext": "FERC decision requested by December 2, 2026. First study window planned for early 2027.",
+    "evidence": "reported",
+    "related": [
+      "dev-2026-06-ferc-large-load-show-cause-orders"
+    ],
+    "sources": [
+      {
+        "title": "MISO proposes fast-track large load, generation study process",
+        "url": "https://www.utilitydive.com/news/miso-large-load-generation-study-lars-ferc/832114/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-10-05"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The FERC docket number was not identified; the 'states' list reflects MISO's footprint broadly."
+  },
+  {
+    "id": "dev-2026-09-mo-ameren-irp-data-center-gas",
+    "date": "2026-09-28",
+    "title": "Ameren Missouri IRP adds 10.6 GW of gas, citing 2.8 GW of data center commitments by 2030",
+    "level": "utility",
+    "jurisdiction": "MO",
+    "states": [
+      "MO"
+    ],
+    "topics": [
+      "grid_capacity",
+      "natural_gas",
+      "nuclear"
+    ],
+    "authority": "Ameren Missouri (filing before Missouri PSC)",
+    "status": "proposed",
+    "severity": 3,
+    "impact": "permissive",
+    "whatHappened": "Ameren Missouri filed a 20-year IRP with the Missouri PSC on September 28, 2026. It adds 10.6 GW of gas, 3.6 GW of solar, 1.5 GW of wind, 2.4 GW of storage and 1.2 GW of nuclear, and takes gas from about 5% to 60% of its mix by 2045. Ameren says it has committed to serve 2.8 GW of large-load demand by 2030, up from 1.5 GW in its 2025 expectations, and that large loads will raise base deliveries 60% from 2027 to 2030. It says Missouri law requires large loads to cover the infrastructure costs of serving them.",
+    "whyItMatters": "This is a major Midwest IRP built around data centers. It shows utilities in vertically integrated states are committing to large gas fleets for hyperscale demand, which shapes long-run rates and siting.",
+    "affected": "St. Louis region data center projects; Ameren ratepayers; Missouri PSC; counties with moratoriums (e.g., St. Charles County).",
+    "watchNext": "Missouri PSC review of the IRP and associated certificate filings for the 2029-2031 gas units.",
+    "evidence": "reported",
+    "related": [
+      "dev-2026-07-mo-st-charles-county-moratorium"
+    ],
+    "sources": [
+      {
+        "title": "Ameren Missouri files 20-year plan with 10.6 GW of gas additions",
+        "url": "https://www.utilitydive.com/news/ameren-missouri-files-20-year-plan-with-106-gw-gas-additions/831758/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-09-30"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The PSC docket number was not identified."
+  },
+  {
+    "id": "dev-2026-09-nc-ncuc-denies-duke-gas-turbine",
+    "date": "2026-09-18",
+    "title": "NC regulators deny Duke Energy Progress gas turbine, calling data center load forecasts insufficiently reliable",
+    "level": "utility",
+    "jurisdiction": "NC",
+    "states": [
+      "NC"
+    ],
+    "topics": [
+      "grid_capacity",
+      "natural_gas",
+      "cost_allocation"
+    ],
+    "authority": "North Carolina Utilities Commission",
+    "status": "final",
+    "severity": 3,
+    "impact": "mixed",
+    "whatHappened": "On September 18, 2026, the NCUC denied Duke Energy Progress' request to build a 255 MW hydrogen-capable simple-cycle gas turbine at its Smith Energy Complex in Richmond County, estimated at $584 million. The commission said much of the projected load growth 'appears to be based upon anticipated data center customer additions' and found it 'insufficiently reliable.' It also said Duke had not shown how it would meet its White House Ratepayer Protection Pledge commitments for the unit. Duke said it is reviewing next steps.",
+    "whyItMatters": "This is one of the first regulator rejections of new generation on the grounds that data center demand forecasts are speculative. It signals tougher review of utility build plans across the Southeast.",
+    "affected": "Duke Energy Progress; data center prospects in the Carolinas; the pending 2025 Carolinas Resource Plan (CPIRP).",
+    "watchNext": "Duke's response (rehearing or refiling) and the NCUC CPIRP decision expected in late 2026.",
+    "evidence": "reported",
+    "related": [
+      "dev-2026-03-white-house-ratepayer-protection-pledge"
+    ],
+    "sources": [
+      {
+        "title": "North Carolina regulators deny Duke Energy gas turbine request over 'staggering' cost, uncertain need",
+        "url": "https://www.utilitydive.com/news/north-carolina-regulators-deny-dukes-gas-turbine-request-over-staggering/831015/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-09-22"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The NCUC order and docket number were not reviewed directly."
+  },
+  {
+    "id": "dev-2026-09-house-passes-ratepayer-protection-act",
+    "date": "2026-09-16",
+    "title": "House passes Ratepayer Protection Act 417-3; Senate effort blocked",
+    "level": "federal",
+    "jurisdiction": "US",
+    "states": [],
+    "topics": [
+      "cost_allocation",
+      "large_load_tariff"
+    ],
+    "authority": "U.S. House of Representatives",
+    "status": "pending",
+    "severity": 3,
+    "impact": "restrictive",
+    "whatHappened": "On September 16, 2026, the House passed the Ratepayer Protection Act (H.R. 9340, Reps. Gabe Evans and Kathy Castor) 417-3 under suspension, after a 52-0 Energy and Commerce markup on July 21. The bill amends PURPA section 111(d) to require state regulators to consider, within one year, standards making data center loads of 100 MW or more pay the full incremental cost of generation, transmission and distribution upgrades, with financial assurances and exit-cost protection. It does not mandate adoption. In the Senate, a unanimous consent request on September 17 drew an objection, and a September 30 vote failed 57-43, short of 60. Democrats called the bill \"toothless\" and pointed to Sen. Heinrich's GRID Savings Act and Sen. Van Hollen's bill instead.",
+    "whyItMatters": "Near-unanimous House support shows bipartisan agreement on data center cost allocation. But the consider-only PURPA approach leaves the outcome to state commissions, and Senate passage before the midterms looks unlikely.",
+    "affected": "State PUCs and non-regulated utilities; data center developers above 100 MW; ratepayers.",
+    "watchNext": "Senate action after the November 2026 midterms (lame duck), and competing Democratic bills that would give FERC jurisdiction over loads of 150 MW or more.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-03-white-house-ratepayer-protection-pledge",
+      "dev-2026-07-ratepayer-pledge-expansion"
+    ],
+    "sources": [
+      {
+        "title": "Ratepayer Protection Act Passes House with Strong Bipartisan Support",
+        "url": "https://energycommerce.house.gov/posts/ratepayer-protection-act-passes-house-with-strong-bipartisan-support",
+        "publisher": "House Energy and Commerce Committee",
+        "kind": "official",
+        "docId": "H.R. 9340"
+      },
+      {
+        "title": "House passes ratepayer protection bill to limit data center cost shifts",
+        "url": "https://www.utilitydive.com/news/house-passes-ratepayer-protection-bill-data-centers/830658/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-09-17"
+      },
+      {
+        "title": "Senate Democrats block Husted-led bill on data centers, calling it 'toothless'",
+        "url": "https://www.nbcnews.com/politics/congress/senate-democrats-block-sen-husted-led-bill-data-centers-calling-toothl-rcna600269",
+        "publisher": "NBC News",
+        "kind": "journalism",
+        "published": "2026-09-30"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Senator Husted's office describes a September 17 unanimous consent objection, and NBC reports a 57-43 vote on September 30. Both Senate events appear to have happened. The E&C press release was seen in search results but not fetched."
+  },
+  {
+    "id": "dev-2026-09-or-kotek-state-land-data-center-pause",
+    "date": "2026-09-08",
+    "title": "Oregon Gov. Kotek pauses state-land transactions for data centers through July 2027",
+    "level": "state",
+    "jurisdiction": "OR",
+    "states": [
+      "OR"
+    ],
+    "topics": [
+      "moratorium",
+      "zoning"
+    ],
+    "authority": "Governor Tina Kotek",
+    "status": "in_effect",
+    "severity": 3,
+    "impact": "restrictive",
+    "whatHappened": "On September 8, 2026, Gov. Kotek directed state agencies to pause unapproved requests involving state land for data centers, including easements, rights of way, leases, land-use permits and sales. The pause runs through July 1, 2027, unless the Governor or Legislature acts sooner. Her office said the state lacks authority for a statewide moratorium. It followed her July decision to halt a planned sale of about 32 acres at Mill Creek Corporate Center in Salem. Kotek said she wants the Legislature to pass a statewide moratorium in 2027, and Republican nominee Christine Drazan also called for one the same day.",
+    "whyItMatters": "The direct effect is narrow, but both major-party gubernatorial candidates back a 2027 statewide moratorium. That points to a real risk of statewide restriction in a major Pacific Northwest market (Hillsboro, The Dalles, Prineville).",
+    "affected": "Salem Mill Creek proposal; developers seeking state land or rights-of-way; Hillsboro, Umatilla and Morrow county campuses (indirectly).",
+    "watchNext": "Oregon governor election November 3, 2026, then the 2027 legislative session, where Democrats plan a three-year moratorium bill.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-09-or-governor-race-moratorium-positions"
+    ],
+    "sources": [
+      {
+        "title": "Governor Kotek Pauses Work on Requests for State Land to Support New Data Centers",
+        "url": "https://apps.oregon.gov/oregon-newsroom/OR/GOV/Posts/Post/governor-kotek-pauses-work-on-requests-for-state-land-to-support-new-data-centers",
+        "publisher": "Office of Governor Tina Kotek",
+        "kind": "official",
+        "published": "2026-09-08"
+      },
+      {
+        "title": "Gov. Kotek pauses data centers on state land. Capitol demonstrators want her to go further.",
+        "url": "https://oregoncapitalchronicle.com/2026/09/08/gov-kotek-pauses-data-centers-on-state-land-capitol-demonstrators-want-her-to-go-further/",
+        "publisher": "Oregon Capital Chronicle",
+        "kind": "journalism",
+        "published": "2026-09-08"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high"
+  },
+  {
+    "id": "dev-2026-09-nh-ayotte-statewide-moratorium-plan",
+    "date": "2026-09-02",
+    "title": "New Hampshire Gov. Ayotte (R) says she will propose a multiyear statewide data center moratorium",
+    "level": "state",
+    "jurisdiction": "NH",
+    "states": [
+      "NH"
+    ],
+    "topics": [
+      "moratorium",
+      "elections",
+      "grid_capacity"
+    ],
+    "authority": "Governor Kelly Ayotte",
+    "status": "under_discussion",
+    "severity": 3,
+    "impact": "restrictive",
+    "whatHappened": "On September 2, 2026, Gov. Ayotte said she opposes a potential data center at the former Merrimack Station site in Bow, citing energy supply and bills. She said she will propose a statewide moratorium lasting 'a period of years' in her next budget, which would take effect no earlier than July 2027. Eversource and Granite Shore Power had asked FERC for a viability study of an up-to-350 MW interconnection at Merrimack Station. On September 17, Senate President Sharon Carson said Senate Republicans 'agree with Gov. Ayotte.' House Democrats said they will propose a 24-month moratorium, and Democratic candidate Cinde Warmington pledged a Day One executive order.",
+    "whyItMatters": "This is a bipartisan moratorium push led by a Republican governor during an election year. It shows data center restrictions are no longer a one-party issue.",
+    "affected": "Bow/Merrimack Station redevelopment; Eversource; New England developers; candidates in the 2026 NH governor race.",
+    "watchNext": "The governor's FY2028-29 budget proposal (early 2027). Ayotte is on the November 3, 2026 ballot.",
+    "evidence": "reported",
+    "related": [
+      "dev-2026-04-me-ld307-moratorium-veto-sustained"
+    ],
+    "sources": [
+      {
+        "title": "Ayotte opposes potential Bow data center, plans to propose statewide moratorium",
+        "url": "https://www.nhpr.org/nh-news/2026-09-02/ayotte-opposes-potential-bow-data-center-plans-to-propose-moratorium-on-data-centers-in-state",
+        "publisher": "New Hampshire Public Radio",
+        "kind": "journalism",
+        "published": "2026-09-02"
+      },
+      {
+        "title": "In policy shift, Republicans say they'll pursue a moratorium on AI data centers in NH",
+        "url": "https://www.concordmonitor.com/2026/09/18/nh-republicans-pursue-data-center-moratorium/",
+        "publisher": "Concord Monitor",
+        "kind": "journalism",
+        "published": "2026-09-18"
+      },
+      {
+        "title": "Politicians Pile On Calls for Moratorium as Data Centers Talks In Bow Confirmed",
+        "url": "https://indepthnh.org/2026/09/02/politicians-pile-on-calls-for-moratorium-as-data-centers-talks-in-bow-confirmed/",
+        "publisher": "InDepthNH",
+        "kind": "journalism",
+        "published": "2026-09-02"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "No executive order or bill text has been released; duration and threshold are unspecified."
+  },
+  {
+    "id": "dev-2026-08-eo-14421-bulk-power-equipment-emergency",
+    "date": "2026-08-26",
+    "title": "EO 14421 declares national emergency over foreign bulk-power equipment, citing data center load",
+    "level": "federal",
+    "jurisdiction": "US",
+    "states": [],
+    "topics": [
+      "transmission",
+      "grid_capacity",
+      "interconnection"
+    ],
+    "authority": "President Donald Trump",
+    "status": "in_effect",
+    "severity": 3,
+    "impact": "restrictive",
+    "whatHappened": "On August 26, 2026, President Trump signed Executive Order 14421, declaring a national emergency over foreign-produced bulk-power system equipment. It authorizes DOE to prohibit, condition or unwind transactions involving covered foreign entities when it finds sabotage, cyber or supply risks, and to require monitoring or removal of installed equipment, for facilities of 69 kV and above. The order ties the threat to rapidly growing demand from data centers and AI. DOE's implementing rules are due by December 24, 2026, and its FAR recommendations by February 22, 2027.",
+    "whyItMatters": "Restrictions on imported transformers, switchgear and software could tighten already constrained equipment supply. That could lengthen timelines for transmission upgrades serving large data center loads.",
+    "affected": "Utilities and transmission owners; data center developers relying on substation and transmission upgrades; equipment suppliers.",
+    "watchNext": "DOE implementing regulations due December 24, 2026, including which countries and entities are covered.",
+    "evidence": "reported",
+    "related": [],
+    "sources": [
+      {
+        "title": "Executive Order Declares National Emergency to Secure U.S. Bulk-Power System",
+        "url": "https://www.hklaw.com/en/insights/publications/2026/09/executive-order-declares-national-emergency-to-secure-us",
+        "publisher": "Holland & Knight",
+        "kind": "research"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Based on a single law-firm analysis. The official White House or Federal Register text was not fetched, so evidence is marked 'reported'."
+  },
+  {
+    "id": "dev-2026-08-va-virginia-beach-chesapeake-data-center-limits",
+    "date": "2026-08-18",
+    "title": "Virginia Beach adopts 12-month data center pause as Chesapeake ends by-right data centers",
+    "level": "local",
+    "jurisdiction": "VA:Virginia Beach",
+    "states": [
+      "VA"
+    ],
+    "topics": [
+      "moratorium",
+      "zoning",
+      "water"
+    ],
+    "authority": "Virginia Beach City Council; Chesapeake City Council",
+    "status": "in_effect",
+    "severity": 3,
+    "impact": "restrictive",
+    "whatHappened": "On August 18, 2026, the Virginia Beach City Council voted unanimously to stop considering permits for new data centers for 12 months or until it addresses data centers in its zoning, whichever comes first. The same day, Chesapeake's council unanimously closed a zoning loophole under its eight-month moratorium adopted in July. Chesapeake eliminated by-right data center use, excluded the Fentress Airfield area, and barred data centers from connecting to groundwater.",
+    "whyItMatters": "Hampton Roads had been promoted as the next Virginia data center frontier, with subsea cable landings. Local pauses there, together with Suffolk's pending prohibition vote, narrow Virginia's growth options beyond the north.",
+    "affected": "Hampton Roads data center proposals (including the 4,000-acre Frank Williams Farm tract in Chesapeake); Dominion; subsea-cable-linked projects.",
+    "watchNext": "Suffolk City Council vote on a citywide prohibition scheduled October 21, 2026, and Virginia Beach zoning definitions.",
+    "evidence": "reported",
+    "related": [
+      "dev-2026-09-va-spanberger-eo-22"
+    ],
+    "sources": [
+      {
+        "title": "Chesapeake moves to restrict data center development, Virginia Beach presses pause",
+        "url": "https://www.whro.org/business-growth/2026-08-18/chesapeake-moves-to-restrict-data-center-development-virginia-beach-presses-pause",
+        "publisher": "WHRO",
+        "kind": "journalism",
+        "published": "2026-08-18"
+      },
+      {
+        "title": "Virginia is developing a piecemeal data center moratorium",
+        "url": "https://cardinalnews.org/2026/08/17/virginia-is-developing-a-piecemeal-data-center-moratorium-the-potential-impacts-are-complicated/",
+        "publisher": "Cardinal News",
+        "kind": "journalism",
+        "published": "2026-08-17"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The Suffolk vote date comes from prior research and was not re-verified."
+  },
+  {
+    "id": "dev-2026-08-in-indianapolis-moratorium",
+    "date": "2026-08-10",
+    "title": "Indianapolis council approves data center moratorium through end of 2027",
+    "level": "local",
+    "jurisdiction": "IN:Marion County",
+    "states": [
+      "IN"
+    ],
+    "topics": [
+      "moratorium",
+      "zoning",
+      "water",
+      "noise_light"
+    ],
+    "authority": "Indianapolis City-County Council; Metropolitan Development Commission",
+    "status": "in_effect",
+    "severity": 3,
+    "impact": "restrictive",
+    "whatHappened": "The Indianapolis City-County Council voted 23-1 on August 10, 2026 to bar new data centers through the end of 2027. Three already-approved projects are exempt: Metrobloks ($500 million, Martindale Brightwood), Sabey Data Centers (Decatur Township) and DC Blox ($2 billion, former Ford plant site). The Metropolitan Development Commission also had to approve, with a vote expected August 19. Proposed regulations would limit sound and require water and electrical capacity plans.",
+    "whyItMatters": "This is a long pause in the capital of a state that has courted hyperscalers. It shows urban resistance growing even where state policy is permissive.",
+    "affected": "Indianapolis-area proposals; AES Indiana; developers seeking Marion County sites; surrounding counties.",
+    "watchNext": "Final data center ordinance (noise, water and capacity plans) before the pause ends December 31, 2027.",
+    "evidence": "reported",
+    "related": [],
+    "sources": [
+      {
+        "title": "Indianapolis councilors approve data center moratorium",
+        "url": "https://mirrorindy.org/indianapolis-city-county-council-data-center-moratorium-approval/",
+        "publisher": "Mirror Indy",
+        "kind": "journalism",
+        "published": "2026-08-10"
+      },
+      {
+        "title": "Indy data center moratorium unanimously approved",
+        "url": "https://www.axios.com/local/indianapolis/2026/08/19/indy-data-center-moratorium-gets-unanimous-approval",
+        "publisher": "Axios Indianapolis",
+        "kind": "journalism",
+        "published": "2026-08-19"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The Metropolitan Development Commission's August 19 approval is reported in an Axios headline that could not be retrieved in full."
+  },
+  {
+    "id": "dev-2026-07-doe-paducah-brookfield-nextera-partnership",
+    "date": "2026-07-29",
+    "title": "DOE announces $100B+ Brookfield–NextEra AI campus at Paducah federal site",
+    "level": "federal",
+    "jurisdiction": "US",
+    "states": [
+      "KY"
+    ],
+    "topics": [
+      "ai_policy",
+      "natural_gas",
+      "grid_capacity"
+    ],
+    "authority": "U.S. Department of Energy",
+    "status": "announced",
+    "severity": 3,
+    "impact": "permissive",
+    "whatHappened": "On July 29, 2026, DOE announced a partnership to redevelop portions of its Paducah Site in western Kentucky into a 1.8 GW AI and high-performance computing campus, described as more than $100 billion in private investment. Brookfield will develop and operate the campus. NextEra will build 2 GW of new grid-connected gas generation and up to 2.6 GW of battery storage. Big Rivers Electric, Jackson Purchase Energy Cooperative and Paducah Power System will provide wholesale, retail and community roles. The power service agreement needs Kentucky PSC approval, and construction is expected to finish in 2031.",
+    "whyItMatters": "This is the largest federal-land data center deal so far and a template for pairing new generation with a campus to limit cost shifts. It is still subject to state utility approval.",
+    "affected": "Western Kentucky co-ops and ratepayers; Kentucky PSC; Brookfield and NextEra; the MISO/TVA-adjacent regional grid.",
+    "watchNext": "Kentucky PSC review of the power service agreement, and lease finalization and NEPA review.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-07-nnsa-savannah-river-amentum-selection",
+      "dev-2025-07-eo-14318-data-center-permitting"
+    ],
+    "sources": [
+      {
+        "title": "Energy Department Announces Partnership to Expand Reliable, Affordable Energy Access and Power",
+        "url": "https://www.energy.gov/articles/energy-department-announces-partnership-expand-reliable-affordable-energy-access-and-power",
+        "publisher": "U.S. Department of Energy",
+        "kind": "official",
+        "published": "2026-07-29"
+      },
+      {
+        "title": "Private-sector data center plans advance for Paducah and Savannah River sites",
+        "url": "https://www.ans.org/news/2026-07-31/article-8261/privatesector-data-center-plans-advance-for-paducah-and-savannah-river-sites/",
+        "publisher": "ANS Nuclear Newswire",
+        "kind": "journalism",
+        "published": "2026-07-31"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high"
+  },
+  {
+    "id": "dev-2026-07-md-montgomery-county-moratorium",
+    "date": "2026-07-28",
+    "title": "Montgomery County, MD adopts 18-month data center permit moratorium and bars hyperscale facilities",
+    "level": "local",
+    "jurisdiction": "MD:Montgomery County",
+    "states": [
+      "MD"
+    ],
+    "topics": [
+      "moratorium",
+      "zoning",
+      "community_benefits"
+    ],
+    "authority": "Montgomery County Council",
+    "status": "in_effect",
+    "severity": 3,
+    "impact": "restrictive",
+    "whatHappened": "On July 28, 2026, the Montgomery County Council approved Expedited Bill 19-26, barring the Department of Permitting Services from issuing data center permits for 18 months, including for pending or approved applications without building permits. It also approved Zoning Text Amendment 26-01, which defines and for now prohibits hyperscale data centers. The council will use the period to develop a framework, including an Office of Legislative Oversight review and a community benefit package.",
+    "whyItMatters": "This large suburban county next to the Northern Virginia hub has closed itself to hyperscale development. It is part of a Maryland pattern (Howard, Prince George's, Baltimore City pauses; Harford ban) after a statewide moratorium bill died.",
+    "affected": "Data center proposals in Montgomery County; Pepco/Exelon; neighboring Frederick County projects (by comparison).",
+    "watchNext": "OLO best-practices review and a permanent zoning framework before the moratorium expires (about January 2028).",
+    "evidence": "fact",
+    "related": [],
+    "sources": [
+      {
+        "title": "Council Approves 18-Month Data Center Moratorium, Places Limitations on Data Center Development",
+        "url": "https://www.montgomerycountymd.gov/news/council-approves-18-month-data-center-moratorium-places-limitations-data-center-development",
+        "publisher": "Montgomery County Government",
+        "kind": "official",
+        "published": "2026-07-28",
+        "docId": "Expedited Bill 19-26; ZTA 26-01"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high"
+  },
+  {
+    "id": "dev-2026-07-ratepayer-pledge-expansion",
+    "date": "2026-07-23",
+    "title": "White House expands Ratepayer Protection Pledge to 187 utilities and developers and 23 governors",
+    "level": "federal",
+    "jurisdiction": "US",
+    "states": [
+      "AL",
+      "AK",
+      "AR",
+      "GA",
+      "ID",
+      "IN",
+      "IA",
+      "LA",
+      "MS",
+      "MO",
+      "MT",
+      "NE",
+      "NV",
+      "ND",
+      "OH",
+      "OK",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "WV",
+      "WY"
+    ],
+    "topics": [
+      "cost_allocation",
+      "large_load_tariff"
+    ],
+    "authority": "The White House",
+    "status": "announced",
+    "severity": 3,
+    "impact": "mixed",
+    "whatHappened": "On July 23, 2026, the White House expanded the Ratepayer Protection Pledge. The White House says signers now cover 80% of power delivered to U.S. homes and businesses. POWER Magazine counted 187 organizations (55 investor-owned utilities, 105 cooperatives and public-power entities, 27 data center developers) plus 23 Republican governors, who signed an addendum committing to its principles \"to the greatest extent possible.\" The White House cited deals including NiSource's arrangements with Amazon and Alphabet, which it says will return at least $1.4 billion to customers over 15 years.",
+    "whyItMatters": "Signers now include most utilities serving data center load, so voluntary cost-causation commitments are becoming a de facto national norm. They remain non-binding and are enforced only through state tariffs.",
+    "affected": "Utilities and co-ops negotiating large-load contracts; PUCs in the 23 signatory-governor states; data center developers.",
+    "watchNext": "Whether state commissions in signatory states adopt tariffs that follow pledge terms, and whether Congress codifies the pledge through the Ratepayer Protection Act.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-03-white-house-ratepayer-protection-pledge",
+      "dev-2026-09-house-passes-ratepayer-protection-act"
+    ],
+    "sources": [
+      {
+        "title": "President Trump's Ratepayer Protection Pledge Secures American AI Dominance, Protects Consumers",
+        "url": "https://www.whitehouse.gov/releases/2026/07/president-trumps-ratepayer-protection-pledge-secures-american-ai-dominance-protects-consumers/",
+        "publisher": "The White House",
+        "kind": "official",
+        "published": "2026-07-23"
+      },
+      {
+        "title": "White House Expands Data Center Ratepayer Pledge as Congress Moves to Codify Protections",
+        "url": "https://www.powermag.com/white-house-expands-data-center-ratepayer-pledge-as-congress-moves-to-codify-protections/",
+        "publisher": "POWER Magazine",
+        "kind": "journalism",
+        "published": "2026-07-23"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Counts differ by source. The White House says 'more than 200 additional' signers, and POWER's own table (56/108/28) does not match its text (55/105/27)."
+  },
+  {
+    "id": "dev-2026-07-nnsa-savannah-river-amentum-selection",
+    "date": "2026-07-20",
+    "title": "NNSA picks Amentum to negotiate 1 GW AI data center lease at Savannah River Site",
+    "level": "federal",
+    "jurisdiction": "US",
+    "states": [
+      "SC"
+    ],
+    "topics": [
+      "ai_policy",
+      "natural_gas",
+      "nuclear",
+      "grid_capacity"
+    ],
+    "authority": "National Nuclear Security Administration (DOE)",
+    "status": "announced",
+    "severity": 3,
+    "impact": "permissive",
+    "whatHappened": "On July 20, 2026, NNSA selected Amentum through a competitive RFP to negotiate a phased lease for an AI data center of about 1 GW with roughly 2 GW of on-site generation at the Savannah River Site in South Carolina. The power would start with natural gas and transition to nuclear. NNSA said the selection is not a final lease award and depends on negotiations, permitting, safety and security reviews, and other federal approvals. Savannah River is one of four DOE sites chosen in 2025 for AI data center development.",
+    "whyItMatters": "It is the second federal-land AI campus to reach developer selection under the EO 14318 siting program. Its self-supplied power model is meant to avoid shifting costs to utility customers.",
+    "affected": "South Carolina grid and utilities; Amentum; the Aiken/Augusta region; nuclear developers.",
+    "watchNext": "Lease negotiations and NEPA review. Idaho National Laboratory and Oak Ridge had solicitations but no developer selections as of August 2026.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-07-doe-paducah-brookfield-nextera-partnership",
+      "dev-2025-07-eo-14318-data-center-permitting"
+    ],
+    "sources": [
+      {
+        "title": "NNSA Selects Amentum for AI Data Center and Energy Project at Savannah River Site",
+        "url": "https://www.energy.gov/nnsa/articles/nnsa-selects-amentum-ai-data-center-and-energy-project-savannah-river-site",
+        "publisher": "NNSA / U.S. Department of Energy",
+        "kind": "official",
+        "published": "2026-07-20"
+      },
+      {
+        "title": "Private-sector data center plans advance for Paducah and Savannah River sites",
+        "url": "https://www.ans.org/news/2026-07-31/article-8261/privatesector-data-center-plans-advance-for-paducah-and-savannah-river-sites/",
+        "publisher": "ANS Nuclear Newswire",
+        "kind": "journalism",
+        "published": "2026-07-31"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high"
+  },
+  {
+    "id": "dev-2026-07-ne-pillen-eo-26-17-incentives",
+    "date": "2026-07-20",
+    "title": "Nebraska EO 26-17 bars ImagiNE incentives for data centers and creates resource task force",
+    "level": "state",
+    "jurisdiction": "NE",
+    "states": [
+      "NE"
+    ],
+    "topics": [
+      "incentive_clawback",
+      "corporate_tax",
+      "water",
+      "cost_allocation"
+    ],
+    "authority": "Governor Jim Pillen (Executive Order 26-17)",
+    "status": "in_effect",
+    "severity": 3,
+    "impact": "restrictive",
+    "whatHappened": "Gov. Pillen signed Executive Order 26-17, which his office says bars data center applications from approval for ImagiNE Nebraska Act incentives. It requires joint review of proposals by the Departments of Economic Development, Revenue, and Water, Energy and Environment, and creates a DWEE task force on land, water and electricity. Pillen said 'This is not a moratorium on data centers.' The release notes LB 1261, enacted in 2026, which lets large users build their own power facilities with private partners.",
+    "whyItMatters": "A Republican governor in a public-power state pulling incentives shows that resource and ratepayer concerns now cross party lines. It removes a major subsidy for new hyperscale projects in Omaha-area and rural Nebraska.",
+    "affected": "OPPD, LES and NPPD service areas; hyperscalers expanding near Omaha and Lincoln; more than ten counties with moratoriums.",
+    "watchNext": "Task force recommendations and the 2027 Unicameral session.",
+    "evidence": "fact",
+    "related": [],
+    "sources": [
+      {
+        "title": "Gov. Pillen Signs Executive Order on Data Centers",
+        "url": "https://governor.nebraska.gov/gov-pillen-signs-executive-order-data-centers",
+        "publisher": "Office of Governor Jim Pillen",
+        "kind": "official",
+        "docId": "EO 26-17"
+      },
+      {
+        "title": "Pillen rescinds ImagiNE Act tax incentives for new Nebraska data centers",
+        "url": "https://nebraskaexaminer.com/2026/07/20/pillen-rescinds-imagine-act-tax-incentives-for-new-nebraska-data-centers/",
+        "publisher": "Nebraska Examiner",
+        "kind": "journalism",
+        "published": "2026-07-20"
+      },
+      {
+        "title": "Executive Order 26-17: Nebraska Reframes Economic Incentives for Data Centers",
+        "url": "https://www.mcgrathnorth.com/nebraska-reframes-economic-incentives-for-data-centers",
+        "publisher": "McGrath North",
+        "kind": "research"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "News coverage dates the signing to July 20, 2026, while the Governor's release shows July 21. McGrath North argues the order text adds review criteria but does not expressly prohibit incentives."
+  },
+  {
+    "id": "dev-2026-07-mi-whitmer-data-center-pledge",
+    "date": "2026-07-15",
+    "title": "Whitmer rejects moratorium, launches voluntary data center pledge and asks Legislature to codify MPSC protections",
+    "level": "state",
+    "jurisdiction": "MI",
+    "states": [
+      "MI"
+    ],
+    "topics": [
+      "cost_allocation",
+      "large_load_tariff",
+      "water",
+      "community_benefits"
+    ],
+    "authority": "Governor Gretchen Whitmer",
+    "status": "announced",
+    "severity": 3,
+    "impact": "mixed",
+    "whatHappened": "On July 15, 2026, Gov. Whitmer launched the Michigan Affordability and Responsible Growth Pledge, a non-binding 10-part commitment that data center companies pay the full cost of construction, operation, power and water. It references MPSC terms such as minimum billing demand, exit fees, collateral and minimum contract length. She asked lawmakers to codify those protections and said a moratorium is not on the table. Her office said six companies signed by July 16, and Google and Oracle publicly backed it. Sierra Club Michigan called it insufficient.",
+    "whyItMatters": "Michigan is an emerging hyperscale market (e.g., the $16 billion Saline Township campus). The governor's stance keeps a statewide pause off the table there, unlike New York, but codification would harden cost-allocation terms.",
+    "affected": "DTE and Consumers Energy large-load customers; Saline Township/OpenAI-Oracle campus; townships with moratoriums.",
+    "watchNext": "Legislative action on codification bills and moratorium bills (HB 5594-5596 / SB 1018-1020) after summer recess. Michigan governor election November 3, 2026 (Whitmer term-limited).",
+    "evidence": "fact",
+    "related": [],
+    "sources": [
+      {
+        "title": "Gov. Whitmer Launches Michigan Affordable and Responsible Growth Action Plan, Calls on Data Center Companies to Sign Pledge",
+        "url": "https://www.michigan.gov/whitmer/news/press-releases/2026/07/15/gov-whitmer-data",
+        "publisher": "Office of Governor Gretchen Whitmer",
+        "kind": "official",
+        "published": "2026-07-15"
+      },
+      {
+        "title": "Gov. Whitmer Secures Six Company Commitments to Michigan Affordability and Responsible Growth Pledge",
+        "url": "https://www.michigan.gov/whitmer/news/press-releases/2026/07/16/whitmer-secures-six-company-commitments-to-michigan-affordability-and-responsible-growth-pledge",
+        "publisher": "Office of Governor Gretchen Whitmer",
+        "kind": "official",
+        "published": "2026-07-16"
+      },
+      {
+        "title": "Whitmer pushes data center pledge — not a moratorium",
+        "url": "https://www.eenews.net/articles/whitmer-pushes-data-center-pledge-not-a-moratorium/",
+        "publisher": "E&E News",
+        "kind": "journalism",
+        "published": "2026-07-15"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Moratorium bill numbers come from prior research and were not re-verified."
+  },
+  {
+    "id": "dev-2026-06-tx-puct-large-load-batch-study-rule",
+    "date": "2026-06-18",
+    "title": "PUCT adopts cluster ('batch') study framework for large loads over 75 MW",
+    "level": "utility",
+    "jurisdiction": "TX",
+    "states": [
+      "TX"
+    ],
+    "topics": [
+      "interconnection",
+      "grid_capacity",
+      "transmission"
+    ],
+    "authority": "Public Utility Commission of Texas",
+    "status": "final",
+    "severity": 3,
+    "impact": "mixed",
+    "whatHappened": "According to Utility Dive, the PUCT on June 18, 2026 adopted a cluster study framework for prospective loads above 75 MW. It replaces what the agency called a 'lengthy and repetitive' sequential study process. ERCOT expected a final transmission plan for the first cluster, 'Batch Zero,' in late 2027. The governor's August 2026 audit directive later paused Batch Zero.",
+    "whyItMatters": "Batch studies are how ERCOT will ration transmission among competing data center requests. The rule sets the queue order that the audit now interrupts.",
+    "affected": "Large-load applicants in ERCOT; transmission service providers; ERCOT planning staff.",
+    "watchNext": "A revised Batch Zero schedule after the audit (ERCOT says the April 9, 2027 milestone will be missed).",
+    "evidence": "reported",
+    "related": [
+      "dev-2025-06-tx-sb6-large-load-law",
+      "dev-2026-08-tx-abbott-ercot-data-center-audit"
+    ],
+    "sources": [
+      {
+        "title": "Efforts to curb data center speculation gain ground across the US",
+        "url": "https://www.utilitydive.com/news/efforts-to-curb-data-center-speculation-gain-ground-across-the-us/830495/",
+        "publisher": "Utility Dive",
+        "kind": "journalism"
+      },
+      {
+        "title": "What Governor Abbott's Data Center Audit Directive Means for ERCOT and the Batch Zero Study Process",
+        "url": "https://www.gibsondunn.com/what-governor-abbotts-data-center-audit-directive-means-for-ercot-and-the-batch-zero-study-process/",
+        "publisher": "Gibson Dunn",
+        "kind": "research"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The adoption date and project number come from trade press; the PUCT order itself was not reviewed."
+  },
+  {
+    "id": "dev-2026-05-nextera-dominion-merger",
+    "date": "2026-05-18",
+    "title": "NextEra agrees to acquire Dominion Energy, consolidating the main utility serving Data Center Alley",
+    "level": "utility",
+    "jurisdiction": "VA",
+    "states": [
+      "VA",
+      "NC",
+      "SC"
+    ],
+    "topics": [
+      "grid_capacity",
+      "cost_allocation"
+    ],
+    "authority": "NextEra Energy; Dominion Energy (pending SCC, NCUC, SC PSC, FERC, NRC approval)",
+    "status": "pending",
+    "severity": 3,
+    "impact": "unclear",
+    "whatHappened": "NextEra Energy agreed on May 18, 2026 to acquire Dominion Energy in an all-stock deal that AAF valued at about $67 billion, with closing expected in 12 to 18 months. Utility Dive reports the combined company would have a 130 GW large-load pipeline. Virginia Lt. Gov. Ghazala Hashmi publicly opposed the deal in October 2026, citing stranded-asset risk from data center buildout, and most speakers at a Loudoun County hearing opposed it or sought more scrutiny. The SCC evidentiary hearing is scheduled to begin November 17, 2026, and the Attorney General has asked to restart the 180-day review clock.",
+    "whyItMatters": "Control of Dominion's planning and large-load tariff decisions would shift to the largest U.S. utility developer. Merger conditions are a new lever for Virginia officials to impose data center cost protections.",
+    "affected": "Dominion Energy Virginia and NC customers; Loudoun/Prince William data centers; SCC, NCUC and SC PSC.",
+    "watchNext": "SCC evidentiary hearing beginning November 17, 2026 (could be postponed if the AG's clock-restart request is granted). NCUC and FERC filings.",
+    "evidence": "reported",
+    "related": [
+      "dev-2025-11-va-scc-dominion-gs5-rate-class"
+    ],
+    "sources": [
+      {
+        "title": "Mega-merger Proposed to Power Data Center Alley",
+        "url": "https://www.americanactionforum.org/insight/mega-merger-proposed-to-power-data-center-alley/",
+        "publisher": "American Action Forum",
+        "kind": "research",
+        "published": "2026-06-23"
+      },
+      {
+        "title": "Virginia Lt. Gov. Hashmi opposes NextEra-Dominion merger as public hearings begin",
+        "url": "https://www.utilitydive.com/news/virginia-lt-gov-announces-opposition-to-dominion-nextera-merger/832369/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-10-07"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The deal value is from AAF; Utility Dive describes it as all-stock without a value. The company announcement itself was not reviewed."
+  },
+  {
+    "id": "dev-2026-05-epa-nsr-begin-actual-construction-proposal",
+    "date": "2026-05-11",
+    "title": "EPA proposes letting data centers start non-emitting construction before NSR permits",
+    "level": "federal",
+    "jurisdiction": "US",
+    "states": [],
+    "topics": [
+      "permitting",
+      "environmental_review",
+      "backup_generation"
+    ],
+    "authority": "U.S. EPA",
+    "status": "proposed",
+    "severity": 3,
+    "impact": "permissive",
+    "whatHappened": "On May 11, 2026, EPA proposed to revise the definition of \"begin actual construction\" in the New Source Review preconstruction permitting program and to add a definition of \"pollutant-emitting activities.\" Under the proposal, builders could start non-emitting work such as certain cement pads and wiring before obtaining a major NSR permit. EPA said the change supports AI infrastructure, power generation and data centers. The proposal was published May 13, 2026 (FR Doc. 2026-09524), with comments due June 29, 2026.",
+    "whyItMatters": "If finalized, data center campuses with permitted generators could start site work months earlier, cutting time to energization. Environmental groups are likely to challenge the rule.",
+    "affected": "Data center developers with major-source generator or turbine fleets; state permitting agencies; industrial and energy projects generally.",
+    "watchNext": "EPA final rule, timing not announced. The comment period closed June 29, 2026.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-01-epa-turbine-nsps-temporary-turbines",
+      "dev-2025-07-eo-14318-data-center-permitting"
+    ],
+    "sources": [
+      {
+        "title": "EPA Proposes Redefining 'Begin Actual Construction' to Remove Unnecessary Impediments",
+        "url": "https://www.epa.gov/newsreleases/epa-proposes-redefining-begin-actual-construction-remove-unnecessary-impediments",
+        "publisher": "U.S. EPA",
+        "kind": "official",
+        "published": "2026-05-11"
+      },
+      {
+        "title": "Revision to 'Begin Actual Construction' in the NSR Preconstruction Permitting Program (FR Doc. 2026-09524)",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-05-13/pdf/2026-09524.pdf",
+        "publisher": "Federal Register / GovInfo",
+        "kind": "official",
+        "published": "2026-05-13",
+        "docId": "2026-09524"
+      },
+      {
+        "title": "Data Centers and Air Quality: Recent Changes and Important Considerations for Developers",
+        "url": "https://www.gtlaw.com/en/insights/2026/6/data-centers-and-air-quality-recent-changes-and-important-considerations-for-developers",
+        "publisher": "Greenberg Traurig",
+        "kind": "research",
+        "published": "2026-06-23"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Whether a final rule has been issued since June 2026 was not verified."
+  },
+  {
+    "id": "dev-2026-04-me-ld307-moratorium-veto-sustained",
+    "date": "2026-04-29",
+    "title": "Maine Legislature fails to override Mills' veto of first statewide data center moratorium (LD 307)",
+    "level": "state",
+    "jurisdiction": "ME",
+    "states": [
+      "ME"
+    ],
+    "topics": [
+      "moratorium"
+    ],
+    "authority": "Governor Janet Mills; Maine Legislature",
+    "status": "failed",
+    "severity": 3,
+    "impact": "restrictive",
+    "whatHappened": "Gov. Mills vetoed LD 307 on April 24, 2026. The bill would have imposed an 18-month moratorium on data centers with loads of 20 MW or more and created a Maine Data Center Coordination Council. Mills said she would have signed it with an exemption for a $550 million project at the former Androscoggin Mill in Jay. The House vote to override, 72-65, fell short of two-thirds. Mills said she intends to set up a commission by executive order.",
+    "whyItMatters": "This was the first statewide moratorium to pass a legislature. Its near-enactment showed moratoriums had become mainstream, and towns such as Scarborough and Brunswick then adopted local 180-day pauses.",
+    "affected": "Jay (Androscoggin Mill) project; Maine municipalities; New England developers.",
+    "watchNext": "Mills' executive-order commission and a likely reintroduction in the 2027 Legislature after the November 2026 elections (Mills is term-limited).",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-09-nh-ayotte-statewide-moratorium-plan"
+    ],
+    "sources": [
+      {
+        "title": "Governor Mills Announces Decision on LD 307",
+        "url": "https://www.maine.gov/governor/mills/news/governor-mills-announces-decision-ld-307-2026-04-24",
+        "publisher": "Office of Governor Janet T. Mills",
+        "kind": "official",
+        "published": "2026-04-24",
+        "docId": "LD 307"
+      },
+      {
+        "title": "Despite initial support, Legislature fails to override Mills' veto of landmark data center ban",
+        "url": "https://mainemorningstar.com/2026/04/29/despite-initial-support-legislature-fails-to-override-mills-veto-of-landmark-data-center-ban/",
+        "publisher": "Maine Morning Star",
+        "kind": "journalism",
+        "published": "2026-04-29"
+      },
+      {
+        "title": "Janet Mills successfully vetoes bills on data centers and sealing criminal records",
+        "url": "https://www.mainepublic.org/politics/2026-04-29/janet-mills-successfully-vetoes-bills-on-data-centers-and-sealing-criminal-records",
+        "publisher": "Maine Public",
+        "kind": "journalism",
+        "published": "2026-04-29"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Search summaries also cite a 20-11 vote, which may be the original Senate passage tally; only the 72-65 House override vote is confirmed."
+  },
+  {
+    "id": "dev-2026-04-ferc-pjm-colocation-compliance-order",
+    "date": "2026-04-16",
+    "title": "FERC partly accepts PJM co-location compliance, commits to large-load action by June",
+    "level": "federal",
+    "jurisdiction": "PJM",
+    "states": [],
+    "topics": [
+      "interconnection",
+      "transmission"
+    ],
+    "authority": "FERC",
+    "status": "final",
+    "severity": 3,
+    "impact": "permissive",
+    "whatHappened": "On April 16, 2026, FERC issued an Order on Compliance and Directing Further Compliance (195 FERC ¶ 61,030) in EL25-49. It accepted PJM tariff changes letting co-located load projects request interconnection below nameplate capacity, accelerated processing, provisional service and surplus interconnection service, effective that day. It rejected PJM's change to the Co-Located Load definition and its behind-the-meter revisions, and ordered a further compliance filing within 30 days. The same day, FERC issued an Order Regarding Intent to Act committing to act in the large-load docket RM26-4 by the end of June 2026.",
+    "whyItMatters": "The accepted pathways can speed co-located data center interconnections in PJM now, ahead of the rate design paper hearing. The intent-to-act order replaced DOE's requested April 30 deadline with a June timeline.",
+    "affected": "PJM co-location developers and generators; PJM transmission owners.",
+    "watchNext": "FERC action on PJM's further compliance filing (filed around May 18, 2026, per secondary sources) and on the paper-hearing rates.",
+    "evidence": "fact",
+    "related": [
+      "dev-2025-12-ferc-pjm-colocation-order",
+      "dev-2026-06-ferc-large-load-show-cause-orders"
+    ],
+    "sources": [
+      {
+        "title": "FERC Provides Further Guidance on Co-Located Load Interconnection",
+        "url": "https://www.vnf.com/ferc-provides-further-guidance-on-co-located-load-interconnection",
+        "publisher": "Van Ness Feldman",
+        "kind": "research",
+        "published": "2026-04-21",
+        "docId": "195 FERC ¶ 61,030"
+      },
+      {
+        "title": "FERC to Act on Large-Load Interconnection Docket in June",
+        "url": "https://www.hklaw.com/en/insights/publications/2026/04/ferc-to-act-on-large-load-interconnection-docket-in-june",
+        "publisher": "Holland & Knight",
+        "kind": "research",
+        "published": "2026-04-17",
+        "docId": "RM26-4-000"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "FERC.gov pages returned 403, so this item relies on law-firm summaries of the orders. The DOE April 30 deadline comes from the task brief and was not independently re-verified."
+  },
+  {
+    "id": "dev-2026-03-sd-sb135-data-center-law",
+    "date": "2026-03-24",
+    "title": "South Dakota enacts data center 'bill of rights' (SB 135), rejects moratorium",
+    "level": "state",
+    "jurisdiction": "SD",
+    "states": [
+      "SD"
+    ],
+    "topics": [
+      "cost_allocation",
+      "water",
+      "preemption",
+      "large_load_tariff"
+    ],
+    "authority": "South Dakota Legislature; Governor Larry Rhoden",
+    "status": "enacted",
+    "severity": 3,
+    "impact": "mixed",
+    "whatHappened": "Gov. Rhoden signed SB 135 and HB 1038 on March 24, 2026. SB 135, the 'Data Center Bill of Rights for Citizens,' applies to data centers with peak demand of 10 MW or more, requires them to cover rate increases they cause, adds water-use rules, and bars the state from limiting local authority to regulate or ban data centers. HB 1038 lets the PUC review actual energy use at the facilities' expense. A one-year moratorium and a 50-year sales-tax exemption both failed.",
+    "whyItMatters": "This is a template for a Republican-led middle path: cost causation plus explicit local control, with no incentives or moratorium. It is the reverse of preemption states like West Virginia and Montana.",
+    "affected": "South Dakota counties (e.g., Yankton's six-month moratorium); Xcel, Black Hills and co-op service areas.",
+    "watchNext": "PUC implementation of HB 1038 reviews and further county ordinances.",
+    "evidence": "reported",
+    "related": [],
+    "sources": [
+      {
+        "title": "South Dakota sets limits on data centers, rejects moratorium",
+        "url": "https://www.buffalosfire.com/south-dakota-sets-limits-on-data-centers-rejects-moratorium",
+        "publisher": "Buffalo's Fire",
+        "kind": "journalism",
+        "published": "2026-04-03"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Only one news source was reviewed; the bill text and legislature record were not fetched."
+  },
+  {
+    "id": "dev-2026-03-white-house-ratepayer-protection-pledge",
+    "date": "2026-03-04",
+    "title": "White House Ratepayer Protection Pledge: seven AI firms commit to pay for their own power",
+    "level": "federal",
+    "jurisdiction": "US",
+    "states": [],
+    "topics": [
+      "cost_allocation",
+      "large_load_tariff",
+      "grid_capacity",
+      "backup_generation"
+    ],
+    "authority": "The White House",
+    "status": "announced",
+    "severity": 3,
+    "impact": "mixed",
+    "whatHappened": "On March 4, 2026, the White House announced the Ratepayer Protection Pledge, signed by Amazon, Google, Meta, Microsoft, OpenAI, Oracle and xAI. Signers commit to build, bring or buy new generation for their needs, pay for delivery upgrades, and negotiate separate rate structures under which they pay for power and infrastructure whether or not they use it. They also commit to make backup generation available during scarcity when possible.",
+    "whyItMatters": "The pledge is voluntary, but it puts federal weight behind \"pay your own way\" large-load tariffs that state commissions and RTOs are now writing. PJM later cited it in its FERC filing.",
+    "affected": "Hyperscalers and AI developers; utilities and state PUCs negotiating large-load tariffs; residential ratepayers.",
+    "watchNext": "Whether the pledge terms appear in state large-load tariffs and in RTO responses to FERC's June 2026 show cause orders.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-07-ratepayer-pledge-expansion",
+      "dev-2026-09-house-passes-ratepayer-protection-act"
+    ],
+    "sources": [
+      {
+        "title": "Ratepayer Protection Pledge",
+        "url": "https://www.whitehouse.gov/releases/2026/03/ratepayer-protection-pledge/",
+        "publisher": "The White House",
+        "kind": "official",
+        "published": "2026-03-04"
+      },
+      {
+        "title": "White House, Tech Giants Sign Pledge to Shield Ratepayers from AI Data Center Power Costs",
+        "url": "https://news.constructconnect.com/white-house-tech-giants-sign-pledge-to-shield-ratepayers-from-ai-data-center-power-costs",
+        "publisher": "ConstructConnect",
+        "kind": "journalism"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The pledge is non-binding. ConstructConnect says it was announced March 4 and signed March 5, 2026."
+  },
+  {
+    "id": "dev-2026-01-epa-turbine-nsps-temporary-turbines",
+    "date": "2026-01-15",
+    "title": "EPA turbine NSPS creates 'temporary turbine' category easing on-site power permits",
+    "level": "federal",
+    "jurisdiction": "US",
+    "states": [],
+    "topics": [
+      "backup_generation",
+      "permitting",
+      "natural_gas",
+      "environmental_review"
+    ],
+    "authority": "U.S. EPA",
+    "status": "final",
+    "severity": 3,
+    "impact": "permissive",
+    "whatHappened": "EPA's amendments to the New Source Performance Standards for stationary combustion turbines were published in the Federal Register on January 15, 2026 (FR Doc. 2026-00677). The rule creates a temporary turbine subcategory for turbines rated up to 850 MMBtu/hour that are used for less than 24 months, and exempts certain low-use turbines from Title V major-source permitting. A conditional exclusion for turbines certified as nonroad engines requires a separate EPA rulemaking on portable-turbine standards.",
+    "whyItMatters": "Data centers increasingly use on-site gas turbines as bridge power, so a lighter permitting path for temporary units can speed energization. It also fuels disputes like the citizen suit over xAI's turbines, which argues temporary status is being used to avoid permitting.",
+    "affected": "Developers using bridge or on-site gas turbines (e.g., xAI); state air permitting agencies; communities near turbine sites.",
+    "watchNext": "EPA's separate rulemaking on nonroad standards for portable turbines, and the NAACP v. X.AI Corp. citizen suit in N.D. Miss., where DOJ filed a brief on June 15, 2026.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-05-epa-nsr-begin-actual-construction-proposal"
+    ],
+    "sources": [
+      {
+        "title": "Clean Air Act Resources for Data Centers",
+        "url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers",
+        "publisher": "U.S. EPA",
+        "kind": "official",
+        "docId": "FR Doc. 2026-00677"
+      },
+      {
+        "title": "EPA's New Turbine Rules Ease Air Permits for Data Centers",
+        "url": "https://www.clarkhill.com/news-events/news/epa-turbine-rules-air-permitting-data-centers/",
+        "publisher": "Clark Hill",
+        "kind": "research",
+        "published": "2026-05-27"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The Federal Register page could not be fetched (bot block). The EPA hub page lists the rule as January 15, 2025, but links an FR document dated 2026-01-15, so 2026 appears correct. Clark Hill cites 91 Fed. Reg. 1910. The provisions come from law-firm summaries."
+  },
+  {
+    "id": "dev-2026-09-ferc-rejects-comed-powerhouse-hillwood-cancellation",
+    "date": "2026-09-22",
+    "title": "FERC rejects ComEd cancellation of 1.8 GW PowerHouse Hillwood data center agreement",
+    "level": "federal",
+    "jurisdiction": "US",
+    "states": [
+      "IL"
+    ],
+    "topics": [
+      "interconnection",
+      "cost_allocation"
+    ],
+    "authority": "FERC",
+    "status": "final",
+    "severity": 2,
+    "impact": "mixed",
+    "whatHappened": "On September 22, 2026, FERC rejected ComEd's notice of cancellation of a transmission security agreement for PowerHouse Hillwood's 1.8 GW data center in Joliet, Illinois, declining jurisdiction over a dispute pending in federal district court. The dispute centers partly on credit support; the developer says a $1 posting met the initial requirement. Commissioners linked the case to FERC's June large-load show cause orders and urged consistent pro forma cost recovery terms. Commissioner LaCerte criticized the $1 letter of credit.",
+    "whyItMatters": "The case shows how weak collateral terms in utility agreements leave ratepayers exposed. It strengthens the case for standardized large-load financial security requirements.",
+    "affected": "ComEd; PowerHouse Hillwood (Joliet); Chicago-area large-load applicants.",
+    "watchNext": "N.D. Illinois litigation and RTO responses to FERC show cause orders (due by mid-November 2026).",
+    "evidence": "reported",
+    "related": [
+      "dev-2026-06-ferc-large-load-show-cause-orders",
+      "dev-2026-06-il-pritzker-data-center-incentive-pause"
+    ],
+    "sources": [
+      {
+        "title": "FERC rejects ComEd's cancellation of PowerHouse Hillwood data center contract",
+        "url": "https://www.utilitydive.com/news/ferc-exelon-comed-powerhouse-hillwood-data-center/831127/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-09-23"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium"
+  },
+  {
+    "id": "dev-2026-09-az-pima-county-data-center-moratorium",
+    "date": "2026-09-22",
+    "title": "Pima County approves 120-day moratorium on new data centers; Project Blue exempt",
+    "level": "local",
+    "jurisdiction": "AZ:Pima County",
+    "states": [
+      "AZ"
+    ],
+    "topics": [
+      "moratorium",
+      "water",
+      "zoning"
+    ],
+    "authority": "Pima County Board of Supervisors",
+    "status": "in_effect",
+    "severity": 2,
+    "impact": "restrictive",
+    "whatHappened": "The Pima County Board of Supervisors voted 3-2 on September 22, 2026 for a 120-day, extendable moratorium on new data center projects in unincorporated areas. An amendment limited it to projects that had not yet submitted permits, exempting Project Blue (Beale Infrastructure) and the 160-acre Project Gravel south of Tucson. The Goldwater Institute says the pause conflicts with state property-rights law.",
+    "whyItMatters": "This makes Tucson the second Arizona metro to see resistance to the industry. Water politics around Project Blue is shaping statewide debate, and a Goldwater challenge could test county powers.",
+    "affected": "Unincorporated Pima County proposals; Tucson Electric Power; Beale Infrastructure.",
+    "watchNext": "Code revisions before the moratorium expires in about late January 2027, and any Goldwater legal action.",
+    "evidence": "reported",
+    "related": [
+      "dev-2026-07-az-data-center-sales-tax-exemption-pause"
+    ],
+    "sources": [
+      {
+        "title": "Pima County passes 120-day moratorium on future data center projects",
+        "url": "https://www.kjzz.org/fronteras-desk/2026-09-23/pima-county-passes-120-day-moratorium-on-future-data-center-projects",
+        "publisher": "KJZZ",
+        "kind": "journalism",
+        "published": "2026-09-23"
+      },
+      {
+        "title": "Pima County supervisors approve data center moratorium",
+        "url": "https://azluminaria.org/2026/09/23/pima-county-supervisors-approve-data-center-moratorium/",
+        "publisher": "AZ Luminaria",
+        "kind": "journalism",
+        "published": "2026-09-23"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high"
+  },
+  {
+    "id": "dev-2026-09-or-governor-race-moratorium-positions",
+    "date": "2026-09-08",
+    "title": "Both Oregon gubernatorial nominees back a statewide data center moratorium",
+    "level": "state",
+    "jurisdiction": "OR",
+    "states": [
+      "OR"
+    ],
+    "topics": [
+      "elections",
+      "moratorium"
+    ],
+    "authority": "Gov. Tina Kotek (D); Christine Drazan (R)",
+    "status": "under_discussion",
+    "severity": 2,
+    "impact": "restrictive",
+    "whatHappened": "On September 8, 2026, as she paused state-land transactions for data centers, Gov. Kotek said she wants the Legislature to pass a statewide moratorium in 2027. Later the same day, Republican nominee Christine Drazan also called for a statewide moratorium. Oregon Capital Chronicle reported the issue has become a flashpoint in the governor's race, and advocacy groups back a three-year pause.",
+    "whyItMatters": "With both nominees supporting a moratorium, a 2027 statewide restriction in Oregon is a real possibility whoever wins. That is a material risk for Hillsboro and eastern Oregon campuses.",
+    "affected": "Hillsboro, The Dalles, Prineville, Umatilla/Morrow county campuses; PGE and PacifiCorp large-load customers.",
+    "watchNext": "November 3, 2026 election, then the 2027 Oregon legislative session.",
+    "evidence": "reported",
+    "related": [
+      "dev-2026-09-or-kotek-state-land-data-center-pause"
+    ],
+    "sources": [
+      {
+        "title": "Gov. Kotek pauses data centers on state land. Capitol demonstrators want her to go further.",
+        "url": "https://oregoncapitalchronicle.com/2026/09/08/gov-kotek-pauses-data-centers-on-state-land-capitol-demonstrators-want-her-to-go-further/",
+        "publisher": "Oregon Capital Chronicle",
+        "kind": "journalism",
+        "published": "2026-09-08"
+      },
+      {
+        "title": "Kotek Pauses All Consideration of State Land for Data Centers",
+        "url": "https://www.wweek.com/news/state/2026/09/08/kotek-pauses-all-consideration-of-state-land-for-data-centers/",
+        "publisher": "Willamette Week",
+        "kind": "journalism",
+        "published": "2026-09-08"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Drazan's statement comes from a news summary; her campaign statement was not reviewed."
+  },
+  {
+    "id": "dev-2026-08-nj-data-center-water-energy-reporting-law",
+    "date": "2026-08-27",
+    "title": "New Jersey requires semiannual data center water and energy reporting to BPU",
+    "level": "state",
+    "jurisdiction": "NJ",
+    "states": [
+      "NJ"
+    ],
+    "topics": [
+      "disclosure",
+      "water",
+      "community_benefits"
+    ],
+    "authority": "Governor Mikie Sherrill; New Jersey Legislature",
+    "status": "enacted",
+    "severity": 2,
+    "impact": "restrictive",
+    "whatHappened": "On August 27, 2026, Gov. Sherrill signed S3379/A4096, requiring data center owners and operators to file semiannual reports with the BPU. The reports cover total energy use, energy for cooling and IT, peak daily water use, water sources, and on-site and backup power. The Department of Community Affairs also issued non-binding community benefit agreement guidance to municipalities on August 25.",
+    "whyItMatters": "Mandatory reporting gives regulators and towns data to justify future siting and rate decisions. It adds compliance cost but does not by itself restrict building.",
+    "affected": "New Jersey data center operators; BPU; municipalities negotiating CBAs.",
+    "watchNext": "BPU implementation of the reporting format and the first reporting cycle.",
+    "evidence": "fact",
+    "related": [
+      "dev-2026-07-nj-data-center-fair-share-act"
+    ],
+    "sources": [
+      {
+        "title": "Governor Sherrill Delivers All Four Pillars of Data Center Plan, Puts Power Back in the Hands of Communities",
+        "url": "https://www.nj.gov/governor/news/2026/20260827a.shtml",
+        "publisher": "Office of the Governor of New Jersey",
+        "kind": "official",
+        "published": "2026-08-27",
+        "docId": "S3379/A4096"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high"
+  },
+  {
+    "id": "dev-2026-08-ky-louisville-metro-moratorium",
+    "date": "2026-08-13",
+    "title": "Louisville Metro Council adopts six-month data center moratorium",
+    "level": "local",
+    "jurisdiction": "KY:Louisville Metro",
+    "states": [
+      "KY"
+    ],
+    "topics": [
+      "moratorium",
+      "zoning"
+    ],
+    "authority": "Louisville Metro Council",
+    "status": "in_effect",
+    "severity": 2,
+    "impact": "restrictive",
+    "whatHappened": "On August 13, 2026, the Louisville Metro Council voted 24-1 to bar city planners from approving new data center proposals for six months or until comprehensive zoning rules are adopted. An amendment extended it to building conversions that need no construction. Days earlier, Dermody Properties filed plans to convert a 350,000-square-foot Kramers Lane warehouse into a data center, which a councilmember called an attempt to 'backdoor' the moratorium.",
+    "whyItMatters": "A pause in Kentucky's largest city slows urban redevelopment plays while the state continues to court large projects.",
+    "affected": "Louisville proposals including the Kramers Lane conversion; LG&E/KU large-load pipeline.",
+    "watchNext": "Metro zoning rules for data centers before the moratorium expires in about February 2027.",
+    "evidence": "reported",
+    "related": [],
+    "sources": [
+      {
+        "title": "Louisville Metro Council approves data center moratorium as new proposal sparks controversy",
+        "url": "https://www.lpm.org/news/2026-08-13/louisville-metro-council-approves-data-center-moratorium-as-new-proposal-sparks-controversy",
+        "publisher": "Louisville Public Media",
+        "kind": "journalism",
+        "published": "2026-08-13"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high"
+  },
+  {
+    "id": "dev-2026-07-ga-paulding-county-moratorium",
+    "date": "2026-07-28",
+    "title": "Paulding County, GA freezes data center applications through January 1, 2027",
+    "level": "local",
+    "jurisdiction": "GA:Paulding County",
+    "states": [
+      "GA"
+    ],
+    "topics": [
+      "moratorium",
+      "zoning"
+    ],
+    "authority": "Paulding County Board of Commissioners",
+    "status": "in_effect",
+    "severity": 2,
+    "impact": "restrictive",
+    "whatHappened": "On July 28, 2026, the Paulding County Board of Commissioners unanimously suspended new data center applications, zoning requests and civil plan reviews until January 1, 2027, while it updates land-use codes. Pending zoning applications filed before approval are not affected.",
+    "whyItMatters": "Paulding is in metro Atlanta's western growth corridor, a top U.S. market. It joins DeKalb and Cherokee counties among more than a dozen Georgia jurisdictions with pauses after statewide moratorium and tax-break repeal bills failed in 2026.",
+    "affected": "West metro Atlanta proposals; Georgia Power large-load pipeline; neighboring Douglas and Bartow county sites.",
+    "watchNext": "Updated Paulding land-use code before January 1, 2027, and Georgia's 2027 legislative session on the data center sales-tax exemption.",
+    "evidence": "reported",
+    "related": [],
+    "sources": [
+      {
+        "title": "Paulding County approves data center moratorium, freezing projects",
+        "url": "https://www.fox5atlanta.com/news/paulding-county-approves-data-center-moratorium-freezing-projects",
+        "publisher": "FOX 5 Atlanta",
+        "kind": "journalism",
+        "published": "2026-07-30"
+      },
+      {
+        "title": "Cherokee County approves data center moratorium",
+        "url": "https://www.atlantanewsfirst.com/2026/07/22/cherokee-county-approves-data-center-moratorium/",
+        "publisher": "Atlanta News First",
+        "kind": "journalism",
+        "published": "2026-07-22"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The Cherokee and DeKalb actions and the failure of statewide bills come from prior research; only the Paulding article was retrieved."
+  },
+  {
+    "id": "dev-2026-07-mo-st-charles-county-moratorium",
+    "date": "2026-07-13",
+    "title": "St. Charles County, MO adopts six-month pause on data centers over 5 MW",
+    "level": "local",
+    "jurisdiction": "MO:St. Charles County",
+    "states": [
+      "MO"
+    ],
+    "topics": [
+      "moratorium",
+      "zoning"
+    ],
+    "authority": "St. Charles County Council",
+    "status": "in_effect",
+    "severity": 2,
+    "impact": "restrictive",
+    "whatHappened": "On July 13, 2026, the St. Charles County Council unanimously adopted a six-month moratorium on new and expanded large-scale data centers, defined as over 100,000 square feet or above 5 MW. A 12-month amendment failed amid debate over whether Missouri law allows longer county pauses. The City of St. Charles moved from a yearlong moratorium to an outright ban in May 2026.",
+    "whyItMatters": "Suburban St. Louis resistance is growing even as Ameren plans gas generation around 2.8 GW of data center commitments.",
+    "affected": "St. Louis-area data center proposals; Ameren Missouri.",
+    "watchNext": "Expiration or renewal in about January 2027.",
+    "evidence": "reported",
+    "related": [
+      "dev-2026-09-mo-ameren-irp-data-center-gas"
+    ],
+    "sources": [
+      {
+        "title": "St. Charles County officials approve half-year ban on data center projects",
+        "url": "https://www.stlpr.org/government-politics-issues/2026-07-14/st-charles-county-officials-approve-half-year-ban-on-data-center-projects-alter-senior-tax-freeze",
+        "publisher": "St. Louis Public Radio",
+        "kind": "journalism",
+        "published": "2026-07-14"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high"
+  },
+  {
+    "id": "dev-2026-07-mt-missoula-county-interim-zoning",
+    "date": "2026-07-09",
+    "title": "Missoula County adopts one-year interim zoning pause on data centers; voter-approval initiatives advance elsewhere in Montana",
+    "level": "local",
+    "jurisdiction": "MT:Missoula County",
+    "states": [
+      "MT"
+    ],
+    "topics": [
+      "moratorium",
+      "zoning",
+      "elections"
+    ],
+    "authority": "Missoula County Commission",
+    "status": "in_effect",
+    "severity": 2,
+    "impact": "restrictive",
+    "whatHappened": "On July 9, 2026, Missoula County commissioners unanimously adopted interim zoning pausing new or expanded data centers countywide outside the City of Missoula for up to one year, extendable by a year. Residents of Butte-Silver Bow and Yellowstone counties were gathering signatures for initiatives to require voter approval of data center construction. Yellowstone County commissioners directed the county attorney to ask District Court whether that petition is valid.",
+    "whyItMatters": "This tests local power in a state whose 2025 Right to Compute Act limits restrictions on computing. The ballot-initiative fights could put data centers directly before voters.",
+    "affected": "Western Montana proposals; NorthWestern Energy large-load tariff (filed March 2026); Butte and Billings-area projects.",
+    "watchNext": "County study within 30 days of adoption, and court rulings on the Yellowstone County petition.",
+    "evidence": "reported",
+    "related": [],
+    "sources": [
+      {
+        "title": "Missoula County adopts temporary moratorium on data centers",
+        "url": "https://montanafreepress.org/2026/07/09/missoula-county-adopts-temporary-moratorium-on-data-centers/",
+        "publisher": "Montana Free Press",
+        "kind": "journalism",
+        "published": "2026-07-09"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "How the Right to Compute Act interacts with interim zoning has not been decided."
+  },
+  {
+    "id": "dev-2026-06-wa-seattle-emergency-moratorium",
+    "date": "2026-06-09",
+    "title": "Seattle adopts emergency moratorium on data centers above 20 MVA",
+    "level": "local",
+    "jurisdiction": "WA:City of Seattle",
+    "states": [
+      "WA"
+    ],
+    "topics": [
+      "moratorium",
+      "zoning",
+      "grid_capacity",
+      "water"
+    ],
+    "authority": "Seattle City Council",
+    "status": "in_effect",
+    "severity": 2,
+    "impact": "restrictive",
+    "whatHappened": "On June 9, 2026, the Seattle City Council unanimously adopted an emergency moratorium on siting new data centers, defined as facilities above 20 MVA that mainly store or process data and require uninterruptible power. It can be extended by up to six months. Resolution 32204 directs analysis of grid capacity, water, rates, land use, jobs and public health. Spokane adopted a one-year moratorium on June 22.",
+    "whyItMatters": "Seattle City Light territory is constrained. Moratoriums in Washington's two largest cities came after a statewide regulation bill (HB 2515) died in the Senate.",
+    "affected": "Seattle City Light large-load requests; Puget Sound colocation operators.",
+    "watchNext": "Policy framework analysis and any permanent zoning before the moratorium expires (about June 2027).",
+    "evidence": "fact",
+    "related": [],
+    "sources": [
+      {
+        "title": "City Council passes emergency data center moratorium and policy framework",
+        "url": "https://council.seattle.gov/2026/06/09/city-council-passes-emergency-data-center-moratorium-and-policy-framework/",
+        "publisher": "Seattle City Council",
+        "kind": "official",
+        "published": "2026-06-09",
+        "docId": "Resolution 32204"
+      },
+      {
+        "title": "Spokane City Council Passes One-Year Moratorium on Data Centers",
+        "url": "https://my.spokanecity.org/news/releases/2026/06/23/spokane-city-council-passes-one-year-moratorium-on-data-centers/",
+        "publisher": "City of Spokane",
+        "kind": "official",
+        "published": "2026-06-23"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The Spokane details come from prior research and the release title; the release was not fetched."
+  },
+  {
+    "id": "dev-2026-04-ok-oklahoma-city-moratorium",
+    "date": "2026-04-21",
+    "title": "Oklahoma City adopts data center moratorium through end of 2026",
+    "level": "local",
+    "jurisdiction": "OK:Oklahoma City",
+    "states": [
+      "OK"
+    ],
+    "topics": [
+      "moratorium",
+      "zoning"
+    ],
+    "authority": "Oklahoma City Council",
+    "status": "in_effect",
+    "severity": 2,
+    "impact": "restrictive",
+    "whatHappened": "The Oklahoma City Council unanimously approved a moratorium, with Mayor David Holt's support, on construction and expansion of data centers and on rezoning for data centers through the end of 2026. It includes an appeals process for projects seeking exemption. Tulsa had approved a nine-month pause in March 2026.",
+    "whyItMatters": "Both of Oklahoma's major metros paused new data centers in 2026 even as the state courts large projects.",
+    "affected": "OG&E and PSO large-load customers; Oklahoma City and Tulsa proposals.",
+    "watchNext": "Permanent regulations and the end-of-2026 expiration.",
+    "evidence": "reported",
+    "related": [],
+    "sources": [
+      {
+        "title": "Oklahoma City leaders approve data center moratorium",
+        "url": "https://www.kgou.org/politics-and-government/2026-04-22/oklahoma-city-leaders-approve-data-center-moratorium",
+        "publisher": "KGOU",
+        "kind": "journalism",
+        "published": "2026-04-22"
+      },
+      {
+        "title": "Tulsa will pause new data center construction for 9 months after council vote",
+        "url": "https://tulsaflyer.org/2026/03/25/government/post/tulsa-will-pause-new-data-center-construction-for-9-months-after-council-vote/",
+        "publisher": "Tulsa Flyer",
+        "kind": "journalism",
+        "published": "2026-03-25"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The vote date is inferred from the article's reference to 'Tuesday.' The Tulsa detail comes from prior research."
+  },
+  {
+    "id": "dev-2026-04-wi-port-washington-tif-referendum",
+    "date": "2026-04-07",
+    "title": "Port Washington, WI voters approve referendum requiring voter approval of large TIF districts after $15B data center deal",
+    "level": "local",
+    "jurisdiction": "WI:City of Port Washington",
+    "states": [
+      "WI"
+    ],
+    "topics": [
+      "elections",
+      "property_tax",
+      "incentive_clawback"
+    ],
+    "authority": "Port Washington voters (municipal referendum)",
+    "status": "enacted",
+    "severity": 2,
+    "impact": "restrictive",
+    "whatHappened": "On April 7, 2026, Port Washington voters approved a referendum requiring voter approval before the city creates any tax incremental financing district worth more than $10 million. Opponents of the $15 billion data center under construction there pushed it after the city created a $175 million TIF district for the project. A judge had earlier allowed the vote to proceed over a business-backed lawsuit.",
+    "whyItMatters": "Voters directly constrained the local financing tool used for hyperscale deals. It is a model for ballot-box challenges to data center incentives.",
+    "affected": "Port Washington data center project; Wisconsin municipalities using TIF for data centers; We Energies.",
+    "watchNext": "Similar referendums in other Wisconsin communities; Wisconsin's November 3, 2026 open-seat governor race, where candidates of both parties have campaigned on data center regulation.",
+    "evidence": "reported",
+    "related": [],
+    "sources": [
+      {
+        "title": "Get the latest Wisconsin data center news you might have missed",
+        "url": "https://wisconsinwatch.org/2026/04/latest-wisconsin-data-center-news-you-might-have-missed/",
+        "publisher": "Wisconsin Watch",
+        "kind": "journalism"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The source is a running news roundup."
+  },
+  {
+    "id": "dev-2025-12-eo-14365-state-ai-law-preemption",
+    "date": "2025-12-11",
+    "title": "EO 14365 targets state AI laws but carves data center infrastructure out of proposed preemption",
+    "level": "federal",
+    "jurisdiction": "US",
+    "states": [],
+    "topics": [
+      "preemption",
+      "ai_policy"
+    ],
+    "authority": "President Donald Trump",
+    "status": "in_effect",
+    "severity": 2,
+    "impact": "mixed",
+    "whatHappened": "On December 11, 2025, President Trump signed Executive Order 14365, \"Ensuring a National Policy Framework for Artificial Intelligence.\" It creates a DOJ AI Litigation Task Force to challenge state AI laws, orders Commerce to identify \"onerous\" state AI laws within 90 days, and conditions some BEAD non-deployment funds on states not having such laws. Its legislative recommendation for a preemptive federal framework would not preempt state laws on AI compute and data center infrastructure, other than generally applicable permitting reforms.",
+    "whyItMatters": "The carve-out means the administration's preemption push is not aimed at state or local data center siting, tax or utility rules. Those levers stay with states, while state AI model regulation faces federal pressure.",
+    "affected": "State legislatures weighing AI and data center bills; AI developers; BEAD grant recipients.",
+    "watchNext": "Whether Congress takes up a federal AI framework that keeps the data center infrastructure exclusion, and any DOJ task force suits against state laws.",
+    "evidence": "fact",
+    "related": [],
+    "sources": [
+      {
+        "title": "Ensuring a National Policy Framework for Artificial Intelligence",
+        "url": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/",
+        "publisher": "The White House",
+        "kind": "official",
+        "published": "2025-12-11",
+        "docId": "EO 14365"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Implementation status (Commerce list, task force litigation) was not verified for this item."
+  }
+]

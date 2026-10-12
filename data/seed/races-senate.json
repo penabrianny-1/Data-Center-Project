@@ -1,0 +1,3943 @@
+[
+  {
+    "id": "2026-sen-AL",
+    "office": "U.S. Senate",
+    "state": "AL",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-19",
+    "runoffDate": "2026-06-16",
+    "incumbent": {
+      "name": "Tommy Tuberville",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Barry Moore",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Rep. Barry Moore voted Aye on House concurrence in the Senate amendment to H.R. 1 (2025 reconciliation bill including energy tax-credit changes), 2025-07-03.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+              "url": "https://clerk.house.gov/Votes/2025190",
+              "publisher": "Office of the Clerk, U.S. House of Representatives",
+              "kind": "official",
+              "published": "2025-07-03",
+              "docId": "H.R. 1 / Roll Call 190",
+              "excerpt": "Passed 218-214 on 2025-07-03."
+            },
+            "date": "2025-07-03"
+          }
+        ]
+      },
+      {
+        "name": "Everett Wess",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Open seat (Tuberville is running for governor). Tuberville sits on Agriculture, Armed Services, HELP, Veterans' Affairs and Aging, none of the core energy/permitting/tax committees; the successor's committee assignments will determine direct influence on permitting, energy tax credits and AI policy, and as one of 100 votes the seat matters mostly on close floor votes.",
+    "implications": "Analysis: Rated safely Republican, this seat is unlikely to affect chamber control; its main significance is who fills the seat and which committees they join. A new member would likely be a reliable Republican vote on reconciliation and permitting packages.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+        "url": "https://clerk.house.gov/Votes/2025190",
+        "publisher": "Office of the Clerk, U.S. House of Representatives",
+        "kind": "official",
+        "published": "2025-07-03",
+        "docId": "H.R. 1 / Roll Call 190",
+        "excerpt": "Passed 218-214 on 2025-07-03."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Moore won the GOP runoff (2026-06-16) over Jared Hudson per secondary sources."
+  },
+  {
+    "id": "2026-sen-AK",
+    "office": "U.S. Senate",
+    "state": "AK",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-18",
+    "incumbent": {
+      "name": "Dan Sullivan",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Dan Sullivan",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "economic_development",
+            "summary": "Newsweek reports Sullivan has petitioned to bring data centers onto Air Force and joint military installations in Alaska.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+              "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+              "publisher": "Newsweek",
+              "kind": "journalism",
+              "published": "2026-08-22"
+            },
+            "date": "2026-08-22"
+          },
+          {
+            "topic": "energy",
+            "summary": "Sullivan voted Yea on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Sullivan voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Mary Peltola",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "affordability",
+            "summary": "Newsweek reports Peltola has focused on affordability and energy costs generally rather than data centers specifically.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+              "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+              "publisher": "Newsweek",
+              "kind": "journalism",
+              "published": "2026-08-22"
+            },
+            "date": "2026-08-22"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Toss-up",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Lean D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "InsiderAdvantage (R)",
+        "endDate": "2026-10-10",
+        "sampleSize": 1200,
+        "population": "LV",
+        "results": {
+          "Mary Peltola": 50,
+          "Dan Sullivan": 48
+        },
+        "url": "https://insideradvantage.com/insideradvantage-u-s-senate-surveys-alaska-ranks-choice-peltola-50-sullivan-48-kansas-hamilton-48-marshall-47-michigan-el-sayed-48-rogers-46/"
+      }
+    ],
+    "powers": "Sullivan sits on Commerce, Science and Transportation (which handles AI and telecom), Environment and Public Works (permitting, water), Armed Services and Veterans' Affairs. Those panels touch federal AI policy, NEPA/permitting and siting on federal and military land, but no single senator controls their output.",
+    "implications": "Analysis: This is one of a handful of seats likely to decide control; the Senate is 53 R to 47 D-caucus (45 D + 2 independents), so Democrats need a net gain of four seats for a 51-seat majority (Republicans hold the vice-presidential tiebreak). A Peltola win would also shift a Republican seat on Commerce and EPW, but committee ratios are set by the overall majority, not by individual seats.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+        "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+        "publisher": "Newsweek",
+        "kind": "journalism",
+        "published": "2026-08-22"
+      },
+      {
+        "title": "Four Rating Changes, Headlined by Alaska Senate Moving to Leans Democratic",
+        "url": "https://centerforpolitics.org/crystalball/four-rating-changes-headlined-by-alaska-senate-moving-to-leans-democratic/",
+        "publisher": "Sabato's Crystal Ball (UVA Center for Politics)",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Alaska Senate moved Toss-up to Leans Democratic; South Carolina Senate moved Safe to Likely Republican."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. Alaska uses a top-four nonpartisan primary (held 2026-08-18) and a ranked-choice general election; the general ballot reportedly also includes Daniel J. Sullivan Jr. and Gerald Heikes, omitted here pending official confirmation. The InsiderAdvantage result is the ranked-choice final round."
+  },
+  {
+    "id": "2026-sen-AR",
+    "office": "U.S. Senate",
+    "state": "AR",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-03-03",
+    "incumbent": {
+      "name": "Tom Cotton",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Tom Cotton",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Cotton voted Yea on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Cotton voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Hallie Shoffner",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Jeff Wadlin",
+        "party": "L",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Cotton sits on Energy and Natural Resources (permitting, federal lands, power) and chairs the Select Committee on Intelligence, which weighs in on AI and China technology competition. These roles give him a voice on energy and AI-security policy, though energy legislation is negotiated across the full committee and floor.",
+    "implications": "Analysis: Rated safely Republican, this seat is unlikely to affect chamber control; its main significance is who fills the seat and which committees they join. An upset would remove a Republican from Energy and Natural Resources and the Intelligence chair, but forecasters consider it unlikely.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+        "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Arkansas primary was 2026-03-03."
+  },
+  {
+    "id": "2026-sen-CO",
+    "office": "U.S. Senate",
+    "state": "CO",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-30",
+    "incumbent": {
+      "name": "John Hickenlooper",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "John Hickenlooper",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Hickenlooper voted Nay on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Hickenlooper voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ],
+        "website": "https://hickenlooper.com/"
+      },
+      {
+        "name": "Mark Baisley",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [],
+        "website": "https://markbaisley.com/"
+      },
+      {
+        "name": "Bob Chew",
+        "party": "Other",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Blake Huber",
+        "party": "L",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Hickenlooper sits on Commerce, Science and Transportation (AI, telecom) and Energy and Natural Resources (permitting, transmission, federal lands), plus HELP and Small Business. Those committees shape AI and energy-permitting legislation, though he is one minority member on each.",
+    "implications": "Analysis: Rated safely Democratic, this seat is unlikely to change hands; its significance lies in the member's committee seniority and votes on energy, tax and AI legislation within a minority or narrow majority caucus. His re-election would keep a Western Democrat with seniority on both Commerce and Energy.",
+    "sources": [
+      {
+        "title": "2026 General Election Official Candidate List",
+        "url": "https://www.coloradosos.gov/pubs/elections/vote/generalCandidates.html",
+        "publisher": "Colorado Secretary of State",
+        "kind": "official"
+      },
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Candidate list confirmed on the Colorado Secretary of State's official general-election list (additional Approval Voting and Unity candidates and write-ins omitted). No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+  },
+  {
+    "id": "2026-sen-DE",
+    "office": "U.S. Senate",
+    "state": "DE",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-09-15",
+    "incumbent": {
+      "name": "Chris Coons",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Chris Coons",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Coons voted Nay on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Coons voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Michael Katz",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Coons sits on Appropriations (which funds DOE, FERC-adjacent and grid programs), Foreign Relations, Judiciary and Small Business. Appropriations gives some leverage over energy and research funding, but not over permitting or tax law directly.",
+    "implications": "Analysis: Rated safely Democratic, this seat is unlikely to change hands; its significance lies in the member's committee seniority and votes on energy, tax and AI legislation within a minority or narrow majority caucus. ",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+  },
+  {
+    "id": "2026-sen-FL-special",
+    "office": "U.S. Senate",
+    "state": "FL",
+    "special": true,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-18",
+    "incumbent": {
+      "name": "Ashley Moody",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Ashley Moody",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Moody voted Yea on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Moody voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ],
+        "website": "https://ashleymoody.com/"
+      },
+      {
+        "name": "Angie Nixon",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [],
+        "website": "https://angienixon.com/"
+      },
+      {
+        "name": "Neil Gillespie",
+        "party": "I",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Special election for the remainder of Marco Rubio's term (ends January 2029). Moody, appointed in 2025, sits on Armed Services, HELP, Homeland Security, Judiciary, Joint Economic and Aging, none of the core energy, permitting or tax committees, so her influence on data-center policy is mainly through floor votes.",
+    "implications": "Analysis: Rated safely Republican, this seat is unlikely to affect chamber control; its main significance is who fills the seat and which committees they join. A Democratic upset would narrow the Republican majority for the 2027-2028 period.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Primary held 2026-08-18. InsiderAdvantage reported Moody leading Nixon by 7 (fielded 2026-09-20/21, 600 LV) but exact toplines were not captured, so the poll is not listed."
+  },
+  {
+    "id": "2026-sen-GA",
+    "office": "U.S. Senate",
+    "state": "GA",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-19",
+    "runoffDate": "2026-06-16",
+    "incumbent": {
+      "name": "Jon Ossoff",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Jon Ossoff",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Ossoff voted Nay on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Ossoff voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ],
+        "website": "https://electjon.com/"
+      },
+      {
+        "name": "Mike Collins",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Rep. Mike Collins voted Aye on House concurrence in the Senate amendment to H.R. 1 (2025 reconciliation bill including energy tax-credit changes), 2025-07-03.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+              "url": "https://clerk.house.gov/Votes/2025190",
+              "publisher": "Office of the Clerk, U.S. House of Representatives",
+              "kind": "official",
+              "published": "2025-07-03",
+              "docId": "H.R. 1 / Roll Call 190",
+              "excerpt": "Passed 218-214 on 2025-07-03."
+            },
+            "date": "2025-07-03"
+          }
+        ],
+        "website": "https://mikecollinsga.com/"
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Likely D",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Likely D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "InsiderAdvantage (R)",
+        "endDate": "2026-09-23",
+        "sampleSize": 1200,
+        "population": "LV",
+        "results": {
+          "Jon Ossoff": 50,
+          "Mike Collins": 42,
+          "Undecided": 8
+        },
+        "url": "https://insideradvantage.com/insideradvantage-georgia-survey-jackson-leads-by-two-in-race-for-governor-ossoff-leads-by-eight-in-senate-contest/"
+      },
+      {
+        "pollster": "Big Data Poll",
+        "endDate": "2026-09-23",
+        "sampleSize": 678,
+        "population": "LV",
+        "results": {
+          "Jon Ossoff": 52.2,
+          "Mike Collins": 41.0
+        },
+        "url": "https://www.bigdatapoll.com/blog/peach-state-poll-jon-ossoff-opens-up-lead-over-mike-collins-in-georgia/"
+      }
+    ],
+    "powers": "Ossoff sits on Appropriations, Rules and the Select Committee on Intelligence; none is a primary energy or tax committee, though Appropriations funds DOE and grid programs. Georgia's data-center-driven load growth is regulated mainly by the state PSC, so the seat's leverage is through federal votes on energy credits, permitting and AI.",
+    "implications": "Analysis: Democrats must hold seats like Georgia to have any path to the majority; the Senate is 53 R to 47 D-caucus (45 D + 2 independents), so Democrats need a net gain of four seats for a 51-seat majority (Republicans hold the vice-presidential tiebreak). A Collins win would make a Democratic majority much harder.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+        "url": "https://clerk.house.gov/Votes/2025190",
+        "publisher": "Office of the Clerk, U.S. House of Representatives",
+        "kind": "official",
+        "published": "2025-07-03",
+        "docId": "H.R. 1 / Roll Call 190",
+        "excerpt": "Passed 218-214 on 2025-07-03."
+      },
+      {
+        "title": "InsiderAdvantage Georgia Survey: Jackson leads by two in race for governor; Ossoff leads by eight in Senate contest",
+        "url": "https://insideradvantage.com/insideradvantage-georgia-survey-jackson-leads-by-two-in-race-for-governor-ossoff-leads-by-eight-in-senate-contest/",
+        "publisher": "InsiderAdvantage",
+        "kind": "data",
+        "published": "2026-09-25"
+      },
+      {
+        "title": "Peach State Poll: Jon Ossoff opens up lead over Mike Collins in Georgia",
+        "url": "https://www.bigdatapoll.com/blog/peach-state-poll-jon-ossoff-opens-up-lead-over-mike-collins-in-georgia/",
+        "publisher": "Big Data Poll",
+        "kind": "data",
+        "published": "2026-09-24"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. Collins won the GOP runoff on 2026-06-16 over Derek Dooley per secondary sources. Georgia also requires a general-election runoff (2026-12-01) if no candidate wins a majority."
+  },
+  {
+    "id": "2026-sen-ID",
+    "office": "U.S. Senate",
+    "state": "ID",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-19",
+    "incumbent": {
+      "name": "Jim Risch",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Jim Risch",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Risch voted Yea on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Risch voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Todd Achilles",
+        "party": "I",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Matt Loesby",
+        "party": "L",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Risch sits on Energy and Natural Resources (permitting, public lands, nuclear R&D relevant to Idaho National Laboratory) and chairs Foreign Relations. His ENR seat gives him a voice on energy and permitting bills, though committee output reflects the full membership.",
+    "implications": "Analysis: Rated safely Republican, this seat is unlikely to affect chamber control; its main significance is who fills the seat and which committees they join. Independent Todd Achilles is the main challenger after the Democratic nominee withdrew.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Democratic primary winner David Roth reportedly withdrew on 2026-07-28; independent Natalie Fleming is also reportedly on the ballot. Only a Risch-campaign-sponsored poll was found."
+  },
+  {
+    "id": "2026-sen-IL",
+    "office": "U.S. Senate",
+    "state": "IL",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-03-17",
+    "incumbent": {
+      "name": "Dick Durbin",
+      "party": "D",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Juliana Stratton",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Don Tracy",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Open seat (Durbin retiring). Durbin sits on Agriculture, Appropriations and is ranking member on Judiciary; a successor would likely start with junior committee assignments. Illinois is a large data-center market (PJM/MISO), but federal influence comes mainly through floor votes on energy tax credits, permitting and AI.",
+    "implications": "Analysis: Rated safely Democratic, this seat is unlikely to change hands; its significance lies in the member's committee seniority and votes on energy, tax and AI legislation within a minority or narrow majority caucus. The departure of a senior Democrat reduces caucus seniority on Appropriations.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Stratton won the 2026-03-17 Democratic primary over Raja Krishnamoorthi and Robin Kelly per secondary sources."
+  },
+  {
+    "id": "2026-sen-IA",
+    "office": "U.S. Senate",
+    "state": "IA",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-02",
+    "incumbent": {
+      "name": "Joni Ernst",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Ashley Hinson",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "ai_policy",
+            "summary": "Newsweek reports Hinson, a House Select Committee on China member, stresses U.S. leadership in AI to compete with Beijing; no data-center regulation stance was reported.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+              "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+              "publisher": "Newsweek",
+              "kind": "journalism",
+              "published": "2026-08-22"
+            },
+            "date": "2026-08-22"
+          },
+          {
+            "topic": "energy",
+            "summary": "Rep. Ashley Hinson voted Aye on House concurrence in the Senate amendment to H.R. 1 (2025 reconciliation bill including energy tax-credit changes), 2025-07-03.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+              "url": "https://clerk.house.gov/Votes/2025190",
+              "publisher": "Office of the Clerk, U.S. House of Representatives",
+              "kind": "official",
+              "published": "2025-07-03",
+              "docId": "H.R. 1 / Roll Call 190",
+              "excerpt": "Passed 218-214 on 2025-07-03."
+            },
+            "date": "2025-07-03"
+          }
+        ]
+      },
+      {
+        "name": "Josh Turek",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "affordability",
+            "summary": "Newsweek reports Turek campaigns against 'billionaires and large corporations' and has embraced the populist mood behind local moratoriums but has not released a detailed data-center platform.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+              "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+              "publisher": "Newsweek",
+              "kind": "journalism",
+              "published": "2026-08-22"
+            },
+            "date": "2026-08-22"
+          }
+        ]
+      },
+      {
+        "name": "Thomas Laehn",
+        "party": "L",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Toss-up",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Toss-up",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "Emerson College",
+        "endDate": "2026-10-06",
+        "sampleSize": 650,
+        "population": "LV",
+        "results": {
+          "Ashley Hinson": 47,
+          "Josh Turek": 45,
+          "Thomas Laehn": 2,
+          "Undecided": 7
+        },
+        "url": "https://emersoncollegepolling.com/iowa-2026-poll-u-s-senate-race-tightens-sand-maintains-edge-for-governor/"
+      },
+      {
+        "pollster": "InsiderAdvantage (R)",
+        "endDate": "2026-09-23",
+        "sampleSize": 1200,
+        "population": "LV",
+        "results": {
+          "Josh Turek": 47,
+          "Ashley Hinson": 46
+        },
+        "url": "https://insideradvantage.com/insideradvantage-senate-surveys-maine-collins-46-jackson-46-iowa-turek-47-hinson-46/"
+      }
+    ],
+    "powers": "Open seat (Ernst retiring). Ernst sits on Agriculture, Armed Services, Homeland Security and chairs Small Business; Iowa is a major hyperscale data-center and wind state, so the successor's votes on energy tax credits, transmission and permitting matter locally, though one senator's effect is limited.",
+    "implications": "Analysis: A Democratic pickup here would be one of the four net gains Democrats need; the Senate is 53 R to 47 D-caucus (45 D + 2 independents), so Democrats need a net gain of four seats for a 51-seat majority (Republicans hold the vice-presidential tiebreak).",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+        "url": "https://clerk.house.gov/Votes/2025190",
+        "publisher": "Office of the Clerk, U.S. House of Representatives",
+        "kind": "official",
+        "published": "2025-07-03",
+        "docId": "H.R. 1 / Roll Call 190",
+        "excerpt": "Passed 218-214 on 2025-07-03."
+      },
+      {
+        "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+        "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+        "publisher": "Newsweek",
+        "kind": "journalism",
+        "published": "2026-08-22"
+      },
+      {
+        "title": "Iowa 2026 Poll: U.S. Senate Race Tightens; Sand Maintains Edge for Governor",
+        "url": "https://emersoncollegepolling.com/iowa-2026-poll-u-s-senate-race-tightens-sand-maintains-edge-for-governor/",
+        "publisher": "Emerson College Polling",
+        "kind": "data",
+        "published": "2026-10-09"
+      },
+      {
+        "title": "InsiderAdvantage Senate Surveys: Maine Collins 46, Jackson 46; Iowa Turek 47, Hinson 46",
+        "url": "https://insideradvantage.com/insideradvantage-senate-surveys-maine-collins-46-jackson-46-iowa-turek-47-hinson-46/",
+        "publisher": "InsiderAdvantage",
+        "kind": "data"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. InsiderAdvantage is a Republican-affiliated pollster."
+  },
+  {
+    "id": "2026-sen-KS",
+    "office": "U.S. Senate",
+    "state": "KS",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-04",
+    "incumbent": {
+      "name": "Roger Marshall",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Roger Marshall",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Marshall said he supports the local data-center moratoriums adopted by several dozen Kansas counties, questioned data-center tax breaks given few permanent jobs, cited water and electricity supply as key issues, and called siting a state and local decision.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Senator Marshall: AI Will Not Replace Us—It Will Assist Us",
+              "url": "https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-ai-will-not-replace-us-it-will-assist-us/",
+              "publisher": "Office of Sen. Roger Marshall",
+              "kind": "official",
+              "published": "2026-07-22"
+            },
+            "date": "2026-07-22"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Marshall says AI should assist rather than replace people ('human in the loop') and called broad federal preemption of state AI laws currently unrealistic.",
+            "explicitDataCenter": false,
+            "evidence": "reported",
+            "source": {
+              "title": "Senator Marshall: AI Will Not Replace Us—It Will Assist Us",
+              "url": "https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-ai-will-not-replace-us-it-will-assist-us/",
+              "publisher": "Office of Sen. Roger Marshall",
+              "kind": "official",
+              "published": "2026-07-22"
+            },
+            "date": "2026-07-22"
+          },
+          {
+            "topic": "energy",
+            "summary": "Marshall voted Yea on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Adam Hamilton",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "David Graham",
+        "party": "L",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Toss-up",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Lean R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "InsiderAdvantage (R)",
+        "endDate": "2026-10-10",
+        "sampleSize": 1200,
+        "population": "LV",
+        "results": {
+          "Adam Hamilton": 48,
+          "Roger Marshall": 47
+        },
+        "url": "https://insideradvantage.com/insideradvantage-u-s-senate-surveys-alaska-ranks-choice-peltola-50-sullivan-48-kansas-hamilton-48-marshall-47-michigan-el-sayed-48-rogers-46/"
+      },
+      {
+        "pollster": "Emerson College",
+        "endDate": "2026-09-16",
+        "sampleSize": 750,
+        "population": "LV",
+        "results": {
+          "Adam Hamilton": 45,
+          "Roger Marshall": 43,
+          "David Graham": 4,
+          "Undecided": 8
+        },
+        "url": "https://emersoncollegepolling.com/kansas-2026/"
+      }
+    ],
+    "powers": "Marshall sits on Finance (energy tax credits, data-center-relevant tax provisions), Agriculture, HELP and Budget. Finance membership gives him a role in tax-credit and reconciliation decisions, though committee outcomes reflect the majority leadership.",
+    "implications": "Analysis: Cook moved Kansas to Toss Up in October; a Democratic win would be an unexpected pickup toward a majority (the Senate is 53 R to 47 D-caucus (45 D + 2 independents), so Democrats need a net gain of four seats for a 51-seat majority (Republicans hold the vice-presidential tiebreak)) and would remove a Republican from Finance.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Senator Marshall: AI Will Not Replace Us—It Will Assist Us",
+        "url": "https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-ai-will-not-replace-us-it-will-assist-us/",
+        "publisher": "Office of Sen. Roger Marshall",
+        "kind": "official",
+        "published": "2026-07-22"
+      },
+      {
+        "title": "A Senate Majority is Squarely in Democrats' Sights as Kansas Moves to Toss Up; Two Other Races Shift Left",
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-majority-squarely-democrats-sights-kansas-moves-toss-two",
+        "publisher": "Cook Political Report",
+        "kind": "journalism",
+        "published": "2026-10-05",
+        "excerpt": "Kansas moved Lean R to Toss Up, New Hampshire Toss Up to Lean D, North Carolina Lean D to Likely D."
+      },
+      {
+        "title": "Kansas 2026: Hamilton and Marshall in Tight Senate Race; Masterson Leads for Governor",
+        "url": "https://emersoncollegepolling.com/kansas-2026/",
+        "publisher": "Emerson College Polling",
+        "kind": "data",
+        "published": "2026-09-18"
+      },
+      {
+        "title": "InsiderAdvantage U.S. Senate Surveys: Alaska, Kansas, Michigan",
+        "url": "https://insideradvantage.com/insideradvantage-u-s-senate-surveys-alaska-ranks-choice-peltola-50-sullivan-48-kansas-hamilton-48-marshall-47-michigan-el-sayed-48-rogers-46/",
+        "publisher": "InsiderAdvantage",
+        "kind": "data",
+        "published": "2026-10-11"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. Hamilton's reported positions on AI (calls to slow superintelligence development) and opposition to AI data centers in Kansas were seen only in secondary summaries and could not be verified at a primary source, so they are omitted."
+  },
+  {
+    "id": "2026-sen-KY",
+    "office": "U.S. Senate",
+    "state": "KY",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-19",
+    "incumbent": {
+      "name": "Mitch McConnell",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Andy Barr",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Rep. Andy Barr voted Aye on House concurrence in the Senate amendment to H.R. 1 (2025 reconciliation bill including energy tax-credit changes), 2025-07-03.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+              "url": "https://clerk.house.gov/Votes/2025190",
+              "publisher": "Office of the Clerk, U.S. House of Representatives",
+              "kind": "official",
+              "published": "2025-07-03",
+              "docId": "H.R. 1 / Roll Call 190",
+              "excerpt": "Passed 218-214 on 2025-07-03."
+            },
+            "date": "2025-07-03"
+          }
+        ]
+      },
+      {
+        "name": "Charles Booker",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Open seat (McConnell retiring). McConnell sits on Agriculture, Appropriations and chairs Rules; a successor would likely receive junior assignments. Kentucky's coal and utility sectors make energy and grid votes salient, but the new member's leverage would come mainly through floor votes.",
+    "implications": "Analysis: Rated safely Republican, this seat is unlikely to affect chamber control; its main significance is who fills the seat and which committees they join. Losing McConnell's seniority on Appropriations would modestly reduce Kentucky's appropriations leverage.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+        "url": "https://clerk.house.gov/Votes/2025190",
+        "publisher": "Office of the Clerk, U.S. House of Representatives",
+        "kind": "official",
+        "published": "2025-07-03",
+        "docId": "H.R. 1 / Roll Call 190",
+        "excerpt": "Passed 218-214 on 2025-07-03."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+  },
+  {
+    "id": "2026-sen-LA",
+    "office": "U.S. Senate",
+    "state": "LA",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-16",
+    "runoffDate": "2026-06-27",
+    "incumbent": {
+      "name": "Bill Cassidy",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Julia Letlow",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Rep. Julia Letlow voted Aye on House concurrence in the Senate amendment to H.R. 1 (2025 reconciliation bill including energy tax-credit changes), 2025-07-03.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+              "url": "https://clerk.house.gov/Votes/2025190",
+              "publisher": "Office of the Clerk, U.S. House of Representatives",
+              "kind": "official",
+              "published": "2025-07-03",
+              "docId": "H.R. 1 / Roll Call 190",
+              "excerpt": "Passed 218-214 on 2025-07-03."
+            },
+            "date": "2025-07-03"
+          }
+        ]
+      },
+      {
+        "name": "Jamie Davis",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Bill Cassidy",
+        "party": "R",
+        "incumbent": true,
+        "status": "lost_primary",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Cassidy voted Yea on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Cassidy voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Cassidy sits on Energy and Natural Resources, Finance and chairs HELP; his defeat means those seats will be reassigned. Louisiana hosts Meta's large Richland Parish data-center project and LNG export growth, so the successor's votes on energy, gas and permitting matter, but committee assignments for a freshman are uncertain.",
+    "implications": "Analysis: Rated safely Republican, this seat is unlikely to affect chamber control; its main significance is who fills the seat and which committees they join. Cassidy's loss removes a Republican who sat on both Finance and Energy, which could shift the GOP's internal balance on energy tax issues depending on who fills those slots.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+        "url": "https://clerk.house.gov/Votes/2025190",
+        "publisher": "Office of the Clerk, U.S. House of Representatives",
+        "kind": "official",
+        "published": "2025-07-03",
+        "docId": "H.R. 1 / Roll Call 190",
+        "excerpt": "Passed 218-214 on 2025-07-03."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Louisiana used closed party primaries for Congress for the first time in 2026 (primary 2026-05-16, party runoff 2026-06-27). Cassidy reportedly finished third in the GOP primary; Letlow beat John Fleming in the runoff."
+  },
+  {
+    "id": "2026-sen-ME",
+    "office": "U.S. Senate",
+    "state": "ME",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-09",
+    "incumbent": {
+      "name": "Susan Collins",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Susan Collins",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "grid_capacity",
+            "summary": "Collins said she shares 'the concern of data centers gobbling up too much energy and putting stress on the cost of energy,' while praising data-center redevelopment of a former paper-mill site as an economic opportunity.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+              "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+              "publisher": "Newsweek",
+              "kind": "journalism",
+              "published": "2026-08-22"
+            },
+            "date": "2026-08-22"
+          },
+          {
+            "topic": "energy",
+            "summary": "Collins voted Nay on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Collins voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Troy Jackson",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "cost_allocation",
+            "summary": "Jackson wants data centers to create union jobs, pay their fair share, protect natural resources and pay for their own power; his campaign said Maine families should not 'subsidize the energy needs of some of the richest corporations in the world.'",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+              "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+              "publisher": "Newsweek",
+              "kind": "journalism",
+              "published": "2026-08-22"
+            },
+            "date": "2026-08-22"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Toss-up",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Toss-up",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "InsiderAdvantage (R)",
+        "endDate": "2026-09-23",
+        "sampleSize": 1200,
+        "population": "LV",
+        "results": {
+          "Susan Collins": 46,
+          "Troy Jackson": 46
+        },
+        "url": "https://insideradvantage.com/insideradvantage-senate-surveys-maine-collins-46-jackson-46-iowa-turek-47-hinson-46/"
+      }
+    ],
+    "powers": "Collins chairs the Appropriations Committee (which funds DOE, grid and research programs) and sits on HELP and Intelligence. The Appropriations gavel gives her significant influence over federal energy spending, though it would pass to the other party if control changed.",
+    "implications": "Analysis: A Democratic win would both flip a seat toward a majority (the Senate is 53 R to 47 D-caucus (45 D + 2 independents), so Democrats need a net gain of four seats for a 51-seat majority (Republicans hold the vice-presidential tiebreak)) and end Collins's Appropriations chairmanship regardless of who succeeds her on the committee.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+        "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+        "publisher": "Newsweek",
+        "kind": "journalism",
+        "published": "2026-08-22"
+      },
+      {
+        "title": "InsiderAdvantage Senate Surveys: Maine Collins 46, Jackson 46; Iowa Turek 47, Hinson 46",
+        "url": "https://insideradvantage.com/insideradvantage-senate-surveys-maine-collins-46-jackson-46-iowa-turek-47-hinson-46/",
+        "publisher": "InsiderAdvantage",
+        "kind": "data"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. Democratic primary winner Graham Platner reportedly withdrew on 2026-07-10 and Troy Jackson was chosen by party convention on 2026-07-25; Newsweek (2026-08-22) confirms Jackson as the Democratic candidate. InsiderAdvantage is a Republican-affiliated pollster."
+  },
+  {
+    "id": "2026-sen-MA",
+    "office": "U.S. Senate",
+    "state": "MA",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-09-01",
+    "incumbent": {
+      "name": "Ed Markey",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Ed Markey",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Markey voted Nay on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Markey voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "John Deaton",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Markey sits on Commerce, Science and Transportation (AI, telecom) and Environment and Public Works (permitting, water, Clean Air Act), plus HELP, and is ranking member on Small Business. Those committees are central to AI and data-center environmental policy, though he is a minority member.",
+    "implications": "Analysis: Rated safely Democratic, this seat is unlikely to change hands; its significance lies in the member's committee seniority and votes on energy, tax and AI legislation within a minority or narrow majority caucus. ",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Markey reportedly defeated Rep. Seth Moulton in the 2026-09-01 Democratic primary."
+  },
+  {
+    "id": "2026-sen-MI",
+    "office": "U.S. Senate",
+    "state": "MI",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-04",
+    "incumbent": {
+      "name": "Gary Peters",
+      "party": "D",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Abdul El-Sayed",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "El-Sayed backs state and local data-center moratoriums and opposes new projects until federal rules exist; his 'terms of engagement' would make developers pay utility rate hikes, protect grid reliability and use closed-loop cooling.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+              "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+              "publisher": "Newsweek",
+              "kind": "journalism",
+              "published": "2026-08-22"
+            },
+            "date": "2026-08-22"
+          }
+        ]
+      },
+      {
+        "name": "Mike Rogers",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Rogers, who long favored state and local control, endorsed a one-year statewide data-center moratorium and says the decision belongs to local communities, not 'Washington, D.C.'",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+              "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+              "publisher": "Newsweek",
+              "kind": "journalism",
+              "published": "2026-08-22"
+            },
+            "date": "2026-08-22"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Toss-up",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Lean D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "InsiderAdvantage (R)",
+        "endDate": "2026-10-10",
+        "sampleSize": 1200,
+        "population": "LV",
+        "results": {
+          "Abdul El-Sayed": 48,
+          "Mike Rogers": 46
+        },
+        "url": "https://insideradvantage.com/insideradvantage-u-s-senate-surveys-alaska-ranks-choice-peltola-50-sullivan-48-kansas-hamilton-48-marshall-47-michigan-el-sayed-48-rogers-46/"
+      },
+      {
+        "pollster": "InsiderAdvantage (R)",
+        "endDate": "2026-09-18",
+        "sampleSize": 1200,
+        "population": "LV",
+        "results": {
+          "Abdul El-Sayed": 47,
+          "Mike Rogers": 45
+        },
+        "url": "https://insideradvantage.com/insideradvantage-national-u-s-senate-surveys-n-c-cooper-48-whatley-43-mi-elsayed-47-rogers-45-nh-pappas-48-sununu-40/"
+      }
+    ],
+    "powers": "Open seat (Peters retiring). Peters sits on Appropriations, Armed Services, Commerce and is ranking member on Homeland Security; a successor would start junior. Michigan data-center proposals have been contentious, and both nominees favor state/local control, so the seat's federal effect would come through votes on energy, AI and permitting.",
+    "implications": "Analysis: Republicans see Michigan as their best pickup opportunity; a Rogers win would offset a Democratic gain elsewhere (the Senate is 53 R to 47 D-caucus (45 D + 2 independents), so Democrats need a net gain of four seats for a 51-seat majority (Republicans hold the vice-presidential tiebreak)).",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+        "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+        "publisher": "Newsweek",
+        "kind": "journalism",
+        "published": "2026-08-22"
+      },
+      {
+        "title": "InsiderAdvantage U.S. Senate Surveys: Alaska, Kansas, Michigan",
+        "url": "https://insideradvantage.com/insideradvantage-u-s-senate-surveys-alaska-ranks-choice-peltola-50-sullivan-48-kansas-hamilton-48-marshall-47-michigan-el-sayed-48-rogers-46/",
+        "publisher": "InsiderAdvantage",
+        "kind": "data",
+        "published": "2026-10-11"
+      },
+      {
+        "title": "InsiderAdvantage National U.S. Senate Surveys: N.C., Michigan, NH",
+        "url": "https://insideradvantage.com/insideradvantage-national-u-s-senate-surveys-n-c-cooper-48-whatley-43-mi-elsayed-47-rogers-45-nh-pappas-48-sununu-40/",
+        "publisher": "InsiderAdvantage",
+        "kind": "data"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. InsiderAdvantage is a Republican-affiliated pollster."
+  },
+  {
+    "id": "2026-sen-MN",
+    "office": "U.S. Senate",
+    "state": "MN",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "incumbent": {
+      "name": "Tina Smith",
+      "party": "D",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Peggy Flanagan",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Michele Tafoya",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Likely D",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Likely D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "InsiderAdvantage (R)",
+        "endDate": "2026-09-29",
+        "sampleSize": 1200,
+        "population": "LV",
+        "results": {
+          "Peggy Flanagan": 46,
+          "Michele Tafoya": 45
+        },
+        "url": "https://insideradvantage.com/insideradvantage-survey-u-s-senate-minnesota-contest-a-one-point-race-flanagan-46-tafoya-45/"
+      }
+    ],
+    "powers": "Open seat (Smith retiring). Smith sits on Finance (energy tax credits), Agriculture, Banking and Indian Affairs; her Finance seat would be reassigned. Minnesota has active data-center siting and water debates, but federal leverage comes mainly via tax and energy votes.",
+    "implications": "Analysis: A Republican upset would make the Democratic path to a majority much harder (the Senate is 53 R to 47 D-caucus (45 D + 2 independents), so Democrats need a net gain of four seats for a 51-seat majority (Republicans hold the vice-presidential tiebreak)) and cost Democrats a Finance seat.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "InsiderAdvantage Survey U.S. Senate Minnesota: a one-point race, Flanagan 46, Tafoya 45",
+        "url": "https://insideradvantage.com/insideradvantage-survey-u-s-senate-minnesota-contest-a-one-point-race-flanagan-46-tafoya-45/",
+        "publisher": "InsiderAdvantage",
+        "kind": "data"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. Flanagan is the DFL (Democratic) nominee. Primary date (Minnesota's August primary) not confirmed from an official source. No sourced data-center positions found. InsiderAdvantage is a Republican-affiliated pollster."
+  },
+  {
+    "id": "2026-sen-MS",
+    "office": "U.S. Senate",
+    "state": "MS",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-03-10",
+    "incumbent": {
+      "name": "Cindy Hyde-Smith",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Cindy Hyde-Smith",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Hyde-Smith voted Yea on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Hyde-Smith voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Scott Colom",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Ty Pinkins",
+        "party": "I",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Hyde-Smith sits on Energy and Natural Resources, Appropriations, Agriculture and Rules. The ENR and Appropriations seats give her a role in energy permitting and spending decisions; Mississippi has seen large data-center investment, but committee output reflects the full membership.",
+    "implications": "Analysis: Rated safely Republican, this seat is unlikely to affect chamber control; its main significance is who fills the seat and which committees they join. ",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Only Democratic-sponsored polls were found."
+  },
+  {
+    "id": "2026-sen-MT",
+    "office": "U.S. Senate",
+    "state": "MT",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-02",
+    "incumbent": {
+      "name": "Steve Daines",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Kurt Alme",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Seth Bodnar",
+        "party": "I",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Alani Bankhead",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Kyle Austin",
+        "party": "L",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Open seat (Daines retiring). Daines sits on Energy and Natural Resources, Finance, Foreign Relations and Indian Affairs, all of which will need a replacement; those are among the most data-center-relevant committees (permitting, public lands, tax credits).",
+    "implications": "Analysis: Rated safely Republican, this seat is unlikely to affect chamber control; its main significance is who fills the seat and which committees they join. Independent Seth Bodnar is running ahead of the Democrat in reported polling, so an upset would add an independent whose caucus choice is uncertain.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+  },
+  {
+    "id": "2026-sen-NE",
+    "office": "U.S. Senate",
+    "state": "NE",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-12",
+    "incumbent": {
+      "name": "Pete Ricketts",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Pete Ricketts",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Ricketts voted Yea on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Ricketts voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Dan Osborn",
+        "party": "I",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Likely R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Likely R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Ricketts sits on Environment and Public Works (permitting, Clean Air and Water Acts), Banking, Foreign Relations and Budget. EPW is a key committee for federal permitting reform, though bills are shaped by the chair and majority.",
+    "implications": "Analysis: An Osborn win would cost Republicans a seat (the Senate is 53 R to 47 D-caucus (45 D + 2 independents), so Democrats need a net gain of four seats for a 51-seat majority (Republicans hold the vice-presidential tiebreak)); Osborn has not committed to caucusing with either party, which could matter if control is close.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. No Democrat is on the ballot: the Democratic primary winner reportedly withdrew to support Osborn. Several recent polls show a close race but pollster releases were not verified directly."
+  },
+  {
+    "id": "2026-sen-NH",
+    "office": "U.S. Senate",
+    "state": "NH",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-09-08",
+    "incumbent": {
+      "name": "Jeanne Shaheen",
+      "party": "D",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Chris Pappas",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Rep. Chris Pappas voted No on House concurrence in the Senate amendment to H.R. 1 (2025 reconciliation bill including energy tax-credit changes), 2025-07-03.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+              "url": "https://clerk.house.gov/Votes/2025190",
+              "publisher": "Office of the Clerk, U.S. House of Representatives",
+              "kind": "official",
+              "published": "2025-07-03",
+              "docId": "H.R. 1 / Roll Call 190",
+              "excerpt": "Passed 218-214 on 2025-07-03."
+            },
+            "date": "2025-07-03"
+          }
+        ]
+      },
+      {
+        "name": "John E. Sununu",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Lean D",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Lean D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "InsiderAdvantage (R)",
+        "endDate": "2026-09-18",
+        "sampleSize": 1200,
+        "population": "LV",
+        "results": {
+          "Chris Pappas": 48,
+          "John E. Sununu": 40
+        },
+        "url": "https://insideradvantage.com/insideradvantage-national-u-s-senate-surveys-n-c-cooper-48-whatley-43-mi-elsayed-47-rogers-45-nh-pappas-48-sununu-40/"
+      }
+    ],
+    "powers": "Open seat (Shaheen retiring). Shaheen is ranking member on Foreign Relations and sits on Appropriations and Armed Services; a successor would start junior. New England's high electricity prices make energy-cost votes salient, but the seat's effect is through floor votes.",
+    "implications": "Analysis: Cook moved New Hampshire to Lean D in October; a Sununu win would be a Republican pickup that would sharply cut Democrats' path to a majority (the Senate is 53 R to 47 D-caucus (45 D + 2 independents), so Democrats need a net gain of four seats for a 51-seat majority (Republicans hold the vice-presidential tiebreak)).",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+        "url": "https://clerk.house.gov/Votes/2025190",
+        "publisher": "Office of the Clerk, U.S. House of Representatives",
+        "kind": "official",
+        "published": "2025-07-03",
+        "docId": "H.R. 1 / Roll Call 190",
+        "excerpt": "Passed 218-214 on 2025-07-03."
+      },
+      {
+        "title": "A Senate Majority is Squarely in Democrats' Sights as Kansas Moves to Toss Up; Two Other Races Shift Left",
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-majority-squarely-democrats-sights-kansas-moves-toss-two",
+        "publisher": "Cook Political Report",
+        "kind": "journalism",
+        "published": "2026-10-05",
+        "excerpt": "Kansas moved Lean R to Toss Up, New Hampshire Toss Up to Lean D, North Carolina Lean D to Likely D."
+      },
+      {
+        "title": "InsiderAdvantage National U.S. Senate Surveys: N.C., Michigan, NH",
+        "url": "https://insideradvantage.com/insideradvantage-national-u-s-senate-surveys-n-c-cooper-48-whatley-43-mi-elsayed-47-rogers-45-nh-pappas-48-sununu-40/",
+        "publisher": "InsiderAdvantage",
+        "kind": "data"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No sourced data-center positions found. InsiderAdvantage is a Republican-affiliated pollster."
+  },
+  {
+    "id": "2026-sen-NJ",
+    "office": "U.S. Senate",
+    "state": "NJ",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-02",
+    "incumbent": {
+      "name": "Cory Booker",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Cory Booker",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Booker voted Nay on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Booker voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Justin Murphy",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Booker sits on Agriculture, Foreign Relations, Judiciary and Small Business, none of the core energy or tax committees. New Jersey is in PJM, where data-center load is raising capacity prices, so his floor votes on energy and grid policy are the main channel.",
+    "implications": "Analysis: Rated safely Democratic, this seat is unlikely to change hands; its significance lies in the member's committee seniority and votes on energy, tax and AI legislation within a minority or narrow majority caucus. ",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+  },
+  {
+    "id": "2026-sen-NM",
+    "office": "U.S. Senate",
+    "state": "NM",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-02",
+    "incumbent": {
+      "name": "Ben Ray Luján",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Ben Ray Luján",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Luján voted Nay on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Luján voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Larry Marker",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Luján sits on Commerce, Science and Transportation (AI, telecom), Finance (energy tax credits), Agriculture, Indian Affairs and Budget. Finance and Commerce are both highly relevant to data-center tax and AI policy, though he serves in the minority.",
+    "implications": "Analysis: Rated safely Democratic, this seat is unlikely to change hands; its significance lies in the member's committee seniority and votes on energy, tax and AI legislation within a minority or narrow majority caucus. ",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Marker is reportedly a write-in Republican after no Republican qualified for the primary ballot."
+  },
+  {
+    "id": "2026-sen-NC",
+    "office": "U.S. Senate",
+    "state": "NC",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-03-03",
+    "incumbent": {
+      "name": "Thom Tillis",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Roy Cooper",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Michael Whatley",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Likely D",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Lean D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "InsiderAdvantage (R)",
+        "endDate": "2026-09-18",
+        "sampleSize": 1200,
+        "population": "LV",
+        "results": {
+          "Roy Cooper": 48,
+          "Michael Whatley": 43
+        },
+        "url": "https://insideradvantage.com/insideradvantage-national-u-s-senate-surveys-n-c-cooper-48-whatley-43-mi-elsayed-47-rogers-45-nh-pappas-48-sununu-40/"
+      }
+    ],
+    "powers": "Open seat (Tillis retiring). Tillis sits on Finance, Banking, Judiciary and Veterans' Affairs, and was the lone vote against stripping H.R. 1's AI provision and one of three Republicans voting against H.R. 1. A successor's Finance assignment is not guaranteed; North Carolina's data-center growth and Duke Energy load forecasts make energy votes salient.",
+    "implications": "Analysis: This is Democrats' best pickup opportunity; the Senate is 53 R to 47 D-caucus (45 D + 2 independents), so Democrats need a net gain of four seats for a 51-seat majority (Republicans hold the vice-presidential tiebreak). A flip would also remove a Republican seat on Finance.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+        "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+      },
+      {
+        "title": "A Senate Majority is Squarely in Democrats' Sights as Kansas Moves to Toss Up; Two Other Races Shift Left",
+        "url": "https://www.cookpolitical.com/analysis/senate/senate-overview/senate-majority-squarely-democrats-sights-kansas-moves-toss-two",
+        "publisher": "Cook Political Report",
+        "kind": "journalism",
+        "published": "2026-10-05",
+        "excerpt": "Kansas moved Lean R to Toss Up, New Hampshire Toss Up to Lean D, North Carolina Lean D to Likely D."
+      },
+      {
+        "title": "InsiderAdvantage National U.S. Senate Surveys: N.C., Michigan, NH",
+        "url": "https://insideradvantage.com/insideradvantage-national-u-s-senate-surveys-n-c-cooper-48-whatley-43-mi-elsayed-47-rogers-45-nh-pappas-48-sununu-40/",
+        "publisher": "InsiderAdvantage",
+        "kind": "data"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No sourced data-center positions for Cooper or Whatley found. InsiderAdvantage is a Republican-affiliated pollster."
+  },
+  {
+    "id": "2026-sen-OH-special",
+    "office": "U.S. Senate",
+    "state": "OH",
+    "special": true,
+    "electionDate": "2026-11-03",
+    "incumbent": {
+      "name": "Jon Husted",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Jon Husted",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "cost_allocation",
+            "summary": "Husted introduced the 'Ratepayer Protection Act,' which would require large electricity users such as data centers to pay for the infrastructure needed to serve them; he earlier celebrated Google and AWS projects and defended a 2019 Google tax break as lieutenant governor.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Map shows states where data centers are on the ballot",
+              "url": "https://www.newsweek.com/map-shows-states-where-data-centers-are-on-the-ballot-12528253",
+              "publisher": "Newsweek",
+              "kind": "journalism",
+              "published": "2026-10-06"
+            },
+            "date": "2026-10-06"
+          },
+          {
+            "topic": "energy",
+            "summary": "Husted voted Yea on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Husted voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Sherrod Brown",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "moratorium",
+            "summary": "Brown has made opposition to data centers central to his campaign, calling Husted 'the point man for these 230 or 240 new data centers in Ohio' and attacking a 2019 Google tax break Husted defended.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "Map shows states where data centers are on the ballot",
+              "url": "https://www.newsweek.com/map-shows-states-where-data-centers-are-on-the-ballot-12528253",
+              "publisher": "Newsweek",
+              "kind": "journalism",
+              "published": "2026-10-06"
+            },
+            "date": "2026-10-06"
+          }
+        ]
+      },
+      {
+        "name": "William Redpath",
+        "party": "L",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Greg Levy",
+        "party": "I",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Toss-up",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Toss-up",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "InsiderAdvantage (R)",
+        "endDate": "2026-09-29",
+        "sampleSize": 1200,
+        "population": "LV",
+        "results": {
+          "Sherrod Brown": 44,
+          "Jon Husted": 43,
+          "William Redpath": 4,
+          "Greg Levy": 2,
+          "Undecided": 7
+        },
+        "url": "https://insideradvantage.com/insideradvantage-ohio-senate-race-narrows-to-brown-up-by-one/"
+      }
+    ],
+    "powers": "Special election for the remainder of JD Vance's term (ends January 2029). Husted sits on Environment and Public Works (permitting, Clean Air and Water Acts), Appropriations, HELP and Small Business. Ohio is a fast-growing PJM data-center market, and his EPW seat plus his ratepayer bill give the seat some relevance to cost-allocation debates, though one senator's bill does not ensure passage.",
+    "implications": "Analysis: Data centers are a central issue in this toss-up; a Brown win would be one of the net gains Democrats need (the Senate is 53 R to 47 D-caucus (45 D + 2 independents), so Democrats need a net gain of four seats for a 51-seat majority (Republicans hold the vice-presidential tiebreak)) and would remove a Republican from EPW.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "Map shows states where data centers are on the ballot",
+        "url": "https://www.newsweek.com/map-shows-states-where-data-centers-are-on-the-ballot-12528253",
+        "publisher": "Newsweek",
+        "kind": "journalism",
+        "published": "2026-10-06"
+      },
+      {
+        "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+        "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+        "publisher": "Newsweek",
+        "kind": "journalism",
+        "published": "2026-08-22"
+      },
+      {
+        "title": "InsiderAdvantage Ohio Senate: Race narrows to Brown up by one",
+        "url": "https://insideradvantage.com/insideradvantage-ohio-senate-race-narrows-to-brown-up-by-one/",
+        "publisher": "InsiderAdvantage",
+        "kind": "data",
+        "published": "2026-10-01"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. Primary date not confirmed from an official source; Ratepayer Protection Act bill number not verified on congress.gov, so evidence is 'reported'. InsiderAdvantage is a Republican-affiliated pollster."
+  },
+  {
+    "id": "2026-sen-OK",
+    "office": "U.S. Senate",
+    "state": "OK",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-16",
+    "runoffDate": "2026-08-25",
+    "incumbent": {
+      "name": "Alan Armstrong",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Kevin Hern",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Rep. Kevin Hern voted Aye on House concurrence in the Senate amendment to H.R. 1 (2025 reconciliation bill including energy tax-credit changes), 2025-07-03.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+              "url": "https://clerk.house.gov/Votes/2025190",
+              "publisher": "Office of the Clerk, U.S. House of Representatives",
+              "kind": "official",
+              "published": "2025-07-03",
+              "docId": "H.R. 1 / Roll Call 190",
+              "excerpt": "Passed 218-214 on 2025-07-03."
+            },
+            "date": "2025-07-03"
+          }
+        ]
+      },
+      {
+        "name": "N'Kiyla Jasmine Thomas",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Sevier White",
+        "party": "L",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Regular election for the Class 2 seat Markwayne Mullin vacated to become Homeland Security secretary; appointee Alan Armstrong (former Williams Cos. CEO) serves until January 3, 2027, and has said permitting reform is a top priority. Armstrong sits on HELP and Indian Affairs; the successor's committee assignments will determine their influence on energy and permitting.",
+    "implications": "Analysis: Rated safely Republican, this seat is unlikely to affect chamber control; its main significance is who fills the seat and which committees they join. Hern, a member of the House tax-writing committee, would likely be a reliable Republican vote on energy and tax packages.",
+    "sources": [
+      {
+        "title": "Governor Stitt Appoints Alan Armstrong as U.S. Senator",
+        "url": "https://oklahoma.gov/governor/newsroom/newsroom/2026/governor-stitt-appoints-alan-armstrong-as-us-senator.html",
+        "publisher": "Office of Oklahoma Governor Kevin Stitt",
+        "kind": "official",
+        "published": "2026-03-24"
+      },
+      {
+        "title": "Oklahoma's governor picks energy executive Alan Armstrong to fill U.S. Senate seat through end of year",
+        "url": "https://www.nbcnews.com/politics/congress/oklahoma-energy-executive-alan-armstrong-fill-senate-markwayne-mullin-rcna264913",
+        "publisher": "NBC News",
+        "kind": "journalism",
+        "published": "2026-03-24",
+        "excerpt": "Armstrong, former CEO of pipeline operator Williams Cos., said easing permits for major infrastructure would be a top priority; under state law he may not run for a full term."
+      },
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+        "url": "https://clerk.house.gov/Votes/2025190",
+        "publisher": "Office of the Clerk, U.S. House of Representatives",
+        "kind": "official",
+        "published": "2025-07-03",
+        "docId": "H.R. 1 / Roll Call 190",
+        "excerpt": "Passed 218-214 on 2025-07-03."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Under Oklahoma law Armstrong could not seek a full term. GOP primary 2026-06-16; Thomas reportedly won the Democratic runoff 2026-08-25. Independents Ron Meinhardt and Curtis Stinnett omitted pending confirmation."
+  },
+  {
+    "id": "2026-sen-OR",
+    "office": "U.S. Senate",
+    "state": "OR",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-19",
+    "incumbent": {
+      "name": "Jeff Merkley",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Jeff Merkley",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Merkley voted Nay on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Merkley voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "David Brock Smith",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Merkley sits on Environment and Public Works (permitting, water), Appropriations and Foreign Relations and is ranking member on Budget. Oregon is a major data-center market with water and power debates, and his EPW and Appropriations roles touch both, as a minority member.",
+    "implications": "Analysis: Rated safely Democratic, this seat is unlikely to change hands; its significance lies in the member's committee seniority and votes on energy, tax and AI legislation within a minority or narrow majority caucus. ",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+  },
+  {
+    "id": "2026-sen-RI",
+    "office": "U.S. Senate",
+    "state": "RI",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-09-09",
+    "incumbent": {
+      "name": "Jack Reed",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Jack Reed",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Reed voted Nay on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Reed voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Raymond McKay",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Reed is ranking member on Armed Services and sits on Appropriations, Banking and Intelligence; none is a primary energy or tax committee, so his data-center relevance is mainly through appropriations and floor votes.",
+    "implications": "Analysis: Rated safely Democratic, this seat is unlikely to change hands; its significance lies in the member's committee seniority and votes on energy, tax and AI legislation within a minority or narrow majority caucus. ",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+  },
+  {
+    "id": "2026-sen-SC",
+    "office": "U.S. Senate",
+    "state": "SC",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-09",
+    "runoffDate": "2026-08-25",
+    "incumbent": {
+      "name": "Darline Graham",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Darline Graham",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "Annie Andrews",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Likely R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Likely R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "InsiderAdvantage (R)",
+        "endDate": "2026-09-29",
+        "sampleSize": 1200,
+        "population": "LV",
+        "results": {
+          "Darline Graham": 46,
+          "Annie Andrews": 45
+        },
+        "url": "https://insideradvantage.com/insideradvantage-south-carolina-senate-graham-leads-by-one-point/"
+      }
+    ],
+    "powers": "Gov. McMaster appointed Darline Graham on 2026-07-13 after Sen. Lindsey Graham's death; she serves until January 3, 2027. The senate.gov assignments list shows the South Carolina Graham seat on Appropriations, Budget, Environment and Public Works and Judiciary; EPW handles permitting and water law, but a new member's influence there is limited.",
+    "implications": "Analysis: Both raters moved South Carolina from Safe to Likely Republican; a Democratic upset would be an unexpected gain toward a majority (the Senate is 53 R to 47 D-caucus (45 D + 2 independents), so Democrats need a net gain of four seats for a 51-seat majority (Republicans hold the vice-presidential tiebreak)).",
+    "sources": [
+      {
+        "title": "Gov. McMaster Appoints Darline Graham to the U.S. Senate",
+        "url": "https://governor.sc.gov/news/2026-07/gov-mcmaster-appoints-darline-graham-us-senate",
+        "publisher": "Office of S.C. Governor Henry McMaster",
+        "kind": "official",
+        "published": "2026-07-13"
+      },
+      {
+        "title": "Sen. Darline Graham wins GOP nomination for U.S. Senate in South Carolina",
+        "url": "https://www.npr.org/2026/08/26/nx-s1-5944289/sen-darline-graham-wins-gop-nomination-for-u-s-senate-in-south-carolina",
+        "publisher": "NPR",
+        "kind": "journalism",
+        "published": "2026-08-26",
+        "excerpt": "Graham defeated Rep. Ralph Norman in the Aug. 25 GOP runoff and faces Democrat Annie Andrews in November."
+      },
+      {
+        "title": "Sen. Darline Graham wins South Carolina GOP Senate race, defeating Rep. Ralph Norman",
+        "url": "https://www.nbcnews.com/politics/2026-election/darline-graham-winner-south-carolina-gop-senate-primary-rcna593581",
+        "publisher": "NBC News",
+        "kind": "journalism",
+        "published": "2026-08-25"
+      },
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Four Rating Changes, Headlined by Alaska Senate Moving to Leans Democratic",
+        "url": "https://centerforpolitics.org/crystalball/four-rating-changes-headlined-by-alaska-senate-moving-to-leans-democratic/",
+        "publisher": "Sabato's Crystal Ball (UVA Center for Politics)",
+        "kind": "research",
+        "published": "2026-10-06",
+        "excerpt": "Alaska Senate moved Toss-up to Leans Democratic; South Carolina Senate moved Safe to Likely Republican."
+      },
+      {
+        "title": "InsiderAdvantage South Carolina Senate: Graham leads by one point",
+        "url": "https://insideradvantage.com/insideradvantage-south-carolina-senate-graham-leads-by-one-point/",
+        "publisher": "InsiderAdvantage",
+        "kind": "data"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. This is the regular Class 2 election (Lindsey Graham's term ends 2027), so special=false. A GOP special primary (2026-08-11) and runoff (2026-08-25) were held after Lindsey Graham, the June 9 nominee, died; it was not confirmed whether Darline Graham holds every committee seat listed. No sourced data-center positions found. InsiderAdvantage is a Republican-affiliated pollster."
+  },
+  {
+    "id": "2026-sen-SD",
+    "office": "U.S. Senate",
+    "state": "SD",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-06-02",
+    "incumbent": {
+      "name": "Mike Rounds",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Mike Rounds",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Rounds voted Yea on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Rounds voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ],
+        "website": "https://roundsforsenate.com/"
+      },
+      {
+        "name": "Brian Bengs",
+        "party": "I",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [],
+        "website": "https://bengsforsouthdakota.com/"
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Rounds sits on Appropriations, Armed Services (chairing its cybersecurity subcommittee), Banking, Indian Affairs and Intelligence, and has been active on AI policy. These roles give him a voice on AI and defense technology, but not on permitting or energy tax law directly.",
+    "implications": "Analysis: Rated safely Republican, this seat is unlikely to affect chamber control; its main significance is who fills the seat and which committees they join. Independent Brian Bengs is the main challenger after the Democratic nominee withdrew.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. Only Bengs-campaign-sponsored polls were found. Rounds's AI-caucus activity not independently sourced here."
+  },
+  {
+    "id": "2026-sen-TN",
+    "office": "U.S. Senate",
+    "state": "TN",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-06",
+    "incumbent": {
+      "name": "Bill Hagerty",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Bill Hagerty",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Hagerty voted Yea on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Hagerty voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Marquita Bradshaw",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Hagerty sits on Appropriations, Banking, Foreign Relations and Rules. Tennessee hosts large AI data-center buildout and TVA, but Hagerty's committees are not the main energy or permitting panels, so his influence is mainly through appropriations and floor votes.",
+    "implications": "Analysis: Rated safely Republican, this seat is unlikely to affect chamber control; its main significance is who fills the seat and which committees they join. ",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+  },
+  {
+    "id": "2026-sen-TX",
+    "office": "U.S. Senate",
+    "state": "TX",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-03-03",
+    "runoffDate": "2026-05-26",
+    "incumbent": {
+      "name": "John Cornyn",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Ken Paxton",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "ai_policy",
+            "summary": "Paxton called the data-center issue 'complicated' in a May podcast, citing the need to compete with China on AI; his campaign said a formal policy is coming.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+              "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+              "publisher": "Newsweek",
+              "kind": "journalism",
+              "published": "2026-08-22"
+            },
+            "date": "2026-08-22"
+          }
+        ]
+      },
+      {
+        "name": "James Talarico",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "cost_allocation",
+            "summary": "Talarico wants data-center developers to fund their own infrastructure upgrades, pay their fair share of taxes and win community buy-in; he says Texas's estimated $3.2 billion in data-center tax breaks could instead fund housing, child care and drug-cost relief.",
+            "explicitDataCenter": true,
+            "evidence": "reported",
+            "source": {
+              "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+              "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+              "publisher": "Newsweek",
+              "kind": "journalism",
+              "published": "2026-08-22"
+            },
+            "date": "2026-08-22"
+          }
+        ]
+      },
+      {
+        "name": "Ted Brown",
+        "party": "L",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      },
+      {
+        "name": "John Cornyn",
+        "party": "R",
+        "incumbent": true,
+        "status": "lost_primary",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Cornyn voted Yea on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Cornyn voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Toss-up",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Toss-up",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [
+      {
+        "pollster": "InsiderAdvantage (R)",
+        "endDate": "2026-09-10",
+        "sampleSize": 1200,
+        "population": "LV",
+        "results": {
+          "James Talarico": 47,
+          "Ken Paxton": 46
+        },
+        "url": "https://insideradvantage.com/insideradvantage-u-s-senate-surveys-texas-talarico-47-paxton-46-south-carolina-graham-45-andrews-43-ohio-brown-47-husted-42/"
+      }
+    ],
+    "powers": "Cornyn, who lost renomination, sits on Finance, Intelligence, Judiciary, Budget and the Joint Committee on Taxation; his Finance seat will be reassigned. Texas is the largest U.S. data-center growth market (ERCOT), so the next senator's votes on energy tax credits, permitting and AI preemption matter, though one senator's effect is limited.",
+    "implications": "Analysis: A Talarico win would be a major Democratic pickup toward a majority (the Senate is 53 R to 47 D-caucus (45 D + 2 independents), so Democrats need a net gain of four seats for a 51-seat majority (Republicans hold the vice-presidential tiebreak)); either way Republicans lose a senior Finance member.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      },
+      {
+        "title": "AI data center war: Where Democrats, Republicans in key Senate races stand",
+        "url": "https://www.newsweek.com/ai-data-center-war-where-democrats-republicans-in-key-senate-races-stand-12354265",
+        "publisher": "Newsweek",
+        "kind": "journalism",
+        "published": "2026-08-22"
+      },
+      {
+        "title": "InsiderAdvantage U.S. Senate Surveys: Texas, South Carolina, Ohio",
+        "url": "https://insideradvantage.com/insideradvantage-u-s-senate-surveys-texas-talarico-47-paxton-46-south-carolina-graham-45-andrews-43-ohio-brown-47-husted-42/",
+        "publisher": "InsiderAdvantage",
+        "kind": "data",
+        "published": "2026-09-10"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. Paxton defeated Cornyn in the 2026-05-26 GOP runoff after the 2026-03-03 primary. The InsiderAdvantage Texas poll's field dates were not published on the release page; endDate shown is the 2026-09-10 release date. InsiderAdvantage is a Republican-affiliated pollster."
+  },
+  {
+    "id": "2026-sen-VA",
+    "office": "U.S. Senate",
+    "state": "VA",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-04",
+    "incumbent": {
+      "name": "Mark Warner",
+      "party": "D",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Mark Warner",
+        "party": "D",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Warner voted Nay on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Warner voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Bert Mizusawa",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid D",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Warner sits on Finance (energy and data-center-relevant tax), Banking, Budget and Rules, and is vice chairman of the Intelligence Committee. Virginia is the world's largest data-center market, so his Finance and Intelligence roles matter for tax and AI-security policy, as a minority member.",
+    "implications": "Analysis: Rated safely Democratic, this seat is unlikely to change hands; its significance lies in the member's committee seniority and votes on energy, tax and AI legislation within a minority or narrow majority caucus. ",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. No sourced data-center statements captured for this cycle."
+  },
+  {
+    "id": "2026-sen-WV",
+    "office": "U.S. Senate",
+    "state": "WV",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-05-12",
+    "incumbent": {
+      "name": "Shelley Moore Capito",
+      "party": "R",
+      "running": true
+    },
+    "candidates": [
+      {
+        "name": "Shelley Moore Capito",
+        "party": "R",
+        "incumbent": true,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Capito voted Yea on final Senate passage of H.R. 1 (the 2025 reconciliation bill, which included energy tax-credit changes), 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "H.R. 1 / Vote 372",
+              "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          },
+          {
+            "topic": "ai_policy",
+            "summary": "Capito voted Yea on the Blackburn amendment (99-1) striking H.R. 1's artificial-intelligence section, which had proposed limiting state AI-law enforcement, 2025-07-01.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call Vote 119th Congress, 1st Session, Vote 363: On the Amendment (Blackburn Amdt. No. 2814)",
+              "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00363.htm",
+              "publisher": "U.S. Senate",
+              "kind": "official",
+              "published": "2025-07-01",
+              "docId": "S.Amdt. 2814 to H.R. 1 / Vote 363",
+              "excerpt": "Purpose: 'To strike the section relating to support for artificial intelligence.' Agreed to 99-1; the lone Nay was Tillis (R-NC)."
+            },
+            "date": "2025-07-01"
+          }
+        ]
+      },
+      {
+        "name": "Rachel Fetty Anderson",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Capito chairs the Environment and Public Works Committee, which has jurisdiction over federal permitting, the Clean Air and Clean Water Acts, and is a central venue for permitting reform; she also sits on Appropriations, Commerce and Rules. This is among the most consequential Senate seats for data-center permitting policy, though EPW output still depends on floor votes and House action.",
+    "implications": "Analysis: Rated safely Republican, this seat is unlikely to affect chamber control; its main significance is who fills the seat and which committees they join. Her re-election would likely preserve her EPW leadership if Republicans keep the majority; if Democrats win control she would likely become ranking member.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call Vote 119th Congress, 1st Session, Vote 372: On Passage of H.R. 1, as Amended",
+        "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official",
+        "published": "2025-07-01",
+        "docId": "H.R. 1 / Vote 372",
+        "excerpt": "Bill passed 50-50 with the Vice President voting Yea. Nays: all Democrats and independents plus Collins (R-ME), Paul (R-KY), Tillis (R-NC)."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+  },
+  {
+    "id": "2026-sen-WY",
+    "office": "U.S. Senate",
+    "state": "WY",
+    "special": false,
+    "electionDate": "2026-11-03",
+    "primaryDate": "2026-08-18",
+    "incumbent": {
+      "name": "Cynthia Lummis",
+      "party": "R",
+      "running": false
+    },
+    "candidates": [
+      {
+        "name": "Harriet Hageman",
+        "party": "R",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": [
+          {
+            "topic": "energy",
+            "summary": "Rep. Harriet Hageman voted Aye on House concurrence in the Senate amendment to H.R. 1 (2025 reconciliation bill including energy tax-credit changes), 2025-07-03.",
+            "explicitDataCenter": false,
+            "evidence": "fact",
+            "source": {
+              "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+              "url": "https://clerk.house.gov/Votes/2025190",
+              "publisher": "Office of the Clerk, U.S. House of Representatives",
+              "kind": "official",
+              "published": "2025-07-03",
+              "docId": "H.R. 1 / Roll Call 190",
+              "excerpt": "Passed 218-214 on 2025-07-03."
+            },
+            "date": "2025-07-03"
+          }
+        ]
+      },
+      {
+        "name": "James W. Byrd",
+        "party": "D",
+        "incumbent": false,
+        "status": "nominee",
+        "positions": []
+      }
+    ],
+    "ratings": [
+      {
+        "rater": "Cook Political Report",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://www.cookpolitical.com/ratings/senate-race-ratings"
+      },
+      {
+        "rater": "Sabato's Crystal Ball",
+        "rating": "Solid R",
+        "date": "2026-10-06",
+        "url": "https://centerforpolitics.org/crystalball/2026-senate/"
+      }
+    ],
+    "polls": [],
+    "powers": "Open seat (Lummis retiring). Lummis sits on Commerce, Environment and Public Works, and Banking; those Commerce and EPW slots will need replacements. Wyoming is a growing data-center and energy-export state, so a successor's committee placement would shape their influence on permitting and energy.",
+    "implications": "Analysis: Rated safely Republican, this seat is unlikely to affect chamber control; its main significance is who fills the seat and which committees they join. Hageman would likely be a reliable Republican vote for permitting and energy-production bills.",
+    "sources": [
+      {
+        "title": "Committee Assignments of the 119th Congress",
+        "url": "https://www.senate.gov/general/committee_assignments/assignments.htm",
+        "publisher": "U.S. Senate",
+        "kind": "official"
+      },
+      {
+        "title": "Roll Call 190: H.R. 1, On Motion to Concur in the Senate Amendment",
+        "url": "https://clerk.house.gov/Votes/2025190",
+        "publisher": "Office of the Clerk, U.S. House of Representatives",
+        "kind": "official",
+        "published": "2025-07-03",
+        "docId": "H.R. 1 / Roll Call 190",
+        "excerpt": "Passed 218-214 on 2025-07-03."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Ratings (Cook and Sabato, as of 2026-10-06) were transcribed from a secondary ratings table because the rater pages blocked automated access; they were cross-checked against the raters' published change notes where available. Nominee names and primary/runoff dates were identified through aggregator discovery and have not all been confirmed against an official state candidate list. No general-election poll with a directly verifiable pollster release was located; polls left empty. "
+  }
+]

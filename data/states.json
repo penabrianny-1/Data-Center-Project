@@ -1,0 +1,1162 @@
+{
+  "lastUpdated": "2026-10-11",
+  "states": [
+    {
+      "code": "AL",
+      "fips": "01",
+      "name": "Alabama",
+      "status": "local",
+      "summary": "Alabama has no statewide restriction and still offers data center tax incentives, but a string of cities, including Cullman, Homewood, Leeds and Fort Payne, adopted temporary moratoriums during 2026 while they write zoning rules.",
+      "highlights": [
+        "Birmingham 6-month pause on >20 MW projects (Mar 2026)",
+        "Cullman 12-month moratorium (Jun 2026)",
+        "Homewood, Leeds, Fort Payne moratoriums (Jun 2026)"
+      ],
+      "sources": [
+        {
+          "title": "WBRC: Cullman City Council unanimously passes 12-month temporary moratorium on data centers",
+          "url": "https://www.wbrc.com/2026/06/26/cullman-city-council-unanimously-passes-12-month-temporary-moratorium-data-centers/"
+        },
+        {
+          "title": "ABC 33/40: Homewood, Cullman join growing Alabama debate over data centers",
+          "url": "https://abc3340.com/news/local/homewood-cullman-data-center-moratoriums-alabama-2026"
+        },
+        {
+          "title": "CBS 42: Central Alabama cities with active data center moratoriums",
+          "url": "https://www.cbs42.com/alabama-news/central-alabama-cities-with-active-data-center-moratoriums/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "AK",
+      "fips": "02",
+      "name": "Alaska",
+      "status": "discussion",
+      "summary": "Alaska has no data center incentives or moratorium. Lawmakers debated data center bills in 2026, including SB 250 on utility contracts for data center customers, and Anchorage adopted conditional-use zoning for large facilities.",
+      "highlights": [
+        "Anchorage data center zoning framework (Mar 2026)",
+        "SB 250 utility-contract bill debated (2026 session)"
+      ],
+      "sources": [
+        {
+          "title": "Alaska's News Source: Data centers: Alaska lawmakers gauge bans or tax incentives with just weeks left in the session",
+          "url": "https://www.alaskasnewssource.com/2026/04/30/data-centers-alaska-lawmakers-gauge-bans-or-tax-incentives-with-just-weeks-left-session/?outputType=amp"
+        },
+        {
+          "title": "Davis Wright Tremaine: Anchorage Adopts Framework for Data Centers and Energy-Intensive Uses",
+          "url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "code": "AZ",
+      "fips": "04",
+      "name": "Arizona",
+      "status": "local",
+      "summary": "Pima County approved a 120-day moratorium on new data center projects in unincorporated areas in September 2026. At the state level, Arizona paused new data center sales-tax exemption applications for three years, and the attorney general has called for a statewide moratorium, which the governor opposes.",
+      "highlights": [
+        "Pima County 120-day moratorium (Sep 22, 2026)",
+        "3-year pause on new sales-tax exemption applications (from Jul 2026)"
+      ],
+      "sources": [
+        {
+          "title": "KJZZ: Pima County passes 120-day moratorium on future data center projects",
+          "url": "https://www.kjzz.org/fronteras-desk/2026-09-23/pima-county-passes-120-day-moratorium-on-future-data-center-projects"
+        },
+        {
+          "title": "AZ Luminaria: Pima County supervisors approve data center moratorium",
+          "url": "https://azluminaria.org/2026/09/23/pima-county-supervisors-approve-data-center-moratorium/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "AR",
+      "fips": "05",
+      "name": "Arkansas",
+      "status": "local",
+      "summary": "There is no statewide restriction, but several Arkansas counties have adopted multi-year moratoriums, among them Independence County (five years, through 2031) and Madison County (three years). Pulaski County and Little Rock turned down pauses.",
+      "highlights": [
+        "Independence County 5-year moratorium (Aug 2026)",
+        "Madison County 3-year moratorium (Aug 2026)"
+      ],
+      "sources": [
+        {
+          "title": "White River Now: Independence County Quorum Court places 5-year moratorium on data centers",
+          "url": "https://www.whiterivernow.com/2026/08/11/independence-county-quorum-court-places-5-year-moratorium-on-data-centers/"
+        },
+        {
+          "title": "Arkansas Advocate: Outside of Little Rock, Arkansas counties and cities move ahead on data center moratoriums",
+          "url": "https://arkansasadvocate.com/2026/08/11/outside-of-little-rock-arkansas-counties-and-cities-move-ahead-on-data-center-moratoriums/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "CA",
+      "fips": "06",
+      "name": "California",
+      "status": "local",
+      "summary": "In September 2026 Governor Newsom signed a seven-bill package on data center rates, water reporting and environmental review. Separately, several localities, including Coachella, Calexico, Mendocino County and Indio, have adopted bans or moratoriums.",
+      "highlights": [
+        "Seven-bill data center package signed (Sep 21, 2026)",
+        "Local bans/moratoriums incl. Coachella, Calexico, Indio, Mendocino County"
+      ],
+      "sources": [
+        {
+          "title": "Office of the Governor: Governor Newsom signs most comprehensive data center laws in the nation",
+          "url": "https://www.gov.ca.gov/2026/09/21/governor-newsom-signs-most-comprehensive-data-center-laws-in-the-nation-providing-communities-more-control-on-water-electricity-and-land-use/"
+        },
+        {
+          "title": "KQED: Newsom Signs New Restrictions on Data Center Development",
+          "url": "https://www.kqed.org/news/12100746/newsom-signs-new-restrictions-on-data-center-development"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "CO",
+      "fips": "08",
+      "name": "Colorado",
+      "status": "local",
+      "summary": "Colorado has no statewide moratorium. Denver (one year, from May 2026), Broomfield (18 months) and Commerce City have each paused new data center approvals, and Longmont has banned hyperscale facilities.",
+      "highlights": [
+        "Denver 1-year moratorium (May 2026)",
+        "Broomfield 18-month moratorium (Jul 2026)",
+        "Commerce City 6-month pause (Sep 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Colorado Politics: Broomfield passes temporary ban on new data center construction",
+          "url": "https://www.coloradopolitics.com/2026/07/08/broomfield-passes-temporary-ban-on-new-data-center-construction/"
+        },
+        {
+          "title": "Colorado Politics: To build or to ban: Colorado municipalities grapple with data centers",
+          "url": "https://www.coloradopolitics.com/2026/09/12/to-build-or-to-ban-colorado-municipalities-grapple-with-data-centers/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "CT",
+      "fips": "09",
+      "name": "Connecticut",
+      "status": "local",
+      "summary": "Several Connecticut towns restrict data centers locally. Morris adopted a moratorium in 2026, while Groton and Canterbury use zoning prohibitions. Governor Lamont has reportedly said the state will not host massive AI data centers, but no statewide restriction has passed.",
+      "highlights": [
+        "Morris moratorium (Mar 2026)",
+        "Groton zoning ban on large data centers (2022)",
+        "New Haven 12-month moratorium proposed (Jul 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Yahoo News: Why one Connecticut town approved a two-year moratorium on data centers",
+          "url": "https://www.yahoo.com/news/us/articles/why-one-connecticut-town-approved-100000211.html"
+        },
+        {
+          "title": "DCD: Groton, Connecticut announces year-long moratorium on large data centers",
+          "url": "https://www.datacenterdynamics.com/en/news/groton-connecticut-announces-year-long-moratorium-on-large-data-centers/"
+        },
+        {
+          "title": "Strisker: Data Centers Daily Notes, September 7, 2026",
+          "url": "https://writing.strisker.com/data-centers-daily-notes-september-07-2026/"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "code": "DE",
+      "fips": "10",
+      "name": "Delaware",
+      "status": "local",
+      "summary": "The statewide moratorium bill SB 353 stalled in committee. The town of Delmar adopted a temporary moratorium in August 2026, Dover is weighing a pause of up to 18 months, and New Castle and Kent counties have adopted siting rules.",
+      "highlights": [
+        "Delmar temporary moratorium (Aug 2026)",
+        "Dover 18-month pause advanced by committee (Aug 2026)",
+        "SB 353 statewide moratorium in committee"
+      ],
+      "sources": [
+        {
+          "title": "Spotlight Delaware: Dover data center moratorium gains steam amid statewide concerns over the industry",
+          "url": "https://spotlightdelaware.org/2026/08/13/dover-data-center-moratorium-gains-steam-amid-statewide-concerns-over-the-industry/"
+        },
+        {
+          "title": "Citizen Portal: Delmar adopts one-year moratorium on data centers",
+          "url": "https://citizenportal.ai/articles/10323319/Delaware/Sussex-County/Delmar/Delmar-adopts-one-year-moratorium-on-data-centers"
+        },
+        {
+          "title": "Delaware General Assembly: SB 353 Bill Detail",
+          "url": "https://legis.delaware.gov/BillDetail/143681"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "code": "DC",
+      "fips": "11",
+      "name": "District of Columbia",
+      "status": "none",
+      "summary": "No DC Council bill, zoning case or moratorium specific to data centers was found.",
+      "highlights": [],
+      "sources": [],
+      "confidence": "low"
+    },
+    {
+      "code": "FL",
+      "fips": "12",
+      "name": "Florida",
+      "status": "local",
+      "summary": "Florida's 2026 Hyperscale Data Center Act protects ratepayers and keeps local authority to deny projects. Counties including Sarasota, Marion and Manatee have since adopted 12-month moratoriums, and Edgewater approved a permanent ban.",
+      "highlights": [
+        "SB 484 Hyperscale Data Center Act (effective Jul 1, 2026)",
+        "Sarasota County 12-month moratorium (Jul 2026)",
+        "Marion and Manatee county moratoriums (Sep 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Business Observer: Sarasota County bans data center applications for one year",
+          "url": "https://www.businessobserverfl.com/news/2026/jul/09/sarasota-county-bans-data-center/"
+        },
+        {
+          "title": "352today: Marion County pauses large commercial data centers for a year",
+          "url": "https://352today.com/news/257752-marion-county-pauses-large-commercial-data-centers-for-a-year-with-a-50-megawatt-cutoff-on-who-still-gets-through/"
+        },
+        {
+          "title": "FOX 35 Orlando: Edgewater approves ban on AI data centers",
+          "url": "https://www.fox35orlando.com/news/edgewater-approves-ban-ai-data-centers-orange-county-weighs-moratorium"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "GA",
+      "fips": "13",
+      "name": "Georgia",
+      "status": "local",
+      "summary": "Statewide moratorium and tax-break repeal bills did not pass in 2026, but more than a dozen Georgia counties and cities have adopted local moratoriums, including DeKalb, Paulding and Cherokee counties.",
+      "highlights": [
+        "Paulding County moratorium through Jan 1, 2027",
+        "Cherokee County moratorium (Jul 2026)",
+        "DeKalb County moratorium extended (Jun 2026)"
+      ],
+      "sources": [
+        {
+          "title": "FOX 5 Atlanta: Paulding County approves data center moratorium",
+          "url": "https://www.fox5atlanta.com/news/paulding-county-approves-data-center-moratorium-freezing-projects"
+        },
+        {
+          "title": "Atlanta News First: Cherokee County approves data center moratorium",
+          "url": "https://www.atlantanewsfirst.com/2026/07/22/cherokee-county-approves-data-center-moratorium/"
+        },
+        {
+          "title": "WABE: DeKalb extends data center moratorium, defers regulations",
+          "url": "https://www.wabe.org/dekalb-extends-data-center-moratorium-defers-regulations/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "HI",
+      "fips": "15",
+      "name": "Hawaii",
+      "status": "discussion",
+      "summary": "Hawaii County is reviewing Bill 170, which would effectively bar large data centers by leaving them out of permitted zoning uses. In October 2026 the Windward Planning Commission recommended against it. At the state level, House resolutions requested a working group to study data center impacts.",
+      "highlights": [
+        "Hawaii County Bill 170 under planning commission review (Oct 2026)",
+        "HCR 206 / HR 196 study resolutions (2026)"
+      ],
+      "sources": [
+        {
+          "title": "Hawai'i Public Radio: Hawaiʻi County moves to block data centers",
+          "url": "https://www.hawaiipublicradio.org/local-news/2026-07-08/hawaii-county-moves-to-block-data-centers"
+        },
+        {
+          "title": "Hawaii Tribune-Herald: Data centers debate continues at county level",
+          "url": "https://www.hawaiitribune-herald.com/2026/10/02/hawaii-news/data-centers-debate-continues-at-county-level/"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "code": "ID",
+      "fips": "16",
+      "name": "Idaho",
+      "status": "local",
+      "summary": "Idaho has no statewide framework. Bannock County adopted a 180-day emergency moratorium in July 2026 and Blaine County adopted a 182-day one, while Kootenai County bars data centers over its aquifer.",
+      "highlights": [
+        "Bannock County 180-day moratorium (Jul 30, 2026)",
+        "Blaine County 182-day emergency moratorium"
+      ],
+      "sources": [
+        {
+          "title": "KIFI LocalNews8: Bannock County approves 180-day emergency moratorium on data center permits",
+          "url": "https://localnews8.com/news/pocatello/2026/07/31/bannock-county-approves-180-day-emergency-moratorium-on-data-center-permits/"
+        },
+        {
+          "title": "KIVI: Blaine County passes emergency moratorium on data centers",
+          "url": "https://www.kivitv.com/wood-river-valley/blaine-county-passes-emergency-moratorium-on-data-centers-giving-the-county-182-days-to-craft-rules"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "IL",
+      "fips": "17",
+      "name": "Illinois",
+      "status": "local",
+      "summary": "Governor Pritzker suspended new state data center tax-incentive agreements starting July 1, 2026, after the POWER Act and a moratorium bill stalled. Champaign County and other localities have adopted moratoriums.",
+      "highlights": [
+        "DCEO incentive pause (Jul 1, 2026)",
+        "Champaign County 12-month moratorium (Apr 2026)",
+        "POWER Act pending for veto session"
+      ],
+      "sources": [
+        {
+          "title": "Capitol News Illinois: Gov. JB Pritzker suspends tax breaks for data centers",
+          "url": "https://capitolnewsillinois.com/news/gov-jb-pritzker-to-suspend-tax-breaks-for-data-centers-urging-more-discussion/"
+        },
+        {
+          "title": "CU-CitizenAccess: Champaign County put brakes on 'mystery' data centers",
+          "url": "https://cu-citizenaccess.org/2026/04/champaign-county-put-brakes-on-mystery-data-centers-joins-state-other-communities-efforts-to-pause-construction-of-centers/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "IN",
+      "fips": "18",
+      "name": "Indiana",
+      "status": "local",
+      "summary": "Indianapolis/Marion County approved a pause on new data center approvals through the end of 2027, and numerous Indiana counties and cities have their own moratoriums. A statewide farmland 'permitted use' provision was rejected.",
+      "highlights": [
+        "Indianapolis moratorium through 2027 (Aug 2026)",
+        "County moratoriums incl. Fulton, Starke, Owen"
+      ],
+      "sources": [
+        {
+          "title": "Mirror Indy: Indianapolis councilors approve data center moratorium",
+          "url": "https://mirrorindy.org/indianapolis-city-county-council-data-center-moratorium-approval/"
+        },
+        {
+          "title": "Axios Indianapolis: Indy data center moratorium unanimously approved",
+          "url": "https://www.axios.com/local/indianapolis/2026/08/19/indy-data-center-moratorium-gets-unanimous-approval"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "IA",
+      "fips": "19",
+      "name": "Iowa",
+      "status": "local",
+      "summary": "Iowa has no statewide restriction, but Dubuque County (12 months) and the City of Dubuque have moratoriums, as do several other counties. Linn County adopted strict setback and water-study rules.",
+      "highlights": [
+        "Dubuque County 12-month moratorium (May 2026)",
+        "City of Dubuque 6-month hyperscale moratorium (Sep 2026)"
+      ],
+      "sources": [
+        {
+          "title": "KCRG: Dubuque County approves 12-month moratorium on data centers",
+          "url": "https://www.kcrg.com/2026/05/26/dubuque-county-passes-12-month-moratorium-data-centers/"
+        },
+        {
+          "title": "KWQC: Dubuque City Council passes temporary moratorium on hyperscale data centers",
+          "url": "https://www.kwqc.com/2026/09/22/dubuque-city-council-passes-temporary-moratorium-hyperscale-data-centers/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "KS",
+      "fips": "20",
+      "name": "Kansas",
+      "status": "local",
+      "summary": "Kansas has no statewide data center legislation. Lawrence adopted a two-year moratorium in July 2026, and several counties, including Lyon, have temporary pauses.",
+      "highlights": [
+        "Lawrence 2-year moratorium (Jul 14, 2026)",
+        "Lyon County 6-month moratorium (Jul 2026)"
+      ],
+      "sources": [
+        {
+          "title": "The Lawrence Times: Lawrence City Commission approves 2-year data center moratorium",
+          "url": "https://lawrencekstimes.com/2026/07/14/lawrencecitycomm-oks-2yr-moratorium/"
+        },
+        {
+          "title": "Lawrence Journal-World: Planning Commission recommends adding more layers to approval process for data centers",
+          "url": "https://www2.ljworld.com/news/city-government/2026/sep/21/planning-commission-recommends-adding-more-layers-to-approval-process-for-data-centers-in-lawrence/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "KY",
+      "fips": "21",
+      "name": "Kentucky",
+      "status": "local",
+      "summary": "Louisville Metro adopted a six-month moratorium in August 2026 while it drafts zoning rules, and many other Kentucky counties and cities have pauses of their own. The state continues to court large projects.",
+      "highlights": [
+        "Louisville Metro 6-month moratorium (Aug 13, 2026)",
+        "Mercer County kept its moratorium (Sep 2026)"
+      ],
+      "sources": [
+        {
+          "title": "LPM: Louisville Metro Council approves data center moratorium",
+          "url": "https://www.lpm.org/news/2026-08-13/louisville-metro-council-approves-data-center-moratorium-as-new-proposal-sparks-controversy"
+        },
+        {
+          "title": "WBKO: Louisville Metro Council approves 6-month moratorium on data centers",
+          "url": "https://www.wbko.com/2026/08/14/louisville-metro-council-approves-6-month-moratorium-data-centers/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "LA",
+      "fips": "22",
+      "name": "Louisiana",
+      "status": "local",
+      "summary": "Louisiana has no statewide restriction and continues to attract major projects, such as Meta's Richland Parish campus. New Orleans adopted a one-year citywide ban in January 2026, and city planners are weighing permanent limits.",
+      "highlights": [
+        "New Orleans 1-year ban (Jan 28, 2026)"
+      ],
+      "sources": [
+        {
+          "title": "WWNO: New Orleans City Council bans data center development for a year",
+          "url": "https://www.wwno.org/economy/2026-01-29/new-orleans-city-council-bans-data-center-development-for-a-year-heres-why"
+        },
+        {
+          "title": "Axios New Orleans: New Orleans to consider data centers' future within city",
+          "url": "https://www.axios.com/local/new-orleans/2026/08/25/new-orleans-data-centers-legality-new-law"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "ME",
+      "fips": "23",
+      "name": "Maine",
+      "status": "local",
+      "summary": "A statewide moratorium (LD 307) passed the Legislature, but the governor vetoed it and the April 2026 override failed. Towns including Scarborough and Brunswick then adopted 180-day local moratoriums.",
+      "highlights": [
+        "LD 307 veto sustained (Apr 29, 2026)",
+        "Scarborough and Brunswick 180-day moratoriums (Jun 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Maine Morning Star: Legislature fails to override Mills' veto of landmark data center ban",
+          "url": "https://mainemorningstar.com/2026/04/29/despite-initial-support-legislature-fails-to-override-mills-veto-of-landmark-data-center-ban/"
+        },
+        {
+          "title": "Spectrum News: Brunswick, Scarborough enact data center moratoriums",
+          "url": "https://spectrumlocalnews.com/me/maine/news/2026/06/08/brunswick--scarborough-enact-data-center-moratoriums"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "MD",
+      "fips": "24",
+      "name": "Maryland",
+      "status": "local",
+      "summary": "A statewide moratorium bill died in 2026, but Montgomery County (18 months), Howard County (through Nov 2027), Prince George's County and Baltimore City all adopted pauses, and Harford County banned data centers outright.",
+      "highlights": [
+        "Montgomery County 18-month moratorium (Jul 28, 2026)",
+        "Howard County pause through Nov 2027 (Jun 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Montgomery County: Council Approves 18-Month Data Center Moratorium",
+          "url": "https://www.montgomerycountymd.gov/news/council-approves-18-month-data-center-moratorium-places-limitations-data-center-development"
+        },
+        {
+          "title": "Maryland Matters: Counties scramble to respond to data centers, setting moratoriums, a ban",
+          "url": "https://marylandmatters.org/2026/08/10/counties-scramble-to-respond-to-data-centers-setting-moratoriums-a-ban/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "MA",
+      "fips": "25",
+      "name": "Massachusetts",
+      "status": "local",
+      "summary": "A September 2026 executive order from Governor Healey requires data centers over 25 MW to win local approval before state permits can be issued. Lowell and Westfield have one-year moratoriums, and Holyoke has banned data centers.",
+      "highlights": [
+        "Healey EO requiring local approval (Sep 8, 2026)",
+        "Lowell and Westfield 1-year moratoriums",
+        "Holyoke ban"
+      ],
+      "sources": [
+        {
+          "title": "Mass.gov: Governor Healey: No Data Centers Without Local Approval",
+          "url": "https://www.mass.gov/news/governor-healey-no-data-centers-without-local-approval"
+        },
+        {
+          "title": "WBUR: Proposed data centers subjected to local approvals under Gov. Healey's order",
+          "url": "https://www.wbur.org/news/2026/09/08/proposed-data-centers-local-approvals-healey-massachusetts"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "MI",
+      "fips": "26",
+      "name": "Michigan",
+      "status": "local",
+      "summary": "Dozens of Michigan townships and cities have local moratoriums. Statewide moratorium bills were introduced in both chambers in June 2026 but have not moved, and Governor Whitmer has said she would not sign one, offering a voluntary developer pledge instead.",
+      "highlights": [
+        "Kalamazoo 1-year moratorium (Aug 2026)",
+        "HB 5594-5596 / SB 1018-1020 introduced (Jun 2026)",
+        "Whitmer data center pledge (Jul 15, 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Planet Detroit: Whitmer unveils data center plan that calls for legislation, promises from companies",
+          "url": "https://planetdetroit.org/2026/07/whitmer-data-center-pledge/"
+        },
+        {
+          "title": "WKAR: Michigan Data Center Tracker: Moratoria, Legislation, and Grid Impact",
+          "url": "https://www.wkar.org/wkar-news/2026-02-27/michigan-data-center-tracker-moratoria-legislation-and-grid-impact"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "MN",
+      "fips": "27",
+      "name": "Minnesota",
+      "status": "local",
+      "summary": "The 2026 statewide moratorium bills died without hearings. Minneapolis adopted a temporary moratorium on large data centers, and cities including Eagan and Inver Grove Heights have their own pauses.",
+      "highlights": [
+        "Minneapolis 6-month moratorium (May 2026)",
+        "Eagan, Inver Grove Heights moratoriums"
+      ],
+      "sources": [
+        {
+          "title": "MPR News: Minneapolis City Council imposes six-month halt on data centers",
+          "url": "https://www.mprnews.org/story/2026/05/22/minneapolis-city-council-imposes-six-month-halt-on-data-centers"
+        },
+        {
+          "title": "Star Tribune: Minneapolis council approves 6-month moratorium on data centers",
+          "url": "https://www.startribune.com/minneapolis-data-centers-moratorium/601846955"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "MS",
+      "fips": "28",
+      "name": "Mississippi",
+      "status": "local",
+      "summary": "Mississippi offers data center incentives and has drawn major projects. In July 2026 Jackson passed the state's first local moratorium, a 183-day pause while it writes regulations.",
+      "highlights": [
+        "Jackson 183-day moratorium (Jul 14, 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Mississippi Today: Jackson passes state's first data center moratorium",
+          "url": "https://mississippitoday.org/2026/07/14/jackson-data-center-moratorium/"
+        },
+        {
+          "title": "WLBT: Jackson City Council approves moratorium on data centers",
+          "url": "https://www.wlbt.com/2026/07/14/not-ready-data-center-jackson-city-council-approves-moratorium-data-centers/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "MO",
+      "fips": "29",
+      "name": "Missouri",
+      "status": "local",
+      "summary": "Missouri has no statewide moratorium, but Jackson County, St. Charles County and the City of St. Charles have adopted pauses, even as the state lands large Google and Amazon campuses.",
+      "highlights": [
+        "St. Charles County 6-month moratorium (Jul 2026)",
+        "Jackson County 180-day moratorium (Jun 2026)"
+      ],
+      "sources": [
+        {
+          "title": "St. Louis Public Radio: St. Charles County officials approve half-year ban on data center projects",
+          "url": "https://www.stlpr.org/government-politics-issues/2026-07-14/st-charles-county-officials-approve-half-year-ban-on-data-center-projects-alter-senior-tax-freeze"
+        },
+        {
+          "title": "KCTV5: Jackson County legislature passes 6-month moratorium on data center applications",
+          "url": "https://www.kctv5.com/2026/06/22/jackson-county-legislature-passes-180-day-moratorium-data-center-applications/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "MT",
+      "fips": "30",
+      "name": "Montana",
+      "status": "local",
+      "summary": "Missoula County adopted one-year interim zoning in July 2026 that pauses new or expanded data centers, though the state's 2025 Right to Compute Act limits how far local governments can go. Ballot efforts are also underway in Butte-Silver Bow and Yellowstone counties.",
+      "highlights": [
+        "Missoula County 1-year interim moratorium (Jul 9, 2026)",
+        "Butte-Silver Bow ballot initiative litigation"
+      ],
+      "sources": [
+        {
+          "title": "Montana Free Press: Missoula County adopts temporary moratorium on data centers",
+          "url": "https://montanafreepress.org/2026/07/09/missoula-county-adopts-temporary-moratorium-on-data-centers/"
+        },
+        {
+          "title": "Missoula County Voice: Data Center Interim Zoning",
+          "url": "https://missoulacountyvoice.com/data-center-interim-zoning"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "NE",
+      "fips": "31",
+      "name": "Nebraska",
+      "status": "local",
+      "summary": "At least ten Nebraska counties, including Seward and Clay, have adopted data center moratoriums. Governor Pillen's executive order targets water and ratepayer protection and is explicitly not a moratorium.",
+      "highlights": [
+        "Seward County moratorium (Jun 30, 2026)",
+        "Clay County moratorium (Jul 2026)",
+        "Gage and Lancaster county pauses proposed"
+      ],
+      "sources": [
+        {
+          "title": "Nebraska Public Media: Seward County becomes latest Nebraska county to put moratorium on data centers",
+          "url": "https://nebraskapublicmedia.org/en/news/news-articles/seward-county-becomes-latest-nebraska-county-to-put-moratorium-on-data-centers/"
+        },
+        {
+          "title": "Office of Governor Jim Pillen: Gov. Pillen Signs Executive Order on Data Centers",
+          "url": "https://governor.nebraska.gov/gov-pillen-signs-executive-order-data-centers"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "NV",
+      "fips": "32",
+      "name": "Nevada",
+      "status": "local",
+      "summary": "Reno extended its data center moratorium to August 2027, and Nye County banned data centers in the Pahrump Valley groundwater basin in August 2026. Nevada still offers tax abatements for qualifying facilities.",
+      "highlights": [
+        "Reno moratorium extended to Aug 31, 2027 (Jun 2026)",
+        "Nye County Pahrump basin ban (Aug 19, 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Nevada Current: Reno City Council extends data center moratorium",
+          "url": "https://nevadacurrent.com/2026/06/03/reno-city-council-extends-data-center-moratorium-promises-effort-is-not-political/"
+        },
+        {
+          "title": "Nevada Current: Nye County totally bans data centers in over-appropriated water basin",
+          "url": "https://nevadacurrent.com/2026/08/20/nye-county-totally-bans-data-centers-in-over-appropriated-water-basin/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "NH",
+      "fips": "33",
+      "name": "New Hampshire",
+      "status": "advancing",
+      "summary": "HB 1265, a one-year construction moratorium, had a committee hearing in 2026. Governor Ayotte now says she will seek a multiyear statewide moratorium in her next budget, and Senate Republican leaders say they will pursue moratorium legislation too.",
+      "highlights": [
+        "HB 1265 moratorium hearing (Feb 2026)",
+        "Ayotte backs multiyear moratorium (Sep 2026)",
+        "Senate GOP moratorium push (Sep 18, 2026)"
+      ],
+      "sources": [
+        {
+          "title": "NHPR: Ayotte opposes potential Bow data center, plans to propose statewide moratorium",
+          "url": "https://www.nhpr.org/nh-news/2026-09-02/ayotte-opposes-potential-bow-data-center-plans-to-propose-moratorium-on-data-centers-in-state"
+        },
+        {
+          "title": "Concord Monitor: In policy shift, Republicans say they'll pursue a moratorium on AI data centers in NH",
+          "url": "https://www.concordmonitor.com/2026/09/18/nh-republicans-pursue-data-center-moratorium/"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "code": "NJ",
+      "fips": "34",
+      "name": "New Jersey",
+      "status": "local",
+      "summary": "Dozens of New Jersey municipalities, among them Jackson, Howell and Jersey City, have banned data centers through zoning, and some of those bans now face developer lawsuits. The state has also enacted laws on large-load tariffs and water and energy reporting.",
+      "highlights": [
+        "Jackson, Howell, Jersey City bans (Aug 2026)",
+        "Data Center Fair Share Act signed (Jul 7, 2026)"
+      ],
+      "sources": [
+        {
+          "title": "New Jersey Monitor: Data center fight moves to NJ courts",
+          "url": "https://newjerseymonitor.com/2026/08/20/nj-data-center-bans-courts/"
+        },
+        {
+          "title": "Insider NJ: Jackson Becomes 38th New Jersey Town to Ban Data Centers",
+          "url": "https://www.insidernj.com/press-release/jackson-becomes-38th-new-jersey-town-to-ban-data-centers/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "NM",
+      "fips": "35",
+      "name": "New Mexico",
+      "status": "local",
+      "summary": "Santa Fe County adopted an 18-month moratorium covering data centers of 1 MW or more in mid-2026, and Socorro County has a one-year pause. Democratic lawmakers plan to introduce a statewide moratorium bill in 2027.",
+      "highlights": [
+        "Santa Fe County 18-month moratorium (Jun 30, 2026)",
+        "Statewide moratorium bill planned for 2027 session"
+      ],
+      "sources": [
+        {
+          "title": "Source NM: Santa Fe County becomes latest New Mexico community to adopt data center moratorium",
+          "url": "https://sourcenm.com/2026/07/01/santa-fe-county-becomes-latest-new-mexico-community-to-adopt-data-center-moratorium/"
+        },
+        {
+          "title": "Santa Fe County: Santa Fe County approves 18-month moratorium on data centers",
+          "url": "https://www.santafecountynm.gov/news/detail/santa-fe-county-approves-18-month-moratorium-on-data-centers"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "NY",
+      "fips": "36",
+      "name": "New York",
+      "status": "ban",
+      "summary": "Executive Order 62 (July 2026) pauses state environmental approvals for data centers of 50 MW or more until a statewide impact study is finished. A separate legislative moratorium bill awaits action, and several towns have local moratoriums or bans.",
+      "highlights": [
+        "Executive Order 62 statewide pause (Jul 14, 2026)",
+        "S10642/A11560 moratorium bill pending",
+        "Brookhaven 18-month moratorium (Jul 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Governor Kathy Hochul: Executive Order No. 62",
+          "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops"
+        },
+        {
+          "title": "Davis Wright Tremaine: Key Takeaways from New York Data Center Permitting Pause Under Executive Order No. 62",
+          "url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/07/ny-data-center-permitting-pause-executive-order-62"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "NC",
+      "fips": "37",
+      "name": "North Carolina",
+      "status": "local",
+      "summary": "North Carolina has no statewide bill, but dozens of localities have adopted temporary moratoriums, including Charlotte, Greensboro and Durham County.",
+      "highlights": [
+        "Charlotte 150-day moratorium (Jun 2026)",
+        "Greensboro 180-day moratorium (Aug 2026)",
+        "Durham County pause (Aug 2026)"
+      ],
+      "sources": [
+        {
+          "title": "WFAE: Durham County joins a growing list of areas that have paused data center development across NC",
+          "url": "https://www.wfae.org/2026-08-26/durham-county-data-center-moratorium"
+        },
+        {
+          "title": "NC Newsline: Three more NC localities weigh pauses on data centers",
+          "url": "https://ncnewsline.com/2026/08/17/three-more-nc-localities-weigh-pauses-on-data-centers-as-developer-backs-away-from-raleigh-project/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "ND",
+      "fips": "38",
+      "name": "North Dakota",
+      "status": "local",
+      "summary": "North Dakota has no statewide moratorium. Dunn County adopted a 12-month moratorium in March 2026. Mercer County voted to lift its pause, a move residents are contesting, and an interim committee is studying data center policy ahead of 2027.",
+      "highlights": [
+        "Dunn County 12-month moratorium (Mar 2026)",
+        "Mercer County moratorium lifted/contested (Jul-Aug 2026)"
+      ],
+      "sources": [
+        {
+          "title": "KFYR: Dunn County issues moratorium on various data, energy projects",
+          "url": "https://www.kfyrtv.com/2026/03/23/dunn-county-issues-moratorium-various-data-energy-projects/"
+        },
+        {
+          "title": "North Dakota Monitor: Data center dilemma: Who should decide where they go in North Dakota?",
+          "url": "https://northdakotamonitor.com/2026/05/11/data-center-dilemma-who-should-decide-where-they-go-in-north-dakota/"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "code": "OH",
+      "fips": "39",
+      "name": "Ohio",
+      "status": "local",
+      "summary": "The Ohio Capital Journal counts more than 125 active local data center moratoriums across Ohio municipalities and townships. A statewide constitutional ban initiative failed to qualify for the 2026 ballot.",
+      "highlights": [
+        "125+ active local moratoriums (Sep 2026)",
+        "Ban initiative failed to qualify (Jul 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Ohio Capital Journal: Ohio now has over 125 active moratoriums on data centers",
+          "url": "https://ohiocapitaljournal.com/2026/09/18/ohio-now-has-over-125-active-moratoriums-on-data-centers-see-where-they-are/"
+        },
+        {
+          "title": "City of Miamisburg: City Council Approves Nine-Month Moratorium on Data Centers",
+          "url": "https://cityofmiamisburg.com/city-council-approves-nine-month-moratorium-on-data-centers/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "OK",
+      "fips": "40",
+      "name": "Oklahoma",
+      "status": "local",
+      "summary": "Oklahoma enacted a 2026 ratepayer-protection law for large loads. Tulsa and Oklahoma City have temporary moratoriums running through the end of 2026, and the Cherokee Nation has banned data centers on its lands.",
+      "highlights": [
+        "Tulsa 9-month moratorium (Mar 2026)",
+        "Oklahoma City moratorium through 2026 (Apr 2026)",
+        "HB 2992 ratepayer act signed (May 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Tulsa Flyer: Tulsa will pause new data center construction for 9 months",
+          "url": "https://tulsaflyer.org/2026/03/25/government/post/tulsa-will-pause-new-data-center-construction-for-9-months-after-council-vote/"
+        },
+        {
+          "title": "KGOU: Oklahoma City leaders approve data center moratorium",
+          "url": "https://www.kgou.org/politics-and-government/2026-04-22/oklahoma-city-leaders-approve-data-center-moratorium"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "OR",
+      "fips": "41",
+      "name": "Oregon",
+      "status": "local",
+      "summary": "In September 2026 Governor Kotek paused state-land transactions for data centers through July 2027. Hillsboro adopted a moratorium, and Democratic lawmakers plan to propose a three-year statewide moratorium in 2027.",
+      "highlights": [
+        "State-land data center pause (Sep 8, 2026)",
+        "Hillsboro moratorium (Jul 2026)",
+        "3-year moratorium bill planned for 2027"
+      ],
+      "sources": [
+        {
+          "title": "Oregon Capital Chronicle: Gov. Kotek pauses data centers on state land",
+          "url": "https://oregoncapitalchronicle.com/2026/09/08/gov-kotek-pauses-data-centers-on-state-land-capitol-demonstrators-want-her-to-go-further/"
+        },
+        {
+          "title": "OPB: Oregon Gov. Kotek stops state from selling land for Salem data center",
+          "url": "https://www.opb.org/article/2026/07/30/oregon-governor-kotek-state-land-salem-data-center/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "PA",
+      "fips": "42",
+      "name": "Pennsylvania",
+      "status": "local",
+      "summary": "Townships including Center Township in Butler County have used 180-day curative-amendment pauses. A Senate bill allowing 18-month local moratoriums cleared committee, and Governor Shapiro's August 2026 order requires local approval before state permits.",
+      "highlights": [
+        "Center Township 180-day pause (Jun 2026)",
+        "SB 1345 local-moratorium bill advanced (Jul 2026)",
+        "Shapiro EO 2026-05 (Aug 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Butler Eagle: Center Township places moratorium on data center development",
+          "url": "https://www.butlereagle.com/20260611/center-township-places-moratorium-on-data-center-development/"
+        },
+        {
+          "title": "Broadband Breakfast: Pennsylvania Senate Advances Bill Allowing 18-Month Data Center Moratoriums",
+          "url": "https://broadbandbreakfast.com/pennsylvania-senate-advances-bill-allowing-18-month-data-center-moratoriums/"
+        },
+        {
+          "title": "The Center Square: Municipalities back 180-day data center moratoriums",
+          "url": "https://www.thecentersquare.com/pennsylvania/article_06f92bfc-34c1-430c-9487-375bde5c9415.html"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "code": "RI",
+      "fips": "44",
+      "name": "Rhode Island",
+      "status": "local",
+      "summary": "State data center legislation stalled in 2026, but Smithfield and Charlestown changed their zoning to prohibit data centers. Developers are challenging Smithfield's ban in court.",
+      "highlights": [
+        "Smithfield zoning ban (May 2026)",
+        "Charlestown ban (Aug 2026)"
+      ],
+      "sources": [
+        {
+          "title": "WPRI: Smithfield approves ordinance to prevent data center",
+          "url": "https://www.wpri.com/news/local-news/northwest/smithfield-town-council-approves-ordinance-to-prevent-construction-of-data-centers/"
+        },
+        {
+          "title": "Ocean State Media: Proposed data center still looms over Smithfield, even after town council enacts ban",
+          "url": "https://www.oceanstatemedia.org/technology/2026-05-13/proposed-data-center-still-looms-over-smithfield-even-after-town-council-enacts-ban"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "SC",
+      "fips": "45",
+      "name": "South Carolina",
+      "status": "local",
+      "summary": "H. 5286, a statewide permit and incentive freeze, stayed in committee when the session ended. Greenwood and Spartanburg counties adopted one-year moratoriums, and other counties have followed.",
+      "highlights": [
+        "Greenwood County 1-year moratorium (Jul 2026)",
+        "Spartanburg County moratorium (Sep 2026)",
+        "H. 5286 died in committee"
+      ],
+      "sources": [
+        {
+          "title": "FOX Carolina: Spartanburg County Council passes data center moratorium with several amendments",
+          "url": "https://www.foxcarolina.com/2026/09/22/spartanburg-county-council-passes-data-center-moratorium-with-several-amendments/"
+        },
+        {
+          "title": "SC Daily Gazette: SC counties enacting data center moratoriums",
+          "url": "https://scdailygazette.com/2026/06/26/sc-counties-enacting-data-center-moratoriums/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "SD",
+      "fips": "46",
+      "name": "South Dakota",
+      "status": "local",
+      "summary": "South Dakota rejected statewide moratorium bills, instead requiring large data centers to cover their power costs and preserving local authority to regulate them. Yankton County adopted a six-month moratorium in July 2026.",
+      "highlights": [
+        "Yankton County 6-month moratorium (Jul 2026)",
+        "SB 232 moratorium failed; SB 135 enacted"
+      ],
+      "sources": [
+        {
+          "title": "Dakota News Now: Data center moratorium passes in Yankton County",
+          "url": "https://www.dakotanewsnow.com/2026/07/22/data-center-moratorium-passes-yankton-county-south-dakota/"
+        },
+        {
+          "title": "Buffalo's Fire: South Dakota sets limits on data centers, rejects moratorium",
+          "url": "https://www.buffalosfire.com/south-dakota-sets-limits-on-data-centers-rejects-moratorium"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "TN",
+      "fips": "47",
+      "name": "Tennessee",
+      "status": "local",
+      "summary": "Tennessee has no statewide moratorium legislation. Knox County, Nashville/Davidson County and several East Tennessee jurisdictions have temporary pauses, and Memphis is weighing one.",
+      "highlights": [
+        "Knox County 1-year moratorium (2026)",
+        "Nashville temporary moratorium through Dec 2026",
+        "Memphis moratorium final vote pending"
+      ],
+      "sources": [
+        {
+          "title": "Tennessee Lookout: Local Tennessee officials are putting data center plans on ice",
+          "url": "https://tennesseelookout.com/2026/06/15/local-tennessee-officials-are-putting-data-center-plans-on-ice-to-consider-regulations/"
+        },
+        {
+          "title": "WSMV: Metro Council passes first data-center regulations in Nashville",
+          "url": "https://www.wsmv.com/2026/07/22/metro-council-passes-first-data-center-regulations-nashville-heres-what-changes/"
+        },
+        {
+          "title": "WATE: Knox County puts new data center projects on hold for 1 year",
+          "url": "https://www.wate.com/news/knox-county-news/knox-county-data-center-moratorium/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "TX",
+      "fips": "48",
+      "name": "Texas",
+      "status": "ban",
+      "summary": "In September 2026 Governor Abbott directed TCEQ to stop issuing data center permits statewide until ERCOT and water-board audits are finished. Some cities, such as Harlingen, also have local pauses.",
+      "highlights": [
+        "Statewide TCEQ permit halt (Sep 21, 2026)",
+        "ERCOT audit expected Dec 2026"
+      ],
+      "sources": [
+        {
+          "title": "Office of the Texas Governor: Governor Abbott Directs TCEQ To Halt Data Center Permits",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+        },
+        {
+          "title": "Texas Tribune: Texas pauses environmental permit approval for data centers",
+          "url": "https://www.texastribune.org/2026/09/21/texas-data-center-moratorium-water-energy/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "UT",
+      "fips": "49",
+      "name": "Utah",
+      "status": "local",
+      "summary": "Utah offers data center tax incentives, but Iron County adopted a 180-day moratorium in May 2026, which expires in November, while it drafts new rules. Box Elder County has also paused applications.",
+      "highlights": [
+        "Iron County 180-day moratorium (May 26, 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Salt Lake Tribune: Iron County bans new data center applications for 180 days",
+          "url": "https://www.sltrib.com/news/2026/05/26/iron-county-bans-approval-new-data/"
+        },
+        {
+          "title": "KUER: Box Elder and Iron have been busy as county data center pauses start to run out",
+          "url": "https://www.kuer.org/business-economy/2026-10-09/box-elder-iron-county-data-center-moratoriums-new-regulations"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "code": "VT",
+      "fips": "50",
+      "name": "Vermont",
+      "status": "discussion",
+      "summary": "The Legislature passed a data center regulation bill, H.727, but the governor vetoed it and the override failed. A statewide moratorium bill, S.205, stayed in committee. Royalton voters approved a nonbinding five-year moratorium policy.",
+      "highlights": [
+        "H.727 veto sustained (May 28, 2026)",
+        "S.205 moratorium in committee",
+        "Royalton nonbinding moratorium vote (Mar 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Valley News: Royalton approves moratorium on AI, crypto data centers",
+          "url": "https://vnews.com/2026/03/03/royalton-ai-crypto-moratorium-approved/"
+        },
+        {
+          "title": "Compass Vermont: Vermont's Data Center Bill Is Dead",
+          "url": "https://www.compassvermont.com/p/vermonts-data-center-bill-is-dead"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "code": "VA",
+      "fips": "51",
+      "name": "Virginia",
+      "status": "local",
+      "summary": "Virginia remains the largest data center market. The statewide moratorium bill was carried over, but Virginia Beach adopted a 12-month moratorium in August 2026, and Chesapeake, Prince William and others have tightened zoning. A September 2026 executive order created a data center accountability framework.",
+      "highlights": [
+        "Virginia Beach 12-month moratorium (Aug 18, 2026)",
+        "Suffolk citywide prohibition vote set (Oct 21, 2026)",
+        "HB 1515 carried over to 2027"
+      ],
+      "sources": [
+        {
+          "title": "WHRO: Chesapeake moves to restrict data center development, Virginia Beach presses pause",
+          "url": "https://www.whro.org/business-growth/2026-08-18/chesapeake-moves-to-restrict-data-center-development-virginia-beach-presses-pause"
+        },
+        {
+          "title": "Cardinal News: Virginia is developing a piecemeal data center moratorium",
+          "url": "https://cardinalnews.org/2026/08/17/virginia-is-developing-a-piecemeal-data-center-moratorium-the-potential-impacts-are-complicated/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "WA",
+      "fips": "53",
+      "name": "Washington",
+      "status": "local",
+      "summary": "A broad state data center regulation bill passed the House in 2026 but died in the Senate. Seattle and Spokane each adopted one-year moratoriums on large data centers in June 2026.",
+      "highlights": [
+        "Seattle 1-year moratorium (Jun 9, 2026)",
+        "Spokane 1-year moratorium (Jun 22, 2026)",
+        "HB 2515 died in Senate"
+      ],
+      "sources": [
+        {
+          "title": "Seattle City Council: City Council passes emergency data center moratorium and policy framework",
+          "url": "https://council.seattle.gov/2026/06/09/city-council-passes-emergency-data-center-moratorium-and-policy-framework/"
+        },
+        {
+          "title": "City of Spokane: Spokane City Council Passes One-Year Moratorium on Data Centers",
+          "url": "https://my.spokanecity.org/news/releases/2026/06/23/spokane-city-council-passes-one-year-moratorium-on-data-centers/"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "code": "WV",
+      "fips": "54",
+      "name": "West Virginia",
+      "status": "favorable",
+      "summary": "West Virginia actively courts data centers. Its 2025 microgrid law (HB 2014) bars counties and cities from restricting certified projects. Local opposition exists, but no local moratorium was found.",
+      "highlights": [
+        "HB 2014 local preemption for certified projects",
+        "Responsible Data Center Development Plan (Aug 2026)"
+      ],
+      "sources": [
+        {
+          "title": "West Virginia Watch: Morrisey signs priority bill meant to incentivize data centers, microgrids",
+          "url": "https://westvirginiawatch.com/2025/04/30/morrisey-signs-priority-bill-meant-to-incentivize-data-centers-micro-grids-locating-in-wv/"
+        },
+        {
+          "title": "Server Country: West Virginia Data Center Policy",
+          "url": "https://servercountry.org/policy/west-virginia/"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "code": "WI",
+      "fips": "55",
+      "name": "Wisconsin",
+      "status": "local",
+      "summary": "State data center bills died at the end of the 2025-26 session. Local pauses are spreading: Manitowoc County, Madison and Sheboygan have moratoriums, and Port Washington voters approved a referendum restriction.",
+      "highlights": [
+        "Sheboygan moratorium (Jul 2026)",
+        "Manitowoc County 18-month moratorium (Apr 2026)",
+        "AB 840 died in Senate"
+      ],
+      "sources": [
+        {
+          "title": "Daily Reporter: More hurdles for Wisconsin data center projects",
+          "url": "https://dailyreporter.com/2026/06/05/wisconsin-counties-impose-moratoriums-on-hyperscale-data-centers/"
+        },
+        {
+          "title": "Wisconsin Watch: Get the latest Wisconsin data center news you might have missed",
+          "url": "https://wisconsinwatch.org/2026/04/latest-wisconsin-data-center-news-you-might-have-missed/"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "code": "WY",
+      "fips": "56",
+      "name": "Wyoming",
+      "status": "discussion",
+      "summary": "Wyoming's governor opposes a state moratorium, and a June 2026 executive order welcomes data centers. Cheyenne rejected a local moratorium, while Park County is considering limiting data centers in most areas and residents are circulating petitions in several counties.",
+      "highlights": [
+        "Cheyenne rejected moratorium (May 2026)",
+        "Park County restriction proposal (Jul 2026)"
+      ],
+      "sources": [
+        {
+          "title": "Wyoming Public Media: Wyoming's capital city voted down a one-year pause on new data centers",
+          "url": "https://www.wyomingpublicmedia.org/wyoming-economy/2026-05-28/no-pause-on-data-centers-for-cheyenne"
+        },
+        {
+          "title": "WyoFile: Park County proposes prohibiting data centers in most areas",
+          "url": "https://wyofile.com/park-county-proposes-prohibiting-data-centers-in-most-areas/"
+        }
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

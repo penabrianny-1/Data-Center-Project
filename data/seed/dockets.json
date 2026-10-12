@@ -1,0 +1,2398 @@
+[
+  {
+    "id": "OH-aep-data-center-tariff",
+    "state": "OH",
+    "docketNumber": "24-508-EL-ATA",
+    "title": "AEP Ohio Data Center Tariff (Schedule DCT)",
+    "utility": "Ohio Power Company (AEP Ohio)",
+    "type": "large_load_tariff",
+    "status": "appealed",
+    "latestAction": {
+      "date": "2026-03-24",
+      "text": "Merits briefing concluded at the Supreme Court of Ohio in the Ohio Manufacturers' Association Energy Group appeal (Case No. 2025-1458); oral argument not yet scheduled as last reported."
+    },
+    "summary": "PUCO adopted a settlement on July 9, 2025 creating a data-center-specific tariff for AEP Ohio. New data centers above 25 MW must pay for at least 85% of subscribed demand under long-term contracts (load ramp plus 8 years), post collateral, and pay exit fees of three years of minimum charges. The order also directed AEP Ohio to lift its moratorium on new data center connections. The compliance tariff took effect July 23, 2025.",
+    "significance": "The first data-center-only rate class in PJM's largest growth market outside Virginia, and a template other Ohio utilities (FirstEnergy, Duke, AES) are now copying. AEP Ohio says the tariff cut about 30 GW of initial interest down to 5.6 GW of signed contracts. That makes it the clearest real-world test of whether take-or-pay terms filter out speculative load.",
+    "url": "https://dis.puc.state.oh.us/CaseRecord.aspx?CaseNo=24-0508&link=DIVA",
+    "sources": [
+      {
+        "title": "PUCO orders AEP Ohio to create data center specific tariff",
+        "url": "https://content.govdelivery.com/accounts/OHPUC/bulletins/3e8bb79",
+        "publisher": "Public Utilities Commission of Ohio",
+        "kind": "official",
+        "published": "2025-07-09",
+        "docId": "24-508-EL-ATA",
+        "excerpt": "PUCO ordered AEP Ohio to file updated tariffs and immediately lift its moratorium on connecting new data centers."
+      },
+      {
+        "title": "AEP Ohio Data Center Tariff",
+        "url": "https://www.aepohio.com/company/about/rates/data-center-tariff/",
+        "publisher": "AEP Ohio",
+        "kind": "official"
+      },
+      {
+        "title": "AEP Ohio Updates PUCO on Data Center Load: Figures Show Tariff is Working",
+        "url": "https://www.aepohio.com/company/news/view?releaseID=10753",
+        "publisher": "AEP Ohio",
+        "kind": "official",
+        "published": "2026-02-13",
+        "excerpt": "5,642 MW signed under the Data Center Tariff; 12,219 MW signed before the tariff; 17,861 MW total contracted through 2035. Of ~30,000 MW initial interest, 13,022.7 MW requested and paid for a study."
+      },
+      {
+        "title": "Ohio Manufacturers' Association challenges new utility billing for data centers",
+        "url": "https://ohiocapitaljournal.com/2025/11/13/ohio-manufacturers-association-challenges-new-utility-billing-for-data-centers/",
+        "publisher": "Ohio Capital Journal",
+        "kind": "journalism",
+        "published": "2025-11-13"
+      },
+      {
+        "title": "Large Load Projects and Tariffs (September 2026)",
+        "url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues%20and%20Policy/List%20of%20Large%20Customer%20Projects%20and%20Tariffs",
+        "publisher": "Edison Electric Institute",
+        "kind": "research",
+        "published": "2026-09-11",
+        "excerpt": "AEP Ohio has received approval for a tariff that new data centers larger than 25 MW would have to pay for at least 85 percent of the energy they expect to need each month, even if they use less."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Supreme Court of Ohio appeal status is based on secondary reporting through mid-2026; no ruling or argument date was confirmed as of Oct 2026. Some secondary sources state a 12-year term; AEP sources describe ramp plus 8 years."
+  },
+  {
+    "id": "OH-aep-data-center-sso-procurement",
+    "state": "OH",
+    "docketNumber": "26-113-EL-ATA",
+    "title": "AEP Ohio data center Standard Service Offer return / separate energy procurement",
+    "utility": "Ohio Power Company (AEP Ohio)",
+    "type": "cost_allocation",
+    "status": "final_order",
+    "filed": "2026-02-06",
+    "latestAction": {
+      "date": "2026-08-05",
+      "text": "PUCO ordered AEP Ohio to implement measures shielding default-service (SSO) customers from data center effects on energy prices."
+    },
+    "summary": "AEP Ohio applied in February 2026 to keep large data center load from raising default-service generation prices. PUCO's August 5, 2026 order requires data center customers to give 180 days' notice before returning to the Standard Service Offer. AEP Ohio then buys their energy through standalone auctions or spot-market purchases, and the full cost goes to the data center customer.",
+    "significance": "Extends Ohio's data-center cost isolation from wires charges to generation supply in a retail-choice state. Data centers that drop competitive supply cannot push their wholesale price risk onto residential SSO auction prices.",
+    "url": "https://puco.ohio.gov/wps/portal/gov/puco/news/process-protects-aep-customers-from-potential-data-center-costs",
+    "sources": [
+      {
+        "title": "PUCO sets process to protect AEP Ohio customers from potential data center energy costs",
+        "url": "https://puco.ohio.gov/wps/portal/gov/puco/news/process-protects-aep-customers-from-potential-data-center-costs",
+        "publisher": "Public Utilities Commission of Ohio",
+        "kind": "official",
+        "published": "2026-08-05",
+        "docId": "26-113-EL-ATA",
+        "excerpt": "Data center customers will be required to provide AEP Ohio with 180 day notice of their intent to return to default service, known as the Standard Service Offer (SSO)."
+      },
+      {
+        "title": "PUCO issues safeguard from data center effects on AEP Ohio energy prices",
+        "url": "https://athensindependent.com/pr-puco-aep-data-centers-260805/",
+        "publisher": "Athens County Independent",
+        "kind": "journalism",
+        "excerpt": "The full cost of serving the data center customer is assigned to that customer, so it does not affect other customers on AEP Ohio's default rate."
+      },
+      {
+        "title": "PUCO sets process to protect AEP Ohio customers",
+        "url": "https://www.dailyadvocate.com/2026/08/07/puco-sets-process-to-protect-aep-ohio-customers/",
+        "publisher": "Daily Advocate",
+        "kind": "journalism",
+        "published": "2026-08-07"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The February 6, 2026 filing date comes from secondary reporting. The PUCO news page returned 404 on direct fetch; order details are from a search snippet of the PUCO release and a republished copy. Rehearing status is unknown."
+  },
+  {
+    "id": "OH-firstenergy-data-center-tariff",
+    "state": "OH",
+    "docketNumber": "26-0697-EL-ATA",
+    "title": "Ohio Edison, CEI and Toledo Edison proposed Data Center Tariff (DCT)",
+    "utility": "FirstEnergy (Ohio Edison, Cleveland Electric Illuminating, Toledo Edison)",
+    "type": "large_load_tariff",
+    "status": "open",
+    "filed": "2026-06-12",
+    "summary": "FirstEnergy's three Ohio distribution utilities jointly proposed a Data Center Tariff modeled on AEP Ohio's. As reported, it has no minimum-load threshold, a ramped contract capacity with a 10-year term, billing at the greater of actual demand or 85% of contract capacity, and collateral requirements. New data center load would be excluded from a transmission-billing pilot.",
+    "significance": "Would extend AEP-style data center minimum-bill protections to northern Ohio (Cleveland, Akron, Toledo), so most of Ohio's investor-owned territory would carry data-center-specific terms. Duke Energy Ohio separately proposed a Rate DC (Case 26-0755-EL-ATA).",
+    "url": "https://dis.puc.state.oh.us/CaseRecord.aspx?Caseno=26-0697&link=DIVA",
+    "sources": [
+      {
+        "title": "Large Load Projects and Tariffs (September 2026)",
+        "url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues%20and%20Policy/List%20of%20Large%20Customer%20Projects%20and%20Tariffs",
+        "publisher": "Edison Electric Institute",
+        "kind": "research",
+        "published": "2026-09-11",
+        "docId": "26-0697-EL-ATA",
+        "excerpt": "In June 2026, FirstEnergy subsidiaries Ohio Edison Company, Cleveland Electric Illuminating Company and Toledo Edison Company jointly filed a proposal for a new Data Center Tariff (DCT)."
+      },
+      {
+        "title": "Ohio Energy Report, June 2026",
+        "url": "https://www.brakeyenergy.com/ohio-energy-report-june-2026/",
+        "publisher": "Brakey Energy",
+        "kind": "aggregator"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Terms and the June 12 filing date come from secondary summaries, not the PUCO filing itself. Procedural status as of Oct 2026 is unverified. Duke Energy Ohio's parallel 26-0755-EL-ATA and AES Ohio's rate-case data center tariff (25-0958-EL-AIR) are not separately recorded here."
+  },
+  {
+    "id": "VA-dominion-biennial-review-gs5",
+    "state": "VA",
+    "docketNumber": "PUR-2025-00058",
+    "title": "Dominion Energy Virginia 2025 biennial review: new GS-5 large-load rate class",
+    "utility": "Dominion Energy Virginia (Virginia Electric and Power Company)",
+    "type": "rate_case",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2025-11-25",
+      "text": "SCC final order approved reduced base-rate increases and created the GS-5 class (>=25 MW) effective January 1, 2027."
+    },
+    "summary": "In Dominion's 2025 biennial review, the SCC created a GS-5 rate class for customers with 25 MW or more of demand, effective January 1, 2027. New GS-5 customers face minimum charges of 85% of contracted transmission and distribution demand and 60% of generation demand, with contract terms of at least 14 years and collateral requirements. The SCC cut Dominion's requested base-rate increases ($822M in 2026, $345M in 2027) to $565.7M and $209.9M, set ROE at 9.8%, and directed an updated cost-of-service study in the 2027 biennial review.",
+    "significance": "Sets the rate terms for the world's largest data center market (Northern Virginia). GS-5 is now the foundation the SCC builds on for later cost-shifting decisions, including the 2026 Rider T1 order, which folds in the 85% transmission minimum demand charge.",
+    "url": "https://www.scc.virginia.gov/about-the-scc/newsreleases/release/scc-issues-order-on-dev-biennial-review-2025/scc-rules-in-dev-biennial-review-case.html",
+    "sources": [
+      {
+        "title": "SCC Issues Order on DEV Biennial Review 2025",
+        "url": "https://www.scc.virginia.gov/about-the-scc/newsreleases/release/scc-issues-order-on-dev-biennial-review-2025/scc-rules-in-dev-biennial-review-case.html",
+        "publisher": "Virginia State Corporation Commission",
+        "kind": "official",
+        "published": "2025-11-25",
+        "docId": "PUR-2025-00058",
+        "excerpt": "The new GS-5 rate class will comprise customers demanding 25 megawatts or more. The new rate class will be effective beginning January 1, 2027."
+      },
+      {
+        "title": "SCC Approves New Data Center Rate Class for Dominion",
+        "url": "https://www.loudounnow.com/news/scc-approves-new-data-center-rate-class-for-dominion/article_02d5fa0c-1ed8-4771-b57d-c24765739854.html",
+        "publisher": "Loudoun Now",
+        "kind": "journalism"
+      },
+      {
+        "title": "Large Load Projects and Tariffs (September 2026)",
+        "url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues%20and%20Policy/List%20of%20Large%20Customer%20Projects%20and%20Tariffs",
+        "publisher": "Edison Electric Institute",
+        "kind": "research",
+        "published": "2026-09-11",
+        "excerpt": "Creation of a new rate GS-5 class for customers with load of 25 MW or more and a load factor of at least 75 percent."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "One later SCC filing reportedly cites the order as November 5, 2025; the order stamp and SCC release indicate November 25, 2025. No rehearing or appeal of the GS-5 provisions was found. 2026 legislation (SB 253/HB 1393) reportedly addresses further GS-5 cost shifts; its status was not verified."
+  },
+  {
+    "id": "VA-dominion-rider-t1-transmission",
+    "state": "VA",
+    "docketNumber": "PUR-2026-00056",
+    "title": "Dominion Rider T1 2026: transmission cost allocation and direct assignment to large loads",
+    "utility": "Dominion Energy Virginia",
+    "type": "cost_allocation",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-08-28",
+      "text": "Microsoft filed a notice of appeal to the Supreme Court of Virginia; Dominion's amended line-extension policy is due in a new docket the SCC established on August 25, 2026 (within 90 days of the July 31 order)."
+    },
+    "summary": "In Dominion's roughly $1.5B Rider T1 transmission cost-recovery case, the SCC's July 31, 2026 final order approved an amended 12CP allocation method. The method adds a forecast adjustment for large-load growth and incorporates the 85% GS-5 transmission minimum demand charge, cutting the typical residential increase from $2.90 to $0.94 per month. The order also adopted a framework requiring a mandatory contribution in aid of construction (CIAC) from large-load customers for 'direct connect' transmission facilities that would not be built but for them. Dominion must file an amended line-extension policy in a new docket.",
+    "significance": "This is the first SCC ruling that data centers must pay up front for the transmission built solely to connect them. That raises interconnection capital costs for Virginia projects, and the SCC signaled future proceedings on upstream supplemental and regional transmission costs. Microsoft's notice of appeal preserves a hyperscaler challenge.",
+    "url": "https://www.scc.virginia.gov/media/sccvirginiagov-home/about-the-scc/fact-sheets/fact-sheet-how-the-scc-rider-t1-decision-protects-ratepayers.pdf",
+    "sources": [
+      {
+        "title": "Fact Sheet: Rider T1 2026 Decision",
+        "url": "https://www.scc.virginia.gov/media/sccvirginiagov-home/about-the-scc/fact-sheets/fact-sheet-how-the-scc-rider-t1-decision-protects-ratepayers.pdf",
+        "publisher": "Virginia State Corporation Commission",
+        "kind": "official",
+        "published": "2026-09-03",
+        "docId": "PUR-2026-00056",
+        "excerpt": "The new policy will apply prospectively in situations where direct-connect transmission facilities would not be built if not for the needs of a large-load customer."
+      },
+      {
+        "title": "Final Order, Rider T1 (scanned)",
+        "url": "https://www.scc.virginia.gov/docketsearch/DOCS/8dt001!.PDF",
+        "publisher": "Virginia State Corporation Commission",
+        "kind": "official",
+        "published": "2026-07-31"
+      },
+      {
+        "title": "Dominion ordered to directly assign some transmission costs to data centers",
+        "url": "https://www.utilitydive.com/news/dominion-energy-scc-transmission-costs-data-center/827693/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-08-12",
+        "excerpt": "Dominion must draft an amendment to its line extension policy 'that would require a mandatory CIAC for defined types of transmission facilities.'"
+      },
+      {
+        "title": "Microsoft 'preserving its ability' to challenge data center transmission costs decision",
+        "url": "https://www.utilitydive.com/news/microsoft-virginia-scc-data-center-transmission/830775/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-09-18",
+        "excerpt": "Microsoft filed a notice of appeal with the Virginia Supreme Court on Aug. 28 ... has until late November to file a petition for appeal."
+      },
+      {
+        "title": "Press Release: SCC takes important first step of requiring large-load data centers to pay for transmission facilities constructed solely to serve them",
+        "url": "https://www.pecva.org/resources/press/press-release-the-virginia-state-corporation-commission-takes-important-first-step-of-requiring-large-load-data-centers-to-pay-for-transmission-facilities-constructed-solely-to-serve-them/",
+        "publisher": "Piedmont Environmental Council",
+        "kind": "research",
+        "published": "2026-08-03"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The case number for the new line-extension docket opened August 25, 2026 was not captured. Microsoft's notice of appeal is not a perfected petition; the petition deadline is about late November 2026. Dominion's 90-day compliance filing (about late October 2026) had not been confirmed as of verification."
+  },
+  {
+    "id": "VA-dominion-large-load-queue",
+    "state": "VA",
+    "docketNumber": "PUR-2026-00011",
+    "title": "Dominion large-load interconnection (delivery point) queue standards",
+    "utility": "Dominion Energy Virginia",
+    "type": "interconnection",
+    "status": "open",
+    "filed": "2026-02-02",
+    "latestAction": {
+      "date": "2026-05-12",
+      "text": "SCC made determinations on proposed queue standards and ordered a compliance filing; briefing on a flexibility-based fast-track mechanism was due June 30, 2026."
+    },
+    "summary": "At the SCC's direction from the 2025 biennial review, Dominion filed testimony describing its large-load delivery-point request queue. About 25,000 MW is under request for connection by end of 2031, plus about 45,000 MW without connection dates (about 70 GW total), compared with an all-time system peak of 24,678 MW. Dominion receives about 10 new requests a month totaling 2,000-3,000 MW. The SCC has ruled on queue standards and is still considering a fast-track option for flexible (curtailable) loads.",
+    "significance": "Queue rules determine which Virginia data center projects get power and when. A flexibility-based fast lane would reward projects willing to curtail, a model other PJM states are watching.",
+    "url": "https://virginiabusiness.com/dominion-data-center-power-demand-virginia-scc/",
+    "sources": [
+      {
+        "title": "Dominion prepares for 70,000 MW in data center demand",
+        "url": "https://virginiabusiness.com/dominion-data-center-power-demand-virginia-scc/",
+        "publisher": "Virginia Business",
+        "kind": "journalism",
+        "published": "2026-02-17",
+        "excerpt": "About 25,000 MW under request for facilities projected to connect through the end of 2031, plus about 45,000 MW for projects without connection dates set."
+      },
+      {
+        "title": "Dominion Energy LSE 20-Year Data Center Forecast",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260929/20260929-item-5ai---dominion_energy.pdf",
+        "publisher": "PJM Interconnection (Load Analysis Subcommittee)",
+        "kind": "data",
+        "published": "2026-09-29"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The case number and the May 12, 2026 determinations come from secondary summaries; the SCC order itself was not retrieved. No official SCC docket URL was captured. Compliance status as of Oct 2026 is unknown."
+  },
+  {
+    "id": "VA-dominion-2024-irp",
+    "state": "VA",
+    "docketNumber": "PUR-2024-00184",
+    "title": "Dominion Energy Virginia 2024 Integrated Resource Plan",
+    "utility": "Dominion Energy Virginia",
+    "type": "irp",
+    "status": "final_order",
+    "filed": "2024-10-15",
+    "latestAction": {
+      "date": "2025-07-15",
+      "text": "SCC final order found the 2024 IRP legally sufficient and issued guidance for future filings."
+    },
+    "summary": "Dominion's 2024 IRP forecast about 5.5% annual load growth, with demand doubling by 2039, driven mainly by data centers. The SCC required a November 2024 supplement showing data center impacts on generation scenarios (including cases excluding data center growth) and listing transmission projects driven primarily by data centers. Intervenors (Sierra Club/NRDC via Synapse, Piedmont Environmental Council) challenged the forecast as built on unregulated data center contracts. Dominion filed a 2025 IRP update; a comprehensive 2026 IRP is expected under the even-year cycle.",
+    "significance": "The IRP is the planning basis for the gas, nuclear, solar and storage build-out Dominion says data centers require. The SCC's data-center-excluded scenario requirement gives ratepayer advocates a counterfactual to contest data-center-driven generation. New 2026 law (HB 892) separately requires an SCC load-forecasting investigation by March 1, 2027.",
+    "url": "https://www.scc.virginia.gov/about-the-scc/newsreleases/release/comments-sought-on-dev-integrated-resource-plan/comments-sought-on-dev-integrated-resource-plan.html",
+    "sources": [
+      {
+        "title": "Comments Sought on DEV Integrated Resource Plan",
+        "url": "https://www.scc.virginia.gov/about-the-scc/newsreleases/release/comments-sought-on-dev-integrated-resource-plan/comments-sought-on-dev-integrated-resource-plan.html",
+        "publisher": "Virginia State Corporation Commission",
+        "kind": "official",
+        "docId": "PUR-2024-00184"
+      },
+      {
+        "title": "2024 Virginia Integrated Resource Plan",
+        "url": "https://www.dominionenergy.com/-/media/content/about/our-company/irp/pdfs/2024-irp-w_o-appendices.pdf",
+        "publisher": "Dominion Energy",
+        "kind": "official",
+        "published": "2024-10-15"
+      },
+      {
+        "title": "Dominion Virginia 2024 Integrated Resource Plan Docket",
+        "url": "https://www.synapse-energy.com/dominion-virginia-2024-integrated-resource-plan-docket",
+        "publisher": "Synapse Energy Economics",
+        "kind": "research"
+      },
+      {
+        "title": "New state law mandates review of Dominion's load forecasting, as data centers raise concerns",
+        "url": "https://virginiamercury.com/2026/04/30/new-state-law-mandates-review-of-dominions-load-forecasting-as-data-centers-raise-concerns/",
+        "publisher": "Virginia Mercury",
+        "kind": "journalism",
+        "published": "2026-04-30"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The July 15, 2025 final order date comes from secondary summaries; the order text was not retrieved. The 2025 IRP update's docket number is ambiguous (one cover letter shows PUR-2025-00184). Whether and when Dominion filed a 2026 comprehensive IRP could not be confirmed (web search budget exhausted)."
+  },
+  {
+    "id": "VA-apco-large-power-service",
+    "state": "VA",
+    "docketNumber": "PUR-2025-00057",
+    "title": "Appalachian Power large-load revisions to Large Power Service schedule",
+    "utility": "Appalachian Power Company (AEP)",
+    "type": "large_load_tariff",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-07-31",
+      "text": "Cardinal News reported the SCC approved new APCo large-load requirements (14-year contracts, minimum charges) in June 2026 without creating a separate class; APCo's 2026 base rate case is pending with a decision due by January 15, 2027."
+    },
+    "summary": "APCo sought revisions to its Virginia Large Power Service schedule for very large new loads. In 2025 it proposed thresholds of 150 MW aggregate or 100 MW at a single site and an 80% minimum demand. Per reporting, the SCC in June 2026 approved large-load requirements including 14-year contracts and minimum charges but did not create a separate rate class as it did for Dominion. APCo told regulators it is in active discussions with 36 potential large-load customers in Virginia (about 25,000 MW combined, mostly data centers), more than three times its roughly 7,200 MW system peak.",
+    "significance": "Southwest and Southside Virginia (Botetourt, Pittsylvania, Wythe) are a new data center frontier as Northern Virginia saturates. APCo's terms decide whether those projects can be served without burdening a smaller, lower-income customer base.",
+    "url": "https://cardinalnews.org/2026/07/31/appalachian-power-anticipates-explosive-growth-in-large-customers-primarily-data-centers/",
+    "sources": [
+      {
+        "title": "Appalachian Power sees 'explosive' growth from data centers, other big customers",
+        "url": "https://cardinalnews.org/2026/07/31/appalachian-power-anticipates-explosive-growth-in-large-customers-primarily-data-centers/",
+        "publisher": "Cardinal News",
+        "kind": "journalism",
+        "published": "2026-07-31",
+        "excerpt": "The SCC approved new requirements for large-load customers in APCo's territory in June, including 14-year contracts and minimum charges, but did not create a separate customer class."
+      },
+      {
+        "title": "Large Load Projects and Tariffs (September 2026)",
+        "url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues%20and%20Policy/List%20of%20Large%20Customer%20Projects%20and%20Tariffs",
+        "publisher": "Edison Electric Institute",
+        "kind": "research",
+        "published": "2026-09-11",
+        "docId": "PUR-2025-00057",
+        "excerpt": "Appalachian Power Company (APCO), a subsidiary of AEP, has received approval for revisions to its Large Power Service Rate Schedule to address potential new large additions."
+      },
+      {
+        "title": "Will special rate classes protect Va. residents from the costs of serving data centers?",
+        "url": "https://virginiamercury.com/2025/04/25/will-special-rate-classes-protect-va-residents-from-the-costs-of-serving-data-centers/",
+        "publisher": "Virginia Mercury",
+        "kind": "journalism",
+        "published": "2025-04-25"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "It is not confirmed that the June 2026 approval Cardinal News describes was issued in PUR-2025-00057; it may have come from a different APCo docket. The exact June 2026 order date is unknown; latestAction is dated to the reporting article. Final thresholds were not verified. The APCo 2026 rate case number (reported as PUR-2026-00044) was not verified against the SCC."
+  },
+  {
+    "id": "PA-puc-model-large-load-tariff",
+    "state": "PA",
+    "docketNumber": "M-2025-3054271",
+    "title": "PA PUC Large Load Model Tariff framework",
+    "type": "rulemaking",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-07-16",
+      "text": "PUC granted the Energy Association of Pennsylvania's withdrawal of its reconsideration petition, leaving the May 2026 final order in place."
+    },
+    "summary": "On April 30, 2026 the PUC voted 5-0 to adopt a nonbinding model tariff for electric distribution companies serving large loads above 50 MW individually or 100 MW in aggregate. The final order was issued in mid-May 2026. The framework uses a 'but for' test making large loads pay for network upgrades not otherwise needed, potentially up front via CIAC. It recommends deposits and collateral, load-ramp schedules, minimum contract terms, exit provisions, six-month interconnection study targets, public queue transparency, and self-construction options. Aggregation criteria, exit fee components and universal-service cost allocation were left to utility-specific filings.",
+    "significance": "Pennsylvania is a top PJM data center destination. The model sets the baseline for every EDC's large-load tariff (PPL, PECO, Duquesne, FirstEnergy PA), and its up-front upgrade cost responsibility is among the most stringent in the country.",
+    "url": "https://www.puc.pa.gov/docket/M-2025-3054271",
+    "sources": [
+      {
+        "title": "PUC Releases Final Order Establishing First-of-Its-Kind Large Load Model Tariff Framework",
+        "url": "https://www.puc.pa.gov/press-release/2026/puc-releases-final-order-establishing-first-of-its-kind-large-load-model-tariff-framework-05132026",
+        "publisher": "Pennsylvania Public Utility Commission",
+        "kind": "official",
+        "published": "2026-05-13",
+        "docId": "M-2025-3054271",
+        "excerpt": "Chairman Steve DeFrank: \"Rather than waiting for these challenges to overwhelm the system, this Commission chose to lead.\""
+      },
+      {
+        "title": "PUC Acts to Protect Ratepayers, Guide Data Center Growth with New Large Load Tariff Framework",
+        "url": "https://www.puc.pa.gov/press-release/2026/puc-acts-to-protect-ratepayers-guide-data-center-growth-with-new-large-load-tariff-framework-4-30-26",
+        "publisher": "Pennsylvania Public Utility Commission",
+        "kind": "official",
+        "published": "2026-04-30"
+      },
+      {
+        "title": "Final Order, Large Load Model Tariff",
+        "url": "https://www.puc.pa.gov/pcdocs/1929842.pdf",
+        "publisher": "Pennsylvania Public Utility Commission",
+        "kind": "official"
+      },
+      {
+        "title": "Pennsylvania releases 'first-of-its-kind' large-load model tariff",
+        "url": "https://www.utilitydive.com/news/pennsylvania-releases-first-of-its-kind-large-load-model-tariff/820456/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-05-18"
+      },
+      {
+        "title": "Pennsylvania Public Utility Commission Adopts Model Interconnection Tariff for Large Load Customers",
+        "url": "https://www.klgates.com/thought-leadership/Pennsylvania-Public-Utility-Commission-Adopts-Model-Interconnection-Tariff-for-Large-Load-Customers-5-29-2026",
+        "publisher": "K&L Gates",
+        "kind": "research",
+        "published": "2026-05-29"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The final order date is reported as May 12 or May 13, 2026. The July 16 reconsideration withdrawal comes from a secondary tracker. The framework is guidance; binding terms come only through each EDC's tariff or rate filings."
+  },
+  {
+    "id": "PA-ppl-rate-case-large-load",
+    "state": "PA",
+    "docketNumber": "R-2025-3057164",
+    "title": "PPL Electric 2025 base rate case settlement with LP-6 large-load tariff",
+    "utility": "PPL Electric Utilities",
+    "type": "rate_case",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-06-04",
+      "text": "PUC voted 5-0 (with partial dissents) to approve the settlement; new rates effective for service on and after July 1, 2026."
+    },
+    "summary": "The PUC approved a settlement authorizing a $275M annual distribution revenue increase (down from about $356.3M requested). It creates a large-load class (LP-6) for customers of 50 MW or more at a single facility, or 75 MW aggregated within 10 miles at 69 kV or higher. Terms include minimum 10-year service agreements with up to five-year ramps, minimum load guarantees, exit fees, upgrade security, and an interruptible option that can reduce minimums. Starting in 2027, large-load customers collectively pay $11M a year in a non-bypassable charge supporting low-income assistance.",
+    "significance": "The first binding large-load tariff in Pennsylvania. It covers PPL's eastern PA territory, which has one of PJM's largest data center pipelines (tens of GW of advanced-stage requests). The low-income contribution is a novel cost-sharing feature.",
+    "url": "https://www.puc.pa.gov/docket/R-2025-3057164",
+    "sources": [
+      {
+        "title": "PUC Issues Decision in PPL Electric Rate Proceeding",
+        "url": "https://www.puc.pa.gov/press-release/2026/puc-issues-decision-in-ppl-electric-rate-proceeding-06042026",
+        "publisher": "Pennsylvania Public Utility Commission",
+        "kind": "official",
+        "published": "2026-06-04",
+        "docId": "R-2025-3057164",
+        "excerpt": "The settlement includes long-term service commitments from large-load customers, such as data centers, minimum demand guarantees and financial protections designed to prevent costs from shifting to existing customers."
+      },
+      {
+        "title": "PPL Electric reaches $275M rate case settlement, including data center tariff",
+        "url": "https://www.utilitydive.com/news/ppl-electric-rate-case-settlement-data-center-tariff/814760/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-03-16"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high"
+  },
+  {
+    "id": "PA-puc-emergency-load-control-data-centers",
+    "state": "PA",
+    "docketNumber": "M-2026-3064961",
+    "title": "PA PUC update of emergency load control regulations and large-load cost responsibility inquiry",
+    "type": "rulemaking",
+    "status": "open",
+    "latestAction": {
+      "date": "2026-09-10",
+      "text": "PUC voted 5-0 directing staff to draft a Tentative Order for the Oct. 1, 2026 public meeting (final order targeted Jan. 28, 2027) and scheduled a fall technical conference on large computational load cost responsibility."
+    },
+    "summary": "Following Gov. Shapiro's August 18, 2026 executive order, the PUC began updating its emergency electric load control regulations. The update will clarify the order, criteria and conditions for curtailing customers, including data centers, in pre-emergency and emergency conditions. The PUC also scheduled a technical conference on how costs of large computational loads are identified and allocated. It cited PJM's July 2026 capacity auction shortfall of 6,831 MW for 2028-29.",
+    "significance": "Could make Pennsylvania data centers among the first loads curtailed in grid emergencies. It may also open a second front on cost allocation beyond the voluntary model tariff.",
+    "url": "https://www.puc.pa.gov/press-release/2026/puc-moves-to-address-data-center-impacts-on-electric-reliability-and-consumer-costs-09102026",
+    "sources": [
+      {
+        "title": "PUC Moves to Address Data Center Impacts on Electric Reliability and Consumer Costs",
+        "url": "https://www.puc.pa.gov/press-release/2026/puc-moves-to-address-data-center-impacts-on-electric-reliability-and-consumer-costs-09102026",
+        "publisher": "Pennsylvania Public Utility Commission",
+        "kind": "official",
+        "published": "2026-09-10",
+        "docId": "M-2026-3064961",
+        "excerpt": "Vice Chair Barrow: \"We need clear and consistent procedures for managing load during pre-emergency and emergency conditions\""
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Whether the Tentative Order was adopted at the Oct. 1, 2026 meeting was not verified. The technical conference date is unknown."
+  },
+  {
+    "id": "MD-psc-large-load-tariffs-pc72",
+    "state": "MD",
+    "docketNumber": "PC72",
+    "title": "Maryland PSC large-load tariffs and rules (Public Conference 72 / RM93) under the Next Generation Energy Act and Utility RELIEF Act",
+    "utility": "BGE, Pepco, Delmarva Power, Potomac Edison",
+    "type": "large_load_tariff",
+    "status": "open",
+    "latestAction": {
+      "date": "2026-09-29",
+      "text": "BGE, Pepco and Delmarva announced their required large-load tariff filing (Potomac Edison filed separately); PSC hearing set for Oct. 23, 2026, with further hearings Dec. 8-11, 2026."
+    },
+    "summary": "The 2025 Next Generation Energy Act required Maryland utilities to file large-load tariffs. It set a large-load threshold of 100 MW and 80% load factor, which the 2026 Utility RELIEF Act (HB 1532) lowered to 25 MW and 60%. The PSC is implementing the laws through Public Conference 72 and a rulemaking (proposed COMAR 20.96.01 published June 26, 2026, covering application review, load studies and collateral). It asked for comments in July 2026 on how large loads enter PJM forecasts. The Exelon utilities and Potomac Edison filed large-load rate schedules in September 2026.",
+    "significance": "Maryland borders Northern Virginia and is attracting data center proposals, while its ratepayers absorb PJM capacity and transmission costs driven by regional data center growth. The 25 MW threshold would make Maryland's rules among the broadest in PJM.",
+    "url": "https://webpscxb.pscmaryland.com/DMS/pc/PC72",
+    "sources": [
+      {
+        "title": "Public Conference 72 docket",
+        "url": "https://webpscxb.pscmaryland.com/DMS/pc/PC72",
+        "publisher": "Maryland Public Service Commission",
+        "kind": "official",
+        "docId": "PC72"
+      },
+      {
+        "title": "BGE, Delmarva Power and Pepco Propose Plan to Protect Maryland Customers from Large Energy User Cost Shifts",
+        "url": "https://www.bge.com/news/news-releases/bge-delmarva-power-and-pepco-propose-plan-to-protect-maryland-customers-from-large-energy-user-cost-shifts",
+        "publisher": "BGE (Exelon)",
+        "kind": "official",
+        "published": "2026-09-29"
+      },
+      {
+        "title": "BGE, Delmarva Power, Pepco file large-load tariff in Maryland",
+        "url": "https://dailyenergyinsider.com/news/53956-bge-delmarva-power-pepco-file-large-load-tariff-in-maryland/",
+        "publisher": "Daily Energy Insider",
+        "kind": "journalism",
+        "published": "2026-10-01",
+        "excerpt": "The PSC will hold a hearing on this matter on Oct. 23, as well as additional hearings on Dec. 8-11, 2026."
+      },
+      {
+        "title": "Maryland PSC Moves Ahead with Large Load Tariff Rule",
+        "url": "https://www.rtoinsider.com/135507-maryland-psc-moves-ahead-large-load-tariff-rule/",
+        "publisher": "RTO Insider",
+        "kind": "journalism",
+        "published": "2026-06-30"
+      },
+      {
+        "title": "Large Load Projects and Tariffs (September 2026)",
+        "url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues%20and%20Policy/List%20of%20Large%20Customer%20Projects%20and%20Tariffs",
+        "publisher": "Edison Electric Institute",
+        "kind": "research",
+        "published": "2026-09-11",
+        "excerpt": "Pursuant to the 2025 Next Generation Energy Act and the 2026 Utility RELIEF Act, on September 1, 2026, FirstEnergy subsidiary Potomac Edison and the Maryland Exelon companies separately filed proposals for a specific rate schedule for large load customers."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The filing date conflicts: EEI says Sept. 1, 2026, while the Exelon press release is dated Sept. 29, 2026. Utility-specific tariff case numbers (if separate from PC72) were not identified. Tariff terms in the filings were not retrieved."
+  },
+  {
+    "id": "NJ-bpu-data-center-fair-share",
+    "state": "NJ",
+    "title": "NJ BPU implementation of the Data Center Fair Share law (S731/A796, P.L.2026, c.32)",
+    "type": "rulemaking",
+    "status": "open",
+    "latestAction": {
+      "date": "2026-07-07",
+      "text": "Governor signed S731/A796; BPU standards proceeding required within 12 months, with utility tariffs to follow."
+    },
+    "summary": "The Data Center Fair Share law, signed July 7, 2026, directs the BPU to set standards for large data centers (reportedly 50 MW or more) within 12 months. The standards must create a separate ratepayer class and rate structure so data centers pay for their own energy and related grid infrastructure, use financial guarantees and minimum billing commitments, and address co-located generation. Data centers must also curtail during grid stress before residential customers. Utilities must file separate classes or tariffs within 180 days of the BPU order.",
+    "significance": "New Jersey ratepayers have faced sharp PJM capacity-driven bill increases blamed partly on data center load. This mandate will set the state's first data-center-specific tariff regime for PSE&G, JCP&L, ACE and Rockland Electric.",
+    "url": "https://www.nj.gov/governor/news/2026/approved/20260707a.shtml",
+    "sources": [
+      {
+        "title": "Governor signs ratepayer protection bills including Data Center Fair Share (S731/A796)",
+        "url": "https://www.nj.gov/governor/news/2026/approved/20260707a.shtml",
+        "publisher": "Office of the Governor of New Jersey",
+        "kind": "official",
+        "published": "2026-07-07",
+        "excerpt": "Creates a new ratepayer class and rate structure so data centers pay for their own energy use and related grid infrastructure; requires data centers to cut back when the grid is strained."
+      },
+      {
+        "title": "S731 bill status",
+        "url": "https://www.njleg.state.nj.us/bill-search/2026/S731",
+        "publisher": "New Jersey Legislature",
+        "kind": "official",
+        "docId": "S731"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "No BPU docket implementing the law was identified as of verification; this record tracks a statutorily mandated proceeding that may not yet be formally docketed. The 50 MW threshold and the 12-month and 180-day timelines come from secondary summaries of the bill text."
+  },
+  {
+    "id": "IN-im-large-load-settlement",
+    "state": "IN",
+    "docketNumber": "46097",
+    "title": "Indiana Michigan Power large load tariff modifications (Tariff I.P.) settlement",
+    "utility": "Indiana Michigan Power (AEP)",
+    "type": "large_load_tariff",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2025-02-19",
+      "text": "IURC approved the all-party settlement with modifications; I&M files semiannual reports (e.g., August 2025)."
+    },
+    "summary": "I&M proposed large-load terms for customers above 150 MW, citing expected growth from about 2,800 MW peak to over 7,000 MW by about 2030, driven largely by data centers. An all-party settlement with the OUCC, Citizens Action Coalition, Amazon, Google, Microsoft and the Data Center Coalition set long contract terms, minimum demand charges, collateral and exit fees. The IURC approved it on February 19, 2025, adding a requirement that capacity reductions above 20% be Commission-reviewed. I&M must report semiannually and convene parties on load-shed and demand response.",
+    "significance": "One of the first large-load tariffs negotiated directly with hyperscalers. It became a national template for consensus terms, cited by other states and by AEP affiliates, and it underpins data center growth in the Fort Wayne and New Carlisle areas.",
+    "url": "https://iurc.portal.in.gov/docketed-case-details/?id=b8cd5780-0546-ef11-8409-001dd803817e",
+    "sources": [
+      {
+        "title": "Order of the Commission, Cause No. 46097",
+        "url": "https://www.in.gov/iurc/files/ord_46097_021925.pdf",
+        "publisher": "Indiana Utility Regulatory Commission",
+        "kind": "official",
+        "published": "2025-02-19",
+        "docId": "46097"
+      },
+      {
+        "title": "Unopposed Settlement Agreement, Cause No. 46097",
+        "url": "https://iurc.portal.in.gov/_entity/sharepointdocumentlocation/4aae5d78-18a9-ef11-8a6a-001dd80bd98a/bb9c6bba-fd52-45ad-8e64-a444aef13c39?file=46097_IndMich_Submission+of+Unopposed+Settlement+Agreement+and+Unopposed+Motion+for+Acceptance+of+Out+of+Time+Filing_112224.pdf",
+        "publisher": "Indiana Utility Regulatory Commission (filing by I&M)",
+        "kind": "official",
+        "published": "2024-11-22"
+      },
+      {
+        "title": "IURC approves I&M for large load tariff settlement",
+        "url": "https://www.power-technology.com/news/iurc-american-electric-power-im-large-load-tariff/",
+        "publisher": "Power Technology",
+        "kind": "journalism"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Final threshold and minimum-demand percentages in the approved settlement were not confirmed from the order text (I&M's initial proposal was 150 MW and 90% minimum demand; settled terms reportedly differ)."
+  },
+  {
+    "id": "IN-im-expedited-generation-plan",
+    "state": "IN",
+    "docketNumber": "46301",
+    "title": "I&M Expedited Generation Resource Plan for large-load growth",
+    "utility": "Indiana Michigan Power (AEP)",
+    "type": "generation_approval",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-01-28",
+      "text": "IURC approved the settlement (I&M, OUCC, Industrial Group, Amazon) modifying the expedited generation resource plan; the first generation resource subdocket filing followed on 2026-04-30."
+    },
+    "summary": "Under Indiana's expedited generation resource plan statute, I&M sought approval of a plan, ratemaking relief and a compliance-filing process to procure capacity for surging large-load (data center) demand. A settlement among I&M, the OUCC, the Industrial Group and Amazon, unopposed by CAC and municipal intervenors, was approved on January 28, 2026. It reportedly authorizes procurement toward up to 3,000 MW of dispatchable and 1,500 MW of clean generation, with individual resources reviewed in subdockets.",
+    "significance": "Shows Indiana's fast-track path for building generation dedicated to data center load growth. How subdocket costs are assigned between hyperscalers and other customers will be contested.",
+    "url": "https://www.in.gov/iurc/files/ord_46301_012826.pdf",
+    "sources": [
+      {
+        "title": "Order of the Commission, Cause No. 46301",
+        "url": "https://www.in.gov/iurc/files/ord_46301_012826.pdf",
+        "publisher": "Indiana Utility Regulatory Commission",
+        "kind": "official",
+        "published": "2026-01-28",
+        "docId": "46301",
+        "excerpt": "Verified petition of Indiana Michigan Power Company for approval of an Expedited Generation Resource Plan, associated accounting and ratemaking relief ... a generation resource submittal compliance filing process."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The 3,000 MW dispatchable and 1,500 MW clean figures come from a secondary tracker, not confirmed in the order text. Subdocket status as of Oct 2026 is unknown."
+  },
+  {
+    "id": "IN-nipsco-genco-amazon-contract",
+    "state": "IN",
+    "docketNumber": "46322",
+    "title": "NIPSCO / NIPSCO GenCo special contract with Data Center Customer #1 (Amazon) and GenCo PPA",
+    "utility": "Northern Indiana Public Service Company (NIPSCO) and NIPSCO Generation LLC (GenCo)",
+    "type": "special_contract",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-06-17",
+      "text": "IURC approved the settlement (NIPSCO/GenCo, OUCC, Industrial Group; CAC opposed) and, in companion Cause 46362, approved GenCo generation to serve the load."
+    },
+    "summary": "NIPSCO and its new generation affiliate GenCo sought approval of a special contract with 'Data Center Customer #1' (Amazon), a power purchase agreement between NIPSCO and GenCo, and alternative regulatory plans for depreciation of generation and transmission built to serve the contract. The IURC approved a settlement on June 17, 2026. Service reportedly begins January 1, 2027 and ramps to 2,400 MW by end of 2032 under a 15-year term with collateral, a parent guarantee and exit protections. Companion Cause 46362 approved two roughly 1,300 MW gas combined-cycle units at Schahfer and a 400 MW battery, with costs assigned to the customer. GenCo's status as a utility was approved earlier in Cause 46183.",
+    "significance": "The first operating test of the 'GenCo' model: a ring-fenced generation affiliate that builds and contracts capacity for hyperscalers so data center supply risk sits outside the regulated retail rate base. Other utilities are watching it as a structural alternative to large-load tariffs.",
+    "url": "https://secure.in.gov/iurc/files/ord_46322_061726.pdf",
+    "sources": [
+      {
+        "title": "Order of the Commission, Cause No. 46322",
+        "url": "https://secure.in.gov/iurc/files/ord_46322_061726.pdf",
+        "publisher": "Indiana Utility Regulatory Commission",
+        "kind": "official",
+        "published": "2026-06-17",
+        "docId": "46322",
+        "excerpt": "Verified joint petition of NIPSCO and NIPSCO Generation LLC (GenCo) for (1) approval of a special contract (Data Center Customer #1) ... (2) approval of a power purchase agreement between NIPSCO and GenCo."
+      },
+      {
+        "title": "Order of the Commission, Cause No. 46362",
+        "url": "https://secure.in.gov/iurc/files/ord_46362_061726.pdf",
+        "publisher": "Indiana Utility Regulatory Commission",
+        "kind": "official",
+        "published": "2026-06-17",
+        "docId": "46362"
+      },
+      {
+        "title": "Large Load Projects and Tariffs (September 2026)",
+        "url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues%20and%20Policy/List%20of%20Large%20Customer%20Projects%20and%20Tariffs",
+        "publisher": "Edison Electric Institute",
+        "kind": "research",
+        "published": "2026-09-11",
+        "docId": "46183",
+        "excerpt": "NIPSCO has received Commission approval for NIPSCO GenCo to be a public utility and energy utility under Indiana Code. NIPSCO GenCo will isolate the risks associated with large load customers through contractual agreements."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Amazon's identity, the 2,400 MW ramp, the 15-year term, and the 46362 resource details come from a secondary tracker; the 46322 order caption confirms the GenCo special contract structure. The 46362 order was not directly read. A pending NIPSCO/Google contract (Cause 46393) was reported but not verified. No Duke Energy Indiana data-center-specific proceeding could be verified."
+  },
+  {
+    "id": "MI-consumers-data-center-terms",
+    "state": "MI",
+    "docketNumber": "U-21859",
+    "title": "Consumers Energy data center terms of service (Rate GPD amendments)",
+    "utility": "Consumers Energy",
+    "type": "large_load_tariff",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2025-11-06",
+      "text": "MPSC approved data center terms of service for Consumers Energy."
+    },
+    "summary": "The MPSC approved amendments to Consumers Energy's Rate GPD for data centers of 100 MW or more (individual or aggregated, counting commonly owned sites of 20 MW or more). Terms reportedly include a 15-year minimum contract, 80% minimum billing demand, up to five-year ramps with automatic extensions, collateral of 50% of the exit fee, and a $100,000 study fee. Each new customer contract needs a customer-specific Commission filing (target 90-day review) showing no subsidy by other customers, and the utility must report annually.",
+    "significance": "Michigan's 2024 data center sales-tax exemption drew multi-GW proposals. These terms set the baseline protections for Consumers' territory (west and mid-Michigan), and they require case-by-case MPSC review of every new data center contract.",
+    "url": "https://www.michigan.gov/mpsc/commission/news-releases/2025/11/06/mpsc-approves-terms-of-service-between-consumers-energy-and-data-centers",
+    "sources": [
+      {
+        "title": "MPSC approves terms of service between Consumers Energy and data centers",
+        "url": "https://www.michigan.gov/mpsc/commission/news-releases/2025/11/06/mpsc-approves-terms-of-service-between-consumers-energy-and-data-centers",
+        "publisher": "Michigan Public Service Commission",
+        "kind": "official",
+        "published": "2025-11-06",
+        "docId": "U-21859"
+      },
+      {
+        "title": "Large Load Projects and Tariffs (September 2026)",
+        "url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues%20and%20Policy/List%20of%20Large%20Customer%20Projects%20and%20Tariffs",
+        "publisher": "Edison Electric Institute",
+        "kind": "research",
+        "published": "2026-09-11",
+        "docId": "U-21859",
+        "excerpt": "Consumers Energy has received approval from the Michigan Public Service Commission to implement amendments to the company's Rate GPD to adjust for data center load."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The MPSC release URL returned 403 on direct fetch; detailed terms come from secondary trackers summarizing the order. Later customer-specific filings under these terms were not catalogued."
+  },
+  {
+    "id": "MI-dte-saline-special-contracts",
+    "state": "MI",
+    "docketNumber": "U-21990",
+    "title": "DTE Electric special contracts for 1.4 GW Saline Township data center (OpenAI/Oracle/Related Digital 'Stargate')",
+    "utility": "DTE Electric",
+    "type": "special_contract",
+    "status": "appealed",
+    "latestAction": {
+      "date": "2026-04-17",
+      "text": "Attorney General Dana Nessel appealed the MPSC approval to the Michigan Court of Appeals after the MPSC denied rehearing on March 27, 2026."
+    },
+    "summary": "On December 18, 2025 the MPSC approved, without a contested case, DTE special contracts with Green Chile Ventures to serve a roughly 1,383 MW data center campus in Saline Township, reported as part of the OpenAI/Oracle/Related Digital 'Stargate' buildout. Terms include a 19-year minimum term, 80% minimum billing demand, termination payments of up to 10 years of minimum demand charges, and customer-funded battery storage (the first 332 MW approved). DTE absorbs costs it cannot recover from the customer. The MPSC directed DTE to file a generally available large-load tariff (see U-22061). It denied rehearing and reopening on March 27, 2026, and the AG appealed on April 17, 2026, seeking invalidation or remand for a contested case.",
+    "significance": "Michigan's largest single data center deal and a flashpoint over whether multi-GW contracts can be approved ex parte. The appeal could force contested-case review of future hyperscaler contracts, and DTE has tied 'affordability benefits' and a rate freeze pledge to the project.",
+    "url": "https://www.michigan.gov/mpsc/commission/news-releases/2025/12/18/mpsc-approves-dte-electric-energy-contracts-for-data-center",
+    "sources": [
+      {
+        "title": "MPSC approves DTE Electric energy contracts for data center",
+        "url": "https://www.michigan.gov/mpsc/commission/news-releases/2025/12/18/mpsc-approves-dte-electric-energy-contracts-for-data-center",
+        "publisher": "Michigan Public Service Commission",
+        "kind": "official",
+        "published": "2025-12-18",
+        "docId": "U-21990"
+      },
+      {
+        "title": "MPSC goes big on batteries",
+        "url": "https://www.michigan.gov/mpsc/commission/news-releases/2026/03/27/mpsc-goes-big-on-batteries",
+        "publisher": "Michigan Public Service Commission",
+        "kind": "official",
+        "published": "2026-03-27"
+      },
+      {
+        "title": "AG Nessel files appeal of MPSC approval of DTE's Saline data center contracts",
+        "url": "https://www.michigan.gov/ag/news/press-releases/2026/04/17/ag-nessel-files-appeal-of-mpsc-approval-of-dtes-saline-data-center-contracts",
+        "publisher": "Michigan Department of Attorney General",
+        "kind": "official",
+        "published": "2026-04-17"
+      },
+      {
+        "title": "Large Load Projects and Tariffs (September 2026)",
+        "url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues%20and%20Policy/List%20of%20Large%20Customer%20Projects%20and%20Tariffs",
+        "publisher": "Edison Electric Institute",
+        "kind": "research",
+        "published": "2026-09-11",
+        "excerpt": "DTE Energy — Open AI, Oracle, Related Digital / Data Center, Saline Township, MI. $7 billion data center campus with 1,400 MW of capacity. Includes long-term power supply agreement and a battery storage investment."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "michigan.gov pages returned 403 on direct fetch; URLs and details come from secondary trackers citing them, and EEI corroborates the project. The Court of Appeals docket number and any ruling were not found; the status of the appeal as of Oct 2026 is unverified."
+  },
+  {
+    "id": "MI-dte-large-load-tariff",
+    "state": "MI",
+    "docketNumber": "U-22061",
+    "title": "DTE Electric Large Load Provision (Rate Schedule D11 revisions)",
+    "utility": "DTE Electric",
+    "type": "large_load_tariff",
+    "status": "open",
+    "latestAction": {
+      "date": "2026-03-27",
+      "text": "MPSC issued notice of DTE's proposed large-load tariff; discovery was ongoing as of July 2026."
+    },
+    "summary": "As directed in the Saline Township contract approval, DTE proposed general large-load terms in Rate Schedule D11. They would apply to incremental load above 100 MW at one site, or 100 MW aggregated across sites averaging over 20 MW. Proposed terms include 80% minimum billing demand, administrative fees of $100,000 (under 200 MW) or $250,000 (200 MW and above), a 15-year termination fee, and collateral equal to the full termination fee.",
+    "significance": "Will replace case-by-case confidential contracts with standard terms for every future data center in southeast Michigan. DTE also has a separate pending 1 GW Google contract in Van Buren Township (U-22058), where the AG is pushing for a 90% minimum charge.",
+    "url": "https://adms.apps.lara.state.mi.us/Mpsc/ViewNoticeDocument/1461",
+    "sources": [
+      {
+        "title": "Notice of Proceeding, Case No. U-22061",
+        "url": "https://adms.apps.lara.state.mi.us/Mpsc/ViewNoticeDocument/1461",
+        "publisher": "Michigan Public Service Commission",
+        "kind": "official",
+        "docId": "U-22061"
+      },
+      {
+        "title": "Large Load Projects and Tariffs (September 2026)",
+        "url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues%20and%20Policy/List%20of%20Large%20Customer%20Projects%20and%20Tariffs",
+        "publisher": "Edison Electric Institute",
+        "kind": "research",
+        "published": "2026-09-11",
+        "docId": "U-22061",
+        "excerpt": "DTE has filed proposed revisions to its Rate Schedule D11, including additional terms and conditions of service for applicable large load customers."
+      },
+      {
+        "title": "AG Nessel files testimony to protect ratepayers in Google data center proposal",
+        "url": "https://www.michigan.gov/ag/news/press-releases/2026/06/11/ag-nessel-files-testimony-to-protect-ratepayers-in-google-data-center-proposal",
+        "publisher": "Michigan Department of Attorney General",
+        "kind": "official",
+        "published": "2026-06-11",
+        "docId": "U-22058"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Proposed terms come from a secondary tracker summarizing filings; the MPSC notice was not directly read. The schedule and any proposal for decision as of Oct 2026 are unknown. U-22058 (DTE/Google) is mentioned here but not separately recorded."
+  },
+  {
+    "id": "IL-comed-large-load-proceedings",
+    "state": "IL",
+    "docketNumber": "26-0364",
+    "title": "ICC investigation of ratepayer protections and cost recovery for ComEd large-demand (data center) projects",
+    "utility": "Commonwealth Edison (ComEd)",
+    "type": "large_load_tariff",
+    "status": "open",
+    "filed": "2026-04-23",
+    "latestAction": {
+      "date": "2026-09-14",
+      "text": "Evidentiary hearing scheduled to begin; a proposed order was expected around November 9, 2026."
+    },
+    "summary": "In March 2026 the ICC approved ComEd's revised Rider DE and General Terms and Conditions (Dockets 25-0677/25-0679). The revisions let ComEd scale security deposits for large-load projects: $1M for 50-200 MW plus $500,000 per additional 100 MW, replacing a flat $1M, along with letter-of-credit standards and deposit refunds tied to actual load. The ICC called further protections out of scope and directed staff to open a new proceeding, Docket 26-0364, opened April 23, 2026. It will consider whether ComEd needs a separate data center tariff and how to allocate large-load costs. ComEd reports more than 75 large-demand projects totaling more than 28,000 MW.",
+    "significance": "Northern Illinois is a top-five U.S. data center market. This case will decide whether ComEd data centers face minimum-bill, long-term contract and cost-allocation terms like those in Ohio and Virginia, while ComEd's separate $15.3B 2028-2031 grid plan (Docket 26-0047) attributes nearly half of new load growth to data centers.",
+    "url": "https://icc.illinois.gov/docket/P2026-0364/docket-sheet",
+    "sources": [
+      {
+        "title": "Regulators OK ComEd's plan to increase deposit costs for large-load projects like data centers",
+        "url": "https://capitolnewsillinois.com/news/regulators-ok-comeds-plan-to-increase-deposit-costs-for-large-load-projects-like-data-centers/",
+        "publisher": "Capitol News Illinois",
+        "kind": "journalism",
+        "published": "2026-03-20",
+        "docId": "25-0677",
+        "excerpt": "Projects requesting 50-200 megawatts start at $1 million, rising by $500,000 for each additional 100 megawatts. The ICC directed staff to file a report and draft order initiating new proceedings by April 23, 2026."
+      },
+      {
+        "title": "ICC press release: Data center tariff investigation",
+        "url": "https://icc.illinois.gov/downloads/public/press-release/03.20.26%20Data%20center%20tariff%20investigation.pdf",
+        "publisher": "Illinois Commerce Commission",
+        "kind": "official",
+        "published": "2026-03-20"
+      },
+      {
+        "title": "Docket 25-0679",
+        "url": "https://www.icc.illinois.gov/docket/P2025-0679",
+        "publisher": "Illinois Commerce Commission",
+        "kind": "official",
+        "docId": "25-0679"
+      },
+      {
+        "title": "Large Load Projects and Tariffs (September 2026)",
+        "url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues%20and%20Policy/List%20of%20Large%20Customer%20Projects%20and%20Tariffs",
+        "publisher": "Edison Electric Institute",
+        "kind": "research",
+        "published": "2026-09-11",
+        "docId": "25-0679 / 25-0677",
+        "excerpt": "ComEd has been approved for revisions to Rider DE that clarify requirements and procedures for large load customers' new service requests ... and revisions to its General Terms & Conditions, designed to protect other customers from large demand applicants."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "ICC docket pages block automated access, so the 26-0364 schedule (hearing Sept. 14, proposed order around Nov. 9, 2026) comes from a secondary tracker and was not confirmed. One tracker reports the 25-0679 order is under appellate review; this was not verified."
+  },
+  {
+    "id": "WI-we-energies-vlc-tariff",
+    "state": "WI",
+    "docketNumber": "6630-TE-113",
+    "title": "We Energies Very Large Customer (VLC) and Bespoke Resources tariffs",
+    "utility": "Wisconsin Electric Power Co. (We Energies)",
+    "type": "large_load_tariff",
+    "status": "appealed",
+    "latestAction": {
+      "date": "2026-06-19",
+      "text": "Oracle sued the PSC in Ozaukee County Circuit Court challenging the tariff's credit/security requirements; PSC had declined to loosen the A- credit standard."
+    },
+    "summary": "On April 24, 2026 the PSC approved We Energies' VLC and Bespoke Resources tariffs with modifications. It lowered the mandatory threshold from 500 MW to 100 MW, extended the minimum VLC term to 15 years, and required revisions addressing transmission cost-shifting. It removed a 'capacity-only' option under which data centers would have paid only 75% of generating facility costs, approving a Full-Benefits model under which VLCs pay 100% of their costs. It also added reporting requirements. Security is required unless the customer has A-/A3 ratings and passes a financial test.",
+    "significance": "Governs service to the very large data center campuses proposed in southeast Wisconsin, including the Vantage project, which joined We Energies in seeking looser credit rules. The Bespoke Resources model has data centers fund dedicated generation, and Oracle's lawsuit tests whether regulators can impose strict creditworthiness rules on hyperscaler tenants.",
+    "url": "https://apps.psc.wi.gov/ERF/ERFsearch/content/searchResult.aspx?UTIL=6630&CASE=TE&SEQ=113&START=none&END=none&TYPE=none&SERVICE=none&KEY=none&NON=N",
+    "sources": [
+      {
+        "title": "PSC press release on We Energies Very Large Customer tariffs (Docket 6630-TE-113)",
+        "url": "https://psc.wi.gov/Documents/PressReleases/04.24.2026PressRelease.PDF",
+        "publisher": "Public Service Commission of Wisconsin",
+        "kind": "official",
+        "published": "2026-04-24",
+        "docId": "6630-TE-113",
+        "excerpt": "The Commission removed a capacity-only option that would have allowed data centers to only pay for 75% of the costs of generating facilities ... approval of the Full-Benefits resource model ... requiring the VLCs to pay 100% of their costs."
+      },
+      {
+        "title": "Oracle sues Wisconsin regulators over data center credit requirements",
+        "url": "https://wisconsinwatch.org/2026/06/oracle-sues-wisconsin-regulators-data-center-credit-requirements-public-service-commission/",
+        "publisher": "Wisconsin Watch",
+        "kind": "journalism",
+        "published": "2026-06-24"
+      },
+      {
+        "title": "Wisconsin regulators refuse to loosen data center credit rules, setting up Oracle court fight",
+        "url": "https://wisconsinwatch.org/2026/07/wisconsin-regulators-refuse-to-loosen-data-center-credit-rules-setting-up-oracle-court-fight/",
+        "publisher": "Wisconsin Watch",
+        "kind": "journalism",
+        "published": "2026-07-09"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Application filed March 2025 (exact day not captured). The Oracle lawsuit, the threshold change and the 15-year term come from Wisconsin Watch and a tracker; the press release excerpt was read directly. The status of the circuit court case as of Oct 2026 is unknown."
+  },
+  {
+    "id": "WI-alliant-beaver-dam-esa",
+    "state": "WI",
+    "docketNumber": "6680-TE-115",
+    "title": "Alliant Energy (WPL) Electric Service Agreement for Meta Beaver Dam data center",
+    "utility": "Wisconsin Power and Light (Alliant Energy)",
+    "type": "special_contract",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-05-07",
+      "text": "PSC approved the ESA with modifications and ordered Alliant to file a stand-alone large load tariff for future data centers (WPL subsequently filed Schedule Cp-3 LLPS, Docket 6680-TE-119)."
+    },
+    "summary": "Alliant sought approval of a customer-specific Electric Service Agreement under its Individual Contract Rate tariff to serve a data center (reported as Meta's, about 220 MW peak) in Beaver Dam. After ordering refiling with fewer redactions, the PSC approved the ESA on May 7, 2026 with a strengthened termination charge, financial safeguards, more reporting, a required contribution to the state efficiency/renewables program, and approval of Renewable Energy Procurement Agreements. It also ordered a stand-alone large-load tariff, and WPL has since proposed Schedule Cp-3 Large Load Power Service in Docket 6680-TE-119.",
+    "significance": "The PSC rejected confidential one-off data center deals in favor of public tariffs ('transparency ... is a non-negotiable'). Every future data center in Alliant's Wisconsin territory will now be served under a standard tariff.",
+    "url": "https://psc.wi.gov/Documents/PressReleases/05.08.26PressRelease.PDF",
+    "sources": [
+      {
+        "title": "PSC Ensures Stronger Public Transparency, Customer Protections in Alliant Energy's Data Center Electric Service Agreement",
+        "url": "https://psc.wi.gov/Documents/PressReleases/05.08.26PressRelease.PDF",
+        "publisher": "Public Service Commission of Wisconsin",
+        "kind": "official",
+        "published": "2026-05-07",
+        "docId": "6680-TE-115",
+        "excerpt": "In anticipation of additional data center customers entering Alliant Energy's service territory, the Commission ordered the utility to file a stand-alone large load tariff that these future data center customers would be required to take service under."
+      },
+      {
+        "title": "PSC approves Alliant-Meta data center power deal while criticizing 'black box' approach",
+        "url": "https://wisconsinwatch.org/2026/05/psc-approves-alliant-meta-data-center-power-deal-while-criticizing-black-box-approach/",
+        "publisher": "Wisconsin Watch",
+        "kind": "journalism",
+        "published": "2026-05-07"
+      },
+      {
+        "title": "Docket 6680-TE-119",
+        "url": "https://apps.psc.wi.gov/APPS/dockets/content/detail.aspx?id=6680&case=TE&num=119",
+        "publisher": "Public Service Commission of Wisconsin",
+        "kind": "official",
+        "docId": "6680-TE-119"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "Application filed April 2025 (exact day not captured). The customer identity (Meta) and the 220 MW figure come from press reports. The Cp-3 (6680-TE-119) filing date and status were not verified. Xcel/NSP-Wisconsin's Very Large General TOD tariff (4220-TE-119, filed June 2026) and MGE's VLC tariff (3270-TE-124) are pending but not separately recorded."
+  },
+  {
+    "id": "MN-xcel-very-large-customer-tariff",
+    "state": "MN",
+    "docketNumber": "25-289",
+    "title": "Xcel Energy (NSP-Minnesota) very large customer class and large-load tariff",
+    "utility": "Northern States Power Co.-Minnesota (Xcel Energy)",
+    "type": "large_load_tariff",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-05-18",
+      "text": "PUC approved Xcel's tariff framework with modifications and created a standalone very large customer class."
+    },
+    "summary": "Implementing 2025 legislation (Minn. Stat. 216B.1622-.1623) that requires protections for loads of 100 MW or more, the PUC adopted Xcel's proposed framework with strengthening changes. It created a standalone very large customer class for new loads of 100 MW or more, plus 'system intensive' customers of 20-100 MW. Terms include an Incremental Cost Test with added AG requirements, a 15-year default term, a 24-month exit notice, minimum bill and exit fee raised to 80% of contracted capacity, and direct customer payment of transmission and distribution upgrades through CIAC. Surplus revenue is shared across classes, and Xcel must show that each new customer's supply meets state renewable and carbon-free benchmarks.",
+    "significance": "Sets the rules for the hyperscale projects now seeking Minnesota service (e.g., Google at Pine Island under a pending ESA, E-002/M-26-170) and ties data center growth to Minnesota's 100% carbon-free standard. Xcel must also propose a voluntary clean-energy tariff for very large customers by December 1, 2026.",
+    "url": "https://content.govdelivery.com/accounts/MNPUBUC/bulletins/417d139",
+    "sources": [
+      {
+        "title": "PUC approves safeguards for serving very large Xcel Energy customers",
+        "url": "https://content.govdelivery.com/accounts/MNPUBUC/bulletins/417d139",
+        "publisher": "Minnesota Public Utilities Commission",
+        "kind": "official",
+        "published": "2026-05-18",
+        "docId": "25-289",
+        "excerpt": "Commissioner Hwikwon Ham: \"Very large loads can bring economic benefits, but they must do so on terms that are fair, transparent\""
+      },
+      {
+        "title": "Large Load Projects and Tariffs (September 2026)",
+        "url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues%20and%20Policy/List%20of%20Large%20Customer%20Projects%20and%20Tariffs",
+        "publisher": "Edison Electric Institute",
+        "kind": "research",
+        "published": "2026-09-11",
+        "docId": "25-289",
+        "excerpt": "Northern States Power Company, doing business as Xcel Energy, has been approved for a Large General Time of Day Service tariff, targeting customers with a new demand of 100 MW or more."
+      },
+      {
+        "title": "Minn. Stat. 216B.1622",
+        "url": "https://www.revisor.mn.gov/statutes/cite/216B.1622",
+        "publisher": "Minnesota Office of the Revisor of Statutes",
+        "kind": "official"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The full docket prefix (likely E-002/M-25-289) was not confirmed, so only '25-289' is given. The written order date may differ from the May 18, 2026 deliberation date. The Google Pine Island ESA and the December 1, 2026 clean tariff deadline come from secondary summaries."
+  },
+  {
+    "id": "GA-georgia-power-large-load-rule-2025",
+    "state": "GA",
+    "docketNumber": "55378",
+    "title": "Georgia Power large-load (100 MW+) customer rule",
+    "utility": "Georgia Power",
+    "type": "large_load_tariff",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-08-25",
+      "text": "The rule is being applied. Georgia Power's 3.2 GW OpenAI contract for Effingham County went through the PSC staff review required for 100 MW+ contracts (see GA-georgia-power-openai-contract-review)."
+    },
+    "summary": "On Jan. 23, 2025 the Georgia PSC unanimously approved a rule letting Georgia Power bill new customers over 100 MW on special terms. These customers can be charged for upstream generation, transmission and distribution costs as construction proceeds. Contracts can run 15 years instead of 5 and carry minimum bills. Every new 100 MW+ contract must be submitted to the PSC for review. The rule was adopted in the interim IRP docket (55378). A later April 2025 rule requires these contracts to be filed at least 30 days before they are signed.",
+    "significance": "This is Georgia's main tool against cost shifting from data centers. It sets the contract structure (long terms, minimum bills, upfront cost responsibility) for every hyperscale project served by Georgia Power. That makes it the framework behind the 2025 IRP and the roughly 10 GW certification.",
+    "url": "https://psc.ga.gov/site/assets/files/8617/media_advisory_data_centers_rule_1-23-2025.pdf",
+    "sources": [
+      {
+        "title": "PSC Approves Rule to Allow New Power Usage Terms for Data Centers",
+        "url": "https://psc.ga.gov/site/assets/files/8617/media_advisory_data_centers_rule_1-23-2025.pdf",
+        "publisher": "Georgia Public Service Commission",
+        "kind": "official",
+        "published": "2025-01-23",
+        "docId": "55378",
+        "excerpt": "The new Georgia Power rule states that any new customers using more than 100 megawatts of energy can be billed using terms and conditions beyond those used for standard customers... longer contract lengths (from 5-year contracts to 15-year contracts) and minimum billing requirements."
+      },
+      {
+        "title": "PSC deadline arrives for Georgia Power's 3.2-gigawatt OpenAI data center contract",
+        "url": "https://thecurrentga.org/2026/08/25/psc-deadline-arrives-for-georgia-powers-3-2-gigawatt-openai-data-center-contract/",
+        "publisher": "The Current GA",
+        "kind": "journalism",
+        "published": "2026-08-25",
+        "excerpt": "Describes an April 2025 PSC rule requiring Georgia Power to give the commission new data center contracts over 100 MW at least 30 days before execution."
+      }
+    ],
+    "confidence": "high",
+    "caveats": "The release says the rule was approved 'on' the interim IRP docket (55378). The rule may also be codified in Georgia Power's Rules and Regulations for Electric Service. The docket number and date of the April 2025 follow-on rule were not verified. Secondary sources give an effective date of Feb. 1, 2025, which was not confirmed in the PSC release.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "GA-georgia-power-irp-2025",
+    "state": "GA",
+    "docketNumber": "56002",
+    "title": "Georgia Power 2025 Integrated Resource Plan",
+    "utility": "Georgia Power",
+    "type": "irp",
+    "status": "final_order",
+    "filed": "2025-01-31",
+    "latestAction": {
+      "date": "2025-07-15",
+      "text": "The PSC unanimously approved a stipulated IRP with at least 6,000 MW of new resources for 2029-2031, and up to 8,500 MW if need is shown."
+    },
+    "summary": "The 2025 IRP was built around data-center-driven load growth. Georgia Power projected about 8,500 MW of load growth over six years and proposed keeping coal units online longer. The PSC approved an agreement for at least 6,000 MW of new capacity in 2029-2031. Up to 2,500 MW more can be approved if Georgia Power proves the need. Georgia Power must keep filing quarterly Large Load Economic Development Reports, and the parties will keep refining the data center load forecast method. The plan also budgets $161 million for demand-side management.",
+    "significance": "The IRP set the capacity envelope that the PSC certified in December 2025. During the hearings Georgia Power admitted it had signed no new large-load data center customers that year. That made the forecasting dispute between the company and staff the central ratepayer-risk question in the nation's fastest-growing data center utility territory.",
+    "url": "https://www.georgiapower.com/about/company/filings/irp.html",
+    "sources": [
+      {
+        "title": "Commissioners Approve 2025 IRP",
+        "url": "https://psc.ga.gov/site/assets/files/8932/media_advisory_2025_irp_vote.pdf",
+        "publisher": "Georgia Public Service Commission",
+        "kind": "official",
+        "published": "2025-07-15",
+        "excerpt": "The Georgia Public Service Commission on Tuesday unanimously approved an agreement with Georgia Power to produce at least 6,000 new megawatts of energy between 2029 and 2031. If Georgia Power shows the need, the PSC can allow an additional 2,500 MW..."
+      },
+      {
+        "title": "Integrated Resource Plan",
+        "url": "https://www.georgiapower.com/about/company/filings/irp.html",
+        "publisher": "Georgia Power",
+        "kind": "official",
+        "docId": "56002",
+        "excerpt": "All filings and notices for Docket #56002 on the Georgia Public Service Commission website."
+      },
+      {
+        "title": "Georgia Power's new IRP keeps coal plants online to serve data centers",
+        "url": "https://www.utilitydive.com/news/georgia-power-irp-coal-gas-plants-data-centers/753170/",
+        "publisher": "Utility Dive",
+        "kind": "journalism"
+      }
+    ],
+    "confidence": "high",
+    "caveats": "The filed date (Jan. 31, 2025) comes from background knowledge. A law-firm summary confirms only a January 2025 filing. The Utility Dive article was seen in search results but not fetched.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "GA-georgia-power-certification-2029-2031",
+    "state": "GA",
+    "docketNumber": "56298",
+    "title": "Certification of ~9,885 MW from Georgia Power's 2029-2031 All-Source RFP (with supplemental resources docket 56310)",
+    "utility": "Georgia Power",
+    "type": "generation_approval",
+    "status": "appealed",
+    "filed": "2025-07-30",
+    "latestAction": {
+      "date": "2026-03-25",
+      "text": "SELC and Sierra Club groups petitioned Fulton County Superior Court to reverse the order and decertify at least 757 MW. The PSC had denied reconsideration 3-2 on Feb. 18, 2026."
+    },
+    "summary": "On Dec. 19, 2025 the PSC voted 5-0 to adopt a stipulation with its Public Interest Advocacy Staff certifying 9,885 MW of new capacity. About two-thirds is gas, including new units at Plants Bowen, McIntosh and Wansley; the rest is batteries and solar-plus-storage. The total splits into 7,065 MW company-owned and 2,821 MW of PPAs. Construction is estimated at $16.5 billion. Staff had recommended certifying only about a third, with the rest conditional on signed data center contracts. The stipulation requires Georgia Power to assign enough costs to large-load customers in its next rate case to put at least $8.50 a month of 'downward pressure' on residential bills in 2029-2031. It must also report on large-load flexibility options within 120 days.",
+    "significance": "This is one of the largest single generation buildouts certified by any U.S. commission, and it is driven almost entirely by data center demand. Whether it is upheld will decide how much forecast risk Georgia ratepayers carry. The vote came days before two newly elected Democratic commissioners were seated, and the new 3-2 split showed in the reconsideration vote.",
+    "url": "https://www.ashurstperkinscoie.com/en/insights/georgia-public-service-commission-approves-georgia-powers-major-generation-expansion-to-support-data/",
+    "sources": [
+      {
+        "title": "Georgia Public Service Commission Approves Georgia Power's Major Generation Expansion To Support Data Center Load",
+        "url": "https://www.ashurstperkinscoie.com/en/insights/georgia-public-service-commission-approves-georgia-powers-major-generation-expansion-to-support-data/",
+        "publisher": "Perkins Coie",
+        "kind": "research",
+        "docId": "56298; 56310",
+        "excerpt": "The PSC adopted this agreement on December 19, 2025... ensure the incremental revenue from large load customers has downward pressure of at least $8.50 per month"
+      },
+      {
+        "title": "Georgia PSC gives the greenlight to Georgia Power's massive data center spurred expansion",
+        "url": "https://www.gpb.org/news/2025/12/19/georgia-psc-gives-the-greenlight-georgia-powers-massive-data-center-spurred",
+        "publisher": "Georgia Public Broadcasting",
+        "kind": "journalism",
+        "published": "2025-12-19",
+        "excerpt": "Georgia Power won permission from the PSC for just under 10GW of new generation capacity."
+      },
+      {
+        "title": "Georgia regulators won't revisit approval of new power plants for data centers",
+        "url": "https://www.ajc.com/business/2026/02/georgia-regulators-wont-revisit-approval-of-new-power-plants-for-data-centers/",
+        "publisher": "Atlanta Journal-Constitution",
+        "kind": "journalism",
+        "published": "2026-02-18",
+        "excerpt": "PSC voted 3-2 along party lines to deny reconsideration; Democrats Hubbard and Johnson dissented."
+      },
+      {
+        "title": "Environmental groups take PSC to court over Georgia Power data center expansion",
+        "url": "https://www.ajc.com/business/2026/03/environmental-groups-take-psc-to-court-over-georgia-power-data-center-expansion/",
+        "publisher": "Atlanta Journal-Constitution",
+        "kind": "journalism",
+        "published": "2026-03-25",
+        "excerpt": "Petition filed in Fulton County Superior Court asks the court to reverse the order and decertify at least 757 MW, roughly the McIntosh gas unit."
+      }
+    ],
+    "confidence": "high",
+    "caveats": "Docket numbers come from a law-firm summary, not the PSC docket system. No ruling in the Fulton County case was found as of Oct. 2026. The official order was not retrieved because the GA PSC fact sheet returned 404.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "GA-georgia-power-rate-freeze-2025",
+    "state": "GA",
+    "docketNumber": "44280",
+    "title": "Georgia Power base-rate freeze through 2028 (extension of the 2022 Alternate Rate Plan)",
+    "utility": "Georgia Power",
+    "type": "rate_case",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2025-07-01",
+      "text": "The PSC voted 5-0 to approve the staff stipulation freezing base rates through at least the end of 2028. Storm costs (Hurricane Helene, about $860M) and fuel are handled in separate 2026 proceedings."
+    },
+    "summary": "The PSC approved a May 2025 stipulation between Georgia Power and PSC Public Interest Advocacy Staff. It extends the 2022 Alternate Rate Plan and holds base rates flat through at least 2028, with no pre-approved increases. Storm-cost recovery, mainly Hurricane Helene, and fuel recovery go to separate 2026 cases. Some costs can be deferred to the 2028 rate case. Georgia Power credited the PSC-approved large-load rules with giving it tools to manage data center risks and costs.",
+    "significance": "The freeze puts off until the 2028 rate case the question of how costs of the data-center-driven buildout are split between large-load and residential customers. That case is also where the certification stipulation's $8.50 per month 'downward pressure' commitment is supposed to be carried out. Critics say the freeze locks in an 11.9% allowed ROE.",
+    "url": "https://www.georgiapower.com/news-hub/press-releases/georgia-psc-approves-plan-to-freeze-base-rates-through-2028.html",
+    "sources": [
+      {
+        "title": "Georgia PSC approves plan to freeze Georgia Power base rates through at least 2028",
+        "url": "https://www.georgiapower.com/news-hub/press-releases/georgia-psc-approves-plan-to-freeze-base-rates-through-2028.html",
+        "publisher": "Georgia Power",
+        "kind": "official",
+        "published": "2025-07-01",
+        "excerpt": "keep base rates stable and predictable through at least the end of 2028... with storm costs to be addressed in a separate proceeding"
+      },
+      {
+        "title": "Georgia Power set to freeze base rates until 2028 — with a catch",
+        "url": "https://atlpresscollective.com/2025/07/01/georgia-power-poised-to-freeze-base-rates-until-2028-with-a-catch/",
+        "publisher": "Atlanta Press Collective",
+        "kind": "journalism",
+        "published": "2025-07-01",
+        "docId": "44280",
+        "excerpt": "Georgia Power plans a separate 2026 rate case to recover an estimated $860 million in storm costs, mostly from Hurricane Helene; certain costs can be deferred to the 2028 rate case."
+      }
+    ],
+    "confidence": "medium",
+    "caveats": "Docket 44280 is the docket that Atlanta Press Collective links for the rate case (the 2022 rate case docket). It was not confirmed on the PSC site. The primary source is the utility's press release, and no PSC order was retrieved. The outcome of the 2026 storm and fuel proceedings was not verified, beyond Georgia Power's statement about a February 2026 agreement worth about $285M in annual savings.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "GA-georgia-power-openai-contract-review",
+    "state": "GA",
+    "title": "PSC staff review of Georgia Power's 3.2 GW OpenAI (Effingham County) data center contract",
+    "utility": "Georgia Power",
+    "type": "special_contract",
+    "status": "open",
+    "latestAction": {
+      "date": "2026-08-26",
+      "text": "Revised staff-review deadline and expected contract closing, after staff objections pushed the original Aug. 14 deadline back 12 days."
+    },
+    "summary": "Under the PSC rule for contracts over 100 MW, Georgia Power filed a contract to serve a planned 3.2 GW OpenAI hyperscale data center in Effingham County. PSC staff objected, and the company and staff agreed to work to resolve the objections. If staff objects and the commission takes no action within 30 days, the contract is deemed approved. Commissioner Peter Hubbard said staff negotiated an extra ratepayer guarantee, but enforcing it would take three commission votes. The contract terms are treated as trade secrets, and the public copy is fully redacted.",
+    "significance": "This is the largest single contract tested so far under Georgia's large-load review process. It shows how much of the review happens at staff level and confidentially, with no public vote. It also lands before the November 2026 PSC elections.",
+    "url": "https://thecurrentga.org/2026/08/25/psc-deadline-arrives-for-georgia-powers-3-2-gigawatt-openai-data-center-contract/",
+    "sources": [
+      {
+        "title": "PSC deadline arrives for Georgia Power's 3.2-gigawatt OpenAI data center contract",
+        "url": "https://thecurrentga.org/2026/08/25/psc-deadline-arrives-for-georgia-powers-3-2-gigawatt-openai-data-center-contract/",
+        "publisher": "The Current GA",
+        "kind": "journalism",
+        "published": "2026-08-25",
+        "excerpt": "The deal requires the approval from the staff at the Georgia Public Service Commission... The terms of the contract are considered to be trade secrets."
+      }
+    ],
+    "confidence": "low",
+    "caveats": "Only one journalism source. There is no docket number, and the outcome after the Aug. 26, 2026 deadline (executed, amended, or brought to a commission vote) was not verified. The status 'open' reflects the last confirmed information.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "LA-entergy-meta-hyperion-u37425",
+    "state": "LA",
+    "docketNumber": "U-37425",
+    "title": "Entergy Louisiana generation and transmission to serve Meta's Hyperion data center (Richland Parish)",
+    "utility": "Entergy Louisiana",
+    "type": "generation_approval",
+    "status": "final_order",
+    "filed": "2024-11-04",
+    "latestAction": {
+      "date": "2026-02-25",
+      "text": "The LPSC reportedly declined to open an investigation, sought by AAE/UCS/Earthjustice in a Jan. 14, 2026 motion, into post-approval financing restructuring of the project."
+    },
+    "summary": "On Aug. 20, 2025 the LPSC approved, reportedly 4-1, Entergy Louisiana's application for three new combined-cycle gas plants totaling about 2.26 GW. Two will be in Richland Parish next to Meta's data center, expected online in late 2028. The third will be at the Waterford site in St. Charles Parish by end of 2029. The approval also covers new transmission and expedited procurement of up to 1,500 MW of solar. Meta's subsidiary (Laidley LLC) agreed to pay the plants' full annual revenue requirement for 15 years. Critics questioned whether that commitment is enforceable against a subsidiary.",
+    "significance": "This set the template for the single-customer, utility-built gas model for hyperscale campuses. It was fast-tracked without a competitive RFP or an ALJ recommendation, and it underpins Meta's largest data center. Its cost-protection terms are now being tested by the much larger U-37882 expansion.",
+    "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocketDetails?docketId=32146",
+    "sources": [
+      {
+        "title": "Docket U-37425 — Entergy Louisiana, LLC, ex parte",
+        "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocketDetails?docketId=32146",
+        "publisher": "Louisiana Public Service Commission",
+        "kind": "official",
+        "published": "2024-11-04",
+        "docId": "U-37425",
+        "excerpt": "Application for approval of generation and transmission resources to serve a single customer in a North Louisiana project. Date opened 11/04/2024. Status: Open."
+      },
+      {
+        "title": "Entergy Louisiana receives LPSC approval for major infrastructure investments to support Meta's data center and improve reliability",
+        "url": "https://www.entergy.com/news/entergy-louisiana-receives-lpsc-approval-for-major-infrastructure-investments-to-support-metas-data-center-and-improve-reliability",
+        "publisher": "Entergy",
+        "kind": "official",
+        "published": "2025-08-20",
+        "excerpt": "construct three new modern and efficient combined cycle combustion turbine generation facilities... authorized Entergy Louisiana to procure up to 1,500 megawatts of solar resources."
+      },
+      {
+        "title": "Entergy obtains approval to construct three gas facilities to serve Meta's 2GW data center in Louisiana",
+        "url": "https://www.datacenterdynamics.com/en/news/entergy-obtains-approval-to-construct-three-gas-facilities-to-serve-metas-2gw-data-center-in-louisiana/",
+        "publisher": "DatacenterDynamics",
+        "kind": "journalism",
+        "published": "2025-08-20"
+      },
+      {
+        "title": "Louisiana regulators approve new Entergy infrastructure for $10 bil Meta data center",
+        "url": "https://www.spglobal.com/energy/en/news-research/latest-news/natural-gas/082025-louisiana-regulators-approve-new-entergy-infrastructure-for-10-bil-meta-data-center",
+        "publisher": "S&P Global Commodity Insights",
+        "kind": "journalism",
+        "published": "2025-08-20"
+      }
+    ],
+    "confidence": "medium",
+    "caveats": "The 4-1 vote count, the 2.26 GW total, Laidley LLC, and the Feb. 25, 2026 denial of an investigation come from search summaries of secondary and advocacy sources, not the LPSC order. The DCD and S&P pieces were seen in search results but not fetched. The LPSC portal lists the docket as 'Open'.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "LA-entergy-meta-expansion-u37882",
+    "state": "LA",
+    "docketNumber": "U-37882",
+    "title": "Entergy Louisiana application for seven additional gas plants for Meta Hyperion expansion",
+    "utility": "Entergy Louisiana",
+    "type": "generation_approval",
+    "status": "open",
+    "filed": "2026-03-26",
+    "latestAction": {
+      "date": "2026-08-12",
+      "text": "The LPSC voted 3-1 to overrule an ALJ's interlocutory ruling that would have subpoenaed Meta for data on load, jobs and investment. A final vote is expected in December 2026."
+    },
+    "summary": "Entergy Louisiana is seeking certification of seven more gas combined-cycle plants, reported at about 5.2-5.3 GW, plus transmission. Together with the three plants approved in 2025, about 7.5 GW would serve Meta's expanded (about 5 GW) Hyperion campus. On April 15, 2026 the LPSC adopted an expedited schedule, with a final decision targeted for its December 2026 meeting. Intervenors AAE, UCS and Earthjustice won an ALJ order requiring Meta to disclose load and investment data, but the Commission overruled it in August 2026.",
+    "significance": "This could be the largest utility generation approval ever for a single data center customer. The Commission's choices on secrecy, on skipping an RFP and ALJ recommendation, and on enforceable cost protections will shape how other Southeastern states handle gigawatt-scale campuses.",
+    "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocketDetails?docketId=32728",
+    "sources": [
+      {
+        "title": "Docket U-37882 — Entergy Louisiana, LLC, ex parte",
+        "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocketDetails?docketId=32728",
+        "publisher": "Louisiana Public Service Commission",
+        "kind": "official",
+        "published": "2026-03-26",
+        "docId": "U-37882",
+        "excerpt": "Application for certification of generation and transmission resources and for other relief. Date opened 03/26/2026. Status: Open."
+      },
+      {
+        "title": "Entergy Louisiana Says 7 More Gas Plants Necessary for Meta Data Center",
+        "url": "https://www.rtoinsider.com/129344-entergy-7-more-gas-plants-necessary-meta-data-center/",
+        "publisher": "RTO Insider",
+        "kind": "journalism",
+        "published": "2026-03-31",
+        "excerpt": "plans to add seven additional natural gas plants to deliver more than 5 GW to power the site."
+      },
+      {
+        "title": "Louisiana Regulators Fast-Track 7 Gas Plant Proposal for Meta Data Center",
+        "url": "https://www.ucs.org/about/news/louisiana-regulators-fast-track-7-gas-plant-proposal-meta-data-center",
+        "publisher": "Union of Concerned Scientists",
+        "kind": "research",
+        "published": "2026-04-15",
+        "excerpt": "voted to adopt a fast-track schedule for approving Entergy Louisiana's application... voted to make its final decision during an upcoming December 2026 meeting."
+      },
+      {
+        "title": "Commission rules Meta can withhold critical data center information",
+        "url": "https://www.all4energy.org/watchdog/lpsc-highlights-aug-2026/",
+        "publisher": "Alliance for Affordable Energy",
+        "kind": "research",
+        "published": "2026-08-13",
+        "docId": "U-37882",
+        "excerpt": "The PSC voted 3-1 to overrule the judge's interlocutory ruling to issue a subpoena to Meta."
+      },
+      {
+        "title": "Meta plans 7 new gas plants to power massive Louisiana data center",
+        "url": "https://www.eenews.net/articles/meta-plans-7-new-gas-plants-to-power-massive-louisiana-data-center/",
+        "publisher": "E&E News",
+        "kind": "journalism"
+      }
+    ],
+    "confidence": "medium",
+    "caveats": "Capacity figures differ across sources (5.2-5.3 GW for the seven plants). The August meeting date is inferred as Aug. 12, 2026 from the AAE post's 'yesterday'. Whether the expected October 2026 evidentiary hearing took place was not verified. Two sources are intervenor advocacy groups. The E&E article was seen in search results but not fetched.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "LA-lpsc-large-load-guidelines",
+    "state": "LA",
+    "docketNumber": "X-37921",
+    "title": "LPSC Large Load Additions Non-Binding Guidelines (repository docket) and related private-network proceeding R-37905",
+    "type": "rulemaking",
+    "status": "open",
+    "latestAction": {
+      "date": "2026-10-09",
+      "text": "The LPSC noticed Docket R-37905 on the 'determination and evaluation of private use electrical networks' to serve new large loads (Bulletin #1386), and staff issued a first set of RFIs."
+    },
+    "summary": "The LPSC issued non-binding guidelines setting out what utilities must show when seeking approval to serve large new loads. Utilities must define the load and its ramp, and show firm deliverable capacity. Network and interconnection costs 'caused by the load are fully assigned to the load.' Contract terms must align with asset lives, or adequate financial security (including corporate guarantees) must be in place. Rates must recover the full incremental revenue requirement, and enforceable curtailment rights, ramp milestones and ongoing reporting are expected. A technical conference was held May 7, 2026, with comments due June 19, 2026 in repository Docket X-37921. In October 2026 the LPSC opened R-37905 on private use networks (behind-the-meter/off-grid systems) for large loads.",
+    "significance": "The guidelines are the LPSC's own checklist for data center filings such as U-37882, so they are the benchmark intervenors will cite. R-37905 could open a path for data centers to self-supply outside the utility system.",
+    "url": "https://www.lpsc.louisiana.gov/docs/general/Non-Binding_Guidelines_for_Potential_Large_Load_Customers.pdf",
+    "sources": [
+      {
+        "title": "Non-Binding Guidelines for Potential Large Load Customers",
+        "url": "https://www.lpsc.louisiana.gov/docs/general/Non-Binding_Guidelines_for_Potential_Large_Load_Customers.pdf",
+        "publisher": "Louisiana Public Service Commission",
+        "kind": "official",
+        "published": "2026-02-25",
+        "excerpt": "Network and interconnection costs caused by the load are fully assigned to the load... Adequate financial security (including corporate guarantees) is in place to prevent ratepayers from paying for unneeded generation"
+      },
+      {
+        "title": "Louisiana Public Service Commission home page (bulletins and large-load items)",
+        "url": "https://www.lpsc.louisiana.gov/",
+        "publisher": "Louisiana Public Service Commission",
+        "kind": "official",
+        "published": "2026-10-09",
+        "docId": "R-37905; X-37921",
+        "excerpt": "Lists Docket R-37905 (Bulletin #1386) on private use electrical networks for new large loads, and the May 7, 2026 technical conference on Large Load Additions Non-Binding Guidelines with comments in X-37921 due June 19, 2026."
+      }
+    ],
+    "confidence": "medium",
+    "caveats": "The guidelines PDF is undated. The Feb. 25, 2026 date is from file metadata. The LPSC's 2024 'Lightning' fast-track generation-certification rule could not be verified with sources in this session (web search budget exhausted), so it is not covered here. Whether the guidelines will be formalized was not verified.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "TX-puct-large-load-interconnection-58481",
+    "state": "TX",
+    "docketNumber": "58481",
+    "title": "PUCT rulemaking on large load interconnection standards (SB 6; 16 TAC §25.194)",
+    "type": "rulemaking",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-09-18",
+      "text": "The PUCT adopted a softened final rule. It eliminates the proposed $50,000/MW non-refundable interconnection fee, sets a flat $100,000 study fee, and extends missed-milestone notice to 24 months."
+    },
+    "summary": "This rulemaking implements SB 6 (2025) interconnection standards for new or expanding loads of 75 MW or more in ERCOT. The March 12, 2026 proposal had a two-step readiness process requiring site control, tiered study fees ($100k/$300k), $50,000/MW financial security, a non-refundable $50,000/MW interconnection fee, 100% customer funding of direct interconnection costs, and limited security refunds. The rule adopted in September 2026 dropped the interconnection fee, set a flat $100,000 study fee, and allows 24 months to notify ERCOT of missed energization schedules. Under the final rule, posted security is applied to amounts owed and the balance is returned.",
+    "significance": "This rule sets the financial commitment and readiness tests every data center must meet to join ERCOT's roughly 474 GW large-load queue. It is the main state tool for screening out speculative requests. The softening reflects industry pushback and comes during the governor-ordered pause.",
+    "url": "https://www.utilitydive.com/news/texas-puc-adopts-data-center-interconnection-rules/830899/",
+    "sources": [
+      {
+        "title": "Texas PUC adopts softened rules on data center interconnection",
+        "url": "https://www.utilitydive.com/news/texas-puc-adopts-data-center-interconnection-rules/830899/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-09-21",
+        "docId": "58481",
+        "excerpt": "eliminating a non-refundable interconnection fee and extending energization milestone deadlines"
+      },
+      {
+        "title": "Texas Proposes New Interconnection Standards for Large Electric Loads",
+        "url": "https://www.dlapiper.com/en-us/insights/publications/2026/03/texas-proposes-new-interconnection-standards-for-large-electric-loads",
+        "publisher": "DLA Piper",
+        "kind": "research",
+        "published": "2026-03-30",
+        "docId": "Project No. 58481; 16 TAC §25.194",
+        "excerpt": "detailed interconnection standards for new and expanding electric loads of 75 MW or greater"
+      },
+      {
+        "title": "SB 6 bill history (89th Legislature)",
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB6",
+        "publisher": "Texas Legislature Online",
+        "kind": "official",
+        "published": "2025-06-20",
+        "docId": "SB 6",
+        "excerpt": "Signed by the Governor June 20, 2025; effective immediately."
+      }
+    ],
+    "confidence": "high",
+    "caveats": "The adoption date (Friday, Sept. 18, 2026) is inferred from Utility Dive's 'Friday' reference. The PUCT Interchange returned HTTP 402, so the adopted rule text and §25.194 citation in the final rule were not checked directly. Other SB 6 rulemakings (net metering arrangements/co-location review, large-load demand management/curtailment, forecasting) could not be verified in this session and are not covered here.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "TX-ercot-batch-zero-large-load-process",
+    "state": "TX",
+    "docketNumber": "54445",
+    "title": "ERCOT 'Batch Zero' large-load interconnection study process (PGRR145 / NPRR1325) approved by PUCT",
+    "utility": "ERCOT",
+    "type": "interconnection",
+    "status": "stayed",
+    "latestAction": {
+      "date": "2026-08-20",
+      "text": "At the PUCT open meeting, ERCOT presented a plan to audit Batch Zero data centers by Dec. 10, 2026. ERCOT says it will miss the April 9, 2027 study deadline, and good-cause exceptions were granted after Batch Zero was paused on Aug. 3."
+    },
+    "summary": "On June 18, 2026 the PUCT approved ERCOT's batch framework (PGRR145, under Project No. 54445, and NPRR1325). It replaces project-by-project studies with a single cluster study of qualified loads of 75 MW or more. The framework includes pathways for loads that accept curtailment or bring onsite generation. Applicants were to be classified in August 2026, with a final transmission plan in Fall 2027 and Batch 1 opening Summer 2027. About 300 data centers are in Batch Zero. After Gov. Abbott's Aug. 3, 2026 directive, ERCOT paused Batch Zero pending a full audit of queue projects.",
+    "significance": "Batch Zero decides which of the hundreds of GW of Texas data center requests get studied and connected first, and on what terms. Its pause is the biggest single near-term constraint on U.S. data center energization. BNEF estimates it could delay about 20% of the U.S. pipeline.",
+    "url": "https://www.ercot.com/news/release/06182026-puct-approves-ercots",
+    "sources": [
+      {
+        "title": "PUCT Approves ERCOT's Batch Zero Process for Connecting Large Electricity Users",
+        "url": "https://www.ercot.com/news/release/06182026-puct-approves-ercots",
+        "publisher": "ERCOT",
+        "kind": "official",
+        "published": "2026-06-18",
+        "docId": "NPRR1325; PGRR145",
+        "excerpt": "groups qualified large projects that are 75 megawatts (MW) and greater into a single study"
+      },
+      {
+        "title": "Texas, facing 438 GW queue, approves initial large-load interconnection process",
+        "url": "https://www.utilitydive.com/news/texas-facing-438-gw-queue-approves-initial-large-load-interconnection-pro/823367/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-06-22"
+      },
+      {
+        "title": "ERCOT plans data center audit ahead of Batch Zero study",
+        "url": "https://www.utilitydive.com/news/ercot-texas-puc-data-center-audit/828472/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-08-21",
+        "excerpt": "Our goal is to head toward a December 10 filing... We will not have the study done by April 9, 2027."
+      }
+    ],
+    "confidence": "high",
+    "caveats": "Project No. 54445 (Review of Protocols Adopted by the Independent Organization) is the PUCT project under which PGRR145 was approved, according to a practitioner newsletter and PUCT filing links. Status is set to 'stayed' to reflect ERCOT's pause, which is an administrative pause rather than a formal stay order. Utility Dive headlines are paraphrased from the article content.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "TX-data-center-interconnection-audit-2026",
+    "state": "TX",
+    "title": "Governor-directed pause and PUCT/ERCOT audit of data centers in the ERCOT large-load queue",
+    "type": "other",
+    "status": "open",
+    "latestAction": {
+      "date": "2026-09-21",
+      "text": "Abbott extended the pause by directing TCEQ to stop issuing data center permits and saying no other state agency should advance data center approvals until the audit information is collected."
+    },
+    "summary": "On Aug. 3, 2026 Gov. Abbott directed the PUCT and ERCOT to verify and audit every data center in ERCOT's interconnection process before any project moves forward. Projects that fail must be denied grid connection. Developers must disclose public incentives, self-supply and on-site generation, peak and annual load, water sourcing and cooling, community-impact mitigation, and ownership. This followed Abbott's June 10 directive that data centers fully fund the infrastructure needed to serve them. PUCT Chair Gleeson replied July 17, filing in Project 58317 and asking the Legislature for more authority. ERCOT aims to file the audit report by Dec. 10, 2026, with a community-impact review covering facilities of 25 MW and up.",
+    "significance": "This is in effect a statewide moratorium on new data center grid connections in the largest U.S. data center market. It overlays the SB 6 rules and Batch Zero, and it frames the 2027 legislative agenda (cost responsibility, sales tax exemption repeal, water).",
+    "url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+    "sources": [
+      {
+        "title": "Governor Abbott Directs Comprehensive Data Center Audit",
+        "url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+        "publisher": "Office of the Texas Governor",
+        "kind": "official",
+        "published": "2026-08-03",
+        "excerpt": "The PUCT and ERCOT must complete this audit before any data center project moves forward."
+      },
+      {
+        "title": "Abbott pauses data center grid approvals pending audit",
+        "url": "https://www.texastribune.org/2026/08/03/texas-data-center-project-audit-greg-abbott/",
+        "publisher": "Texas Tribune",
+        "kind": "journalism",
+        "published": "2026-08-03",
+        "excerpt": "On Aug. 3 ERCOT said it was pausing the batch zero review and postponing the batch zero transmission planning study."
+      },
+      {
+        "title": "Gov. Greg Abbott broadens moratorium on data center approvals to include environmental permits",
+        "url": "https://www.texastribune.org/2026/09/21/texas-data-center-moratorium-water-energy/",
+        "publisher": "Texas Tribune",
+        "kind": "journalism",
+        "published": "2026-09-21",
+        "excerpt": "no other state agency shall move forward with regulatory approvals related to data centers"
+      },
+      {
+        "title": "PUCT Chair Gleeson response to Governor (filed in Project 58317)",
+        "url": "https://interchange.puc.texas.gov/Documents/58317_18_1666954.PDF",
+        "publisher": "Public Utility Commission of Texas",
+        "kind": "official",
+        "published": "2026-07-17",
+        "docId": "58317"
+      }
+    ],
+    "confidence": "medium",
+    "caveats": "This is an executive directive carried out through PUCT/ERCOT processes, not a single docket. ERCOT's audit materials were filed in PUCT Project 59142 (per Utility Dive links), and the Gleeson letter in Project 58317. The captions of both projects were not verified because the PUCT Interchange returned HTTP 402, and the Gleeson PDF could not be fetched; its URL comes from a Texas Tribune link. The Texas Tribune Aug. 3 headline is paraphrased.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "TX-puct-large-load-ride-through-nogrr282",
+    "state": "TX",
+    "docketNumber": "54445",
+    "title": "PUCT approval of ERCOT ride-through requirements for large computational loads (NOGRR282)",
+    "utility": "ERCOT",
+    "type": "rulemaking",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-07-09",
+      "text": "The PUCT unanimously approved NOGRR282 over objections from the Data Center Coalition and TIEC about its authority."
+    },
+    "summary": "NOGRR282 requires large computational loads (data centers, crypto mining) in ERCOT to stay connected through voltage and frequency disturbances. ERCOT cited 28 events where such loads tripped by at least 100 MW. A facility that fails to ride through must report the root cause within 90 days, submit a corrective plan within 90 more days, and implement it within 180 days. ERCOT may disconnect a load that poses an imminent reliability risk. The Data Center Coalition and Texas Industrial Energy Consumers argued the PUCT and ERCOT lack authority over retail loads, and PUCT staff disagreed.",
+    "significance": "This is among the first enforceable grid-performance standards aimed specifically at data centers. It adds equipment and control costs and creates a disconnection risk, and other grid operators and NERC are watching it.",
+    "url": "https://www.utilitydive.com/news/texas-puc-approves-ride-through-rules-data-centers/825051/",
+    "sources": [
+      {
+        "title": "Texas PUC approves 'ride-through' rules for data centers",
+        "url": "https://www.utilitydive.com/news/texas-puc-approves-ride-through-rules-data-centers/825051/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-07-13",
+        "docId": "NOGRR282",
+        "excerpt": "has experienced 28 events involving LCL trips of at least 100 MW"
+      },
+      {
+        "title": "NOGRR282",
+        "url": "https://www.ercot.com/mktrules/issues/NOGRR282",
+        "publisher": "ERCOT",
+        "kind": "official",
+        "docId": "NOGRR282"
+      },
+      {
+        "title": "PUCT Staff memo, Project 54445",
+        "url": "http://interchange.puc.texas.gov/Documents/54445_160_1662495.PDF",
+        "publisher": "Public Utility Commission of Texas",
+        "kind": "official",
+        "docId": "54445",
+        "excerpt": "Staff respectfully submits that delegated authority is sufficient."
+      }
+    ],
+    "confidence": "medium",
+    "caveats": "The exact approval date is not stated. Utility Dive (July 13, 2026) says 'Thursday', which would likely be July 9, 2026. The ERCOT NOGRR282 page and PUCT memo URLs come from Utility Dive links and were not fetched.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "AZ-tep-beale-energy-supply-agreement",
+    "state": "AZ",
+    "docketNumber": "E-01933A-25-0187",
+    "title": "TEP energy supply agreement with Beale Infrastructure (Project Blue data center)",
+    "utility": "Tucson Electric Power",
+    "type": "special_contract",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-01-21",
+      "text": "The ACC stated that applications for rehearing of Decision No. 81587 were deemed denied because the Commission took no action within the 20-day statutory period."
+    },
+    "summary": "On Dec. 3, 2025 the ACC approved, in Decision No. 81587, TEP's energy supply agreement with Beale Infrastructure Group for a large data center in TEP territory. Staff found no adverse reliability impact, saying it 'may even improve reliability', and no cost shift to other customers. Protections include minimum monthly billing and termination penalties backed by financial security. The Commission said the customer's additions to the grid would lower fixed costs for most residential customers. Rehearing applications were deemed denied by operation of law in January 2026.",
+    "significance": "This was Arizona's first approved hyperscale ESA and the ACC's model for 'growth pays for growth' contracts. It went forward despite intense local opposition to the Tucson-area Project Blue. TEP reported one data center (about 286 MW) under contract at the ACC's April 2026 workshop.",
+    "url": "http://www.azcc.gov/news/home/2026/01/21/acc-statement-on-applications-for-rehearing-re--tep-energy-supply-agreement",
+    "sources": [
+      {
+        "title": "ACC Statement re: TEP Energy Supply Agreement Decision",
+        "url": "http://www.azcc.gov/news/home/2026/01/21/acc-statement-on-applications-for-rehearing-re--tep-energy-supply-agreement",
+        "publisher": "Arizona Corporation Commission",
+        "kind": "official",
+        "published": "2026-01-21",
+        "docId": "E-01933A-25-0187; Decision No. 81587",
+        "excerpt": "deemed automatically denied because no action was taken by the Commission within the 20-day statutory period... minimum monthly billing requirements and termination penalties supported by financial security"
+      },
+      {
+        "title": "ACC Data Center/Large Load Workshop Highlights",
+        "url": "http://www.azcc.gov/news/home/2026/04/20/acc-large-load-data-center-workshop-highlights",
+        "publisher": "Arizona Corporation Commission",
+        "kind": "official",
+        "published": "2026-04-20",
+        "excerpt": "TEP/UNSE serves no data center customers yet, has one data center project under contract (about 286 MW), and has roughly 8–10 GW of speculative projects in its queue."
+      }
+    ],
+    "confidence": "medium",
+    "caveats": "The ACC statement names Beale Infrastructure Group but not 'Project Blue'. The link to Project Blue rests on background knowledge and was not verified against a source in this session. Contract MW and whether a court appeal was filed after rehearing was denied were not verified. Linking the 286 MW under contract to this ESA is an inference.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "AZ-acc-large-load-data-center-docket",
+    "state": "AZ",
+    "docketNumber": "E-00000A-25-0069",
+    "title": "ACC generic docket and workshops on data center / large-load service (APS XHLF rate, 'bring your own power')",
+    "utility": "APS; TEP/UNSE; SRP (participant)",
+    "type": "large_load_tariff",
+    "status": "open",
+    "latestAction": {
+      "date": "2026-04-16",
+      "text": "At the ACC's large load and data center workshop, APS and SRP proposed an extra-high-load-factor (XHLF) rate, a 'bring your own power' policy, and standard contracts with upfront financial support."
+    },
+    "summary": "Commissioner Thompson opened a generic docket in 2025 on serving data centers and large loads. At the April 16, 2026 workshop, APS and SRP recommended a new extra high load factor (XHLF) rate with updated eligibility. They also proposed a 'bring your own power' policy that directly assigns new generation costs, and standard contracts requiring upfront financial support. APS estimated its large-customer peak demand at about 13.1 GW. TEP/UNSE reported 8-10 GW of speculative requests. APS and TEP both have rate cases pending in 2026 with formula-rate (ARAM) proposals. On Aug. 12, 2026 the ACC separately approved a standard large-load ESA framework for AEPCO and its distribution cooperatives (Docket E-01773A-26-0123).",
+    "significance": "Arizona, especially APS territory around Phoenix, is one of the most active U.S. data center markets. This docket and the pending APS rate case are where the ACC will set standard large-load rates and the self-supply policy for hyperscalers.",
+    "url": "http://www.azcc.gov/news/home/2026/04/20/acc-large-load-data-center-workshop-highlights",
+    "sources": [
+      {
+        "title": "ACC Data Center/Large Load Workshop Highlights",
+        "url": "http://www.azcc.gov/news/home/2026/04/20/acc-large-load-data-center-workshop-highlights",
+        "publisher": "Arizona Corporation Commission",
+        "kind": "official",
+        "published": "2026-04-20",
+        "docId": "E-00000A-25-0069",
+        "excerpt": "APS/SRP recommended a new extra high load factor (XHLF) rate... a 'bring your own power' policy... and standard contracts requiring up-front financial support from prospective data center customers."
+      },
+      {
+        "title": "ACC Approves Measure to Ensure Electric Cooperative Customers Don't Pay for Large-Load Growth",
+        "url": "http://www.azcc.gov/news/home/2026/08/13/acc-approves-measure-to-ensure-electric-cooperative-customers-don-t-pay-for-large-load-growth",
+        "publisher": "Arizona Corporation Commission",
+        "kind": "official",
+        "published": "2026-08-13",
+        "docId": "E-01773A-26-0123",
+        "excerpt": "a clear standardized framework for bringing data centers and large load users online."
+      },
+      {
+        "title": "Superior Court Issues Stay in Formula Rate Policy Challenge",
+        "url": "http://www.azcc.gov/news/home/2026/09/03/superior-court-issues-stay-in-formula-rate-policy-challenge",
+        "publisher": "Arizona Corporation Commission",
+        "kind": "official",
+        "published": "2026-09-03",
+        "excerpt": "APS and TEP... have already included an ARAM in their current rate case applications."
+      }
+    ],
+    "confidence": "medium",
+    "caveats": "The APS and TEP 2026 rate case docket numbers, filing dates and specific large-load rate proposals were not verified, because ACC explainer pages present them as images. The workshop summary is the ACC's characterization of utility positions. SRP is not ACC-regulated.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "KS-evergy-large-load-power-service",
+    "state": "KS",
+    "title": "Evergy Kansas Large Load Power Service (LLPS) rate plan",
+    "utility": "Evergy Kansas Central / Evergy Kansas Metro",
+    "type": "large_load_tariff",
+    "status": "settled",
+    "latestAction": {
+      "date": "2025-11-06",
+      "text": "The KCC approved a unanimous settlement agreement creating the LLPS rate plan."
+    },
+    "summary": "The KCC approved a unanimous settlement creating Evergy's Large Load Power Service plan. It covers new facilities of 75 MW or more of peak load, and existing customers adding 75 MW. Terms are a 12-year minimum contract plus an optional ramp of up to 5 years, a minimum monthly bill of 80% of contract demand, collateral equal to two years of minimum bills, and an exit fee equal to the remaining minimum bills. Demand and energy rates are designed to recover Evergy's incremental cost to serve. Upgrades needed solely for the new load are directly assigned to it, and SPP directs network upgrades.",
+    "significance": "This is one of the first fully settled large-load tariffs in SPP, with data center developers, staff and consumer advocates all signing. Its terms (75 MW, 12+5 years, 80% minimum bill, 2-year collateral) became a template, and Missouri adopted parallel terms under SB 4.",
+    "url": "https://www.kcc.ks.gov/news-11-6-25",
+    "sources": [
+      {
+        "title": "KCC approves large load rate plan with consumer protections",
+        "url": "https://www.kcc.ks.gov/news-11-6-25",
+        "publisher": "Kansas Corporation Commission",
+        "kind": "official",
+        "published": "2025-11-06",
+        "excerpt": "Customers on the plan will pay a minimum monthly bill based on 80% of their contract demand, regardless of actual usage... collateral equal to two years of minimum monthly bills."
+      },
+      {
+        "title": "KCC order (25-315 Settlement Agreement)",
+        "url": "https://estar.kcc.ks.gov/estar/ViewFile.aspx/25-315_Settlement_Agreement.pdf?Id=f65c8223-c3d3-47a7-b83b-877f318cf355",
+        "publisher": "Kansas Corporation Commission",
+        "kind": "official",
+        "published": "2025-11-06",
+        "docId": "25-315"
+      }
+    ],
+    "confidence": "high",
+    "caveats": "The full KCC docket number was not confirmed. The order filename starts '25-315', which suggests a 2025 docket ending in 315 (likely in the 25-EKCE-315 format), so docketNumber is omitted. Utility subsidiaries are inferred, since the release says 'Evergy'.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "MO-evergy-large-load-power-service",
+    "state": "MO",
+    "title": "Evergy Missouri Large Load Power Service tariff under SB 4",
+    "utility": "Evergy Missouri Metro / Evergy Missouri West",
+    "type": "large_load_tariff",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-03-09",
+      "text": "Evergy's Missouri Large Load Power Service tariff sheets, issued Feb. 5, 2026, took effect."
+    },
+    "summary": "To implement SB 4 (2025), the Missouri PSC approved Evergy's Large Load Power Service tariff for new loads, and expansions, expected to exceed 75 MW. Missouri's large-load tariffs require a 12-year minimum term plus an optional 5-year ramp, creditworthiness standards, collateral of two years of minimum bills, and at least 24 months' notice to exit. Exit fees and early-termination fees apply. Minimum bills include a demand charge at 80% of the agreed level, along with a 'cost stabilization recovery' provision and optional customer-funded clean energy programs.",
+    "significance": "SB 4 requires Missouri regulators to set large-load rates that reflect the customers' share of costs and protect other customers. The Evergy tariff applies that mandate in the Kansas City metro, a major data center growth area, alongside the matching Kansas LLPS.",
+    "url": "https://psc.mo.gov/General/Utility_Tariffs_for_Large_Load_Customers",
+    "sources": [
+      {
+        "title": "Utility Tariffs for Missouri Large Load Customers",
+        "url": "https://psc.mo.gov/General/Utility_Tariffs_for_Large_Load_Customers",
+        "publisher": "Missouri Public Service Commission",
+        "kind": "official",
+        "excerpt": "Large-load customers must take service for a minimum of 12 years, with the option of taking an additional 5 years as a 'ramp up' period... provide collateral in the amount of two years of minimum monthly bills."
+      },
+      {
+        "title": "Evergy Large Load Tariff (tariff sheets)",
+        "url": "https://psc.mo.gov/CMSInternetData/Community%20Outreach/Evergy%20Large%20Load%20Tariff.pdf",
+        "publisher": "Missouri Public Service Commission / Evergy",
+        "kind": "official",
+        "published": "2026-02-05",
+        "excerpt": "[expansion load] reasonably expected to exceed their preexisting demand by seventy-five megawatts (75 MW), then this rate shall be applicable"
+      },
+      {
+        "title": "Large Load Tariff Fact Sheet",
+        "url": "https://psc.mo.gov/CMSInternetData/Community%20Outreach/Large%20Load%20Tariff%20Fact%20Sheet.pdf",
+        "publisher": "Missouri Public Service Commission",
+        "kind": "official"
+      }
+    ],
+    "confidence": "medium",
+    "caveats": "The PSC case number and order date for Evergy's Missouri tariff were not found. The issue and effective dates (Feb. 5 and Mar. 9, 2026) come from the tariff sheet headers. The 12/5-year, collateral and 80% terms are from the PSC's combined description of the Ameren and Evergy tariffs. A December 12, 2025 date also appears in the tariff document but its meaning was not confirmed.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "MO-ameren-large-load-rate-plan",
+    "state": "MO",
+    "title": "Ameren Missouri Large Load Rate Plan and associated variance under SB 4",
+    "utility": "Ameren Missouri (Union Electric Co.)",
+    "type": "large_load_tariff",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2025-12-04",
+      "text": "The PSC's Nov. 24, 2025 Order approving Ameren Missouri's Large Load Rate Plan (adopting an amended non-unanimous stipulation) took effect. Compliance tariff sheets were filed in December 2025."
+    },
+    "summary": "The Missouri PSC approved Ameren Missouri's Large Load Rate Plan and associated variance by order dated Nov. 24, 2025, effective Dec. 4, 2025, adopting an Amended Non-Unanimous Stipulation and Agreement. The new tariff sheets (Schedule 61.x and 74.x) carry Missouri's SB 4 protections: 12-year minimum term plus a 5-year ramp, two years of minimum bills as collateral, 24-month exit notice with exit and early-termination fees, an 80% demand-charge minimum bill, and cost stabilization recovery. They also require large loads to comply with Ameren's transmission End User Connection Requirements. Ameren's Sept. 28, 2026 IRP projects 2.8 GW of committed large-load demand by 2030 and 10.6 GW of new gas.",
+    "significance": "This tariff governs data center service in the St. Louis region and is linked to Ameren's 20-year plan for 10.6 GW of gas. Whether its protections hold will determine who pays for that buildout.",
+    "url": "https://efis.psc.mo.gov/Document/Display/859644",
+    "sources": [
+      {
+        "title": "Ameren Missouri Large Load Tariff compliance filing",
+        "url": "https://efis.psc.mo.gov/Document/Display/859644",
+        "publisher": "Missouri Public Service Commission (EFIS)",
+        "kind": "official",
+        "published": "2025-12-01",
+        "excerpt": "as authorized by Ordering Paragraph 3 of the Commission's November 24, 2025, Order Regarding Ameren Missouri's Request for Approval of a Large Load Rate Plan and Associated Variance, which became effective on December 4, 2025"
+      },
+      {
+        "title": "Utility Tariffs for Missouri Large Load Customers",
+        "url": "https://psc.mo.gov/General/Utility_Tariffs_for_Large_Load_Customers",
+        "publisher": "Missouri Public Service Commission",
+        "kind": "official"
+      },
+      {
+        "title": "Ameren Missouri files 20-year plan with 10.6 GW of gas additions",
+        "url": "https://www.utilitydive.com/news/ameren-missouri-files-20-year-plan-with-106-gw-gas-additions/831758/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-09-30",
+        "excerpt": "Committed large-load demand of 2.8 GW by 2030; base-case large-load forecast CAGR of 20%."
+      }
+    ],
+    "confidence": "medium",
+    "caveats": "The case number was not visible in the retrieved filing, so it is omitted. The compliance filing's exact December 2025 date was illegible, so published is approximate (set to 2025-12-01). The 75 MW threshold appears in the tariff text but was not confirmed in context. Liberty's parallel case (ET-2026-0184) is pending.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "KY-lge-ku-cpcn-2025",
+    "state": "KY",
+    "docketNumber": "2025-00045",
+    "title": "LG&E/KU CPCNs for new gas generation (Mill Creek 6, Brown 12) driven by data-center load forecasts",
+    "utility": "Louisville Gas & Electric / Kentucky Utilities (PPL)",
+    "type": "generation_approval",
+    "status": "final_order",
+    "filed": "2025-02-28",
+    "latestAction": {
+      "date": "2025-12-09",
+      "text": "The PSC granted in part and denied in part LG&E/KU's request for clarification, amended the final order, and closed the case."
+    },
+    "summary": "LG&E and KU sought CPCNs for new generation, largely to serve forecast economic-development load including data centers. Data center load scenarios and the 'Data Center EcDev Pipeline' were litigated in the record. On Oct. 28, 2025 the PSC approved the stipulation with modifications. It granted CPCNs for the Brown 12 and Mill Creek 6 gas combined-cycle units (Mill Creek 6 conditioned on load monitoring) and an SCR on Ghent 2, and denied the Cane Run battery storage project.",
+    "significance": "This is Kentucky's main test of building utility generation ahead of signed data center demand. Conditioning Mill Creek 6 on load monitoring is an example of a commission tying approval to whether forecast data center load actually materializes.",
+    "url": "https://psc.ky.gov/Case/ViewCaseFilings/2025-00045",
+    "sources": [
+      {
+        "title": "Case 2025-00045 filings",
+        "url": "https://psc.ky.gov/Case/ViewCaseFilings/2025-00045",
+        "publisher": "Kentucky Public Service Commission",
+        "kind": "official",
+        "published": "2025-02-28",
+        "docId": "2025-00045",
+        "excerpt": "Oct. 28, 2025 Final Order: granted CPCNs for Brown 12 and Mill Creek 6 (conditioned on monitoring requirements); denied CPCN for Cane Run BESS; granted SCR on Ghent 2."
+      }
+    ],
+    "confidence": "medium",
+    "caveats": "Order details are from the PSC case-filings index, not the order text. The size of the data center share of the forecast and the specific monitoring conditions were not verified. LG&E/KU's Extremely High Load Factor (EHLF) large-load tariff, considered in their 2025 rate cases, was not verified and is not covered here.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "NC-duke-progress-smith-ct-denial",
+    "state": "NC",
+    "title": "NCUC denial of Duke Energy Progress CPCN for 255 MW Smith Energy Complex combustion turbine",
+    "utility": "Duke Energy Progress",
+    "type": "generation_approval",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-09-18",
+      "text": "The NCUC denied the CPCN, finding the anticipated, largely data-center-driven load growth 'insufficiently reliable'. Duke said it is assessing next steps."
+    },
+    "summary": "Duke Energy Progress sought approval for a 255 MW hydrogen-capable F-class simple-cycle gas turbine at the Smith Energy Complex in Richmond County, estimated at $584 million. Public Staff supported it despite reservations. The NCUC denied it. The commission found that 'much of the growth appears to be based upon anticipated data center customer additions' and that the record did not show how the unit would serve data center demand consistent with the White House Ratepayer Protection Pledge. It declined to prejudge Duke's pending 2025 Carbon Plan/IRP.",
+    "significance": "This is a rare outright denial of new utility gas capacity on the grounds that speculative data center load does not justify it. It signals that North Carolina will require proof of data center demand before charging ratepayers for new capacity.",
+    "url": "https://www.utilitydive.com/news/north-carolina-regulators-deny-dukes-gas-turbine-request-over-staggering/831015/",
+    "sources": [
+      {
+        "title": "North Carolina regulators deny Duke Energy gas turbine request over 'staggering' cost, uncertain need",
+        "url": "https://www.utilitydive.com/news/north-carolina-regulators-deny-dukes-gas-turbine-request-over-staggering/831015/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-09-22",
+        "excerpt": "Any such anticipated load growth is insufficiently reliable for the Commission to act at this point."
+      }
+    ],
+    "confidence": "medium",
+    "caveats": "The NCUC docket number is not stated in the article, and the NCUC portal returned 403. The vote count is unknown. Whether Duke sought rehearing or appealed was not verified.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "NC-duke-carbon-plan-irp-2025",
+    "state": "NC",
+    "docketNumber": "E-100, Sub 207",
+    "title": "Duke Energy Carolinas/Progress 2025 Carbon Plan and Integrated Resource Plan (CPIRP)",
+    "utility": "Duke Energy Carolinas; Duke Energy Progress",
+    "type": "irp",
+    "status": "open",
+    "latestAction": {
+      "date": "2026-09-18",
+      "text": "In the Smith CT order, the NCUC said it would not prejudge the CPIRP. A decision on the 2025 CPIRP is expected in late 2026."
+    },
+    "summary": "Duke's 2025 Carolinas resource plan, filed in North Carolina as Docket E-100, Sub 207, responds to large load growth. Its base forecast has winter peak rising by more than 10 GW, about 30%. Through 2041 it adds about 18.5 GW of solar, 14 GW of gas (8.2 GW combined cycle and 5.8 GW combustion turbines), 13 GW of storage and about 4.5 GW of new nuclear. Duke filed the companion South Carolina plan Aug. 17, 2026, with a SC PSC hearing expected in April and an order by June. Public Staff flagged a risk that Duke moves toward violating a 22% reserve margin in 2031.",
+    "significance": "The CPIRP sets how much generation Duke may build for data centers across both Carolinas. Read with the Smith CT denial, the NCUC is signaling closer scrutiny of data center load forecasts behind Duke's $103 billion capital plan.",
+    "url": "https://starw1.ncuc.gov/NCUC/PSC/PSCDocumentDetailsPageNCUC.aspx?DocumentId=4eb98dc3-1183-4682-a889-9534f775d73d&Class=Filing",
+    "sources": [
+      {
+        "title": "E-100, Sub 207: Duke Energy Files Its 2025 Carbon Plan/Integrated Resource Plan",
+        "url": "https://starw1.ncuc.gov/NCUC/PSC/PSCDocumentDetailsPageNCUC.aspx?DocumentId=4eb98dc3-1183-4682-a889-9534f775d73d&Class=Filing",
+        "publisher": "North Carolina Utilities Commission",
+        "kind": "official",
+        "docId": "E-100, Sub 207"
+      },
+      {
+        "title": "Duke's Carolinas resource plan targets 18.5 GW new solar by 2041",
+        "url": "https://www.utilitydive.com/news/dukes-carolinas-resource-plan-solar-gas-nuclear/828402/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-08-20",
+        "excerpt": "Duke's base forecast projects its winter peak to increase by more than 10 GW."
+      },
+      {
+        "title": "North Carolina regulators deny Duke Energy gas turbine request over 'staggering' cost, uncertain need",
+        "url": "https://www.utilitydive.com/news/north-carolina-regulators-deny-dukes-gas-turbine-request-over-staggering/831015/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2026-09-22",
+        "excerpt": "The commission's decision on Duke's 2025 CPIRP is not expected until late 2026."
+      }
+    ],
+    "confidence": "medium",
+    "caveats": "The NC filing date was not verified. The NCUC document page returned 403, and the docket listing was seen on the NCUC home page. The resource totals reported by Utility Dive come from the South Carolina filing and may differ slightly from the NC version. Duke's large-load tariff/contract proposals and the SC Santee Cooper/Dominion Energy SC proceedings were not verified in this session.",
+    "verifiedAt": "2026-10-11"
+  },
+  {
+    "id": "US-pjm-colocation-el25-49",
+    "state": "US",
+    "docketNumber": "EL25-49",
+    "title": "PJM co-location show-cause proceeding (co-located load and behind-the-meter generation)",
+    "utility": "PJM Interconnection, L.L.C. and PJM Transmission Owners",
+    "type": "interconnection",
+    "status": "open",
+    "latestAction": {
+      "date": "2026-06-18",
+      "text": "Order on rehearing, clarification, compliance filing and paper hearing (EL25-49-002, 195 FERC ¶ 61,209): sustained finding that PJM tariff is unjust and unreasonable; set rates, terms and conditions for Interim NITS, Firm Contract Demand and Non-Firm Contract Demand services; accepted PJM's February 2026 compliance filing in part and directed further compliance."
+    },
+    "summary": "FERC's December 18, 2025 order found PJM's tariff unjust and unreasonable for lacking clear rates, terms and conditions for co-located load, and directed PJM to create new transmission services for co-located loads (interim non-firm service plus firm and non-firm contract demand services), revise behind-the-meter generation netting rules, and report on expediting new generation. PJM filed compliance on February 23, 2026. On June 18, 2026 FERC partly granted rehearing (setting aside the requirement that BTMG customers take NITS with no alternative), set rates for the three new services via paper hearing, and ordered further compliance on the BTMG materiality threshold, QF cogeneration exemption, study procedures and the Necessary Study process. It deferred any 'grid reliance' charge.",
+    "significance": "This is the main federal framework for data centers co-locating at existing power plants in PJM, the largest US data-center market. It decides which transmission service and charges co-located load must take, and whether data centers can pay for less than full network service. That directly affects the economics of nuclear and gas co-location deals like Talen-Amazon.",
+    "url": "https://www.ferc.gov/news-events/news/fact-sheet-ferc-directs-nations-largest-grid-operator-create-new-rules-embrace",
+    "sources": [
+      {
+        "title": "FACT SHEET | FERC Directs Nation's Largest Grid Operator to Create New Rules to Embrace Innovation and Protect Consumers",
+        "url": "https://www.ferc.gov/news-events/news/fact-sheet-ferc-directs-nations-largest-grid-operator-create-new-rules-embrace",
+        "publisher": "Federal Energy Regulatory Commission",
+        "kind": "official",
+        "published": "2025-12-18",
+        "docId": "EL25-49-000"
+      },
+      {
+        "title": "E-1: PJM Co-location Proceeding Docket Nos. EL25-49-000 et al. (presentation)",
+        "url": "https://www.ferc.gov/sites/default/files/2025-12/EL25-49%20PPT%20E-1%2012.17.25_0.pdf",
+        "publisher": "Federal Energy Regulatory Commission",
+        "kind": "official",
+        "docId": "EL25-49-000"
+      },
+      {
+        "title": "FERC Addresses Arguments on Rehearing and Requires Additional PJM Tariff Revisions to Accommodate Co-Located Load",
+        "url": "https://www.troutmanenergyreport.com/2026/06/ferc-addresses-arguments-on-rehearing-and-requires-additional-pjm-tariff-revisions-to-accommodate-co-located-load/",
+        "publisher": "Troutman Pepper Locke (Washington Energy Report)",
+        "kind": "research",
+        "docId": "EL25-49-002",
+        "excerpt": "FERC said requiring NITS without alternatives \"is economically inefficient and creates the risk of more costly Network Upgrades.\""
+      },
+      {
+        "title": "FERC orders PJM to craft large load colocation rules",
+        "url": "https://www.utilitydive.com/news/ferc-pjm-colocation-data-center/808368/",
+        "publisher": "Utility Dive",
+        "kind": "journalism"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The filed date is omitted; a law-firm summary says only that the docket opened in February 2025. The 195 FERC ¶ 61,209 citation and the roughly 60-day further-compliance deadline (about Aug. 17, 2026) come from secondary summaries. I could not confirm whether PJM made the further compliance filing or whether FERC acted on it after June 2026. I could not read the FERC eLibrary docket directly."
+  },
+  {
+    "id": "US-talen-susquehanna-isa-er24-2172",
+    "state": "US",
+    "docketNumber": "ER24-2172",
+    "title": "Amended Susquehanna interconnection service agreement for co-located Amazon data center (rejected)",
+    "utility": "PJM Interconnection / Susquehanna Nuclear (Talen Energy) / PPL Electric Utilities",
+    "type": "interconnection",
+    "status": "appealed",
+    "latestAction": {
+      "date": "2025-04-16",
+      "text": "American Nuclear Society reported FERC again rejected Talen's bid (rehearing stage) on the Susquehanna ISA; Talen pursued Fifth Circuit review."
+    },
+    "summary": "On November 1, 2024 FERC voted 2-1 to reject an amended ISA that would have raised the behind-the-meter connection between the Susquehanna nuclear plant and Amazon's co-located data center campus from 300 MW to 480 MW. FERC found PJM had not met its burden to justify non-conforming terms. Chairman Phillips dissented, and Commissioner Christie concurred, saying the rejection was without prejudice. Talen sought rehearing. FERC's deferral of rehearing made the order appealable, and Susquehanna Nuclear petitioned the Fifth Circuit.",
+    "significance": "This was the first major FERC test of behind-the-meter nuclear co-location for a hyperscale data center. The rejection pushed co-location deals toward front-of-the-meter structures and led directly to FERC's generic PJM co-location proceeding (EL25-49).",
+    "url": "https://elibrary.ferc.gov/eLibrary/docketsheet?docket_number=ER24-2172",
+    "sources": [
+      {
+        "title": "FERC rejects interconnection pact for Talen-Amazon data center deal at nuclear plant",
+        "url": "https://www.utilitydive.com/news/ferc-interconnection-isa-talen-amazon-data-center-susquehanna-exelon/731841/",
+        "publisher": "Utility Dive",
+        "kind": "journalism",
+        "published": "2024-11-04"
+      },
+      {
+        "title": "Chairman Phillips' Dissent in PJM's Susquehanna Co-Location Proposal, ER24-2172",
+        "url": "https://www.ferc.gov/news-events/news/chairman-phillips-dissent-pjms-susquehanna-co-location-proposal-er24-2172",
+        "publisher": "Federal Energy Regulatory Commission",
+        "kind": "official",
+        "published": "2024-11-01",
+        "docId": "ER24-2172"
+      },
+      {
+        "title": "Commissioner Christie's Concurrence in PJM's Susquehanna Co-Location Proposal, ER24-2172",
+        "url": "https://www.ferc.gov/news-events/news/commissioner-christies-concurrence-pjms-susquehanna-co-location-proposal-er24-2172",
+        "publisher": "Federal Energy Regulatory Commission",
+        "kind": "official",
+        "published": "2024-11-01",
+        "docId": "ER24-2172"
+      },
+      {
+        "title": "Talen Energy Statement on FERC Order Deferring its Request for Rehearing of Susquehanna ISA",
+        "url": "https://ir.talenenergy.com/news-releases/news-release-details/talen-energy-statement-ferc-order-deferring-its-request",
+        "publisher": "Talen Energy",
+        "kind": "official",
+        "published": "2024-12-23"
+      },
+      {
+        "title": "FERC denies Talen-Amazon agreement—again",
+        "url": "https://www.ans.org/news/2025-04-16/article-6937/ferc-denies-talen-amazon-agreementagain/",
+        "publisher": "American Nuclear Society (Nuclear Newswire)",
+        "kind": "journalism",
+        "published": "2025-04-16"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The rejection and dissent/concurrence are confirmed by FERC sources. The April 2025 rehearing outcome is from ANS reporting; the exact FERC order date was not confirmed. Talen's reported June 2025 restructuring of the AWS deal into a front-of-the-meter PPA, and any mootness arguments, were seen only in a non-citable wiki and are not asserted here. I found no Fifth Circuit ruling, so the 'appealed' status may be stale. The filed date is omitted because I didn't verify it."
+  },
+  {
+    "id": "US-ferc-large-load-interconnection-rm26-4",
+    "state": "US",
+    "docketNumber": "RM26-4-000",
+    "title": "Interconnection of Large Loads to the Interstate Transmission System (DOE Section 403 ANOPR)",
+    "type": "rulemaking",
+    "status": "open",
+    "latestAction": {
+      "date": "2026-06-18",
+      "text": "Instead of a generic final rule, FERC issued tailored FPA Section 206 show-cause orders to all six RTOs/ISOs (EL26-67 through EL26-72). RM26-4 remains open for comments."
+    },
+    "summary": "In October 2025 the Secretary of Energy used FPA Section 403 to direct FERC to consider an advance notice of proposed rulemaking asserting federal jurisdiction over interconnection of large loads (the ANOPR proposed a greater-than-20 MW threshold) to the interstate transmission system. On April 16, 2026 FERC issued an order of intent to act by June 2026. On June 18, 2026 it issued show-cause orders to the six RTOs/ISOs, using a large-load definition of more than 50 MW at above 69 kV, rather than a final rule. An August 2026 secondary source says no NOPR has been issued under RM26-4.",
+    "significance": "This is the main federal assertion of jurisdiction over how data centers connect to the transmission grid and pay for upgrades. It could preempt or reshape state large-load tariffs and set national expectations for study timelines, cost responsibility and co-location.",
+    "url": "https://www.ferc.gov/rm26-4",
+    "sources": [
+      {
+        "title": "Interconnection of Large Loads to the Interstate Transmission System (Docket No. RM26-4-000)",
+        "url": "https://www.ferc.gov/rm26-4",
+        "publisher": "Federal Energy Regulatory Commission",
+        "kind": "official",
+        "docId": "RM26-4-000"
+      },
+      {
+        "title": "FERC to Act on Large Load Interconnection Docket by June 2026",
+        "url": "https://www.ferc.gov/news-events/news/ferc-act-large-load-interconnection-docket-june-2026",
+        "publisher": "Federal Energy Regulatory Commission",
+        "kind": "official",
+        "published": "2026-04-16",
+        "docId": "RM26-4-000"
+      },
+      {
+        "title": "DOE Directs FERC To Initiate Large Load Interconnection Rulemaking",
+        "url": "https://www.akingump.com/en/insights/blogs/speaking-energy/doe-directs-ferc-to-initiate-large-load-interconnection-rulemaking",
+        "publisher": "Akin Gump",
+        "kind": "research"
+      },
+      {
+        "title": "FERC Issues Section 206 Show Cause Orders Directing All Six RTOs/ISOs to Justify or Reform Large Load Integration Rules",
+        "url": "https://www.mcguirewoods.com/client-resources/alerts/2026/6/ferc-issues-section-206-show-cause-orders-directing-all-six-rtos-isos-to-justify-or-reform-large-load-integration-rules/",
+        "publisher": "McGuireWoods",
+        "kind": "research"
+      },
+      {
+        "title": "FERC RM26-4 Large Load Interconnection Brief",
+        "url": "https://secondwatt.com/resources/large-load-interconnection-ferc-rm26-4-data-center-procurement",
+        "publisher": "SecondWatt",
+        "kind": "aggregator"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "FERC's docket page returned HTTP 403, so I could not read it directly. The October 2025 date of the DOE letter is from background knowledge; the filed date is omitted. The claim that no NOPR has issued comes from an August 2026 aggregator, and I could not check for later action."
+  },
+  {
+    "id": "US-ferc-pjm-large-load-show-cause-el26-67",
+    "state": "US",
+    "docketNumber": "EL26-67",
+    "title": "FERC Section 206 show-cause order on PJM large-load interconnection and transmission service",
+    "utility": "PJM Interconnection, L.L.C. and PJM Transmission Owners",
+    "type": "interconnection",
+    "status": "open",
+    "filed": "2026-06-18",
+    "latestAction": {
+      "date": "2026-09-21",
+      "text": "FERC order in EL26-67-001 (196 FERC ¶ 61,214). Proceeding held in abeyance; show-cause responses (or FPA 205 filings) now due November 16, 2026, answers December 16, 2026."
+    },
+    "summary": "FERC's June 18, 2026 order (195 FERC ¶ 61,211) found PJM's tariff may be unjust and unreasonable because it does not define 'large load' or provide tailored study processes, cost-shift protections, co-location terms, transmission service for flexible and BTMG loads, or terms for generators serving electrically proximate large loads. It also required a resource-adequacy informational report by July 20, 2026. On August 14, 2026 FERC granted an abeyance motion by PJM, the Indicated PJM TOs and Silver Run Electric, moving responses to November 16, 2026. PJM says it will file under Section 205 in early to mid November.",
+    "significance": "This order will set PJM-wide rules on how data centers queue for, pay for and receive transmission service. It replaces the patchwork of TO-level and state processes in the region with the most data-center load growth.",
+    "url": "https://www.pjm.com/-/media/DotCom/documents/ferc/orders/2026/20260618-el26-67-000.pdf",
+    "sources": [
+      {
+        "title": "195 FERC ¶ 61,211 — Order Directing PJM to Show Cause (EL26-67-000)",
+        "url": "https://www.pjm.com/-/media/DotCom/documents/ferc/orders/2026/20260618-el26-67-000.pdf",
+        "publisher": "Federal Energy Regulatory Commission (posted by PJM)",
+        "kind": "official",
+        "published": "2026-06-18",
+        "docId": "EL26-67-000"
+      },
+      {
+        "title": "196 FERC ¶ 61,214 (EL26-67-001)",
+        "url": "https://www.pjm.com/-/media/DotCom/documents/ferc/orders/2026/20260921-el26-67-001.pdf",
+        "publisher": "Federal Energy Regulatory Commission (posted by PJM)",
+        "kind": "official",
+        "published": "2026-09-21",
+        "docId": "EL26-67-001"
+      },
+      {
+        "title": "E-7: Commissioner LaCerte's Concurrence in PJM Interconnection, L.L.C. - Docket No. EL26-67-000",
+        "url": "https://www.ferc.gov/news-events/news/e-7-commissioner-lacertes-concurrence-pjm-interconnection-llc-docket-no-el26-67",
+        "publisher": "Federal Energy Regulatory Commission",
+        "kind": "official",
+        "published": "2026-06-18",
+        "docId": "EL26-67-000"
+      },
+      {
+        "title": "Show Cause for Large Loads Framework (CLLSCO workshop presentation)",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/workshops/cllsco/2026/20260930/20260930-item-02---show-cause-for-large-loads-approach---presentation.pdf",
+        "publisher": "PJM Interconnection",
+        "kind": "official",
+        "published": "2026-09-30"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The September 21 order's date and citation come from the PJM-hosted filename and header. I couldn't extract its full text, so its content (abeyance confirmed, clarification declined) rests on search-result summaries. The August 14 abeyance grant and November 16 deadline also come from summaries."
+  },
+  {
+    "id": "US-ferc-rto-large-load-show-cause-el26-68-72",
+    "state": "US",
+    "docketNumber": "EL26-68 / EL26-69 / EL26-70 / EL26-71 / EL26-72",
+    "title": "FERC large-load show-cause orders to SPP, NYISO, MISO, CAISO and ISO-NE",
+    "utility": "Southwest Power Pool; New York ISO; Midcontinent ISO; California ISO; ISO New England",
+    "type": "interconnection",
+    "status": "open",
+    "filed": "2026-06-18",
+    "latestAction": {
+      "date": "2026-08-17",
+      "text": "Original deadline for RTOs/ISOs to show cause or propose tariff revisions (RTOs could request up to 90 days of abeyance by Aug. 3). Stakeholder comments due 30 days after filings."
+    },
+    "summary": "Alongside the PJM order, FERC issued Section 206 show-cause orders on June 18, 2026 to SPP (EL26-68), NYISO (EL26-69), MISO (EL26-70), CAISO (EL26-71) and ISO-NE (EL26-72). Each must justify its existing large-load and co-located-load procedures or propose reforms in five areas: application and study processes, cost transparency and cost-shift protections, co-location terms, transmission service for flexible, co-located and BTMG loads, and terms for generators serving electrically proximate large loads. Each also had to file a resource-adequacy informational report by July 20, 2026.",
+    "significance": "This brings FERC-jurisdictional large-load interconnection reform to every organized market outside ERCOT. It may change study timelines and cost responsibility for data centers in the Midwest, Plains, New York, New England and California.",
+    "url": "https://www.mcguirewoods.com/client-resources/alerts/2026/6/ferc-issues-section-206-show-cause-orders-directing-all-six-rtos-isos-to-justify-or-reform-large-load-integration-rules/",
+    "sources": [
+      {
+        "title": "FERC Issues Section 206 Show Cause Orders Directing All Six RTOs/ISOs to Justify or Reform Large Load Integration Rules",
+        "url": "https://www.mcguirewoods.com/client-resources/alerts/2026/6/ferc-issues-section-206-show-cause-orders-directing-all-six-rtos-isos-to-justify-or-reform-large-load-integration-rules/",
+        "publisher": "McGuireWoods",
+        "kind": "research",
+        "excerpt": "the orders require each FERC jurisdictional RTO/ISO to justify their existing procedures or develop new procedures"
+      },
+      {
+        "title": "FERC Acts to Advance Data Center and Large Load Integration in Six RTO Regions",
+        "url": "https://www.duanemorris.com/alerts/ferc_acts_advance_data_center_large_load_integration_six_rto_regions_0626.html",
+        "publisher": "Duane Morris LLP",
+        "kind": "research"
+      },
+      {
+        "title": "FERC Orders Regional Grid Operators to Justify or Reform Tariff Provisions for Interconnection of Large Loads",
+        "url": "https://www.troutmanenergyreport.com/2026/07/ferc-orders-regional-grid-operators-to-justify-or-reform-tariff-provisions-for-interconnection-of-large-loads/",
+        "publisher": "Troutman Pepper Locke (Washington Energy Report)",
+        "kind": "research"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "This combines five separate dockets into one record. Docket numbers come from a law-firm alert, not FERC eLibrary. I didn't verify whether each RTO filed by August 17 or obtained abeyance (PJM did), or the content of any responses."
+  },
+  {
+    "id": "US-pjm-iras-large-load-er26-3515",
+    "state": "US",
+    "docketNumber": "ER26-3515",
+    "title": "PJM large-load framework / Interim Resource Adequacy Service (IRAS) filing",
+    "utility": "PJM Interconnection, L.L.C.",
+    "type": "large_load_tariff",
+    "status": "open",
+    "filed": "2026-08-13",
+    "latestAction": {
+      "date": "2026-09-03",
+      "text": "PJM Independent Market Monitor filed a protest calling the proposal convoluted, inconsistent and confusing."
+    },
+    "summary": "On August 13, 2026 PJM filed a proposed framework for connecting new data centers and other large loads. Its centerpiece is an Interim Resource Adequacy Service (IRAS) for large loads that do not bring their own generation. It would apply the 'Ratepayer Protection Pledge' principle that new large loads 'build, bring, or buy' the power needed to serve them, with cost responsibility tied to the resources each large load brings.",
+    "significance": "It would make new data centers in PJM procure or pay for their own capacity rather than lean on the existing capacity market. That could change siting economics and the timing of when new PJM data centers can energize.",
+    "url": "https://epgsolutions.services/blogs/regulatory-pulse/grid-pulse-august-23-2026-pjm-files-its-answer-to-fercs-large-load-show-cause-order",
+    "sources": [
+      {
+        "title": "Protest of the Independent Market Monitor for PJM (Docket No. ER26-3515)",
+        "url": "https://www.monitoringanalytics.com/filings/2026/IMM_Protest_Docket_No_ER26-3515_20260903.pdf",
+        "publisher": "Monitoring Analytics (PJM IMM)",
+        "kind": "official",
+        "published": "2026-09-03",
+        "docId": "ER26-3515"
+      },
+      {
+        "title": "Grid Pulse | August 23, 2026 — PJM Files Its Answer to FERC's Large Load Show Cause Order",
+        "url": "https://epgsolutions.services/blogs/regulatory-pulse/grid-pulse-august-23-2026-pjm-files-its-answer-to-fercs-large-load-show-cause-order",
+        "publisher": "EPG Solutions",
+        "kind": "aggregator",
+        "published": "2026-08-23"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "low",
+    "caveats": "Only the IMM protest filename and a search summary link docket ER26-3515 to the August 13 IRAS filing; I couldn't read the protest PDF. The EPG blog calls it a show-cause answer, but other summaries say formal show-cause responses were deferred to November 16, 2026. Requested effective date and FERC action are unverified."
+  },
+  {
+    "id": "US-pjm-cifp-large-load-additions",
+    "state": "US",
+    "docketNumber": "ER26-1563-000",
+    "title": "PJM Critical Issue Fast Path on Large Load Additions and resulting Expedited Interconnection Track filing",
+    "utility": "PJM Interconnection, L.L.C.",
+    "type": "interconnection",
+    "status": "open",
+    "filed": "2026-02-27",
+    "latestAction": {
+      "date": "2026-02-27",
+      "text": "PJM filed the Expedited Interconnection Track (ER26-1563) and price-collar extension (ER26-1556) at FERC as part of its large-load plan, requesting FERC action by May 28 and a July 31, 2026 effective date."
+    },
+    "summary": "After a 2025 CIFP stakeholder process on large load additions (including the 'non-capacity-backed load' concept), the PJM Board issued a decisional letter on January 16, 2026. It defined large loads as additions of 50 MW or more at a single point of interconnection, directed an Expedited Interconnection Track (EIT) by August 2026, and called for further changes by year-end 2026. The EIT filing (ER26-1563) would let up to 10 projects per year over two years, each at least 250 MW UCAP with state siting support and a three-year COD commitment, be studied serially in about 10 months. Developers would pay 100% of network upgrades and post a $15,000/MW readiness deposit. PJM also opened a separate CIFP on a Reliability Backstop Procurement in mid-2026.",
+    "significance": "PJM's main response to data-center-driven capacity shortfalls. It aims to bring large new generation online quickly so new data center load can be served without running down reliability margins or pushing capacity prices higher.",
+    "url": "https://www.pjm.com/-/media/DotCom/about-pjm/who-we-are/public-disclosures/2026/20260116-pjm-board-letter-re-results-of-the-cifp-process-large-load-additions.pdf",
+    "sources": [
+      {
+        "title": "Board Decisional Letter on Critical Issue Fast Path – Large Load Additions",
+        "url": "https://www.pjm.com/-/media/DotCom/about-pjm/who-we-are/public-disclosures/2026/20260116-pjm-board-letter-re-results-of-the-cifp-process-large-load-additions.pdf",
+        "publisher": "PJM Interconnection",
+        "kind": "official",
+        "published": "2026-01-16"
+      },
+      {
+        "title": "PJM Files Price Collar, Expedited Interconnection as Part of Large Load Plan",
+        "url": "https://insidelines.pjm.com/pjm-files-price-collar-expedited-interconnection-as-part-of-large-load-plan/",
+        "publisher": "PJM Inside Lines",
+        "kind": "official",
+        "published": "2026-02-27",
+        "docId": "ER26-1563-000",
+        "excerpt": "The expedited interconnection track is designed to speed the path for new, larger generation projects"
+      },
+      {
+        "title": "Critical Issue Fast Path – Reliability Backstop Procurement proposal (paper)",
+        "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260630/20260630-item-02a---pjm-reliability-backstop-procurement-proposal---paper.pdf",
+        "publisher": "PJM Interconnection",
+        "kind": "official",
+        "published": "2026-06-30"
+      },
+      {
+        "title": "US Data Center Demand: White House and Governors Issue Principles While PJM Issues Decisional Letter",
+        "url": "https://www.lw.com/en/insights/us-data-center-demand-white-house-and-governors-issue-principles-while-pjm-issues-decisional-letter",
+        "publisher": "Latham & Watkins",
+        "kind": "research"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "I could not confirm whether FERC accepted the EIT filing (requested by May 28, 2026), so the status may be stale. The Reliability Backstop Procurement FERC filing (anticipated around July 10, 2026) and its docket number are also unverified."
+  },
+  {
+    "id": "US-pjm-capacity-price-collar-er26-1556",
+    "state": "US",
+    "docketNumber": "ER26-1556-000",
+    "title": "PJM capacity auction price collar extension for 2028/2029 and 2029/2030 delivery years",
+    "utility": "PJM Interconnection, L.L.C.",
+    "type": "cost_allocation",
+    "status": "final_order",
+    "filed": "2026-02-27",
+    "latestAction": {
+      "date": "2026-04-28",
+      "text": "FERC accepted PJM's tariff revisions extending the ~$175/MW-day floor and ~$325/MW-day cap to the 2028/2029 and 2029/2030 RPM auctions."
+    },
+    "summary": "PJM extended the capacity-price collar first used in the 2026/27 and 2027/28 auctions to two more Base Residual Auctions, citing tight supply from data-center load growth, retirements and slow new entry. The PJM Board approved it on February 12, 2026, and PJM filed on February 27, 2026. The extension had support from all 13 PJM governors and the White House National Energy Dominance Council. FERC accepted it on April 28, 2026 as a 'time-limited price collar extension'. Reporting indicates the 2028/2029 auction (closing in July 2026) again cleared at the cap.",
+    "significance": "Data-center load is the main driver of PJM capacity shortfalls and record prices. The collar limits how much of that cost reaches residential bills through 2030, but it dampens price signals for new generation. That has fed political pressure for 'bring your own generation' requirements on data centers.",
+    "url": "https://insidelines.pjm.com/ferc-approves-capacity-auction-price-collar-to-next-two-capacity-auctions/",
+    "sources": [
+      {
+        "title": "FERC Approves Capacity Auction Price Collar to Next Two Capacity Auctions",
+        "url": "https://insidelines.pjm.com/ferc-approves-capacity-auction-price-collar-to-next-two-capacity-auctions/",
+        "publisher": "PJM Inside Lines",
+        "kind": "official",
+        "published": "2026-04-28"
+      },
+      {
+        "title": "Board Decision on Price Collar for 2028/2029 and 2029/2030 Capacity Auctions",
+        "url": "https://www.pjm.com/-/media/DotCom/about-pjm/who-we-are/public-disclosures/2026/20260212-board-decision-on-price-collar-for-2028-2029-and-2029-2030-capacity-auctions.pdf",
+        "publisher": "PJM Interconnection",
+        "kind": "official",
+        "published": "2026-02-12"
+      },
+      {
+        "title": "FERC Accepts PJM Capacity Market Price Collar Extension",
+        "url": "https://www.troutmanenergyreport.com/2026/05/ferc-accepts-pjm-capacity-market-price-collar-extension/",
+        "publisher": "Troutman Pepper Locke (Washington Energy Report)",
+        "kind": "research",
+        "docId": "ER26-1556"
+      },
+      {
+        "title": "PJM capacity auction easily hits price cap... Again",
+        "url": "https://www.renewableenergyworld.com/power-grid/pjm-capacity-auction-easily-hits-price-cap-again/",
+        "publisher": "Renewable Energy World",
+        "kind": "journalism"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "high",
+    "caveats": "The original collar for the 2026/27 and 2027/28 auctions came from a 2025 settlement of a complaint led by Pennsylvania Gov. Shapiro. That earlier docket was not re-verified in this pass and is not cited. Rehearing or appeal status of the April 2026 order is unverified."
+  },
+  {
+    "id": "US-spp-eras-er25-2296",
+    "state": "US",
+    "docketNumber": "ER25-2296",
+    "title": "SPP Expedited Resource Adequacy Study (ERAS)",
+    "utility": "Southwest Power Pool, Inc.",
+    "type": "interconnection",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-01-22",
+      "text": "FERC denied rehearing and upheld acceptance of ERAS (ER25-2296-002)."
+    },
+    "summary": "On July 21, 2025 (192 FERC ¶ 61,062) FERC accepted, subject to condition, SPP's one-time Expedited Resource Adequacy Study, effective July 22, 2025. ERAS fast-tracks interconnection of generation projects nominated by load-responsible entities to meet near-term resource adequacy needs through 2030. SPP expected to issue ERAS GIAs by the end of March 2026. FERC denied rehearing on January 22, 2026. In a May 2026 complaint answer (EL26-58), SPP reported studying 13,278 MW of generation in the ERAS queue.",
+    "significance": "ERAS lets utilities in SPP's footprint (Kansas, Oklahoma, Nebraska, the Dakotas and others) bring generation for large new loads, including data centers, online years ahead of the standard queue. It is a template other RTOs (MISO, PJM) have copied.",
+    "url": "https://www.spp.org/documents/74369/20250721_order%20accepting%20tariff%20revisions%20subject%20to%20condition%20-%20expediated%20resource%20adequacy%20study_er25-2296-000.pdf",
+    "sources": [
+      {
+        "title": "Order Accepting Tariff Revisions Subject to Condition – Expedited Resource Adequacy Study (192 FERC ¶ 61,062)",
+        "url": "https://www.spp.org/documents/74369/20250721_order%20accepting%20tariff%20revisions%20subject%20to%20condition%20-%20expediated%20resource%20adequacy%20study_er25-2296-000.pdf",
+        "publisher": "Federal Energy Regulatory Commission (posted by SPP)",
+        "kind": "official",
+        "published": "2025-07-21",
+        "docId": "ER25-2296-000"
+      },
+      {
+        "title": "Southwest Power Pool celebrates landmark federal approvals advancing regional resource adequacy",
+        "url": "https://spp.org/news-list/southwest-power-pool-celebrates-landmark-federal-approvals-advancing-regional-resource-adequacy/",
+        "publisher": "Southwest Power Pool",
+        "kind": "official",
+        "published": "2025-07-24"
+      },
+      {
+        "title": "SPP Answer to Complaint, EL26-58-000",
+        "url": "https://spp.org/documents/76801/20260527_spp%20answer%20to%20complaint_el26-58-000.pdf",
+        "publisher": "Southwest Power Pool",
+        "kind": "official",
+        "published": "2026-05-27",
+        "docId": "EL26-58-000"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Rehearing-order date and docket subnumber come from a search summary. The subject of complaint EL26-58 and its outcome were not reviewed. Search budget was exhausted before I could verify the parallel MISO ERAS filing, which is not included."
+  },
+  {
+    "id": "US-spp-hill-er26-247",
+    "state": "US",
+    "docketNumber": "ER26-247",
+    "title": "SPP High Impact Large Load (HILL) study process and HILL Generation Assessment (HILLGA)",
+    "utility": "Southwest Power Pool, Inc.",
+    "type": "interconnection",
+    "status": "final_order",
+    "latestAction": {
+      "date": "2026-01-14",
+      "text": "FERC unanimously accepted HILL and HILLGA tariff revisions, subject to condition, effective January 15, 2026. A follow-on Conditional HILL Service (CHILLS) filing was made in ER26-1323 on February 10, 2026."
+    },
+    "summary": "SPP's HILL process creates a dedicated study path for new or expanded loads of 10 MW or more at 69 kV or below, or 50 MW or more above 69 kV. HILLGA is an optional expedited serial study for pairing new generation with a HILL. FERC accepted both on January 14, 2026. SPP then filed a Conditional High Impact Large Load Service (CHILLS) on February 10, 2026 (ER26-1323).",
+    "significance": "This was one of the first FERC-approved RTO tariffs built specifically for data-center-scale loads. It sets the queue and generation-pairing rules for data centers across the SPP footprint.",
+    "url": "https://www.ferc.gov/news-events/news/commissioner-rosners-concurrence-order-accepting-tariff-revisions-subject",
+    "sources": [
+      {
+        "title": "Commissioner Rosner's Concurrence to Order Accepting Tariff Revisions, Subject to Condition re Southwest Power Pool, Inc. under ER26-247",
+        "url": "https://www.ferc.gov/news-events/news/commissioner-rosners-concurrence-order-accepting-tariff-revisions-subject",
+        "publisher": "Federal Energy Regulatory Commission",
+        "kind": "official",
+        "docId": "ER26-247"
+      },
+      {
+        "title": "FERC Accepts SPP's Large Load Interconnection Process",
+        "url": "https://www.troutmanenergyreport.com/2026/01/ferc-accepts-spps-large-load-interconnection-process/",
+        "publisher": "Troutman Pepper Locke (Washington Energy Report)",
+        "kind": "research"
+      },
+      {
+        "title": "The HILLs Have Ayes - FERC Unanimously Approves SPP's HILL Study Process and HILLGA Process",
+        "url": "https://www.wrightlaw.com/2026/01/the-hills-have-ayes-ferc-unanimously-approves-spps-high-impact-large-load-study-process-and-high-impact-large-load-generation-assessment-process/",
+        "publisher": "Wright & Talisman",
+        "kind": "research"
+      },
+      {
+        "title": "Revisions to Add the Conditional High Impact Large Load Service (ER26-1323-000)",
+        "url": "https://www.spp.org/documents/75954/20260210_revisions%20to%20add%20the%20conditional%20high%20impact%20large%20load%20service_er26-1323-000.pdf",
+        "publisher": "Southwest Power Pool",
+        "kind": "official",
+        "published": "2026-02-10",
+        "docId": "ER26-1323-000"
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "The outcome of the CHILLS filing (ER26-1323) and how HILL interacts with the June 2026 SPP show-cause order (EL26-68) are unverified."
+  },
+  {
+    "id": "CA-pge-rule-30-a2411007",
+    "state": "CA",
+    "docketNumber": "A.24-11-007",
+    "title": "PG&E application for approval of Electric Rule No. 30 (transmission-level retail electric service)",
+    "utility": "Pacific Gas and Electric Company",
+    "type": "large_load_tariff",
+    "status": "open",
+    "filed": "2024-11-21",
+    "latestAction": {
+      "date": "2026-09-03",
+      "text": "CPUC Decision D.26-09-016 extended the statutory deadline in the proceeding through February 26, 2027."
+    },
+    "summary": "PG&E asked the CPUC to approve Electric Rule 30, which sets terms for customers, mainly data centers, taking retail service at transmission voltage. It covers who pays for transmission-level interconnection facilities and upgrades, and the financial security and refund arrangements. The ratesetting proceeding (ALJ Garrett Toy; Commissioner John Reynolds, assigned March 2026) remains active. An August 7, 2026 ALJ ruling sought comments on proceeding status, with replies due September 21, 2026, and the statutory deadline was extended to February 2027.",
+    "significance": "Rule 30 is California's main framework for connecting and allocating costs for large data-center loads in PG&E's territory, where PG&E reports multiple gigawatts of data-center interconnection requests. It will determine how much of the transmission build-out data centers pay for versus other ratepayers.",
+    "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:A2411007",
+    "sources": [
+      {
+        "title": "CPUC Proceeding A.24-11-007 — Proceeding details",
+        "url": "https://apps.cpuc.ca.gov/apex/f?p=401:56:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:A2411007",
+        "publisher": "California Public Utilities Commission",
+        "kind": "official",
+        "published": "2024-11-21",
+        "docId": "A.24-11-007"
+      },
+      {
+        "title": "CPUC Proceeding A.24-11-007 — Documents (incl. D.26-09-016 Order Extending Statutory Deadline)",
+        "url": "https://apps.cpuc.ca.gov/apex/f?p=401:57:0::NO:RP,57,RIR:P5_PROCEEDING_SELECT:A2411007",
+        "publisher": "California Public Utilities Commission",
+        "kind": "official",
+        "docId": "D.26-09-016",
+        "excerpt": "Order Extending Statutory Deadline ... to and through February 26, 2027."
+      }
+    ],
+    "verifiedAt": "2026-10-11",
+    "confidence": "medium",
+    "caveats": "Procedural status is confirmed from the CPUC docket. The description of Rule 30's substance and the 'multiple gigawatts' of requests are from background knowledge, not a document reviewed in this pass. Any interim CPUC decision on Rule 30 earlier in the proceeding was not checked."
+  }
+]
