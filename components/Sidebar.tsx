@@ -39,8 +39,13 @@ export default function Sidebar() {
 
   useEffect(() => {
     const close = (e: MouseEvent) => moreRef.current && !moreRef.current.contains(e.target as Node) && setOpen(false);
+    const esc = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
     document.addEventListener("click", close);
-    return () => document.removeEventListener("click", close);
+    document.addEventListener("keydown", esc);
+    return () => {
+      document.removeEventListener("click", close);
+      document.removeEventListener("keydown", esc);
+    };
   }, []);
 
   return (
@@ -59,26 +64,34 @@ export default function Sidebar() {
               {item.label}
             </Link>
           ))}
-          <div ref={moreRef} className="relative">
-            <button
-              type="button"
-              onClick={() => setOpen(!open)}
-              aria-expanded={open}
-              className={`whitespace-nowrap rounded-md px-3 py-1.5 font-medium ${MORE.some((m) => isActive(m.href)) ? "bg-slate-900 text-white" : "text-slate-600 hover:bg-slate-100"}`}
-            >
-              More ▾
-            </button>
-            {open && (
-              <div className="absolute left-0 top-full mt-1 w-52 rounded-lg border border-slate-200 bg-white py-1 shadow-lg">
-                {MORE.map((m) => (
-                  <Link key={m.href} href={m.href} onClick={() => setOpen(false)} className={`block px-3 py-1.5 text-sm ${isActive(m.href) ? "font-semibold text-slate-900" : "text-slate-700 hover:bg-slate-50"}`}>
-                    {m.label}
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
         </nav>
+        {/* Kept outside the scrollable <nav>: an overflow container would clip the dropdown into a tiny scroll box. */}
+        <div ref={moreRef} className="relative shrink-0 text-sm">
+          <button
+            type="button"
+            onClick={() => setOpen(!open)}
+            aria-expanded={open}
+            aria-haspopup="menu"
+            className={`whitespace-nowrap rounded-md px-3 py-1.5 font-medium ${MORE.some((m) => isActive(m.href)) ? "bg-slate-900 text-white" : "text-slate-600 hover:bg-slate-100"}`}
+          >
+            More ▾
+          </button>
+          {open && (
+            <div role="menu" className="absolute right-0 top-full z-40 mt-1 w-56 rounded-lg border border-slate-200 bg-white py-1 shadow-lg">
+              {MORE.map((m) => (
+                <Link
+                  key={m.href}
+                  href={m.href}
+                  role="menuitem"
+                  onClick={() => setOpen(false)}
+                  className={`block px-3 py-2 text-sm ${isActive(m.href) ? "font-semibold text-slate-900" : "text-slate-700 hover:bg-slate-50"}`}
+                >
+                  {m.label}
+                </Link>
+              ))}
+            </div>
+          )}
+        </div>
         <form
           onSubmit={(e) => {
             e.preventDefault();

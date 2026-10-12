@@ -2275,7 +2275,7 @@
     "session": "2025-2026 Regular Session",
     "number": "SB 34",
     "title": "Ratepayer protection from data center costs (Georgia Power)",
-    "url": "https://www.legis.ga.gov/legislation/69016",
+    "url": "https://www.legis.ga.gov/legislation/69551",
     "sponsors": [
       {
         "name": "Sen. Chuck Hufstetler",
@@ -2300,7 +2300,7 @@
     "sources": [
       {
         "title": "SB 34 (2025-2026)",
-        "url": "https://www.legis.ga.gov/legislation/69016",
+        "url": "https://www.legis.ga.gov/legislation/69551",
         "publisher": "Georgia General Assembly",
         "kind": "official",
         "docId": "SB 34"
@@ -2312,9 +2312,9 @@
         "kind": "research"
       }
     ],
-    "verifiedAt": "2026-10-11",
-    "confidence": "low",
-    "caveats": "Georgia's bill pages require JavaScript/authenticated API; status from Georgia Watch. Adjournment date as reported by Georgia Watch. Link under review (2026-10-12): a second research pass reported that legis.ga.gov/legislation/69016 shows a 2023 game-and-fish bill and that SB 34 (2025) is /legislation/69551. The Georgia site renders only with JavaScript, so neither page could be confirmed automatically. Check the bill page manually."
+    "verifiedAt": "2026-10-12",
+    "confidence": "medium",
+    "caveats": "Georgia's bill pages require JavaScript/authenticated API; status from Georgia Watch. Adjournment date as reported by Georgia Watch. Official bill-page link confirmed manually by the user on 2026-10-12."
   },
   {
     "id": "IL-104-HB5513",
