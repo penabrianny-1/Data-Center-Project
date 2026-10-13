@@ -50,13 +50,13 @@ describe("Kentucky KLEC", () => {
   it("joins wrapped employer names and parses compensation", () => {
     const rows = parseKyComp(comp);
     expect(rows).toHaveLength(3);
-    expect(rows[0]).toMatchObject({ agent: "Abell Kelley", employer: "WellCare Health Insurance Company of Ky., Inc.", compensation: 4000 });
+    expect(rows[0]).toMatchObject({ lobbyist: "Abell Kelley", employer: "WellCare Health Insurance Company of Ky., Inc.", compensation: 4000 });
     expect(orgKey(rows[0].employer)).toBe(orgKey(rows[2].employer));
   });
 
   it("parses employer statement categories A–D and TOTAL", () => {
     const rows = parseKyExp(exp);
-    expect(rows[0]).toMatchObject({ advertising: 0, receptions: 10, otherExpenses: 0, agentCompensation: 4000, total: 4010 });
+    expect(rows[0]).toMatchObject({ advertising: 0, receptions: 10, otherExpenses: 0, lobbyistCompensation: 4000, total: 4010 });
     expect(parseKyExp(nob)[0].industry).toBe("Health Care");
   });
 
@@ -91,7 +91,7 @@ describe("Ohio OLAC", () => {
 
   it("parses engagements and industries and aggregates", () => {
     const eng = parseOhEmployerDetails(csv);
-    expect(eng[0]).toEqual({ employerId: "1", employer: "CyrusOne", agent: "Brittney Colvin", type: "Legislative" });
+    expect(eng[0]).toEqual({ employerId: "1", employer: "CyrusOne", lobbyist: "Brittney Colvin", type: "Legislative" });
     const ind = parseOhIndustryHtml(html);
     expect(ind[1].industry).toBe("Healthcare & hospitals");
     const { clients, registrations } = aggregateOh([...eng, ...eng], ind);

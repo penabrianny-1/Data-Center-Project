@@ -1,4 +1,4 @@
-export const USER_AGENT = "DataCenterIntel/0.2 (research aggregator; low-volume scheduled refresh)";
+export const HTTP_CLIENT_ID = "DataCenterIntel/0.2 (research aggregator; low-volume scheduled refresh)";
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
@@ -44,7 +44,7 @@ export async function politeFetch(
     try {
       const res = await fetch(url, {
         ...init,
-        headers: { "User-Agent": USER_AGENT, ...init.headers },
+        headers: { "User-Agent": HTTP_CLIENT_ID, ...init.headers },
         signal: AbortSignal.timeout(60_000),
       });
       if (res.ok) return res;

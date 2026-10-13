@@ -163,8 +163,8 @@ const DS_CONTRIB = "kv7h-kjye";
 const DS_COMP = "9nnw-c693";
 /** Lobbyist Employment Registrations (firm ↔ client, one row per year) — https://data.wa.gov/d/xhn7-64im */
 const DS_EMPLOY = "xhn7-64im";
-/** Lobbyist Agent Employers (individual agents ↔ client) — https://data.wa.gov/d/e7sd-jbuy */
-const DS_AGENTS = "e7sd-jbuy";
+/** Lobbyist employers (individuals ↔ client) — https://data.wa.gov/d/e7sd-jbuy */
+const DS_LOBBYIST_EMPLOYERS = "e7sd-jbuy";
 /** Lobbyist Reporting History (filed L1/L2/L3 reports with JSON form data, incl. superseded versions) — https://data.wa.gov/d/nuwx-ay5h */
 const DS_REPORTS = "nuwx-ay5h";
 
@@ -333,12 +333,12 @@ const waLobby: Adapter = {
       const name = idToName.get(r.employer_id);
       if (name) ClientBook.push(book.get(name).firms, r.filer_name);
     }
-    // 3. Individual agents registered for each client in 2025–26.
-    const agents = await sodaAll(ctx, DOMAIN, DS_AGENTS, {
+    // 3. Individual lobbyists registered for each client in 2025–26.
+    const lobbyists = await sodaAll(ctx, DOMAIN, DS_LOBBYIST_EMPLOYERS, {
       $select: "employer_id, employer_title, agent_name", $where: "employment_year in (2025, 2026)",
       $group: "employer_id, employer_title, agent_name", $order: "employer_id, employer_title, agent_name",
     });
-    for (const r of agents) {
+    for (const r of lobbyists) {
       const name = idToName.get(r.employer_id) ?? r.employer_title;
       if (name && book.has(name)) ClientBook.push(book.get(name).lobbyists, r.agent_name);
     }

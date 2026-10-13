@@ -8,16 +8,16 @@ import { cachedDownload, orgKey } from "./ky";
  * Activity Center (OLAC), https://www2.jlec-olig.state.oh.us/OLAC/Reports/Home
  *
  * Sources:
- *  - "Active Agents and Employers By Date" → Active Employer Details
+ *  - OLAC's dated employer report → Active Employer Details
  *    (/OLAC/Reports/ActivityByDate/ActiveEmployerDetails?Date=YYYY-MM-DD), a CSV
- *    of every employer–agent engagement active on that date, with columns
+ *    of every employer–lobbyist engagement active on that date, with columns
  *    Employer ID, Employer Name 1, Employer Name 2, Contact, Address 1/2, City,
  *    State, Zipcode, Phone, Agent L Name, Agent F Name, Engagement Type
  *    (Legislative / Executive / Retirement). Several snapshot dates across
  *    2025–2026 are unioned so engagements that ended mid-period are kept.
  *  - "Legislative Industry Search" (/OLAC/Reports/RegistrationSearches/
  *    LegislativeIndustrySearch?Industry=…), an HTML table of legislative
- *    engagements (Agent Last/First Name, Employer, Engagement Date, Industry)
+ *    engagements (lobbyist name, Employer, Engagement Date, Industry)
  *    for the current General Assembly. The industry is the employer's
  *    self-described line of business on the registration. It is a substring
  *    search with no "list all", so a few vowel queries are unioned to cover
@@ -50,7 +50,7 @@ const decodeHtml = (s: string) =>
 export interface OhEngagement {
   employerId: string;
   employer: string;
-  agent: string;
+  lobbyist: string;
   type: string;
 }
 
@@ -66,14 +66,14 @@ export function parseOhEmployerDetails(text: string): OhEngagement[] {
   for (const f of rows.slice(1)) {
     if (f.length < h.length || !f[ix["Employer ID"]]) continue;
     const employer = [f[ix["Employer Name 1"]], f[ix["Employer Name 2"]]].map((s) => (s ?? "").trim()).filter(Boolean).join(" ");
-    const agent = `${f[ix["Agent F Name"]].trim()} ${f[ix["Agent L Name"]].trim()}`.trim();
-    out.push({ employerId: f[ix["Employer ID"]].trim(), employer, agent, type: f[ix["Engagement Type"]].trim() });
+    const lobbyist = `${f[ix["Agent F Name"]].trim()} ${f[ix["Agent L Name"]].trim()}`.trim();
+    out.push({ employerId: f[ix["Employer ID"]].trim(), employer, lobbyist, type: f[ix["Engagement Type"]].trim() });
   }
   return out;
 }
 
 export interface OhIndustryRow {
-  agent: string;
+  lobbyist: string;
   employer: string;
   date: string;
   industry: string;
@@ -86,7 +86,7 @@ export function parseOhIndustryHtml(html: string): OhIndustryRow[] {
   const re = /<tr>\s*<td>([\s\S]*?)<\/td>\s*<td>([\s\S]*?)<\/td>\s*<td>([\s\S]*?)<\/td>\s*<td>([\s\S]*?)<\/td>\s*<td>([\s\S]*?)<\/td>/g;
   for (let m = re.exec(body); m; m = re.exec(body)) {
     const [, last, first, employer, date, industry] = m.map(decodeHtml);
-    out.push({ agent: `${first} ${last}`.trim(), employer, date, industry });
+    out.push({ lobbyist: `${first} ${last}`.trim(), employer, date, industry });
   }
   return out;
 }
@@ -103,12 +103,12 @@ export function aggregateOh(engagements: OhEngagement[], industries: OhIndustryR
       byId.set(e.employerId, c);
       keyToId.set(orgKey(e.employer), e.employerId);
     }
-    const reg = `${e.employerId}|${e.agent.toUpperCase()}|${e.type}`;
+    const reg = `${e.employerId}|${e.lobbyist.toUpperCase()}|${e.type}`;
     if (!regs.has(reg)) {
       regs.add(reg);
-      c.filings++; // one registered engagement (agent × branch) for this employer
+      c.filings++; // one registered engagement (lobbyist × branch) for this employer
     }
-    if (!c.lobbyists.includes(e.agent)) c.lobbyists.push(e.agent);
+    if (!c.lobbyists.includes(e.lobbyist)) c.lobbyists.push(e.lobbyist);
   }
   for (const r of industries) {
     const id = keyToId.get(orgKey(r.employer));
@@ -128,7 +128,7 @@ export const ohLobbyAdapter: Adapter = {
   schedule: "Weekly (OLAC lists update daily)",
   refreshMinutes: 10_080,
   coverage:
-    "Ohio lobbying registrations active at any of several snapshot dates in 2025–2026: employers, their registered agents and branch (legislative, executive, retirement system), and the employer's industry as stated on legislative registrations. No dollar amounts: Ohio does not require compensation reporting and expenditure reports are search-only. No lobbying-firm field is published.",
+    "Ohio lobbying registrations active at any of several snapshot dates in 2025–2026: employers, their registered lobbyists and branch (legislative, executive, retirement system), and the employer's industry as stated on legislative registrations. No dollar amounts: Ohio does not require compensation reporting and expenditure reports are search-only. No lobbying-firm field is published.",
   async run({ fetch, log }) {
     const today = new Date().toISOString().slice(0, 10);
     const dates = [...SNAPSHOTS.filter((d) => d < today), today];

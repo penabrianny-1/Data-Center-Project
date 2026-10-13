@@ -911,7 +911,7 @@
           "url": "https://klec.ky.gov/Reports/Reports/LAComp.txt",
           "format": "Semicolon-delimited TXT",
           "sizeApprox": "1.1 MB",
-          "description": "Legislative agent compensation by employer and monthly period, current year (2026). LACompPrior.txt = prior year"
+          "description": "Legislative lobbyist compensation by employer and monthly period, current year (2026). LACompPrior.txt = prior year"
         },
         {
           "url": "https://klec.ky.gov/Reports/Reports/EmpExp2015.txt",
@@ -923,7 +923,7 @@
           "url": "https://klec.ky.gov/Reports/Reports/AgentsByEmp.pdf",
           "format": "PDF/RTF",
           "sizeApprox": "",
-          "description": "Registered agents by employer (also Agents.pdf/.rtf)"
+          "description": "Registered lobbyists by employer (also Agents.pdf/.rtf)"
         }
       ],
       "keyRequired": false,
@@ -1193,7 +1193,7 @@
       "blockNote": "",
       "has2026": true,
       "updated": "Live",
-      "notes": "HTMX/Alpine HTML search (lobbyist/agent, filings, expenditures, itemized, fees, employees) with POST fragments and no CSV export. There is also an itemized expenditure analysis search (page.miboeItemizedLobbyExpenditureAnalysisPublicSearch). Scraping the HTML fragments is feasible."
+      "notes": "HTMX/Alpine HTML search (lobbyists, filings, expenditures, itemized, fees, employees) with POST fragments and no CSV export. There is also an itemized expenditure analysis search (page.miboeItemizedLobbyExpenditureAnalysisPublicSearch). Scraping the HTML fragments is feasible."
     },
     "verifiedAt": "2026-10-12"
   },
@@ -1600,7 +1600,7 @@
       "notes": "Downloads are triggered by the JS DownloadAll(), so the AJAX endpoint must be captured from the browser. Chunk queries to stay under 65K rows."
     },
     "lobbying": {
-      "agency": "New Jersey Election Law Enforcement Commission (ELEC) - Lobbying (Governmental Affairs Agents)",
+      "agency": "New Jersey Election Law Enforcement Commission (ELEC) - Governmental Affairs lobbying",
       "page": "https://www.elec.nj.gov/publicinformation/lobbying.htm",
       "method": "none",
       "downloads": [],
@@ -1810,7 +1810,7 @@
           "url": "https://www2.jlec-olig.state.oh.us/OLAC/Reports/Agents/List",
           "format": "CSV",
           "sizeApprox": "128 KB",
-          "description": "All currently registered agents (lobbyists); updated daily"
+          "description": "All currently registered lobbyists; updated daily"
         },
         {
           "url": "https://www2.jlec-olig.state.oh.us/OLAC/Reports/Employers/List",
@@ -1824,7 +1824,7 @@
       "blockNote": "",
       "has2026": true,
       "updated": "Daily",
-      "notes": "The CSVs hold registrations only. Expenditures (executive, legislative, retirement), financial transactions, and bill/decision searches are HTML searches under /OLAC/Reports/ExpenditureSearches. Ohio does not require lobbyist compensation reporting. The agent-employer relationship comes from the Registration Searches, not the CSVs."
+      "notes": "The CSVs hold registrations only. Expenditures (executive, legislative, retirement), financial transactions, and bill/decision searches are HTML searches under /OLAC/Reports/ExpenditureSearches. Ohio does not require lobbyist compensation reporting. The lobbyist-employer relationship comes from the Registration Searches, not the CSVs."
     },
     "verifiedAt": "2026-10-12"
   },
@@ -2450,7 +2450,7 @@
           "url": "https://data.wa.gov/api/views/c4ag-3cmj/rows.csv?accessType=DOWNLOAD",
           "format": "CSV/SODA",
           "sizeApprox": "",
-          "description": "Lobbyist Summary; also bp5b-jrti agents, e7sd-jbuy agent employers, mjwb-szba public agency lobbying"
+          "description": "Lobbyist Summary; also bp5b-jrti lobbyists, e7sd-jbuy lobbyist employers, mjwb-szba public agency lobbying"
         }
       ],
       "keyRequired": false,

@@ -64,7 +64,7 @@ export function PollsPanel({ p }: { p: PollsData }) {
         </table>
       </div>
       <p className="mt-1 text-[10px] text-slate-400">
-        Polls as listed by {p.statePage ? <a href={p.statePage} target="_blank" rel="noopener noreferrer" className="underline">270toWin</a> : "270toWin"}, each linked to the pollster&apos;s release. Silver Bulletin (paywalled; its site blocks AI agents) and FiveThirtyEight (shut down in 2025) aren&apos;t included.
+        Polls as listed by {p.statePage ? <a href={p.statePage} target="_blank" rel="noopener noreferrer" className="underline">270toWin</a> : "270toWin"}, each linked to the pollster&apos;s release. Silver Bulletin (paywalled; its robots policy blocks automated collection) and FiveThirtyEight (shut down in 2025) aren&apos;t included.
       </p>
     </div>
   );

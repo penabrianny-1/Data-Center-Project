@@ -5,7 +5,7 @@ import { pipeline } from "node:stream/promises";
 import { StringDecoder } from "node:string_decoder";
 import { createInflateRaw } from "node:zlib";
 import type { Adapter, AdapterContext } from "../../ingest/types";
-import { USER_AGENT } from "../../ingest/http";
+import { HTTP_CLIENT_ID } from "../../ingest/http";
 import {
   addDonation, buildFinanceEntities, buildLobbyEntity, DATA_CENTER_RE, donorKey, SINCE,
   type CandidateTotals, type Donor, type LobbyClient, type StatewideOffice,
@@ -339,7 +339,7 @@ function ensureZip(ctx: AdapterContext): Promise<string | null> {
     }
     if (have && meta?.lastModified === lm) return lm;
     ctx.log("Downloading CAL-ACCESS raw export (~1.6 GB)…");
-    const res = await fetch(URL_ZIP, { headers: { "User-Agent": USER_AGENT } });
+    const res = await fetch(URL_ZIP, { headers: { "User-Agent": HTTP_CLIENT_ID } });
     if (!res.ok || !res.body) throw new Error(`CAL-ACCESS download failed: ${res.status}`);
     const tmp = `${ZIP}.part`;
     await pipeline(Readable.fromWeb(res.body as never), createWriteStream(tmp));

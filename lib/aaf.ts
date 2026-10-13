@@ -14,7 +14,7 @@ import * as cheerio from "cheerio";
 import type { Article, ArticleFeed } from "./types";
 
 const BASE = "https://www.americanactionforum.org";
-const USER_AGENT = "DataCenterTracker/0.1 (news aggregator)";
+const HTTP_CLIENT_ID = "DataCenterTracker/0.1 (news aggregator)";
 
 // Values from AAF's search page; refreshed at runtime when possible.
 const ALGOLIA_DEFAULTS = {
@@ -35,7 +35,7 @@ const PRIMARY_MIN_MENTIONS = 4;
 async function get(url: string, init?: RequestInit): Promise<Response> {
   const res = await fetch(url, {
     ...init,
-    headers: { "User-Agent": USER_AGENT, ...init?.headers },
+    headers: { "User-Agent": HTTP_CLIENT_ID, ...init?.headers },
     signal: AbortSignal.timeout(20_000),
   });
   if (!res.ok) throw new Error(`${res.status} ${res.statusText} for ${url}`);

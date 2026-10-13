@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { Readable } from "node:stream";
 import { pipeline } from "node:stream/promises";
 import { Unzip, UnzipInflate, unzlibSync } from "fflate";
-import { USER_AGENT } from "../../ingest/http";
+import { HTTP_CLIENT_ID } from "../../ingest/http";
 import type { Adapter, AdapterContext } from "../../ingest/types";
 import {
   addDonation, buildFinanceEntities, buildLobbyEntity, DATA_CENTER_RE, displayName, SINCE,
@@ -59,10 +59,10 @@ export async function cachedDownload(
   } catch (err) {
     // ctx.fetch aborts after 60 s including the body, which some bulk files
     // (e.g. CFIS's 100 MB CSVs) exceed. Retry once with a longer deadline,
-    // same User-Agent, the way the other bulk adapters download large archives.
+    // same request identity header, the way the other bulk adapters download large archives.
     if (!(err instanceof Error) || (err.name !== "TimeoutError" && err.name !== "AbortError")) throw err;
     log(`  ${file}: slow transfer, retrying with a 15-minute deadline`);
-    res = await fetch(url, { ...init, headers: { "User-Agent": USER_AGENT, ...init?.headers }, signal: AbortSignal.timeout(15 * 60_000) });
+    res = await fetch(url, { ...init, headers: { "User-Agent": HTTP_CLIENT_ID, ...init?.headers }, signal: AbortSignal.timeout(15 * 60_000) });
     if (!res.ok || !res.body) throw new Error(`download failed: ${res.status} for ${url}`);
     await pipeline(Readable.fromWeb(res.body as never), createWriteStream(tmp));
   }

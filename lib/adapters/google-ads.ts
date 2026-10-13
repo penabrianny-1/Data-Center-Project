@@ -4,7 +4,7 @@ import { Readable } from "node:stream";
 import { pipeline } from "node:stream/promises";
 import { strFromU8, unzipSync } from "fflate";
 import type { Adapter, Entity, Observation } from "../ingest/types";
-import { USER_AGENT } from "../ingest/http";
+import { HTTP_CLIENT_ID } from "../ingest/http";
 import { STATE_BY_CODE } from "../states";
 import { parseCsv } from "./fec";
 
@@ -32,7 +32,7 @@ async function ensureZip(fetchFn: (u: string, init?: RequestInit) => Promise<Res
   const meta = existsSync(META) ? (JSON.parse(readFileSync(META, "utf8")) as { lastModified: string | null }) : null;
   if (existsSync(ZIP) && statSync(ZIP).size > 1e8 && meta?.lastModified === lm) return lm;
   log("Downloading Google political ads bundle (~300 MB)…");
-  const res = await fetch(URL_ZIP, { headers: { "User-Agent": USER_AGENT } });
+  const res = await fetch(URL_ZIP, { headers: { "User-Agent": HTTP_CLIENT_ID } });
   if (!res.ok || !res.body) throw new Error(`download failed: ${res.status}`);
   await pipeline(Readable.fromWeb(res.body as never), createWriteStream(ZIP));
   writeFileSync(META, JSON.stringify({ lastModified: lm }));

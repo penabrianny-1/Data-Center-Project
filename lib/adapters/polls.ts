@@ -8,7 +8,7 @@ import { STATE_BY_NAME } from "../states";
  * which is cited as the primary source. 270toWin's robots.txt permits these
  * paths; requests are low-volume (two per refresh).
  *
- * Not included: Silver Bulletin (paywalled; robots.txt disallows AI agents)
+ * Not included: Silver Bulletin (paywalled; robots.txt disallows automated collection)
  * and FiveThirtyEight (shut down by ABC News in 2025; its data URLs now
  * redirect).
  *
@@ -130,7 +130,7 @@ export const pollsAdapter: Adapter = {
   schedule: "Every 6 hours",
   refreshMinutes: 360,
   coverage:
-    "Public general-election polls for 2026 Senate and governor races as listed by 270toWin, each linked to the pollster's release. Our average is a simple mean of each pollster's latest poll within 30 days, not a weighted model. Silver Bulletin (paywalled, and its robots.txt blocks AI agents) and FiveThirtyEight (shut down in 2025) aren't included.",
+    "Public general-election polls for 2026 Senate and governor races as listed by 270toWin, each linked to the pollster's release. Our average is a simple mean of each pollster's latest poll within 30 days, not a weighted model. Silver Bulletin (paywalled, and its robots.txt blocks automated collection) and FiveThirtyEight (shut down in 2025) aren't included.",
   dependsOn: ["curated"],
   async run({ fetch, lookup, log }) {
     const races = lookup("race");

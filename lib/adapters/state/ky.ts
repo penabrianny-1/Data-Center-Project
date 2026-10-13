@@ -20,8 +20,8 @@ import { buildLobbyEntity, DATA_CENTER_RE, type LobbyClient, type StateLobbyMeta
  *      A  advertising during a session that supports/opposes legislation
  *      B  receptions, meals or events qualifying under KRS 6.611(2)(b)8, 11, 12
  *      C  other expenses directly associated with the employer's lobbying,
- *         including reimbursements to legislative agents
- *      D  compensation paid to legislative agents (prorated, accrual basis)
+ *         including reimbursements to lobbyists
+ *      D  compensation paid to lobbyists (prorated, accrual basis)
  *      TOTAL of all categories
  *  - EmpExpNOB.txt / EmpExpNOBPrior.txt: same totals prefixed with the
  *    employer's industry ("by Industry" report; the form's "Nature of business")
@@ -99,7 +99,7 @@ const money = (s: string) => {
 const PERIOD_RE = /^\d\d\/\d\d\/\d{4}\s+(?:-\s+)?\d\d\/\d\d\/\d{4}$/;
 
 export interface KyCompRow {
-  agent: string;
+  lobbyist: string;
   period: string;
   employer: string;
   compensation: number;
@@ -118,7 +118,7 @@ export function parseKyComp(text: string): KyCompRow[] {
     if (f.length === 4) {
       if (f[0] === "Legislative Agent") continue; // header (repeats on each page)
       if (!PERIOD_RE.test(f[1].trim())) continue;
-      rows.push({ agent: f[0].replace(/\s+/g, " ").trim(), period: f[1].trim(), employer: f[2].trim(), compensation: money(f[3]) });
+      rows.push({ lobbyist: f[0].replace(/\s+/g, " ").trim(), period: f[1].trim(), employer: f[2].trim(), compensation: money(f[3]) });
     } else if (f.length === 1 && rows.length && !/^Legislative Agent Compensation$|^[A-Z][a-z]+ \d{1,2}, \d{4}$/.test(line.trim())) {
       const last = rows[rows.length - 1];
       last.employer = `${last.employer.replace(/,?\s*$/, (m) => (m.includes(",") ? ", " : " "))}${line.trim()}`.replace(/\s+/g, " ").trim();
@@ -134,7 +134,7 @@ export interface KyExpRow {
   advertising: number; // category A (EMP AE)
   receptions: number; // category B (EMP RME)
   otherExpenses: number; // category C (EMP EXP)
-  agentCompensation: number; // category D (LA COMP)
+  lobbyistCompensation: number; // category D (LA COMP)
   total: number; // TOTAL of all categories
 }
 
@@ -152,7 +152,7 @@ export function parseKyExp(text: string): KyExpRow[] {
       advertising: money(f[2 + off]),
       receptions: money(f[3 + off]),
       otherExpenses: money(f[4 + off]),
-      agentCompensation: money(f[5 + off]),
+      lobbyistCompensation: money(f[5 + off]),
       total: money(f[6 + off]),
     });
   }
@@ -223,8 +223,8 @@ export function aggregateKy(
   const pairs = new Set<string>();
   for (const r of comp) {
     const c = get(r.employer);
-    if (!c.lobbyists.includes(r.agent)) c.lobbyists.push(r.agent);
-    pairs.add(`${orgKey(r.employer)}|${r.agent.toUpperCase()}`);
+    if (!c.lobbyists.includes(r.lobbyist)) c.lobbyists.push(r.lobbyist);
+    pairs.add(`${orgKey(r.employer)}|${r.lobbyist.toUpperCase()}`);
   }
   for (const r of nob) {
     if (!r.industry) continue;
@@ -260,7 +260,7 @@ export const kyLobbyAdapter: Adapter = {
   schedule: "Weekly (KLEC posts updated statements monthly)",
   refreshMinutes: 10_080,
   coverage:
-    "Kentucky General Assembly (legislative-branch) lobbying for 2025 and 2026 to date: employers, their legislative agents, employer-reported lobbying expenditures (advertising, events, other expenses and agent compensation), industry, and bills/issues lobbied. Executive-branch lobbying (Executive Branch Ethics Commission) is not included. KLEC lists no lobbying firms, only individual agents.",
+    "Kentucky General Assembly (legislative-branch) lobbying for 2025 and 2026 to date: employers, their registered lobbyists, employer-reported lobbying expenditures (advertising, events, other expenses and lobbyist compensation), industry, and bills/issues lobbied. Executive-branch lobbying (Executive Branch Ethics Commission) is not included. KLEC lists no lobbying firms, only individuals.",
   async run({ fetch, log }) {
     const get = async (f: string) => {
       const r = await cachedDownload(fetch, BASE + f, `ky-klec-${f}`);
@@ -296,7 +296,7 @@ export const kyLobbyAdapter: Adapter = {
     if (!comp.length || !exp.length) throw new Error("KLEC compensation or expenditure file was empty or unreadable");
 
     const { clients, registrations } = aggregateKy(comp, exp, nob, bills);
-    log(`KLEC: ${exp.length} employer statements, ${comp.length} agent compensation rows, ${clients.length} employers, ${registrations} agent–employer pairs`);
+    log(`KLEC: ${exp.length} employer statements, ${comp.length} lobbyist compensation rows, ${clients.length} employers, ${registrations} lobbyist–employer pairs`);
     const asOf = dataAsOf as string | null;
     const meta: StateLobbyMeta = {
       state: "KY",
@@ -305,7 +305,7 @@ export const kyLobbyAdapter: Adapter = {
       dataAsOf: asOf ? new Date(asOf).toISOString().slice(0, 10) : null,
       period: "2025–2026 employer statements (Jan 2025 through the latest posted 2026 period)",
       amountMeaning:
-        "Employer-reported legislative lobbying expenditures: the TOTAL of KLEC employer statement categories A–D (advertising, receptions/meals/events, other lobbying expenses incl. agent reimbursements, and compensation paid to legislative agents), summed over 2025–2026 statement periods.",
+        "Employer-reported legislative lobbying expenditures: the TOTAL of KLEC employer statement categories A–D (advertising, receptions/meals/events, other lobbying expenses incl. lobbyist reimbursements, and compensation paid to lobbyists), summed over 2025–2026 statement periods.",
     };
     return { entities: [buildLobbyEntity(meta, clients, registrations)], warnings };
   },
